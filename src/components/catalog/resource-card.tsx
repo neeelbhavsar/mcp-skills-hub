@@ -11,7 +11,7 @@ export function ResourceCard({ item, onOpen }: { item: CardItem; onOpen: (i: Car
     <SpotlightCard
       as="button"
       onClick={() => onOpen(item)}
-      className="ring-focus h-full p-5 text-left"
+      className="ring-focus h-full w-full p-5 text-left"
     >
       <div className="mb-3 flex items-start justify-between gap-3">
         <Badge tone="brand" className="capitalize">{item.category}</Badge>
