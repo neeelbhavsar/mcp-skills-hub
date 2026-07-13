@@ -1,0 +1,42 @@
+name: Refresh AI Library data
+
+# Runs daily to pull new Skills / MCP servers / repos and commit the JSON.
+# Vercel (or any git-connected host) then redeploys automatically on the push.
+on:
+  schedule:
+    - cron: "0 6 * * *" # 06:00 UTC every day
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch latest data
+        env:
+          # Optional but recommended: lifts GitHub Search API limits.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_STAMP: ${{ github.event.repository.updated_at }}
+        run: node scripts/build-data.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "ai-library-bot"
+          git config user.email "actions@github.com"
+          git add src/data/*.json
+          if git diff --staged --quiet; then
+            echo "No data changes today."
+          else
+            git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

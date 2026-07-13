@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-07-13T11:59:41.999Z",
+  "counts": {
+    "skills": 276,
+    "mcps": 199,
+    "repos": 124
+  },
+  "categories": {
+    "skills": {
+      "Documents & Office": 11,
+      "Coding & Engineering": 149,
+      "Design & Creative": 43,
+      "Automation & Workflow": 18,
+      "Other": 17,
+      "Data & Analysis": 33,
+      "Writing & Content": 5
+    },
+    "mcps": {
+      "AI & Memory": 43,
+      "Dev Tools & Git": 32,
+      "Other": 38,
+      "Cloud & DevOps": 8,
+      "Web & Search": 48,
+      "Productivity": 11,
+      "Design & Media": 5,
+      "Databases & Storage": 11,
+      "Finance & Data": 3
+    },
+    "repos": {
+      "MCP & Tooling": 20,
+      "AI Agents": 32,
+      "LLM Frameworks": 11,
+      "Coding Assistants": 18,
+      "RAG & Retrieval": 11,
+      "Prompts": 15,
+      "Awesome Lists": 17
+    }
+  },
+  "sources": {
+    "skills": [
+      "Anthropic Skills",
+      "Claude Plugins (Official)",
+      "awesome-agent-skills",
+      "awesome-claude-skills"
+    ],
+    "mcps": [
+      "Glama"
+    ],
+    "repos": [
+      "GitHub Search API"
+    ]
+  }
+}
