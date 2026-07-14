@@ -22,6 +22,9 @@ export function getSkill(slug: string) {
 export function getMcp(slug: string) {
   return mcps.find((m) => m.slug === slug);
 }
+export function getRepo(slug: string) {
+  return repos.find((r) => r.slug === slug);
+}
 
 /** Curated "featured" picks for the landing page previews. */
 export const featured = {

@@ -3,17 +3,31 @@ import { skills, meta, categoriesOf } from "@/lib/data";
 import { skillToCard } from "@/lib/view";
 import { CatalogShell } from "@/components/catalog/catalog-shell";
 import { PageHeader } from "@/components/layout/page-header";
+import { breadcrumbJsonLd, collectionJsonLd, OG_IMAGE } from "@/lib/seo";
+
+const DESCRIPTION =
+  "Browse AI skills for Claude, Cursor, Codex and more. Learn how to install and use each one in any assistant.";
 
 export const metadata: Metadata = {
-  title: "AI Skills — AI Library",
-  description: "Browse AI skills for Claude, Cursor, Codex and more. Learn how to install and use each one in any assistant.",
+  title: "AI Skills",
+  description: DESCRIPTION,
+  alternates: { canonical: "/skills" },
+  openGraph: { url: "/skills", title: "AI Skills — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
 };
 
 export default function SkillsPage() {
   const items = skills.map(skillToCard);
   const cats = categoriesOf(meta.categories.skills);
+  const jsonLd = [
+    breadcrumbJsonLd([{ name: "Skills", path: "/skills" }]),
+    collectionJsonLd("skills", DESCRIPTION),
+  ];
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <PageHeader
         eyebrow="Agent Skills"
         title="Supercharge your AI with"

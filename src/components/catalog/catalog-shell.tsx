@@ -5,7 +5,6 @@ import { motion } from "motion/react";
 import { Search, SlidersHorizontal, X } from "lucide-react";
 import type { CardItem } from "@/lib/view";
 import { ResourceCard } from "./resource-card";
-import { DetailDialog } from "./detail-dialog";
 import { cn } from "@/lib/utils";
 
 type SortKey = "popular" | "az";
@@ -22,7 +21,6 @@ export function CatalogShell({
   const [cat, setCat] = useState<string | null>(null);
   const [sort, setSort] = useState<SortKey>("popular");
   const [limit, setLimit] = useState(PAGE);
-  const [active, setActive] = useState<CardItem | null>(null);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -128,7 +126,7 @@ export function CatalogShell({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: Math.min(i, 11) * 0.03, ease: [0.16, 1, 0.3, 1] }}
             >
-              <ResourceCard item={item} onOpen={setActive} />
+              <ResourceCard item={item} />
             </motion.div>
           ))}
         </div>
@@ -144,8 +142,6 @@ export function CatalogShell({
           </button>
         </div>
       )}
-
-      <DetailDialog item={active} onClose={() => setActive(null)} />
     </div>
   );
 }
