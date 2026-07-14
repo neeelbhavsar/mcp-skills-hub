@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Official Next.js runtime for Netlify (App Router, SSR/ISR, image optimization).
+# Netlify auto-installs this when it detects Next.js, but pinning it is explicit and safe.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
