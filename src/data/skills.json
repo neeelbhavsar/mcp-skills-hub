@@ -3246,21 +3246,6 @@
     "stars": null
   },
   {
-    "id": "skill:anthropics-claude-plugins-official-shopify",
-    "name": "shopify",
-    "slug": "shopify",
-    "description": "Shopify developer tools for Claude Code — search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code",
-    "category": "Coding & Engineering",
-    "author": "Anthropic",
-    "skills": [],
-    "source": "Claude Plugins (Official)",
-    "repo": "anthropics/claude-plugins-official",
-    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
-    "target": "claude",
-    "tags": [],
-    "stars": null
-  },
-  {
     "id": "skill:anthropics-claude-plugins-official-shopify-ai-toolkit",
     "name": "shopify-ai-toolkit",
     "slug": "shopify-ai-toolkit",
