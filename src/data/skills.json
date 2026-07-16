@@ -1286,6 +1286,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-deepeval",
+    "name": "deepeval",
+    "slug": "deepeval",
+    "description": "Skills for adding DeepEval evaluations, tracing, datasets, Confident AI reports, and iterative improvement loops to AI applications.",
+    "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-deploy-on-aws",
     "name": "deploy-on-aws",
     "slug": "deploy-on-aws",
