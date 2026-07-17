@@ -230,6 +230,26 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-amd-skills",
+    "name": "amd-skills",
+    "slug": "amd-skills",
+    "description": "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, and analyze GPU kernel and PyTorch trace performance.",
+    "category": "Design & Creative",
+    "author": "Anthropic",
+    "skills": [
+      "./local-ai-use",
+      "./local-ai-app-integration",
+      "./serving-llms-on-instinct",
+      "./tracelens-analysis-orchestrator"
+    ],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-amplitude",
     "name": "amplitude",
     "slug": "amplitude",
