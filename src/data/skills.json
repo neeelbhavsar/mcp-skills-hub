@@ -2921,6 +2921,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-receipts",
+    "name": "receipts",
+    "slug": "receipts",
+    "description": "Generate a personal Claude Code impact report from your local ~/.claude/projects transcripts, cross-referenced against your local git history — what you shipped, which projects it went to, and each project's share of your usage — for justifying usage to a manager or a self-review. Reads your session transcripts and ru…",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-redis-development",
     "name": "redis-development",
     "slug": "redis-development",
