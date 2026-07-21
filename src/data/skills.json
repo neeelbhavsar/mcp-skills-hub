@@ -2411,6 +2411,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-newrelic",
+    "name": "newrelic",
+    "slug": "newrelic",
+    "description": "New Relic observability intelligence for Claude Code. Investigate APM performance, analyze cloud costs, debug Kubernetes, write NRQL queries, and respond to alerts — all from your terminal using New Relic telemetry data.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-nightvision",
     "name": "nightvision",
     "slug": "nightvision",
@@ -2924,7 +2939,7 @@
     "id": "skill:anthropics-claude-plugins-official-receipts",
     "name": "receipts",
     "slug": "receipts",
-    "description": "Generate a personal Claude Code impact report from your local ~/.claude/projects transcripts, cross-referenced against your local git history — what you shipped, which projects it went to, and each project's share of your usage — for justifying usage to a manager or a self-review. Reads your session transcripts and ru…",
+    "description": "A personal Claude Code impact report for justifying your usage to a manager or a self-review: what you shipped, which projects it went to, and each project's share of your usage. Reads your ~/.claude/projects transcripts and runs read-only git locally; only counts and project names are sent to write it up, and the rep…",
     "category": "Coding & Engineering",
     "author": "Anthropic",
     "skills": [],
