@@ -796,6 +796,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-catalyst-by-zoho",
+    "name": "catalyst-by-zoho",
+    "slug": "catalyst-by-zoho",
+    "description": "Official Claude Code plugin for Catalyst by Zoho — full-stack serverless cloud platform. With Skills that covers all services, SDKs, CLI, architecture patterns, pricing, migration guides, and Zoho MCP tool-based resource management.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-cds-mcp",
     "name": "cds-mcp",
     "slug": "cds-mcp",
