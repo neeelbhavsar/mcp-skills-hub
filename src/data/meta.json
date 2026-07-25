@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-23T08:36:46Z",
+  "updatedAt": "2026-07-24T08:34:05Z",
   "counts": {
     "skills": 294,
-    "mcps": 0,
+    "mcps": 198,
     "repos": 125
   },
   "categories": {
@@ -15,7 +15,17 @@
       "Data & Analysis": 34,
       "Writing & Content": 5
     },
-    "mcps": {},
+    "mcps": {
+      "AI & Memory": 30,
+      "Dev Tools & Git": 22,
+      "Finance & Data": 36,
+      "Web & Search": 39,
+      "Cloud & DevOps": 3,
+      "Databases & Storage": 15,
+      "Other": 39,
+      "Design & Media": 6,
+      "Productivity": 8
+    },
     "repos": {
       "MCP & Tooling": 20,
       "AI Agents": 32,
@@ -33,7 +43,9 @@
       "awesome-agent-skills",
       "awesome-claude-skills"
     ],
-    "mcps": [],
+    "mcps": [
+      "Glama"
+    ],
     "repos": [
       "GitHub Search API"
     ]
