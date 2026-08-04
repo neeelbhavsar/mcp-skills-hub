@@ -385,6 +385,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-atlassian-twg-cli",
+    "name": "atlassian-twg-cli",
+    "slug": "atlassian-twg-cli",
+    "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Claude Code (terminal or desktop), and powered by Atlassian's context graph. Try: \"draft a Jira iss…",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-atomic-agents",
     "name": "atomic-agents",
     "slug": "atomic-agents",
@@ -2641,6 +2656,21 @@
     "slug": "nimble",
     "description": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents",
     "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-noibu",
+    "name": "noibu",
+    "slug": "noibu",
+    "description": "Built for ecommerce, the Noibu plugin bridges the gap between customer experience and revenue by connecting Claude directly to your store's session, error, and conversion data through Noibu — and to the marketing, support, and commerce platforms that put insight into motion. Go beyond analysis: surface what's costing…",
+    "category": "Design & Creative",
     "author": "Anthropic",
     "skills": [],
     "source": "Claude Plugins (Official)",

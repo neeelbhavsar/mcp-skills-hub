@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-08-02T08:29:29Z",
+  "updatedAt": "2026-08-03T09:55:54Z",
   "counts": {
-    "skills": 297,
+    "skills": 299,
     "mcps": 197,
     "repos": 126
   },
   "categories": {
     "skills": {
       "Documents & Office": 12,
-      "Coding & Engineering": 162,
-      "Design & Creative": 46,
+      "Coding & Engineering": 163,
+      "Design & Creative": 47,
       "Automation & Workflow": 19,
       "Other": 19,
       "Data & Analysis": 34,
       "Writing & Content": 5
     },
     "mcps": {
-      "Dev Tools & Git": 34,
-      "Web & Search": 52,
-      "Databases & Storage": 18,
-      "Other": 35,
-      "Design & Media": 5,
-      "AI & Memory": 36,
-      "Productivity": 9,
-      "Cloud & DevOps": 3,
-      "Finance & Data": 5
+      "AI & Memory": 37,
+      "Web & Search": 43,
+      "Design & Media": 9,
+      "Cloud & DevOps": 7,
+      "Dev Tools & Git": 37,
+      "Other": 29,
+      "Productivity": 8,
+      "Finance & Data": 4,
+      "Databases & Storage": 23
     },
     "repos": {
       "MCP & Tooling": 20,
