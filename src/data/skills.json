@@ -185,6 +185,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-airwallex-dev",
+    "name": "airwallex-dev",
+    "slug": "airwallex-dev",
+    "description": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for…",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-aiven",
     "name": "aiven",
     "slug": "aiven",
@@ -1204,7 +1219,7 @@
     "id": "skill:anthropics-claude-plugins-official-context7",
     "name": "context7",
     "slug": "context7",
-    "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+    "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Connects to Context7's hosted remote MCP server (https://mcp.context7.com/mcp) — no local Node.js or npx required — to pull version-specific documentation and code examples directly from source repositories into your LLM context. Works anonymously out of…",
     "category": "Coding & Engineering",
     "author": "Anthropic",
     "skills": [],
@@ -3386,6 +3401,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-salesforce-development",
+    "name": "salesforce-development",
+    "slug": "salesforce-development",
+    "description": "Build Salesforce apps and agents using these core building blocks: metadata, Apex, deploy/retrieve, security, reporting, and generated installed-versus-available capability discovery.",
+    "category": "Design & Creative",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-sanity",
     "name": "sanity",
     "slug": "sanity",
@@ -3761,6 +3791,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-streaming-skills-plugin",
+    "name": "streaming-skills-plugin",
+    "slug": "streaming-skills-plugin",
+    "description": "Skills for streaming application developers, covering Kafka and Flink client libraries and Schema Registry",
+    "category": "Other",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-stripe",
     "name": "stripe",
     "slug": "stripe",
@@ -3825,6 +3870,21 @@
     "name": "swift-lsp",
     "slug": "swift-lsp",
     "description": "Swift language server (SourceKit-LSP) for code intelligence",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-synthflow",
+    "name": "synthflow",
+    "slug": "synthflow",
+    "description": "Connects Claude Code to the Synthflow AI voice-agent platform through its hosted MCP server, with skills for reviewing calls and auditing agent prompts, plus a docs-search connector.",
     "category": "Coding & Engineering",
     "author": "Anthropic",
     "skills": [],
