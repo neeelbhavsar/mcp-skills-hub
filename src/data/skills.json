@@ -2613,6 +2613,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-mongodb-atlas",
+    "name": "mongodb-atlas",
+    "slug": "mongodb-atlas",
+    "description": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access. If you are r…",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-neon",
     "name": "neon",
     "slug": "neon",
