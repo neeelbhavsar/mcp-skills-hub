@@ -1861,6 +1861,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-google-cloud-storage",
+    "name": "google-cloud-storage",
+    "slug": "google-cloud-storage",
+    "description": "Official Google Cloud Storage (GCS) plugin. Manage buckets and objects, transfer data, and configure MCP, FUSE, IAM, security, lifecycle rules, signed URLs, Terraform, and the CLI.",
+    "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-gopls-lsp",
     "name": "gopls-lsp",
     "slug": "gopls-lsp",
@@ -3855,6 +3870,21 @@
     "name": "supabase",
     "slug": "supabase",
     "description": "Supabase MCP integration for database operations, authentication, storage, and real-time subscriptions. Manage your Supabase projects, run SQL queries, and interact with your backend directly.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-superdesign",
+    "name": "superdesign",
+    "slug": "superdesign",
+    "description": "Design or redesign frontend UI and marketing graphics on the Superdesign infinite canvas. Reads your codebase for context, sets up a design system, and generates branchable design drafts you refine.",
     "category": "Coding & Engineering",
     "author": "Anthropic",
     "skills": [],
