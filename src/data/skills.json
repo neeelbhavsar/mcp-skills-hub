@@ -65,6 +65,40 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-skills-claude-academy-guide",
+    "name": "claude-academy-guide",
+    "slug": "claude-academy-guide",
+    "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+    "category": "Design & Creative",
+    "author": "Keith Lazuka",
+    "skills": [
+      "./skills/claude-academy-guide"
+    ],
+    "source": "Anthropic Skills",
+    "repo": "anthropics/skills",
+    "sourceUrl": "https://github.com/anthropics/skills",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
+    "id": "skill:anthropics-skills-discernment-nudge",
+    "name": "discernment-nudge",
+    "slug": "discernment-nudge",
+    "description": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+    "category": "Other",
+    "author": "Keith Lazuka",
+    "skills": [
+      "./skills/discernment-nudge"
+    ],
+    "source": "Anthropic Skills",
+    "repo": "anthropics/skills",
+    "sourceUrl": "https://github.com/anthropics/skills",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-42crunch-api-security-testing",
     "name": "42crunch-api-security-testing",
     "slug": "42crunch-api-security-testing",
