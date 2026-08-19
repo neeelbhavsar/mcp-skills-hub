@@ -65,14 +65,14 @@
     "stars": null
   },
   {
-    "id": "skill:anthropics-skills-claude-academy-guide",
-    "name": "claude-academy-guide",
-    "slug": "claude-academy-guide",
+    "id": "skill:anthropics-skills-academy-guide",
+    "name": "academy-guide",
+    "slug": "academy-guide",
     "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
     "category": "Design & Creative",
     "author": "Keith Lazuka",
     "skills": [
-      "./skills/claude-academy-guide"
+      "./skills/academy-guide"
     ],
     "source": "Anthropic Skills",
     "repo": "anthropics/skills",
