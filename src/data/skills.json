@@ -4447,6 +4447,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-activecampaign",
+    "name": "activecampaign",
+    "slug": "activecampaign",
+    "description": "Marketing automation, CRM, and email marketing powered by ActiveCampaign. Manage contacts, campaigns, automations, deals, and get AI-powered marketing insights — all from Claude.",
+    "category": "Writing & Content",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:synk-skill-security-scanner",
     "name": "Synk Skill Security Scanner",
     "slug": "synk-skill-security-scanner",
