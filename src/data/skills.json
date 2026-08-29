@@ -3577,6 +3577,21 @@
     "stars": null
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-scandit-sdk",
+    "name": "scandit-sdk",
+    "slug": "scandit-sdk",
+    "description": "AI agent skills for integrating the Scandit Data Capture SDK — product selection, documentation, and implementation guides for barcode scanning, ID capture, and smart label capture.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "tags": [],
+    "stars": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-security-guidance",
     "name": "security-guidance",
     "slug": "security-guidance",
