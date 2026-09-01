@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-30T11:34:38Z",
+  "updatedAt": "2026-08-31T13:28:34Z",
   "counts": {
     "skills": 314,
     "mcps": 0,
-    "repos": 125
+    "repos": 126
   },
   "categories": {
     "skills": {
@@ -21,7 +21,7 @@
       "AI Agents": 32,
       "LLM Frameworks": 11,
       "Coding Assistants": 17,
-      "RAG & Retrieval": 12,
+      "RAG & Retrieval": 13,
       "Prompts": 15,
       "Awesome Lists": 18
     }
