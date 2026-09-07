@@ -5,6 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, X, Boxes } from "lucide-react";
 import { cn } from "@/lib/utils";
+import type { PaletteItem } from "@/lib/view";
+import { CommandPalette } from "@/components/search/command-palette";
+import { ThemeToggle } from "./theme-toggle";
 
 const LINKS = [
   { href: "/skills", label: "Skills" },
@@ -12,7 +15,7 @@ const LINKS = [
   { href: "/repos", label: "Repos" },
 ];
 
-export function Nav() {
+export function Nav({ searchIndex }: { searchIndex: PaletteItem[] }) {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -24,7 +27,13 @@ export function Nav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => setOpen(false), [pathname]);
+  // Close the mobile menu on navigation. Adjusted during render so the menu
+  // never paints open on the new route.
+  const [prevPath, setPrevPath] = useState(pathname);
+  if (pathname !== prevPath) {
+    setPrevPath(pathname);
+    setOpen(false);
+  }
 
   return (
     <header
@@ -60,23 +69,31 @@ export function Nav() {
               </Link>
             );
           })}
+          <div className="mx-2 flex items-center gap-2">
+            <CommandPalette items={searchIndex} />
+            <ThemeToggle />
+          </div>
           <a
             href="https://github.com/modelcontextprotocol"
             target="_blank"
             rel="noreferrer"
-            className="ring-focus ml-2 rounded-lg brand-gradient px-4 py-2 text-sm font-medium text-white shadow-lg shadow-brand/25 transition-transform hover:scale-[1.03] active:scale-95"
+            className="ring-focus rounded-lg brand-gradient px-4 py-2 text-sm font-medium text-white shadow-lg shadow-brand/25 transition-transform hover:scale-[1.03] active:scale-95"
           >
             Get Started
           </a>
         </div>
 
-        <button
-          className="ring-focus rounded-lg p-2 text-muted md:hidden"
+        <div className="flex items-center gap-2 md:hidden">
+          <CommandPalette items={searchIndex} />
+          <ThemeToggle />
+          <button
+          className="ring-focus rounded-lg p-2 text-muted"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+          </button>
+        </div>
       </nav>
 
       {open && (

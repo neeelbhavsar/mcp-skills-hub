@@ -4,6 +4,8 @@ import "./globals.css";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
 import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
+import { paletteIndex } from "@/lib/data";
+import { themeInitScript } from "@/components/layout/theme-toggle";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -108,13 +110,17 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${mono.variable} h-full antialiased`}>
+    <html lang="en" suppressHydrationWarning className={`${inter.variable} ${mono.variable} h-full antialiased`}>
+      <head>
+        {/* Applies the stored theme before first paint to avoid a flash. */}
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body className="min-h-full flex flex-col">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
-        <Nav />
+        <Nav searchIndex={paletteIndex} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

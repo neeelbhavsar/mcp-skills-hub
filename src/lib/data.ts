@@ -3,6 +3,7 @@ import mcpsJson from "@/data/mcps.json";
 import reposJson from "@/data/repos.json";
 import metaJson from "@/data/meta.json";
 import type { Skill, Mcp, Repo, Meta } from "./types";
+import { skillToCard, mcpToCard, repoToCard, toPaletteItem, type PaletteItem } from "./view";
 
 export const skills = skillsJson as Skill[];
 export const mcps = mcpsJson as Mcp[];
@@ -32,3 +33,13 @@ export const featured = {
   mcps: mcps.filter((m) => m.packages.length > 0).slice(0, 6),
   repos: [...repos].sort((a, b) => b.stars - a.stars).slice(0, 6),
 };
+
+/**
+ * Flat, slim index of every resource — handed to the global ⌘K palette so one
+ * search spans all three catalogs.
+ */
+export const paletteIndex: PaletteItem[] = [
+  ...skills.map(skillToCard),
+  ...mcps.map(mcpToCard),
+  ...repos.map(repoToCard),
+].map(toPaletteItem);
