@@ -6,8 +6,10 @@ ready-to-paste install configs, without you leaving the conversation.
 
 ## Install
 
+> Not published to npm yet — run it from a clone.
+
 ```bash
-claude mcp add ai-library -- npx -y @ai-library/mcp
+claude mcp add ai-library -- node /absolute/path/to/mcp-server/index.mjs
 ```
 
 <details>
@@ -16,11 +18,16 @@ claude mcp add ai-library -- npx -y @ai-library/mcp
 ```json
 {
   "mcpServers": {
-    "ai-library": { "command": "npx", "args": ["-y", "@ai-library/mcp"] }
+    "ai-library": {
+      "command": "node",
+      "args": ["/absolute/path/to/mcp-server/index.mjs"]
+    }
   }
 }
 ```
 </details>
+
+Once published, this becomes `npx -y @ai-library/mcp`.
 
 ## Tools
 
