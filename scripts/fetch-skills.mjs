@@ -2,6 +2,7 @@
 // Anthropic marketplace.json manifests; enriched with awesome-list READMEs.
 
 import { getJSON, getText, slugify, clean, categorize, log } from "./lib/util.mjs";
+import { attachStars } from "./lib/github.mjs";
 
 const SKILL_CATEGORIES = [
   { name: "Coding & Engineering", keys: ["code", "debug", "review", "refactor", "test", "lint", "typescript", "python", "api", "backend", "frontend", "git", "commit"] },
@@ -113,6 +114,9 @@ export async function fetchSkills() {
     if (!bySlug.has(item.slug)) bySlug.set(item.slug, item);
   }
   const all = [...bySlug.values()].filter((s) => s.name && s.description);
+  // Skills inherit the star count of the repo they ship in — it is the only
+  // popularity signal available, and without it "Popular" cannot sort.
+  await attachStars(all, (s) => s.sourceUrl || `https://github.com/${s.repo}`);
   log(`Skills total after dedupe: ${all.length}`);
   return all;
 }

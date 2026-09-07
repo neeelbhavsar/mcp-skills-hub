@@ -4,6 +4,7 @@
 // to enable it — without the key that source is skipped, not fatal).
 
 import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs";
+import { attachStars } from "./lib/github.mjs";
 
 const MCP_CATEGORIES = [
   { name: "Databases & Storage", keys: ["postgres", "mysql", "sqlite", "database", "mongodb", "redis", "supabase", "duckdb", "s3", "storage", "sql", "bigquery", "snowflake"] },
@@ -14,6 +15,13 @@ const MCP_CATEGORIES = [
   { name: "Cloud & DevOps", keys: ["aws", "azure", "gcp", "cloud", "vercel", "netlify", "cloudflare", "deploy", "infrastructure", "monitoring"] },
   { name: "Finance & Data", keys: ["stripe", "payment", "finance", "crypto", "stock", "market", "analytics", "csv", "excel", "spreadsheet"] },
   { name: "Design & Media", keys: ["figma", "image", "video", "audio", "design", "canva", "screenshot", "pdf", "media"] },
+  // The registry's long tail is mostly vertical/business servers. Without
+  // these buckets ~30% of the catalog collapsed into "Other".
+  { name: "Docs & Knowledge", keys: ["documentation", "docs", "markdown", "wiki", "note", "knowledge base", "content", "article", "blog", "readme", "reference"] },
+  { name: "Marketing & Social", keys: ["marketing", "seo", "campaign", "brand", "linkedin", "twitter", "social media", "ads", "advertis", "audience", "newsletter", "outreach"] },
+  { name: "Commerce & Retail", keys: ["shopify", "ecommerce", "e-commerce", "product catalog", "pricing", "checkout", "order", "inventory", "storefront", "retail", "booking"] },
+  { name: "Health & Science", keys: ["health", "medical", "clinical", "clinician", "patient", "biology", "genomic", "chemistry", "research paper", "pubmed", "scientific"] },
+  { name: "Legal & Government", keys: ["legal", "compliance", "regulation", "government", "federal", "tax", "contract", "policy", "court", "law"] },
 ];
 
 const catOf = (text) => categorize(text, MCP_CATEGORIES);
@@ -137,6 +145,9 @@ export async function fetchMCPs() {
     }
   }
   const all = [...bySlug.values()].filter((m) => m.name && m.description);
+  // Registries carry no popularity signal; backfill from the linked repo so
+  // the catalog's "Popular" sort has something real to order by.
+  await attachStars(all, (m) => m.repository || m.homepage);
   log(`MCPs total after dedupe: ${all.length}`);
   return all;
 }

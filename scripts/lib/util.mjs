@@ -64,10 +64,30 @@ export function clean(text = "", max = 320) {
  */
 export function categorize(text = "", buckets) {
   const hay = text.toLowerCase();
+
+  let best = null;
+  let bestScore = 0;
+
   for (const { name, keys } of buckets) {
-    if (keys.some((k) => hay.includes(k))) return name;
+    let score = 0;
+    for (const key of keys) {
+      const k = key.trim().toLowerCase();
+      if (!k || !hay.includes(k)) continue;
+      // Longer, more specific keywords ("postgres") are stronger evidence than
+      // short generic ones ("s3", "web"), and a whole-word hit beats an
+      // incidental substring.
+      const esc = k.replace(/[^a-z0-9]/g, (c) => `\\${c}`);
+      const whole = new RegExp(`\\b${esc}`).test(hay);
+      score += (whole ? 1 : 0.35) * (1 + Math.min(k.length, 12) / 12);
+    }
+    // Ties go to the bucket declared first, matching the previous behaviour.
+    if (score > bestScore) {
+      bestScore = score;
+      best = name;
+    }
   }
-  return "Other";
+
+  return best || "Other";
 }
 
 export const log = (...args) => console.log("[data]", ...args);
