@@ -1,5 +1,204 @@
 [
   {
+    "id": "mcp:reference-filesystem",
+    "name": "Filesystem",
+    "qualifiedName": "io.modelcontextprotocol/filesystem",
+    "slug": "official-filesystem",
+    "description": "Secure file operations with configurable access controls — read, write, search and move files in directories you explicitly allow.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@modelcontextprotocol/server-filesystem",
+        "version": "latest",
+        "transport": "stdio",
+        "weeklyDownloads": 954129,
+        "lastPublished": "2026-08-31T20:25:55.419Z",
+        "firstPublished": "2024-11-21T19:14:54.330Z",
+        "deprecated": false,
+        "declaredRepo": "modelcontextprotocol/servers",
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-git",
+    "name": "Git",
+    "qualifiedName": "io.modelcontextprotocol/git",
+    "slug": "official-git",
+    "description": "Read, search and manipulate Git repositories: inspect history and diffs, stage changes and commit from the conversation.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "mcp-server-git",
+        "version": "latest",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-fetch",
+    "name": "Fetch",
+    "qualifiedName": "io.modelcontextprotocol/fetch",
+    "slug": "official-fetch",
+    "description": "Fetch web pages and convert them to markdown for efficient LLM consumption, with chunked reading for long documents.",
+    "category": "Web & Search",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "mcp-server-fetch",
+        "version": "latest",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-memory",
+    "name": "Memory",
+    "qualifiedName": "io.modelcontextprotocol/memory",
+    "slug": "official-memory",
+    "description": "Knowledge-graph based persistent memory, letting an assistant retain entities, relations and observations across sessions.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@modelcontextprotocol/server-memory",
+        "version": "latest",
+        "transport": "stdio",
+        "weeklyDownloads": 152087,
+        "lastPublished": "2026-08-31T20:23:48.078Z",
+        "firstPublished": "2024-11-21T19:15:20.357Z",
+        "deprecated": false,
+        "declaredRepo": "modelcontextprotocol/servers",
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-sequentialthinking",
+    "name": "Sequential Thinking",
+    "qualifiedName": "io.modelcontextprotocol/sequentialthinking",
+    "slug": "official-sequentialthinking",
+    "description": "Structured, revisable step-by-step reasoning — lets a model branch, backtrack and refine a plan as it works.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@modelcontextprotocol/server-sequential-thinking",
+        "version": "latest",
+        "transport": "stdio",
+        "weeklyDownloads": 157994,
+        "lastPublished": "2026-08-31T20:23:44.857Z",
+        "firstPublished": "2024-12-03T13:25:34.621Z",
+        "deprecated": false,
+        "declaredRepo": "modelcontextprotocol/servers",
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-time",
+    "name": "Time",
+    "qualifiedName": "io.modelcontextprotocol/time",
+    "slug": "official-time",
+    "description": "Current time and timezone conversion, so the assistant stops guessing at dates.",
+    "category": "Productivity",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "mcp-server-time",
+        "version": "latest",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:reference-everything",
+    "name": "Everything",
+    "qualifiedName": "io.modelcontextprotocol/everything",
+    "slug": "official-everything",
+    "description": "Reference and test server exercising every MCP feature — prompts, resources, tools and sampling. Useful for building your own.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/modelcontextprotocol/servers",
+    "homepage": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@modelcontextprotocol/server-everything",
+        "version": "latest",
+        "transport": "stdio",
+        "weeklyDownloads": 243181,
+        "lastPublished": "2026-08-31T20:23:50.168Z",
+        "firstPublished": "2024-11-19T14:14:26.705Z",
+        "deprecated": false,
+        "declaredRepo": "modelcontextprotocol/servers",
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "MIT",
+    "stars": null,
+    "source": "Official reference",
+    "updatedAt": null,
+    "repoMeta": null
+  },
+  {
     "id": "mcp:ac-inference-sh-mcp",
     "name": "inference.sh",
     "qualifiedName": "ac.inference.sh/mcp",
@@ -17,7 +216,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-27T10:44:51.359634Z"
+    "updatedAt": "2026-07-27T10:44:51.359634Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ac-tandem-docs-mcp",
@@ -37,7 +237,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-22T21:06:34.500049Z"
+    "updatedAt": "2026-04-22T21:06:34.500049Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ad-inside-inside-ads",
@@ -57,7 +258,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-18T20:55:46.452926Z"
+    "updatedAt": "2026-08-18T20:55:46.452926Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ae-propick-propick",
@@ -77,7 +279,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-25T11:16:56.879334Z"
+    "updatedAt": "2026-08-25T11:16:56.879334Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ag-hood-name-service",
@@ -97,7 +300,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-10T04:58:06.628668Z"
+    "updatedAt": "2026-07-10T04:58:06.628668Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:agency-goji-goji",
@@ -117,7 +321,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-13T13:12:26.047978Z"
+    "updatedAt": "2026-08-13T13:12:26.047978Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:agency-kesey-pretrip",
@@ -133,13 +338,20 @@
         "registryType": "npm",
         "identifier": "pretrip-mcp",
         "version": "1.0.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 38,
+        "lastPublished": "2026-07-26T18:02:29.315Z",
+        "firstPublished": "2026-07-25T15:29:04.125Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-26T18:03:21.463557Z"
+    "updatedAt": "2026-07-26T18:03:21.463557Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:agency-lona-trading",
@@ -159,7 +371,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-24T00:07:27.525636Z"
+    "updatedAt": "2026-02-24T00:07:27.525636Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-1325-mcp",
@@ -179,7 +392,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-10T05:01:17.106808Z"
+    "updatedAt": "2026-07-10T05:01:17.106808Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aarna-atars-mcp",
@@ -199,7 +413,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-10T11:09:59.15927Z"
+    "updatedAt": "2026-03-10T11:09:59.15927Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-abmeter-abmeter",
@@ -219,7 +434,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-30T00:28:05.727498Z"
+    "updatedAt": "2026-08-30T00:28:05.727498Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-actwise-ideation",
@@ -239,7 +455,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T04:14:24.243152Z"
+    "updatedAt": "2026-08-14T04:14:24.243152Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adadvisor-mcp-server",
@@ -259,7 +476,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-28T13:09:52.236521Z"
+    "updatedAt": "2026-02-28T13:09:52.236521Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adeu-adeu",
@@ -275,13 +493,20 @@
         "registryType": "npm",
         "identifier": "@adeu/mcp-server",
         "version": "1.7.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 447,
+        "lastPublished": "2026-08-27T10:30:38.496Z",
+        "firstPublished": "2026-05-11T11:31:13.699Z",
+        "deprecated": false,
+        "declaredRepo": "dealfluence/adeu",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-16T13:54:48.18266Z"
+    "updatedAt": "2026-05-16T13:54:48.18266Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adoraads-beauty",
@@ -301,7 +526,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-08T17:50:25.566057Z"
+    "updatedAt": "2026-08-08T17:50:25.566057Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adplane-google-ads",
@@ -321,7 +547,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-08T18:01:15.320148Z"
+    "updatedAt": "2026-08-08T18:01:15.320148Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adramp-google-ads",
@@ -341,7 +568,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-20T11:16:36.853329Z"
+    "updatedAt": "2026-03-20T11:16:36.853329Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adside-adside",
@@ -361,7 +589,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-16T19:48:48.148514Z"
+    "updatedAt": "2026-07-16T19:48:48.148514Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adtest-adtest-mcp",
@@ -377,13 +606,20 @@
         "registryType": "npm",
         "identifier": "adtest-mcp",
         "version": "1.1.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 143,
+        "lastPublished": "2026-09-01T21:42:03.450Z",
+        "firstPublished": "2026-09-01T21:42:02.999Z",
+        "deprecated": false,
+        "declaredRepo": "menaker/adtest-mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-01T21:42:48.138341Z"
+    "updatedAt": "2026-09-01T21:42:48.138341Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-advisorsai-service-navigator",
@@ -403,7 +639,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-06T19:06:20.036379Z"
+    "updatedAt": "2026-09-06T19:06:20.036379Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-advisorsai-store-readiness",
@@ -423,7 +660,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-28T13:28:25.814078Z"
+    "updatedAt": "2026-08-28T13:28:25.814078Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-adweave-meta-ads-mcp",
@@ -443,7 +681,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-10T16:46:57.731179Z"
+    "updatedAt": "2026-04-10T16:46:57.731179Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aetherwealth-mcp",
@@ -459,13 +698,20 @@
         "registryType": "npm",
         "identifier": "@aetherwealth/mcp",
         "version": "0.2.15",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 17206,
+        "lastPublished": "2026-08-26T23:23:12.238Z",
+        "firstPublished": "2026-06-27T06:18:53.567Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T23:23:37.052507Z"
+    "updatedAt": "2026-08-26T23:23:37.052507Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-afmr-discovery",
@@ -489,7 +735,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-22T16:29:05.632026Z"
+    "updatedAt": "2026-08-22T16:29:05.632026Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentberg-agentberg",
@@ -509,7 +756,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-18T01:49:38.050173Z"
+    "updatedAt": "2026-06-18T01:49:38.050173Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentdm-agentdm",
@@ -529,11 +777,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-10T02:12:16.907792Z"
+    "updatedAt": "2026-05-10T02:12:16.907792Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentgates-mcp",
-    "name": "mcp",
+    "name": "Agentgates MCP",
     "qualifiedName": "ai.agentgates/mcp",
     "slug": "ai-agentgates-mcp",
     "description": "Confidential compute and inference sold to agents over x402 USDC, plus an agent wallet over MCP.",
@@ -549,7 +798,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-25T05:32:02.617195Z"
+    "updatedAt": "2026-08-25T05:32:02.617195Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentic-news-mcp",
@@ -569,7 +819,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-06T18:34:53.583541Z"
+    "updatedAt": "2026-04-06T18:34:53.583541Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticaffiliate-affiliate-networks-mcp",
@@ -585,7 +836,13 @@
         "registryType": "npm",
         "identifier": "affiliate-networks-mcp",
         "version": "0.19.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 205,
+        "lastPublished": "2026-07-29T07:51:35.309Z",
+        "firstPublished": "2026-05-22T15:23:12.426Z",
+        "deprecated": false,
+        "declaredRepo": "bobberrisford/affiliatemcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -596,7 +853,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-29T07:26:14.414867Z"
+    "updatedAt": "2026-07-29T07:26:14.414867Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticfabricationnetwork-ufp",
@@ -616,7 +874,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-07T18:18:36.945995Z"
+    "updatedAt": "2026-08-07T18:18:36.945995Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticshelf-graffeo",
@@ -636,7 +895,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-14T20:40:06.442182Z"
+    "updatedAt": "2026-05-14T20:40:06.442182Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticshelf-mcp",
@@ -656,7 +916,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-06T16:24:16.952518Z"
+    "updatedAt": "2026-05-06T16:24:16.952518Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticshelf-puroair",
@@ -676,7 +937,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-02T16:47:32.556297Z"
+    "updatedAt": "2026-07-02T16:47:32.556297Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenticterminal-directory",
@@ -696,7 +958,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T15:17:01.794422Z"
+    "updatedAt": "2026-05-19T15:17:01.794422Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentlookups-counterscript",
@@ -716,7 +979,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T18:02:49.773179Z"
+    "updatedAt": "2026-08-26T18:02:49.773179Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentlookups-greenlight",
@@ -736,7 +1000,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T18:02:50.186676Z"
+    "updatedAt": "2026-08-26T18:02:50.186676Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentlookups-groundtruth",
@@ -756,7 +1021,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T18:02:49.994915Z"
+    "updatedAt": "2026-08-26T18:02:49.994915Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentlookups-overassessed",
@@ -776,7 +1042,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T01:26:05.596901Z"
+    "updatedAt": "2026-08-05T01:26:05.596901Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentlookups-plumbline",
@@ -796,7 +1063,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T18:02:49.501969Z"
+    "updatedAt": "2026-08-26T18:02:49.501969Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentmesh-mesh",
@@ -816,7 +1084,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-23T19:33:28.656602Z"
+    "updatedAt": "2026-08-23T19:33:28.656602Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentrapay-agentra",
@@ -836,7 +1105,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-22T18:16:07.628131Z"
+    "updatedAt": "2026-03-22T18:16:07.628131Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentroam-agentroam",
@@ -856,7 +1126,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-22T05:50:30.033913Z"
+    "updatedAt": "2026-08-22T05:50:30.033913Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agenttrust-mcp-server",
@@ -872,13 +1143,20 @@
         "registryType": "npm",
         "identifier": "@agenttrust/mcp-server",
         "version": "1.1.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 99,
+        "lastPublished": "2026-04-09T21:59:15.269Z",
+        "firstPublished": "2026-02-27T00:10:35.641Z",
+        "deprecated": false,
+        "declaredRepo": "agenttrust/mcp-server",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-06T11:23:10.721165Z"
+    "updatedAt": "2026-03-06T11:23:10.721165Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-agentops",
@@ -894,13 +1172,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-agentops",
         "version": "0.1.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 69,
+        "lastPublished": "2026-08-06T19:02:30.811Z",
+        "firstPublished": "2026-07-06T03:12:03.666Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:14.904919Z"
+    "updatedAt": "2026-07-14T21:10:14.904919Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-bestiary",
@@ -916,13 +1201,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-bestiary",
         "version": "0.1.3",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 69,
+        "lastPublished": "2026-07-21T19:47:10.635Z",
+        "firstPublished": "2026-06-27T02:15:09.230Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:15.433564Z"
+    "updatedAt": "2026-07-14T21:10:15.433564Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-browser-workflow",
@@ -938,13 +1230,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-browser-workflow",
         "version": "0.1.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 79,
+        "lastPublished": "2026-07-21T19:47:52.777Z",
+        "firstPublished": "2026-07-06T03:12:13.217Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:15.897391Z"
+    "updatedAt": "2026-07-14T21:10:15.897391Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-compose",
@@ -960,13 +1259,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-compose",
         "version": "0.13.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 125,
+        "lastPublished": "2026-08-06T19:02:40.931Z",
+        "firstPublished": "2026-07-02T19:01:50.544Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:16.321193Z"
+    "updatedAt": "2026-07-14T21:10:16.321193Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-edge-finance",
@@ -982,13 +1288,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-edge-finance",
         "version": "0.18.8",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 93,
+        "lastPublished": "2026-08-06T19:02:48.205Z",
+        "firstPublished": "2026-05-18T17:02:52.681Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:17.095531Z"
+    "updatedAt": "2026-07-14T21:10:17.095531Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-edge-market",
@@ -1004,13 +1317,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-edge-market",
         "version": "0.15.6",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 82,
+        "lastPublished": "2026-07-22T19:03:23.958Z",
+        "firstPublished": "2026-05-18T17:02:59.621Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:17.497855Z"
+    "updatedAt": "2026-07-14T21:10:17.497855Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-locale",
@@ -1026,13 +1346,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-locale",
         "version": "0.8.7",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 65,
+        "lastPublished": "2026-07-21T19:49:03.634Z",
+        "firstPublished": "2026-05-18T17:03:07.511Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:17.9033Z"
+    "updatedAt": "2026-07-14T21:10:17.9033Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-matchpoint",
@@ -1048,13 +1375,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-matchpoint",
         "version": "0.1.4",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 48,
+        "lastPublished": "2026-07-21T19:49:33.360Z",
+        "firstPublished": "2026-06-30T19:03:15.228Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:18.280353Z"
+    "updatedAt": "2026-07-14T21:10:18.280353Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-mediakit",
@@ -1070,13 +1404,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-mediakit",
         "version": "0.11.9",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 79,
+        "lastPublished": "2026-07-21T19:49:47.894Z",
+        "firstPublished": "2026-05-18T17:03:14.433Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:18.653557Z"
+    "updatedAt": "2026-07-14T21:10:18.653557Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-model-router",
@@ -1092,13 +1433,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-model-router",
         "version": "0.1.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 68,
+        "lastPublished": "2026-08-08T19:04:27.957Z",
+        "firstPublished": "2026-07-06T03:12:37.925Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:19.082426Z"
+    "updatedAt": "2026-07-14T21:10:19.082426Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-prooflayer",
@@ -1114,13 +1462,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-prooflayer",
         "version": "0.2.4",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 72,
+        "lastPublished": "2026-07-21T19:50:29.719Z",
+        "firstPublished": "2026-05-18T17:03:21.375Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:19.560994Z"
+    "updatedAt": "2026-07-14T21:10:19.560994Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-retail",
@@ -1136,13 +1491,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-retail",
         "version": "0.2.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 76,
+        "lastPublished": "2026-07-21T19:51:23.404Z",
+        "firstPublished": "2026-06-30T19:03:26.572Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:19.946363Z"
+    "updatedAt": "2026-07-14T21:10:19.946363Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-rollforge",
@@ -1158,13 +1520,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-rollforge",
         "version": "0.1.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 58,
+        "lastPublished": "2026-07-21T19:53:31.277Z",
+        "firstPublished": "2026-06-27T02:15:55.730Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:20.41779Z"
+    "updatedAt": "2026-07-14T21:10:20.41779Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-statline",
@@ -1180,13 +1549,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-statline",
         "version": "0.1.3",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 72,
+        "lastPublished": "2026-07-21T19:54:05.699Z",
+        "firstPublished": "2026-06-27T02:16:12.688Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:20.828032Z"
+    "updatedAt": "2026-07-14T21:10:20.828032Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-synthforge",
@@ -1202,13 +1578,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-synthforge",
         "version": "0.8.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 290,
+        "lastPublished": "2026-08-31T22:45:35.078Z",
+        "firstPublished": "2026-05-18T17:03:29.025Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:21.289726Z"
+    "updatedAt": "2026-07-14T21:10:21.289726Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-web-probe",
@@ -1224,13 +1607,20 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-web-probe",
         "version": "0.32.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 162,
+        "lastPublished": "2026-08-08T19:04:47.190Z",
+        "firstPublished": "2026-05-18T17:03:37.816Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:21.796993Z"
+    "updatedAt": "2026-07-14T21:10:21.796993Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentutility-mcp-wordmint",
@@ -1246,17 +1636,24 @@
         "registryType": "npm",
         "identifier": "@agentutility/mcp-wordmint",
         "version": "0.16.1",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 107,
+        "lastPublished": "2026-08-09T19:02:54.276Z",
+        "firstPublished": "2026-05-18T17:03:45.200Z",
+        "deprecated": false,
+        "declaredRepo": "rooz21/x402",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:10:22.302521Z"
+    "updatedAt": "2026-07-14T21:10:22.302521Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-agentxray-mcp",
-    "name": "mcp",
+    "name": "Agentxray MCP",
     "qualifiedName": "ai.agentxray/mcp",
     "slug": "ai-agentxray-mcp",
     "description": "Amazon sellers: real per-unit profit from your own settlement data, plus drafts you approve.",
@@ -1272,7 +1669,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-01T10:54:13.681499Z"
+    "updatedAt": "2026-09-01T10:54:13.681499Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aginera-preconstruction",
@@ -1292,7 +1690,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T22:59:05.289477Z"
+    "updatedAt": "2026-09-03T22:59:05.289477Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ai-advisors-mcp",
@@ -1312,7 +1711,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-02T18:21:16.578234Z"
+    "updatedAt": "2026-08-02T18:21:16.578234Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ai-akari-agent-trust-receipt",
@@ -1332,7 +1732,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-24T19:48:47.852003Z"
+    "updatedAt": "2026-07-24T19:48:47.852003Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ai-akari-one-minute-akari",
@@ -1352,7 +1753,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-18T04:01:27.700359Z"
+    "updatedAt": "2026-07-18T04:01:27.700359Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ai-portal-ai-portal",
@@ -1372,11 +1774,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-13T15:07:28.114017Z"
+    "updatedAt": "2026-07-13T15:07:28.114017Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aient-mcp",
-    "name": "mcp",
+    "name": "Aient MCP",
     "qualifiedName": "ai.aient/mcp",
     "slug": "ai-aient-mcp",
     "description": "MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.",
@@ -1392,7 +1795,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-11T10:40:20.47951Z"
+    "updatedAt": "2026-06-11T10:40:20.47951Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-airshelf-catalog",
@@ -1412,7 +1816,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-16T09:32:12.311101Z"
+    "updatedAt": "2026-06-16T09:32:12.311101Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aislabs-cve",
@@ -1432,7 +1837,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-31T21:00:04.921147Z"
+    "updatedAt": "2026-08-31T21:00:04.921147Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aislabs-gateway",
@@ -1452,7 +1858,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-31T22:13:52.792642Z"
+    "updatedAt": "2026-08-31T22:13:52.792642Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aislabs-recorder",
@@ -1472,11 +1879,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-31T20:30:22.269692Z"
+    "updatedAt": "2026-08-31T20:30:22.269692Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aivonic-mcp",
-    "name": "mcp",
+    "name": "Aivonic MCP",
     "qualifiedName": "ai.aivonic/mcp",
     "slug": "ai-aivonic-mcp",
     "description": "Do business with Aivonic: pricing, products, check availability, book a demo, request a quote.",
@@ -1492,7 +1900,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T14:07:36.70305Z"
+    "updatedAt": "2026-08-05T14:07:36.70305Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aliengiraffe-spotdb",
@@ -1514,7 +1923,8 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2025-10-09T17:05:17.793149Z"
+    "updatedAt": "2025-10-09T17:05:17.793149Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-alphacreek-alphacreek-mcp",
@@ -1534,7 +1944,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-12T13:01:13.227147Z"
+    "updatedAt": "2026-06-12T13:01:13.227147Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-alpic-alpix-alpix",
@@ -1558,7 +1969,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-27T08:20:57.475155Z"
+    "updatedAt": "2026-08-27T08:20:57.475155Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-alpic-mcp-alpic-mcp",
@@ -1582,7 +1994,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-27T08:15:31.692348Z"
+    "updatedAt": "2026-08-27T08:15:31.692348Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-alpic-test-test-mcp-server",
@@ -1602,7 +2015,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2025-09-10T13:57:43.256739Z"
+    "updatedAt": "2025-09-10T13:57:43.256739Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ambix-ambix",
@@ -1622,7 +2036,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-18T11:40:33.32243Z"
+    "updatedAt": "2026-06-18T11:40:33.32243Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-analyticslegends-sap-analytics",
@@ -1642,7 +2057,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-18T19:33:29.605357Z"
+    "updatedAt": "2026-08-18T19:33:29.605357Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ankimcp-anki-mcp-server",
@@ -1658,13 +2074,20 @@
         "registryType": "npm",
         "identifier": "@ankimcp/anki-mcp-server",
         "version": "0.25.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 2121,
+        "lastPublished": "2026-09-04T16:00:49.533Z",
+        "firstPublished": "2025-11-10T16:58:43.382Z",
+        "deprecated": false,
+        "declaredRepo": "ankimcp/anki-mcp-server",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T16:01:36.144905Z"
+    "updatedAt": "2026-09-04T16:01:36.144905Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ankimcp-anki-mcp-server-addon",
@@ -1679,7 +2102,8 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T16:44:43.882669Z"
+    "updatedAt": "2026-09-04T16:44:43.882669Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-anomalyarmor-armor-mcp",
@@ -1706,7 +2130,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-18T00:51:37.350253Z"
+    "updatedAt": "2026-04-18T00:51:37.350253Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-anzenna-anzenna",
@@ -1726,7 +2151,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-21T23:53:55.798606Z"
+    "updatedAt": "2026-02-21T23:53:55.798606Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-apithreshold-apithreshold",
@@ -1748,7 +2174,8 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-02T22:06:43.451983Z"
+    "updatedAt": "2026-07-02T22:06:43.451983Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-appdeploy-deploy-app",
@@ -1768,7 +2195,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-13T12:28:46.556669Z"
+    "updatedAt": "2026-07-13T12:28:46.556669Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aqta-seal",
@@ -1788,7 +2216,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-17T22:32:58.036357Z"
+    "updatedAt": "2026-08-17T22:32:58.036357Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-arclan-registry",
@@ -1808,7 +2237,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T16:59:50.65972Z"
+    "updatedAt": "2026-05-19T16:59:50.65972Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-argushq-enforcement-database",
@@ -1828,7 +2258,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-12T20:32:22.415073Z"
+    "updatedAt": "2026-07-12T20:32:22.415073Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-arketo-arketo",
@@ -1848,7 +2279,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T15:03:17.857696Z"
+    "updatedAt": "2026-08-05T15:03:17.857696Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-arpi-arpi-mcp",
@@ -1868,7 +2300,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-08T04:42:03.74166Z"
+    "updatedAt": "2026-07-08T04:42:03.74166Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-artidrop-artidrop",
@@ -1888,7 +2321,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-17T04:01:26.724763Z"
+    "updatedAt": "2026-04-17T04:01:26.724763Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-askline-askline",
@@ -1908,7 +2342,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-28T18:01:06.130676Z"
+    "updatedAt": "2026-08-28T18:01:06.130676Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-askmiles-catalog",
@@ -1928,7 +2363,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T19:46:38.007401Z"
+    "updatedAt": "2026-08-26T19:46:38.007401Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-assetlog-assetlog",
@@ -1948,11 +2384,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-29T17:21:14.640151Z"
+    "updatedAt": "2026-08-29T17:21:14.640151Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-astrofabric-mcp",
-    "name": "mcp",
+    "name": "Astrofabric MCP",
     "qualifiedName": "ai.astrofabric/mcp",
     "slug": "ai-astrofabric-mcp",
     "description": "Agentic AI for business intelligence: discover, verify and enrich company and contact data.",
@@ -1968,7 +2405,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-05T01:58:16.703526Z"
+    "updatedAt": "2026-09-05T01:58:16.703526Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-atdev-supershopping",
@@ -1988,11 +2426,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-29T05:36:58.413006Z"
+    "updatedAt": "2026-06-29T05:36:58.413006Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-atlaso-mcp",
-    "name": "mcp",
+    "name": "Atlaso MCP",
     "qualifiedName": "ai.atlaso/mcp",
     "slug": "ai-atlaso-mcp",
     "description": "AI memory layer — one shared, persistent memory across every AI tool you connect.",
@@ -2008,7 +2447,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-02T11:07:21.155706Z"
+    "updatedAt": "2026-08-02T11:07:21.155706Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-atlasverified-atlas-mcp",
@@ -2028,7 +2468,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-21T23:43:13.692003Z"
+    "updatedAt": "2026-07-21T23:43:13.692003Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-atlier-project-desk",
@@ -2048,7 +2489,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-23T16:34:50.678485Z"
+    "updatedAt": "2026-08-23T16:34:50.678485Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-augenix-build",
@@ -2068,7 +2510,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T15:42:22.743962Z"
+    "updatedAt": "2026-09-03T15:42:22.743962Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-augmentev-paseo",
@@ -2088,7 +2531,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-27T18:46:22.383841Z"
+    "updatedAt": "2026-07-27T18:46:22.383841Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-augworlds-travel-world",
@@ -2108,7 +2552,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-27T04:28:55.036536Z"
+    "updatedAt": "2026-07-27T04:28:55.036536Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-auralogs-auralogs",
@@ -2128,7 +2573,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-10T05:44:10.419193Z"
+    "updatedAt": "2026-06-10T05:44:10.419193Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-auteng-docs",
@@ -2148,7 +2594,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-06T20:56:39.150934Z"
+    "updatedAt": "2026-02-06T20:56:39.150934Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-auteng-mcp",
@@ -2168,7 +2615,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-06T17:18:22.957864Z"
+    "updatedAt": "2026-02-06T17:18:22.957864Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-authoryze-authoryze",
@@ -2188,7 +2636,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-21T21:03:07.846629Z"
+    "updatedAt": "2026-08-21T21:03:07.846629Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autoblocks-contextlayer-mcp",
@@ -2204,13 +2653,20 @@
         "registryType": "npm",
         "identifier": "@contextlayer/mcp",
         "version": "0.0.3",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 65,
+        "lastPublished": "2026-01-12T03:52:42.264Z",
+        "firstPublished": "2026-01-12T03:35:45.290Z",
+        "deprecated": false,
+        "declaredRepo": "autoblocksai/ctxl",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-12T03:52:52.134106Z"
+    "updatedAt": "2026-01-12T03:52:52.134106Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autoblocks-ctxl",
@@ -2226,13 +2682,20 @@
         "registryType": "npm",
         "identifier": "ctxl",
         "version": "0.0.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 38,
+        "lastPublished": "2026-01-12T03:51:52.629Z",
+        "firstPublished": "2026-01-12T03:35:40.422Z",
+        "deprecated": false,
+        "declaredRepo": "autoblocksai/ctxl",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-12T03:52:12.746584Z"
+    "updatedAt": "2026-01-12T03:52:12.746584Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autoblocks-ctxl-mcp",
@@ -2248,13 +2711,20 @@
         "registryType": "npm",
         "identifier": "ctxl-mcp",
         "version": "0.0.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 59,
+        "lastPublished": "2026-01-12T03:51:55.360Z",
+        "firstPublished": "2026-01-12T03:35:43.086Z",
+        "deprecated": false,
+        "declaredRepo": "autoblocksai/ctxl",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-12T03:52:19.009876Z"
+    "updatedAt": "2026-01-12T03:52:19.009876Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autonomad-computeback",
@@ -2270,13 +2740,20 @@
         "registryType": "npm",
         "identifier": "@autonomad1/computeback-mcp",
         "version": "1.1.3",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 270,
+        "lastPublished": "2026-09-02T00:20:59.160Z",
+        "firstPublished": "2026-05-11T22:39:06.784Z",
+        "deprecated": false,
+        "declaredRepo": "Autonomad1/computeback-mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-11T23:17:51.160439Z"
+    "updatedAt": "2026-05-11T23:17:51.160439Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autonomad-travel",
@@ -2292,7 +2769,13 @@
         "registryType": "npm",
         "identifier": "autonomad-travel",
         "version": "1.4.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 249,
+        "lastPublished": "2026-09-02T00:20:51.900Z",
+        "firstPublished": "2026-05-01T07:36:09.400Z",
+        "deprecated": false,
+        "declaredRepo": "Autonomad1/autonomad1",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -2303,7 +2786,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-11T09:19:18.416611Z"
+    "updatedAt": "2026-05-11T09:19:18.416611Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autoposting-autoposting",
@@ -2323,7 +2807,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-07T08:29:28.425591Z"
+    "updatedAt": "2026-08-07T08:29:28.425591Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-autorfp-mcp",
@@ -2343,7 +2828,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-18T01:09:10.259215Z"
+    "updatedAt": "2026-05-18T01:09:10.259215Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-auxen-auxen",
@@ -2363,7 +2849,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-18T23:32:19.610277Z"
+    "updatedAt": "2026-05-18T23:32:19.610277Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-avasis-quant-research",
@@ -2383,7 +2870,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-01T12:19:43.073489Z"
+    "updatedAt": "2026-09-01T12:19:43.073489Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-aviado-health",
@@ -2403,7 +2891,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-30T13:03:52.011241Z"
+    "updatedAt": "2026-06-30T13:03:52.011241Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-awardcast-federal-contracts",
@@ -2423,7 +2912,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-16T22:32:23.963785Z"
+    "updatedAt": "2026-08-16T22:32:23.963785Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-awraiter-telegram",
@@ -2443,7 +2933,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-21T08:05:34.245331Z"
+    "updatedAt": "2026-08-21T08:05:34.245331Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-axonagentic-neuroautomata",
@@ -2463,7 +2954,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-01T18:54:25.720204Z"
+    "updatedAt": "2026-07-01T18:54:25.720204Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-ai-media-studio",
@@ -2483,7 +2975,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:53.66505Z"
+    "updatedAt": "2026-08-14T20:37:53.66505Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-apple-search-ads",
@@ -2503,7 +2996,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:59.146335Z"
+    "updatedAt": "2026-08-14T20:37:59.146335Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-chess-results",
@@ -2523,7 +3017,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:56.825933Z"
+    "updatedAt": "2026-08-14T20:37:56.825933Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-feedback",
@@ -2543,7 +3038,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:38:13.573877Z"
+    "updatedAt": "2026-08-14T20:38:13.573877Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-fibalo",
@@ -2563,7 +3059,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:07.451898Z"
+    "updatedAt": "2026-08-14T20:37:07.451898Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-file-storage",
@@ -2583,7 +3080,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:53.160486Z"
+    "updatedAt": "2026-08-14T20:37:53.160486Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-google-ads",
@@ -2603,7 +3101,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:59.684281Z"
+    "updatedAt": "2026-08-14T20:37:59.684281Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-google-news",
@@ -2623,7 +3122,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:54.813976Z"
+    "updatedAt": "2026-08-14T20:37:54.813976Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-google-search-console",
@@ -2643,7 +3143,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:38:00.295202Z"
+    "updatedAt": "2026-08-14T20:38:00.295202Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-kinnovis-storage",
@@ -2663,7 +3164,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:55.315141Z"
+    "updatedAt": "2026-08-14T20:37:55.315141Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-knowledge-base",
@@ -2683,7 +3185,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:58.420833Z"
+    "updatedAt": "2026-08-14T20:37:58.420833Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-nightscout",
@@ -2703,7 +3206,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:57.32213Z"
+    "updatedAt": "2026-08-14T20:37:57.32213Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-seo-content-factory",
@@ -2723,7 +3227,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:38:00.81901Z"
+    "updatedAt": "2026-08-14T20:38:00.81901Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-teamwork",
@@ -2743,7 +3248,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:55.811457Z"
+    "updatedAt": "2026-08-14T20:37:55.811457Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-time",
@@ -2763,7 +3269,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:57.849395Z"
+    "updatedAt": "2026-08-14T20:37:57.849395Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-b77-web-analytics",
@@ -2783,7 +3290,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:56.317987Z"
+    "updatedAt": "2026-08-14T20:37:56.317987Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-backengine-backengine-mcp",
@@ -2803,7 +3311,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-10T10:04:00.694928Z"
+    "updatedAt": "2026-07-10T10:04:00.694928Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-backrow-backrow",
@@ -2823,7 +3332,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-07T10:32:36.205697Z"
+    "updatedAt": "2026-09-07T10:32:36.205697Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-balancos-mcp",
@@ -2843,7 +3353,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-06T22:46:50.23247Z"
+    "updatedAt": "2026-09-06T22:46:50.23247Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bankee-inferventis-mcp",
@@ -2863,7 +3374,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-28T09:24:20.898632Z"
+    "updatedAt": "2026-04-28T09:24:20.898632Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bareun-bareun",
@@ -2883,7 +3395,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-09T06:04:45.980117Z"
+    "updatedAt": "2026-06-09T06:04:45.980117Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-baselight-baselight",
@@ -2903,7 +3416,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-30T15:33:16.859356Z"
+    "updatedAt": "2026-04-30T15:33:16.859356Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-basethread-basethread",
@@ -2923,7 +3437,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-08T17:57:42.454703Z"
+    "updatedAt": "2026-07-08T17:57:42.454703Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bassethound-bassethound",
@@ -2943,7 +3458,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-10T16:59:48.68861Z"
+    "updatedAt": "2026-08-10T16:59:48.68861Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-beatbandit-beatbandit",
@@ -2963,7 +3479,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-13T15:54:48.389416Z"
+    "updatedAt": "2026-07-13T15:54:48.389416Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-beket-audit",
@@ -2983,7 +3500,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-06T01:11:42.174388Z"
+    "updatedAt": "2026-08-06T01:11:42.174388Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-benroberts-b4-index",
@@ -3003,7 +3521,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-03T23:52:40.30259Z"
+    "updatedAt": "2026-07-03T23:52:40.30259Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-betslipdoctor-mcp",
@@ -3023,7 +3542,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-19T06:10:02.724773Z"
+    "updatedAt": "2026-08-19T06:10:02.724773Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-betterpost-server",
@@ -3043,7 +3563,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-08T13:48:32.941236Z"
+    "updatedAt": "2026-07-08T13:48:32.941236Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bezal-local-commerce",
@@ -3063,7 +3584,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-03T01:28:17.439049Z"
+    "updatedAt": "2026-03-03T01:28:17.439049Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bidclub-bidclub",
@@ -3083,7 +3605,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-17T10:06:31.712458Z"
+    "updatedAt": "2026-08-17T10:06:31.712458Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-biddeed-biddeed-mcp",
@@ -3103,7 +3626,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-03T13:00:32.732972Z"
+    "updatedAt": "2026-07-03T13:00:32.732972Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-biel-biel-ai",
@@ -3127,7 +3651,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-05T15:36:24.193043Z"
+    "updatedAt": "2026-07-05T15:36:24.193043Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bitroad-bitroad",
@@ -3147,7 +3672,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-17T19:06:22.088057Z"
+    "updatedAt": "2026-08-17T19:06:22.088057Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bittlebits-bittlebits",
@@ -3167,7 +3693,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-02T16:24:51.181889Z"
+    "updatedAt": "2026-06-02T16:24:51.181889Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bizmoon-regulatory",
@@ -3187,7 +3714,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-05T17:51:19.465355Z"
+    "updatedAt": "2026-09-05T17:51:19.465355Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bizmuse-bizmuse",
@@ -3203,13 +3731,20 @@
         "registryType": "npm",
         "identifier": "bizmuse-mcp",
         "version": "0.1.6",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 59,
+        "lastPublished": "2026-07-20T13:42:58.182Z",
+        "firstPublished": "2026-07-18T10:26:03.635Z",
+        "deprecated": false,
+        "declaredRepo": "BizMuse-AI/mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-20T13:46:35.915847Z"
+    "updatedAt": "2026-07-20T13:46:35.915847Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-blast-radius-blast-radius",
@@ -3229,7 +3764,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-30T16:00:12.196014Z"
+    "updatedAt": "2026-06-30T16:00:12.196014Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bloopo-bloopo",
@@ -3249,7 +3785,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-28T12:16:01.625722Z"
+    "updatedAt": "2026-07-28T12:16:01.625722Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-blopus-search",
@@ -3269,7 +3806,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-27T01:31:40.856338Z"
+    "updatedAt": "2026-08-27T01:31:40.856338Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bluenexus-universal-mcp",
@@ -3289,7 +3827,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-07T00:53:58.81847Z"
+    "updatedAt": "2026-09-07T00:53:58.81847Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bodenrichtwert-mcp",
@@ -3309,7 +3848,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-03T06:19:03.560017Z"
+    "updatedAt": "2026-08-03T06:19:03.560017Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bolthub-mcp",
@@ -3325,13 +3865,20 @@
         "registryType": "npm",
         "identifier": "@bolthub/mcp",
         "version": "0.7.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 178,
+        "lastPublished": "2026-07-25T02:03:37.689Z",
+        "firstPublished": "2026-07-07T00:45:12.018Z",
+        "deprecated": false,
+        "declaredRepo": "signaltech-org/bolthub-sdk",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-25T02:10:18.959626Z"
+    "updatedAt": "2026-07-25T02:10:18.959626Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-boolsai-directory",
@@ -3351,7 +3898,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T13:30:35.464226Z"
+    "updatedAt": "2026-05-19T13:30:35.464226Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-boolsai-grep",
@@ -3371,7 +3919,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T13:30:36.222224Z"
+    "updatedAt": "2026-05-19T13:30:36.222224Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-boolsai-scan",
@@ -3391,7 +3940,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T13:30:34.760247Z"
+    "updatedAt": "2026-05-19T13:30:34.760247Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-boolsai-signals",
@@ -3411,7 +3961,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-19T13:30:36.922608Z"
+    "updatedAt": "2026-05-19T13:30:36.922608Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-borealhost-mcp",
@@ -3438,7 +3989,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-06T20:32:29.563773Z"
+    "updatedAt": "2026-09-06T20:32:29.563773Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-boundaryai-boundaryai",
@@ -3458,7 +4010,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-25T16:21:56.590296Z"
+    "updatedAt": "2026-07-25T16:21:56.590296Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bourdon-bourdon",
@@ -3480,13 +4033,20 @@
         "registryType": "npm",
         "identifier": "@getbourdon/mcp-server",
         "version": "0.5.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 13755,
+        "lastPublished": "2026-08-18T01:25:40.278Z",
+        "firstPublished": "2026-06-30T13:59:30.581Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-29T16:33:55.179944Z"
+    "updatedAt": "2026-08-29T16:33:55.179944Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bowmark-bowmark",
@@ -3508,7 +4068,13 @@
         "registryType": "npm",
         "identifier": "@bowmark/mcp",
         "version": "2.1.0",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 71,
+        "lastPublished": "2026-08-06T02:35:17.565Z",
+        "firstPublished": "2026-08-06T01:56:25.203Z",
+        "deprecated": false,
+        "declaredRepo": "bowmark-ai/mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -3519,7 +4085,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-07T16:13:37.145415Z"
+    "updatedAt": "2026-09-07T16:13:37.145415Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-brainattic-knowledge-base",
@@ -3539,7 +4106,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-23T14:21:55.059648Z"
+    "updatedAt": "2026-08-23T14:21:55.059648Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bridgeapp-bridgeapp",
@@ -3559,7 +4127,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T20:40:29.006664Z"
+    "updatedAt": "2026-08-26T20:40:29.006664Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bringyour-bringyour",
@@ -3579,7 +4148,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-24T08:15:43.116321Z"
+    "updatedAt": "2026-04-24T08:15:43.116321Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-buildwithorbit-orbit",
@@ -3599,7 +4169,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-26T18:06:01.680914Z"
+    "updatedAt": "2026-08-26T18:06:01.680914Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-bunzee-bunzee",
@@ -3619,7 +4190,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-05T01:24:59.568246Z"
+    "updatedAt": "2026-06-05T01:24:59.568246Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-buron-buron",
@@ -3639,11 +4211,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-19T22:19:56.582694Z"
+    "updatedAt": "2026-06-19T22:19:56.582694Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-butlerbrain-mcp",
-    "name": "mcp",
+    "name": "Butlerbrain MCP",
     "qualifiedName": "ai.butlerbrain/mcp",
     "slug": "ai-butlerbrain-mcp",
     "description": "Persistent memory for AI assistants. Save once; recall from Claude, ChatGPT, or any MCP client.",
@@ -3659,7 +4232,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-26T06:33:02.85583Z"
+    "updatedAt": "2026-05-26T06:33:02.85583Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-buyersense-buyersense",
@@ -3679,7 +4253,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-03T09:49:36.790849Z"
+    "updatedAt": "2026-05-03T09:49:36.790849Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-byteask-embedded-docs",
@@ -3699,7 +4274,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-19T12:57:43.612963Z"
+    "updatedAt": "2026-06-19T12:57:43.612963Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-byteray-byteray-mcp",
@@ -3719,7 +4295,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-19T04:19:09.97653Z"
+    "updatedAt": "2026-04-19T04:19:09.97653Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cabrini-market-data",
@@ -3739,7 +4316,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-29T17:12:49.69068Z"
+    "updatedAt": "2026-07-29T17:12:49.69068Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cactal-cactal",
@@ -3759,7 +4337,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-07T01:55:50.969471Z"
+    "updatedAt": "2026-08-07T01:55:50.969471Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-calaf-calaf",
@@ -3779,7 +4358,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-22T05:15:36.752059Z"
+    "updatedAt": "2026-08-22T05:15:36.752059Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-calaf-seeds",
@@ -3799,7 +4379,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-22T03:01:34.501752Z"
+    "updatedAt": "2026-08-22T03:01:34.501752Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-calendarmcp-server",
@@ -3819,7 +4400,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-20T07:09:04.298867Z"
+    "updatedAt": "2026-05-20T07:09:04.298867Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-calfeed-calfeed",
@@ -3839,11 +4421,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-05T19:00:28.019015Z"
+    "updatedAt": "2026-06-05T19:00:28.019015Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-callmcp-server",
-    "name": "server",
+    "name": "Callmcp MCP",
     "qualifiedName": "ai.callmcp/server",
     "slug": "ai-callmcp-server",
     "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
@@ -3855,13 +4438,20 @@
         "registryType": "npm",
         "identifier": "@callmcp/server",
         "version": "0.1.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 110,
+        "lastPublished": "2026-07-10T21:59:56.081Z",
+        "firstPublished": "2026-07-10T00:28:51.965Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-10T00:53:26.478263Z"
+    "updatedAt": "2026-07-10T00:53:26.478263Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-canaryusers-canaryusers",
@@ -3881,7 +4471,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-13T18:31:58.336704Z"
+    "updatedAt": "2026-06-13T18:31:58.336704Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-canivibe-status",
@@ -3901,7 +4492,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-23T17:08:49.919308Z"
+    "updatedAt": "2026-07-23T17:08:49.919308Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-canvora-canvora",
@@ -3921,7 +4513,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-20T00:14:46.676606Z"
+    "updatedAt": "2026-07-20T00:14:46.676606Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-caulo-caulo",
@@ -3941,7 +4534,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-03T15:24:58.514124Z"
+    "updatedAt": "2026-07-03T15:24:58.514124Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-ccapi-mcp",
@@ -3961,11 +4555,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-02T06:15:22.212147Z"
+    "updatedAt": "2026-08-02T06:15:22.212147Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cdbx-mcp-server",
-    "name": "mcp-server",
+    "name": "Cdbx MCP",
     "qualifiedName": "ai.cdbx/mcp-server",
     "slug": "ai-cdbx-mcp-server",
     "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
@@ -3981,7 +4576,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-20T08:13:44.889307Z"
+    "updatedAt": "2026-08-20T08:13:44.889307Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cerebrium-docs",
@@ -4001,7 +4597,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-01T16:54:17.505427Z"
+    "updatedAt": "2026-09-01T16:54:17.505427Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-certscore-mcp",
@@ -4017,13 +4614,20 @@
         "registryType": "npm",
         "identifier": "@certscore/mcp",
         "version": "0.2.4",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 262,
+        "lastPublished": "2026-09-03T23:14:08.078Z",
+        "firstPublished": "2026-07-05T20:47:48.715Z",
+        "deprecated": false,
+        "declaredRepo": "ergoveritas1-alt/certscore.ai",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-07T21:17:12.620633Z"
+    "updatedAt": "2026-07-07T21:17:12.620633Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-certscore-mcp-light",
@@ -4043,7 +4647,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T23:21:53.978305Z"
+    "updatedAt": "2026-09-03T23:21:53.978305Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-chatthing-chat-thing",
@@ -4063,7 +4668,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-16T17:04:43.886064Z"
+    "updatedAt": "2026-07-16T17:04:43.886064Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-childadhd-library",
@@ -4083,7 +4689,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:13.381323Z"
+    "updatedAt": "2026-04-26T00:04:13.381323Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-childanxiety-library",
@@ -4103,7 +4710,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:17.518812Z"
+    "updatedAt": "2026-04-26T00:04:17.518812Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-childpsychiatry-library",
@@ -4123,7 +4731,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:20.484144Z"
+    "updatedAt": "2026-04-26T00:04:20.484144Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-chinamarketing-intelligence",
@@ -4143,7 +4752,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-22T09:16:14.642505Z"
+    "updatedAt": "2026-04-22T09:16:14.642505Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-chipp-alchemist-cloud-tickets",
@@ -4163,7 +4773,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-02T20:05:59.419656Z"
+    "updatedAt": "2026-09-02T20:05:59.419656Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-chipp-chipp",
@@ -4183,7 +4794,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-02T20:05:59.198909Z"
+    "updatedAt": "2026-09-02T20:05:59.198909Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-chronary-mcp",
@@ -4199,7 +4811,13 @@
         "registryType": "npm",
         "identifier": "@chronary/mcp",
         "version": "1.5.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 181,
+        "lastPublished": "2026-07-14T21:12:54.331Z",
+        "firstPublished": "2026-05-20T05:46:09.961Z",
+        "deprecated": false,
+        "declaredRepo": "Chronary/chronary-mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -4210,7 +4828,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-14T21:12:59.153451Z"
+    "updatedAt": "2026-07-14T21:12:59.153451Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-circulara-plugin",
@@ -4226,13 +4845,20 @@
         "registryType": "npm",
         "identifier": "@circulara/plugin",
         "version": "0.1.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 88,
+        "lastPublished": "2026-07-09T11:51:01.001Z",
+        "firstPublished": "2026-07-09T10:40:36.541Z",
+        "deprecated": false,
+        "declaredRepo": "CircularRoute/circulara-core",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-09T11:54:08.843062Z"
+    "updatedAt": "2026-07-09T11:54:08.843062Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cirra-salesforce-mcp",
@@ -4252,7 +4878,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-17T21:41:17.956027Z"
+    "updatedAt": "2026-06-17T21:41:17.956027Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-citybook-citybook",
@@ -4272,7 +4899,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-28T17:08:14.375286Z"
+    "updatedAt": "2026-08-28T17:08:14.375286Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clarid-compliance",
@@ -4292,7 +4920,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-26T19:00:43.930817Z"
+    "updatedAt": "2026-02-26T19:00:43.930817Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clarid-hmda",
@@ -4312,11 +4941,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-26T19:00:44.38512Z"
+    "updatedAt": "2026-02-26T19:00:44.38512Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clarx-mcp",
-    "name": "mcp",
+    "name": "Clarx MCP",
     "qualifiedName": "ai.clarx/mcp",
     "slug": "ai-clarx-mcp",
     "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
@@ -4328,17 +4958,24 @@
         "registryType": "npm",
         "identifier": "@clarxai/mcp",
         "version": "0.2.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": 239,
+        "lastPublished": "2026-08-19T16:17:21.278Z",
+        "firstPublished": "2026-07-06T09:51:29.727Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-19T16:23:31.658789Z"
+    "updatedAt": "2026-08-19T16:23:31.658789Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clawfetch-mcp",
-    "name": "mcp",
+    "name": "Clawfetch MCP",
     "qualifiedName": "ai.clawfetch/mcp",
     "slug": "ai-clawfetch-mcp",
     "description": "Web intelligence for AI agents: fetch, render, extract, research. x402 micropayments, no API keys.",
@@ -4350,7 +4987,13 @@
         "registryType": "npm",
         "identifier": "@clawfetch/mcp",
         "version": "0.2.2",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-08-06T07:04:26.492Z",
+        "firstPublished": "2026-08-05T05:59:39.120Z",
+        "deprecated": false,
+        "declaredRepo": "clawfetch/clawfetch-mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -4361,7 +5004,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T07:46:55.542328Z"
+    "updatedAt": "2026-08-05T07:46:55.542328Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clawterminal-markets",
@@ -4381,7 +5025,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-23T15:44:31.957977Z"
+    "updatedAt": "2026-06-23T15:44:31.957977Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cleanvector-cleanvector",
@@ -4401,7 +5046,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-24T11:50:05.712229Z"
+    "updatedAt": "2026-08-24T11:50:05.712229Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clelp-clelp",
@@ -4417,13 +5063,20 @@
         "registryType": "npm",
         "identifier": "clelp-mcp-server",
         "version": "1.1.8",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-08-01T18:43:14.193Z",
+        "firstPublished": "2026-02-05T17:29:30.717Z",
+        "deprecated": false,
+        "declaredRepo": "oscarsterling/clelp-skills",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-01T18:45:56.210843Z"
+    "updatedAt": "2026-08-01T18:45:56.210843Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clize-clize",
@@ -4439,13 +5092,20 @@
         "registryType": "npm",
         "identifier": "@clize/clize",
         "version": "0.37.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-06T08:41:46.775Z",
+        "firstPublished": "2026-06-04T17:40:12.941Z",
+        "deprecated": false,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T20:32:26.981617Z"
+    "updatedAt": "2026-09-04T20:32:26.981617Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clize-domains",
@@ -4461,13 +5121,20 @@
         "registryType": "npm",
         "identifier": "@clize/domains",
         "version": "0.35.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-03T21:50:59.397Z",
+        "firstPublished": "2026-08-30T19:05:36.628Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:33.859191Z"
+    "updatedAt": "2026-09-03T11:43:33.859191Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clize-inbox",
@@ -4483,13 +5150,20 @@
         "registryType": "npm",
         "identifier": "@clize/inbox",
         "version": "0.35.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-03T22:06:13.672Z",
+        "firstPublished": "2026-08-30T19:05:06.544Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:34.530918Z"
+    "updatedAt": "2026-09-03T11:43:34.530918Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clize-sites",
@@ -4505,13 +5179,20 @@
         "registryType": "npm",
         "identifier": "@clize/sites",
         "version": "0.35.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-03T22:07:30.094Z",
+        "firstPublished": "2026-08-30T19:05:26.809Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:36.102796Z"
+    "updatedAt": "2026-09-03T11:43:36.102796Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-clize-storefront",
@@ -4527,13 +5208,20 @@
         "registryType": "npm",
         "identifier": "@clize/storefront",
         "version": "0.35.5",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-03T22:07:46.582Z",
+        "firstPublished": "2026-08-30T19:05:17.173Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:36.821222Z"
+    "updatedAt": "2026-09-03T11:43:36.821222Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cnaps-studio",
@@ -4553,7 +5241,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-19T17:28:37.457277Z"
+    "updatedAt": "2026-08-19T17:28:37.457277Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cnpj-mcp",
@@ -4573,7 +5262,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-07T17:04:49.887737Z"
+    "updatedAt": "2026-09-07T17:04:49.887737Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cobbles-cobbles",
@@ -4593,7 +5283,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-07T18:03:43.51907Z"
+    "updatedAt": "2026-07-07T18:03:43.51907Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-codenib-codenib",
@@ -4615,7 +5306,8 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-03T23:01:59.98609Z"
+    "updatedAt": "2026-09-03T23:01:59.98609Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cofoundagent-cofound",
@@ -4635,7 +5327,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-05T16:41:03.448222Z"
+    "updatedAt": "2026-07-05T16:41:03.448222Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-contabo",
@@ -4655,7 +5348,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-08T13:19:46.430479Z"
+    "updatedAt": "2026-01-08T13:19:46.430479Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-hapi-mcp",
@@ -4682,7 +5376,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-07T00:32:01.41626Z"
+    "updatedAt": "2026-01-07T00:32:01.41626Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-lenny-rachitsky-podcast",
@@ -4702,7 +5397,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-16T11:08:36.481149Z"
+    "updatedAt": "2026-01-16T11:08:36.481149Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-linkedin",
@@ -4722,7 +5418,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-19T15:17:12.346134Z"
+    "updatedAt": "2026-02-19T15:17:12.346134Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-openai-tools",
@@ -4742,7 +5439,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-22T02:35:00.021804Z"
+    "updatedAt": "2026-01-22T02:35:00.021804Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-petstore",
@@ -4762,7 +5460,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-07T14:13:05.674855Z"
+    "updatedAt": "2026-01-07T14:13:05.674855Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-registry",
@@ -4782,7 +5481,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-01-10T22:33:54.03436Z"
+    "updatedAt": "2026-01-10T22:33:54.03436Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-skills-search",
@@ -4802,7 +5502,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-04T12:46:39.858109Z"
+    "updatedAt": "2026-02-04T12:46:39.858109Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-com-mcp-strava",
@@ -4822,7 +5523,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-02-19T16:39:20.668626Z"
+    "updatedAt": "2026-02-19T16:39:20.668626Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-compeller-compel",
@@ -4842,7 +5544,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-05T03:21:40.918318Z"
+    "updatedAt": "2026-05-05T03:21:40.918318Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-compelling-mcp",
@@ -4862,11 +5565,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-02T11:30:28.211992Z"
+    "updatedAt": "2026-09-02T11:30:28.211992Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-complyme-mcp-mcp",
-    "name": "mcp",
+    "name": "Complyme MCP",
     "qualifiedName": "ai.complyme.mcp/mcp",
     "slug": "ai-complyme-mcp-mcp",
     "description": "ComplyMe.AI MCP server for legal & data protection risk analysis and audits.",
@@ -4877,7 +5581,8 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-30T06:51:34.82704Z"
+    "updatedAt": "2026-04-30T06:51:34.82704Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-connectmachine-connectmachine",
@@ -4897,7 +5602,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-31T11:58:02.999489Z"
+    "updatedAt": "2026-07-31T11:58:02.999489Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-constellationfinance-constellation-finance-mcp",
@@ -4917,7 +5623,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-22T18:26:02.539221Z"
+    "updatedAt": "2026-05-22T18:26:02.539221Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-contextstudios-mcp",
@@ -4937,7 +5644,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T12:28:30.185334Z"
+    "updatedAt": "2026-08-05T12:28:30.185334Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-contio-meetingos",
@@ -4957,7 +5665,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-06T23:35:16.144113Z"
+    "updatedAt": "2026-08-06T23:35:16.144113Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-contractorsnearme-contractors-near-me",
@@ -4977,7 +5686,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-30T14:33:26.647431Z"
+    "updatedAt": "2026-08-30T14:33:26.647431Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-conveo-conveo",
@@ -4997,7 +5707,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-06T11:05:24.104018Z"
+    "updatedAt": "2026-05-06T11:05:24.104018Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cookiy-cookiy",
@@ -5017,7 +5728,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-03-28T05:28:52.028499Z"
+    "updatedAt": "2026-03-28T05:28:52.028499Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-corduroy-labs-updates",
@@ -5037,7 +5749,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-17T18:01:06.82434Z"
+    "updatedAt": "2026-07-17T18:01:06.82434Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cosmonote-notes",
@@ -5057,7 +5770,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-05T08:30:35.974817Z"
+    "updatedAt": "2026-05-05T08:30:35.974817Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cralo-mcp",
@@ -5077,7 +5791,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-30T19:23:02.391365Z"
+    "updatedAt": "2026-08-30T19:23:02.391365Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-craneledger-crane-ledger",
@@ -5097,11 +5812,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-25T16:03:19.605397Z"
+    "updatedAt": "2026-06-25T16:03:19.605397Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-crayonz-mcp",
-    "name": "mcp",
+    "name": "Crayonz MCP",
     "qualifiedName": "ai.crayonz/mcp",
     "slug": "ai-crayonz-mcp",
     "description": "Design custom apparel from chat: AI art on tees and hoodies, then a checkout link to buy.",
@@ -5117,7 +5833,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-30T10:15:28.617767Z"
+    "updatedAt": "2026-08-30T10:15:28.617767Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-createprints-createprints",
@@ -5141,7 +5858,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-30T08:01:33.409348Z"
+    "updatedAt": "2026-08-30T08:01:33.409348Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-creationloop-creationloop",
@@ -5161,7 +5879,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-09T00:13:17.622184Z"
+    "updatedAt": "2026-07-09T00:13:17.622184Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-creativescope-creative-intelligence",
@@ -5181,7 +5900,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-22T09:51:05.050177Z"
+    "updatedAt": "2026-07-22T09:51:05.050177Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-creditpolicy-creditpolicy",
@@ -5201,11 +5921,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-13T01:32:49.084207Z"
+    "updatedAt": "2026-08-13T01:32:49.084207Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cueapi-mcp",
-    "name": "mcp",
+    "name": "Cueapi MCP",
     "qualifiedName": "ai.cueapi/mcp",
     "slug": "ai-cueapi-mcp",
     "description": "Schedule agent work and report write-once outcomes via CueAPI from any MCP host.",
@@ -5217,13 +5938,20 @@
         "registryType": "npm",
         "identifier": "@cueapi/mcp",
         "version": "0.1.3",
-        "transport": "stdio"
+        "transport": "stdio",
+        "weeklyDownloads": null,
+        "lastPublished": "2026-05-02T19:30:18.782Z",
+        "firstPublished": "2026-04-15T06:11:22.129Z",
+        "deprecated": false,
+        "declaredRepo": "cueapi/cueapi-mcp",
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-04-15T19:01:06.819529Z"
+    "updatedAt": "2026-04-15T19:01:06.819529Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-cueframe-cueframe",
@@ -5243,11 +5971,12 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-29T01:29:40.23313Z"
+    "updatedAt": "2026-07-29T01:29:40.23313Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-customdomain-mcp",
-    "name": "mcp",
+    "name": "Customdomain MCP",
     "qualifiedName": "ai.customdomain/mcp",
     "slug": "ai-customdomain-mcp",
     "description": "Custom domains for SaaS and AI agents: search, register, connect DNS, and issue HTTPS over MCP.",
@@ -5263,7 +5992,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-07-12T18:06:58.552306Z"
+    "updatedAt": "2026-07-12T18:06:58.552306Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-d50-d50-platform",
@@ -5283,7 +6013,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-06-14T08:27:04.313042Z"
+    "updatedAt": "2026-06-14T08:27:04.313042Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-dablock-visibility-index",
@@ -5303,7 +6034,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T22:21:48.342634Z"
+    "updatedAt": "2026-08-05T22:21:48.342634Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-dabyte-visibility-index",
@@ -5323,7 +6055,8 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-05T22:21:21.607463Z"
+    "updatedAt": "2026-08-05T22:21:21.607463Z",
+    "repoMeta": null
   },
   {
     "id": "mcp:ai-darkfunnels-docs",
@@ -5343,6 +6076,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T20:50:58.601633Z"
+    "updatedAt": "2026-09-04T20:50:58.601633Z",
+    "repoMeta": null
   }
 ]

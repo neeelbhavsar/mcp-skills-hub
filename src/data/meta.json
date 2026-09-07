@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-07T17:52:02.531Z",
+  "updatedAt": "2026-09-07T18:38:53.846Z",
   "counts": {
     "skills": 314,
-    "mcps": 259,
+    "mcps": 266,
     "repos": 125
   },
   "categories": {
@@ -16,17 +16,17 @@
       "Data & Analysis": 45
     },
     "mcps": {
-      "AI & Memory": 56,
+      "Dev Tools & Git": 6,
+      "Web & Search": 31,
+      "AI & Memory": 58,
+      "Productivity": 12,
       "Marketing & Social": 22,
       "Finance & Data": 25,
       "Commerce & Retail": 12,
-      "Web & Search": 30,
       "Other": 48,
       "Design & Media": 13,
-      "Productivity": 11,
       "Legal & Government": 12,
       "Cloud & DevOps": 6,
-      "Dev Tools & Git": 3,
       "Databases & Storage": 3,
       "Docs & Knowledge": 12,
       "Health & Science": 6
@@ -49,6 +49,7 @@
       "awesome-claude-skills"
     ],
     "mcps": [
+      "Official reference",
       "MCP Registry"
     ],
     "repos": [

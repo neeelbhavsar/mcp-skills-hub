@@ -16,8 +16,8 @@
     "repo": "anthropics/skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-skills-example-skills",
@@ -44,8 +44,8 @@
     "repo": "anthropics/skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-skills-claude-api",
@@ -61,8 +61,8 @@
     "repo": "anthropics/skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-skills-academy-guide",
@@ -78,8 +78,8 @@
     "repo": "anthropics/skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-skills-discernment-nudge",
@@ -95,8 +95,8 @@
     "repo": "anthropics/skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-42crunch-api-security-testing",
@@ -110,8 +110,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-adobe-for-creativity",
@@ -125,8 +125,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-agent-sdk-dev",
@@ -140,8 +140,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-agentforce-adlc",
@@ -155,8 +155,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ai-plugins",
@@ -170,8 +170,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aikido",
@@ -185,8 +185,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-airtable",
@@ -200,8 +200,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-airwallex-agentos",
@@ -215,8 +215,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-airwallex-dev",
@@ -230,8 +230,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aiven",
@@ -245,8 +245,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-alloydb",
@@ -260,8 +260,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-alloydb-omni",
@@ -275,8 +275,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-altimate-code",
@@ -290,8 +290,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-amazon-location-service",
@@ -305,8 +305,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-amd-skills",
@@ -325,8 +325,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-amplitude",
@@ -340,8 +340,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-apollo",
@@ -355,8 +355,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-apollo-skills",
@@ -370,8 +370,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-appwrite",
@@ -385,8 +385,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-asana",
@@ -400,8 +400,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-astronomer-data-agents",
@@ -415,8 +415,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-atlan",
@@ -430,8 +430,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-atlassian",
@@ -445,8 +445,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-atlassian-twg-cli",
@@ -460,8 +460,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-atomic-agents",
@@ -475,8 +475,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-auth0",
@@ -490,8 +490,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-agents",
@@ -505,8 +505,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-agents-for-devsecops",
@@ -520,8 +520,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-amplify",
@@ -535,8 +535,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-core",
@@ -550,8 +550,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-data-analytics",
@@ -565,8 +565,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-serverless",
@@ -580,8 +580,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-startup-advisor",
@@ -595,8 +595,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-aws-transform",
@@ -610,8 +610,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-azure",
@@ -625,8 +625,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-azure-cosmos-db-assistant",
@@ -640,8 +640,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-azure-sql-developer",
@@ -655,8 +655,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-base44",
@@ -670,8 +670,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-bigdata-com",
@@ -685,8 +685,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-bigquery-data-analytics",
@@ -700,8 +700,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-boltz",
@@ -715,8 +715,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-box",
@@ -736,8 +736,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-brightdata-plugin",
@@ -751,8 +751,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-browser-use",
@@ -766,8 +766,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-buildkite",
@@ -781,8 +781,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-canva",
@@ -796,8 +796,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-carbone-skill",
@@ -811,8 +811,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-carta-cap-table",
@@ -826,8 +826,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-carta-crm",
@@ -841,8 +841,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-carta-investors",
@@ -856,8 +856,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-catalyst-by-zoho",
@@ -871,8 +871,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cds-mcp",
@@ -886,8 +886,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-chrome-devtools-mcp",
@@ -901,8 +901,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-circle-skills",
@@ -916,8 +916,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-circleback",
@@ -931,8 +931,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ckeditor",
@@ -946,8 +946,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-clangd-lsp",
@@ -961,8 +961,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-claude-code-setup",
@@ -976,8 +976,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-claude-md-management",
@@ -991,8 +991,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-claude-security",
@@ -1006,8 +1006,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-clickhouse",
@@ -1021,8 +1021,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-clickhouse-best-practices",
@@ -1036,8 +1036,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cloud-sql-mysql",
@@ -1051,8 +1051,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cloud-sql-postgresql",
@@ -1066,8 +1066,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cloud-sql-sqlserver",
@@ -1081,8 +1081,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cloudflare",
@@ -1096,8 +1096,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cloudinary",
@@ -1111,8 +1111,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cockroachdb",
@@ -1126,8 +1126,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-code-modernization",
@@ -1141,8 +1141,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-code-review",
@@ -1156,8 +1156,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-code-simplifier",
@@ -1171,8 +1171,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-coderabbit",
@@ -1186,8 +1186,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-codspeed",
@@ -1201,8 +1201,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-commit-commands",
@@ -1216,8 +1216,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-confidence",
@@ -1231,8 +1231,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-context7",
@@ -1246,8 +1246,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-convex",
@@ -1261,8 +1261,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-crowdsec",
@@ -1276,8 +1276,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-crowdstrike-falcon-foundry",
@@ -1291,8 +1291,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-crowdstrike-falcon-fusion",
@@ -1306,8 +1306,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-csharp-lsp",
@@ -1321,8 +1321,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-cwc-makers",
@@ -1336,8 +1336,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-dash0",
@@ -1351,8 +1351,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-data",
@@ -1366,8 +1366,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-data-agent-kit-starter-pack",
@@ -1381,8 +1381,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-data-engineering",
@@ -1396,8 +1396,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-databases-on-aws",
@@ -1411,8 +1411,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-databricks",
@@ -1426,8 +1426,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-datadog",
@@ -1441,8 +1441,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-datahub-skills",
@@ -1456,8 +1456,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-dataproc",
@@ -1471,8 +1471,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-datarobot-agent-skills",
@@ -1486,8 +1486,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-dataverse",
@@ -1501,8 +1501,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-deepeval",
@@ -1516,8 +1516,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-deploy-on-aws",
@@ -1531,8 +1531,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-desktop-commander",
@@ -1546,8 +1546,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-discord",
@@ -1561,8 +1561,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-dominodatalab",
@@ -1576,8 +1576,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-dropbox",
@@ -1591,8 +1591,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-duckdb-skills",
@@ -1606,8 +1606,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-duende-skills",
@@ -1621,8 +1621,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-exa",
@@ -1636,8 +1636,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-explanatory-output-style",
@@ -1651,8 +1651,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-expo",
@@ -1666,8 +1666,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-fakechat",
@@ -1681,8 +1681,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-fastly-agent-toolkit",
@@ -1696,8 +1696,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-feature-dev",
@@ -1711,8 +1711,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-fiftyone",
@@ -1726,8 +1726,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-figma",
@@ -1741,8 +1741,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-firebase",
@@ -1756,8 +1756,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-firecrawl",
@@ -1771,8 +1771,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-firestore-native",
@@ -1786,8 +1786,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-forge-skills",
@@ -1801,8 +1801,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-frontend-design",
@@ -1816,8 +1816,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-fullstory",
@@ -1831,8 +1831,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-github",
@@ -1846,8 +1846,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-gitkraken",
@@ -1861,8 +1861,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-gitlab",
@@ -1876,8 +1876,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-google-cloud-storage",
@@ -1891,8 +1891,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-gopls-lsp",
@@ -1906,8 +1906,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-grafana-assistant",
@@ -1921,8 +1921,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-grafana-cloud-mcp",
@@ -1936,8 +1936,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-grafana-mcp",
@@ -1951,8 +1951,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-greptile",
@@ -1966,8 +1966,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-growthbook",
@@ -1981,8 +1981,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-honeycomb",
@@ -1996,8 +1996,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-hookify",
@@ -2011,8 +2011,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-hostinger",
@@ -2026,8 +2026,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-huggingface-skills",
@@ -2041,8 +2041,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-hunter",
@@ -2056,8 +2056,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-hyperframes",
@@ -2071,8 +2071,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-idmp-plugin",
@@ -2086,8 +2086,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-imessage",
@@ -2101,8 +2101,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-intercom",
@@ -2116,8 +2116,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-jdtls-lsp",
@@ -2131,8 +2131,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-jfrog",
@@ -2146,8 +2146,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-knowledge-catalog",
@@ -2161,8 +2161,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-kotlin-lsp",
@@ -2176,8 +2176,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-langfuse-observability",
@@ -2191,8 +2191,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-laravel-boost",
@@ -2206,8 +2206,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-learn-with-coursera",
@@ -2223,8 +2223,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-learning-output-style",
@@ -2238,8 +2238,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-legalzoom",
@@ -2253,8 +2253,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-linear",
@@ -2268,8 +2268,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-liquid-lsp",
@@ -2283,8 +2283,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-liquid-skills",
@@ -2298,8 +2298,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-logfire",
@@ -2313,8 +2313,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-logrocket",
@@ -2328,8 +2328,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-looker",
@@ -2343,8 +2343,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-lovable",
@@ -2358,8 +2358,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-lua-lsp",
@@ -2373,8 +2373,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-lumen",
@@ -2388,8 +2388,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-lusha",
@@ -2403,8 +2403,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mapbox",
@@ -2418,8 +2418,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-math-olympiad",
@@ -2433,8 +2433,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mattpocock-skills",
@@ -2448,8 +2448,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mcp-apps",
@@ -2463,8 +2463,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mcp-server-dev",
@@ -2478,8 +2478,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mcp-tunnels",
@@ -2493,8 +2493,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mercadopago",
@@ -2508,8 +2508,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mergify",
@@ -2523,8 +2523,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-microsoft-docs",
@@ -2538,8 +2538,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-migration-to-aws",
@@ -2553,8 +2553,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mintlify",
@@ -2568,8 +2568,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-miro",
@@ -2583,8 +2583,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-modern-web-guidance",
@@ -2598,8 +2598,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mlflow",
@@ -2613,8 +2613,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-monday-crm",
@@ -2628,8 +2628,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mongodb",
@@ -2643,8 +2643,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-mongodb-atlas",
@@ -2658,8 +2658,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-neon",
@@ -2673,8 +2673,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-netlify-skills",
@@ -2688,8 +2688,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-netsuite-ai-companion",
@@ -2703,8 +2703,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-netsuite-finance-analyst",
@@ -2718,8 +2718,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-netsuite-suitecloud",
@@ -2733,8 +2733,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-newrelic",
@@ -2748,8 +2748,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-nightvision",
@@ -2763,8 +2763,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-nimble",
@@ -2778,8 +2778,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-noibu",
@@ -2793,8 +2793,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-notion",
@@ -2808,8 +2808,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-nvidia-skills",
@@ -2823,8 +2823,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-oracle-ai-data-platform-workbench-databricks-",
@@ -2838,8 +2838,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-oracle-ai-data-platform-workbench-engineer-ag",
@@ -2853,8 +2853,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-oracle-ai-data-platform-workbench-spark-conne",
@@ -2868,8 +2868,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-oracledb",
@@ -2883,8 +2883,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-outputai",
@@ -2898,8 +2898,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pagerduty",
@@ -2913,8 +2913,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-paypal",
@@ -2928,8 +2928,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-php-lsp",
@@ -2943,8 +2943,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pigment",
@@ -2958,8 +2958,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pinecone",
@@ -2973,8 +2973,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pixeltable",
@@ -2988,8 +2988,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-planetscale",
@@ -3003,8 +3003,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-playground",
@@ -3018,8 +3018,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-playwright",
@@ -3033,8 +3033,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-plugin-dev",
@@ -3048,8 +3048,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-posthog",
@@ -3063,8 +3063,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-postiz",
@@ -3078,8 +3078,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-postman",
@@ -3093,8 +3093,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pr-review-toolkit",
@@ -3108,8 +3108,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-preset-cli-skills",
@@ -3123,8 +3123,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-prisma",
@@ -3138,8 +3138,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-project-artifact",
@@ -3153,8 +3153,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pydantic-ai",
@@ -3168,8 +3168,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-pyright-lsp",
@@ -3183,8 +3183,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-qdrant-skills",
@@ -3198,8 +3198,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-qodo",
@@ -3213,8 +3213,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-qt-development-skills",
@@ -3228,8 +3228,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-quarkus-agent",
@@ -3243,8 +3243,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-railway",
@@ -3258,8 +3258,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ralph-loop",
@@ -3273,8 +3273,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-rc",
@@ -3288,8 +3288,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-receipts",
@@ -3303,8 +3303,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-redis-development",
@@ -3318,8 +3318,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-remember",
@@ -3333,8 +3333,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-render",
@@ -3348,8 +3348,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-resend",
@@ -3363,8 +3363,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-revenuecat",
@@ -3378,8 +3378,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-rill",
@@ -3393,8 +3393,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-rootly",
@@ -3408,8 +3408,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ruby-lsp",
@@ -3423,8 +3423,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-runway-api",
@@ -3438,8 +3438,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-rust-analyzer-lsp",
@@ -3453,8 +3453,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sagemaker-ai",
@@ -3468,8 +3468,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-salesforce-development",
@@ -3483,8 +3483,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sanity",
@@ -3498,8 +3498,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sap-cds-mcp",
@@ -3513,8 +3513,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sap-fiori-mcp-server",
@@ -3528,8 +3528,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sap-hana-cli",
@@ -3543,8 +3543,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sap-mdk-server",
@@ -3558,8 +3558,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-save-to-spotify",
@@ -3573,8 +3573,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-scandit-sdk",
@@ -3588,8 +3588,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-security-guidance",
@@ -3603,8 +3603,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-semgrep",
@@ -3618,8 +3618,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sentry",
@@ -3633,8 +3633,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sentry-cli",
@@ -3648,8 +3648,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-serena",
@@ -3663,8 +3663,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-servicenow-sdk",
@@ -3678,8 +3678,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-session-report",
@@ -3693,8 +3693,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-shippo",
@@ -3708,8 +3708,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-shopify-ai-toolkit",
@@ -3723,8 +3723,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-skill-creator",
@@ -3738,8 +3738,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-slack",
@@ -3753,8 +3753,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-snowflake-cortex-code",
@@ -3768,8 +3768,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sonarqube",
@@ -3783,8 +3783,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sonatype-guide",
@@ -3798,8 +3798,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sourcegraph",
@@ -3813,8 +3813,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-spanner",
@@ -3828,8 +3828,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-spotify-ads-api",
@@ -3843,8 +3843,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-stackhawk-hawkscan",
@@ -3858,8 +3858,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-stackhawk-api",
@@ -3873,8 +3873,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-streaming-skills-plugin",
@@ -3888,8 +3888,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-stripe",
@@ -3903,8 +3903,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-sumup",
@@ -3918,8 +3918,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-supabase",
@@ -3933,8 +3933,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-superdesign",
@@ -3948,8 +3948,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-superpowers",
@@ -3963,8 +3963,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-swift-lsp",
@@ -3978,8 +3978,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-synthflow",
@@ -3993,8 +3993,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-tavily",
@@ -4008,8 +4008,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-teamcity-cli",
@@ -4023,8 +4023,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-telegram",
@@ -4038,8 +4038,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-terraform",
@@ -4053,8 +4053,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-togetherai-skills",
@@ -4068,8 +4068,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-twilio-developer-kit",
@@ -4083,8 +4083,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-typescript-lsp",
@@ -4098,8 +4098,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ui-theme-designer",
@@ -4113,8 +4113,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ui5",
@@ -4128,8 +4128,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ui5-modernization",
@@ -4143,8 +4143,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-ui5-typescript-conversion",
@@ -4158,8 +4158,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-unity",
@@ -4173,8 +4173,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-unreal-engine-skills-for-claude-code",
@@ -4188,8 +4188,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-valtown",
@@ -4203,8 +4203,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-vanta",
@@ -4218,8 +4218,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-vanta-mcp-plugin",
@@ -4233,8 +4233,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-vercel",
@@ -4248,8 +4248,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-vibe-prospecting",
@@ -4263,8 +4263,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-vsql-extension-builder",
@@ -4278,8 +4278,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-windsor-ai",
@@ -4293,8 +4293,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-wix",
@@ -4308,8 +4308,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-build-with-wordpress",
@@ -4323,8 +4323,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-workos",
@@ -4338,8 +4338,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-youdotcom-agent-skills",
@@ -4353,8 +4353,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zapier",
@@ -4368,8 +4368,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zilliz",
@@ -4383,8 +4383,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zoom-plugin",
@@ -4398,8 +4398,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zoominfo",
@@ -4413,8 +4413,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zscaler",
@@ -4428,8 +4428,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-langfuse",
@@ -4443,8 +4443,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zyte-web-data",
@@ -4458,8 +4458,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-activecampaign",
@@ -4473,8 +4473,8 @@
     "repo": "anthropics/claude-plugins-official",
     "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
     "target": "claude",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:synk-skill-security-scanner",
@@ -4488,8 +4488,8 @@
     "repo": "VoltAgent/awesome-agent-skills",
     "sourceUrl": "https://github.com/snyk/agent-scan",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:superpowers-skills",
@@ -4503,8 +4503,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/obra/superpowers-skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:blog-superpowers",
@@ -4518,8 +4518,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/09/superpowers/",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:blog-post-about-its-development",
@@ -4533,8 +4533,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/23/naming-claude-plugins/",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:what-are-skills",
@@ -4548,8 +4548,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512176-what-are-skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:using-skills-in-claude",
@@ -4563,8 +4563,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:claude-skills-announcement",
@@ -4578,8 +4578,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/news/skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:equipping-agents-with-skills",
@@ -4593,8 +4593,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:claude-developer-platform",
@@ -4608,8 +4608,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://docs.claude.com/",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:skills-api-endpoint",
@@ -4623,8 +4623,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://platform.claude.com/docs/en/api/beta/skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-skills",
@@ -4638,8 +4638,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:claude-cookbooks-skills",
@@ -4653,8 +4653,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:how-to-create-your-first-claude-skill",
@@ -4668,8 +4668,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:how-to-use-skills-in-claude-code",
@@ -4683,8 +4683,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:skills-explained",
@@ -4698,8 +4698,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://claude.com/blog/skills-explained",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:issue-268",
@@ -4713,8 +4713,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-python/issues/268",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:official-skills-repository-issues",
@@ -4728,8 +4728,8 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/issues",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:community-discussions",
@@ -4743,7 +4743,7 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/discussions",
     "target": "multi",
-    "tags": [],
-    "stars": null
+    "stars": null,
+    "repoMeta": null
   }
 ]
