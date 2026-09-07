@@ -35,7 +35,7 @@ export default function SkillsPage() {
         subtitle="Reusable capabilities that teach your assistant a domain — from document processing to design. Add them to Claude Code, Cursor, Codex and beyond with copy-paste steps."
       />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-        <CatalogShell items={items} categories={cats} />
+        <CatalogShell kind="skills" items={items} categories={cats} />
       </section>
     </>
   );

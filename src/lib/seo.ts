@@ -37,6 +37,21 @@ export const KIND_META: Record<
   repos: { label: "Repos", singular: "Repo", path: "/repos" },
 };
 
+/**
+ * URL-safe form of a category name. Categories are real route segments rather
+ * than query params so each one is an independently indexable page with its
+ * own canonical — a `?category=` variant would just be collapsed into the
+ * bare catalog URL by the canonical tag.
+ */
+export function categorySlug(name: string) {
+  return name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+
+/** Category-route path, e.g. /mcps/category/databases-and-storage */
+export function categoryPath(kind: ResourceKind, name: string) {
+  return `${KIND_META[kind].path}/category/${categorySlug(name)}`;
+}
+
 /** Detail-route path for a resource, e.g. /skills/pdf-processing */
 export function resourcePath(kind: ResourceKind, slug: string) {
   return `${KIND_META[kind].path}/${slug}`;

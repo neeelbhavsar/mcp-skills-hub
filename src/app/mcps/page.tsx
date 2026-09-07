@@ -35,7 +35,7 @@ export default function McpsPage() {
         subtitle="MCP servers give your assistant real tools — databases, browsers, APIs, files. Every server here ships with ready-to-paste config for each AI client."
       />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-        <CatalogShell items={items} categories={cats} />
+        <CatalogShell kind="mcps" items={items} categories={cats} />
       </section>
     </>
   );

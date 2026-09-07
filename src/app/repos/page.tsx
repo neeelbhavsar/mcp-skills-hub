@@ -35,7 +35,7 @@ export default function ReposPage() {
         subtitle="Hand-picked, star-ranked repositories for agents, RAG, LLM frameworks and coding assistants — with steps to clone and wire each one into your AI editor."
       />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-        <CatalogShell items={items} categories={cats} />
+        <CatalogShell kind="repos" items={items} categories={cats} />
       </section>
     </>
   );
