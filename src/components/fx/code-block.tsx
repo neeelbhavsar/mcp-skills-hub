@@ -26,7 +26,7 @@ export function CodeBlock({
   }
 
   return (
-    <div className={cn("group relative overflow-hidden rounded-xl border border-border bg-[#05070d]", className)}>
+    <div className={cn("group relative overflow-hidden rounded-xl border border-border bg-[var(--code-bg)]", className)}>
       <div className="flex items-center justify-between border-b border-border/70 px-3 py-1.5">
         <span className="font-mono text-[10px] uppercase tracking-widest text-muted-2">{language}</span>
         <button
@@ -39,7 +39,7 @@ export function CodeBlock({
         </button>
       </div>
       <pre className="overflow-x-auto px-4 py-3 text-[13px] leading-relaxed">
-        <code className="font-mono text-[#c9d3ef] whitespace-pre">{code}</code>
+        <code className="font-mono text-[var(--code-fg)] whitespace-pre">{code}</code>
       </pre>
     </div>
   );

@@ -6,6 +6,7 @@
    ============================================================ */
 
 :root {
+  /* Dark is the design's native mode and stays the default. */
   --background: #070a13;
   --surface: #0d1220;
   --surface-2: #131a2b;
@@ -20,6 +21,59 @@
   --accent: #34d399; /* emerald (action / "run") */
   --warn: #fbbf24;
   --danger: #f87171;
+
+  --dot-grid: rgba(148, 163, 214, 0.06);
+  --code-bg: #05070d;
+  --code-fg: #c9d3ef;
+}
+
+/*
+ * Light palette. Brand hues are darkened rather than reused verbatim — the
+ * violet/cyan that reads well on near-black fails contrast on white.
+ */
+:root[data-theme="light"] {
+  --background: #f7f8fc;
+  --surface: #ffffff;
+  --surface-2: #eef1f8;
+  --foreground: #0e1424;
+  --muted: #55607a;
+  --muted-2: #7d879e;
+  --border: #dfe4ef;
+  --border-strong: #c4cbdb;
+
+  --brand: #5b46e5;
+  --brand-2: #0e8fa8;
+  --accent: #0f9d60;
+  --warn: #b45309;
+  --danger: #dc2626;
+
+  --dot-grid: rgba(30, 41, 82, 0.07);
+  --code-bg: #131a2b;
+  --code-fg: #d7deef;
+}
+
+/* Respect the OS preference until the user picks explicitly. */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --background: #f7f8fc;
+    --surface: #ffffff;
+    --surface-2: #eef1f8;
+    --foreground: #0e1424;
+    --muted: #55607a;
+    --muted-2: #7d879e;
+    --border: #dfe4ef;
+    --border-strong: #c4cbdb;
+
+    --brand: #5b46e5;
+    --brand-2: #0e8fa8;
+    --accent: #0f9d60;
+    --warn: #b45309;
+    --danger: #dc2626;
+
+    --dot-grid: rgba(30, 41, 82, 0.07);
+    --code-bg: #131a2b;
+    --code-fg: #d7deef;
+  }
 }
 
 @theme inline {
@@ -81,8 +135,10 @@
 
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: dark light;
 }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
 
 body {
   background: var(--background);
@@ -98,7 +154,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -2;
-  background-image: radial-gradient(circle at 1px 1px, rgba(148, 163, 214, 0.06) 1px, transparent 0);
+  background-image: radial-gradient(circle at 1px 1px, var(--dot-grid) 1px, transparent 0);
   background-size: 34px 34px;
   mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 40%, transparent 100%);
   pointer-events: none;
