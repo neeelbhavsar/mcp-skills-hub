@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Blocks, Boxes, GitFork, RefreshCw, Terminal, Wand2, ArrowRight } from "lucide-react";
-import { featured, meta } from "@/lib/data";
+import { featured, meta, recentMcps } from "@/lib/data";
 import { skillToCard, mcpToCard, repoToCard } from "@/lib/view";
 import { Hero } from "@/components/home/hero";
 import { SectionPreview } from "@/components/home/section-preview";
@@ -69,6 +69,17 @@ export default function Home() {
         cta="All MCP servers"
         icon={<Blocks className="h-3.5 w-3.5" />}
         items={featured.mcps.map(mcpToCard)}
+      />
+
+      <SectionPreview
+        eyebrow="Fresh from the registry"
+        title="Just published this"
+        highlight="week"
+        description="The newest MCP servers to land in the official registry — updated daily. Subscribe via RSS to follow along."
+        href="/mcps?sort=recent"
+        cta="See what's new"
+        icon={<RefreshCw className="h-3.5 w-3.5" />}
+        items={recentMcps.map(mcpToCard)}
       />
 
       <SectionPreview

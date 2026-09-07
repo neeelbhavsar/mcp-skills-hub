@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { skills, mcps, repos, meta } from "@/lib/data";
+import { USE_CASES } from "@/lib/use-cases";
 import { SITE_URL, categoryPath, resourcePath } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -10,7 +11,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/skills`, lastModified: updated, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/mcps`, lastModified: updated, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/repos`, lastModified: updated, changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE_URL}/use-cases`, lastModified: updated, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/setup`, lastModified: updated, changeFrequency: "monthly", priority: 0.6 },
   ];
+
+  // Task-oriented pages: how people actually phrase the search.
+  const useCaseRoutes: MetadataRoute.Sitemap = USE_CASES.map((u) => ({
+    url: `${SITE_URL}/use-cases/${u.slug}`,
+    lastModified: updated,
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }));
 
   // Each category is a real statically-rendered route with its own canonical,
   // so it can be indexed independently of the parent catalog.
@@ -50,5 +61,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
+  return [...staticRoutes, ...useCaseRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
 }
