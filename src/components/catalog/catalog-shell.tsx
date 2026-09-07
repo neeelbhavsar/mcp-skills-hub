@@ -8,6 +8,7 @@ import { Search, SlidersHorizontal, X } from "lucide-react";
 import type { CardItem } from "@/lib/view";
 import type { ResourceKind } from "@/lib/types";
 import { KIND_META, categoryPath } from "@/lib/seo";
+import { AI_TARGETS } from "@/lib/ai-targets";
 import { searchItems } from "@/lib/search";
 import { ResourceCard } from "./resource-card";
 import { cn } from "@/lib/utils";
@@ -49,6 +50,7 @@ export function CatalogShell({
 
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("popular");
+  const [client, setClient] = useState<string | null>(null);
   const [limit, setLimit] = useState(PAGE);
   const deferredQuery = useDeferredValue(query);
 
@@ -60,14 +62,16 @@ export function CatalogShell({
     const sp = new URLSearchParams(window.location.search);
     const q = sp.get("q");
     const s = sp.get("sort");
+    const c = sp.get("client");
     if (q) setQuery(q);
     if (isSort(s)) setSort(s);
+    if (c && AI_TARGETS.some((t) => t.id === c)) setClient(c);
   }, []);
   /* eslint-enable react-hooks/set-state-in-effect */
 
   // Reset pagination when the result set changes, adjusting state during
   // render rather than in an effect so there is no extra render pass.
-  const resetKey = `${cat ?? ""}|${deferredQuery}|${sort}`;
+  const resetKey = `${cat ?? ""}|${deferredQuery}|${sort}|${client ?? ""}`;
   const [prevResetKey, setPrevResetKey] = useState(resetKey);
   if (resetKey !== prevResetKey) {
     setPrevResetKey(resetKey);
@@ -77,20 +81,22 @@ export function CatalogShell({
   // `history.replaceState` rather than a router navigation: the URL should stay
   // shareable, but re-running the route for a keystroke would be wasteful and
   // would fight the input's local state.
-  const syncUrl = useCallback((next: { q: string; sort: SortKey }) => {
+  const syncUrl = useCallback((next: { q: string; sort: SortKey; client: string | null }) => {
     const sp = new URLSearchParams(window.location.search);
     if (next.q) sp.set("q", next.q);
     else sp.delete("q");
     if (next.sort !== "popular") sp.set("sort", next.sort);
     else sp.delete("sort");
+    if (next.client) sp.set("client", next.client);
+    else sp.delete("client");
     const qs = sp.toString();
     window.history.replaceState(null, "", qs ? `${window.location.pathname}?${qs}` : window.location.pathname);
   }, []);
 
   useEffect(() => {
-    const id = setTimeout(() => syncUrl({ q: deferredQuery, sort }), 350);
+    const id = setTimeout(() => syncUrl({ q: deferredQuery, sort, client }), 350);
     return () => clearTimeout(id);
-  }, [deferredQuery, sort, syncUrl]);
+  }, [deferredQuery, sort, client, syncUrl]);
 
   const sortable = useMemo(
     () => ({
@@ -103,13 +109,21 @@ export function CatalogShell({
   );
 
   const filtered = useMemo(() => {
-    const pool = cat ? items.filter((i) => i.category === cat) : items;
+    let pool = cat ? items.filter((i) => i.category === cat) : items;
+    // "Runs natively in X": stdio servers run anywhere, remote ones need a
+    // bridge on the stdio-only clients.
+    if (client) {
+      const stdioOnly = client === "claude-desktop" || client === "codex";
+      pool = pool.filter((i) =>
+        i.launchMode === "stdio" ? true : i.launchMode === "remote" ? !stdioOnly : false,
+      );
+    }
     // A ranked search supplies its own ordering; the sort control only applies
     // when there is no query to rank against.
     const ranked = searchItems(pool, deferredQuery);
     if (ranked) return ranked;
     return [...pool].sort(sortable[sort]);
-  }, [items, cat, deferredQuery, sort, sortable]);
+  }, [items, cat, client, deferredQuery, sort, sortable]);
 
   const visible = filtered.slice(0, limit);
   const searching = deferredQuery.trim().length > 0;
@@ -172,6 +186,25 @@ export function CatalogShell({
             </div>
           </div>
         </div>
+
+        {/* client compatibility — MCP-only, since it is derived from transport */}
+        {kind === "mcps" && (
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="text-xs text-muted-2">Runs natively in</span>
+            <Chip active={!client} onClick={() => setClient(null)}>
+              Any client
+            </Chip>
+            {AI_TARGETS.map((t) => (
+              <Chip
+                key={t.id}
+                active={client === t.id}
+                onClick={() => setClient(client === t.id ? null : t.id)}
+              >
+                {t.name}
+              </Chip>
+            ))}
+          </div>
+        )}
 
         {/* category chips */}
         <div className="mt-3 flex flex-wrap gap-2">
@@ -238,22 +271,35 @@ function Chip({
   children,
   active,
   href,
+  onClick,
 }: {
   children: React.ReactNode;
   active: boolean;
-  href: string;
+  /** Categories navigate (they are real routes); other filters are local state. */
+  href?: string;
+  onClick?: () => void;
 }) {
+  const className = cn(
+    "ring-focus rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
+    active
+      ? "border-transparent brand-gradient text-white shadow-md shadow-brand/25"
+      : "border-border bg-surface text-muted hover:text-foreground",
+  );
+
+  if (!href) {
+    return (
+      <button type="button" onClick={onClick} aria-pressed={active} className={className}>
+        {children}
+      </button>
+    );
+  }
+
   return (
     <Link
       href={href}
       scroll={false}
       aria-current={active ? "page" : undefined}
-      className={cn(
-        "ring-focus rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
-        active
-          ? "border-transparent brand-gradient text-white shadow-md shadow-brand/25"
-          : "border-border bg-surface text-muted hover:text-foreground",
-      )}
+      className={className}
     >
       {children}
     </Link>

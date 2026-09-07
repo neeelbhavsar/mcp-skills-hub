@@ -1,4 +1,6 @@
 import type { Skill, Mcp, Repo, ResourceKind } from "./types";
+import { launchFor } from "./compat";
+import { overallLevel, trustSignals } from "./trust";
 
 export interface Pill {
   label: string;
@@ -19,6 +21,10 @@ export interface CardItem {
   externalUrl: string;
   /** ISO timestamp, when the source provides one — powers the "Recent" sort. */
   updatedAt: string | null;
+  /** MCP-only: how the server launches, for the client-compatibility filter. */
+  launchMode?: "stdio" | "remote" | "unknown";
+  /** MCP-only: worst trust signal, surfaced as a card badge. */
+  trust?: "good" | "caution" | "risk" | "neutral";
   raw: Skill | Mcp | Repo;
   search: string;
 }
@@ -62,6 +68,8 @@ export function mcpToCard(m: Mcp): CardItem {
     footer: m.license ? m.license : m.qualifiedName.split("/")[0],
     externalUrl: m.homepage || m.repository || "#",
     updatedAt: m.updatedAt,
+    launchMode: launchFor(m).mode,
+    trust: overallLevel(trustSignals(m)),
     raw: m,
     search: `${m.name} ${m.description} ${m.category} ${m.qualifiedName}`.toLowerCase(),
   };
