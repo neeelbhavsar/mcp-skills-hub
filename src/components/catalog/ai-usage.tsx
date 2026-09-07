@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { AI_TARGETS, mcpUsage, skillUsage, repoUsage, type UsageStep } from "@/lib/ai-targets";
+import { Check, ClipboardList } from "lucide-react";
+import { AI_TARGETS, mcpUsage, skillUsage, repoUsage, usageBundle, type UsageStep } from "@/lib/ai-targets";
 import type { CardItem } from "@/lib/view";
 import type { Skill, Mcp, Repo } from "@/lib/types";
 import { CodeBlock } from "@/components/fx/code-block";
@@ -16,8 +17,20 @@ function stepsFor(item: CardItem, aiId: string): UsageStep[] {
 
 export function AiUsage({ item }: { item: CardItem }) {
   const [active, setActive] = useState(AI_TARGETS[0].id);
+  const [copiedAll, setCopiedAll] = useState(false);
   const target = AI_TARGETS.find((t) => t.id === active)!;
   const steps = stepsFor(item, active);
+  const bundle = usageBundle(steps);
+
+  async function copyAll() {
+    try {
+      await navigator.clipboard.writeText(bundle);
+      setCopiedAll(true);
+      setTimeout(() => setCopiedAll(false), 1600);
+    } catch {
+      /* clipboard unavailable */
+    }
+  }
 
   return (
     <div>
@@ -53,9 +66,25 @@ export function AiUsage({ item }: { item: CardItem }) {
           transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
           className="mt-4"
         >
-          <p className="mb-3 text-xs text-muted-2">
-            <span className="text-muted">{target.name}</span> — {target.blurb}
-          </p>
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <p className="text-xs text-muted-2">
+              <span className="text-muted">{target.name}</span> — {target.blurb}
+            </p>
+            {/* Most setups are more than one block; this saves copying each. */}
+            {bundle && (
+              <button
+                onClick={copyAll}
+                className="ring-focus inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs text-muted transition-colors hover:text-foreground"
+              >
+                {copiedAll ? (
+                  <Check className="h-3.5 w-3.5 text-accent" />
+                ) : (
+                  <ClipboardList className="h-3.5 w-3.5" />
+                )}
+                {copiedAll ? "Copied all" : "Copy all"}
+              </button>
+            )}
+          </div>
           <ol className="space-y-4">
             {steps.map((step, i) => (
               <li key={i} className="flex gap-3">
