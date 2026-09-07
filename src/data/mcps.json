@@ -1,1 +1,5348 @@
-[]
+[
+  {
+    "id": "mcp:ac-inference-sh-mcp",
+    "name": "inference.sh",
+    "qualifiedName": "ac.inference.sh/mcp",
+    "slug": "ac-inference-sh-mcp",
+    "description": "run any ai model. compose agents, stack knowledge, connect tools. one api, pay per run.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.inference.sh/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-27T10:44:51.359634Z"
+  },
+  {
+    "id": "mcp:ac-tandem-docs-mcp",
+    "name": "docs-mcp",
+    "qualifiedName": "ac.tandem/docs-mcp",
+    "slug": "ac-tandem-docs-mcp",
+    "description": "Remote MCP server for Tandem docs, install guides, SDKs, workflows, and agent setup help.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/frumu-ai/tandem",
+    "homepage": "https://tandem.ac/docs-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://tandem.ac/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-22T21:06:34.500049Z"
+  },
+  {
+    "id": "mcp:ad-inside-inside-ads",
+    "name": "Inside Ads",
+    "qualifiedName": "ad.inside/inside-ads",
+    "slug": "ad-inside-inside-ads",
+    "description": "Telegram ad exchange: estimate reach and cost with no account, then create and run campaigns.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://inside.ad",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.inside.ad/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-18T20:55:46.452926Z"
+  },
+  {
+    "id": "mcp:ae-propick-propick",
+    "name": "Propick Integration MCP",
+    "qualifiedName": "ae.propick/propick",
+    "slug": "ae-propick-propick",
+    "description": "Manage your real-estate stock on Propick (Dubai): bulk listing sync, lookups and run reports.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://propick.ae",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://propick.ae/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-25T11:16:56.879334Z"
+  },
+  {
+    "id": "mcp:ag-hood-name-service",
+    "name": "hood. — .hood name service",
+    "qualifiedName": "ag.hood/name-service",
+    "slug": "ag-hood-name-service",
+    "description": "Resolve .hood names on Robinhood Chain — forward/reverse, text records, availability & pricing.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://www.hood.ag/docs",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://www.hood.ag/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-10T04:58:06.628668Z"
+  },
+  {
+    "id": "mcp:agency-goji-goji",
+    "name": "goji",
+    "qualifiedName": "agency.goji/goji",
+    "slug": "agency-goji-goji",
+    "description": "Answers on AEO, SEO, web and brand from GOJI's published material. Melbourne, Australia.",
+    "category": "Web & Search",
+    "repository": "https://github.com/goji-agency/goji-mcp",
+    "homepage": "https://goji.agency",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.goji.agency/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-13T13:12:26.047978Z"
+  },
+  {
+    "id": "mcp:agency-kesey-pretrip",
+    "name": "Pre-Trip compliance scanner",
+    "qualifiedName": "agency.kesey/pretrip",
+    "slug": "agency-kesey-pretrip",
+    "description": "Screen regulated-health marketing copy against source-cited rulesets, all 50 states.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://scan.kesey.agency/developers/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "pretrip-mcp",
+        "version": "1.0.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-26T18:03:21.463557Z"
+  },
+  {
+    "id": "mcp:agency-lona-trading",
+    "name": "trading",
+    "qualifiedName": "agency.lona/trading",
+    "slug": "agency-lona-trading",
+    "description": "AI-powered trading strategy development: backtesting, market data, and portfolio analysis",
+    "category": "Finance & Data",
+    "repository": "https://github.com/mindsightventures/lona",
+    "homepage": "https://lona.agency",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.lona.agency/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-24T00:07:27.525636Z"
+  },
+  {
+    "id": "mcp:ai-1325-mcp",
+    "name": "1325.AI",
+    "qualifiedName": "ai.1325/mcp",
+    "slug": "ai-1325-mcp",
+    "description": "Verified directory of 44,000+ Black-owned U.S. businesses. Search, maps, loyalty rewards.",
+    "category": "Web & Search",
+    "repository": "https://github.com/1325ai/1325ai",
+    "homepage": "https://1325.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agoclnqfyinwjxdmjnns.supabase.co/functions/v1/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-10T05:01:17.106808Z"
+  },
+  {
+    "id": "mcp:ai-aarna-atars-mcp",
+    "name": "aTars MCP",
+    "qualifiedName": "ai.aarna/atars-mcp",
+    "slug": "ai-aarna-atars-mcp",
+    "description": "Crypto market signals, technical indicators, and sentiment analysis for AI agents.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://mcp.aarna.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aarna.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-10T11:09:59.15927Z"
+  },
+  {
+    "id": "mcp:ai-abmeter-abmeter",
+    "name": "ABMeter",
+    "qualifiedName": "ai.abmeter/abmeter",
+    "slug": "ai-abmeter-abmeter",
+    "description": "Run A/B experiments through your AI assistant. SDKs for Ruby, Python, JS, Node, React Native, Go.",
+    "category": "Other",
+    "repository": "https://github.com/abmeter/abmeter",
+    "homepage": "https://abmeter.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.abmeter.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-30T00:28:05.727498Z"
+  },
+  {
+    "id": "mcp:ai-actwise-ideation",
+    "name": "ideation",
+    "qualifiedName": "ai.actwise/ideation",
+    "slug": "ai-actwise-ideation",
+    "description": "Actwise Ideation helps founders benchmark startup and product ideas before they build.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://actwise.ai/home/ideation",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://actwise.ai/ideation/mcp/v1"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T04:14:24.243152Z"
+  },
+  {
+    "id": "mcp:ai-adadvisor-mcp-server",
+    "name": "AdAdvisor MCP Server",
+    "qualifiedName": "ai.adadvisor/mcp-server",
+    "slug": "ai-adadvisor-mcp-server",
+    "description": "Query Meta Ads performance data — accounts, campaigns, ad sets, ads, metrics & settings.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://www.adadvisor.ai/docs/user-guide/getting-started-with-mcp?utm_source=mcp-registry",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.adadvisor.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-28T13:09:52.236521Z"
+  },
+  {
+    "id": "mcp:ai-adeu-adeu",
+    "name": "adeu",
+    "qualifiedName": "ai.adeu/adeu",
+    "slug": "ai-adeu-adeu",
+    "description": "Automated DOCX Redlining Engine",
+    "category": "Other",
+    "repository": "https://github.com/dealfluence/adeu",
+    "homepage": "https://github.com/dealfluence/adeu",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@adeu/mcp-server",
+        "version": "1.7.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-16T13:54:48.18266Z"
+  },
+  {
+    "id": "mcp:ai-adoraads-beauty",
+    "name": "beauty",
+    "qualifiedName": "ai.adoraads/beauty",
+    "slug": "ai-adoraads-beauty",
+    "description": "AI-native beauty ads, sponsored product discovery, and brand recommendations.",
+    "category": "Other",
+    "repository": "https://github.com/DIGIBIZ360-COM/adoraads",
+    "homepage": "https://github.com/DIGIBIZ360-COM/adoraads",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.adoraads.ai/beauty"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-08T17:50:25.566057Z"
+  },
+  {
+    "id": "mcp:ai-adplane-google-ads",
+    "name": "google-ads",
+    "qualifiedName": "ai.adplane/google-ads",
+    "slug": "ai-adplane-google-ads",
+    "description": "Google Ads reporting and campaign management. Everything it creates starts paused.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://adplane.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.adplane.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-08T18:01:15.320148Z"
+  },
+  {
+    "id": "mcp:ai-adramp-google-ads",
+    "name": "google-ads",
+    "qualifiedName": "ai.adramp/google-ads",
+    "slug": "ai-adramp-google-ads",
+    "description": "Google Ads MCP server — manage campaigns, keywords, and metrics.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://adramp.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.adramp.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-20T11:16:36.853329Z"
+  },
+  {
+    "id": "mcp:ai-adside-adside",
+    "name": "adside",
+    "qualifiedName": "ai.adside/adside",
+    "slug": "ai-adside-adside",
+    "description": "AI agents that manage paid ads on Meta, LinkedIn, and Google Ads from any MCP client.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://www.adside.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.adside.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-16T19:48:48.148514Z"
+  },
+  {
+    "id": "mcp:ai-adtest-adtest-mcp",
+    "name": "adtest-mcp",
+    "qualifiedName": "ai.adtest/adtest-mcp",
+    "slug": "ai-adtest-adtest-mcp",
+    "description": "AI-only ad scoring for Claude: score image, video or text ads on 13 dimensions before you spend.",
+    "category": "Design & Media",
+    "repository": "https://github.com/menaker/adtest-mcp",
+    "homepage": "https://adtest.ai/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "adtest-mcp",
+        "version": "1.1.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-01T21:42:48.138341Z"
+  },
+  {
+    "id": "mcp:ai-advisorsai-service-navigator",
+    "name": "Advisors AI — Route a Store Need to a Service",
+    "qualifiedName": "ai.advisorsai/service-navigator",
+    "slug": "ai-advisorsai-service-navigator",
+    "description": "Describe a store's problem: get the matching service, its fixed price, and a request link.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://advisorsai.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://advisorsai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-06T19:06:20.036379Z"
+  },
+  {
+    "id": "mcp:ai-advisorsai-store-readiness",
+    "name": "One-Page Readiness Check — 10 Signals, Arabic or English",
+    "qualifiedName": "ai.advisorsai/store-readiness",
+    "slug": "ai-advisorsai-store-readiness",
+    "description": "Ten machine-readable signals on one public page: the top miss if any, and a receipt we re-verify.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://advisorsai.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://advisorsai.ai/store-readiness-mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-28T13:28:25.814078Z"
+  },
+  {
+    "id": "mcp:ai-adweave-meta-ads-mcp",
+    "name": "AdWeave — Meta Ads MCP Server",
+    "qualifiedName": "ai.adweave/meta-ads-mcp",
+    "slug": "ai-adweave-meta-ads-mcp",
+    "description": "Meta Ads MCP server with 47 tools for campaigns, creatives, audiences, and insights.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.adweave.ai/meta-ads-mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-10T16:46:57.731179Z"
+  },
+  {
+    "id": "mcp:ai-aetherwealth-mcp",
+    "name": "Aether Wealth",
+    "qualifiedName": "ai.aetherwealth/mcp",
+    "slug": "ai-aetherwealth-mcp",
+    "description": "Aether Wealth MCP for AI assistants: trades, alerts, market data, macro calendar & indicators.",
+    "category": "Productivity",
+    "repository": null,
+    "homepage": "https://aetherwealth.ai/mcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@aetherwealth/mcp",
+        "version": "0.2.15",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T23:23:37.052507Z"
+  },
+  {
+    "id": "mcp:ai-afmr-discovery",
+    "name": "AFMR Discovery",
+    "qualifiedName": "ai.afmr/discovery",
+    "slug": "ai-afmr-discovery",
+    "description": "Read AFMR failure modes and discover scoped attestation and lift-evidence contracts.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://afmr.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://afmr.ai/mcp"
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://afmr.ai/api/rpc"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-22T16:29:05.632026Z"
+  },
+  {
+    "id": "mcp:ai-agentberg-agentberg",
+    "name": "agentberg",
+    "qualifiedName": "ai.agentberg/agentberg",
+    "slug": "ai-agentberg-agentberg",
+    "description": "Agent-to-agent trading intelligence exchange. Publish findings, vote on quality, earn reputation.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Agentberg/agentberg",
+    "homepage": "https://github.com/Agentberg/agentberg",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentberg.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-18T01:49:38.050173Z"
+  },
+  {
+    "id": "mcp:ai-agentdm-agentdm",
+    "name": "AgentDM: Agent to Agent Communication Platform",
+    "qualifiedName": "ai.agentdm/agentdm",
+    "slug": "ai-agentdm-agentdm",
+    "description": "Agent communication platform for agent to agent messaging via MCP. Messages, channels, skills.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/agentdmai/agentdm",
+    "homepage": "https://agentdm.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agentdm.ai/mcp/v1/grid"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-10T02:12:16.907792Z"
+  },
+  {
+    "id": "mcp:ai-agentgates-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.agentgates/mcp",
+    "slug": "ai-agentgates-mcp",
+    "description": "Confidential compute and inference sold to agents over x402 USDC, plus an agent wallet over MCP.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentgates.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentgates.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-25T05:32:02.617195Z"
+  },
+  {
+    "id": "mcp:ai-agentic-news-mcp",
+    "name": "Agentic News",
+    "qualifiedName": "ai.agentic-news/mcp",
+    "slug": "ai-agentic-news-mcp",
+    "description": "AI-powered news intelligence — 21 tools for personalized monitoring, briefings, and semantic search",
+    "category": "Web & Search",
+    "repository": "https://github.com/u00dxk2/agentic-news",
+    "homepage": "https://agentic-news.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agentic-news.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-06T18:34:53.583541Z"
+  },
+  {
+    "id": "mcp:ai-agenticaffiliate-affiliate-networks-mcp",
+    "name": "Affiliate Networks MCP",
+    "qualifiedName": "ai.agenticaffiliate/affiliate-networks-mcp",
+    "slug": "ai-agenticaffiliate-affiliate-networks-mcp",
+    "description": "Affiliate network reporting in your AI client. Bring your own keys. Most adapters experimental.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/bobberrisford/affiliatemcp",
+    "homepage": "https://agenticaffiliate.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "affiliate-networks-mcp",
+        "version": "0.19.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.agenticaffiliate.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-29T07:26:14.414867Z"
+  },
+  {
+    "id": "mcp:ai-agenticfabricationnetwork-ufp",
+    "name": "Agentic Fabrication Network (AFN)",
+    "qualifiedName": "ai.agenticfabricationnetwork/ufp",
+    "slug": "ai-agenticfabricationnetwork-ufp",
+    "description": "Turn designs into shipped parts: quote 3D printing, CNC, and decals, then check out.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agenticfabricationnetwork.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-07T18:18:36.945995Z"
+  },
+  {
+    "id": "mcp:ai-agenticshelf-graffeo",
+    "name": "Graffeo Coffee Roasting",
+    "qualifiedName": "ai.agenticshelf/graffeo",
+    "slug": "ai-agenticshelf-graffeo",
+    "description": "Live MCP catalog for Graffeo Coffee Roasting - Simply the World's Finest Coffee since 1935.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://www.graffeo.com",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agenticshelf.ai/m/graffeo/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-14T20:40:06.442182Z"
+  },
+  {
+    "id": "mcp:ai-agenticshelf-mcp",
+    "name": "Agentic Shelf",
+    "qualifiedName": "ai.agenticshelf/mcp",
+    "slug": "ai-agenticshelf-mcp",
+    "description": "Hosted MCP for e-commerce: live product catalog, stock, and pricing for AI agents.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/vboykoCTO/agentic-shelf",
+    "homepage": "https://www.agenticshelf.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agenticshelf.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-06T16:24:16.952518Z"
+  },
+  {
+    "id": "mcp:ai-agenticshelf-puroair",
+    "name": "PuroAir",
+    "qualifiedName": "ai.agenticshelf/puroair",
+    "slug": "ai-agenticshelf-puroair",
+    "description": "Breathe with Confidence. Live MCP catalog for PuroAir HEPA air purifiers - stock, pricing, details.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://getpuroair.com",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agenticshelf.ai/m/puroair/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-02T16:47:32.556297Z"
+  },
+  {
+    "id": "mcp:ai-agenticterminal-directory",
+    "name": "Agentic Terminal Directory",
+    "qualifiedName": "ai.agenticterminal/directory",
+    "slug": "ai-agenticterminal-directory",
+    "description": "Verified merchants accepting agentic payments on Lightning/L402/BOLT12/USDT — search, verify, pay.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/observer-protocol/at-directory",
+    "homepage": "https://agenticterminal.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.agenticterminal.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T15:17:01.794422Z"
+  },
+  {
+    "id": "mcp:ai-agentlookups-counterscript",
+    "name": "CounterScript - Drug Price Benchmarks",
+    "qualifiedName": "ai.agentlookups/counterscript",
+    "slug": "ai-agentlookups-counterscript",
+    "description": "Free US drug-price benchmarks from federal data (CMS NADAC): a benchmark, not a price anyone owes.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://rx.agentlookups.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://rx.agentlookups.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T18:02:49.773179Z"
+  },
+  {
+    "id": "mcp:ai-agentlookups-greenlight",
+    "name": "GreenLight - Plug-in Solar Law Registry",
+    "qualifiedName": "ai.agentlookups/greenlight",
+    "slug": "ai-agentlookups-greenlight",
+    "description": "US plug-in solar (balcony solar) law registry with a daily UL 3700 certification watch.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://solar.agentlookups.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://solar.agentlookups.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T18:02:50.186676Z"
+  },
+  {
+    "id": "mcp:ai-agentlookups-groundtruth",
+    "name": "GroundTruth - Environmental Records",
+    "qualifiedName": "ai.agentlookups/groundtruth",
+    "slug": "ai-agentlookups-groundtruth",
+    "description": "Federal environmental records near any US location, with dates and provenance; never a safety score.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://env.agentlookups.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://env.agentlookups.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T18:02:49.994915Z"
+  },
+  {
+    "id": "mcp:ai-agentlookups-overassessed",
+    "name": "overassessed",
+    "qualifiedName": "ai.agentlookups/overassessed",
+    "slug": "ai-agentlookups-overassessed",
+    "description": "Maryland property-assessment fairness checks vs similar homes, with appeal windows and links.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://overassessed.agentlookups.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T01:26:05.596901Z"
+  },
+  {
+    "id": "mcp:ai-agentlookups-plumbline",
+    "name": "Plumbline - Contractor License Checks",
+    "qualifiedName": "ai.agentlookups/plumbline",
+    "slug": "ai-agentlookups-plumbline",
+    "description": "Free contractor-license checks from official state records; a no-match never proves unlicensed.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://contractors.agentlookups.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://contractors.agentlookups.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T18:02:49.501969Z"
+  },
+  {
+    "id": "mcp:ai-agentmesh-mesh",
+    "name": "AgentMesh",
+    "qualifiedName": "ai.agentmesh/mesh",
+    "slug": "ai-agentmesh-mesh",
+    "description": "Be an agent on the AgentMesh network: find agents, hire them, be hired, and read your mesh inbox.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentmesh.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.agentmesh.ai/v1/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-23T19:33:28.656602Z"
+  },
+  {
+    "id": "mcp:ai-agentrapay-agentra",
+    "name": "agentra",
+    "qualifiedName": "ai.agentrapay/agentra",
+    "slug": "ai-agentrapay-agentra",
+    "description": "Identity oracle and trust layer for autonomous AI agents. Bidirectional KYA and trust scoring.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://api.agentrapay.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-22T18:16:07.628131Z"
+  },
+  {
+    "id": "mcp:ai-agentroam-agentroam",
+    "name": "AgentRoam",
+    "qualifiedName": "ai.agentroam/agentroam",
+    "slug": "ai-agentroam-agentroam",
+    "description": "Buy travel eSIMs, gift cards and mobile top-ups with crypto — user confirms before any order.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/adiny/nomad-crypto-travel",
+    "homepage": "https://agentroam.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentroam.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-22T05:50:30.033913Z"
+  },
+  {
+    "id": "mcp:ai-agenttrust-mcp-server",
+    "name": "AgentTrust — Identity & Trust for A2A Agents",
+    "qualifiedName": "ai.agenttrust/mcp-server",
+    "slug": "ai-agenttrust-mcp-server",
+    "description": "Identity, trust, and A2A orchestration for autonomous AI agents. Official A2A partner.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/agenttrust/mcp-server",
+    "homepage": "https://agenttrust.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agenttrust/mcp-server",
+        "version": "1.1.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-06T11:23:10.721165Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-agentops",
+    "name": "AgentUtility Agentops",
+    "qualifiedName": "ai.agentutility/mcp-agentops",
+    "slug": "ai-agentutility-mcp-agentops",
+    "description": "MCP server for the @agentutility agentops cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/agentops/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-agentops",
+        "version": "0.1.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:14.904919Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-bestiary",
+    "name": "AgentUtility Bestiary",
+    "qualifiedName": "ai.agentutility/mcp-bestiary",
+    "slug": "ai-agentutility-mcp-bestiary",
+    "description": "MCP server for the @agentutility bestiary cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/bestiary/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-bestiary",
+        "version": "0.1.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:15.433564Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-browser-workflow",
+    "name": "AgentUtility Browser Workflow",
+    "qualifiedName": "ai.agentutility/mcp-browser-workflow",
+    "slug": "ai-agentutility-mcp-browser-workflow",
+    "description": "MCP server for the @agentutility browser-workflow cluster — pay-per-call x402 tools, no API keys…",
+    "category": "Web & Search",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/browser-workflow/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-browser-workflow",
+        "version": "0.1.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:15.897391Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-compose",
+    "name": "AgentUtility Compose",
+    "qualifiedName": "ai.agentutility/mcp-compose",
+    "slug": "ai-agentutility-mcp-compose",
+    "description": "MCP server for the @agentutility compose cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/compose/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-compose",
+        "version": "0.13.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:16.321193Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-edge-finance",
+    "name": "AgentUtility Edge Finance",
+    "qualifiedName": "ai.agentutility/mcp-edge-finance",
+    "slug": "ai-agentutility-mcp-edge-finance",
+    "description": "MCP server for the @agentutility edge-finance cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/edge-finance/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-edge-finance",
+        "version": "0.18.8",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:17.095531Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-edge-market",
+    "name": "AgentUtility Edge Market",
+    "qualifiedName": "ai.agentutility/mcp-edge-market",
+    "slug": "ai-agentutility-mcp-edge-market",
+    "description": "MCP server for the @agentutility edge-market cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/edge-market/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-edge-market",
+        "version": "0.15.6",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:17.497855Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-locale",
+    "name": "AgentUtility Locale",
+    "qualifiedName": "ai.agentutility/mcp-locale",
+    "slug": "ai-agentutility-mcp-locale",
+    "description": "MCP server for the @agentutility locale cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/locale/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-locale",
+        "version": "0.8.7",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:17.9033Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-matchpoint",
+    "name": "AgentUtility Matchpoint",
+    "qualifiedName": "ai.agentutility/mcp-matchpoint",
+    "slug": "ai-agentutility-mcp-matchpoint",
+    "description": "MCP server for the @agentutility matchpoint cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/matchpoint/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-matchpoint",
+        "version": "0.1.4",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:18.280353Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-mediakit",
+    "name": "AgentUtility Mediakit",
+    "qualifiedName": "ai.agentutility/mcp-mediakit",
+    "slug": "ai-agentutility-mcp-mediakit",
+    "description": "MCP server for the @agentutility mediakit cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/mediakit/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-mediakit",
+        "version": "0.11.9",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:18.653557Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-model-router",
+    "name": "AgentUtility Model Router",
+    "qualifiedName": "ai.agentutility/mcp-model-router",
+    "slug": "ai-agentutility-mcp-model-router",
+    "description": "MCP server for the @agentutility model-router cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/model-router/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-model-router",
+        "version": "0.1.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:19.082426Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-prooflayer",
+    "name": "AgentUtility Prooflayer",
+    "qualifiedName": "ai.agentutility/mcp-prooflayer",
+    "slug": "ai-agentutility-mcp-prooflayer",
+    "description": "MCP server for the @agentutility prooflayer cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/prooflayer/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-prooflayer",
+        "version": "0.2.4",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:19.560994Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-retail",
+    "name": "AgentUtility Retail",
+    "qualifiedName": "ai.agentutility/mcp-retail",
+    "slug": "ai-agentutility-mcp-retail",
+    "description": "MCP server for the @agentutility retail cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/retail/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-retail",
+        "version": "0.2.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:19.946363Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-rollforge",
+    "name": "AgentUtility Rollforge",
+    "qualifiedName": "ai.agentutility/mcp-rollforge",
+    "slug": "ai-agentutility-mcp-rollforge",
+    "description": "MCP server for the @agentutility rollforge cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/rollforge/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-rollforge",
+        "version": "0.1.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:20.41779Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-statline",
+    "name": "AgentUtility Statline",
+    "qualifiedName": "ai.agentutility/mcp-statline",
+    "slug": "ai-agentutility-mcp-statline",
+    "description": "MCP server for the @agentutility statline cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/statline/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-statline",
+        "version": "0.1.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:20.828032Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-synthforge",
+    "name": "AgentUtility Synthforge",
+    "qualifiedName": "ai.agentutility/mcp-synthforge",
+    "slug": "ai-agentutility-mcp-synthforge",
+    "description": "MCP server for the @agentutility synthforge cluster — pay-per-call x402 tools, no API keys, USDC…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/synthforge/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-synthforge",
+        "version": "0.8.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:21.289726Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-web-probe",
+    "name": "AgentUtility Web Probe",
+    "qualifiedName": "ai.agentutility/mcp-web-probe",
+    "slug": "ai-agentutility-mcp-web-probe",
+    "description": "MCP server for the @agentutility web-probe cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "Web & Search",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/web-probe/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-web-probe",
+        "version": "0.32.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:21.796993Z"
+  },
+  {
+    "id": "mcp:ai-agentutility-mcp-wordmint",
+    "name": "AgentUtility Wordmint",
+    "qualifiedName": "ai.agentutility/mcp-wordmint",
+    "slug": "ai-agentutility-mcp-wordmint",
+    "description": "MCP server for the @agentutility wordmint cluster — pay-per-call x402 tools, no API keys, USDC on…",
+    "category": "AI & Memory",
+    "repository": "https://github.com/rooz21/x402",
+    "homepage": "https://mcp.agentutility.ai/wordmint/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@agentutility/mcp-wordmint",
+        "version": "0.16.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:10:22.302521Z"
+  },
+  {
+    "id": "mcp:ai-agentxray-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.agentxray/mcp",
+    "slug": "ai-agentxray-mcp",
+    "description": "Amazon sellers: real per-unit profit from your own settlement data, plus drafts you approve.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentxray.ai/connect",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentxray.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-01T10:54:13.681499Z"
+  },
+  {
+    "id": "mcp:ai-aginera-preconstruction",
+    "name": "Aginera",
+    "qualifiedName": "ai.aginera/preconstruction",
+    "slug": "ai-aginera-preconstruction",
+    "description": "Turn construction drawings into takeoffs, measured routes, schedules and estimates.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://aginera.ai/agents",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aginera.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T22:59:05.289477Z"
+  },
+  {
+    "id": "mcp:ai-ai-advisors-mcp",
+    "name": "AI-Advisors",
+    "qualifiedName": "ai.ai-advisors/mcp",
+    "slug": "ai-ai-advisors-mcp",
+    "description": "Read-only AI search visibility data: citations, AEO audits, and advisor insights from AI-Advisors.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://www.ai-advisors.ai/integrations/mcp-server",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.ai-advisors.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-02T18:21:16.578234Z"
+  },
+  {
+    "id": "mcp:ai-ai-akari-agent-trust-receipt",
+    "name": "AIﾉアカリ☆ Agent Trust Receipt",
+    "qualifiedName": "ai.ai-akari/agent-trust-receipt",
+    "slug": "ai-ai-akari-agent-trust-receipt",
+    "description": "Read-only Remote MCP for externally grounded AI agent trust receipts.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/AInoAKARI/AInoAKARI",
+    "homepage": "https://ai-akari.ai/.well-known/agent-trust.json",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://ai-akari.ai/mcp-trust"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-24T19:48:47.852003Z"
+  },
+  {
+    "id": "mcp:ai-ai-akari-one-minute-akari",
+    "name": "AIﾉアカリ☆ One-Minute Akari",
+    "qualifiedName": "ai.ai-akari/one-minute-akari",
+    "slug": "ai-ai-akari-one-minute-akari",
+    "description": "A free one-minute reset for people, delivered by AI, with no account or personal data.",
+    "category": "Other",
+    "repository": "https://github.com/AInoAKARI/arigatou-kawaii-lp",
+    "homepage": "https://github.com/AInoAKARI/arigatou-kawaii-lp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://ai-akari.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-18T04:01:27.700359Z"
+  },
+  {
+    "id": "mcp:ai-ai-portal-ai-portal",
+    "name": "AI-Portal Enterprise GenAI Briefing",
+    "qualifiedName": "ai.ai-portal/ai-portal",
+    "slug": "ai-ai-portal-ai-portal",
+    "description": "Live AI data for agents: model releases, regulations (EU AI Act), GenAI glossary, daily news.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://www.ai-portal.ai/developers",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://www.ai-portal.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-13T15:07:28.114017Z"
+  },
+  {
+    "id": "mcp:ai-aient-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.aient/mcp",
+    "slug": "ai-aient-mcp",
+    "description": "MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/haf/glimt",
+    "homepage": "https://github.com/haf/glimt",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://aient.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-11T10:40:20.47951Z"
+  },
+  {
+    "id": "mcp:ai-airshelf-catalog",
+    "name": "AirShelf Catalog",
+    "qualifiedName": "ai.airshelf/catalog",
+    "slug": "ai-airshelf-catalog",
+    "description": "Cross-vendor B2B catalog for AI agents: search, compare, find equivalents, request a quote.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.airshelf.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-16T09:32:12.311101Z"
+  },
+  {
+    "id": "mcp:ai-aislabs-cve",
+    "name": "AIS CVE Priorities — daily exploit-ranked patch list for AI agents",
+    "qualifiedName": "ai.aislabs/cve",
+    "slug": "ai-aislabs-cve",
+    "description": "Daily CVE priorities ranked by real exploitation (KEV+EPSS) for AI agents; free teaser, paid full",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://aislabs.ai/gateway",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.aislabs.ai/cve/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-31T21:00:04.921147Z"
+  },
+  {
+    "id": "mcp:ai-aislabs-gateway",
+    "name": "AIS Gateway — the campus front desk for AIS MCP buildings",
+    "qualifiedName": "ai.aislabs/gateway",
+    "slug": "ai-aislabs-gateway",
+    "description": "Front desk for the AIS MCP campus: lists our buildings (CVE, Flight Recorder), prices, how to pay",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://aislabs.ai/gateway",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.aislabs.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-31T22:13:52.792642Z"
+  },
+  {
+    "id": "mcp:ai-aislabs-recorder",
+    "name": "AIS Agent Flight Recorder — dead-man alerts & resume for AI agents",
+    "qualifiedName": "ai.aislabs/recorder",
+    "slug": "ai-aislabs-recorder",
+    "description": "Dead-man switch for AI agents & cron jobs: heartbeat with state capsule, alerts + resume links",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://aislabs.ai/gateway",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.aislabs.ai/recorder/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-31T20:30:22.269692Z"
+  },
+  {
+    "id": "mcp:ai-aivonic-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.aivonic/mcp",
+    "slug": "ai-aivonic-mcp",
+    "description": "Do business with Aivonic: pricing, products, check availability, book a demo, request a quote.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://aivonic.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aivonic.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T14:07:36.70305Z"
+  },
+  {
+    "id": "mcp:ai-aliengiraffe-spotdb",
+    "name": "spotdb",
+    "qualifiedName": "ai.aliengiraffe/spotdb",
+    "slug": "ai-aliengiraffe-spotdb",
+    "description": "Ephemeral data sandbox for AI workflows with guardrails and security",
+    "category": "Other",
+    "repository": "https://github.com/aliengiraffe/spotdb",
+    "homepage": "https://github.com/aliengiraffe/spotdb",
+    "packages": [
+      {
+        "registryType": "oci",
+        "identifier": "docker.io/aliengiraffe/spotdb:0.1.0",
+        "version": "latest",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2025-10-09T17:05:17.793149Z"
+  },
+  {
+    "id": "mcp:ai-alphacreek-alphacreek-mcp",
+    "name": "AlphaCreek SEC Filings MCP",
+    "qualifiedName": "ai.alphacreek/alphacreek-mcp",
+    "slug": "ai-alphacreek-alphacreek-mcp",
+    "description": "Access SEC filings efficiently (10-K, 10-Q, etc), save time and tokens, and get cited answers.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://www.alphacreek.ai/mcp-docs",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.alphacreek.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-12T13:01:13.227147Z"
+  },
+  {
+    "id": "mcp:ai-alpic-alpix-alpix",
+    "name": "AlpiX",
+    "qualifiedName": "ai.alpic.alpix/Alpix",
+    "slug": "ai-alpic-alpix-alpix",
+    "description": "A pixel wars MCP server: ask your agent to collaboratively draw pixels in a huge square",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://alpic.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://alpix.alpic.ai"
+      },
+      {
+        "type": "sse",
+        "url": "https://alpix.alpic.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-27T08:20:57.475155Z"
+  },
+  {
+    "id": "mcp:ai-alpic-mcp-alpic-mcp",
+    "name": "Alpic",
+    "qualifiedName": "ai.alpic.mcp/alpic-mcp",
+    "slug": "ai-alpic-mcp-alpic-mcp",
+    "description": "Manage your projects, debug deployments, and check analytics for any MCP server you host with Alpic.",
+    "category": "Cloud & DevOps",
+    "repository": null,
+    "homepage": "https://alpic.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.alpic.ai"
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.alpic.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-27T08:15:31.692348Z"
+  },
+  {
+    "id": "mcp:ai-alpic-test-test-mcp-server",
+    "name": "test-mcp-server",
+    "qualifiedName": "ai.alpic.test/test-mcp-server",
+    "slug": "ai-alpic-test-test-mcp-server",
+    "description": "Alpic Test MCP Server - great server!",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://test.alpic.ai/"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2025-09-10T13:57:43.256739Z"
+  },
+  {
+    "id": "mcp:ai-ambix-ambix",
+    "name": "Ambix",
+    "qualifiedName": "ai.ambix/ambix",
+    "slug": "ai-ambix-ambix",
+    "description": "Your product team's shared strategic memory — an MCP server your AI tools reason over.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/ambix-ai/mcp",
+    "homepage": "https://ambix.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.ambix.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-18T11:40:33.32243Z"
+  },
+  {
+    "id": "mcp:ai-analyticslegends-sap-analytics",
+    "name": "Analytics Legends — SAP Analytics Intelligence",
+    "qualifiedName": "ai.analyticslegends/sap-analytics",
+    "slug": "ai-analyticslegends-sap-analytics",
+    "description": "AI agent for SAP analytics: firms, day rates, contract radar, news, concepts, studies",
+    "category": "AI & Memory",
+    "repository": "https://github.com/analyticslegends/analytics-legends-mcp",
+    "homepage": "https://analyticslegends.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://analyticslegends.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-18T19:33:29.605357Z"
+  },
+  {
+    "id": "mcp:ai-ankimcp-anki-mcp-server",
+    "name": "Anki MCP Server",
+    "qualifiedName": "ai.ankimcp/anki-mcp-server",
+    "slug": "ai-ankimcp-anki-mcp-server",
+    "description": "MCP server for Anki flashcards: adaptive review, notes, media, and deck management via AnkiConnect.",
+    "category": "Design & Media",
+    "repository": "https://github.com/ankimcp/anki-mcp-server",
+    "homepage": "https://ankimcp.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@ankimcp/anki-mcp-server",
+        "version": "0.25.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-04T16:01:36.144905Z"
+  },
+  {
+    "id": "mcp:ai-ankimcp-anki-mcp-server-addon",
+    "name": "AnkiMCP Server",
+    "qualifiedName": "ai.ankimcp/anki-mcp-server-addon",
+    "slug": "ai-ankimcp-anki-mcp-server-addon",
+    "description": "Anki addon that exposes your flashcard collection to AI assistants via a local MCP server.",
+    "category": "Other",
+    "repository": "https://github.com/ankimcp/anki-mcp-server-addon",
+    "homepage": "https://ankimcp.ai",
+    "packages": [],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-04T16:44:43.882669Z"
+  },
+  {
+    "id": "mcp:ai-anomalyarmor-armor-mcp",
+    "name": "AnomalyArmor",
+    "qualifiedName": "ai.anomalyarmor/armor-mcp",
+    "slug": "ai-anomalyarmor-armor-mcp",
+    "description": "Data observability tools for engineering teams: alerts, freshness, schema drift, lineage, quality.",
+    "category": "Other",
+    "repository": "https://github.com/anomalyarmor/agents",
+    "homepage": "https://www.anomalyarmor.ai",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "armor-mcp",
+        "version": "0.6.1",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.anomalyarmor.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-18T00:51:37.350253Z"
+  },
+  {
+    "id": "mcp:ai-anzenna-anzenna",
+    "name": "anzenna",
+    "qualifiedName": "ai.anzenna/anzenna",
+    "slug": "ai-anzenna-anzenna",
+    "description": "MCP server for Anzenna",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://mcp.anzenna.ai/sse"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-21T23:53:55.798606Z"
+  },
+  {
+    "id": "mcp:ai-apithreshold-apithreshold",
+    "name": "APIThreshold",
+    "qualifiedName": "ai.apithreshold/apithreshold",
+    "slug": "ai-apithreshold-apithreshold",
+    "description": "Quality scoring and progressive gates for AI-generated API tests. Stripe/Twilio profiles. Free tier.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://apithreshold.ai",
+    "packages": [
+      {
+        "registryType": "oci",
+        "identifier": "ghcr.io/apithreshold/apithreshold:0.1.0",
+        "version": "latest",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-02T22:06:43.451983Z"
+  },
+  {
+    "id": "mcp:ai-appdeploy-deploy-app",
+    "name": "AppDeploy",
+    "qualifiedName": "ai.appdeploy/deploy-app",
+    "slug": "ai-appdeploy-deploy-app",
+    "description": "AppDeploy turns app ideas described in AI chat into live full-stack web applications",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://appdeploy.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api-v2.appdeploy.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-13T12:28:46.556669Z"
+  },
+  {
+    "id": "mcp:ai-aqta-seal",
+    "name": "seal",
+    "qualifiedName": "ai.aqta/seal",
+    "slug": "ai-aqta-seal",
+    "description": "Verify Seal AI decision receipts: signed evidence anyone can check, no account needed.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://app.aqta.ai/demo",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.aqta.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-17T22:32:58.036357Z"
+  },
+  {
+    "id": "mcp:ai-arclan-registry",
+    "name": "Arclan MCP Registry",
+    "qualifiedName": "ai.arclan/registry",
+    "slug": "ai-arclan-registry",
+    "description": "MCP server registry — validated by live handshake, scored on reliability, monitored continuously.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://arclan.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T16:59:50.65972Z"
+  },
+  {
+    "id": "mcp:ai-argushq-enforcement-database",
+    "name": "enforcement-database",
+    "qualifiedName": "ai.argushq/enforcement-database",
+    "slug": "ai-argushq-enforcement-database",
+    "description": "Search Argus HQ public FDA enforcement data: warning letters, recalls, approvals, 483s.",
+    "category": "Databases & Storage",
+    "repository": "https://github.com/andrewjgaber-commits/empire-distribution",
+    "homepage": "https://argushq.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://argushq.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-12T20:32:22.415073Z"
+  },
+  {
+    "id": "mcp:ai-arketo-arketo",
+    "name": "Arketo",
+    "qualifiedName": "ai.arketo/arketo",
+    "slug": "ai-arketo-arketo",
+    "description": "Draw your app's architecture on a live canvas and flag the bottlenecks and security gaps.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://arketo.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://arketo.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T15:03:17.857696Z"
+  },
+  {
+    "id": "mcp:ai-arpi-arpi-mcp",
+    "name": "ARPI MCP",
+    "qualifiedName": "ai.arpi/arpi-mcp",
+    "slug": "ai-arpi-arpi-mcp",
+    "description": "AI-powered ECG analysis: submit ECG images and receive diagnosis reports from ARPI's ECG AI.",
+    "category": "Design & Media",
+    "repository": "https://github.com/arpi-ai/arpi-mcp",
+    "homepage": "https://arpi.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.arpi.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-08T04:42:03.74166Z"
+  },
+  {
+    "id": "mcp:ai-artidrop-artidrop",
+    "name": "artidrop",
+    "qualifiedName": "ai.artidrop/artidrop",
+    "slug": "ai-artidrop-artidrop",
+    "description": "Publish HTML, Markdown, and multi-file sites as shareable URLs instantly via MCP.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://artidrop.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-17T04:01:26.724763Z"
+  },
+  {
+    "id": "mcp:ai-askline-askline",
+    "name": "Askline",
+    "qualifiedName": "ai.askline/askline",
+    "slug": "ai-askline-askline",
+    "description": "Askline shows what ChatGPT says about a brand, then the SEO that feeds it.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://askline.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://askline.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-28T18:01:06.130676Z"
+  },
+  {
+    "id": "mcp:ai-askmiles-catalog",
+    "name": "catalog",
+    "qualifiedName": "ai.askmiles/catalog",
+    "slug": "ai-askmiles-catalog",
+    "description": "Miles' public credit-card catalog: facts, transfer partners, valuations. Keyless, read-only.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://askmiles.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.askmiles.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T19:46:38.007401Z"
+  },
+  {
+    "id": "mcp:ai-assetlog-assetlog",
+    "name": "AssetLog",
+    "qualifiedName": "ai.assetlog/assetlog",
+    "slug": "ai-assetlog-assetlog",
+    "description": "Search vehicles, real estate and jobs; manage your listings, alerts, enquiries and viewings.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://assetlog.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.assetlog.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-29T17:21:14.640151Z"
+  },
+  {
+    "id": "mcp:ai-astrofabric-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.astrofabric/mcp",
+    "slug": "ai-astrofabric-mcp",
+    "description": "Agentic AI for business intelligence: discover, verify and enrich company and contact data.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://www.astrofabric.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://www.astrofabric.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-05T01:58:16.703526Z"
+  },
+  {
+    "id": "mcp:ai-atdev-supershopping",
+    "name": "supershopping",
+    "qualifiedName": "ai.atdev/supershopping",
+    "slug": "ai-atdev-supershopping",
+    "description": "나만을 위한 AI 쇼핑 MCP — 상품을 자연어로 검색·비교·추천해 사용자의 효과적인 쇼핑을 돕습니다.",
+    "category": "Other",
+    "repository": "https://github.com/alex-hoyeol-choi/headless-commerce",
+    "homepage": "https://github.com/alex-hoyeol-choi/headless-commerce",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://supershopping-mcp.atdev.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-29T05:36:58.413006Z"
+  },
+  {
+    "id": "mcp:ai-atlaso-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.atlaso/mcp",
+    "slug": "ai-atlaso-mcp",
+    "description": "AI memory layer — one shared, persistent memory across every AI tool you connect.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/atlaso-labs/mcp",
+    "homepage": "https://www.atlaso.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.atlaso.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-02T11:07:21.155706Z"
+  },
+  {
+    "id": "mcp:ai-atlasverified-atlas-mcp",
+    "name": "atlas-mcp",
+    "qualifiedName": "ai.atlasverified/atlas-mcp",
+    "slug": "ai-atlasverified-atlas-mcp",
+    "description": "AI-powered organic supply chain verification: certification, OFAC, FDA import checks.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://atlasverified.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.atlasverified.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-21T23:43:13.692003Z"
+  },
+  {
+    "id": "mcp:ai-atlier-project-desk",
+    "name": "Project Desk",
+    "qualifiedName": "ai.atlier/project-desk",
+    "slug": "ai-atlier-project-desk",
+    "description": "Agent-updated work tracker for builders directing AI across multiple projects.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Wildsdesign/Atlier",
+    "homepage": "https://atlier.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://atlier.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-23T16:34:50.678485Z"
+  },
+  {
+    "id": "mcp:ai-augenix-build",
+    "name": "Augenix",
+    "qualifiedName": "ai.augenix/build",
+    "slug": "ai-augenix-build",
+    "description": "Free preview websites for local trades, then Stripe Checkout for $29/mo hosting.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://augenix.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.augenix.ai/api/mcp/public"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T15:42:22.743962Z"
+  },
+  {
+    "id": "mcp:ai-augmentev-paseo",
+    "name": "paseo",
+    "qualifiedName": "ai.augmentev/paseo",
+    "slug": "ai-augmentev-paseo",
+    "description": "Confidential AI execution with a post-quantum receipt on every job — verifiable by anyone.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://augmentev.com",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.augmentev.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-27T18:46:22.383841Z"
+  },
+  {
+    "id": "mcp:ai-augworlds-travel-world",
+    "name": "Travel World",
+    "qualifiedName": "ai.augworlds/travel-world",
+    "slug": "ai-augworlds-travel-world",
+    "description": "Agent-native travel platform: read-only flight, hotel, and brand tools over MCP. OAuth sign-in.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://travel.augworlds.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-27T04:28:55.036536Z"
+  },
+  {
+    "id": "mcp:ai-auralogs-auralogs",
+    "name": "Auralogs",
+    "qualifiedName": "ai.auralogs/auralogs",
+    "slug": "ai-auralogs-auralogs",
+    "description": "Read-only access to Auralogs production logs: search logs, inspect errors, review AI analyses.",
+    "category": "Web & Search",
+    "repository": "https://github.com/auralogs-ai/auralogs-mcp",
+    "homepage": "https://docs.auralogs.ai/read-api/overview/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.auralogs.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-10T05:44:10.419193Z"
+  },
+  {
+    "id": "mcp:ai-auteng-docs",
+    "name": "AutEng MCP - Markdown Publishing & Document Share Links",
+    "qualifiedName": "ai.auteng/docs",
+    "slug": "ai-auteng-docs",
+    "description": "Publish markdown documents as public share links with mermaid diagram support. Built by AutEng.ai",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://auteng.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://auteng.ai/mcp/docs"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-06T20:56:39.150934Z"
+  },
+  {
+    "id": "mcp:ai-auteng-mcp",
+    "name": "AutEng MCP - Markdown Publishing & Document Share Links",
+    "qualifiedName": "ai.auteng/mcp",
+    "slug": "ai-auteng-mcp",
+    "description": "Publish markdown documents as public share links with mermaid diagrams. Built by AutEng.ai",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://auteng.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://auteng.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-06T17:18:22.957864Z"
+  },
+  {
+    "id": "mcp:ai-authoryze-authoryze",
+    "name": "Authoryze",
+    "qualifiedName": "ai.authoryze/authoryze",
+    "slug": "ai-authoryze-authoryze",
+    "description": "Give your AI agent a spending limit: approval controls and single-use virtual cards.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/kevinfee3/authoryze-mcp",
+    "homepage": "https://authoryze.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://authoryze.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-21T21:03:07.846629Z"
+  },
+  {
+    "id": "mcp:ai-autoblocks-contextlayer-mcp",
+    "name": "contextlayer-mcp",
+    "qualifiedName": "ai.autoblocks/contextlayer-mcp",
+    "slug": "ai-autoblocks-contextlayer-mcp",
+    "description": "Personal context management for AI assistants",
+    "category": "Other",
+    "repository": "https://github.com/autoblocksai/ctxl",
+    "homepage": "https://github.com/autoblocksai/ctxl",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@contextlayer/mcp",
+        "version": "0.0.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-12T03:52:52.134106Z"
+  },
+  {
+    "id": "mcp:ai-autoblocks-ctxl",
+    "name": "ctxl",
+    "qualifiedName": "ai.autoblocks/ctxl",
+    "slug": "ai-autoblocks-ctxl",
+    "description": "Personal context management for AI assistants",
+    "category": "Other",
+    "repository": "https://github.com/autoblocksai/ctxl",
+    "homepage": "https://github.com/autoblocksai/ctxl",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "ctxl",
+        "version": "0.0.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-12T03:52:12.746584Z"
+  },
+  {
+    "id": "mcp:ai-autoblocks-ctxl-mcp",
+    "name": "ctxl-mcp",
+    "qualifiedName": "ai.autoblocks/ctxl-mcp",
+    "slug": "ai-autoblocks-ctxl-mcp",
+    "description": "Personal context management for AI assistants",
+    "category": "Other",
+    "repository": "https://github.com/autoblocksai/ctxl",
+    "homepage": "https://github.com/autoblocksai/ctxl",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "ctxl-mcp",
+        "version": "0.0.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-12T03:52:19.009876Z"
+  },
+  {
+    "id": "mcp:ai-autonomad-computeback",
+    "name": "computeback",
+    "qualifiedName": "ai.autonomad/computeback",
+    "slug": "ai-autonomad-computeback",
+    "description": "Agent Rewards Marketplace: earn $NOMD on B2B work, spend on agent capabilities.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Autonomad1/computeback-mcp",
+    "homepage": "https://www.computeback.com",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@autonomad1/computeback-mcp",
+        "version": "1.1.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-11T23:17:51.160439Z"
+  },
+  {
+    "id": "mcp:ai-autonomad-travel",
+    "name": "travel",
+    "qualifiedName": "ai.autonomad/travel",
+    "slug": "ai-autonomad-travel",
+    "description": "AI travel agent — book flights, hotels, activities, and events worldwide via autonomad.ai.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Autonomad1/autonomad1",
+    "homepage": "https://autonomad.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "autonomad-travel",
+        "version": "1.4.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.autonomad.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-11T09:19:18.416611Z"
+  },
+  {
+    "id": "mcp:ai-autoposting-autoposting",
+    "name": "Autoposting",
+    "qualifiedName": "ai.autoposting/autoposting",
+    "slug": "ai-autoposting-autoposting",
+    "description": "Schedule, generate and publish social posts to X, LinkedIn, Instagram, Threads and YouTube",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://docs.autoposting.ai/mcp/overview",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.autoposting.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-07T08:29:28.425591Z"
+  },
+  {
+    "id": "mcp:ai-autorfp-mcp",
+    "name": "AutoRFP.ai",
+    "qualifiedName": "ai.autorfp/mcp",
+    "slug": "ai-autorfp-mcp",
+    "description": "Search AutoRFP.ai projects, requirements, content library, and tags for Q&A and analytics.",
+    "category": "Web & Search",
+    "repository": "https://github.com/AutoRFP/mcp",
+    "homepage": "https://autorfp.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://{api_host}/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-18T01:09:10.259215Z"
+  },
+  {
+    "id": "mcp:ai-auxen-auxen",
+    "name": "Auxen",
+    "qualifiedName": "ai.auxen/auxen",
+    "slug": "ai-auxen-auxen",
+    "description": "Provision private AI model endpoints on dedicated GPUs (Llama, Qwen, Mistral). Pay per minute.",
+    "category": "Other",
+    "repository": "https://github.com/auxen-ai/auxen-mcp",
+    "homepage": "https://auxen.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.auxen.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-18T23:32:19.610277Z"
+  },
+  {
+    "id": "mcp:ai-avasis-quant-research",
+    "name": "quant-research",
+    "qualifiedName": "ai.avasis/quant-research",
+    "slug": "ai-avasis-quant-research",
+    "description": "Crypto backtest statistics: the server owns the trial count, so it cannot be understated.",
+    "category": "Web & Search",
+    "repository": "https://github.com/abhayjnayakk/quant-integrity",
+    "homepage": "https://quant-mcp.avasis.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://quant-mcp.avasis.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-01T12:19:43.073489Z"
+  },
+  {
+    "id": "mcp:ai-aviado-health",
+    "name": "health",
+    "qualifiedName": "ai.aviado/health",
+    "slug": "ai-aviado-health",
+    "description": "Supplement research, biomarker effects, drug interactions, and brand quality data",
+    "category": "Web & Search",
+    "repository": "https://github.com/kipmcc/aviado-mcp",
+    "homepage": "https://github.com/kipmcc/aviado-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://aviado.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-30T13:03:52.011241Z"
+  },
+  {
+    "id": "mcp:ai-awardcast-federal-contracts",
+    "name": "AwardCast Federal Contracts",
+    "qualifiedName": "ai.awardcast/federal-contracts",
+    "slug": "ai-awardcast-federal-contracts",
+    "description": "US federal contracting data: open solicitations, buying agencies, contractors, price history.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://awardcast.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://awardcast.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-16T22:32:23.963785Z"
+  },
+  {
+    "id": "mcp:ai-awraiter-telegram",
+    "name": "AwrAIter — Telegram channels",
+    "qualifiedName": "ai.awraiter/telegram",
+    "slug": "ai-awraiter-telegram",
+    "description": "Telegram channels you administer: analytics, content plans, scheduled publishing. No userbot",
+    "category": "Finance & Data",
+    "repository": "https://github.com/MediaZione/AwrAiter",
+    "homepage": "https://awraiter.ai/mcp-server/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://awraiter.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-21T08:05:34.245331Z"
+  },
+  {
+    "id": "mcp:ai-axonagentic-neuroautomata",
+    "name": "Axon NeuroAutomata",
+    "qualifiedName": "ai.axonagentic/neuroautomata",
+    "slug": "ai-axonagentic-neuroautomata",
+    "description": "Protein analysis: ESM-2/ESMC embeddings, mutation scoring, landscape scans, ESMFold structure.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://neuroautomata.axonagentic.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.neuroautomata.axonagentic.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-01T18:54:25.720204Z"
+  },
+  {
+    "id": "mcp:ai-b77-ai-media-studio",
+    "name": "AI Media Studio",
+    "qualifiedName": "ai.b77/ai-media-studio",
+    "slug": "ai-b77-ai-media-studio",
+    "description": "Generate images, videos, voiceovers, and captions from a chat prompt.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/ai-media-studio",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://ai-media-studio.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:53.66505Z"
+  },
+  {
+    "id": "mcp:ai-b77-apple-search-ads",
+    "name": "Apple Search Ads",
+    "qualifiedName": "ai.b77/apple-search-ads",
+    "slug": "ai-b77-apple-search-ads",
+    "description": "Manage Apple Ads campaigns and reporting in chat.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/apple-search-ads",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://apple-search-ads.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:59.146335Z"
+  },
+  {
+    "id": "mcp:ai-b77-chess-results",
+    "name": "Chess Results",
+    "qualifiedName": "ai.b77/chess-results",
+    "slug": "ai-b77-chess-results",
+    "description": "Live chess tournament results and up-to-date player ratings in chat.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/chess-results",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://chess-results.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:56.825933Z"
+  },
+  {
+    "id": "mcp:ai-b77-feedback",
+    "name": "Feedback",
+    "qualifiedName": "ai.b77/feedback",
+    "slug": "ai-b77-feedback",
+    "description": "Capture feature requests and bug reports from chat into a searchable, AI-categorized backlog.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/feedback",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://feedback.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:38:13.573877Z"
+  },
+  {
+    "id": "mcp:ai-b77-fibalo",
+    "name": "Fibalo",
+    "qualifiedName": "ai.b77/fibalo",
+    "slug": "ai-b77-fibalo",
+    "description": "Query and add to your Fibalo bookkeeping: documents, bank transactions, suppliers, access.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/fibalo",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://fibalo.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:07.451898Z"
+  },
+  {
+    "id": "mcp:ai-b77-file-storage",
+    "name": "File Storage",
+    "qualifiedName": "ai.b77/file-storage",
+    "slug": "ai-b77-file-storage",
+    "description": "Upload files and get public CDN links in chat.",
+    "category": "Databases & Storage",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/file-storage",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://file-storage.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:53.160486Z"
+  },
+  {
+    "id": "mcp:ai-b77-google-ads",
+    "name": "Google Ads",
+    "qualifiedName": "ai.b77/google-ads",
+    "slug": "ai-b77-google-ads",
+    "description": "Read and manage your Google Ads account in chat.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/google-ads",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://google-ads.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:59.684281Z"
+  },
+  {
+    "id": "mcp:ai-b77-google-news",
+    "name": "Google News",
+    "qualifiedName": "ai.b77/google-news",
+    "slug": "ai-b77-google-news",
+    "description": "Search and read the latest news in chat.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/google-news",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://google-news.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:54.813976Z"
+  },
+  {
+    "id": "mcp:ai-b77-google-search-console",
+    "name": "Google Search Console",
+    "qualifiedName": "ai.b77/google-search-console",
+    "slug": "ai-b77-google-search-console",
+    "description": "Search rankings, clicks, and indexing for your site — in chat.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/google-search-console",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://google-search-console.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:38:00.295202Z"
+  },
+  {
+    "id": "mcp:ai-b77-kinnovis-storage",
+    "name": "Kinnovis Self-Storage",
+    "qualifiedName": "ai.b77/kinnovis-storage",
+    "slug": "ai-b77-kinnovis-storage",
+    "description": "Manage Kinnovis self-storage tariffs from chat.",
+    "category": "Databases & Storage",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/kinnovis-storage",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://kinnovis-storage.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:55.315141Z"
+  },
+  {
+    "id": "mcp:ai-b77-knowledge-base",
+    "name": "Knowledge Base",
+    "qualifiedName": "ai.b77/knowledge-base",
+    "slug": "ai-b77-knowledge-base",
+    "description": "A searchable knowledge base your assistant reads and writes.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/knowledge-base",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://knowledge-base.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:58.420833Z"
+  },
+  {
+    "id": "mcp:ai-b77-nightscout",
+    "name": "Nightscout",
+    "qualifiedName": "ai.b77/nightscout",
+    "slug": "ai-b77-nightscout",
+    "description": "Your Nightscout glucose data, conversational.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/nightscout",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://nightscout.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:57.32213Z"
+  },
+  {
+    "id": "mcp:ai-b77-seo-content-factory",
+    "name": "SEO Content Factory",
+    "qualifiedName": "ai.b77/seo-content-factory",
+    "slug": "ai-b77-seo-content-factory",
+    "description": "Draft SEO blog articles from topic to ready-to-review post.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/seo-content-factory",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://seo-content-factory.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:38:00.81901Z"
+  },
+  {
+    "id": "mcp:ai-b77-teamwork",
+    "name": "Teamwork",
+    "qualifiedName": "ai.b77/teamwork",
+    "slug": "ai-b77-teamwork",
+    "description": "AI-first project management: plan epics, assign prioritized tasks, track team time.",
+    "category": "Productivity",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/teamwork",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://teamwork.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:55.811457Z"
+  },
+  {
+    "id": "mcp:ai-b77-time",
+    "name": "Time",
+    "qualifiedName": "ai.b77/time",
+    "slug": "ai-b77-time",
+    "description": "A live clock for your assistant.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/time",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://time.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:57.849395Z"
+  },
+  {
+    "id": "mcp:ai-b77-web-analytics",
+    "name": "Web Analytics",
+    "qualifiedName": "ai.b77/web-analytics",
+    "slug": "ai-b77-web-analytics",
+    "description": "Ask about your website traffic in chat.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://b77.ai/apps/web-analytics",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://web-analytics.b77.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-14T20:37:56.317987Z"
+  },
+  {
+    "id": "mcp:ai-backengine-backengine-mcp",
+    "name": "backengine-mcp",
+    "qualifiedName": "ai.backengine/backengine-mcp",
+    "slug": "ai-backengine-backengine-mcp",
+    "description": "Surface customer & prospect context from Slack, email, transcripts and tickets in any MCP client.",
+    "category": "Productivity",
+    "repository": "https://github.com/BackEngine-ai/backengine-mcp",
+    "homepage": "https://github.com/BackEngine-ai/backengine-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://backengine-prod.backengine.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-10T10:04:00.694928Z"
+  },
+  {
+    "id": "mcp:ai-backrow-backrow",
+    "name": "backrow",
+    "qualifiedName": "ai.backrow/backrow",
+    "slug": "ai-backrow-backrow",
+    "description": "Turn any recording or document into notes, flashcards and quizzes your agent can read and act on",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://backrow.ai/developers",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://backrow.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T10:32:36.205697Z"
+  },
+  {
+    "id": "mcp:ai-balancos-mcp",
+    "name": "Balanços.AI",
+    "qualifiedName": "ai.balancos/mcp",
+    "slug": "ai-balancos-mcp",
+    "description": "Balanços e DRE de empresas brasileiras por CNPJ. Brazilian company financial statements.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://balancos.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.balancos.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-06T22:46:50.23247Z"
+  },
+  {
+    "id": "mcp:ai-bankee-inferventis-mcp",
+    "name": "Inferventis MCP Server",
+    "qualifiedName": "ai.bankee/inferventis-mcp",
+    "slug": "ai-bankee-inferventis-mcp",
+    "description": "Loan & mortgage calculator, compound interest, ROI, crypto prices, FX conversion for AI agents.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Bankee-ai/inferventis",
+    "homepage": "https://mcp-server-295985738387.europe-west1.run.app",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp-server-295985738387.europe-west1.run.app/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-28T09:24:20.898632Z"
+  },
+  {
+    "id": "mcp:ai-bareun-bareun",
+    "name": "Bareun — Korean NLP & Spell/Grammar Checking",
+    "qualifiedName": "ai.bareun/bareun",
+    "slug": "ai-bareun-bareun",
+    "description": "Korean NLP MCP server: morphological analysis, tokenization, spell & grammar checking (Bareun)",
+    "category": "Other",
+    "repository": "https://github.com/gih2yun/bareun-mcp",
+    "homepage": "https://bareun.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.bareun.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-09T06:04:45.980117Z"
+  },
+  {
+    "id": "mcp:ai-baselight-baselight",
+    "name": "baselight",
+    "qualifiedName": "ai.baselight/baselight",
+    "slug": "ai-baselight-baselight",
+    "description": "Query Baselight's public catalog of 70,000+ datasets — finance, demographics, sports, and more.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://baselight.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.baselight.app/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-30T15:33:16.859356Z"
+  },
+  {
+    "id": "mcp:ai-basethread-basethread",
+    "name": "basethread",
+    "qualifiedName": "ai.basethread/basethread",
+    "slug": "ai-basethread-basethread",
+    "description": "One shared context your team's AI tools read & write over MCP. No re-explaining. Free.",
+    "category": "Other",
+    "repository": "https://github.com/navbuildz/basethread-mcp",
+    "homepage": "https://basethread.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.basethread.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-08T17:57:42.454703Z"
+  },
+  {
+    "id": "mcp:ai-bassethound-bassethound",
+    "name": "bassethound",
+    "qualifiedName": "ai.bassethound/bassethound",
+    "slug": "ai-bassethound-bassethound",
+    "description": "Company intelligence for AI agents: a five-layer domain dossier in one sniff_domain call.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://bassethound.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bassethound.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-10T16:59:48.68861Z"
+  },
+  {
+    "id": "mcp:ai-beatbandit-beatbandit",
+    "name": "BeatBandit MCP",
+    "qualifiedName": "ai.beatbandit/beatbandit",
+    "slug": "ai-beatbandit-beatbandit",
+    "description": "AI story development, screenplay editing, review, media, and export tools for BeatBandit projects.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://beatbandit.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://beatbandit.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-13T15:54:48.389416Z"
+  },
+  {
+    "id": "mcp:ai-beket-audit",
+    "name": "audit",
+    "qualifiedName": "ai.beket/audit",
+    "slug": "ai-beket-audit",
+    "description": "See how AI assistants answer about your brand",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://beket.ai/guides/using-the-beket-ai-mcp/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.beket.ai/registry/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-06T01:11:42.174388Z"
+  },
+  {
+    "id": "mcp:ai-benroberts-b4-index",
+    "name": "B4 Index",
+    "qualifiedName": "ai.benroberts/b4-index",
+    "slug": "ai-benroberts-b4-index",
+    "description": "Independent build-vs-buy index: score software categories BUILD/BUY/BRIDGE/BEWARE.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://benroberts.ai/directory",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://b4-index.vercel.app/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-03T23:52:40.30259Z"
+  },
+  {
+    "id": "mcp:ai-betslipdoctor-mcp",
+    "name": "BetSlip Doctor",
+    "qualifiedName": "ai.betslipdoctor/mcp",
+    "slug": "ai-betslipdoctor-mcp",
+    "description": "Read, grade, and track a subscriber's betslips with preserved truth and no wager placement.",
+    "category": "Other",
+    "repository": "https://github.com/opspot-ai/betslipdoctor",
+    "homepage": "https://github.com/opspot-ai/betslipdoctor",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.betslipdoctor.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-19T06:10:02.724773Z"
+  },
+  {
+    "id": "mcp:ai-betterpost-server",
+    "name": "BetterPost",
+    "qualifiedName": "ai.betterpost/server",
+    "slug": "ai-betterpost-server",
+    "description": "Finds timely sources across news, social, and the web and writes posts worth publishing.",
+    "category": "Web & Search",
+    "repository": "https://github.com/betterpost/betterpost-plugin",
+    "homepage": "https://betterpost.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://betterpost.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-08T13:48:32.941236Z"
+  },
+  {
+    "id": "mcp:ai-bezal-local-commerce",
+    "name": "Bezal — Local Business Intelligence for AI Agents",
+    "qualifiedName": "ai.bezal/local-commerce",
+    "slug": "ai-bezal-local-commerce",
+    "description": "Search 7,000+ local service businesses across America by category, location, or keyword.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.bezal.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-03T01:28:17.439049Z"
+  },
+  {
+    "id": "mcp:ai-bidclub-bidclub",
+    "name": "bidclub",
+    "qualifiedName": "ai.bidclub/bidclub",
+    "slug": "ai-bidclub-bidclub",
+    "description": "Search 45+ investor podcasts and read transcripts, TL;DRs, digests — bilingual EN/中文, keyless.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://bidclub.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bidclub.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-17T10:06:31.712458Z"
+  },
+  {
+    "id": "mcp:ai-biddeed-biddeed-mcp",
+    "name": "BidDeed MCP",
+    "qualifiedName": "ai.biddeed/biddeed-mcp",
+    "slug": "ai-biddeed-biddeed-mcp",
+    "description": "AI-powered foreclosure auction intelligence for Florida counties via MCP tools.",
+    "category": "Other",
+    "repository": "https://github.com/breverdbidder/cli-anything-biddeed",
+    "homepage": "https://github.com/breverdbidder/cli-anything-biddeed",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.biddeed.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-03T13:00:32.732972Z"
+  },
+  {
+    "id": "mcp:ai-biel-biel-ai",
+    "name": "Biel.ai",
+    "qualifiedName": "ai.biel/biel-ai",
+    "slug": "ai-biel-biel-ai",
+    "description": "Query your product docs from AI tools. Source-cited answers from your indexed documentation.",
+    "category": "Other",
+    "repository": "https://github.com/TechDocsStudio/biel-mcp",
+    "homepage": "https://biel.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.biel.ai/v2/{project_slug}/mcp"
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.biel.ai/sse?project_slug={project_slug}&domain={domain}"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-05T15:36:24.193043Z"
+  },
+  {
+    "id": "mcp:ai-bitroad-bitroad",
+    "name": "bitroad",
+    "qualifiedName": "ai.bitroad/bitroad",
+    "slug": "ai-bitroad-bitroad",
+    "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/bitroadai/bitroad-mcp",
+    "homepage": "https://github.com/bitroadai/bitroad-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.bitroad.ai/api/v1/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-17T19:06:22.088057Z"
+  },
+  {
+    "id": "mcp:ai-bittlebits-bittlebits",
+    "name": "BittleBits GEO Assistant",
+    "qualifiedName": "ai.bittlebits/bittlebits",
+    "slug": "ai-bittlebits-bittlebits",
+    "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
+    "category": "Web & Search",
+    "repository": "https://github.com/bittlebitsai/bittlebits-plugin",
+    "homepage": "https://bittlebits.ai/docs/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bittlebits.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-02T16:24:51.181889Z"
+  },
+  {
+    "id": "mcp:ai-bizmoon-regulatory",
+    "name": "regulatory",
+    "qualifiedName": "ai.bizmoon/regulatory",
+    "slug": "ai-bizmoon-regulatory",
+    "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
+    "category": "Other",
+    "repository": "https://github.com/uofuonye/bizmoon-plugins",
+    "homepage": "https://bizmoon.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bizmoon.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-05T17:51:19.465355Z"
+  },
+  {
+    "id": "mcp:ai-bizmuse-bizmuse",
+    "name": "BizMuse AI Music Video",
+    "qualifiedName": "ai.bizmuse/bizmuse",
+    "slug": "ai-bizmuse-bizmuse",
+    "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://bizmuse.ai/mcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "bizmuse-mcp",
+        "version": "0.1.6",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-20T13:46:35.915847Z"
+  },
+  {
+    "id": "mcp:ai-blast-radius-blast-radius",
+    "name": "blast-radius",
+    "qualifiedName": "ai.blast-radius/blast-radius",
+    "slug": "ai-blast-radius-blast-radius",
+    "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/kipmcc/blast-radius-live",
+    "homepage": "https://github.com/kipmcc/blast-radius-live",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://blast-radius.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-30T16:00:12.196014Z"
+  },
+  {
+    "id": "mcp:ai-bloopo-bloopo",
+    "name": "Bloopo — AI Ad & Creative Studio",
+    "qualifiedName": "ai.bloopo/bloopo",
+    "slug": "ai-bloopo-bloopo",
+    "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
+    "category": "Design & Media",
+    "repository": "https://github.com/BloopodotAI/bloopo-marketplace",
+    "homepage": "https://bloopo.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bloopo.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-28T12:16:01.625722Z"
+  },
+  {
+    "id": "mcp:ai-blopus-search",
+    "name": "Web Search API for all your agents and LLMs",
+    "qualifiedName": "ai.blopus/search",
+    "slug": "ai-blopus-search",
+    "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://blopus.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.blopus.ai/mcp/"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-27T01:31:40.856338Z"
+  },
+  {
+    "id": "mcp:ai-bluenexus-universal-mcp",
+    "name": "BlueNexus Universal MCP",
+    "qualifiedName": "ai.bluenexus/universal-mcp",
+    "slug": "ai-bluenexus-universal-mcp",
+    "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.bluenexus.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T00:53:58.81847Z"
+  },
+  {
+    "id": "mcp:ai-bodenrichtwert-mcp",
+    "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
+    "qualifiedName": "ai.bodenrichtwert/mcp",
+    "slug": "ai-bodenrichtwert-mcp",
+    "description": "German land values (Bodenrichtwerte) by address, with mandatory dl-de/by-2-0 attribution.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://bodenrichtwert.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bodenrichtwert.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-03T06:19:03.560017Z"
+  },
+  {
+    "id": "mcp:ai-bolthub-mcp",
+    "name": "bolthub",
+    "qualifiedName": "ai.bolthub/mcp",
+    "slug": "ai-bolthub-mcp",
+    "description": "The bolthub API marketplace, L402 gateways, and your other MCP servers, on one Lightning budget.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/signaltech-org/bolthub-sdk",
+    "homepage": "https://docs.bolthub.ai/docs/sdks/mcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@bolthub/mcp",
+        "version": "0.7.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-25T02:10:18.959626Z"
+  },
+  {
+    "id": "mcp:ai-boolsai-directory",
+    "name": "Boolsai Directory",
+    "qualifiedName": "ai.boolsai/directory",
+    "slug": "ai-boolsai-directory",
+    "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/Boolsai-ai/mcp",
+    "homepage": "https://github.com/Boolsai-ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://directory.boolsai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T13:30:35.464226Z"
+  },
+  {
+    "id": "mcp:ai-boolsai-grep",
+    "name": "Boolsai Grep",
+    "qualifiedName": "ai.boolsai/grep",
+    "slug": "ai-boolsai-grep",
+    "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
+    "category": "Other",
+    "repository": "https://github.com/Boolsai-ai/mcp",
+    "homepage": "https://github.com/Boolsai-ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://grep.boolsai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T13:30:36.222224Z"
+  },
+  {
+    "id": "mcp:ai-boolsai-scan",
+    "name": "Boolsai Scan",
+    "qualifiedName": "ai.boolsai/scan",
+    "slug": "ai-boolsai-scan",
+    "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
+    "category": "Other",
+    "repository": "https://github.com/Boolsai-ai/mcp",
+    "homepage": "https://github.com/Boolsai-ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://boolsai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T13:30:34.760247Z"
+  },
+  {
+    "id": "mcp:ai-boolsai-signals",
+    "name": "Boolsai Signals",
+    "qualifiedName": "ai.boolsai/signals",
+    "slug": "ai-boolsai-signals",
+    "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
+    "category": "Web & Search",
+    "repository": "https://github.com/Boolsai-ai/mcp",
+    "homepage": "https://github.com/Boolsai-ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://signals.boolsai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-19T13:30:36.922608Z"
+  },
+  {
+    "id": "mcp:ai-borealhost-mcp",
+    "name": "BorealHost",
+    "qualifiedName": "ai.borealhost/mcp",
+    "slug": "ai-borealhost-mcp",
+    "description": "Agent-native web hosting — deploy sites, manage DNS, register domains, scale infrastructure",
+    "category": "Web & Search",
+    "repository": "https://github.com/alainsvrd/borealhost-mcp",
+    "homepage": "https://borealhost.ai",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "borealhost-mcp",
+        "version": "0.4.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://borealhost.ai/mcp/"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-06T20:32:29.563773Z"
+  },
+  {
+    "id": "mcp:ai-boundaryai-boundaryai",
+    "name": "boundaryai",
+    "qualifiedName": "ai.boundaryai/boundaryai",
+    "slug": "ai-boundaryai-boundaryai",
+    "description": "Deterministic runtime safety for AI agents: scan PII, gate tool actions, verify LLM output.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/skvcool-rgb/BoundaryAI",
+    "homepage": "https://boundaryai.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.boundaryai.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-25T16:21:56.590296Z"
+  },
+  {
+    "id": "mcp:ai-bourdon-bourdon",
+    "name": "Bourdon",
+    "qualifiedName": "ai.bourdon/bourdon",
+    "slug": "ai-bourdon-bourdon",
+    "description": "Recognition-first cross-agent memory federation. One shared memory across all your agents.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://bourdon.ai",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "bourdon",
+        "version": "0.19.0",
+        "transport": "stdio"
+      },
+      {
+        "registryType": "npm",
+        "identifier": "@getbourdon/mcp-server",
+        "version": "0.5.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-29T16:33:55.179944Z"
+  },
+  {
+    "id": "mcp:ai-bowmark-bowmark",
+    "name": "Bowmark",
+    "qualifiedName": "ai.bowmark/bowmark",
+    "slug": "ai-bowmark-bowmark",
+    "description": "Do things on live websites: prices, availability, quotes, bookings, anything behind a form or login.",
+    "category": "Web & Search",
+    "repository": "https://github.com/bowmark-ai/skill",
+    "homepage": "https://bowmark.ai",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "bowmark-mcp",
+        "version": "2.1.0",
+        "transport": "stdio"
+      },
+      {
+        "registryType": "npm",
+        "identifier": "@bowmark/mcp",
+        "version": "2.1.0",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.bowmark.ai/mcp/registry"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T16:13:37.145415Z"
+  },
+  {
+    "id": "mcp:ai-brainattic-knowledge-base",
+    "name": "brainattic",
+    "qualifiedName": "ai.brainattic/knowledge-base",
+    "slug": "ai-brainattic-knowledge-base",
+    "description": "The knowledge base your AI reads and writes, under your rules — over MCP, EU-hosted.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.brainattic.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-23T14:21:55.059648Z"
+  },
+  {
+    "id": "mcp:ai-bridgeapp-bridgeapp",
+    "name": "bridgeapp",
+    "qualifiedName": "ai.bridgeapp/bridgeapp",
+    "slug": "ai-bridgeapp-bridgeapp",
+    "description": "BridgeApp workspace over MCP: tasks, chats, threads, pages, and projects.",
+    "category": "Productivity",
+    "repository": "https://github.com/MathAndMagic/bridgeapp-plugin",
+    "homepage": "https://bridgeapp.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bridgeapp.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T20:40:29.006664Z"
+  },
+  {
+    "id": "mcp:ai-bringyour-bringyour",
+    "name": "Bring Your AI",
+    "qualifiedName": "ai.bringyour/bringyour",
+    "slug": "ai-bringyour-bringyour",
+    "description": "No-data MCP handoff for local Claude Code to Codex harness moves. $49 lifetime.",
+    "category": "Dev Tools & Git",
+    "repository": null,
+    "homepage": "https://bringyour.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bringyour.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-24T08:15:43.116321Z"
+  },
+  {
+    "id": "mcp:ai-buildwithorbit-orbit",
+    "name": "Orbit",
+    "qualifiedName": "ai.buildwithorbit/orbit",
+    "slug": "ai-buildwithorbit-orbit",
+    "description": "Turn any task into the right API calls: discover, evaluate, and integrate public APIs.",
+    "category": "Productivity",
+    "repository": null,
+    "homepage": "https://www.buildwithorbit.ai/welcome",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.buildwithorbit.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-26T18:06:01.680914Z"
+  },
+  {
+    "id": "mcp:ai-bunzee-bunzee",
+    "name": "Bunzee",
+    "qualifiedName": "ai.bunzee/bunzee",
+    "slug": "ai-bunzee-bunzee",
+    "description": "Turn your app idea into IA, wireframes, PRD, style guides, and dev specs for coding agents.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bunzee.ai/mcp-server"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-05T01:24:59.568246Z"
+  },
+  {
+    "id": "mcp:ai-buron-buron",
+    "name": "Buron",
+    "qualifiedName": "ai.buron/buron",
+    "slug": "ai-buron-buron",
+    "description": "Marketing-measurement MCP: dashboards, cross-channel queries, integrations, and knowledge files.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://buron.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.buron.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-19T22:19:56.582694Z"
+  },
+  {
+    "id": "mcp:ai-butlerbrain-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.butlerbrain/mcp",
+    "slug": "ai-butlerbrain-mcp",
+    "description": "Persistent memory for AI assistants. Save once; recall from Claude, ChatGPT, or any MCP client.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://butlerbrain.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.butlerbrain.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-26T06:33:02.85583Z"
+  },
+  {
+    "id": "mcp:ai-buyersense-buyersense",
+    "name": "buyersense",
+    "qualifiedName": "ai.buyersense/buyersense",
+    "slug": "ai-buyersense-buyersense",
+    "description": "MCP server for the BuyerSense API. Get buyer signals from any MCP client.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.buyersense.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-03T09:49:36.790849Z"
+  },
+  {
+    "id": "mcp:ai-byteask-embedded-docs",
+    "name": "embedded-docs",
+    "qualifiedName": "ai.byteask/embedded-docs",
+    "slug": "ai-byteask-embedded-docs",
+    "description": "Page-cited retrieval for embedded docs, datasheets, MISRA, CMSIS, and RTOS references.",
+    "category": "Other",
+    "repository": "https://github.com/ByteAsk/ByteAsk-Embedded-MCP",
+    "homepage": "https://docs.byteask.ai/embedded",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.byteask.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-19T12:57:43.612963Z"
+  },
+  {
+    "id": "mcp:ai-byteray-byteray-mcp",
+    "name": "ByteRay AI",
+    "qualifiedName": "ai.byteray/byteray-mcp",
+    "slug": "ai-byteray-byteray-mcp",
+    "description": "Hunt zero-days by talking to binaries. 40+ tools. Hosted, OAuth + SSO, invite: hi@byteray.ai",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://byteray.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.byteray.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-19T04:19:09.97653Z"
+  },
+  {
+    "id": "mcp:ai-cabrini-market-data",
+    "name": "Cabrini Market Data",
+    "qualifiedName": "ai.cabrini/market-data",
+    "slug": "ai-cabrini-market-data",
+    "description": "US equity data for AI agents — 23 years intraday + daily, SEC filings. x402 USDC payments.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/nlapi/cabrini-py",
+    "homepage": "https://github.com/nlapi/cabrini-py",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://cabrini.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-29T17:12:49.69068Z"
+  },
+  {
+    "id": "mcp:ai-cactal-cactal",
+    "name": "Cactal",
+    "qualifiedName": "ai.cactal/cactal",
+    "slug": "ai-cactal-cactal",
+    "description": "The website platform for AI agents. One API to build, host, and operate real websites.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://cactal.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.cactal.ai/v1/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-07T01:55:50.969471Z"
+  },
+  {
+    "id": "mcp:ai-calaf-calaf",
+    "name": "Calaf",
+    "qualifiedName": "ai.calaf/calaf",
+    "slug": "ai-calaf-calaf",
+    "description": "Run your Calaf recruiting book from chat: firms, people, pipeline, calendar, notes, and prep.",
+    "category": "Productivity",
+    "repository": "https://github.com/gallaghern51-art/calaf-mcp",
+    "homepage": "https://calaf.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://calaf.ai/api/mcp-account"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-22T05:15:36.752059Z"
+  },
+  {
+    "id": "mcp:ai-calaf-seeds",
+    "name": "Calaf Seed Tools",
+    "qualifiedName": "ai.calaf/seeds",
+    "slug": "ai-calaf-seeds",
+    "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
+    "category": "Other",
+    "repository": "https://github.com/gallaghern51-art/calaf-mcp",
+    "homepage": "https://calaf.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://calaf.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-22T03:01:34.501752Z"
+  },
+  {
+    "id": "mcp:ai-calendarmcp-server",
+    "name": "CalendarMCP",
+    "qualifiedName": "ai.calendarmcp/server",
+    "slug": "ai-calendarmcp-server",
+    "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
+    "category": "Web & Search",
+    "repository": "https://github.com/Full-Vibe/calendarmcp-public",
+    "homepage": "https://calendarmcp.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://calendarmcp.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-20T07:09:04.298867Z"
+  },
+  {
+    "id": "mcp:ai-calfeed-calfeed",
+    "name": "Calfeed",
+    "qualifiedName": "ai.calfeed/calfeed",
+    "slug": "ai-calfeed-calfeed",
+    "description": "Turn a written schedule into a live calendar link people subscribe to in Apple, Google, Outlook.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://calfeed.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://calfeed.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-05T19:00:28.019015Z"
+  },
+  {
+    "id": "mcp:ai-callmcp-server",
+    "name": "server",
+    "qualifiedName": "ai.callmcp/server",
+    "slug": "ai-callmcp-server",
+    "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/CallMCP/callmcp",
+    "homepage": "https://github.com/CallMCP/callmcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@callmcp/server",
+        "version": "0.1.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-10T00:53:26.478263Z"
+  },
+  {
+    "id": "mcp:ai-canaryusers-canaryusers",
+    "name": "canaryusers",
+    "qualifiedName": "ai.canaryusers/canaryusers",
+    "slug": "ai-canaryusers-canaryusers",
+    "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+    "category": "Cloud & DevOps",
+    "repository": "https://github.com/CanaryUsers-ai/canaryusers-mcp",
+    "homepage": "https://www.canaryusers.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://www.canaryusers.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-13T18:31:58.336704Z"
+  },
+  {
+    "id": "mcp:ai-canivibe-status",
+    "name": "Can I Vibe? — AI coding provider status",
+    "qualifiedName": "ai.canivibe/status",
+    "slug": "ai-canivibe-status",
+    "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
+    "category": "Dev Tools & Git",
+    "repository": null,
+    "homepage": "https://canivibe.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://canivibe.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-23T17:08:49.919308Z"
+  },
+  {
+    "id": "mcp:ai-canvora-canvora",
+    "name": "Canvora",
+    "qualifiedName": "ai.canvora/canvora",
+    "slug": "ai-canvora-canvora",
+    "description": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
+    "category": "Design & Media",
+    "repository": "https://github.com/canvora/canvora-mcp",
+    "homepage": "https://canvora.ai/for-agents",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.canvora.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-20T00:14:46.676606Z"
+  },
+  {
+    "id": "mcp:ai-caulo-caulo",
+    "name": "Caulo",
+    "qualifiedName": "ai.caulo/caulo",
+    "slug": "ai-caulo-caulo",
+    "description": "Social network for verified humans where your AI agent reads the feed, posts, DMs, and moderates.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://caulo.ai/docs/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.caulo.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-03T15:24:58.514124Z"
+  },
+  {
+    "id": "mcp:ai-ccapi-mcp",
+    "name": "CCAPI",
+    "qualifiedName": "ai.ccapi/mcp",
+    "slug": "ai-ccapi-mcp",
+    "description": "Image, video, music and text generation across 100+ models through one endpoint.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://ccapi.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.ccapi.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-02T06:15:22.212147Z"
+  },
+  {
+    "id": "mcp:ai-cdbx-mcp-server",
+    "name": "mcp-server",
+    "qualifiedName": "ai.cdbx/mcp-server",
+    "slug": "ai-cdbx-mcp-server",
+    "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/ChristopherHButler/cdbx.ai",
+    "homepage": "https://github.com/ChristopherHButler/cdbx.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://cdbx.ai/api/mcp/server"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-20T08:13:44.889307Z"
+  },
+  {
+    "id": "mcp:ai-cerebrium-docs",
+    "name": "Cerebrium Docs",
+    "qualifiedName": "ai.cerebrium/docs",
+    "slug": "ai-cerebrium-docs",
+    "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
+    "category": "Web & Search",
+    "repository": "https://github.com/CerebriumAI/cerebrium-skills",
+    "homepage": "https://cerebrium.ai/docs",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://cerebrium.ai/docs/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-01T16:54:17.505427Z"
+  },
+  {
+    "id": "mcp:ai-certscore-mcp",
+    "name": "CertScore MCP",
+    "qualifiedName": "ai.certscore/mcp",
+    "slug": "ai-certscore-mcp",
+    "description": "CertScore website risk-signal tools for scans, findings, evidence, and latest-domain lookups.",
+    "category": "Web & Search",
+    "repository": "https://github.com/ergoveritas1-alt/certscore.ai",
+    "homepage": "https://github.com/ergoveritas1-alt/certscore.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@certscore/mcp",
+        "version": "0.2.4",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-07T21:17:12.620633Z"
+  },
+  {
+    "id": "mcp:ai-certscore-mcp-light",
+    "name": "CertScore.ai MCP Light",
+    "qualifiedName": "ai.certscore/mcp-light",
+    "slug": "ai-certscore-mcp-light",
+    "description": "Free website privacy scanner for pre-consent cookies, trackers, consent, policy, and HTTPS/TLS.",
+    "category": "Web & Search",
+    "repository": "https://github.com/ergoveritas1-alt/certscore.ai",
+    "homepage": "https://certscore.ai/mcp/light",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.certscore.ai/mcp/light"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T23:21:53.978305Z"
+  },
+  {
+    "id": "mcp:ai-chatthing-chat-thing",
+    "name": "Chat Thing",
+    "qualifiedName": "ai.chatthing/chat-thing",
+    "slug": "ai-chatthing-chat-thing",
+    "description": "Build and manage AI-native customer support agents from Claude or any MCP client.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.chatthing.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-16T17:04:43.886064Z"
+  },
+  {
+    "id": "mcp:ai-childadhd-library",
+    "name": "library",
+    "qualifiedName": "ai.childadhd/library",
+    "slug": "ai-childadhd-library",
+    "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://childadhd.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://childadhd.ai/api/mcp/v1"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-26T00:04:13.381323Z"
+  },
+  {
+    "id": "mcp:ai-childanxiety-library",
+    "name": "library",
+    "qualifiedName": "ai.childanxiety/library",
+    "slug": "ai-childanxiety-library",
+    "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://childanxiety.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://childanxiety.ai/api/mcp/v1"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-26T00:04:17.518812Z"
+  },
+  {
+    "id": "mcp:ai-childpsychiatry-library",
+    "name": "library",
+    "qualifiedName": "ai.childpsychiatry/library",
+    "slug": "ai-childpsychiatry-library",
+    "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://childpsychiatry.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://childpsychiatry.ai/api/mcp/v1"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-26T00:04:20.484144Z"
+  },
+  {
+    "id": "mcp:ai-chinamarketing-intelligence",
+    "name": "China Marketing AI Intelligence MCP",
+    "qualifiedName": "ai.chinamarketing/intelligence",
+    "slug": "ai-chinamarketing-intelligence",
+    "description": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://www.chinamarketing.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.chinamarketing.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-22T09:16:14.642505Z"
+  },
+  {
+    "id": "mcp:ai-chipp-alchemist-cloud-tickets",
+    "name": "Alchemist Cloud Tickets",
+    "qualifiedName": "ai.chipp/alchemist-cloud-tickets",
+    "slug": "ai-chipp-alchemist-cloud-tickets",
+    "description": "Dispatch and track Alchemist Cloud tickets, watch deploys, read logs, and query your project DB.",
+    "category": "Cloud & DevOps",
+    "repository": null,
+    "homepage": "https://chipp.ai/docs/guides/alchemist-mcp-server",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://build.chipp.ai/alchemist-api/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-02T20:05:59.419656Z"
+  },
+  {
+    "id": "mcp:ai-chipp-chipp",
+    "name": "Chipp",
+    "qualifiedName": "ai.chipp/chipp",
+    "slug": "ai-chipp-chipp",
+    "description": "Build and manage Chipp AI apps: prompts, knowledge, custom actions, and chat with your apps.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://chipp.ai/docs/guides/mcp/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://build.chipp.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-02T20:05:59.198909Z"
+  },
+  {
+    "id": "mcp:ai-chronary-mcp",
+    "name": "Chronary",
+    "qualifiedName": "ai.chronary/mcp",
+    "slug": "ai-chronary-mcp",
+    "description": "Calendar API for AI agents: events, availability, Google/Microsoft setup, scheduling, and iCal.",
+    "category": "Web & Search",
+    "repository": "https://github.com/Chronary/chronary-mcp",
+    "homepage": "https://docs.chronary.ai/mcp/overview",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@chronary/mcp",
+        "version": "1.5.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.chronary.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-14T21:12:59.153451Z"
+  },
+  {
+    "id": "mcp:ai-circulara-plugin",
+    "name": "plugin",
+    "qualifiedName": "ai.circulara/plugin",
+    "slug": "ai-circulara-plugin",
+    "description": "Circulara Observe MCP plugin - meters your AI agents' token spend and carbon, free tier.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/CircularRoute/circulara-core",
+    "homepage": "https://github.com/CircularRoute/circulara-core",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@circulara/plugin",
+        "version": "0.1.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-09T11:54:08.843062Z"
+  },
+  {
+    "id": "mcp:ai-cirra-salesforce-mcp",
+    "name": "Cirra AI Salesforce Admin MCP Server",
+    "qualifiedName": "ai.cirra/salesforce-mcp",
+    "slug": "ai-cirra-salesforce-mcp",
+    "description": "Comprehensive Salesforce administration and management",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://docs.cirra.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.cirra.ai/sfdc/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-17T21:41:17.956027Z"
+  },
+  {
+    "id": "mcp:ai-citybook-citybook",
+    "name": "Citybook",
+    "qualifiedName": "ai.citybook/citybook",
+    "slug": "ai-citybook-citybook",
+    "description": "Live Calgary events for AI agents.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/yeunge-pawlo/citybook",
+    "homepage": "https://citybook.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.citybook.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-28T17:08:14.375286Z"
+  },
+  {
+    "id": "mcp:ai-clarid-compliance",
+    "name": "Clarid Compliance",
+    "qualifiedName": "ai.clarid/compliance",
+    "slug": "ai-clarid-compliance",
+    "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/clarid-ai/compliance-checker",
+    "homepage": "https://clarid.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.clarid.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-26T19:00:43.930817Z"
+  },
+  {
+    "id": "mcp:ai-clarid-hmda",
+    "name": "Clarid HMDA Validator",
+    "qualifiedName": "ai.clarid/hmda",
+    "slug": "ai-clarid-hmda",
+    "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
+    "category": "Other",
+    "repository": "https://github.com/clarid-ai/compliance-checker",
+    "homepage": "https://clarid.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.clarid.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-26T19:00:44.38512Z"
+  },
+  {
+    "id": "mcp:ai-clarx-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.clarx/mcp",
+    "slug": "ai-clarx-mcp",
+    "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/Gernika-Labs/clarx-cloud",
+    "homepage": "https://github.com/Gernika-Labs/clarx-cloud",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clarxai/mcp",
+        "version": "0.2.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-19T16:23:31.658789Z"
+  },
+  {
+    "id": "mcp:ai-clawfetch-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.clawfetch/mcp",
+    "slug": "ai-clawfetch-mcp",
+    "description": "Web intelligence for AI agents: fetch, render, extract, research. x402 micropayments, no API keys.",
+    "category": "Web & Search",
+    "repository": "https://github.com/clawfetch/clawfetch-mcp",
+    "homepage": "https://github.com/clawfetch/clawfetch-mcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clawfetch/mcp",
+        "version": "0.2.2",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.clawfetch.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T07:46:55.542328Z"
+  },
+  {
+    "id": "mcp:ai-clawterminal-markets",
+    "name": "ClawTerminal",
+    "qualifiedName": "ai.clawterminal/markets",
+    "slug": "ai-clawterminal-markets",
+    "description": "Ask your AI about the markets: filings, insider & congress trades, fund flows, options, macro",
+    "category": "Dev Tools & Git",
+    "repository": null,
+    "homepage": "https://clawterminal.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.clawterminal.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-23T15:44:31.957977Z"
+  },
+  {
+    "id": "mcp:ai-cleanvector-cleanvector",
+    "name": "CleanVector",
+    "qualifiedName": "ai.cleanvector/cleanvector",
+    "slug": "ai-cleanvector-cleanvector",
+    "description": "Generate vector art, vectorize images, and return SVG, PNG, and logo kits to AI agents.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://cleanvector.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://cleanvector.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-24T11:50:05.712229Z"
+  },
+  {
+    "id": "mcp:ai-clelp-clelp",
+    "name": "Clelp",
+    "qualifiedName": "ai.clelp/clelp",
+    "slug": "ai-clelp-clelp",
+    "description": "Search and rate AI tools, MCP servers, and agent skills reviewed by real agent use.",
+    "category": "Web & Search",
+    "repository": "https://github.com/oscarsterling/clelp-skills",
+    "homepage": "https://github.com/oscarsterling/clelp-skills",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "clelp-mcp-server",
+        "version": "1.1.8",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-01T18:45:56.210843Z"
+  },
+  {
+    "id": "mcp:ai-clize-clize",
+    "name": "Clize",
+    "qualifiedName": "ai.clize/clize",
+    "slug": "ai-clize-clize",
+    "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
+    "category": "Productivity",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/clize",
+        "version": "0.37.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-04T20:32:26.981617Z"
+  },
+  {
+    "id": "mcp:ai-clize-domains",
+    "name": "Agent Domains",
+    "qualifiedName": "ai.clize/domains",
+    "slug": "ai-clize-domains",
+    "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/domains/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/domains",
+        "version": "0.35.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:33.859191Z"
+  },
+  {
+    "id": "mcp:ai-clize-inbox",
+    "name": "Agent Inbox",
+    "qualifiedName": "ai.clize/inbox",
+    "slug": "ai-clize-inbox",
+    "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
+    "category": "Productivity",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/inbox/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/inbox",
+        "version": "0.35.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:34.530918Z"
+  },
+  {
+    "id": "mcp:ai-clize-sites",
+    "name": "Sites by Clize",
+    "qualifiedName": "ai.clize/sites",
+    "slug": "ai-clize-sites",
+    "description": "Ship a real marketing site from your coding agent: domain, HTTPS and a working inbox.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/sites/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/sites",
+        "version": "0.35.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:36.102796Z"
+  },
+  {
+    "id": "mcp:ai-clize-storefront",
+    "name": "Agent Storefront",
+    "qualifiedName": "ai.clize/storefront",
+    "slug": "ai-clize-storefront",
+    "description": "Let your AI agent run a real store: checkout, orders, refunds, shipping and support.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/storefront/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/storefront",
+        "version": "0.35.5",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:36.821222Z"
+  },
+  {
+    "id": "mcp:ai-cnaps-studio",
+    "name": "CNAPS.ai MCP Server",
+    "qualifiedName": "ai.cnaps/studio",
+    "slug": "ai-cnaps-studio",
+    "description": "Run 70+ AI models and 50+ tools on CNAPS Studio in natural language — Claude, n8n, or Zapier.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://docs.cnaps.ai/mcp-user-guide",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.cnaps.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-19T17:28:37.457277Z"
+  },
+  {
+    "id": "mcp:ai-cnpj-mcp",
+    "name": "cnpj.ai",
+    "qualifiedName": "ai.cnpj/mcp",
+    "slug": "ai-cnpj-mcp",
+    "description": "Empresas, sócios e conexões por CNPJ. Brazilian company data, ownership and corporate networks.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://mcp.cnpj.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.cnpj.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T17:04:49.887737Z"
+  },
+  {
+    "id": "mcp:ai-cobbles-cobbles",
+    "name": "cobbles",
+    "qualifiedName": "ai.cobbles/cobbles",
+    "slug": "ai-cobbles-cobbles",
+    "description": "The shared task board for teams and their AI agents — connect over OAuth, every action signed.",
+    "category": "Productivity",
+    "repository": "https://github.com/Yu1586/cobbles",
+    "homepage": "https://cobbles.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.cobbles.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-07T18:03:43.51907Z"
+  },
+  {
+    "id": "mcp:ai-codenib-codenib",
+    "name": "CodeNib",
+    "qualifiedName": "ai.codenib/codenib",
+    "slug": "ai-codenib-codenib",
+    "description": "Source-linked CodeGraph exploration, ranked search, and static navigation for coding agents.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/sysevol-ai/CodeNib",
+    "homepage": "https://codenib.ai",
+    "packages": [
+      {
+        "registryType": "pypi",
+        "identifier": "codenib",
+        "version": "0.2.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T23:01:59.98609Z"
+  },
+  {
+    "id": "mcp:ai-cofoundagent-cofound",
+    "name": "Cofound",
+    "qualifiedName": "ai.cofoundagent/cofound",
+    "slug": "ai-cofoundagent-cofound",
+    "description": "MCP-native co-founder directory your AI agent searches, screening inbound pitches for you.",
+    "category": "Web & Search",
+    "repository": "https://github.com/cofound-agent/plugin",
+    "homepage": "https://github.com/cofound-agent/plugin",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.cofoundagent.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-05T16:41:03.448222Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-contabo",
+    "name": "Contabo (VPS) MCP Server",
+    "qualifiedName": "ai.com.mcp/contabo",
+    "slug": "ai-com-mcp-contabo",
+    "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
+    "category": "Cloud & DevOps",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://contabo.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-08T13:19:46.430479Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-hapi-mcp",
+    "name": "HAPI MCP Server",
+    "qualifiedName": "ai.com.mcp/hapi-mcp",
+    "slug": "ai-com-mcp-hapi-mcp",
+    "description": "HAPI MCP server: Dynamically exposes OpenAPI REST APIs as MCP tools for AI assistants",
+    "category": "Other",
+    "repository": "https://github.com/larebelion/hapimcp",
+    "homepage": "https://docs.mcp.com.ai/components/hapi-server/hapi-cli",
+    "packages": [
+      {
+        "registryType": "oci",
+        "identifier": "docker.io/hapimcp/hapi-cli:0.6.0",
+        "version": "latest",
+        "transport": "streamable-http"
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://{HAPI_FQDN}:{HAPI_PORT}/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-07T00:32:01.41626Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-lenny-rachitsky-podcast",
+    "name": "Lenny Rachitsky Podcast Transcripts MCP Server",
+    "qualifiedName": "ai.com.mcp/lenny-rachitsky-podcast",
+    "slug": "ai-com-mcp-lenny-rachitsky-podcast",
+    "description": "MCP server for structured access to Lenny Rachitsky podcast transcripts. For content creators.",
+    "category": "Other",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://lenny-rachitsky.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-16T11:08:36.481149Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-linkedin",
+    "name": "LinkedIn MCP Server",
+    "qualifiedName": "ai.com.mcp/linkedin",
+    "slug": "ai-com-mcp-linkedin",
+    "description": "LinkedIn API as MCP tools to retrieve profile data and publish content. Powered by HAPI MCP.",
+    "category": "Other",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://linkedin.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-19T15:17:12.346134Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-openai-tools",
+    "name": "OpenAI Tools MCP Server",
+    "qualifiedName": "ai.com.mcp/openai-tools",
+    "slug": "ai-com-mcp-openai-tools",
+    "description": "Focused MCP server for OpenAI image/audio generation (v2.0.0). Wraps endpoints via HAPI CLI.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://platform.openai.com/docs/api-reference",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://openai-tools.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-22T02:35:00.021804Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-petstore",
+    "name": "Petstore MCP Server",
+    "qualifiedName": "ai.com.mcp/petstore",
+    "slug": "ai-com-mcp-petstore",
+    "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
+    "category": "Other",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://petstore.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-07T14:13:05.674855Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-registry",
+    "name": "MCP Registry Server",
+    "qualifiedName": "ai.com.mcp/registry",
+    "slug": "ai-com-mcp-registry",
+    "description": "Publish and discover MCP servers via the official MCP Registry. Powered by HAPI MCP server.",
+    "category": "Other",
+    "repository": "https://github.com/modelcontextprotocol/registry",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://registry.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-01-10T22:33:54.03436Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-skills-search",
+    "name": "Agent Skills Search Server",
+    "qualifiedName": "ai.com.mcp/skills-search",
+    "slug": "ai-com-mcp-skills-search",
+    "description": "Search and discover Agent Skills from the skills.sh registry. Powered by HAPI MCP server.",
+    "category": "Web & Search",
+    "repository": "https://github.com/agentskills/agentskills",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://skills-sh.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-04T12:46:39.858109Z"
+  },
+  {
+    "id": "mcp:ai-com-mcp-strava",
+    "name": "HAPI Strava MCP Server",
+    "qualifiedName": "ai.com.mcp/strava",
+    "slug": "ai-com-mcp-strava",
+    "description": "Strava MCP tools for AI: athletes, activities, segments, clubs, routes. Powered by HAPI MCP server.",
+    "category": "Other",
+    "repository": "https://github.com/la-rebelion/hapimcp",
+    "homepage": "https://run.mcp.com.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://strava.run.mcp.com.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-02-19T16:39:20.668626Z"
+  },
+  {
+    "id": "mcp:ai-compeller-compel",
+    "name": "Compeller",
+    "qualifiedName": "ai.compeller/compel",
+    "slug": "ai-compeller-compel",
+    "description": "Create and track AI music videos and audio-reactive visuals from songs.",
+    "category": "Design & Media",
+    "repository": "https://github.com/Compellerai/compeller-mcp",
+    "homepage": "https://github.com/Compellerai/compeller-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://compeller.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-05T03:21:40.918318Z"
+  },
+  {
+    "id": "mcp:ai-compelling-mcp",
+    "name": "Compelling",
+    "qualifiedName": "ai.compelling/mcp",
+    "slug": "ai-compelling-mcp",
+    "description": "AI-native B2B sales research, ranking, and CRM enrichment.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://www.compelling.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.compelling.ai"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-02T11:30:28.211992Z"
+  },
+  {
+    "id": "mcp:ai-complyme-mcp-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.complyme.mcp/mcp",
+    "slug": "ai-complyme-mcp-mcp",
+    "description": "ComplyMe.AI MCP server for legal & data protection risk analysis and audits.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-30T06:51:34.82704Z"
+  },
+  {
+    "id": "mcp:ai-connectmachine-connectmachine",
+    "name": "ConnectMachine",
+    "qualifiedName": "ai.connectmachine/connectmachine",
+    "slug": "ai-connectmachine-connectmachine",
+    "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards.",
+    "category": "Other",
+    "repository": "https://github.com/connectmachine/mcp-server",
+    "homepage": "https://connectmachine.ai/docs/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.connectmachine.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-31T11:58:02.999489Z"
+  },
+  {
+    "id": "mcp:ai-constellationfinance-constellation-finance-mcp",
+    "name": "Constellation Credit",
+    "qualifiedName": "ai.constellationfinance/constellation-finance-mcp",
+    "slug": "ai-constellationfinance-constellation-finance-mcp",
+    "description": "Financial and covenant data for public and private credit: statements, cap stacks, covenants.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://www.constellationfinance.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.constellationfinance.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-22T18:26:02.539221Z"
+  },
+  {
+    "id": "mcp:ai-contextstudios-mcp",
+    "name": "Context Studios MCP",
+    "qualifiedName": "ai.contextstudios/mcp",
+    "slug": "ai-contextstudios-mcp",
+    "description": "AI agency API: free tools for glossary, comparisons, blog, guides, estimates and consulting",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://www.contextstudios.ai/en/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.contextstudios.ai/api/public/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T12:28:30.185334Z"
+  },
+  {
+    "id": "mcp:ai-contio-meetingos",
+    "name": "Contio MeetingOS",
+    "qualifiedName": "ai.contio/meetingos",
+    "slug": "ai-contio-meetingos",
+    "description": "Contio MeetingOS: meetings, transcripts, action items, agendas, calendar, and project management.",
+    "category": "Productivity",
+    "repository": null,
+    "homepage": "https://docs.contio.ai/user-api/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.contio.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-06T23:35:16.144113Z"
+  },
+  {
+    "id": "mcp:ai-contractorsnearme-contractors-near-me",
+    "name": "Contractors Near Me",
+    "qualifiedName": "ai.contractorsnearme/contractors-near-me",
+    "slug": "ai-contractorsnearme-contractors-near-me",
+    "description": "Search licensed US contractors by trade or location, fetch profiles and reviews, and submit leads.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://contractorsnearme.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-30T14:33:26.647431Z"
+  },
+  {
+    "id": "mcp:ai-conveo-conveo",
+    "name": "Conveo",
+    "qualifiedName": "ai.conveo/conveo",
+    "slug": "ai-conveo-conveo",
+    "description": "Qualitative research platform. Design studies, analyze interviews, and generate insights.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://conveo.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.conveo.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-06T11:05:24.104018Z"
+  },
+  {
+    "id": "mcp:ai-cookiy-cookiy",
+    "name": "Cookiy",
+    "qualifiedName": "ai.cookiy/cookiy",
+    "slug": "ai-cookiy-cookiy",
+    "description": "AI user research via studies, interviews, recruitment, reports, and quantitative surveys.",
+    "category": "Web & Search",
+    "repository": "https://github.com/cookiy-ai/cookiy-skill",
+    "homepage": "https://cookiy.ai/developer-portal",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://s-api.cookiy.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-03-28T05:28:52.028499Z"
+  },
+  {
+    "id": "mcp:ai-corduroy-labs-updates",
+    "name": "updates",
+    "qualifiedName": "ai.corduroy-labs/updates",
+    "slug": "ai-corduroy-labs-updates",
+    "description": "Corduroy Labs studio updates over MCP: list_updates and get_update, backed by the site's JSON Feed.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://corduroy-labs.ai/mcp/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://corduroy-labs.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-17T18:01:06.82434Z"
+  },
+  {
+    "id": "mcp:ai-cosmonote-notes",
+    "name": "Cosmonote",
+    "qualifiedName": "ai.cosmonote/notes",
+    "slug": "ai-cosmonote-notes",
+    "description": "Access your Cosmonote audio notes, transcriptions, summaries, and action items.",
+    "category": "Design & Media",
+    "repository": "https://github.com/cosmonote/pocketbase",
+    "homepage": "https://cosmonote.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://nebula.cosmonote.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-05-05T08:30:35.974817Z"
+  },
+  {
+    "id": "mcp:ai-cralo-mcp",
+    "name": "Cralo",
+    "qualifiedName": "ai.cralo/mcp",
+    "slug": "ai-cralo-mcp",
+    "description": "Pay-per-use tool marketplace for AI agents. Search, price-check, and call APIs via MCP.",
+    "category": "Web & Search",
+    "repository": "https://github.com/amrnth/opentooler",
+    "homepage": "https://cralo.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.cralo.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-30T19:23:02.391365Z"
+  },
+  {
+    "id": "mcp:ai-craneledger-crane-ledger",
+    "name": "Crane Ledger",
+    "qualifiedName": "ai.craneledger/crane-ledger",
+    "slug": "ai-craneledger-crane-ledger",
+    "description": "Headless API-first double-entry accounting & bookkeeping engine. 84 MCP tools over HTTP.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://craneledger.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.craneledger.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-25T16:03:19.605397Z"
+  },
+  {
+    "id": "mcp:ai-crayonz-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.crayonz/mcp",
+    "slug": "ai-crayonz-mcp",
+    "description": "Design custom apparel from chat: AI art on tees and hoodies, then a checkout link to buy.",
+    "category": "Design & Media",
+    "repository": "https://github.com/iitian-vibes/AIDesign",
+    "homepage": "https://crayonz.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.crayonz.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-30T10:15:28.617767Z"
+  },
+  {
+    "id": "mcp:ai-createprints-createprints",
+    "name": "Create Prints",
+    "qualifiedName": "ai.createprints/createprints",
+    "slug": "ai-createprints-createprints",
+    "description": "Generate AI artwork and order physical wall-art prints through conversation.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://www.createprints.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.createprints.ai/mcp"
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.createprints.ai/sse"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-30T08:01:33.409348Z"
+  },
+  {
+    "id": "mcp:ai-creationloop-creationloop",
+    "name": "creationloop",
+    "qualifiedName": "ai.creationloop/creationloop",
+    "slug": "ai-creationloop-creationloop",
+    "description": "CreationLoop is your Marketing Agent. Read the overview, offer, and FAQ; apply as a design partner.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/marino129/creationloop-mcp",
+    "homepage": "https://github.com/marino129/creationloop-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://creationloop.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-09T00:13:17.622184Z"
+  },
+  {
+    "id": "mcp:ai-creativescope-creative-intelligence",
+    "name": "CreativeScope — Mobile Game Ad Creative Intelligence",
+    "qualifiedName": "ai.creativescope/creative-intelligence",
+    "slug": "ai-creativescope-creative-intelligence",
+    "description": "Mobile-game ad creative intelligence across SDK ad networks: search, rankings, AI hook analysis.",
+    "category": "Web & Search",
+    "repository": "https://github.com/creativescope/creativescope-mcp",
+    "homepage": "https://creativescope.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.creativescope.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-22T09:51:05.050177Z"
+  },
+  {
+    "id": "mcp:ai-creditpolicy-creditpolicy",
+    "name": "CreditPolicy",
+    "qualifiedName": "ai.creditpolicy/creditpolicy",
+    "slug": "ai-creditpolicy-creditpolicy",
+    "description": "Search Australian lender credit policies, compare lenders and pre-vet deals, with citations.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://creditpolicy.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://creditpolicy.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-13T01:32:49.084207Z"
+  },
+  {
+    "id": "mcp:ai-cueapi-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.cueapi/mcp",
+    "slug": "ai-cueapi-mcp",
+    "description": "Schedule agent work and report write-once outcomes via CueAPI from any MCP host.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/cueapi/cueapi-mcp",
+    "homepage": "https://github.com/cueapi/cueapi-mcp",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@cueapi/mcp",
+        "version": "0.1.3",
+        "transport": "stdio"
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-04-15T19:01:06.819529Z"
+  },
+  {
+    "id": "mcp:ai-cueframe-cueframe",
+    "name": "CueFrame",
+    "qualifiedName": "ai.cueframe/cueframe",
+    "slug": "ai-cueframe-cueframe",
+    "description": "Turn footage into finished video: content-aware reframing, captions behind the subject, graphics.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://cueframe.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.cueframe.ai/v1/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-29T01:29:40.23313Z"
+  },
+  {
+    "id": "mcp:ai-customdomain-mcp",
+    "name": "mcp",
+    "qualifiedName": "ai.customdomain/mcp",
+    "slug": "ai-customdomain-mcp",
+    "description": "Custom domains for SaaS and AI agents: search, register, connect DNS, and issue HTTPS over MCP.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://customdomain.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.customdomain.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-07-12T18:06:58.552306Z"
+  },
+  {
+    "id": "mcp:ai-d50-d50-platform",
+    "name": "D50 AI — Sales, Marketing & Hiring Automation",
+    "qualifiedName": "ai.d50/d50-platform",
+    "slug": "ai-d50-d50-platform",
+    "description": "246 tools to run sales, marketing & hiring: CRM, leads, AI calling, content, recruiting & SEO.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://d50.ai/developers/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.d50.ai/api/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-06-14T08:27:04.313042Z"
+  },
+  {
+    "id": "mcp:ai-dablock-visibility-index",
+    "name": "DABLOCK AI Visibility Index",
+    "qualifiedName": "ai.dablock/visibility-index",
+    "slug": "ai-dablock-visibility-index",
+    "description": "Measured share of answer for 24 crypto and Web3 brands. An open dataset, not an audit of your site.",
+    "category": "Web & Search",
+    "repository": "https://github.com/creanlab/ai-visibility-index",
+    "homepage": "https://dablock.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://dablock.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T22:21:48.342634Z"
+  },
+  {
+    "id": "mcp:ai-dabyte-visibility-index",
+    "name": "DABYTE AI Visibility Index",
+    "qualifiedName": "ai.dabyte/visibility-index",
+    "slug": "ai-dabyte-visibility-index",
+    "description": "Measured share of answer for 20 SaaS brands. An open dataset, not an audit of your site.",
+    "category": "Other",
+    "repository": "https://github.com/creanlab/ai-visibility-index",
+    "homepage": "https://dabyte.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://dabyte.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-08-05T22:21:21.607463Z"
+  },
+  {
+    "id": "mcp:ai-darkfunnels-docs",
+    "name": "DarkFunnels documentation",
+    "qualifiedName": "ai.darkfunnels/docs",
+    "slug": "ai-darkfunnels-docs",
+    "description": "Search and read the DarkFunnels docs: WhatsApp AI sales agents connected by QR, no Meta Cloud API.",
+    "category": "Web & Search",
+    "repository": "https://github.com/darkfunnels-ai/darkfunnels-mcp",
+    "homepage": "https://docs.darkfunnels.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://docs.darkfunnels.ai/mcp"
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-04T20:50:58.601633Z"
+  }
+]

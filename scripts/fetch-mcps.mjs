@@ -1,6 +1,7 @@
 // Fetch MCP servers from the official MCP Registry + Glama, normalize, dedupe.
 // Docs verified: registry.modelcontextprotocol.io/v0/servers (public, no auth),
-// glama.ai/api/mcp/v1/servers (public, no auth, cursor pagination).
+// glama.ai/api/mcp/v1/servers (now requires a bearer token; set GLAMA_API_KEY
+// to enable it — without the key that source is skipped, not fatal).
 
 import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs";
 
@@ -26,9 +27,13 @@ async function fromOfficialRegistry(max = 220) {
       const url = `https://registry.modelcontextprotocol.io/v0/servers?limit=100${cursor ? `&cursor=${cursor}` : ""}`;
       const data = await getJSON(url, { label: "mcp-registry" });
       const servers = data.servers || [];
-      for (const s of servers) {
-        const meta = s._meta?.["io.modelcontextprotocol.registry/official"] || s._meta || {};
+      for (const entry of servers) {
+        // Registry responses wrap each record as { server, _meta }; older
+        // payloads were flat. Support both.
+        const s = entry.server || entry;
+        const meta = entry._meta?.["io.modelcontextprotocol.registry/official"] || s._meta || {};
         if (meta.status && meta.status !== "active") continue;
+        if (meta.isLatest === false) continue;
         const shortName = (s.name || "").split("/").pop() || s.name;
         const desc = clean(s.description || "");
         out.push({
@@ -64,13 +69,22 @@ async function fromOfficialRegistry(max = 220) {
 }
 
 /** Glama registry — adds tools/attributes/license enrichment. */
+function glamaHeaders() {
+  const key = process.env.GLAMA_API_KEY;
+  return key ? { Authorization: `Bearer ${key}` } : {};
+}
+
 async function fromGlama(max = 180) {
+  if (!process.env.GLAMA_API_KEY) {
+    log("glama: skipped (no GLAMA_API_KEY)");
+    return [];
+  }
   const out = [];
   let cursor = null;
   try {
     while (out.length < max) {
       const url = `https://glama.ai/api/mcp/v1/servers?first=100${cursor ? `&after=${cursor}` : ""}`;
-      const data = await getJSON(url, { label: "glama" });
+      const data = await getJSON(url, { label: "glama", headers: glamaHeaders() });
       const servers = data.servers || [];
       for (const s of servers) {
         const desc = clean(s.description || "");
