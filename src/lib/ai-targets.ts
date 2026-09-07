@@ -1,4 +1,5 @@
-import type { Mcp, Skill, Repo, McpPackage } from "./types";
+import type { Mcp, Skill, Repo } from "./types";
+import { launchFor, type Launch } from "./compat";
 
 export interface AiTarget {
   id: string;
@@ -28,46 +29,6 @@ export interface UsageStep {
 /* ------------------------------------------------------------------ *
  * MCP install/usage generation
  * ------------------------------------------------------------------ */
-
-/**
- * How a server is actually launched. Remote servers are the common case in the
- * official registry (most entries ship no package at all), and they need a
- * completely different config shape from stdio ones — several clients cannot
- * speak HTTP directly and have to be bridged through `mcp-remote`.
- */
-type Launch =
-  | { mode: "stdio"; command: string; args: string[] }
-  | { mode: "remote"; transport: "http" | "sse"; url: string };
-
-/** Build the launch command for a packaged (stdio) server. */
-function commandFor(pkg: McpPackage): { command: string; args: string[] } {
-  const reg = (pkg.registryType || "").toLowerCase();
-  if (reg.includes("pypi") || reg.includes("python")) {
-    return { command: "uvx", args: [pkg.identifier] };
-  }
-  if (reg.includes("oci") || reg.includes("docker")) {
-    return { command: "docker", args: ["run", "-i", "--rm", pkg.identifier] };
-  }
-  if (reg.includes("nuget")) {
-    return { command: "dnx", args: [pkg.identifier] };
-  }
-  return { command: "npx", args: ["-y", pkg.identifier] };
-}
-
-/** Prefer a real package; fall back to the first remote endpoint. */
-function launchFor(mcp: Mcp): Launch {
-  const pkg = mcp.packages[0];
-  if (pkg) return { mode: "stdio", ...commandFor(pkg) };
-
-  const remote = mcp.remotes[0];
-  if (remote) {
-    const t = (remote.type || "").toLowerCase();
-    return { mode: "remote", transport: t.includes("sse") ? "sse" : "http", url: remote.url };
-  }
-
-  // Neither — leave an obvious placeholder rather than a broken command.
-  return { mode: "stdio", command: "npx", args: ["-y", `<package-for-${mcp.slug}>`] };
-}
 
 // Registry names are reverse-DNS, e.g. "io.github.owner/weather" or
 // "ac.inference.sh/mcp". The last segment is usually the good name, but a lot
@@ -105,9 +66,22 @@ const json = (value: unknown) => JSON.stringify(value, null, 2);
 
 export function mcpUsage(mcp: Mcp, aiId: string): UsageStep[] {
   const key = keyFor(mcp);
-  const launch = launchFor(mcp);
-  const remote = launch.mode === "remote";
+  const resolved = launchFor(mcp);
   const toolHint = mcp.tools?.length ? ` (e.g. ${mcp.tools.slice(0, 3).join(", ")})` : "";
+
+  // A handful of registry entries ship neither a package nor an endpoint.
+  // Saying so is more useful than emitting a config with a placeholder in it.
+  if (resolved.mode === "unknown") {
+    return [
+      {
+        label: "No installation available",
+        note: "This registry entry publishes neither a package nor a remote endpoint, so there is nothing to install yet. Check the source repository for manual setup instructions.",
+      },
+    ];
+  }
+
+  const launch: Exclude<Launch, { mode: "unknown" }> = resolved;
+  const remote = launch.mode === "remote";
 
   switch (aiId) {
     case "claude-code": {
@@ -132,7 +106,7 @@ export function mcpUsage(mcp: Mcp, aiId: string): UsageStep[] {
       return [
         {
           label: "Open your MCP config",
-          note: "macOS: ~/Library/Application Support/Claude/claude_desktop_config.json · Windows: %APPDATA%\Claude\claude_desktop_config.json",
+          note: "macOS: ~/Library/Application Support/Claude/claude_desktop_config.json · Windows: %APPDATA%\\Claude\\claude_desktop_config.json",
         },
         { label: "Add this server", language: "json", code: json({ mcpServers: { [key]: body } }) },
         ...(remote
@@ -300,4 +274,165 @@ export function repoUsage(repo: Repo, aiId: string): UsageStep[] {
         { label: "Open in your AI editor", note: "Open the folder in your assistant and ask it to index the codebase, then reference files in chat." },
       ];
   }
+}
+
+/* ------------------------------------------------------------------ *
+ * One-click install links
+ * ------------------------------------------------------------------ */
+
+/**
+ * The server body each editor expects inside its install link — the same
+ * shape as that editor's mcp.json entry.
+ */
+function installBody(launch: Exclude<Launch, { mode: "unknown" }>) {
+  return launch.mode === "remote"
+    ? { type: launch.transport, url: launch.url }
+    : { type: "stdio", command: launch.command, args: launch.args };
+}
+
+export interface InstallLink {
+  id: string;
+  label: string;
+  href: string;
+}
+
+/**
+ * Deep links that hand the config straight to the editor.
+ *
+ * VS Code registers `vscode:mcp/install?<url-encoded JSON>` with the name
+ * inside the JSON; Cursor uses
+ * `cursor://anysphere.cursor-deeplink/mcp/install?name=…&config=<base64 JSON>`
+ * with the name as a separate query parameter.
+ */
+export function installLinks(mcp: Mcp): InstallLink[] {
+  const resolved = launchFor(mcp);
+  if (resolved.mode === "unknown") return [];
+
+  const key = keyFor(mcp);
+  const body = installBody(resolved);
+
+  const vscodeConfig = encodeURIComponent(JSON.stringify({ name: key, ...body }));
+
+  // btoa is byte-oriented, so non-ASCII in a URL would throw without this.
+  const base64 =
+    typeof window === "undefined"
+      ? Buffer.from(JSON.stringify(body), "utf8").toString("base64")
+      : btoa(String.fromCharCode(...new TextEncoder().encode(JSON.stringify(body))));
+
+  return [
+    { id: "vscode", label: "VS Code", href: `vscode:mcp/install?${vscodeConfig}` },
+    { id: "vscode-insiders", label: "VS Code Insiders", href: `vscode-insiders:mcp/install?${vscodeConfig}` },
+    {
+      id: "cursor",
+      label: "Cursor",
+      href: `cursor://anysphere.cursor-deeplink/mcp/install?name=${encodeURIComponent(key)}&config=${encodeURIComponent(base64)}`,
+    },
+  ];
+}
+
+/* ------------------------------------------------------------------ *
+ * Multi-server config assembly (the setup builder)
+ * ------------------------------------------------------------------ */
+
+/**
+ * A server reduced to what a config file needs. Serializable, so the client
+ * bundle can carry the whole catalog's worth without the raw registry objects.
+ */
+export interface ServerEntry {
+  slug: string;
+  key: string;
+  name: string;
+  launch: Launch;
+}
+
+export function serverEntry(mcp: Mcp): ServerEntry {
+  return { slug: mcp.slug, key: keyFor(mcp), name: mcp.name, launch: launchFor(mcp) };
+}
+
+/** The per-client body for one server, matching that client's schema. */
+function bodyFor(launch: Launch, aiId: string): Record<string, unknown> | null {
+  if (launch.mode === "unknown") return null;
+  const remote = launch.mode === "remote";
+
+  switch (aiId) {
+    case "claude-desktop":
+    case "codex":
+      // stdio-only clients: remote servers are bridged through mcp-remote.
+      return remote ? remoteBridge(launch.url) : { command: launch.command, args: launch.args };
+    case "vscode":
+      return remote
+        ? { type: launch.transport, url: launch.url }
+        : { type: "stdio", command: launch.command, args: launch.args };
+    case "windsurf":
+      return remote ? { serverUrl: launch.url } : { command: launch.command, args: launch.args };
+    case "cline":
+      return remote
+        ? { type: launch.transport === "sse" ? "sse" : "streamableHttp", url: launch.url }
+        : { command: launch.command, args: launch.args };
+    default:
+      return remote ? { url: launch.url } : { command: launch.command, args: launch.args };
+  }
+}
+
+export interface MergedConfig {
+  language: string;
+  code: string;
+  /** Where the snippet belongs on disk, shown above the block. */
+  target: string;
+}
+
+/**
+ * One config covering every selected server. Setting up a new machine
+ * previously meant copying each server's block and hand-merging the JSON.
+ */
+/** Entries that actually have something to install. */
+type UsableEntry = ServerEntry & { launch: Exclude<Launch, { mode: "unknown" }> };
+
+const isUsable = (e: ServerEntry): e is UsableEntry => e.launch.mode !== "unknown";
+
+export function mergedConfig(entries: ServerEntry[], aiId: string): MergedConfig {
+  const usable = entries.filter(isUsable);
+
+  if (aiId === "claude-code") {
+    // The CLI takes one server per invocation, so this is a script.
+    const lines = usable.map((e) =>
+      e.launch.mode === "remote"
+        ? `claude mcp add --transport ${e.launch.transport} ${e.key} ${e.launch.url}`
+        : `claude mcp add ${e.key} -- ${e.launch.command} ${e.launch.args.join(" ")}`,
+    );
+    return { language: "bash", code: lines.join("\n") || "# no servers selected", target: "Run in your project" };
+  }
+
+  if (aiId === "codex") {
+    const blocks = usable.flatMap((e) => {
+      const body = bodyFor(e.launch, aiId) as { command: string; args: string[] } | null;
+      if (!body) return [];
+      return [
+        `[mcp_servers.${e.key}]\ncommand = "${body.command}"\nargs = [${body.args
+          .map((a) => `"${a}"`)
+          .join(", ")}]`,
+      ];
+    });
+    return { language: "toml", code: blocks.join("\n\n") || "# no servers selected", target: "~/.codex/config.toml" };
+  }
+
+  const servers: Record<string, unknown> = {};
+  for (const e of usable) {
+    const body = bodyFor(e.launch, aiId);
+    if (body) servers[e.key] = body;
+  }
+
+  const wrapper = aiId === "vscode" ? "servers" : "mcpServers";
+  const target =
+    aiId === "vscode"
+      ? ".vscode/mcp.json"
+      : aiId === "cursor"
+        ? ".cursor/mcp.json"
+        : aiId === "windsurf"
+          ? "~/.codeium/windsurf/mcp_config.json"
+          : aiId === "cline"
+            ? "cline_mcp_settings.json"
+            : "claude_desktop_config.json";
+
+  return { language: "json", code: json({ [wrapper]: servers }), target };
 }
