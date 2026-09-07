@@ -43,17 +43,45 @@ async function graphql(query) {
   return body.data || {};
 }
 
+const REPO_FIELDS = `
+  nameWithOwner
+  stargazerCount
+  forkCount
+  isArchived
+  isFork
+  createdAt
+  pushedAt
+  licenseInfo { spdxId }
+  primaryLanguage { name }
+  issues(states: OPEN) { totalCount }
+`;
+
+function normalizeRepo(node) {
+  return {
+    slug: node.nameWithOwner,
+    stars: node.stargazerCount ?? null,
+    forks: node.forkCount ?? null,
+    archived: !!node.isArchived,
+    isFork: !!node.isFork,
+    createdAt: node.createdAt ?? null,
+    pushedAt: node.pushedAt ?? null,
+    openIssues: node.issues?.totalCount ?? null,
+    license: node.licenseInfo?.spdxId ?? null,
+    language: node.primaryLanguage?.name ?? null,
+  };
+}
+
 /**
- * Resolve star counts for a list of "owner/name" slugs.
- * @returns {Promise<Map<string, number>>} slug (lowercased) -> stars
+ * Resolve repository metadata for a list of "owner/name" slugs.
+ * @returns {Promise<Map<string, object>>} slug (lowercased) -> repo meta
  */
-export async function resolveStars(slugs) {
+export async function resolveRepoMeta(slugs) {
   const out = new Map();
   const unique = [...new Set(slugs.filter(Boolean))];
   if (unique.length === 0) return out;
 
   if (!TOKEN) {
-    log(`stars: skipped for ${unique.length} repos (no GITHUB_TOKEN)`);
+    log(`repo meta: skipped for ${unique.length} repos (no GITHUB_TOKEN)`);
     return out;
   }
 
@@ -63,30 +91,40 @@ export async function resolveStars(slugs) {
       .map((slug, n) => {
         const [owner, name] = slug.split("/");
         // Aliases must be valid GraphQL names, hence the r0/r1/... indirection.
-        return `r${n}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { nameWithOwner stargazerCount }`;
+        return `r${n}: repository(owner: ${JSON.stringify(owner)}, name: ${JSON.stringify(name)}) { ${REPO_FIELDS} }`;
       })
       .join("\n");
     try {
       const data = await graphql(`query { ${fields} }`);
       for (const node of Object.values(data)) {
-        if (node?.nameWithOwner) out.set(node.nameWithOwner.toLowerCase(), node.stargazerCount);
+        if (node?.nameWithOwner) out.set(node.nameWithOwner.toLowerCase(), normalizeRepo(node));
       }
     } catch (err) {
-      log(`stars: batch ${i / CHUNK + 1} failed — ${err.message}`);
+      log(`repo meta: batch ${i / CHUNK + 1} failed — ${err.message}`);
     }
   }
 
-  log(`stars: resolved ${out.size}/${unique.length} repos`);
+  log(`repo meta: resolved ${out.size}/${unique.length} repos`);
   return out;
 }
 
-/** Attach `stars` to items in place, using a URL field to find the repo. */
-export async function attachStars(items, urlOf) {
+/**
+ * Attach `stars` and a `repo` metadata block to items in place.
+ *
+ * The metadata is what powers the trust panel: how long the project has
+ * existed, when it was last pushed, whether it is archived or a fork. A
+ * directory that presents an abandoned server identically to a maintained one
+ * is actively unhelpful, since installing either runs code on the user's
+ * machine with their credentials.
+ */
+export async function attachRepoMeta(items, urlOf) {
   const slugs = items.map((it) => repoSlugFromUrl(urlOf(it)));
-  const stars = await resolveStars(slugs);
+  const metas = await resolveRepoMeta(slugs);
   items.forEach((it, i) => {
     const slug = slugs[i];
-    if (slug) it.stars = stars.get(slug.toLowerCase()) ?? null;
+    const meta = slug ? metas.get(slug.toLowerCase()) : null;
+    it.stars = meta?.stars ?? null;
+    it.repoMeta = meta ?? null;
   });
   return items;
 }

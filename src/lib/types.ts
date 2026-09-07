@@ -10,8 +10,8 @@ export interface Skill {
   repo: string;
   sourceUrl: string;
   target: "claude" | "multi";
-  tags: string[];
   stars: number | null;
+  repoMeta?: RepoMeta | null;
 }
 
 export interface McpPackage {
@@ -19,6 +19,28 @@ export interface McpPackage {
   identifier: string;
   version: string;
   transport: string;
+  /** Supply-chain fields, populated for npm packages by the data pipeline. */
+  weeklyDownloads?: number | null;
+  lastPublished?: string | null;
+  firstPublished?: string | null;
+  deprecated?: boolean;
+  declaredRepo?: string | null;
+  /** Whether the package's own repo matches the one the registry advertises. */
+  repoMatchesRegistry?: boolean | null;
+}
+
+/** GitHub metadata for the repo behind a resource. Null when it has none. */
+export interface RepoMeta {
+  slug: string;
+  stars: number | null;
+  forks: number | null;
+  archived: boolean;
+  isFork: boolean;
+  createdAt: string | null;
+  pushedAt: string | null;
+  openIssues: number | null;
+  license: string | null;
+  language: string | null;
 }
 
 export interface Mcp {
@@ -37,6 +59,7 @@ export interface Mcp {
   stars: number | null;
   source: string;
   updatedAt: string | null;
+  repoMeta?: RepoMeta | null;
 }
 
 export interface Repo {

@@ -4,7 +4,9 @@
 // to enable it — without the key that source is skipped, not fatal).
 
 import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs";
-import { attachStars } from "./lib/github.mjs";
+import { attachRepoMeta } from "./lib/github.mjs";
+import { resolveNpmPackages } from "./lib/npm.mjs";
+import { fetchReferenceMCPs } from "./fetch-reference-mcps.mjs";
 
 const MCP_CATEGORIES = [
   { name: "Databases & Storage", keys: ["postgres", "mysql", "sqlite", "database", "mongodb", "redis", "supabase", "duckdb", "s3", "storage", "sql", "bigquery", "snowflake"] },
@@ -26,6 +28,31 @@ const MCP_CATEGORIES = [
 
 const catOf = (text) => categorize(text, MCP_CATEGORIES);
 
+// A lot of publishers name their registry entry after the protocol rather than
+// the product, which left 13 different servers all displaying as "mcp". Fall
+// back to the distinctive token in the reverse-DNS namespace.
+const GENERIC_NAMES = new Set(["mcp", "server", "mcp-server", "mcpserver", "main", "app", "api"]);
+const NAMESPACE_NOISE = new Set([
+  "io", "com", "net", "org", "dev", "ai", "app", "sh", "co", "ac", "me", "xyz",
+  "github", "gitlab", "cloud", "www",
+]);
+
+function displayName(title, qualifiedName) {
+  const shortName = (qualifiedName || "").split("/").pop() || "";
+  const candidate = (title || shortName || "").trim();
+  if (candidate && !GENERIC_NAMES.has(candidate.toLowerCase())) return candidate;
+
+  const token = (qualifiedName || "")
+    .split("/")[0]
+    .split(".")
+    .filter((t) => t && !NAMESPACE_NOISE.has(t.toLowerCase()))
+    .sort((a, b) => b.length - a.length)[0];
+
+  if (!token) return candidate || shortName;
+  // "agentgates" -> "Agentgates MCP", so the card says something.
+  return `${token.charAt(0).toUpperCase()}${token.slice(1)} MCP`;
+}
+
 /** Official MCP Registry — clean JSON, install/package metadata. */
 async function fromOfficialRegistry(max = 220) {
   const out = [];
@@ -42,11 +69,10 @@ async function fromOfficialRegistry(max = 220) {
         const meta = entry._meta?.["io.modelcontextprotocol.registry/official"] || s._meta || {};
         if (meta.status && meta.status !== "active") continue;
         if (meta.isLatest === false) continue;
-        const shortName = (s.name || "").split("/").pop() || s.name;
         const desc = clean(s.description || "");
         out.push({
           id: `mcp:${slugify(s.name)}`,
-          name: s.title || shortName,
+          name: displayName(s.title, s.name),
           qualifiedName: s.name,
           slug: slugify(s.name),
           description: desc,
@@ -127,10 +153,15 @@ async function fromGlama(max = 180) {
 }
 
 export async function fetchMCPs() {
-  const [official, glama] = await Promise.all([fromOfficialRegistry(), fromGlama()]);
-  // Dedupe by slug, preferring the official registry (has install metadata).
+  const [reference, official, glama] = await Promise.all([
+    fetchReferenceMCPs(),
+    fromOfficialRegistry(),
+    fromGlama(),
+  ]);
+  // Dedupe by slug. Reference servers come first: they are the canonical
+  // implementations and the ones people search for by name.
   const bySlug = new Map();
-  for (const item of [...official, ...glama]) {
+  for (const item of [...reference, ...official, ...glama]) {
     const key = item.slug;
     if (!bySlug.has(key)) bySlug.set(key, item);
     else {
@@ -145,9 +176,36 @@ export async function fetchMCPs() {
     }
   }
   const all = [...bySlug.values()].filter((m) => m.name && m.description);
-  // Registries carry no popularity signal; backfill from the linked repo so
-  // the catalog's "Popular" sort has something real to order by.
-  await attachStars(all, (m) => m.repository || m.homepage);
+
+  // Registries carry no popularity or maintenance signal; backfill both from
+  // the linked repo. This also feeds the trust panel.
+  await attachRepoMeta(all, (m) => m.repository || m.homepage);
+
+  // Supply-chain data for the packaged (stdio) servers — these are the ones
+  // that execute on the user's machine, so they warrant the extra lookup.
+  const npmNames = all.flatMap((m) =>
+    m.packages.filter((p) => (p.registryType || "").toLowerCase() === "npm").map((p) => p.identifier),
+  );
+  const npmMeta = await resolveNpmPackages(npmNames);
+  for (const m of all) {
+    for (const pkg of m.packages) {
+      if ((pkg.registryType || "").toLowerCase() !== "npm") continue;
+      const meta = npmMeta.get(pkg.identifier);
+      if (!meta) continue;
+      pkg.weeklyDownloads = meta.weeklyDownloads;
+      pkg.lastPublished = meta.lastPublished;
+      pkg.firstPublished = meta.firstPublished;
+      pkg.deprecated = meta.deprecated;
+      // Does the package point back at the same repo the registry advertises?
+      // A mismatch is not proof of anything, but it is worth surfacing.
+      pkg.declaredRepo = meta.declaredRepo;
+      pkg.repoMatchesRegistry =
+        meta.declaredRepo && m.repoMeta?.slug
+          ? meta.declaredRepo.toLowerCase() === m.repoMeta.slug.toLowerCase()
+          : null;
+    }
+  }
+
   log(`MCPs total after dedupe: ${all.length}`);
   return all;
 }
