@@ -10,7 +10,8 @@ export function ResourceCard({ item }: { item: CardItem }) {
   return (
     <Link
       href={resourcePath(item.kind, item.slug)}
-      className="ring-focus block h-full rounded-2xl"
+      // `group` is required for the arrow's group-hover transform below.
+      className="ring-focus group block h-full rounded-2xl"
       aria-label={item.title}
     >
       <SpotlightCard as="div" className="h-full w-full p-5 text-left">
