@@ -70,9 +70,16 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  // After deploying, verify the site in Google Search Console and paste the
-  // token here (or add it as an env var) to confirm ownership:
-  verification: { google: "LM7TGGW0KmAZdCaTkXkvystWoMLFbiibbjJkaSrFIXQ" },
+  // Search Console ownership tokens. Both properties stay verified during the
+  // Netlify -> Vercel move: the Change of Address tool requires the old and new
+  // properties to be verified at the same time. Drop the Netlify token once the
+  // move is complete and the old property is retired.
+  verification: {
+    google: [
+      "LM7TGGW0KmAZdCaTkXkvystWoMLFbiibbjJkaSrFIXQ", // mcp-skills-hub.netlify.app
+      "dGljOMTG_o7iFj2gJMQfh8Xzkk-2pc1HYRaTundNoO8", // Vercel
+    ],
+  },
 };
 
 /** Site-wide structured data (WebSite + Organization). */
