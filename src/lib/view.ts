@@ -17,6 +17,8 @@ export interface CardItem {
   pills: Pill[];
   footer: string;
   externalUrl: string;
+  /** ISO timestamp, when the source provides one — powers the "Recent" sort. */
+  updatedAt: string | null;
   raw: Skill | Mcp | Repo;
   search: string;
 }
@@ -36,6 +38,7 @@ export function skillToCard(s: Skill): CardItem {
     ],
     footer: `by ${s.author}`,
     externalUrl: s.sourceUrl,
+    updatedAt: null,
     raw: s,
     search: `${s.name} ${s.description} ${s.category} ${s.source} ${s.author}`.toLowerCase(),
   };
@@ -58,6 +61,7 @@ export function mcpToCard(m: Mcp): CardItem {
     ],
     footer: m.license ? m.license : m.qualifiedName.split("/")[0],
     externalUrl: m.homepage || m.repository || "#",
+    updatedAt: m.updatedAt,
     raw: m,
     search: `${m.name} ${m.description} ${m.category} ${m.qualifiedName}`.toLowerCase(),
   };
@@ -78,7 +82,35 @@ export function repoToCard(r: Repo): CardItem {
     ],
     footer: r.fullName,
     externalUrl: r.url,
+    updatedAt: r.updatedAt,
     raw: r,
     search: `${r.fullName} ${r.description} ${r.category} ${r.topics.join(" ")}`.toLowerCase(),
+  };
+}
+
+/**
+ * Slim, serializable record for the global ⌘K palette. Only the fields the
+ * palette actually renders or searches — shipping full CardItems (which carry
+ * the entire raw source object) would bloat the client bundle by megabytes.
+ */
+export interface PaletteItem {
+  kind: ResourceKind;
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  search: string;
+}
+
+export function toPaletteItem(card: CardItem): PaletteItem {
+  return {
+    kind: card.kind,
+    id: card.id,
+    slug: card.slug,
+    title: card.title,
+    description: card.description.length > 110 ? `${card.description.slice(0, 109)}…` : card.description,
+    category: card.category,
+    search: card.search,
   };
 }
