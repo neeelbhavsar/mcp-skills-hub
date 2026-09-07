@@ -5,6 +5,9 @@ import type { Mcp, Repo } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { AiUsage } from "./ai-usage";
 import { ResourceExtras } from "./resource-extras";
+import { TrustPanel } from "./trust-panel";
+import { InstallButtons } from "./install-buttons";
+import { AddToSetup } from "@/components/cart/add-to-setup";
 import { formatStars } from "@/lib/utils";
 import { KIND_META, absoluteUrl, breadcrumbJsonLd, resourcePath } from "@/lib/seo";
 
@@ -109,7 +112,10 @@ export function ResourceDetail({ item }: { item: CardItem }) {
             <Star className="h-4 w-4 text-warn" /> {formatStars(item.stars)}
           </span>
         )}
+        {item.kind === "mcps" && <AddToSetup slug={item.slug} variant="full" className="h-[34px]" />}
       </div>
+
+      {item.kind === "mcps" && <InstallButtons mcp={item.raw as Mcp} />}
 
       <section className="mt-10">
         <h2 className="text-base font-semibold">
@@ -118,6 +124,8 @@ export function ResourceDetail({ item }: { item: CardItem }) {
         <p className="mt-1 mb-4 text-xs text-muted-2">Pick your assistant — copy-paste ready.</p>
         <AiUsage item={item} />
       </section>
+
+      {item.kind === "mcps" && <TrustPanel mcp={item.raw as Mcp} />}
     </article>
   );
 }
