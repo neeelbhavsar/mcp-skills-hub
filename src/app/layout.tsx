@@ -4,7 +4,8 @@ import "./globals.css";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
 import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
-import { paletteIndex } from "@/lib/data";
+import { paletteIndex, setupIndex } from "@/lib/data";
+import { CartProvider } from "@/components/cart/cart-provider";
 import { themeInitScript } from "@/components/layout/theme-toggle";
 
 const inter = Inter({
@@ -120,9 +121,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
-        <Nav searchIndex={paletteIndex} />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <CartProvider index={setupIndex}>
+          <Nav searchIndex={paletteIndex} />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

@@ -4,6 +4,8 @@ import reposJson from "@/data/repos.json";
 import metaJson from "@/data/meta.json";
 import type { Skill, Mcp, Repo, Meta } from "./types";
 import { skillToCard, mcpToCard, repoToCard, toPaletteItem, type PaletteItem } from "./view";
+import { serverEntry, type ServerEntry } from "./ai-targets";
+import { isInstallable } from "./compat";
 
 export const skills = skillsJson as Skill[];
 export const mcps = mcpsJson as Mcp[];
@@ -30,7 +32,7 @@ export function getRepo(slug: string) {
 /** Curated "featured" picks for the landing page previews. */
 export const featured = {
   skills: skills.filter((s) => s.source.includes("Anthropic") || s.source.includes("Official")).slice(0, 6),
-  mcps: mcps.filter((m) => m.packages.length > 0).slice(0, 6),
+  mcps: mcps.filter(isInstallable).slice(0, 6),
   repos: [...repos].sort((a, b) => b.stars - a.stars).slice(0, 6),
 };
 
@@ -43,3 +45,19 @@ export const paletteIndex: PaletteItem[] = [
   ...mcps.map(mcpToCard),
   ...repos.map(repoToCard),
 ].map(toPaletteItem);
+
+/**
+ * Launch details for every MCP server, handed to the setup builder so it can
+ * assemble a merged config entirely client-side.
+ */
+export const setupIndex: ServerEntry[] = mcps.map(serverEntry);
+
+/**
+ * Most recently published MCP servers. Every registry entry carries a publish
+ * timestamp, so "what changed" is free — and it is the main reason to come
+ * back to a directory more than once.
+ */
+export const recentMcps = [...mcps]
+  .filter((m) => m.updatedAt)
+  .sort((a, b) => Date.parse(b.updatedAt!) - Date.parse(a.updatedAt!))
+  .slice(0, 6);

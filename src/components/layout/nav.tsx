@@ -8,11 +8,13 @@ import { cn } from "@/lib/utils";
 import type { PaletteItem } from "@/lib/view";
 import { CommandPalette } from "@/components/search/command-palette";
 import { ThemeToggle } from "./theme-toggle";
+import { SetupLink } from "@/components/cart/setup-link";
 
 const LINKS = [
   { href: "/skills", label: "Skills" },
   { href: "/mcps", label: "MCP Servers" },
   { href: "/repos", label: "Repos" },
+  { href: "/use-cases", label: "Use Cases" },
 ];
 
 export function Nav({ searchIndex }: { searchIndex: PaletteItem[] }) {
@@ -71,6 +73,7 @@ export function Nav({ searchIndex }: { searchIndex: PaletteItem[] }) {
           })}
           <div className="mx-2 flex items-center gap-2">
             <CommandPalette items={searchIndex} />
+            <SetupLink />
             <ThemeToggle />
           </div>
           <a
@@ -85,6 +88,7 @@ export function Nav({ searchIndex }: { searchIndex: PaletteItem[] }) {
 
         <div className="flex items-center gap-2 md:hidden">
           <CommandPalette items={searchIndex} />
+          <SetupLink />
           <ThemeToggle />
           <button
           className="ring-focus rounded-lg p-2 text-muted"
