@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { skills, getSkill } from "@/lib/data";
 import { skillToCard } from "@/lib/view";
 import { ResourceDetail } from "@/components/catalog/resource-detail";
-import { resourcePath, OG_IMAGE } from "@/lib/seo";
+import { resourcePath } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -26,7 +26,7 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description, images: [OG_IMAGE] },
+    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description },
   };
 }
 
