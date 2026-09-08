@@ -19,16 +19,27 @@
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-git",
@@ -50,10 +61,21 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-fetch",
@@ -75,10 +97,21 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-memory",
@@ -100,16 +133,27 @@
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-sequentialthinking",
@@ -131,16 +175,27 @@
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-time",
@@ -162,10 +217,21 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:reference-everything",
@@ -187,16 +253,27 @@
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": null,
+    "stars": 90155,
     "source": "Official reference",
     "updatedAt": null,
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/servers",
+      "stars": 90155,
+      "forks": 11591,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2024-11-19T01:10:17Z",
+      "pushedAt": "2026-09-03T01:42:26Z",
+      "openIssues": 219,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ac-inference-sh-mcp",
@@ -235,10 +312,21 @@
         "url": "https://tandem.ac/mcp"
       }
     ],
-    "stars": null,
+    "stars": 119,
     "source": "MCP Registry",
     "updatedAt": "2026-04-22T21:06:34.500049Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "frumu-ai/tandem",
+      "stars": 119,
+      "forks": 13,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-01-17T16:27:57Z",
+      "pushedAt": "2026-09-06T11:30:34Z",
+      "openIssues": 0,
+      "license": "NOASSERTION",
+      "language": "Rust"
+    }
   },
   {
     "id": "mcp:ad-inside-inside-ads",
@@ -319,10 +407,21 @@
         "url": "https://mcp.goji.agency/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-13T13:12:26.047978Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "goji-agency/goji-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-13T10:52:07Z",
+      "pushedAt": "2026-08-13T21:13:52Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:agency-kesey-pretrip",
@@ -373,6 +472,70 @@
     "source": "MCP Registry",
     "updatedAt": "2026-02-24T00:07:27.525636Z",
     "repoMeta": null
+  },
+  {
+    "id": "mcp:agency-ottobot-business-contact-finder",
+    "name": "Business Contact Finder",
+    "qualifiedName": "agency.ottobot/business-contact-finder",
+    "slug": "agency-ottobot-business-contact-finder",
+    "description": "Check how to contact a business website, and whether that contact path actually works.",
+    "category": "Web & Search",
+    "repository": "https://github.com/modelcontextprotocol/registry",
+    "homepage": "https://github.com/modelcontextprotocol/registry",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://business-contact-finder-mcp.ottobot2025.workers.dev/mcp"
+      }
+    ],
+    "stars": 7227,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T21:23:32.359958Z",
+    "repoMeta": {
+      "slug": "modelcontextprotocol/registry",
+      "stars": 7227,
+      "forks": 980,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-02-05T17:58:01Z",
+      "pushedAt": "2026-09-05T22:13:11Z",
+      "openIssues": 109,
+      "license": "NOASSERTION",
+      "language": "Go"
+    }
+  },
+  {
+    "id": "mcp:agency-ottobot-contractor-license-changes",
+    "name": "Contractor Licence Changes",
+    "qualifiedName": "agency.ottobot/contractor-license-changes",
+    "slug": "agency-ottobot-contractor-license-changes",
+    "description": "Did this contractor's licence change? Observed lapses and reinstatements, not a snapshot.",
+    "category": "Legal & Government",
+    "repository": "https://github.com/modelcontextprotocol/registry",
+    "homepage": "https://github.com/modelcontextprotocol/registry",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://license-changes-mcp.ottobot2025.workers.dev/mcp"
+      }
+    ],
+    "stars": 7227,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-07T23:30:00.319394Z",
+    "repoMeta": {
+      "slug": "modelcontextprotocol/registry",
+      "stars": 7227,
+      "forks": 980,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-02-05T17:58:01Z",
+      "pushedAt": "2026-09-05T22:13:11Z",
+      "openIssues": 109,
+      "license": "NOASSERTION",
+      "language": "Go"
+    }
   },
   {
     "id": "mcp:ai-1325-mcp",
@@ -499,14 +662,25 @@
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
         "declaredRepo": "dealfluence/adeu",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 155,
     "source": "MCP Registry",
     "updatedAt": "2026-05-16T13:54:48.18266Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "dealfluence/adeu",
+      "stars": 155,
+      "forks": 22,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-12-30T19:38:23Z",
+      "pushedAt": "2026-09-07T22:24:28Z",
+      "openIssues": 3,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-adoraads-beauty",
@@ -612,14 +786,25 @@
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
         "declaredRepo": "menaker/adtest-mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-01T21:42:48.138341Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "menaker/adtest-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-01T20:23:02Z",
+      "pushedAt": "2026-09-02T15:26:49Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-advisorsai-service-navigator",
@@ -842,7 +1027,7 @@
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
         "declaredRepo": "bobberrisford/affiliatemcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [
@@ -851,10 +1036,21 @@
         "url": "https://mcp.agenticaffiliate.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 6,
     "source": "MCP Registry",
     "updatedAt": "2026-07-29T07:26:14.414867Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "bobberrisford/affiliatemcp",
+      "stars": 6,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-21T18:29:31Z",
+      "pushedAt": "2026-08-11T09:17:45Z",
+      "openIssues": 115,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-agenticfabricationnetwork-ufp",
@@ -956,10 +1152,21 @@
         "url": "https://mcp.agenticterminal.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T15:17:01.794422Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "observer-protocol/at-directory",
+      "stars": 0,
+      "forks": 4,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-15T20:29:48Z",
+      "pushedAt": "2026-08-18T23:58:13Z",
+      "openIssues": 3,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-agentlookups-counterscript",
@@ -1149,14 +1356,25 @@
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
         "declaredRepo": "agenttrust/mcp-server",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-03-06T11:23:10.721165Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "agenttrust/mcp-server",
+      "stars": 1,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-02-26T21:17:42Z",
+      "pushedAt": "2026-04-09T21:54:58Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-agentops",
@@ -1730,10 +1948,21 @@
         "url": "https://ai-akari.ai/mcp-trust"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-24T19:48:47.852003Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "AInoAKARI/AInoAKARI",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-14T09:42:43Z",
+      "pushedAt": "2026-08-30T03:00:27Z",
+      "openIssues": 0,
+      "license": null,
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-ai-akari-one-minute-akari",
@@ -1921,10 +2150,21 @@
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 21,
     "source": "MCP Registry",
     "updatedAt": "2025-10-09T17:05:17.793149Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "aliengiraffe/spotdb",
+      "stars": 21,
+      "forks": 4,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-10-03T00:10:55Z",
+      "pushedAt": "2026-09-04T22:06:13Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Go"
+    }
   },
   {
     "id": "mcp:ai-alphacreek-alphacreek-mcp",
@@ -2055,10 +2295,21 @@
         "url": "https://analyticslegends.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-18T19:33:29.605357Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "analyticslegends/analytics-legends-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-11T03:50:02Z",
+      "pushedAt": "2026-08-19T07:07:39Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-ankimcp-anki-mcp-server",
@@ -2080,14 +2331,25 @@
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
         "declaredRepo": "ankimcp/anki-mcp-server",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 471,
     "source": "MCP Registry",
     "updatedAt": "2026-09-04T16:01:36.144905Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "ankimcp/anki-mcp-server",
+      "stars": 471,
+      "forks": 34,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-09-29T20:06:25Z",
+      "pushedAt": "2026-09-04T15:58:32Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-ankimcp-anki-mcp-server-addon",
@@ -2100,10 +2362,21 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": null,
+    "stars": 74,
     "source": "MCP Registry",
     "updatedAt": "2026-09-04T16:44:43.882669Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "ankimcp/anki-mcp-server-addon",
+      "stars": 74,
+      "forks": 9,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-12-05T14:46:27Z",
+      "pushedAt": "2026-09-04T16:24:45Z",
+      "openIssues": 2,
+      "license": "NOASSERTION",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-anomalyarmor-armor-mcp",
@@ -2128,10 +2401,21 @@
         "url": "https://mcp.anomalyarmor.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-04-18T00:51:37.350253Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "anomalyarmor/agents",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-01-31T17:24:00Z",
+      "pushedAt": "2026-05-30T04:17:55Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-anzenna-anzenna",
@@ -2298,10 +2582,21 @@
         "url": "https://mcp.arpi.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-08T04:42:03.74166Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "arpi-ai/arpi-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-08T02:39:59Z",
+      "pushedAt": "2026-07-08T04:48:36Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-artidrop-artidrop",
@@ -2445,10 +2740,21 @@
         "url": "https://mcp.atlaso.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-02T11:07:21.155706Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "atlaso-labs/mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-27T21:22:32Z",
+      "pushedAt": "2026-07-27T21:23:33Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-atlasverified-atlas-mcp",
@@ -2571,10 +2877,21 @@
         "url": "https://mcp.auralogs.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-06-10T05:44:10.419193Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "auralogs-ai/auralogs-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-10T05:19:05Z",
+      "pushedAt": "2026-06-10T05:45:45Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-auteng-docs",
@@ -2634,10 +2951,21 @@
         "url": "https://authoryze.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-21T21:03:07.846629Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "kevinfee3/authoryze-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-21T20:36:29Z",
+      "pushedAt": "2026-08-22T20:20:50Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-autoblocks-contextlayer-mcp",
@@ -2746,14 +3074,25 @@
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
         "declaredRepo": "Autonomad1/computeback-mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-11T23:17:51.160439Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Autonomad1/computeback-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-11T22:43:08Z",
+      "pushedAt": "2026-05-12T09:25:32Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-autonomad-travel",
@@ -2826,10 +3165,21 @@
         "url": "https://{api_host}/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-18T01:09:10.259215Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "AutoRFP/mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-17T23:58:24Z",
+      "pushedAt": "2026-05-18T02:12:07Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-auxen-auxen",
@@ -2847,10 +3197,21 @@
         "url": "https://api.auxen.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-18T23:32:19.610277Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "auxen-ai/auxen-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-11T04:30:30Z",
+      "pushedAt": "2026-05-30T15:33:50Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-avasis-quant-research",
@@ -2868,10 +3229,21 @@
         "url": "https://quant-mcp.avasis.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-09-01T12:19:43.073489Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "abhayjnayakk/quant-integrity",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-28T14:15:43Z",
+      "pushedAt": "2026-09-03T17:12:41Z",
+      "openIssues": 0,
+      "license": "AGPL-3.0",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-aviado-health",
@@ -2931,10 +3303,21 @@
         "url": "https://awraiter.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-21T08:05:34.245331Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "MediaZione/AwrAiter",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-17T08:21:14Z",
+      "pushedAt": "2026-08-26T08:57:00Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-axonagentic-neuroautomata",
@@ -3309,10 +3692,21 @@
         "url": "https://backengine-prod.backengine.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-10T10:04:00.694928Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "BackEngine-ai/backengine-mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-25T11:38:43Z",
+      "pushedAt": "2026-07-10T10:01:50Z",
+      "openIssues": 1,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-backrow-backrow",
@@ -3393,10 +3787,21 @@
         "url": "https://api.bareun.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-06-09T06:04:45.980117Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "gih2yun/bareun-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-09T05:27:15Z",
+      "pushedAt": "2026-08-21T14:11:26Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-baselight-baselight",
@@ -3435,10 +3840,21 @@
         "url": "https://mcp.basethread.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-08T17:57:42.454703Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "navbuildz/basethread-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-08T17:23:02Z",
+      "pushedAt": "2026-07-08T18:40:15Z",
+      "openIssues": 1,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-bassethound-bassethound",
@@ -3561,10 +3977,21 @@
         "url": "https://betterpost.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-08T13:48:32.941236Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "betterpost/betterpost-plugin",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T05:08:01Z",
+      "pushedAt": "2026-08-12T03:27:03Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-bezal-local-commerce",
@@ -3624,10 +4051,21 @@
         "url": "https://mcp.biddeed.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-03T13:00:32.732972Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "breverdbidder/cli-anything-biddeed",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-03-11T10:36:52Z",
+      "pushedAt": "2026-09-08T09:41:57Z",
+      "openIssues": 11747,
+      "license": null,
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-biel-biel-ai",
@@ -3649,10 +4087,21 @@
         "url": "https://mcp.biel.ai/sse?project_slug={project_slug}&domain={domain}"
       }
     ],
-    "stars": null,
+    "stars": 3,
     "source": "MCP Registry",
     "updatedAt": "2026-07-05T15:36:24.193043Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "TechDocsStudio/biel-mcp",
+      "stars": 3,
+      "forks": 4,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-06-20T16:06:55Z",
+      "pushedAt": "2026-08-25T10:21:48Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-bitroad-bitroad",
@@ -3670,10 +4119,21 @@
         "url": "https://app.bitroad.ai/api/v1/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-17T19:06:22.088057Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "bitroadai/bitroad-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-17T17:35:40Z",
+      "pushedAt": "2026-09-07T20:12:30Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-bittlebits-bittlebits",
@@ -3691,10 +4151,21 @@
         "url": "https://bittlebits.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-06-02T16:24:51.181889Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "bittlebitsai/bittlebits-plugin",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-02T01:42:03Z",
+      "pushedAt": "2026-06-02T16:50:05Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-bizmoon-regulatory",
@@ -3712,10 +4183,21 @@
         "url": "https://bizmoon.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-05T17:51:19.465355Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "uofuonye/bizmoon-plugins",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-05T15:22:03Z",
+      "pushedAt": "2026-09-05T15:22:10Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-bizmuse-bizmuse",
@@ -3783,10 +4265,21 @@
         "url": "https://mcp.bloopo.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-28T12:16:01.625722Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "BloopodotAI/bloopo-marketplace",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-28T12:09:54Z",
+      "pushedAt": "2026-07-28T12:24:32Z",
+      "openIssues": 1,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-blopus-search",
@@ -3871,14 +4364,25 @@
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
         "declaredRepo": "signaltech-org/bolthub-sdk",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-25T02:10:18.959626Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "signaltech-org/bolthub-sdk",
+      "stars": 0,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-10T06:50:11Z",
+      "pushedAt": "2026-07-25T02:03:11Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-boolsai-directory",
@@ -3896,10 +4400,21 @@
         "url": "https://directory.boolsai.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:35.464226Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Boolsai-ai/mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-19T11:31:44Z",
+      "pushedAt": "2026-05-19T13:30:20Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-boolsai-grep",
@@ -3917,10 +4432,21 @@
         "url": "https://grep.boolsai.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:36.222224Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Boolsai-ai/mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-19T11:31:44Z",
+      "pushedAt": "2026-05-19T13:30:20Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-boolsai-scan",
@@ -3938,10 +4464,21 @@
         "url": "https://boolsai.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:34.760247Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Boolsai-ai/mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-19T11:31:44Z",
+      "pushedAt": "2026-05-19T13:30:20Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-boolsai-signals",
@@ -3959,10 +4496,21 @@
         "url": "https://signals.boolsai.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:36.922608Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Boolsai-ai/mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-19T11:31:44Z",
+      "pushedAt": "2026-05-19T13:30:20Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-borealhost-mcp",
@@ -3987,10 +4535,21 @@
         "url": "https://borealhost.ai/mcp/"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-06T20:32:29.563773Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "alainsvrd/borealhost-mcp",
+      "stars": 0,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-04-12T19:08:38Z",
+      "pushedAt": "2026-09-06T20:33:30Z",
+      "openIssues": 2,
+      "license": null,
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-boundaryai-boundaryai",
@@ -4074,7 +4633,7 @@
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
         "declaredRepo": "bowmark-ai/mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": false
       }
     ],
     "remotes": [
@@ -4083,10 +4642,21 @@
         "url": "https://api.bowmark.ai/mcp/registry"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-07T16:13:37.145415Z",
-    "repoMeta": null
+    "updatedAt": "2026-09-08T02:07:11.853521Z",
+    "repoMeta": {
+      "slug": "bowmark-ai/skill",
+      "stars": 0,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-24T00:30:48Z",
+      "pushedAt": "2026-08-31T10:39:53Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-brainattic-knowledge-base",
@@ -4125,10 +4695,21 @@
         "url": "https://mcp.bridgeapp.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T20:40:29.006664Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "MathAndMagic/bridgeapp-plugin",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-17T16:29:29Z",
+      "pushedAt": "2026-09-03T13:37:38Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-bringyour-bringyour",
@@ -4272,10 +4853,21 @@
         "url": "https://mcp.byteask.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 23,
     "source": "MCP Registry",
     "updatedAt": "2026-06-19T12:57:43.612963Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "ByteAsk/ByteAsk-Embedded-MCP",
+      "stars": 23,
+      "forks": 4,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-19T09:01:38Z",
+      "pushedAt": "2026-06-20T13:57:06Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-byteray-byteray-mcp",
@@ -4314,10 +4906,21 @@
         "url": "https://cabrini.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-29T17:12:49.69068Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "nlapi/cabrini-py",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-17T20:34:37Z",
+      "pushedAt": "2026-07-26T22:52:55Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-cactal-cactal",
@@ -4356,10 +4959,21 @@
         "url": "https://calaf.ai/api/mcp-account"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-22T05:15:36.752059Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "gallaghern51-art/calaf-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-22T03:01:04Z",
+      "pushedAt": "2026-08-22T22:21:47Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-calaf-seeds",
@@ -4377,10 +4991,21 @@
         "url": "https://calaf.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-22T03:01:34.501752Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "gallaghern51-art/calaf-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-22T03:01:04Z",
+      "pushedAt": "2026-08-22T22:21:47Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-calendarmcp-server",
@@ -4398,10 +5023,21 @@
         "url": "https://calendarmcp.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-20T07:09:04.298867Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Full-Vibe/calendarmcp-public",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-14T22:20:19Z",
+      "pushedAt": "2026-06-07T18:12:00Z",
+      "openIssues": 0,
+      "license": "NOASSERTION",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-calfeed-calfeed",
@@ -4448,10 +5084,21 @@
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-10T00:53:26.478263Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "CallMCP/callmcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-09T23:30:30Z",
+      "pushedAt": "2026-07-11T13:56:34Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-canaryusers-canaryusers",
@@ -4469,10 +5116,21 @@
         "url": "https://www.canaryusers.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-06-13T18:31:58.336704Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "CanaryUsers-ai/canaryusers-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-09T23:13:38Z",
+      "pushedAt": "2026-06-13T18:31:57Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-canivibe-status",
@@ -4511,10 +5169,21 @@
         "url": "https://api.canvora.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-20T00:14:46.676606Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "canvora/canvora-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-18T00:55:28Z",
+      "pushedAt": "2026-08-13T11:02:18Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-caulo-caulo",
@@ -4595,10 +5264,21 @@
         "url": "https://cerebrium.ai/docs/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-01T16:54:17.505427Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "CerebriumAI/cerebrium-skills",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-19T14:26:16Z",
+      "pushedAt": "2026-09-04T16:52:02Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-certscore-mcp",
@@ -4620,14 +5300,25 @@
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
         "declaredRepo": "ergoveritas1-alt/certscore.ai",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-07T21:17:12.620633Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "ergoveritas1-alt/certscore.ai",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-03-10T22:03:01Z",
+      "pushedAt": "2026-09-08T08:02:40Z",
+      "openIssues": 2,
+      "license": null,
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-certscore-mcp-light",
@@ -4645,10 +5336,21 @@
         "url": "https://mcp.certscore.ai/mcp/light"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T23:21:53.978305Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "ergoveritas1-alt/certscore.ai",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-03-10T22:03:01Z",
+      "pushedAt": "2026-09-08T08:02:40Z",
+      "openIssues": 2,
+      "license": null,
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-chatthing-chat-thing",
@@ -4817,7 +5519,7 @@
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
         "declaredRepo": "Chronary/chronary-mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [
@@ -4826,10 +5528,21 @@
         "url": "https://api.chronary.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:12:59.153451Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Chronary/chronary-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-04-16T02:27:14Z",
+      "pushedAt": "2026-07-14T21:12:26Z",
+      "openIssues": 0,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-circulara-plugin",
@@ -4851,14 +5564,25 @@
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
         "declaredRepo": "CircularRoute/circulara-core",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-09T11:54:08.843062Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "CircularRoute/circulara-core",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-07T12:25:58Z",
+      "pushedAt": "2026-07-16T12:06:32Z",
+      "openIssues": 0,
+      "license": null,
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-cirra-salesforce-mcp",
@@ -4993,7 +5717,7 @@
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
         "declaredRepo": "clawfetch/clawfetch-mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [
@@ -5002,10 +5726,21 @@
         "url": "https://mcp.clawfetch.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T07:46:55.542328Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "clawfetch/clawfetch-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-05T05:57:36Z",
+      "pushedAt": "2026-08-06T07:05:01Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-clawterminal-markets",
@@ -5069,14 +5804,25 @@
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
         "declaredRepo": "oscarsterling/clelp-skills",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-08-01T18:45:56.210843Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "oscarsterling/clelp-skills",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-03T03:10:12Z",
+      "pushedAt": "2026-09-06T18:12:43Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-clize-clize",
@@ -5098,14 +5844,25 @@
         "firstPublished": "2026-06-04T17:40:12.941Z",
         "deprecated": false,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-04T20:32:26.981617Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    }
   },
   {
     "id": "mcp:ai-clize-domains",
@@ -5127,14 +5884,25 @@
         "firstPublished": "2026-08-30T19:05:36.628Z",
         "deprecated": true,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T11:43:33.859191Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    }
   },
   {
     "id": "mcp:ai-clize-inbox",
@@ -5156,14 +5924,25 @@
         "firstPublished": "2026-08-30T19:05:06.544Z",
         "deprecated": true,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T11:43:34.530918Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    }
   },
   {
     "id": "mcp:ai-clize-sites",
@@ -5185,14 +5964,25 @@
         "firstPublished": "2026-08-30T19:05:26.809Z",
         "deprecated": true,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T11:43:36.102796Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    }
   },
   {
     "id": "mcp:ai-clize-storefront",
@@ -5214,14 +6004,25 @@
         "firstPublished": "2026-08-30T19:05:17.173Z",
         "deprecated": true,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T11:43:36.821222Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    }
   },
   {
     "id": "mcp:ai-cnaps-studio",
@@ -5304,10 +6105,21 @@
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 85,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T23:01:59.98609Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "sysevol-ai/CodeNib",
+      "stars": 85,
+      "forks": 3,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-03-09T06:59:13Z",
+      "pushedAt": "2026-09-05T22:26:00Z",
+      "openIssues": 7,
+      "license": "Apache-2.0",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-cofoundagent-cofound",
@@ -5325,10 +6137,21 @@
         "url": "https://mcp.cofoundagent.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-05T16:41:03.448222Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cofound-agent/plugin",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-26T00:22:26Z",
+      "pushedAt": "2026-06-14T17:48:10Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "JavaScript"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-contabo",
@@ -5346,10 +6169,21 @@
         "url": "https://contabo.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-01-08T13:19:46.430479Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-hapi-mcp",
@@ -5395,10 +6229,21 @@
         "url": "https://lenny-rachitsky.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-01-16T11:08:36.481149Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-linkedin",
@@ -5416,10 +6261,21 @@
         "url": "https://linkedin.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-02-19T15:17:12.346134Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-openai-tools",
@@ -5437,10 +6293,21 @@
         "url": "https://openai-tools.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-01-22T02:35:00.021804Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-petstore",
@@ -5458,10 +6325,21 @@
         "url": "https://petstore.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-01-07T14:13:05.674855Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-registry",
@@ -5479,10 +6357,21 @@
         "url": "https://registry.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 7227,
     "source": "MCP Registry",
     "updatedAt": "2026-01-10T22:33:54.03436Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "modelcontextprotocol/registry",
+      "stars": 7227,
+      "forks": 980,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-02-05T17:58:01Z",
+      "pushedAt": "2026-09-05T22:13:11Z",
+      "openIssues": 109,
+      "license": "NOASSERTION",
+      "language": "Go"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-skills-search",
@@ -5500,10 +6389,21 @@
         "url": "https://skills-sh.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 25135,
     "source": "MCP Registry",
     "updatedAt": "2026-02-04T12:46:39.858109Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "agentskills/agentskills",
+      "stars": 25135,
+      "forks": 1891,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-12-16T15:47:19Z",
+      "pushedAt": "2026-08-09T20:36:04Z",
+      "openIssues": 40,
+      "license": "Apache-2.0",
+      "language": "Python"
+    }
   },
   {
     "id": "mcp:ai-com-mcp-strava",
@@ -5521,10 +6421,21 @@
         "url": "https://strava.run.mcp.com.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 9,
     "source": "MCP Registry",
     "updatedAt": "2026-02-19T16:39:20.668626Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "la-rebelion/hapimcp",
+      "stars": 9,
+      "forks": 1,
+      "archived": false,
+      "isFork": true,
+      "createdAt": "2025-07-26T12:53:57Z",
+      "pushedAt": "2026-08-24T00:44:51Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "HTML"
+    }
   },
   {
     "id": "mcp:ai-compeller-compel",
@@ -5542,10 +6453,21 @@
         "url": "https://compeller.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-05T03:21:40.918318Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "Compellerai/compeller-mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-05T00:19:05Z",
+      "pushedAt": "2026-05-05T00:29:17Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-compelling-mcp",
@@ -5600,10 +6522,21 @@
         "url": "https://mcp.connectmachine.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-31T11:58:02.999489Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "connectmachine/mcp-server",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-31T11:26:37Z",
+      "pushedAt": "2026-07-31T11:26:50Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-constellationfinance-constellation-finance-mcp",
@@ -5774,6 +6707,38 @@
     "repoMeta": null
   },
   {
+    "id": "mcp:ai-cotal-cotal",
+    "name": "COTAL actions (cotal.ai)",
+    "qualifiedName": "ai.cotal/cotal",
+    "slug": "ai-cotal-cotal",
+    "description": "cotal.ai actions: product overview, site search, build log, feedback, Cloud waitlist, updates, calls",
+    "category": "Web & Search",
+    "repository": "https://github.com/Cotal-AI/Cotal",
+    "homepage": "https://cotal.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://cotal.ai/mcp"
+      }
+    ],
+    "stars": 260,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-08T01:10:30.100621Z",
+    "repoMeta": {
+      "slug": "Cotal-AI/Cotal",
+      "stars": 260,
+      "forks": 26,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-06-02T02:52:25Z",
+      "pushedAt": "2026-09-08T10:30:06Z",
+      "openIssues": 312,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    }
+  },
+  {
     "id": "mcp:ai-cralo-mcp",
     "name": "Cralo",
     "qualifiedName": "ai.cralo/mcp",
@@ -5877,10 +6842,21 @@
         "url": "https://creationloop.ai/api/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-09T00:13:17.622184Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "marino129/creationloop-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-08T23:56:54Z",
+      "pushedAt": "2026-09-04T20:56:04Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-creativescope-creative-intelligence",
@@ -5898,10 +6874,21 @@
         "url": "https://mcp.creativescope.ai/mcp"
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-07-22T09:51:05.050177Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "creativescope/creativescope-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-10T02:17:12Z",
+      "pushedAt": "2026-07-27T09:16:25Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    }
   },
   {
     "id": "mcp:ai-creditpolicy-creditpolicy",
@@ -5944,14 +6931,25 @@
         "firstPublished": "2026-04-15T06:11:22.129Z",
         "deprecated": false,
         "declaredRepo": "cueapi/cueapi-mcp",
-        "repoMatchesRegistry": null
+        "repoMatchesRegistry": true
       }
     ],
     "remotes": [],
-    "stars": null,
+    "stars": 2,
     "source": "MCP Registry",
     "updatedAt": "2026-04-15T19:01:06.819529Z",
-    "repoMeta": null
+    "repoMeta": {
+      "slug": "cueapi/cueapi-mcp",
+      "stars": 2,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-04-15T05:53:03Z",
+      "pushedAt": "2026-08-03T15:55:26Z",
+      "openIssues": 2,
+      "license": "MIT",
+      "language": "TypeScript"
+    }
   },
   {
     "id": "mcp:ai-cueframe-cueframe",
@@ -5993,90 +6991,6 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-12T18:06:58.552306Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-d50-d50-platform",
-    "name": "D50 AI — Sales, Marketing & Hiring Automation",
-    "qualifiedName": "ai.d50/d50-platform",
-    "slug": "ai-d50-d50-platform",
-    "description": "246 tools to run sales, marketing & hiring: CRM, leads, AI calling, content, recruiting & SEO.",
-    "category": "Marketing & Social",
-    "repository": null,
-    "homepage": "https://d50.ai/developers/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://app.d50.ai/api/mcp"
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-06-14T08:27:04.313042Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-dablock-visibility-index",
-    "name": "DABLOCK AI Visibility Index",
-    "qualifiedName": "ai.dablock/visibility-index",
-    "slug": "ai-dablock-visibility-index",
-    "description": "Measured share of answer for 24 crypto and Web3 brands. An open dataset, not an audit of your site.",
-    "category": "Finance & Data",
-    "repository": "https://github.com/creanlab/ai-visibility-index",
-    "homepage": "https://dablock.ai/",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://dablock.ai/mcp"
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-05T22:21:48.342634Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-dabyte-visibility-index",
-    "name": "DABYTE AI Visibility Index",
-    "qualifiedName": "ai.dabyte/visibility-index",
-    "slug": "ai-dabyte-visibility-index",
-    "description": "Measured share of answer for 20 SaaS brands. An open dataset, not an audit of your site.",
-    "category": "Marketing & Social",
-    "repository": "https://github.com/creanlab/ai-visibility-index",
-    "homepage": "https://dabyte.ai/",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://dabyte.ai/mcp"
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-05T22:21:21.607463Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-darkfunnels-docs",
-    "name": "DarkFunnels documentation",
-    "qualifiedName": "ai.darkfunnels/docs",
-    "slug": "ai-darkfunnels-docs",
-    "description": "Search and read the DarkFunnels docs: WhatsApp AI sales agents connected by QR, no Meta Cloud API.",
-    "category": "Web & Search",
-    "repository": "https://github.com/darkfunnels-ai/darkfunnels-mcp",
-    "homepage": "https://docs.darkfunnels.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://docs.darkfunnels.ai/mcp"
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-04T20:50:58.601633Z",
     "repoMeta": null
   }
 ]
