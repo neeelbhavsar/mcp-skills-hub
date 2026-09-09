@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { toolIndex, mcps, meta } from "@/lib/data";
+import { toolIndex, toolPages, mcps, meta } from "@/lib/data";
+import Link from "next/link";
 import { ToolSearch } from "@/components/search/tool-search";
 import { PageHeader } from "@/components/layout/page-header";
 import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
@@ -34,6 +35,30 @@ export default function ToolsPage() {
       />
       <section className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
         <ToolSearch tools={toolIndex} />
+        {/*
+          The search above is client-side, so crawlers see none of it. This
+          static list gives every tool page an actual inbound link instead of
+          leaving 658 pages orphaned in the sitemap.
+        */}
+        <nav className="mt-10" aria-label="All tools">
+          <h2 className="mb-3 text-sm font-semibold text-foreground">Browse all tools</h2>
+          <ul className="flex flex-wrap gap-1.5">
+            {toolPages.map((t) => (
+              <li key={t.slug}>
+                <Link
+                  href={`/tools/${t.slug}`}
+                  className="ring-focus inline-block rounded-md border border-border bg-surface px-2 py-1 font-mono text-xs text-muted transition-colors hover:border-brand/50 hover:text-foreground"
+                >
+                  {t.name}
+                  {t.providers.length > 1 && (
+                    <span className="ml-1 text-[10px] text-muted-2">×{t.providers.length}</span>
+                  )}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
         <p className="mt-8 rounded-xl border border-border bg-surface/60 px-4 py-3 text-xs leading-relaxed text-muted-2">
           Coverage: we asked all {probed} remote servers for their tool lists and {servers} answered. The
           rest either require credentials first or run as local packages, which we do not execute. Tool data

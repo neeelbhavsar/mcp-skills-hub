@@ -3,7 +3,7 @@ import mcpsJson from "@/data/mcps.json";
 import reposJson from "@/data/repos.json";
 import metaJson from "@/data/meta.json";
 import changesJson from "@/data/changes.json";
-import type { Skill, Mcp, Repo, Meta, CatalogChanges } from "./types";
+import type { Skill, Mcp, Repo, Meta, CatalogChanges, ToolInput } from "./types";
 import { skillToCard, mcpToCard, repoToCard, toPaletteItem, toolIndexOf, type PaletteItem, type ToolIndexEntry } from "./view";
 import { serverEntry, type ServerEntry } from "./ai-targets";
 import { isInstallable } from "./compat";
@@ -123,4 +123,51 @@ export function alternativesTo(target: Mcp, limit = 4): Mcp[] {
     .sort((a, b) => b.score - a.score || (b.m.stars ?? -1) - (a.m.stars ?? -1))
     .slice(0, limit)
     .map((x) => x.m);
+}
+
+/**
+ * Tools grouped by name, one entry per distinct tool across the catalog.
+ *
+ * The tool search at /tools is client-side, so crawlers never see any of it.
+ * These give each tool name a real, static, indexable page — "mcp server with
+ * a create_issue tool" is exactly how someone searches for this, and it is
+ * the largest long-tail surface the catalog has.
+ */
+export interface ToolPage {
+  slug: string;
+  name: string;
+  /** Servers exposing a tool with this name. */
+  providers: { server: Mcp; description: string | null; inputs: ToolInput[] | null }[];
+}
+
+/** Tool names are already identifier-shaped; normalize for use in a URL. */
+export function toolSlug(name: string) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
+}
+
+const toolPageMap = (() => {
+  const map = new Map<string, ToolPage>();
+  for (const server of mcps) {
+    for (const tool of server.tools ?? []) {
+      const slug = toolSlug(tool.name);
+      if (!slug) continue;
+      const existing = map.get(slug);
+      const provider = { server, description: tool.description, inputs: tool.inputs };
+      if (existing) existing.providers.push(provider);
+      else map.set(slug, { slug, name: tool.name, providers: [provider] });
+    }
+  }
+  // Most-provided first, so the listing leads with tools that matter.
+  for (const page of map.values()) {
+    page.providers.sort((a, b) => (b.server.stars ?? -1) - (a.server.stars ?? -1));
+  }
+  return map;
+})();
+
+export const toolPages: ToolPage[] = [...toolPageMap.values()].sort(
+  (a, b) => b.providers.length - a.providers.length || a.name.localeCompare(b.name),
+);
+
+export function getToolPage(slug: string) {
+  return toolPageMap.get(slug);
 }

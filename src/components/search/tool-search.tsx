@@ -4,7 +4,7 @@ import { useDeferredValue, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, Wrench, X } from "lucide-react";
 import type { ToolIndexEntry } from "@/lib/view";
-import { resourcePath } from "@/lib/seo";
+import { toolSlug } from "@/lib/data";
 import { tokenize } from "@/lib/search";
 
 const PAGE = 40;
@@ -83,7 +83,7 @@ export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
           {results.map((entry) => (
             <li key={`${entry.slug}-${entry.tool}`}>
               <Link
-                href={resourcePath("mcps", entry.slug)}
+                href={`/tools/${toolSlug(entry.tool)}`}
                 className="ring-focus flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50"
               >
                 <Wrench className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted-2" />

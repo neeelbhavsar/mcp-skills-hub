@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { skills, mcps, repos, meta } from "@/lib/data";
+import { skills, mcps, repos, meta, toolPages } from "@/lib/data";
 import { USE_CASES } from "@/lib/use-cases";
 import { STACKS } from "@/lib/stacks";
 import { SITE_URL, categoryPath, resourcePath } from "@/lib/seo";
@@ -20,6 +20,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/health-score`, lastModified: updated, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/submit`, lastModified: updated, changeFrequency: "monthly", priority: 0.5 },
   ];
+
+  // 658 tool pages: the long tail of "mcp server with a <tool> tool".
+  const toolRoutes: MetadataRoute.Sitemap = toolPages.map((t) => ({
+    url: `${SITE_URL}/tools/${t.slug}`,
+    lastModified: updated,
+    changeFrequency: "weekly",
+    priority: 0.6,
+  }));
 
   const stackRoutes: MetadataRoute.Sitemap = STACKS.map((s) => ({
     url: `${SITE_URL}/stacks/${s.slug}`,
@@ -74,5 +82,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...stackRoutes, ...useCaseRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
+  return [...staticRoutes, ...stackRoutes, ...toolRoutes, ...useCaseRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
 }
