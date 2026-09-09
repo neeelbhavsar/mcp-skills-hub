@@ -67,7 +67,10 @@ const json = (value: unknown) => JSON.stringify(value, null, 2);
 export function mcpUsage(mcp: Mcp, aiId: string): UsageStep[] {
   const key = keyFor(mcp);
   const resolved = launchFor(mcp);
-  const toolHint = mcp.tools?.length ? ` (e.g. ${mcp.tools.slice(0, 3).join(", ")})` : "";
+  // `tools` holds objects now, so joining it directly yields "[object Object]".
+  const toolHint = mcp.tools?.length
+    ? ` (e.g. ${mcp.tools.slice(0, 3).map((t) => t.name).join(", ")})`
+    : "";
 
   // A handful of registry entries ship neither a package nor an endpoint.
   // Saying so is more useful than emitting a config with a placeholder in it.
@@ -435,4 +438,41 @@ export function mergedConfig(entries: ServerEntry[], aiId: string): MergedConfig
             : "claude_desktop_config.json";
 
   return { language: "json", code: json({ [wrapper]: servers }), target };
+}
+
+/**
+ * An instruction a user can paste straight into their agent, instead of
+ * placing a config file by hand. Includes the concrete transport details so
+ * the agent doesn't have to guess (and get it wrong the way most docs do).
+ */
+export function installPrompt(mcp: Mcp): string {
+  const launch = launchFor(mcp);
+  const key = keyFor(mcp);
+
+  if (launch.mode === "unknown") {
+    return `Look into the MCP server "${mcp.name}" (${mcp.repository ?? mcp.qualifiedName}) and tell me how to install it — the registry entry publishes no package or endpoint.`;
+  }
+
+  const how =
+    launch.mode === "remote"
+      ? `It is a remote ${launch.transport.toUpperCase()} server at ${launch.url}, so configure it as a remote/HTTP server — do not try to run it as a local command. If my client only supports stdio, wrap it with "npx -y mcp-remote ${launch.url}".`
+      : `It runs as a local process: ${launch.command} ${launch.args.join(" ")}`;
+
+  const creds = requirementNamesOf(mcp);
+  const credLine = creds.length
+    ? ` It needs ${creds.join(", ")} — ask me for the value(s) and put them in the environment rather than committing them.`
+    : "";
+
+  return [
+    `Install the MCP server "${mcp.name}" for me and name it "${key}".`,
+    how + credLine,
+    `Add it to the right config file for my client, then verify it connected and list the tools it exposes.`,
+  ].join("\n\n");
+}
+
+/** Names of credentials the registry says are required. */
+function requirementNamesOf(mcp: Mcp): string[] {
+  const env = mcp.packages.flatMap((p) => p.env ?? []);
+  const headers = mcp.remotes.flatMap((r) => r.headers ?? []);
+  return [...env, ...headers].filter((i) => i.required).map((i) => i.name);
 }

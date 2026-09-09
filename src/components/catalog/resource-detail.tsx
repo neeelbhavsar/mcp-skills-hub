@@ -8,6 +8,14 @@ import { ResourceExtras } from "./resource-extras";
 import { TrustPanel } from "./trust-panel";
 import { InstallButtons } from "./install-buttons";
 import { AddToSetup } from "@/components/cart/add-to-setup";
+import { ToolsPanel, RequirementsPanel } from "./tools-panel";
+import { HealthPanel, HealthPill } from "./health-badge";
+import { ReadmeViewer } from "./readme-viewer";
+import { CopyAsPrompt } from "./copy-as-prompt";
+import { AlternativesPanel } from "./alternatives-panel";
+import { healthOf, requirementsOf } from "@/lib/health";
+import { installPrompt } from "@/lib/ai-targets";
+import { alternativesTo } from "@/lib/data";
 import { formatStars } from "@/lib/utils";
 import { KIND_META, absoluteUrl, breadcrumbJsonLd, resourcePath } from "@/lib/seo";
 
@@ -49,6 +57,7 @@ function itemJsonLd(item: CardItem) {
 
 export function ResourceDetail({ item }: { item: CardItem }) {
   const kind = KIND_META[item.kind];
+  const mcp = item.kind === "mcps" ? (item.raw as Mcp) : null;
   const jsonLd = [
     breadcrumbJsonLd([
       { name: kind.label, path: kind.path },
@@ -86,6 +95,7 @@ export function ResourceDetail({ item }: { item: CardItem }) {
           {item.pills.slice(0, 3).map((p) => (
             <Badge key={p.label} tone={p.tone}>{p.label}</Badge>
           ))}
+          {mcp && <HealthPill health={healthOf(mcp)} />}
         </div>
         <h1 className="text-2xl font-bold capitalize tracking-tight sm:text-3xl">{item.title}</h1>
         <p className="mt-2 text-sm text-muted-2">{item.footer}</p>
@@ -112,10 +122,11 @@ export function ResourceDetail({ item }: { item: CardItem }) {
             <Star className="h-4 w-4 text-warn" /> {formatStars(item.stars)}
           </span>
         )}
-        {item.kind === "mcps" && <AddToSetup slug={item.slug} variant="full" className="h-[34px]" />}
+        {mcp && <AddToSetup slug={item.slug} variant="full" className="h-[34px]" />}
+        {mcp && <CopyAsPrompt prompt={installPrompt(mcp)} />}
       </div>
 
-      {item.kind === "mcps" && <InstallButtons mcp={item.raw as Mcp} />}
+      {mcp && <InstallButtons mcp={mcp} />}
 
       <section className="mt-10">
         <h2 className="text-base font-semibold">
@@ -125,7 +136,12 @@ export function ResourceDetail({ item }: { item: CardItem }) {
         <AiUsage item={item} />
       </section>
 
-      {item.kind === "mcps" && <TrustPanel mcp={item.raw as Mcp} />}
+      {mcp && <RequirementsPanel mcp={mcp} requirements={requirementsOf(mcp)} />}
+      {mcp && <ToolsPanel mcp={mcp} />}
+      {mcp && <TrustPanel mcp={mcp} />}
+      {mcp && <HealthPanel health={healthOf(mcp)} />}
+      {mcp?.readme && <ReadmeViewer readme={mcp.readme} />}
+      {mcp && <AlternativesPanel current={mcp} alternatives={alternativesTo(mcp)} />}
     </article>
   );
 }

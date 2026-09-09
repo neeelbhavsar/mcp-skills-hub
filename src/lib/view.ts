@@ -122,3 +122,26 @@ export function toPaletteItem(card: CardItem): PaletteItem {
     search: card.search,
   };
 }
+
+/**
+ * Flat index of every discovered tool, so "which server has a create_issue
+ * tool?" becomes answerable. Only names and one-line descriptions — the full
+ * schemas stay on the server pages rather than in the client bundle.
+ */
+export interface ToolIndexEntry {
+  tool: string;
+  description: string | null;
+  server: string;
+  slug: string;
+}
+
+export function toolIndexOf(servers: Mcp[]): ToolIndexEntry[] {
+  return servers.flatMap((m) =>
+    (m.tools ?? []).map((t) => ({
+      tool: t.name,
+      description: t.description ? t.description.slice(0, 140) : null,
+      server: m.name,
+      slug: m.slug,
+    })),
+  );
+}
