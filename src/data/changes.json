@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-09T12:55:53.474Z",
+  "kinds": {
+    "skills": {
+      "baseline": true,
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [
+        {
+          "slug": "superpowers-skills",
+          "name": "superpowers-skills",
+          "description": "Community-editable skills repository",
+          "category": "Other"
+        }
+      ],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 1,
+        "previousTotal": 315,
+        "currentTotal": 315
+      }
+    },
+    "mcps": {
+      "baseline": true,
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 260,
+        "currentTotal": 260
+      }
+    },
+    "repos": {
+      "baseline": true,
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 125,
+        "currentTotal": 125
+      }
+    }
+  }
+}
