@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: "/compare" },
   openGraph: { url: "/compare", title: "Compare servers — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  // A tool, not content: ?servers= admits a combinatorial number of near
+  // duplicate URLs, which is pure crawl-budget waste. The bare /compare stays
+  // crawlable so the feature is discoverable.
+  robots: { index: false, follow: true },
 };
 
 // searchParams makes this route dynamic; it is a tool, not an indexable page.

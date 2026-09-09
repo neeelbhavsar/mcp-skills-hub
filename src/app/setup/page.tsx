@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   openGraph: { url: "/setup", title: "Setup Builder — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
 };
 
+// Shared stacks arrive as /setup?servers=a,b,c. The canonical above collapses
+// them onto /setup so a shared link never competes with the real page.
+
 export default function SetupPage() {
   // Packs are resolved server-side so a curated slug that has left the
   // registry degrades to a keyword match instead of a dead entry.
