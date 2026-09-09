@@ -7,6 +7,9 @@ import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs"
 import { attachRepoMeta } from "./lib/github.mjs";
 import { resolveNpmPackages } from "./lib/npm.mjs";
 import { fetchReferenceMCPs } from "./fetch-reference-mcps.mjs";
+import { attachTools } from "./lib/mcp-probe.mjs";
+import { attachReadmes } from "./lib/readme.mjs";
+import { repoSlugFromUrl } from "./lib/github.mjs";
 
 const MCP_CATEGORIES = [
   { name: "Databases & Storage", keys: ["postgres", "mysql", "sqlite", "database", "mongodb", "redis", "supabase", "duckdb", "s3", "storage", "sql", "bigquery", "snowflake"] },
@@ -27,6 +30,21 @@ const MCP_CATEGORIES = [
 ];
 
 const catOf = (text) => categorize(text, MCP_CATEGORIES);
+
+/** Normalize the registry's env-var / header descriptors. */
+function normalizeInputs(list) {
+  if (!Array.isArray(list)) return [];
+  return list
+    .filter((v) => v && v.name)
+    .slice(0, 24)
+    .map((v) => ({
+      name: String(v.name),
+      description: v.description ? clean(String(v.description), 240) : null,
+      required: v.isRequired === true || v.is_required === true,
+      secret: v.isSecret === true || v.is_secret === true,
+      format: v.format || null,
+    }));
+}
 
 // A lot of publishers name their registry entry after the protocol rather than
 // the product, which left 13 different servers all displaying as "mcp". Fall
@@ -84,8 +102,16 @@ async function fromOfficialRegistry(max = 220) {
             identifier: p.identifier,
             version: p.version || "latest",
             transport: p.transport?.type || p.transport || "stdio",
+            runtimeHint: p.runtimeHint || null,
+            // The registry documents required credentials; we were dropping
+            // them, which is exactly what a developer needs before installing.
+            env: normalizeInputs(p.environmentVariables),
           })),
-          remotes: (s.remotes || []).map((r) => ({ type: r.type, url: r.url })),
+          remotes: (s.remotes || []).map((r) => ({
+            type: r.type,
+            url: r.url,
+            headers: normalizeInputs(r.headers),
+          })),
           stars: null,
           source: "MCP Registry",
           updatedAt: meta.publishedAt || meta.published_at || null,
@@ -205,6 +231,13 @@ export async function fetchMCPs() {
           : null;
     }
   }
+
+  // Ask remote servers what they actually do. Packaged servers are skipped
+  // deliberately — see lib/mcp-probe.mjs.
+  await attachTools(all);
+
+  // Real documentation beats a one-line registry blurb.
+  await attachReadmes(all, (m) => repoSlugFromUrl(m.repository));
 
   log(`MCPs total after dedupe: ${all.length}`);
   return all;
