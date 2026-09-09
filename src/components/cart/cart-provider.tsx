@@ -21,6 +21,10 @@ interface CartValue {
   toggle: (slug: string) => void;
   remove: (slug: string) => void;
   clear: () => void;
+  /** Replace the whole selection — used by starter packs and shared links. */
+  replace: (slugs: string[]) => void;
+  /** Absolute, shareable URL encoding the current selection. */
+  shareUrl: string;
   /** False until localStorage has been read, so SSR and first paint agree. */
   ready: boolean;
 }
@@ -40,8 +44,17 @@ export function CartProvider({
 
   // localStorage is unreadable on the server; the selection can only be
   // restored after mount. Runs once.
+  //
+  // A `?servers=` parameter wins over stored state, so a shared link always
+  // shows the sender's stack rather than the recipient's own selection.
   /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
+    const shared = new URLSearchParams(window.location.search).get("servers");
+    if (shared) {
+      setSlugs(shared.split(",").map((s) => s.trim()).filter(Boolean).slice(0, 60));
+      setReady(true);
+      return;
+    }
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
@@ -66,6 +79,12 @@ export function CartProvider({
 
   const bySlug = useMemo(() => new Map(index.map((e) => [e.slug, e])), [index]);
 
+  // Read once after mount rather than at render, so the server and the first
+  // client render agree.
+  const [origin, setOrigin] = useState("");
+  /* eslint-disable-next-line react-hooks/set-state-in-effect */
+  useEffect(() => setOrigin(window.location.origin), []);
+
   const value = useMemo<CartValue>(() => {
     const known = new Set(bySlug.keys());
     return {
@@ -79,9 +98,11 @@ export function CartProvider({
       toggle: (slug) => setSlugs((prev) => (prev.includes(slug) ? prev.filter((s) => s !== slug) : [...prev, slug])),
       remove: (slug) => setSlugs((prev) => prev.filter((s) => s !== slug)),
       clear: () => setSlugs([]),
+      replace: (next) => setSlugs(next.filter((s) => known.has(s))),
+      shareUrl: origin ? `${origin}/setup?servers=${slugs.filter((s) => known.has(s)).join(",")}` : "",
       ready,
     };
-  }, [slugs, bySlug, ready]);
+  }, [slugs, bySlug, ready, origin]);
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }
