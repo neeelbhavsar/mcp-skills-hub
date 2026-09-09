@@ -2,6 +2,7 @@ import { mcps, meta } from "@/lib/data";
 import { serverEntry } from "@/lib/ai-targets";
 import { launchFor } from "@/lib/compat";
 import { trustSignals, overallLevel } from "@/lib/trust";
+import { healthOf, requirementsOf } from "@/lib/health";
 import { SITE_URL, resourcePath } from "@/lib/seo";
 
 // Statically generated at build time — this is a file, not a running service.
@@ -28,6 +29,23 @@ export function GET() {
       configKey: serverEntry(m).key,
       trust: overallLevel(trustSignals(m)),
       signals: trustSignals(m).map((s) => ({ level: s.level, label: s.label })),
+      health: (() => {
+        const h = healthOf(m);
+        return { score: h.score, grade: h.grade, coverage: Math.round(h.coverage * 100) / 100 };
+      })(),
+      // Discovered by asking the live server; absent for packaged servers and
+      // for remote ones that require auth first. `toolsStatus` says which.
+      toolsStatus: m.toolsStatus ?? null,
+      tools: m.tools ?? [],
+      requirements: (() => {
+        const r = requirementsOf(m);
+        return {
+          authType: r.authType?.label ?? null,
+          env: r.env,
+          headers: r.headers,
+        };
+      })(),
+      readmeUrl: m.readme?.url ?? null,
     })),
   };
 

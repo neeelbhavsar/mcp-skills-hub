@@ -14,7 +14,9 @@ const LINKS = [
   { href: "/skills", label: "Skills" },
   { href: "/mcps", label: "MCP Servers" },
   { href: "/repos", label: "Repos" },
+  { href: "/tools", label: "Tools" },
   { href: "/use-cases", label: "Use Cases" },
+  { href: "/whats-new", label: "What's New" },
 ];
 
 export function Nav({ searchIndex }: { searchIndex: PaletteItem[] }) {

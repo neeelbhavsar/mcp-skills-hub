@@ -35,12 +35,18 @@ Counts: ${meta.counts.skills} skills, ${meta.counts.mcps} MCP servers, ${meta.co
 - [All MCP servers (JSON)](${SITE_URL}/api/mcps): includes launch config, trust signals and the generated config key for each server.
 - [All skills (JSON)](${SITE_URL}/api/skills)
 - [All repos (JSON)](${SITE_URL}/api/repos)
-- [Recent additions (RSS)](${SITE_URL}/feed.xml)
+- [All tools, per server (in /api/mcps)](${SITE_URL}/api/mcps): every server's discovered tool list with input schemas.
+- [Catalog changes (RSS)](${SITE_URL}/feed.xml): new servers, newly archived ones, star movers.
 
 ## Tools
 
 - [Setup builder](${SITE_URL}/setup): select multiple servers, get one merged config per client.
 - [Use cases](${SITE_URL}/use-cases): task-oriented guides ("query a database", "browse the web").
+- [Tool search](${SITE_URL}/tools): find a server by the tool it exposes, e.g. "create_issue".
+- [Starter packs](${SITE_URL}/stacks): curated multi-server stacks for common jobs.
+- [What's new](${SITE_URL}/whats-new): daily diff of the catalog.
+- [Health score methodology](${SITE_URL}/health-score): the exact formula and weights.
+- [Compare](${SITE_URL}/compare?servers=slug-a,slug-b): diff servers side by side.
 
 ## MCP server categories
 

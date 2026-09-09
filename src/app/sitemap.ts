@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { skills, mcps, repos, meta } from "@/lib/data";
 import { USE_CASES } from "@/lib/use-cases";
+import { STACKS } from "@/lib/stacks";
 import { SITE_URL, categoryPath, resourcePath } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -13,7 +14,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/repos`, lastModified: updated, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE_URL}/use-cases`, lastModified: updated, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/setup`, lastModified: updated, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/tools`, lastModified: updated, changeFrequency: "daily", priority: 0.9 },
+    { url: `${SITE_URL}/stacks`, lastModified: updated, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${SITE_URL}/whats-new`, lastModified: updated, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/health-score`, lastModified: updated, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE_URL}/submit`, lastModified: updated, changeFrequency: "monthly", priority: 0.5 },
   ];
+
+  const stackRoutes: MetadataRoute.Sitemap = STACKS.map((s) => ({
+    url: `${SITE_URL}/stacks/${s.slug}`,
+    lastModified: updated,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
 
   // Task-oriented pages: how people actually phrase the search.
   const useCaseRoutes: MetadataRoute.Sitemap = USE_CASES.map((u) => ({
@@ -61,5 +74,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...useCaseRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
+  return [...staticRoutes, ...stackRoutes, ...useCaseRoutes, ...categoryRoutes, ...skillRoutes, ...mcpRoutes, ...repoRoutes];
 }

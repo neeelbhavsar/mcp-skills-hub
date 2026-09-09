@@ -4,14 +4,14 @@
 // An MCP server that finds MCP servers. It reads the site's own JSON API, so
 // it needs no local data and stays current with the daily refresh.
 //
-//   claude mcp add ai-library -- npx -y @ai-library/mcp
+//   claude mcp add ai-library -- node /path/to/mcp-server/index.mjs
 //
 // Implements the stdio transport directly over JSON-RPC 2.0 so the package has
 // zero dependencies — an install-time supply chain of one.
 
 import { createInterface } from "node:readline";
 
-const BASE = process.env.AI_LIBRARY_URL || "https://mcp-skills-hub.netlify.app";
+const BASE = process.env.AI_LIBRARY_URL || "https://mcp-skills-hub.vercel.app";
 const PROTOCOL_VERSION = "2025-06-18";
 
 const cache = new Map();
@@ -77,6 +77,19 @@ const TOOLS = [
     },
   },
   {
+    name: "search_tools",
+    description:
+      "Search MCP servers by the tools they expose, e.g. 'create_issue' or 'screenshot'. Returns the tool, its input schema and which server provides it. Use this when you know the capability you want but not the server.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "Tool name or capability, e.g. 'search_docs'." },
+        limit: { type: "number", description: "Max results (default 10)." },
+      },
+      required: ["query"],
+    },
+  },
+  {
     name: "get_install_config",
     description:
       "Get the ready-to-paste install configuration for one MCP server, by its AI Library slug.",
@@ -101,6 +114,35 @@ async function callTool(name, args = {}) {
   if (name === "search_skills") {
     const data = await load("skills");
     return search(rows(data, "skills"), String(args.query ?? ""), limit);
+  }
+
+  if (name === "search_tools") {
+    const data = await load("mcps");
+    const q = String(args.query ?? "").toLowerCase().split(/\s+/).filter(Boolean);
+    const flat = [];
+    for (const server of rows(data, "mcps")) {
+      for (const tool of server.tools ?? []) {
+        const hay = `${tool.name} ${tool.description ?? ""}`.toLowerCase();
+        if (q.every((t) => hay.includes(t))) {
+          flat.push({
+            tool: tool.name,
+            description: tool.description,
+            inputs: tool.inputs,
+            server: server.name,
+            slug: server.slug,
+            url: server.url,
+            launch: server.launch,
+          });
+        }
+      }
+    }
+    // Exact and prefix matches first — "search" should surface `search_docs`
+    // ahead of a tool that merely mentions searching.
+    flat.sort((a, b) => {
+      const rank = (n) => (n.toLowerCase() === q.join("_") ? 0 : n.toLowerCase().startsWith(q[0] ?? "") ? 1 : 2);
+      return rank(a.tool) - rank(b.tool) || a.tool.localeCompare(b.tool);
+    });
+    return flat.slice(0, limit);
   }
 
   if (name === "get_install_config") {
