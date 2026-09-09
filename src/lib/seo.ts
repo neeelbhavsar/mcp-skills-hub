@@ -1,11 +1,19 @@
 import type { ResourceKind } from "./types";
 
 /**
- * Canonical origin for the deployed site. Override at build time with
- * NEXT_PUBLIC_SITE_URL (e.g. a custom domain) — falls back to the Netlify URL.
+ * Canonical origin for the deployed site.
+ *
+ * Hardcoded rather than left to an env var: the default previously pointed at
+ * Netlify, so after the move to Vercel every canonical, og:url, sitemap entry
+ * and robots directive on the live site named a domain serving a stale build.
+ * A canonical is a directive, so that actively told Google to index the dead
+ * copy instead of this one. The correct value belongs in the repo where it
+ * can't silently drift from where the site actually is.
+ *
+ * NEXT_PUBLIC_SITE_URL still overrides it, for a custom domain or previews.
  */
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://mcp-skills-hub.netlify.app"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://mcp-skills-hub.vercel.app"
 ).replace(/\/+$/, "");
 
 export const SITE_NAME = "AI Library";

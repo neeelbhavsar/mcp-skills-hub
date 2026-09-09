@@ -1,11 +1,17 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
+# The site now runs on Vercel. This Netlify site exists only to redirect, so
+# the URLs Google already has (and any external links) land on the live copy
+# instead of a stale build.
+#
+# Keep this deployed for at least a year. A 301 is how the accumulated ranking
+# signal transfers; deleting the site instead simply loses it.
+#
+# There is no [build] section on purpose — nothing needs building to redirect,
+# and a build here would only produce another stale copy to go out of date.
 
-[build.environment]
-  NODE_VERSION = "22"
-
-# Official Next.js runtime for Netlify (App Router, SSR/ISR, image optimization).
-# Netlify auto-installs this when it detects Next.js, but pinning it is explicit and safe.
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[redirects]]
+  from = "/*"
+  to = "https://mcp-skills-hub.vercel.app/:splat"
+  status = 301
+  # `force` is required: without it Netlify serves any file it already has in
+  # place of the redirect, which is exactly the stale build we are escaping.
+  force = true
