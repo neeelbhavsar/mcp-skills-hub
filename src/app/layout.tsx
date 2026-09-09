@@ -4,7 +4,7 @@ import "./globals.css";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
 import { SITE_NAME, SITE_URL, absoluteUrl } from "@/lib/seo";
-import { paletteIndex, setupIndex } from "@/lib/data";
+import { paletteWithTools, setupIndex } from "@/lib/data";
 import { CartProvider } from "@/components/cart/cart-provider";
 import { themeInitScript } from "@/components/layout/theme-toggle";
 
@@ -122,7 +122,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
         <CartProvider index={setupIndex}>
-          <Nav searchIndex={paletteIndex} />
+          <Nav searchIndex={paletteWithTools} />
           <main className="flex-1">{children}</main>
           <Footer />
         </CartProvider>
