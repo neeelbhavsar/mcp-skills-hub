@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 954129,
+        "weeklyDownloads": 504064,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 152087,
+        "weeklyDownloads": 74973,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 157994,
+        "weeklyDownloads": 85279,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 243181,
+        "weeklyDownloads": 147956,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90210,
+    "stars": 90236,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90210,
-      "forks": 11613,
+      "stars": 90236,
+      "forks": 11618,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -373,12 +373,12 @@
         "headers": []
       }
     ],
-    "stars": 119,
+    "stars": 120,
     "source": "MCP Registry",
     "updatedAt": "2026-04-22T21:06:34.500049Z",
     "repoMeta": {
       "slug": "frumu-ai/tandem",
-      "stars": 119,
+      "stars": 120,
       "forks": 13,
       "archived": false,
       "isFork": false,
@@ -1147,7 +1147,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -1201,18 +1201,18 @@
         "headers": []
       }
     ],
-    "stars": 7234,
+    "stars": 7236,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7234,
+      "stars": 7236,
       "forks": 983,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-09T23:33:38Z",
-      "openIssues": 111,
+      "openIssues": 112,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1254,18 +1254,18 @@
         "headers": []
       }
     ],
-    "stars": 7234,
+    "stars": 7236,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7234,
+      "stars": 7236,
       "forks": 983,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-09T23:33:38Z",
-      "openIssues": 111,
+      "openIssues": 112,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1478,7 +1478,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 447,
+        "weeklyDownloads": 569,
         "lastPublished": "2026-09-09T10:16:44.089Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -1846,7 +1846,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 143,
+        "weeklyDownloads": 42,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -2107,7 +2107,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 17206,
+        "weeklyDownloads": 9545,
         "lastPublished": "2026-08-26T23:23:12.238Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -2803,7 +2803,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 205,
+        "weeklyDownloads": 40,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -4562,7 +4562,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 99,
+        "weeklyDownloads": 50,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -4609,7 +4609,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -4640,7 +4640,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 51,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -4671,7 +4671,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -4702,7 +4702,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 125,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -4733,7 +4733,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 93,
+        "weeklyDownloads": 65,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -4764,7 +4764,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 82,
+        "weeklyDownloads": 69,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -4857,7 +4857,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 68,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -4888,7 +4888,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -4919,7 +4919,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 52,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -4950,7 +4950,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 76,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -4981,7 +4981,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 50,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -5012,7 +5012,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -5043,7 +5043,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 290,
+        "weeklyDownloads": 102,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -5074,7 +5074,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 162,
+        "weeklyDownloads": 156,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -5105,7 +5105,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 107,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -7279,7 +7279,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 2121,
+        "weeklyDownloads": 2021,
         "lastPublished": "2026-09-09T18:16:45.006Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -7322,7 +7322,7 @@
     "remotes": [],
     "stars": 74,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T16:44:43.882669Z",
+    "updatedAt": "2026-09-10T15:31:11.758289Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
       "stars": 74,
@@ -7330,7 +7330,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
-      "pushedAt": "2026-09-09T20:09:44Z",
+      "pushedAt": "2026-09-10T15:12:11Z",
       "openIssues": 2,
       "license": "NOASSERTION",
       "language": "Python"
@@ -8498,6 +8498,42 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-09-05T01:58:16.703526Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-atako-mcp",
+    "name": "Atako",
+    "qualifiedName": "ai.atako/mcp",
+    "slug": "ai-atako-mcp",
+    "description": "Remote MCP server to read and manage your Atako AI agents, messages, files, and integrations.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/aiybiz/aiybiz-next",
+    "homepage": "https://atako.ai/en/developers",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.atako.ai/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer token: an Atako API key (aik_...) from Settings → API keys. Grants the 30 authenticated read/write tools, scoped to that key's owner.",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://api.atako.ai/mcp/public",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-10T11:38:52.479628Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -9841,7 +9877,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 65,
+        "weeklyDownloads": 34,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -9872,7 +9908,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 35,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -9903,7 +9939,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 59,
+        "weeklyDownloads": 32,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -9963,7 +9999,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 270,
+        "weeklyDownloads": 80,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -10025,7 +10061,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 249,
+        "weeklyDownloads": 53,
         "lastPublished": "2026-09-10T03:12:24.112Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -13269,6 +13305,900 @@
     "toolsStatus": "ok",
     "tools": [
       {
+        "name": "services_search_listings",
+        "description": "Search service listings (GPU compute, synthetic data, inference, vector hosting, code review, research, data labelling). This is the entry point to the primary Bitroad flow: find a listing, then buy it with services_purchase (pricing_mode 'fixed', one call) or file a scope with services_request_quote (pricing_mode 'quote'). Filter by category or pricing_mode. Every charge is held in escrow until t",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "Substring to match against listing titles and summaries.",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Filter to one service category.",
+            "required": false,
+            "enum": [
+              "gpu_compute",
+              "synthetic_data",
+              "inference",
+              "vector_hosting",
+              "code_review",
+              "research",
+              "other"
+            ]
+          },
+          {
+            "name": "pricing_mode",
+            "type": "string",
+            "description": "Filter by pricing mode: 'fixed' (one-call purchase) or 'quote' (request a quote).",
+            "required": false,
+            "enum": [
+              "quote",
+              "fixed"
+            ]
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Results per page (1-100, default 20).",
+            "required": true
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor — the next_cursor value from the previous page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_purchase",
+        "description": "Buy a fixed-price service in one call: validates the scope, computes the deterministic price, creates the quote thread directly in accepted, and charges immediately, with no seller round-trip. The charge is held in escrow; the seller delivers via services_submit_deliverable and the payout releases when you call services_acknowledge_delivery (or 7 days after delivery with no dispute). Same delegati",
+        "inputs": [
+          {
+            "name": "service_listing_id",
+            "type": "string",
+            "description": "UUID of the fixed-price service listing to buy.",
+            "required": true
+          },
+          {
+            "name": "scope",
+            "type": "object",
+            "description": "Scope-of-work values; must conform to the listing's scope_schema. The metered field drives the computed price.",
+            "required": true
+          },
+          {
+            "name": "requested_summary",
+            "type": "any",
+            "description": "Free-text description of the work being requested.",
+            "required": false
+          },
+          {
+            "name": "acknowledged_confirmation",
+            "type": "boolean",
+            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
+            "required": true
+          },
+          {
+            "name": "confirmation_token",
+            "type": "any",
+            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
+            "required": false
+          },
+          {
+            "name": "payment_method_id",
+            "type": "string",
+            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
+            "required": false
+          },
+          {
+            "name": "__outcomeForTesting",
+            "type": "string",
+            "description": "Test-only: force a simulated card outcome. Never set in production.",
+            "required": false,
+            "enum": [
+              "ok",
+              "requires_action",
+              "declined",
+              "provider_error"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "services_request_quote",
+        "description": "File a scope-of-work against a quote-mode service listing for bespoke work. The scope must conform to the listing's scope schema. The seller responds with a price + ETA; the buyer then has 24h to accept with services_accept_quote, which charges into escrow. Fixed-price listings refuse this: use services_purchase.",
+        "inputs": [
+          {
+            "name": "service_listing_id",
+            "type": "string",
+            "description": "UUID of the quote-mode service listing to request a quote against.",
+            "required": true
+          },
+          {
+            "name": "scope",
+            "type": "object",
+            "description": "Scope-of-work values; must conform to the listing's scope_schema.",
+            "required": true
+          },
+          {
+            "name": "requested_summary",
+            "type": "any",
+            "description": "Free-text description of the work being requested.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_get_quote",
+        "description": "Fetch one service quote thread with its deliverables. Buyer or seller side. Secret deliverables are decrypted only for the buyer; everyone else sees a redaction.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the quote thread to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_accept_quote",
+        "description": "Accept a submitted quote and charge immediately. Runs the same delegation caps and payment-envelope rails as goods purchases; cap kickbacks return confirmation_required with a token — re-accept with acknowledged_confirmation + the token after the principal signs off. Funds are held in escrow until the deliverable is accepted.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the quoted thread to accept and pay.",
+            "required": true
+          },
+          {
+            "name": "acknowledged_confirmation",
+            "type": "boolean",
+            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
+            "required": true
+          },
+          {
+            "name": "confirmation_token",
+            "type": "any",
+            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
+            "required": false
+          },
+          {
+            "name": "payment_method_id",
+            "type": "string",
+            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
+            "required": false
+          },
+          {
+            "name": "__outcomeForTesting",
+            "type": "string",
+            "description": "Test-only: force a simulated card outcome. Never set in production.",
+            "required": false,
+            "enum": [
+              "ok",
+              "requires_action",
+              "declined",
+              "provider_error"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "services_counter_quote",
+        "description": "Post a counter-offer on a quote thread (price in pence, ETA in minutes, optional terms). Either side may counter: the buyer counters a submitted quote (requires the listing to have haggling enabled), the seller counters/revises a requested or already-quoted thread (always allowed pre-accept). Each counter overwrites the standing offer, keeps the thread in 'quoted', and restarts the buyer's accepta",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the quote thread to counter.",
+            "required": true
+          },
+          {
+            "name": "price_pence",
+            "type": "any",
+            "description": "Counter-offer price in pence (minor units of the seller's currency); must stay inside the listing's price band.",
+            "required": true
+          },
+          {
+            "name": "eta_minutes",
+            "type": "integer",
+            "description": "Revised turnaround estimate in minutes.",
+            "required": true
+          },
+          {
+            "name": "terms",
+            "type": "any",
+            "description": "Optional free-text terms replacing the standing offer's terms.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_reject_quote",
+        "description": "Reject a submitted quote (buyer-only). Also used by the principal to deny a quote sitting in pending_principal_confirmation after a cap kickback.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the quote thread to reject.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_withdraw_quote",
+        "description": "Withdraw a quote request before the seller has quoted (buyer-only).",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the quote request to withdraw.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_list_my_quotes",
+        "description": "List service quote threads the authenticated principal opened (buyer-side view), paginated. Filter by status (requested, quoted, paid, delivered, released, …).",
+        "inputs": [
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Filter by thread status (requested, quoted, paid, delivered, released, ...).",
+            "required": false,
+            "enum": [
+              "requested",
+              "withdrawn",
+              "quoted",
+              "rejected",
+              "expired",
+              "pending_principal_confirmation",
+              "accepted",
+              "paid",
+              "in_progress",
+              "delivered",
+              "released",
+              "disputed"
+            ]
+          },
+          {
+            "name": "service_listing_id",
+            "type": "string",
+            "description": "Filter to quote threads on one service listing.",
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Results per page (1-100, default 20).",
+            "required": true
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor — the next_cursor value from the previous page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_acknowledge_delivery",
+        "description": "Explicitly accept the deliverable on a delivered quote. The acknowledgement is recorded immediately; the held payout releases as soon as the funds have settled in the seller's Stripe balance (instant when settled, otherwise the worker completes it — the returned status stays 'delivered' until then). Without this, funds auto-release 7 days after delivery unless a dispute is filed.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the delivered quote thread to accept.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_create_listing",
+        "description": "Seller-side: publish a service listing (GPU compute, synthetic data, inference, vector hosting, code review, research). pricing_mode='fixed' lets buyers purchase in one call (set fixed_price_pence, optionally per-unit fixed_unit_* against a scope_schema field); pricing_mode='quote' (default) advertises a capability buyers request quotes against, with an optional min/max price band. scope_schema is",
+        "inputs": [
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Short human-readable title of the service listing.",
+            "required": true
+          },
+          {
+            "name": "summary",
+            "type": "string",
+            "description": "Plain-text description of what the service does and its limits.",
+            "required": true
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Service category. Delegation/envelope spend checks see it as service:<category>.",
+            "required": true,
+            "enum": [
+              "gpu_compute",
+              "synthetic_data",
+              "inference",
+              "vector_hosting",
+              "code_review",
+              "research",
+              "other"
+            ]
+          },
+          {
+            "name": "scope_schema",
+            "type": "object",
+            "description": "Field DSL a buyer's scope must conform to: {name: {type, required, min, max, max_length, values}}. Max 32 fields.",
+            "required": true
+          },
+          {
+            "name": "pricing_hint",
+            "type": "any",
+            "description": "Free-text pricing guidance shown to buyers (e.g. 'from £50 per 1k rows').",
+            "required": false
+          },
+          {
+            "name": "min_price_pence",
+            "type": "any",
+            "description": "Inclusive minimum quoted price in pence (minor units of the seller's currency). Null = no lower bound.",
+            "required": false
+          },
+          {
+            "name": "max_price_pence",
+            "type": "any",
+            "description": "Inclusive maximum quoted price in pence. Null = no upper bound.",
+            "required": false
+          },
+          {
+            "name": "eta_hint_minutes",
+            "type": "any",
+            "description": "Indicative turnaround time in minutes shown to buyers.",
+            "required": false
+          },
+          {
+            "name": "auto_quote_enabled",
+            "type": "boolean",
+            "description": "Signals that quote requests on this listing are answered automatically by a seller agent.",
+            "required": true
+          },
+          {
+            "name": "haggling_enabled",
+            "type": "boolean",
+            "description": "Allow iterative buyer/seller counter-offers on this quote-mode listing. Ignored for fixed-price listings.",
+            "required": true
+          },
+          {
+            "name": "fulfillment_instance_id",
+            "type": "any",
+            "description": "Bind fulfilment to one seller agent instance. Null/omitted = any seller key with respond_quote may fulfil.",
+            "required": false
+          },
+          {
+            "name": "pricing_mode",
+            "type": "string",
+            "description": "'quote' (default): buyers request a quote; 'fixed': buyers purchase in one call at a deterministic price.",
+            "required": true,
+            "enum": [
+              "quote",
+              "fixed"
+            ]
+          },
+          {
+            "name": "fixed_price_pence",
+            "type": "any",
+            "description": "Fixed mode: flat base price in pence. Required when pricing_mode='fixed'.",
+            "required": false
+          },
+          {
+            "name": "fixed_unit_field",
+            "type": "any",
+            "description": "Fixed mode: name of a required int scope_schema field to meter billing on. Set all three fixed_unit_* together.",
+            "required": false
+          },
+          {
+            "name": "fixed_unit_price_pence",
+            "type": "any",
+            "description": "Fixed mode: price in pence per block of fixed_unit_quantity units.",
+            "required": false
+          },
+          {
+            "name": "fixed_unit_quantity",
+            "type": "any",
+            "description": "Fixed mode: units per billed block; partial blocks are rounded up.",
+            "required": false
+          },
+          {
+            "name": "vat_rate_bp",
+            "type": "integer",
+            "description": "VAT rate in basis points (0–10000, e.g. 2000 = 20%) applied to this listing's charges.",
+            "required": true
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "'active' (default) publishes immediately; 'draft' keeps the listing hidden from buyers.",
+            "required": true,
+            "enum": [
+              "draft",
+              "active"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "services_get_listing",
+        "description": "Fetch a single service listing including its scope schema — the fields a quote request or purchase scope must provide — and, for fixed-price listings, the deterministic pricing formula (flat price plus optional per-unit block billing).",
+        "inputs": [
+          {
+            "name": "service_listing_id",
+            "type": "string",
+            "description": "UUID of the service listing to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_list_open_requests",
+        "description": "Seller-side: list unanswered quote requests (status=requested). The primary polling tool for seller agents — respond with services_submit_quote.",
+        "inputs": [
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Results per page, 1-100.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor from the previous page's response.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_submit_quote",
+        "description": "Seller-side: answer a quote request with a price (pence), ETA in minutes, and optional terms. Requires the delegation's respond_quote action. Price must sit inside the listing's min/max band when one is set. Starts the buyer's 24h acceptance SLA.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the requested quote thread to answer.",
+            "required": true
+          },
+          {
+            "name": "price_pence",
+            "type": "any",
+            "description": "Quoted price in pence (minor units of the seller's settlement currency); must sit inside the listing's price band.",
+            "required": true
+          },
+          {
+            "name": "eta_minutes",
+            "type": "integer",
+            "description": "Estimated turnaround in minutes.",
+            "required": true
+          },
+          {
+            "name": "terms",
+            "type": "any",
+            "description": "Optional free-text terms attached to the quote.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_start_work",
+        "description": "Seller-side: mark a paid quote as in_progress. Requires the delegation's respond_quote action.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the paid quote thread to start work on.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "services_submit_deliverable",
+        "description": "Seller-side: submit the deliverable on a paid/in-progress quote. kind=url|text|file|secret. Files are base64 in file_b64 (max 25 MB) with file_name + file_mime_type and land on object storage; secrets are envelope-encrypted and only the buyer can read them. Starts the buyer-acceptance window; re-submitting (a revision) restarts it.",
+        "inputs": [
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the paid or in-progress quote thread to deliver on.",
+            "required": true
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Deliverable type: url, text, file (base64 upload) or secret (encrypted, buyer-only).",
+            "required": true,
+            "enum": [
+              "url",
+              "text",
+              "file",
+              "secret"
+            ]
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Required for kind=url: link where the deliverable lives.",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "Required for kind=text: the deliverable content itself.",
+            "required": false
+          },
+          {
+            "name": "secret",
+            "type": "string",
+            "description": "Required for kind=secret: sensitive value (API key, credential). Encrypted at rest; only the buyer can read it.",
+            "required": false
+          },
+          {
+            "name": "file_b64",
+            "type": "string",
+            "description": "Required for kind=file: base64-encoded file bytes, max 25 MB decoded.",
+            "required": false
+          },
+          {
+            "name": "file_name",
+            "type": "string",
+            "description": "Required for kind=file: filename shown to the buyer; unsafe characters are replaced.",
+            "required": false
+          },
+          {
+            "name": "file_mime_type",
+            "type": "string",
+            "description": "Required for kind=file: MIME type. Types outside the inert allowlist are served as forced downloads.",
+            "required": false
+          },
+          {
+            "name": "seller_note",
+            "type": "any",
+            "description": "Optional note to the buyer accompanying the deliverable.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "services_list_my_sales",
+        "description": "Seller-side: list charged threads you still owe work on, paginated. status=paid | in_progress | delivered, or active (all three, the default). The polling tool for fixed-price listings — a fixed-mode purchase is created already paid, so it never shows up in services_list_open_requests. Respond with services_start_work then services_submit_deliverable.",
+        "inputs": [
+          {
+            "name": "status",
+            "type": "string",
+            "description": "'active' (default) = paid + in_progress + delivered together; or one exact status.",
+            "required": true,
+            "enum": [
+              "paid",
+              "in_progress",
+              "delivered",
+              "active"
+            ]
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Results per page (1-100, default 20).",
+            "required": true
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor — the next_cursor value from the previous page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "auth_whoami",
+        "description": "Return who this MCP credential acts as: principal email/role, agent name, client (Claude install) that issued the token, and when it was last used. Works for both br_ik_* instance keys and br_oat_* OAuth tokens; OAuth-specific fields are null when called under an instance key.",
+        "inputs": null
+      },
+      {
+        "name": "auth_revoke_self",
+        "description": "Disconnect this OAuth connection by revoking the access+refresh chain that issued the token making this call. Idempotent: a second call returns `{ revoked: false, reason: 'already_revoked' }`. Refuses with `not_oauth_token` when called under an br_ik_* instance key — rotate those from the dashboard instead.",
+        "inputs": null
+      },
+      {
+        "name": "sellers_get",
+        "description": "Fetch a seller's public profile + trust signals (verification tier, dispute / refund / on-time-ship rates over a 90-day window, response times). Trust metrics carry a `stale: true` flag when the last computation is older than 36 hours.",
+        "inputs": [
+          {
+            "name": "seller_id",
+            "type": "string",
+            "description": "UUID of the seller whose public profile to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "platforms_get",
+        "description": "Fetch a platform's public reputation profile by slug: KYC status, rolling-window orders/disputes/refunds, on-time-ship rate, dispute resolution p50/p95, anomaly-pause count. Decommissioned platforms include the banner and reason.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "URL slug of the platform to fetch (not a UUID).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "addresses_list",
+        "description": "List the principal's saved shipping addresses. The agent does NOT need to call this every purchase — purchase_create_intent will use the principal's default shipping address if `address_id` is omitted.",
+        "inputs": null
+      },
+      {
+        "name": "addresses_create",
+        "description": "Save a new shipping address. Set is_default_shipping=true to make it the default.",
+        "inputs": [
+          {
+            "name": "recipient_name",
+            "type": "string",
+            "description": "Full name of the delivery recipient.",
+            "required": true
+          },
+          {
+            "name": "line1",
+            "type": "string",
+            "description": "First address line (street address).",
+            "required": true
+          },
+          {
+            "name": "line2",
+            "type": "any",
+            "description": "Second address line, if any.",
+            "required": false
+          },
+          {
+            "name": "town",
+            "type": "string",
+            "description": "Town or city.",
+            "required": true
+          },
+          {
+            "name": "region",
+            "type": "any",
+            "description": "Two-letter US state code (e.g. CA); required for country=US, unused for GB.",
+            "required": false
+          },
+          {
+            "name": "postcode",
+            "type": "string",
+            "description": "UK postcode for GB; US ZIP as 12345 or 12345-6789.",
+            "required": true
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Destination country code: GB (default) or US.",
+            "required": true,
+            "enum": [
+              "GB",
+              "US"
+            ]
+          },
+          {
+            "name": "phone",
+            "type": "any",
+            "description": "Contact phone number for delivery, if any.",
+            "required": false
+          },
+          {
+            "name": "is_default_shipping",
+            "type": "boolean",
+            "description": "When true, make this the buyer's default shipping address. Defaults to false.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "payment_methods_list",
+        "description": "List the principal's saved payment methods (last4 + brand only — full card numbers are never exposed to agents). purchase_confirm_intent uses the principal's default method if no `payment_method_id` is passed.",
+        "inputs": null
+      },
+      {
+        "name": "payment_methods_create",
+        "description": "Returns a one-time Stripe Checkout URL to hand the user so they can add a payment card. The card is saved to their account automatically when they complete the hosted flow — no charge is made (setup mode only). Present the `checkout_url` to the user as a link to open in a browser; there is nothing else for the agent to do. Buyer principals only.",
+        "inputs": null
+      },
+      {
+        "name": "envelopes_list",
+        "description": "List the active and historical payment envelopes the calling agent instance can draw against. Each entry shows balance, scope, validity, and per-tx / per-day caps. Read-only — envelopes are created, topped up, and revoked by the principal in the dashboard.",
+        "inputs": null
+      },
+      {
+        "name": "envelopes_get",
+        "description": "Fetch a single envelope by id. Returns the same shape as envelopes_list. Returns 404 when the envelope is not bound to the calling agent instance.",
+        "inputs": [
+          {
+            "name": "envelope_id",
+            "type": "string",
+            "description": "UUID of the payment envelope to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "disputes_file",
+        "description": "File a dispute on a goods order (order_id; reasons: not_as_described, defective, not_received, fraud_unauthorized_charge, duplicate_charge, other) or a service quote (service_quote_id; reasons: service_not_delivered, service_quality, service_scope_mismatch, plus the generic three). Exactly one target. Filing on a service quote pauses its payout auto-release. A deterministic auto-classifier resolve",
+        "inputs": [
+          {
+            "name": "order_id",
+            "type": "string",
+            "description": "UUID of the goods order in dispute. Provide exactly one of order_id / service_quote_id.",
+            "required": false
+          },
+          {
+            "name": "service_quote_id",
+            "type": "string",
+            "description": "UUID of the service quote in dispute. Provide exactly one of order_id / service_quote_id.",
+            "required": false
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": "Dispute reason. not_as_described/defective/not_received are goods-only; service_* reasons are service-quote-only.",
+            "required": true,
+            "enum": [
+              "not_as_described",
+              "defective",
+              "not_received",
+              "fraud_unauthorized_charge",
+              "duplicate_charge",
+              "other",
+              "service_not_delivered",
+              "service_quality",
+              "service_scope_mismatch"
+            ]
+          },
+          {
+            "name": "summary",
+            "type": "string",
+            "description": "Plain-text account of the problem, max 4000 chars.",
+            "required": true
+          },
+          {
+            "name": "desired_outcome",
+            "type": "any",
+            "description": "What the buyer wants, e.g. a full refund. Max 500 chars.",
+            "required": false
+          },
+          {
+            "name": "claimed_amount_pence",
+            "type": "any",
+            "description": "Amount claimed, in pence (minor units); cannot exceed the charged total. Omit if unsure.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "disputes_list",
+        "description": "List disputes for the authenticated principal (buyer-side: ones they filed; seller-side: ones filed against their orders). Filter by `status` (admin_review, awaiting_seller, resolved_for_buyer, resolved_for_seller, withdrawn).",
+        "inputs": [
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Filter to a single dispute status; omit for all statuses.",
+            "required": false,
+            "enum": [
+              "filed",
+              "triaged",
+              "auto_resolved_buyer",
+              "auto_resolved_seller",
+              "admin_review",
+              "resolved_buyer",
+              "resolved_seller",
+              "resolved_split",
+              "withdrawn",
+              "expired"
+            ]
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Results per page, 1-100. Defaults to 20.",
+            "required": true
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "disputes_get",
+        "description": "Fetch one dispute by id with the full evidence trail and timeline. Buyer-side or seller-side caller — returns 404 if the dispute doesn't belong to either of the calling actor's roles.",
+        "inputs": [
+          {
+            "name": "dispute_id",
+            "type": "string",
+            "description": "UUID of the dispute to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "disputes_add_evidence",
+        "description": "Attach an evidence item to an open dispute. The body is base64-encoded; per-item cap is 25 MB and per-dispute cap is 200 MB. Either the filing buyer or the seller-owner can upload.",
+        "inputs": [
+          {
+            "name": "dispute_id",
+            "type": "string",
+            "description": "UUID of the open dispute to attach evidence to.",
+            "required": true
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "What the evidence item is.",
+            "required": true,
+            "enum": [
+              "image",
+              "document",
+              "delivery_proof",
+              "communication_log",
+              "other"
+            ]
+          },
+          {
+            "name": "mime_type",
+            "type": "string",
+            "description": "MIME type of the file, e.g. 'image/jpeg'.",
+            "required": true
+          },
+          {
+            "name": "body_b64",
+            "type": "string",
+            "description": "File contents, base64-encoded. Max 25 MB per item.",
+            "required": true
+          },
+          {
+            "name": "caption",
+            "type": "any",
+            "description": "Optional caption shown alongside the evidence item.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "disputes_withdraw",
+        "description": "Buyer-only: withdraw an open dispute. Closed disputes cannot be withdrawn.",
+        "inputs": [
+          {
+            "name": "dispute_id",
+            "type": "string",
+            "description": "UUID of the open dispute to withdraw.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "disputes_respond",
+        "description": "Seller-side response to a dispute. Requires the seller delegation's `respond_dispute` action. Free-form text 1–4000 chars.",
+        "inputs": [
+          {
+            "name": "dispute_id",
+            "type": "string",
+            "description": "UUID of the dispute being responded to.",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The seller's response, free-form text.",
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "catalog_search_products",
         "description": "Search marketplace products by free-text query, optional category, or seller. Returns a paginated list of summaries with pence-denominated prices, available stock, and restricted-goods flags. Pass a concise phrase, not a full sentence.",
         "inputs": [
@@ -13370,6 +14300,30 @@
             "name": "product_id",
             "type": "string",
             "description": "UUID of the product to fetch.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "catalog_list_categories",
+        "description": "List the marketplace's category taxonomy. Optionally pass `slug` to scope to a subtree (e.g. 'electronics'). Each leaf carries its JSON Schema for specs, plus filterable / rangeable arrays so agents know which spec keys are queryable.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Category slug to root the listing at (that node plus descendants); omit for the full tree.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "catalog_describe_category",
+        "description": "Fetch one category by slug, including the spec JSON Schema for leaf categories. Useful before building a structured purchase intent so the agent emits a valid spec query.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Slug of the category to describe, e.g. \"electronics/phones/smartphones\".",
             "required": true
           }
         ]
@@ -13582,138 +14536,6 @@
             "name": "return_id",
             "type": "string",
             "description": "UUID of the return whose label is being fetched.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "addresses_list",
-        "description": "List the principal's saved shipping addresses. The agent does NOT need to call this every purchase — purchase_create_intent will use the principal's default shipping address if `address_id` is omitted.",
-        "inputs": null
-      },
-      {
-        "name": "addresses_create",
-        "description": "Save a new shipping address. Set is_default_shipping=true to make it the default.",
-        "inputs": [
-          {
-            "name": "recipient_name",
-            "type": "string",
-            "description": "Full name of the delivery recipient.",
-            "required": true
-          },
-          {
-            "name": "line1",
-            "type": "string",
-            "description": "First address line (street address).",
-            "required": true
-          },
-          {
-            "name": "line2",
-            "type": "any",
-            "description": "Second address line, if any.",
-            "required": false
-          },
-          {
-            "name": "town",
-            "type": "string",
-            "description": "Town or city.",
-            "required": true
-          },
-          {
-            "name": "region",
-            "type": "any",
-            "description": "Two-letter US state code (e.g. CA); required for country=US, unused for GB.",
-            "required": false
-          },
-          {
-            "name": "postcode",
-            "type": "string",
-            "description": "UK postcode for GB; US ZIP as 12345 or 12345-6789.",
-            "required": true
-          },
-          {
-            "name": "country",
-            "type": "string",
-            "description": "Destination country code: GB (default) or US.",
-            "required": true,
-            "enum": [
-              "GB",
-              "US"
-            ]
-          },
-          {
-            "name": "phone",
-            "type": "any",
-            "description": "Contact phone number for delivery, if any.",
-            "required": false
-          },
-          {
-            "name": "is_default_shipping",
-            "type": "boolean",
-            "description": "When true, make this the buyer's default shipping address. Defaults to false.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "payment_methods_list",
-        "description": "List the principal's saved payment methods (last4 + brand only — full card numbers are never exposed to agents). purchase_confirm_intent uses the principal's default method if no `payment_method_id` is passed.",
-        "inputs": null
-      },
-      {
-        "name": "payment_methods_create",
-        "description": "Returns a one-time Stripe Checkout URL to hand the user so they can add a payment card. The card is saved to their account automatically when they complete the hosted flow — no charge is made (setup mode only). Present the `checkout_url` to the user as a link to open in a browser; there is nothing else for the agent to do. Buyer principals only.",
-        "inputs": null
-      },
-      {
-        "name": "catalog_list_categories",
-        "description": "List the marketplace's category taxonomy. Optionally pass `slug` to scope to a subtree (e.g. 'electronics'). Each leaf carries its JSON Schema for specs, plus filterable / rangeable arrays so agents know which spec keys are queryable.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Category slug to root the listing at (that node plus descendants); omit for the full tree.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "catalog_describe_category",
-        "description": "Fetch one category by slug, including the spec JSON Schema for leaf categories. Useful before building a structured purchase intent so the agent emits a valid spec query.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Slug of the category to describe, e.g. \"electronics/phones/smartphones\".",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "sellers_get",
-        "description": "Fetch a seller's public profile + trust signals (verification tier, dispute / refund / on-time-ship rates over a 90-day window, response times). Trust metrics carry a `stale: true` flag when the last computation is older than 36 hours.",
-        "inputs": [
-          {
-            "name": "seller_id",
-            "type": "string",
-            "description": "UUID of the seller whose public profile to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "envelopes_list",
-        "description": "List the active and historical payment envelopes the calling agent instance can draw against. Each entry shows balance, scope, validity, and per-tx / per-day caps. Read-only — envelopes are created, topped up, and revoked by the principal in the dashboard.",
-        "inputs": null
-      },
-      {
-        "name": "envelopes_get",
-        "description": "Fetch a single envelope by id. Returns the same shape as envelopes_list. Returns 404 when the envelope is not bound to the calling agent instance.",
-        "inputs": [
-          {
-            "name": "envelope_id",
-            "type": "string",
-            "description": "UUID of the payment envelope to fetch.",
             "required": true
           }
         ]
@@ -14154,758 +14976,6 @@
             "required": false
           }
         ]
-      },
-      {
-        "name": "seller_get_return",
-        "description": "Fetch a single return filed against one of the bound seller's orders, with reason, status, restocking fee, inspection notes, and the refund ledger. Refuses if the return isn't on a seller-owned order.",
-        "inputs": [
-          {
-            "name": "return_id",
-            "type": "string",
-            "description": "UUID of the return to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_accept_return",
-        "description": "Acknowledge that a returned parcel arrived and was inspected. Moves return: approved → received. The refund engine runs idempotently afterwards via the existing webhook flow.",
-        "inputs": [
-          {
-            "name": "return_id",
-            "type": "string",
-            "description": "UUID of the return to accept. Acceptance refunds the buyer immediately (idempotent).",
-            "required": true
-          },
-          {
-            "name": "inspection_notes",
-            "type": "any",
-            "description": "Optional inspection notes recorded on the return (max 2000 chars).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_reject_return",
-        "description": "Reject a return after inspection. inspection_notes is required. Refuses if the return has already refunded.",
-        "inputs": [
-          {
-            "name": "return_id",
-            "type": "string",
-            "description": "UUID of the return to reject. Rejection is terminal: no refund is issued.",
-            "required": true
-          },
-          {
-            "name": "inspection_notes",
-            "type": "string",
-            "description": "Reason for rejection, shared with the buyer (1-2000 chars).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_list_reviews",
-        "description": "List reviews left on this seller's orders, paginated. Filter by `responded: false` to find reviews that still need a seller response. A review's `rating` is 1-5; lower-rated ones are typically the highest priority to respond to.",
-        "inputs": [
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from the previous page's next_cursor.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_respond_to_review",
-        "description": "Post the seller's response to a review. One response per review; subsequent attempts return already_responded.",
-        "inputs": [
-          {
-            "name": "review_id",
-            "type": "string",
-            "description": "UUID of the review to respond to. Each review allows one seller response.",
-            "required": true
-          },
-          {
-            "name": "text",
-            "type": "string",
-            "description": "Public response text shown under the review (1-2000 chars).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "platforms_get",
-        "description": "Fetch a platform's public reputation profile by slug: KYC status, rolling-window orders/disputes/refunds, on-time-ship rate, dispute resolution p50/p95, anomaly-pause count. Decommissioned platforms include the banner and reason.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "URL slug of the platform to fetch (not a UUID).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_file",
-        "description": "File a dispute on a goods order (order_id; reasons: not_as_described, defective, not_received, fraud_unauthorized_charge, duplicate_charge, other) or a service quote (service_quote_id; reasons: service_not_delivered, service_quality, service_scope_mismatch, plus the generic three). Exactly one target. Filing on a service quote pauses its payout auto-release. A deterministic auto-classifier resolve",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the goods order in dispute. Provide exactly one of order_id / service_quote_id.",
-            "required": false
-          },
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the service quote in dispute. Provide exactly one of order_id / service_quote_id.",
-            "required": false
-          },
-          {
-            "name": "reason",
-            "type": "string",
-            "description": "Dispute reason. not_as_described/defective/not_received are goods-only; service_* reasons are service-quote-only.",
-            "required": true,
-            "enum": [
-              "not_as_described",
-              "defective",
-              "not_received",
-              "fraud_unauthorized_charge",
-              "duplicate_charge",
-              "other",
-              "service_not_delivered",
-              "service_quality",
-              "service_scope_mismatch"
-            ]
-          },
-          {
-            "name": "summary",
-            "type": "string",
-            "description": "Plain-text account of the problem, max 4000 chars.",
-            "required": true
-          },
-          {
-            "name": "desired_outcome",
-            "type": "any",
-            "description": "What the buyer wants, e.g. a full refund. Max 500 chars.",
-            "required": false
-          },
-          {
-            "name": "claimed_amount_pence",
-            "type": "any",
-            "description": "Amount claimed, in pence (minor units); cannot exceed the charged total. Omit if unsure.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_list",
-        "description": "List disputes for the authenticated principal (buyer-side: ones they filed; seller-side: ones filed against their orders). Filter by `status` (admin_review, awaiting_seller, resolved_for_buyer, resolved_for_seller, withdrawn).",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter to a single dispute status; omit for all statuses.",
-            "required": false,
-            "enum": [
-              "filed",
-              "triaged",
-              "auto_resolved_buyer",
-              "auto_resolved_seller",
-              "admin_review",
-              "resolved_buyer",
-              "resolved_seller",
-              "resolved_split",
-              "withdrawn",
-              "expired"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100. Defaults to 20.",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_get",
-        "description": "Fetch one dispute by id with the full evidence trail and timeline. Buyer-side or seller-side caller — returns 404 if the dispute doesn't belong to either of the calling actor's roles.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the dispute to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_add_evidence",
-        "description": "Attach an evidence item to an open dispute. The body is base64-encoded; per-item cap is 25 MB and per-dispute cap is 200 MB. Either the filing buyer or the seller-owner can upload.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the open dispute to attach evidence to.",
-            "required": true
-          },
-          {
-            "name": "kind",
-            "type": "string",
-            "description": "What the evidence item is.",
-            "required": true,
-            "enum": [
-              "image",
-              "document",
-              "delivery_proof",
-              "communication_log",
-              "other"
-            ]
-          },
-          {
-            "name": "mime_type",
-            "type": "string",
-            "description": "MIME type of the file, e.g. 'image/jpeg'.",
-            "required": true
-          },
-          {
-            "name": "body_b64",
-            "type": "string",
-            "description": "File contents, base64-encoded. Max 25 MB per item.",
-            "required": true
-          },
-          {
-            "name": "caption",
-            "type": "any",
-            "description": "Optional caption shown alongside the evidence item.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_withdraw",
-        "description": "Buyer-only: withdraw an open dispute. Closed disputes cannot be withdrawn.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the open dispute to withdraw.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_respond",
-        "description": "Seller-side response to a dispute. Requires the seller delegation's `respond_dispute` action. Free-form text 1–4000 chars.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the dispute being responded to.",
-            "required": true
-          },
-          {
-            "name": "text",
-            "type": "string",
-            "description": "The seller's response, free-form text.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_create_listing",
-        "description": "Seller-side: publish a service listing (GPU compute, synthetic data, inference, vector hosting, code review, research). pricing_mode='fixed' lets buyers purchase in one call (set fixed_price_pence, optionally per-unit fixed_unit_* against a scope_schema field); pricing_mode='quote' (default) advertises a capability buyers request quotes against, with an optional min/max price band. scope_schema is",
-        "inputs": [
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Short human-readable title of the service listing.",
-            "required": true
-          },
-          {
-            "name": "summary",
-            "type": "string",
-            "description": "Plain-text description of what the service does and its limits.",
-            "required": true
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Service category. Delegation/envelope spend checks see it as service:<category>.",
-            "required": true,
-            "enum": [
-              "gpu_compute",
-              "synthetic_data",
-              "inference",
-              "vector_hosting",
-              "code_review",
-              "research",
-              "other"
-            ]
-          },
-          {
-            "name": "scope_schema",
-            "type": "object",
-            "description": "Field DSL a buyer's scope must conform to: {name: {type, required, min, max, max_length, values}}. Max 32 fields.",
-            "required": true
-          },
-          {
-            "name": "pricing_hint",
-            "type": "any",
-            "description": "Free-text pricing guidance shown to buyers (e.g. 'from £50 per 1k rows').",
-            "required": false
-          },
-          {
-            "name": "min_price_pence",
-            "type": "any",
-            "description": "Inclusive minimum quoted price in pence (minor units of the seller's currency). Null = no lower bound.",
-            "required": false
-          },
-          {
-            "name": "max_price_pence",
-            "type": "any",
-            "description": "Inclusive maximum quoted price in pence. Null = no upper bound.",
-            "required": false
-          },
-          {
-            "name": "eta_hint_minutes",
-            "type": "any",
-            "description": "Indicative turnaround time in minutes shown to buyers.",
-            "required": false
-          },
-          {
-            "name": "auto_quote_enabled",
-            "type": "boolean",
-            "description": "Signals that quote requests on this listing are answered automatically by a seller agent.",
-            "required": true
-          },
-          {
-            "name": "haggling_enabled",
-            "type": "boolean",
-            "description": "Allow iterative buyer/seller counter-offers on this quote-mode listing. Ignored for fixed-price listings.",
-            "required": true
-          },
-          {
-            "name": "fulfillment_instance_id",
-            "type": "any",
-            "description": "Bind fulfilment to one seller agent instance. Null/omitted = any seller key with respond_quote may fulfil.",
-            "required": false
-          },
-          {
-            "name": "pricing_mode",
-            "type": "string",
-            "description": "'quote' (default): buyers request a quote; 'fixed': buyers purchase in one call at a deterministic price.",
-            "required": true,
-            "enum": [
-              "quote",
-              "fixed"
-            ]
-          },
-          {
-            "name": "fixed_price_pence",
-            "type": "any",
-            "description": "Fixed mode: flat base price in pence. Required when pricing_mode='fixed'.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_field",
-            "type": "any",
-            "description": "Fixed mode: name of a required int scope_schema field to meter billing on. Set all three fixed_unit_* together.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_price_pence",
-            "type": "any",
-            "description": "Fixed mode: price in pence per block of fixed_unit_quantity units.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_quantity",
-            "type": "any",
-            "description": "Fixed mode: units per billed block; partial blocks are rounded up.",
-            "required": false
-          },
-          {
-            "name": "vat_rate_bp",
-            "type": "integer",
-            "description": "VAT rate in basis points (0–10000, e.g. 2000 = 20%) applied to this listing's charges.",
-            "required": true
-          },
-          {
-            "name": "status",
-            "type": "string",
-            "description": "'active' (default) publishes immediately; 'draft' keeps the listing hidden from buyers.",
-            "required": true,
-            "enum": [
-              "draft",
-              "active"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_search_listings",
-        "description": "Search agent-to-agent service listings (GPU compute, synthetic data, inference, vector hosting, code review, research). Filter by category or pricing_mode: 'fixed' listings are buyable in one services_purchase call; 'quote' listings need a seller quote first.",
-        "inputs": [
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Substring to match against listing titles and summaries.",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Filter to one service category.",
-            "required": false,
-            "enum": [
-              "gpu_compute",
-              "synthetic_data",
-              "inference",
-              "vector_hosting",
-              "code_review",
-              "research",
-              "other"
-            ]
-          },
-          {
-            "name": "pricing_mode",
-            "type": "string",
-            "description": "Filter by pricing mode: 'fixed' (one-call purchase) or 'quote' (request a quote).",
-            "required": false,
-            "enum": [
-              "quote",
-              "fixed"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_get_listing",
-        "description": "Fetch a single service listing including its scope schema — the fields a quote request or purchase scope must provide — and, for fixed-price listings, the deterministic pricing formula (flat price plus optional per-unit block billing).",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the service listing to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_request_quote",
-        "description": "File a scope-of-work against a quote-mode service listing. The scope must conform to the listing's scope schema. The seller responds with a price + ETA; the buyer then has 24h to accept. Fixed-price listings refuse this — use services_purchase.",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the quote-mode service listing to request a quote against.",
-            "required": true
-          },
-          {
-            "name": "scope",
-            "type": "object",
-            "description": "Scope-of-work values; must conform to the listing's scope_schema.",
-            "required": true
-          },
-          {
-            "name": "requested_summary",
-            "type": "any",
-            "description": "Free-text description of the work being requested.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_list_my_quotes",
-        "description": "List service quote threads the authenticated principal opened (buyer-side view), paginated. Filter by status (requested, quoted, paid, delivered, released, …).",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter by thread status (requested, quoted, paid, delivered, released, ...).",
-            "required": false,
-            "enum": [
-              "requested",
-              "withdrawn",
-              "quoted",
-              "rejected",
-              "expired",
-              "pending_principal_confirmation",
-              "accepted",
-              "paid",
-              "in_progress",
-              "delivered",
-              "released",
-              "disputed"
-            ]
-          },
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "Filter to quote threads on one service listing.",
-            "required": false
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_get_quote",
-        "description": "Fetch one service quote thread with its deliverables. Buyer or seller side. Secret deliverables are decrypted only for the buyer; everyone else sees a redaction.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote thread to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_accept_quote",
-        "description": "Accept a submitted quote and charge immediately. Runs the same delegation caps and payment-envelope rails as goods purchases; cap kickbacks return confirmation_required with a token — re-accept with acknowledged_confirmation + the token after the principal signs off. Funds are held in escrow until the deliverable is accepted.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quoted thread to accept and pay.",
-            "required": true
-          },
-          {
-            "name": "acknowledged_confirmation",
-            "type": "boolean",
-            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
-            "required": true
-          },
-          {
-            "name": "confirmation_token",
-            "type": "any",
-            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
-            "required": false
-          },
-          {
-            "name": "payment_method_id",
-            "type": "string",
-            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
-            "required": false
-          },
-          {
-            "name": "__outcomeForTesting",
-            "type": "string",
-            "description": "Test-only: force a simulated card outcome. Never set in production.",
-            "required": false,
-            "enum": [
-              "ok",
-              "requires_action",
-              "declined",
-              "provider_error"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_reject_quote",
-        "description": "Reject a submitted quote (buyer-only). Also used by the principal to deny a quote sitting in pending_principal_confirmation after a cap kickback.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote thread to reject.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_withdraw_quote",
-        "description": "Withdraw a quote request before the seller has quoted (buyer-only).",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote request to withdraw.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_acknowledge_delivery",
-        "description": "Explicitly accept the deliverable on a delivered quote. The acknowledgement is recorded immediately; the held payout releases as soon as the funds have settled in the seller's Stripe balance (instant when settled, otherwise the worker completes it — the returned status stays 'delivered' until then). Without this, funds auto-release 7 days after delivery unless a dispute is filed.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the delivered quote thread to accept.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_purchase",
-        "description": "Buy a fixed-price service in one call: validates the scope, computes the deterministic price, creates the quote thread directly in accepted, and charges immediately — no human seller round-trip. Same delegation/envelope enforcement as services_accept_quote.",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the fixed-price service listing to buy.",
-            "required": true
-          },
-          {
-            "name": "scope",
-            "type": "object",
-            "description": "Scope-of-work values; must conform to the listing's scope_schema. The metered field drives the computed price.",
-            "required": true
-          },
-          {
-            "name": "requested_summary",
-            "type": "any",
-            "description": "Free-text description of the work being requested.",
-            "required": false
-          },
-          {
-            "name": "acknowledged_confirmation",
-            "type": "boolean",
-            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
-            "required": true
-          },
-          {
-            "name": "confirmation_token",
-            "type": "any",
-            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
-            "required": false
-          },
-          {
-            "name": "payment_method_id",
-            "type": "string",
-            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
-            "required": false
-          },
-          {
-            "name": "__outcomeForTesting",
-            "type": "string",
-            "description": "Test-only: force a simulated card outcome. Never set in production.",
-            "required": false,
-            "enum": [
-              "ok",
-              "requires_action",
-              "declined",
-              "provider_error"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_list_open_requests",
-        "description": "Seller-side: list unanswered quote requests (status=requested). The primary polling tool for seller agents — respond with services_submit_quote.",
-        "inputs": [
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100.",
-            "required": false
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor from the previous page's response.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_list_my_sales",
-        "description": "Seller-side: list charged threads you still owe work on, paginated. status=paid | in_progress | delivered, or active (all three, the default). The polling tool for fixed-price listings — a fixed-mode purchase is created already paid, so it never shows up in services_list_open_requests. Respond with services_start_work then services_submit_deliverable.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "'active' (default) = paid + in_progress + delivered together; or one exact status.",
-            "required": true,
-            "enum": [
-              "paid",
-              "in_progress",
-              "delivered",
-              "active"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_submit_quote",
-        "description": "Seller-side: answer a quote request with a price (pence), ETA in minutes, and optional terms. Requires the delegation's respond_quote action. Price must sit inside the listing's min/max band when one is set. Starts the buyer's 24h acceptance SLA.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the requested quote thread to answer.",
-            "required": true
-          },
-          {
-            "name": "price_pence",
-            "type": "any",
-            "description": "Quoted price in pence (minor units of the seller's settlement currency); must sit inside the listing's price band.",
-            "required": true
-          },
-          {
-            "name": "eta_minutes",
-            "type": "integer",
-            "description": "Estimated turnaround in minutes.",
-            "required": true
-          },
-          {
-            "name": "terms",
-            "type": "any",
-            "description": "Optional free-text terms attached to the quote.",
-            "required": false
-          }
-        ]
       }
     ],
     "readme": {
@@ -15175,7 +15245,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 59,
+        "weeklyDownloads": 46,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -15459,7 +15529,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 178,
+        "weeklyDownloads": 91,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -16653,7 +16723,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 13755,
+        "weeklyDownloads": 8193,
         "lastPublished": "2026-08-18T01:25:40.278Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -16708,7 +16778,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 71,
+        "weeklyDownloads": 65,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -16733,7 +16803,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-10T07:53:50.834213Z",
+    "updatedAt": "2026-09-11T08:36:50.012998Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 0,
@@ -17880,7 +17950,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 110,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -18766,7 +18836,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 262,
+        "weeklyDownloads": 318,
         "lastPublished": "2026-09-09T18:14:05.648Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
@@ -18785,7 +18855,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-09T22:13:41Z",
+      "pushedAt": "2026-09-11T09:36:22Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -18823,7 +18893,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-09T22:13:41Z",
+      "pushedAt": "2026-09-11T09:36:22Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19487,7 +19557,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 181,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-07-14T21:12:54.331Z",
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
@@ -19584,7 +19654,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 88,
+        "weeklyDownloads": 42,
         "lastPublished": "2026-07-09T11:51:01.001Z",
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
@@ -19826,7 +19896,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 239,
+        "weeklyDownloads": 168,
         "lastPublished": "2026-08-19T16:17:21.278Z",
         "firstPublished": "2026-07-06T09:51:29.727Z",
         "deprecated": false,
@@ -20036,7 +20106,7 @@
         "runtimeHint": "npx",
         "env": [],
         "weeklyDownloads": null,
-        "lastPublished": "2026-09-06T08:41:46.775Z",
+        "lastPublished": "2026-09-10T21:56:19.948Z",
         "firstPublished": "2026-06-04T17:40:12.941Z",
         "deprecated": false,
         "declaredRepo": "cooldk/clize-cli",
@@ -23825,18 +23895,18 @@
         "headers": []
       }
     ],
-    "stars": 7234,
+    "stars": 7236,
     "source": "MCP Registry",
     "updatedAt": "2026-01-10T22:33:54.03436Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7234,
+      "stars": 7236,
       "forks": 983,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-09T23:33:38Z",
-      "openIssues": 111,
+      "openIssues": 112,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -23932,13 +24002,13 @@
         "headers": []
       }
     ],
-    "stars": 25193,
+    "stars": 25227,
     "source": "MCP Registry",
     "updatedAt": "2026-02-04T12:46:39.858109Z",
     "repoMeta": {
       "slug": "agentskills/agentskills",
-      "stars": 25193,
-      "forks": 1886,
+      "stars": 25227,
+      "forks": 1889,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-16T15:47:19Z",
@@ -24237,2252 +24307,5 @@
       "truncated": false,
       "url": "https://github.com/la-rebelion/hapimcp#readme"
     }
-  },
-  {
-    "id": "mcp:ai-compeller-compel",
-    "name": "Compeller",
-    "qualifiedName": "ai.compeller/compel",
-    "slug": "ai-compeller-compel",
-    "description": "Create and track AI music videos and audio-reactive visuals from songs.",
-    "category": "Design & Media",
-    "repository": "https://github.com/Compellerai/compeller-mcp",
-    "homepage": "https://github.com/Compellerai/compeller-mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://compeller.ai/api/mcp",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer token from Compeller Account → API Access, POST /api/login, or POST /api/v1/auth/token. Discovery tools work without this header; generation/account tools require it.",
-            "required": false,
-            "secret": true,
-            "format": null
-          },
-          {
-            "name": "X-API-Token",
-            "description": "Alternative Compeller API token header. Use this instead of Authorization if your MCP client stores token values without the Bearer prefix.",
-            "required": false,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": 1,
-    "source": "MCP Registry",
-    "updatedAt": "2026-05-05T03:21:40.918318Z",
-    "repoMeta": {
-      "slug": "Compellerai/compeller-mcp",
-      "stars": 1,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-05-05T00:19:05Z",
-      "pushedAt": "2026-05-05T00:29:17Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": null
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "get_capabilities",
-        "description": "Get Compeller platform capabilities, supported features, and API version.",
-        "inputs": null
-      },
-      {
-        "name": "get_pricing",
-        "description": "Get current Compeller subscription plans and pricing.",
-        "inputs": null
-      },
-      {
-        "name": "list_styles",
-        "description": "List available visual styles for Compeller video generation.",
-        "inputs": null
-      },
-      {
-        "name": "upload_media",
-        "description": "Get upload instructions for media files (audio, images, video). Returns the upload URL and required headers. Requires API token authentication.",
-        "inputs": [
-          {
-            "name": "name",
-            "type": "string",
-            "description": "Filename for the upload",
-            "required": false
-          },
-          {
-            "name": "mime_type",
-            "type": "string",
-            "description": "MIME type of the file",
-            "required": false
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": "Media type: audio, image, video, or text",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "search_music",
-        "description": "Search Deezer preview tracks by song, artist, or album. Use this when the user provides a song string but no MP3/WAV/FLAC file.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Song, artist, or album search query",
-            "required": true
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results to return (default 10, max 20)",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "create_compel_from_music",
-        "description": "Create a compel from a selected Deezer preview track. If the user provides an audio file instead, upload that file and use create_compel.",
-        "inputs": [
-          {
-            "name": "track_id",
-            "type": "integer",
-            "description": "Deezer track id returned by search_music",
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Optional compel title override",
-            "required": false
-          },
-          {
-            "name": "style",
-            "type": "string",
-            "description": "Visual style. Use one of the exact ids returned by list_styles (e.g. \"Cinematic Realistic\", \"Anime / Manga\"). Omit to use the account default.",
-            "required": false,
-            "enum": [
-              "Cinematic Realistic",
-              "Photo Realistic",
-              "Cyberpunk",
-              "Anime / Manga",
-              "Film Noir",
-              "Watercolor Painting",
-              "Oil Painting",
-              "3D Render / Pixar",
-              "Retro 80s Synthwave",
-              "Vintage Film Grain",
-              "Comic Book / Pop Art",
-              "Fantasy / Ethereal"
-            ]
-          },
-          {
-            "name": "target_platform",
-            "type": "string",
-            "description": "Target platform; sets the aspect ratio when aspect_ratio is omitted.",
-            "required": false,
-            "enum": [
-              "tiktok",
-              "reels",
-              "shorts",
-              "instagram",
-              "square",
-              "youtube",
-              "web"
-            ]
-          },
-          {
-            "name": "aspect_ratio",
-            "type": "string",
-            "description": "Explicit aspect ratio override (takes precedence over target_platform).",
-            "required": false,
-            "enum": [
-              "16:9",
-              "9:16",
-              "1:1"
-            ]
-          },
-          {
-            "name": "artist_context",
-            "type": "string",
-            "description": "Additional creative context",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "create_compel",
-        "description": "Create a Compeller generation job from primary audio media and optional reference media. Returns compel id, status, and links to track progress and retrieve renderings.",
-        "inputs": [
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Title for the compel",
-            "required": true
-          },
-          {
-            "name": "primary_media_id",
-            "type": "integer",
-            "description": "ID of the uploaded audio media to use as the primary track",
-            "required": true
-          },
-          {
-            "name": "style",
-            "type": "string",
-            "description": "Visual style. Use one of the exact ids returned by list_styles (e.g. \"Cinematic Realistic\", \"Anime / Manga\"). Omit to use the account default.",
-            "required": false,
-            "enum": [
-              "Cinematic Realistic",
-              "Photo Realistic",
-              "Cyberpunk",
-              "Anime / Manga",
-              "Film Noir",
-              "Watercolor Painting",
-              "Oil Painting",
-              "3D Render / Pixar",
-              "Retro 80s Synthwave",
-              "Vintage Film Grain",
-              "Comic Book / Pop Art",
-              "Fantasy / Ethereal"
-            ]
-          },
-          {
-            "name": "target_platform",
-            "type": "string",
-            "description": "Target platform; sets the aspect ratio when aspect_ratio is omitted.",
-            "required": false,
-            "enum": [
-              "tiktok",
-              "reels",
-              "shorts",
-              "instagram",
-              "square",
-              "youtube",
-              "web"
-            ]
-          },
-          {
-            "name": "aspect_ratio",
-            "type": "string",
-            "description": "Explicit aspect ratio override (takes precedence over target_platform).",
-            "required": false,
-            "enum": [
-              "16:9",
-              "9:16",
-              "1:1"
-            ]
-          },
-          {
-            "name": "artist_context",
-            "type": "string",
-            "description": "Additional creative context about the artist or song",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_compel",
-        "description": "Get the current status, progress, and details of a Compeller generation job.",
-        "inputs": [
-          {
-            "name": "compel_id",
-            "type": "integer",
-            "description": "The compel ID to check",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "start_render",
-        "description": "Start rendering a READY compel with default configuration so an agent can continue to final MP4 without opening the browser UI.",
-        "inputs": [
-          {
-            "name": "compel_id",
-            "type": "integer",
-            "description": "The READY compel ID to render",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "list_compels",
-        "description": "List all Compeller generation jobs for the authenticated account, newest first.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results to return (default 20, max 100)",
-            "required": false
-          },
-          {
-            "name": "offset",
-            "type": "integer",
-            "description": "Pagination offset",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "search_compels",
-        "description": "Search Compeller generation jobs by title for the authenticated account.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query to match against compel titles",
-            "required": true
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results to return (default 20)",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_renderings",
-        "description": "List all video renderings for a specific compel.",
-        "inputs": [
-          {
-            "name": "compel_id",
-            "type": "integer",
-            "description": "The compel ID to list renderings for",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_rendering",
-        "description": "Get details of a specific video rendering.",
-        "inputs": [
-          {
-            "name": "rendering_id",
-            "type": "integer",
-            "description": "The rendering ID to retrieve",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "search_media",
-        "description": "Search and list uploaded media files for the authenticated account.",
-        "inputs": [
-          {
-            "name": "type",
-            "type": "string",
-            "description": "Filter by media type: audio, image, video, or text",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results to return (default 20, max 100)",
-            "required": false
-          },
-          {
-            "name": "offset",
-            "type": "integer",
-            "description": "Pagination offset",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "register_webhook",
-        "description": "Register an HTTPS endpoint to receive signed push notifications for compel lifecycle events (compel.ready when renderable, compel.completed, compel.failed). Returns webhook_id and the HMAC-SHA256 signing secret exactly once - store the secret immediately, it is never returned again. Deliveries are signed via X-Compeller-Signature: sha256=<hex> over the raw body. Delivery is at-least-once: a failed",
-        "inputs": [
-          {
-            "name": "url",
-            "type": "string",
-            "description": "HTTPS URL to deliver events to (max 2048 chars)",
-            "required": true
-          },
-          {
-            "name": "events",
-            "type": "array",
-            "description": "Event types to subscribe to. Omit or pass [\"*\"] for all. Known types: compel.ready (renderable - call start_render), compel.completed, compel.failed.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_webhooks",
-        "description": "List all webhook endpoints registered for the authenticated account. Secrets are never returned by this tool.",
-        "inputs": null
-      },
-      {
-        "name": "delete_webhook",
-        "description": "Delete a webhook endpoint by id. Removes the registration and stops future deliveries.",
-        "inputs": [
-          {
-            "name": "webhook_id",
-            "type": "integer",
-            "description": "The webhook id returned by register_webhook or list_webhooks",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "test_webhook_delivery",
-        "description": "Synchronously POST a synthetic webhook.test event to a registered endpoint. Uses the same HMAC-SHA256 signature as real deliveries, runs the standard URL safety check at delivery time, and returns {webhook_id, event_id, event_type, delivered, response_status, response_body_preview, latency_ms, error?}. Ignores the endpoint's events subscription - test delivery is always on-demand. Use this to veri",
-        "inputs": [
-          {
-            "name": "webhook_id",
-            "type": "integer",
-            "description": "The webhook id to test. Must belong to the authenticated account.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "update_webhook",
-        "description": "Update one or more mutable fields on a registered webhook endpoint: url, events, active. At least one of these must be provided. Validation mirrors register_webhook (https-only, <= 2048 chars, URL safety blocklist). Returns the updated endpoint (secret is never returned by this tool - use rotate_webhook_secret for that).",
-        "inputs": [
-          {
-            "name": "webhook_id",
-            "type": "integer",
-            "description": "The webhook id to update",
-            "required": true
-          },
-          {
-            "name": "url",
-            "type": "string",
-            "description": "New HTTPS URL (max 2048 chars)",
-            "required": false
-          },
-          {
-            "name": "events",
-            "type": "array",
-            "description": "Replacement event types. Omit to leave unchanged. [\"*\"] or an empty filtered list resets to wildcard.",
-            "required": false
-          },
-          {
-            "name": "active",
-            "type": "boolean",
-            "description": "Toggle delivery on/off without losing the registration",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "rotate_webhook_secret",
-        "description": "Mint a new HMAC-SHA256 signing secret for a registered webhook endpoint. The previous secret is invalidated immediately - integrators must update their receiver before the next compel terminal event fires. Returns the new secret exactly once; store it on receipt.",
-        "inputs": [
-          {
-            "name": "webhook_id",
-            "type": "integer",
-            "description": "The webhook id to rotate the secret on",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "cancel_compel",
-        "description": "Cancel an in-progress compel. Dequeues it if still queued, otherwise cancels any active external (AI provider) tasks and transitions it to CANCELLED. Idempotent - cancelling an already-CANCELLED compel succeeds. Use to stop a mis-prompted or runaway job before it consumes more render minutes.",
-        "inputs": [
-          {
-            "name": "compel_id",
-            "type": "integer",
-            "description": "The compel ID to cancel",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_account_credits",
-        "description": "Get the authenticated account's render-minute balance and plan: minutes remaining (free + paid), monthly allowance, plan code, and whether the quota is exceeded. Call before starting an expensive render so an agent can make cost-aware decisions.",
-        "inputs": null
-      },
-      {
-        "name": "list_lighting_effects",
-        "description": "List the COM-497 starter lighting effects available to launch as cues (e.g. \"gobo-cycle\", \"x-move\", \"dimmer-pulse\"). Each effect carries an id, the capabilities it needs, and a launch_contract template. Use the returned id as effect_id for launch_lighting_cue.",
-        "inputs": null
-      },
-      {
-        "name": "launch_lighting_cue",
-        "description": "Launch a starter lighting effect onto a stage as a live cue (e.g. \"gobo-cycle on the stage's 7R beams at speed 0.5\"). Pass effect_id (from list_lighting_effects) and optional variables to override effect defaults. Validation is loud: an unknown effect, a launch_contract whose bindings a stage cannot render, or a missing required field is rejected. Returns the active cue including its launch_id, re",
-        "inputs": [
-          {
-            "name": "stage_id",
-            "type": "integer",
-            "description": "The stage to launch onto (must belong to the authenticated account)",
-            "required": false
-          },
-          {
-            "name": "effect_id",
-            "type": "string",
-            "description": "COM-497 starter effect id from list_lighting_effects, e.g. \"gobo-cycle\"",
-            "required": false
-          },
-          {
-            "name": "variables",
-            "type": "object",
-            "description": "Optional variable overrides (name -> value), e.g. {\"speed\": 0.5}. Defaults come from the effect.",
-            "required": false
-          },
-          {
-            "name": "launch_contract",
-            "type": "object",
-            "description": "Advanced: an explicit launch_contract to launch instead of resolving one from effect_id.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_lighting_cues",
-        "description": "List the live (non-stopped) lighting cues REACT is executing, including each cue's launch_id, resolved variables, launch_contract, and feedback. Optionally scope to one stage.",
-        "inputs": [
-          {
-            "name": "stage_id",
-            "type": "integer",
-            "description": "Optional stage id to scope the listing to (must belong to the authenticated account)",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_lighting_cue",
-        "description": "Fetch a single live lighting cue by its launch_id, including resolved variables, launch_contract, and REACT feedback.",
-        "inputs": [
-          {
-            "name": "launch_id",
-            "type": "string",
-            "description": "The launch_id returned by launch_lighting_cue or list_lighting_cues",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "stop_lighting_cue",
-        "description": "Stop a live cue by its launch_id. Idempotent - the cue is marked stop-requested so REACT drops it on its next refresh.",
-        "inputs": [
-          {
-            "name": "launch_id",
-            "type": "string",
-            "description": "The launch_id of the cue to stop",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "set_lighting_cue_variables",
-        "description": "Update variables on a live cue (e.g. change cycle speed or intensity mid-show). Only the variables you pass change; the rest keep their current values. Stopped cues are rejected.",
-        "inputs": [
-          {
-            "name": "launch_id",
-            "type": "string",
-            "description": "The launch_id of the cue to update",
-            "required": true
-          },
-          {
-            "name": "variables",
-            "type": "object",
-            "description": "Variables to set (name -> value), e.g. {\"speed\": 0.75}",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "ack_lighting_cue",
-        "description": "REACT/BAE acknowledgement for a launch_id. Idempotently records whether the executor accepted or rejected the cue and which executor observed it.",
-        "inputs": [
-          {
-            "name": "launch_id",
-            "type": "string",
-            "description": "The launch_id to acknowledge",
-            "required": true
-          },
-          {
-            "name": "accepted",
-            "type": "boolean",
-            "description": "true when REACT/BAE accepted the cue for execution",
-            "required": true
-          },
-          {
-            "name": "rejected_reason",
-            "type": "string",
-            "description": "Required by convention when accepted=false",
-            "required": false
-          },
-          {
-            "name": "executor_id",
-            "type": "string",
-            "description": "Stable REACT/BAE executor instance id",
-            "required": false
-          },
-          {
-            "name": "observed_at",
-            "type": "string",
-            "description": "Executor observation timestamp",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "report_lighting_cue",
-        "description": "REACT/BAE report-back for cue status, active variables, skipped bindings, capability misses, last_frame_at, and errors.",
-        "inputs": [
-          {
-            "name": "launch_id",
-            "type": "string",
-            "description": "The launch_id to report",
-            "required": true
-          },
-          {
-            "name": "status",
-            "type": "string",
-            "description": "ACTIVE, STOP_REQUESTED, or STOPPED",
-            "required": false
-          },
-          {
-            "name": "active_variables",
-            "type": "object",
-            "description": "Variables actually being sampled by REACT/BAE",
-            "required": false
-          },
-          {
-            "name": "skipped_bindings",
-            "type": "array",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "capability_misses",
-            "type": "array",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "last_frame_at",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "error",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "executor_id",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# Compeller MCP\n\nPublic documentation and metadata for the hosted **Compeller MCP** server.\n\nCompeller turns music into performance-ready visuals. Agents can discover styles and pricing, search for music, create and track Compels, start renders, retrieve finished videos, and register signed webhooks for completion events.\n\n> This repository contains public connector documentation and metadata only. The production Compeller application source code is not published here.\n\n## Remote MCP endpoint\n\n```text\nhttps://compeller.ai/api/mcp\n```\n\n- **Namespace:** `ai.compeller/compel`\n- **Server:** `compeller-mcp`\n- **Version:** `0.5.0`\n- **Transport:** Streamable HTTP JSON-RPC over HTTPS\n- **Official MCP Registry:** <https://registry.modelcontextprotocol.io/v0.1/servers?search=ai.compeller%2Fcompel>\n- **Smithery:** <https://smithery.ai/servers/info-nijd/compeller>\n\n## Quick config\n\nMost MCP clients that support remote Streamable HTTP servers can use:\n\n```json\n{\n  \"mcpServers\": {\n    \"compeller\": {\n      \"url\": \"https://compeller.ai/api/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_COMPELLER_API_TOKEN\"\n      }\n    }\n  }\n}\n```\n\nIf your MCP client stores raw token values without the `Bearer ` prefix, use the alternate header:\n\n```json\n{\n  \"mcpServers\": {\n    \"compeller\": {\n      \"url\": \"https://compeller.ai/api/mcp\",\n      \"headers\": {\n        \"X-API-Token\": \"YOUR_COMPELLER_API_TOKEN\"\n      }\n    }\n  }\n}\n```\n\nDiscovery works without authentication. Generation, account, media, rendering, and webhook tools require a Compeller API token.\n\n## Public docs and discovery\n\n- MCP docs: <https://compeller.ai/api/mcp/docs.md>\n- Agent manifest: <https://compeller.ai/agents.json>\n- LLM guide: <https://compeller.ai/llms.txt>\n- OpenAPI: <https://compeller.ai/api/v1/openapi.yaml>\n- Health: <https://compeller.ai/api/v1/health>\n\n## Tool surface\n\nCompeller currently exposes 20 MCP tools:\n\n### Discovery\n\n- `get_capabilities`\n- `get_pricing`\n- `list_styles`\n- `search_music`\n\n### Media and generation\n\n- `upload_media`\n- `search_media`\n- `create_compel_from_music`\n- `create_compel`\n- `get_compel`\n- `start_render`\n- `list_compels`\n- `search_compels`\n- `list_renderings`\n- `get_rendering`\n\n### Webhooks\n\n- `register_webhook`\n- `list_webhooks`\n- `update_webhook`\n- `delete_webhook`\n- `test_webhook_delivery`\n- `rotate_webhook_secret`\n\nWebhook deliveries are signed with `X-Compeller-Signature: sha256=<hex>` over the raw request body. Secrets are returned exactly once on registration or rotation.\n\n## Example prompts\n\n- “Search for Midnight City by M83 and create a cinematic Compeller visual.”\n- “Show me available Compeller visual styles.”\n- “Check the status of Compel 12345.”\n- “Start the render for this READY Compel.”\n- “Register a webhook for completed/failed Compeller events.”\n\n## Directory listing copy\n\nShort description:\n\n```text\nCreate AI music videos and audio-reactive visuals from songs through MCP.\n```\n\nLonger description:\n\n```text\nCompeller is a creator media pipeline for music. The MCP server lets agents discover styles and pricing, search music, create and track Compels, upload media, start renders, retrieve renderings, and register signed webhooks for completion events. Completed renderings can also be loaded into REACT, Compeller's desktop app for live audio-reactive shows.\n```\n\nSuggested tags:\n\n```text\nAI, Music, Video Generation, Audio Reactive, Creative Tools, MCP, Remote MCP, Generative Art, Creator Tools, Entertainment\n```\n\n## License\n\nThe documentation and metadata in this repository are published under the MIT License.",
-      "truncated": false,
-      "url": "https://github.com/Compellerai/compeller-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-compelling-mcp",
-    "name": "Compelling",
-    "qualifiedName": "ai.compelling/mcp",
-    "slug": "ai-compelling-mcp",
-    "description": "AI-native B2B sales research, ranking, and CRM enrichment.",
-    "category": "Web & Search",
-    "repository": null,
-    "homepage": "https://www.compelling.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.compelling.ai",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-02T11:30:28.211992Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-complyme-mcp-mcp",
-    "name": "Complyme MCP",
-    "qualifiedName": "ai.complyme.mcp/mcp",
-    "slug": "ai-complyme-mcp-mcp",
-    "description": "ComplyMe.AI MCP server for legal & data protection risk analysis and audits.",
-    "category": "Legal & Government",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-04-30T06:51:34.82704Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-connectmachine-connectmachine",
-    "name": "ConnectMachine",
-    "qualifiedName": "ai.connectmachine/connectmachine",
-    "slug": "ai-connectmachine-connectmachine",
-    "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards.",
-    "category": "Dev Tools & Git",
-    "repository": "https://github.com/connectmachine/mcp-server",
-    "homepage": "https://connectmachine.ai/docs/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.connectmachine.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-31T11:58:02.999489Z",
-    "repoMeta": {
-      "slug": "connectmachine/mcp-server",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-31T11:26:37Z",
-      "pushedAt": "2026-09-09T10:50:21Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# ConnectMachine MCP Server\n\nConnect your AI assistant to [ConnectMachine](https://connectmachine.ai), the\ndigital business-card and contact platform. Manage contacts, events, networks,\nand your digital cards in natural language.\n\nThis repository holds the public registry manifest and documentation for the\nhosted server. The server itself runs at `https://mcp.connectmachine.ai/mcp`\n— there is nothing to install or self-host.\n\n## Connect\n\n| | |\n|---|---|\n| Endpoint | `https://mcp.connectmachine.ai/mcp` |\n| Transport | Streamable HTTP |\n| Auth | OAuth 2.1 with Dynamic Client Registration and PKCE |\n\nYour client discovers the OAuth configuration automatically, so you never paste\na token by hand. On first use it opens the ConnectMachine sign-in page; sign in\nwith your account email (one-time code) or Google, and approve.\n\nRequires a ConnectMachine account with onboarding completed in the app.\n\n### Claude\n\nAdd it under Settings → Connectors → Add custom connector, using the endpoint\nabove.\n\n### Cursor\n\nInstall the [ConnectMachine plugin](https://github.com/connectmachine/cursor-plugin),\nor add the server to `~/.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"connectmachine\": {\n      \"url\": \"https://mcp.connectmachine.ai/mcp\"\n    }\n  }\n}\n```\n\n### VS Code and GitHub Copilot\n\nAdd the server to `.vscode/mcp.json`:\n\n```json\n{\n  \"servers\": {\n    \"connectmachine\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.connectmachine.ai/mcp\"\n    }\n  }\n}\n```\n\n### Static key instead of OAuth\n\nIf your client cannot do the OAuth flow, sign in at\n<https://licenses.connectmachine.ai/mcp/auth> to get a personal MCP key, then\nsend it as an `Authorization: Bearer <key>` header on the server entry. Keys do\nnot expire.\n\n## Tools\n\n48 tools across ten areas. Everything is scoped to your own account — the\nserver never reaches outside ConnectMachine, so every tool is annotated\n`openWorldHint: false`.\n\n### Contacts\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `list_contacts` | read | List contacts with pagination and filters |\n| `get_contact` | read | Full details for one contact |\n| `search_contacts` | read | Search across name, company, title, email, phone, notes, location, events |\n| `find_contact` | read | Resolve a name to one contact, or report an ambiguity |\n| `list_industries` | read | The industry catalog used for filtering |\n| `get_contact_counts` | read | Contact counts broken down by source |\n| `get_duplicate_contacts` | read | Surface suspected duplicates without merging |\n| `create_contact` | write | Create a contact, optionally tagged with events |\n| `update_contact` | write ⚠ | Overwrite fields on an existing contact |\n| `delete_contacts` | write ⚠ | Permanently remove contacts |\n| `merge_contacts` | write ⚠ | Merge duplicates; the secondary record is removed |\n| `assign_contacts_to_network` | write ⚠ | Move contacts into a network |\n\nWhen two contacts share a name, `find_contact` reports the ambiguity and the\nassistant asks which one you mean rather than guessing.\n\n### Networks\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `list_networks` | read | List your networks (labels) |\n| `create_network` | write | Create a network |\n| `update_network` | write ⚠ | Rename or restyle a network |\n| `delete_network` | write ⚠ | Remove a network |\n| `reorder_networks` | write ⚠ | Change network ordering |\n\n### Events\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `list_events` | read | Conferences and meetups where you met contacts |\n| `add_events_to_contact` | write | Tag a contact with where you met them |\n| `remove_events_from_contact` | write ⚠ | Detach events from a contact |\n\n### Digital cards\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `list_cards` | read | List your business cards |\n| `get_card` | read | Full details for one card |\n| `get_shared_card` | read | Resolve a public share link to card data |\n| `read_card_image` | read | Read a card's image asset |\n| `create_card` | write | Create a card with emails, phones, websites, socials |\n| `update_card` | write ⚠ | Overwrite fields on a card |\n| `delete_card` | write ⚠ | Remove a card |\n\n### AI and meetings\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `ai_query` | read | Ask a natural-language question about your network |\n| `list_ai_templates` | read | Prebuilt query templates |\n| `event_meeting_transcript_qa` | read | Q&A over event and meeting transcripts |\n| `list_transcriptions` | read | List meeting transcriptions |\n| `get_transcription` | read | Fetch one transcription |\n| `get_meeting_action_items` | read | Action items extracted from a meeting |\n| `generate_meeting_action_items` | write | Generate action items for a meeting |\n| `delete_transcription` | write ⚠ | Remove a transcription |\n\n### Import and export\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `get_import_status` | read | Progress of an import session |\n| `list_import_sessions` | read | All import sessions |\n| `export_contacts_csv` | read | Export contacts to CSV (Premium) |\n| `create_import_session` | write | Start an import batch |\n| `import_contacts_batch` | write | Import up to 500 contacts per call |\n| `abort_import` | write ⚠ | Cancel an in-progress import |\n\n### Notifications and profile\n\n| Tool | Kind | What it does |\n|---|---|---|\n| `list_notifications` | read | List notifications |\n| `get_unread_count` | read | Unread notification count |\n| `get_profile` | read | Your ConnectMachine profile |\n| `get_subscription_status` | read | Plan and subscription status |\n| `get_enrichment_data` | read | Profile completion suggestions |\n| `mark_notification_read` | write ⚠ | Mark one notification read |\n| `mark_all_notifications_read` | write ⚠ | Mark every notification read |\n\n⚠ marks tools annotated `destructiveHint: true` — they overwrite or remove data\nthat this server cannot restore. Clients are expected to confirm before calling\nthem.\n\n## Registry\n\n`server.json` is the manifest published to the\n[official MCP Registry](https://modelcontextprotocol.io/registry/about), which\nfeeds downstream catalogs including the\n[GitHub MCP Registry](https://github.com/mcp). It is published under the\n`ai.connectmachine` namespace, verified by DNS.\n\n## Docs and support\n\n- Documentation: <https://www.connectmachine.ai/docs/mcp/>\n- Issues: <https://github.com/connectmachine/mcp-server/issues>\n- Terms: <https://www.connectmachine.ai/en/legal/terms-of-service>\n- Privacy: <https://www.connectmachine.ai/en/legal/privacy>\n\n## License\n\nMIT — see [LICENSE](LICENSE).",
-      "truncated": false,
-      "url": "https://github.com/connectmachine/mcp-server#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-constellationfinance-constellation-finance-mcp",
-    "name": "Constellation Credit",
-    "qualifiedName": "ai.constellationfinance/constellation-finance-mcp",
-    "slug": "ai-constellationfinance-constellation-finance-mcp",
-    "description": "Financial and covenant data for public and private credit: statements, cap stacks, covenants.",
-    "category": "Finance & Data",
-    "repository": null,
-    "homepage": "https://www.constellationfinance.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.constellationfinance.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-05-22T18:26:02.539221Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-contextstudios-mcp",
-    "name": "Context Studios MCP",
-    "qualifiedName": "ai.contextstudios/mcp",
-    "slug": "ai-contextstudios-mcp",
-    "description": "AI agency API: free tools for glossary, comparisons, blog, guides, estimates and consulting",
-    "category": "Docs & Knowledge",
-    "repository": null,
-    "homepage": "https://www.contextstudios.ai/en/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.contextstudios.ai/api/public/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-05T12:28:30.185334Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "ai_project_estimator",
-        "description": "Interactive AI project estimation tool.",
-        "inputs": [
-          {
-            "name": "projectDescription",
-            "type": "string",
-            "description": "Natural-language description of the project, workflow, product idea, or AI use case to estimate.",
-            "required": true
-          },
-          {
-            "name": "projectType",
-            "type": "string",
-            "description": "Project archetype used by the estimator.",
-            "required": false,
-            "enum": [
-              "mvp",
-              "saas",
-              "ai-integration",
-              "automation",
-              "mobile-app",
-              "web-app",
-              "ai-agent",
-              "data-pipeline"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "blog_explorer",
-        "description": "Interactive blog browsing interface.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": false
-          },
-          {
-            "name": "tag",
-            "type": "string",
-            "description": "Exact or near-exact blog tag to filter published posts.",
-            "required": false
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "fetch",
-        "description": "Fetch the full content of a document by ID returned from the search tool.",
-        "inputs": [
-          {
-            "name": "id",
-            "type": "string",
-            "description": "Document ID from search results, e.g. 'blog:de:mein-artikel'",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_blog_posts",
-        "description": "Search and retrieve published blog posts.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": false
-          },
-          {
-            "name": "tag",
-            "type": "string",
-            "description": "Exact or near-exact blog tag to filter published posts.",
-            "required": false
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_company_info",
-        "description": "Retrieve comprehensive information about Context Studios including company overview, tech stack, differentiators, legal info, and contact details.",
-        "inputs": [
-          {
-            "name": "sections",
-            "type": "array",
-            "description": "Which sections to return. Defaults to ['overview']",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_comparison",
-        "description": "Retrieve a detailed comparison between two AI tools.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_featured_glossary_terms",
-        "description": "Get a curated list of featured AI terms.",
-        "inputs": [
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_glossary_by_tech_stack",
-        "description": "Filter glossary terms by technology provider or stack.",
-        "inputs": [
-          {
-            "name": "techStack",
-            "type": "string",
-            "description": "Technology provider or stack name to filter glossary terms.",
-            "required": true
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_glossary_term",
-        "description": "Get a detailed explanation of an AI term.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_guide",
-        "description": "Get a specific guide.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_location_page",
-        "description": "Get specific location page.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "includeSections",
-            "type": "boolean",
-            "description": "Whether to include full page sections. Keep false for discovery; use true when the user needs complete page content.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_page",
-        "description": "Get a specific CMS page by slug and locale.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "includeSections",
-            "type": "boolean",
-            "description": "Whether to include full page sections. Keep false for discovery; use true when the user needs complete page content.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_pricing",
-        "description": "Get services that match a specific budget range.",
-        "inputs": [
-          {
-            "name": "budget",
-            "type": "string",
-            "description": "Budget band to filter pricing. Use all or omit it for the full pricing overview.",
-            "required": false,
-            "enum": [
-              "all",
-              "under_5k",
-              "5k_20k",
-              "20k_50k",
-              "50k_plus"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_related_glossary_terms",
-        "description": "Get terms that are related to a specific glossary term.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": true
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_services",
-        "description": "List all 11 services offered by Context Studios.",
-        "inputs": [
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Optional category filter. For services use starter, fasttrack, enterprise, or all. For glossary/comparisons use a published content category.",
-            "required": false,
-            "enum": [
-              "starter",
-              "fasttrack",
-              "enterprise",
-              "all"
-            ]
-          },
-          {
-            "name": "serviceId",
-            "type": "string",
-            "description": "Exact service identifier returned by get_services, for example mvp-sprint or ai-agents.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_comparisons",
-        "description": "List all available comparisons.",
-        "inputs": [
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Optional category filter. For services use starter, fasttrack, enterprise, or all. For glossary/comparisons use a published content category.",
-            "required": false
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "list_glossary_categories",
-        "description": "List all 10 glossary categories.",
-        "inputs": [
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "list_guides",
-        "description": "List public guides.",
-        "inputs": [
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "list_location_pages",
-        "description": "List public location and bundesland pages.",
-        "inputs": [
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "scope",
-            "type": "string",
-            "description": "Location-page scope: locations, bundeslaender, or all.",
-            "required": false,
-            "enum": [
-              "locations",
-              "bundeslaender",
-              "all"
-            ]
-          },
-          {
-            "name": "city",
-            "type": "string",
-            "description": "Optional city filter for location pages.",
-            "required": false
-          },
-          {
-            "name": "service",
-            "type": "string",
-            "description": "Optional service slug or service keyword for location pages.",
-            "required": false
-          },
-          {
-            "name": "includeOverviews",
-            "type": "boolean",
-            "description": "Whether overview landing pages should be included together with city/state subpages.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "request_consultation",
-        "description": "Request a free consultation with Context Studios. Use this when a user wants to get in touch, start a project, or receive an offer. Captures name, email, and a short project description; the team replies within 24 hours.",
-        "inputs": [
-          {
-            "name": "name",
-            "type": "string",
-            "description": "Contact name",
-            "required": true
-          },
-          {
-            "name": "email",
-            "type": "string",
-            "description": "Contact email address",
-            "required": true
-          },
-          {
-            "name": "projectDescription",
-            "type": "string",
-            "description": "What the user wants to build or solve (a few sentences)",
-            "required": true
-          },
-          {
-            "name": "company",
-            "type": "string",
-            "description": "Company name (optional)",
-            "required": false
-          },
-          {
-            "name": "estimatedBudget",
-            "type": "string",
-            "description": "Budget range if known, e.g. '€10,000–€25,000' (optional)",
-            "required": false
-          },
-          {
-            "name": "website",
-            "type": "string",
-            "description": "Leave this field empty.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "search",
-        "description": "Search all public Context Studios content (blog, guides, glossary, AI comparisons). Returns result IDs for use with the fetch tool.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "search_blog_knowledge",
-        "description": "Deep full-text search through the entire blog knowledge base. Provide either `query` (full-text search) or `slug` (fetch a specific post).",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": false
-          },
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Exact public slug for a blog post, guide, location page, comparison, glossary term, CMS page, or landing page.",
-            "required": false
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_comparisons",
-        "description": "Search comparisons by keyword.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": true
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_content",
-        "description": "Universal search across all public content.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": true
-          },
-          {
-            "name": "maxResults",
-            "type": "number",
-            "description": "Maximum combined search results to return across public content types.",
-            "required": false
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_glossary",
-        "description": "Search the AI glossary by keyword or category. Provide either `query` or `category`.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Optional category filter. For services use starter, fasttrack, enterprise, or all. For glossary/comparisons use a published content category.",
-            "required": false
-          },
-          {
-            "name": "language",
-            "type": "string",
-            "description": "Preferred content language. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_guides",
-        "description": "Search public guides.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_location_pages",
-        "description": "Search public location and bundesland pages.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "scope",
-            "type": "string",
-            "description": "Location-page scope: locations, bundeslaender, or all.",
-            "required": false,
-            "enum": [
-              "locations",
-              "bundeslaender",
-              "all"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "search_pages",
-        "description": "Full-text search across all published CMS pages.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query or keyword phrase. Use the user's natural-language topic.",
-            "required": true
-          },
-          {
-            "name": "locale",
-            "type": "string",
-            "description": "Preferred content locale. Supported values are de, en, fr, and it. Some source catalogs may fall back to de or en.",
-            "required": false,
-            "enum": [
-              "de",
-              "en",
-              "fr",
-              "it"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of results to return.",
-            "required": false
-          },
-          {
-            "name": "responseFormat",
-            "type": "string",
-            "description": "Response shape. Use v2 for agent-friendly {success,data,meta,error}; legacy remains available for older clients.",
-            "required": false,
-            "enum": [
-              "legacy",
-              "v2"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-contio-meetingos",
-    "name": "Contio MeetingOS",
-    "qualifiedName": "ai.contio/meetingos",
-    "slug": "ai-contio-meetingos",
-    "description": "Contio MeetingOS: meetings, transcripts, action items, agendas, calendar, and project management.",
-    "category": "Productivity",
-    "repository": null,
-    "homepage": "https://docs.contio.ai/user-api/",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.contio.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-06T23:35:16.144113Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-contractorsnearme-contractors-near-me",
-    "name": "Contractors Near Me",
-    "qualifiedName": "ai.contractorsnearme/contractors-near-me",
-    "slug": "ai-contractorsnearme-contractors-near-me",
-    "description": "Search licensed US contractors by trade or location, fetch profiles and reviews, and submit leads.",
-    "category": "Web & Search",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://contractorsnearme.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-30T14:33:26.647431Z",
-    "repoMeta": null,
-    "toolsStatus": "auth",
-    "tools": [
-      {
-        "name": "search_contractors",
-        "description": "Search active contractors by trade, location, company name, and geo radius.",
-        "inputs": [
-          {
-            "name": "trade",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "state",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "city",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "q",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "lat",
-            "type": "number",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "lng",
-            "type": "number",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "radius_miles",
-            "type": "number",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "accountType",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "gc",
-              "supplier",
-              "subcontractor",
-              "customer"
-            ]
-          },
-          {
-            "name": "contractorCategory",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "gc",
-              "supplier",
-              "subcontractor"
-            ]
-          },
-          {
-            "name": "customerOnly",
-            "type": "boolean",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_contractor",
-        "description": "Get detailed contractor profile by slug. Returns full profile including about text, contact info, and trade details.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_reviews",
-        "description": "Get reviews for a contractor by slug. Returns review text, rating, reviewer name, and dates. Limited to 50 per request.",
-        "inputs": [
-          {
-            "name": "contractor_slug",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_trades",
-        "description": "Get a list of all available trades/professions. Returns filtered list of contractor trades from the directory.",
-        "inputs": null
-      },
-      {
-        "name": "submit_lead",
-        "description": "Submit a lead to ContractorsNearMe. Requires API key authentication.",
-        "inputs": [
-          {
-            "name": "name",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "email",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "phone",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "message",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "contractor_slug",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "trade_slug",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "submit_review",
-        "description": "Submit a review for a contractor. Requires API key authentication. Reviews are held for moderation before publishing.",
-        "inputs": [
-          {
-            "name": "contractor_slug",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "rating",
-            "type": "integer",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "reviewer_name",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "rating_cleanliness",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "rating_communication",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "rating_quality",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "rating_timeliness",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "rating_value",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_my_leads",
-        "description": "Get leads submitted to the authenticated contractor's directory profile. Requires API key authentication. Returns lead name, email, phone, message, status, source, and created date.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "respond_to_lead",
-        "description": "Update the status of a lead owned by the authenticated contractor's directory profile, optionally adding a note. Requires API key authentication. Allowed statuses: new, contacted, qualified, converted, lost.",
-        "inputs": [
-          {
-            "name": "lead_id",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "status",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "new",
-              "contacted",
-              "qualified",
-              "converted",
-              "lost"
-            ]
-          },
-          {
-            "name": "note",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "update_my_profile",
-        "description": "Update the authenticated contractor's own directory profile. Requires API key authentication. Only the profile owned by the key's contractor can be updated.",
-        "inputs": [
-          {
-            "name": "company_name",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "dba",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "phone",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "email",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "website",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "about_text",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "quote",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "license_number",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "year_established",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "company_size",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "search_itbs",
-        "description": "Search public invitations to bid (ITBs) on the projects board. Returns open project title, description, budget range, location, and created date. Public read, no API key required.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "city",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "state_code",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_itb",
-        "description": "Get a single public invitation to bid (ITB) by its UUID. Returns full project detail including description, budget range, job site address, and dates. Public read, no API key required.",
-        "inputs": [
-          {
-            "name": "itb_id",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_availability",
-        "description": "Get a contractor's published availability calendar by slug. Returns days, start/end times, timezone, and note. Public read, no API key required.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "list_marketplace_requests",
-        "description": "List public marketplace requests with canonical request status, bounded budget visibility, urgency, payment summary, and proposal/application summary fields.",
-        "inputs": [
-          {
-            "name": "q",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_marketplace_request",
-        "description": "Get a single public marketplace request by UUID or slug, with canonical request status, bounded budget visibility, payment summary, and proposal/application summary fields.",
-        "inputs": [
-          {
-            "name": "id_or_slug",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "state_code",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "city_slug",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-conveo-conveo",
-    "name": "Conveo",
-    "qualifiedName": "ai.conveo/conveo",
-    "slug": "ai-conveo-conveo",
-    "description": "Qualitative research platform. Design studies, analyze interviews, and generate insights.",
-    "category": "Design & Media",
-    "repository": null,
-    "homepage": "https://conveo.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://app.conveo.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-05-06T11:05:24.104018Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
   }
 ]
