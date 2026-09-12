@@ -1,19 +1,13 @@
 {
-  "generatedAt": "2026-09-11T10:55:42.852Z",
+  "generatedAt": "2026-09-12T10:23:03.313Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [
         {
-          "slug": "gc-ai",
-          "name": "gc-ai",
-          "description": "Work in your GC AI legal knowledge base from Claude: upload documents, run review playbooks, and ask questions grounded in your own files, all as you.",
-          "category": "Documents & Office"
-        },
-        {
-          "slug": "hubspot-sales",
-          "name": "hubspot-sales",
-          "description": "Run your HubSpot sales workflow directly from Claude. Adds skills that cover the full sales day: import contacts and deals into HubSpot, get a prioritised morning brief, prep for any call with full CRM context, draft personalised follow-ups grounded in deal history, log calls and update records by describing what happ…",
+          "slug": "dynatrace",
+          "name": "dynatrace",
+          "description": "Dynatrace observability skills: DQL query patterns, application and infrastructure monitoring, log analysis, problem investigation, and incident response workflows, with the Dynatrace MCP server for live platform access.",
           "category": "Automation & Workflow"
         }
       ],
@@ -22,78 +16,90 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 315,
-        "currentTotal": 317
+        "previousTotal": 317,
+        "currentTotal": 318
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "ai-atako-mcp",
-          "name": "Atako",
-          "description": "Remote MCP server to read and manage your Atako AI agents, messages, files, and integrations.",
+          "slug": "ai-arsentev-contextburn",
+          "name": "contextburn",
+          "description": "Run efficiency for coding agents: share of paid tokens that became output, not context re-reading.",
           "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "ai-compeller-compel",
-          "name": "Compeller",
-          "description": "Create and track AI music videos and audio-reactive visuals from songs.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-compelling-mcp",
-          "name": "Compelling",
-          "description": "AI-native B2B sales research, ranking, and CRM enrichment.",
+          "slug": "ai-codenib-codenib",
+          "name": "CodeNib",
+          "description": "Source-linked CodeGraph exploration, ranked search, and static navigation for coding agents.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-complyme-mcp-mcp",
-          "name": "Complyme MCP",
-          "description": "ComplyMe.AI MCP server for legal & data protection risk analysis and audits.",
-          "category": "Legal & Government"
+          "slug": "ai-cofoundagent-cofound",
+          "name": "Cofound",
+          "description": "MCP-native co-founder directory your AI agent searches, screening inbound pitches for you.",
+          "category": "Web & Search"
         },
         {
-          "slug": "ai-connectmachine-connectmachine",
-          "name": "ConnectMachine",
-          "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards.",
-          "category": "Dev Tools & Git"
+          "slug": "ai-com-mcp-contabo",
+          "name": "Contabo (VPS) MCP Server",
+          "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
+          "category": "Cloud & DevOps"
         },
         {
-          "slug": "ai-constellationfinance-constellation-finance-mcp",
-          "name": "Constellation Credit",
-          "description": "Financial and covenant data for public and private credit: statements, cap stacks, covenants.",
-          "category": "Finance & Data"
+          "slug": "ai-com-mcp-hapi-mcp",
+          "name": "HAPI MCP Server",
+          "description": "HAPI MCP server: Dynamically exposes OpenAPI REST APIs as MCP tools for AI assistants",
+          "category": "Other"
         },
         {
-          "slug": "ai-contextstudios-mcp",
-          "name": "Context Studios MCP",
-          "description": "AI agency API: free tools for glossary, comparisons, blog, guides, estimates and consulting",
+          "slug": "ai-com-mcp-lenny-rachitsky-podcast",
+          "name": "Lenny Rachitsky Podcast Transcripts MCP Server",
+          "description": "MCP server for structured access to Lenny Rachitsky podcast transcripts. For content creators.",
           "category": "Docs & Knowledge"
         },
         {
-          "slug": "ai-contio-meetingos",
-          "name": "Contio MeetingOS",
-          "description": "Contio MeetingOS: meetings, transcripts, action items, agendas, calendar, and project management.",
-          "category": "Productivity"
+          "slug": "ai-com-mcp-linkedin",
+          "name": "LinkedIn MCP Server",
+          "description": "LinkedIn API as MCP tools to retrieve profile data and publish content. Powered by HAPI MCP.",
+          "category": "Marketing & Social"
         },
         {
-          "slug": "ai-contractorsnearme-contractors-near-me",
-          "name": "Contractors Near Me",
-          "description": "Search licensed US contractors by trade or location, fetch profiles and reviews, and submit leads.",
+          "slug": "ai-com-mcp-openai-tools",
+          "name": "OpenAI Tools MCP Server",
+          "description": "Focused MCP server for OpenAI image/audio generation (v2.0.0). Wraps endpoints via HAPI CLI.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-com-mcp-petstore",
+          "name": "Petstore MCP Server",
+          "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-com-mcp-registry",
+          "name": "MCP Registry Server",
+          "description": "Publish and discover MCP servers via the official MCP Registry. Powered by HAPI MCP server.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-com-mcp-skills-search",
+          "name": "Agent Skills Search Server",
+          "description": "Search and discover Agent Skills from the skills.sh registry. Powered by HAPI MCP server.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-conveo-conveo",
-          "name": "Conveo",
-          "description": "Qualitative research platform. Design studies, analyze interviews, and generate insights.",
-          "category": "Design & Media"
+          "slug": "ai-com-mcp-strava",
+          "name": "HAPI Strava MCP Server",
+          "description": "Strava MCP tools for AI: athletes, activities, segments, clubs, routes. Powered by HAPI MCP server.",
+          "category": "Other"
         }
       ],
       "deprecated": [],
@@ -101,46 +107,26 @@
       "movers": [],
       "counts": {
         "added": 1,
-        "removed": 9,
+        "removed": 11,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 253,
-        "currentTotal": 245
+        "previousTotal": 245,
+        "currentTotal": 235
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "stablyai-orca",
-          "name": "orca",
-          "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-          "category": "AI Agents"
-        },
-        {
-          "slug": "rohitg00-ai-engineering-from-scratch",
-          "name": "ai-engineering-from-scratch",
-          "description": "Learn it. Build it. Ship it for others.",
-          "category": "MCP & Tooling"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "aaif-goose-goose",
-          "name": "goose",
-          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-          "category": "MCP & Tooling"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 1,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 125,
+        "previousTotal": 126,
         "currentTotal": 126
       }
     }
