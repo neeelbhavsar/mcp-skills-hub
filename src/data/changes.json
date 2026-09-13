@@ -1,26 +1,19 @@
 {
-  "generatedAt": "2026-09-12T10:23:03.313Z",
+  "generatedAt": "2026-09-13T11:24:08.905Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "dynatrace",
-          "name": "dynatrace",
-          "description": "Dynatrace observability skills: DQL query patterns, application and infrastructure monitoring, log analysis, problem investigation, and incident response workflows, with the Dynatrace MCP server for live platform access.",
-          "category": "Automation & Workflow"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 317,
+        "previousTotal": 318,
         "currentTotal": 318
       }
     },
@@ -28,90 +21,54 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-arsentev-contextburn",
-          "name": "contextburn",
-          "description": "Run efficiency for coding agents: share of paid tokens that became output, not context re-reading.",
+          "slug": "agency-thebureauoflostcontext-bureau-public",
+          "name": "Bureau public reader",
+          "description": "Bureau-operated public read-only MCP service for public Context Packets and Cases.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-anha-resolver",
+          "name": "resolver",
+          "description": "Resolve @handles to post-quantum-signed agent identities and transact with the brands behind them.",
           "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "ai-codenib-codenib",
-          "name": "CodeNib",
-          "description": "Source-linked CodeGraph exploration, ranked search, and static navigation for coding agents.",
-          "category": "Web & Search"
+          "slug": "ai-clize-storefront",
+          "name": "Agent Storefront",
+          "description": "Let your AI agent run a real store: checkout, orders, refunds, shipping and support.",
+          "category": "Commerce & Retail"
         },
         {
-          "slug": "ai-cofoundagent-cofound",
-          "name": "Cofound",
-          "description": "MCP-native co-founder directory your AI agent searches, screening inbound pitches for you.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-com-mcp-contabo",
-          "name": "Contabo (VPS) MCP Server",
-          "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "ai-com-mcp-hapi-mcp",
-          "name": "HAPI MCP Server",
-          "description": "HAPI MCP server: Dynamically exposes OpenAPI REST APIs as MCP tools for AI assistants",
+          "slug": "ai-cnaps-studio",
+          "name": "CNAPS.ai MCP Server",
+          "description": "Run 70+ AI models and 50+ tools on CNAPS Studio in natural language — Claude, n8n, or Zapier.",
           "category": "Other"
         },
         {
-          "slug": "ai-com-mcp-lenny-rachitsky-podcast",
-          "name": "Lenny Rachitsky Podcast Transcripts MCP Server",
-          "description": "MCP server for structured access to Lenny Rachitsky podcast transcripts. For content creators.",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "ai-com-mcp-linkedin",
-          "name": "LinkedIn MCP Server",
-          "description": "LinkedIn API as MCP tools to retrieve profile data and publish content. Powered by HAPI MCP.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-com-mcp-openai-tools",
-          "name": "OpenAI Tools MCP Server",
-          "description": "Focused MCP server for OpenAI image/audio generation (v2.0.0). Wraps endpoints via HAPI CLI.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-com-mcp-petstore",
-          "name": "Petstore MCP Server",
-          "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
+          "slug": "ai-cnpj-mcp",
+          "name": "cnpj.ai",
+          "description": "Empresas, sócios e conexões por CNPJ. Brazilian company data, ownership and corporate networks.",
           "category": "Other"
         },
         {
-          "slug": "ai-com-mcp-registry",
-          "name": "MCP Registry Server",
-          "description": "Publish and discover MCP servers via the official MCP Registry. Powered by HAPI MCP server.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-com-mcp-skills-search",
-          "name": "Agent Skills Search Server",
-          "description": "Search and discover Agent Skills from the skills.sh registry. Powered by HAPI MCP server.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-com-mcp-strava",
-          "name": "HAPI Strava MCP Server",
-          "description": "Strava MCP tools for AI: athletes, activities, segments, clubs, routes. Powered by HAPI MCP server.",
-          "category": "Other"
+          "slug": "ai-cobbles-cobbles",
+          "name": "cobbles",
+          "description": "The shared task board for teams and their AI agents — connect over OAuth, every action signed.",
+          "category": "AI & Memory"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
-        "removed": 11,
+        "added": 2,
+        "removed": 4,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 245,
-        "currentTotal": 235
+        "previousTotal": 235,
+        "currentTotal": 233
       }
     },
     "repos": {
