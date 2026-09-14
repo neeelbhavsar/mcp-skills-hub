@@ -1,98 +1,292 @@
 {
-  "generatedAt": "2026-09-14T12:16:39.217Z",
+  "generatedAt": "2026-09-14T14:32:32.675Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
+      "added": [],
+      "removed": [
         {
-          "slug": "blackrock-advisor-center-plugin",
-          "name": "blackrock-advisor-center-plugin",
-          "description": "BlackRock Advisor Center 360° skills for financial advisors: portfolio review, opportunity and fund-health checks, guided benchmark selection, guided portfolio building, wealth projections, and routing to Advisor Center web workflows. Requires the BlackRock Advisor Center connector and an Advisor Center account.",
+          "slug": "document-skills",
+          "name": "document-skills",
+          "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
+          "category": "Documents & Office"
+        },
+        {
+          "slug": "example-skills",
+          "name": "example-skills",
+          "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "claude-api",
+          "name": "claude-api",
+          "description": "Claude API and SDK documentation skill for building LLM-powered applications",
+          "category": "Documents & Office"
+        },
+        {
+          "slug": "academy-guide",
+          "name": "academy-guide",
+          "description": "Recommends relevant Claude Academy courses, tutorials, and use cases when users ask how to use Claude",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "discernment-nudge",
+          "name": "discernment-nudge",
+          "description": "Appends two or three short follow-up questions after a substantive answer to help users check key facts, probe the reasoning, and notice missing context",
+          "category": "Other"
+        },
+        {
+          "slug": "42crunch-api-security-testing",
+          "name": "42crunch-api-security-testing",
+          "description": "Automate API security directly in Claude Code with 42Crunch - automatically audit OpenAPI specs, detect vulnerabilities aligned with OWASP API Security risks (including BOLA/BFLA), and apply AI-powered fixes. Designed for AI-assisted development workflows, it provides continuous guardrails through an audit->scan->reme…",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "adobe-for-creativity",
+          "name": "adobe-for-creativity",
+          "description": "Harness Adobe's creative AI-powered tools to edit images, automate design workflows, and bring creative visions to life — from background removal to vectorization and professional retouching.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "agent-sdk-dev",
+          "name": "agent-sdk-dev",
+          "description": "Development kit for working with the Claude Agent SDK",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "agentforce-adlc",
+          "name": "agentforce-adlc",
+          "description": "Agentforce Agent Development Life Cycle — author, discover, scaffold, deploy, test, and optimize .agent files",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "ai-plugins",
+          "name": "ai-plugins",
+          "description": "Set up endorctl and use Endor Labs to scan, prioritize, and fix security risks across your software supply chain",
+          "category": "Other"
+        },
+        {
+          "slug": "aikido",
+          "name": "aikido",
+          "description": "Aikido Security scanning for Claude Code — SAST, secrets, and IaC vulnerability detection powered by the Aikido MCP server.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "airtable",
+          "name": "airtable",
+          "description": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Ze…",
+          "category": "Writing & Content"
+        },
+        {
+          "slug": "airwallex-agentos",
+          "name": "airwallex-agentos",
+          "description": "Bring Airwallex's global financial infrastructure to Claude. Orchestrate actions across your account in plain language, e.g., set up invoices from a PO, onboard suppliers from invoices, and check current cash position across currencies. AgentOS bundles pre-built finance Skills with MCP servers. A public CLI connects y…",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "airwallex-dev",
+          "name": "airwallex-dev",
+          "description": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for…",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "aiven",
+          "name": "aiven",
+          "description": "Easily deploy managed PostgreSQL (pg), Kafka, OpenSearch, Clickhouse and other databases, streaming and apps. Free tier available, up and running in minutes.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "alloydb",
+          "name": "alloydb",
+          "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "alloydb-omni",
+          "name": "alloydb-omni",
+          "description": "Create, connect, and interact with an AlloyDB Omni database and data.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "altimate-code",
+          "name": "altimate-code",
+          "description": "Delegates dbt and warehouse work to altimate-code, a specialized CLI agent with 100+ purpose-built data tools (SQL analysis, column-level lineage, dbt build/test/run, warehouse profiling, FinOps, connectivity to Snowflake, BigQuery, Redshift, Databricks, Postgres, MySQL, DuckDB).",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "amazon-location-service",
+          "name": "amazon-location-service",
+          "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "amd-skills",
+          "name": "amd-skills",
+          "description": "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, and analyze GPU kernel and PyTorch trace performance.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "amplitude",
+          "name": "amplitude",
+          "description": "Use Amplitude as an expert analyst — instrument Amplitude, discover product opportunities, analyze charts, create dashboards, manage experiments, and understand users and accounts.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "apollo",
+          "name": "apollo",
+          "description": "Prospect, enrich leads, load outreach sequences, and query sales analytics with Apollo.io — one-click MCP server integration for Claude Code and Cowork.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "apollo-skills",
+          "name": "apollo-skills",
+          "description": "Apollo GraphQL agent skills for Claude Code — Apollo Client, Server, Federation, Connectors, Router, Rover CLI, iOS, Kotlin, and the Apollo MCP server. Covers schema design, query optimization, and GraphQL best practices.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "appwrite",
+          "name": "appwrite",
+          "description": "Appwrite tools for Claude Code, including SDK skills, Appwrite MCP servers, and deployment commands.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "asana",
+          "name": "asana",
+          "description": "Asana project management integration. Connects Claude Code to Asana's V2 MCP server to create and manage tasks, search projects, update assignments, and track progress. Requires a one-time Asana OAuth app setup — run /asana-setup after installing.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "astronomer-data-agents",
+          "name": "astronomer-data-agents",
+          "description": "Data engineering for Apache Airflow and Astronomer. Author DAGs with best practices, debug pipeline failures, trace data lineage, profile tables, migrate Airflow 2 to 3, and manage local and cloud deployments.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "atlan",
+          "name": "atlan",
+          "description": "Atlan data catalog plugin for Claude Code. Search, explore, govern, and manage your data assets through natural language. Powered by the Atlan MCP server with semantic search, lineage traversal, glossary management, data quality rules, and more.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "atlassian",
+          "name": "atlassian",
+          "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+          "category": "Documents & Office"
+        },
+        {
+          "slug": "atlassian-twg-cli",
+          "name": "atlassian-twg-cli",
+          "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Claude Code (terminal or desktop), and powered by Atlassian's context graph. Try: \"draft a Jira iss…",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "atomic-agents",
+          "name": "atomic-agents",
+          "description": "Comprehensive development workflow for building AI agents with the Atomic Agents framework. Includes specialized agents for schema design, architecture planning, code review, and tool development. Features guided workflows, progressive-disclosure skills, and best practice validation.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "auth0",
+          "name": "auth0",
+          "description": "Enterprise-grade auth, easy to implement. Add login, SSO, MFA, and access control to any app with framework-aware guidance.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "aws-agents",
+          "name": "aws-agents",
+          "description": "Build, deploy, and operate AI agents on AWS. Skills for scaffolding agents with Amazon Bedrock AgentCore, connecting tools, memory, policies, evaluation, debugging, and production hardening.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "aws-agents-for-devsecops",
+          "name": "aws-agents-for-devsecops",
+          "description": "Investigate incidents, review code and execute UAT for release readiness, scan code for vulnerabilities, and run penetration tests with AWS DevOps Agent and AWS Security Agent.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "aws-amplify",
+          "name": "aws-amplify",
+          "description": "Build full-stack apps with AWS Amplify Gen 2 using guided workflows for authentication, data models, storage, GraphQL APIs, and Lambda functions.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "aws-core",
+          "name": "aws-core",
+          "description": "Build, deploy, and operate applications on AWS. Skills to author infrastructure-as-code, use core services, and complete common tasks.",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "aws-data-analytics",
+          "name": "aws-data-analytics",
+          "description": "Data lake, analytics, and ETL workflows with S3 Tables, AWS Glue, and Athena.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "aws-serverless",
+          "name": "aws-serverless",
+          "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "aws-startup-advisor",
+          "name": "aws-startup-advisor",
+          "description": "Personalized architecture, cost, security, and migration guidance for startups. From day-one account setup and security baselines to production-ready infrastructure, cost optimization, and beyond. Includes AWS Activate Credits eligibility, 60+ exclusive startup offers, and multi-account multi-region support. Built on…",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "aws-transform",
+          "name": "aws-transform",
+          "description": "Migrate, modernize, and upgrade codebases to AWS. Transforms .NET Framework to .NET 8/10, mainframe COBOL to Java, VMware VMs to EC2, SQL Server to Aurora, and upgrades Java/Python/Node.js versions and AWS SDKs. AWS Transform - continuous modernization analyzes codebases for tech debt, security issues, and upgrade opp…",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "azure",
+          "name": "azure",
+          "description": "Transform Claude into an Azure expert. This plugin integrates the Azure MCP server and specialized Azure skills to move beyond generic advice. It enables Claude to perform real-world tasks: listing resources, validating deployments, diagnosing infrastructure issues, and optimizing costs across 50+ Azure services.",
           "category": "Automation & Workflow"
         }
       ],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 319,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 319,
+        "currentTotal": 0
+      }
+    },
+    "mcps": {
+      "baseline": true,
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 318,
-        "currentTotal": 319
-      }
-    },
-    "mcps": {
-      "baseline": true,
-      "added": [
-        {
-          "slug": "ai-adako-ads",
-          "name": "Adako — careful ad ops for AI agents",
-          "description": "Google, Meta, ChatGPT, TikTok and LinkedIn Ads for AI agents. Every write needs your approval.",
-          "category": "Marketing & Social"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "ai-clize-inbox",
-          "name": "Agent Inbox",
-          "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "ai-clize-sites",
-          "name": "Sites by Clize",
-          "description": "Ship a real marketing site from your coding agent: domain, HTTPS and a working inbox.",
-          "category": "Marketing & Social"
-        }
-      ],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 1,
-        "removed": 2,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 233,
+        "previousTotal": 232,
         "currentTotal": 232
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "ai4finance-foundation-fingpt",
-          "name": "FinGPT",
-          "description": "FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.",
-          "category": "Prompts"
-        },
-        {
-          "slug": "x-plug-mobileagent",
-          "name": "MobileAgent",
-          "description": "Mobile-Agent: The Powerful GUI Agent Family",
-          "category": "Coding Assistants"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "wshobson-agents",
-          "name": "agents",
-          "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity",
-          "category": "Prompts"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 1,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 126,
+        "previousTotal": 127,
         "currentTotal": 127
       }
     }

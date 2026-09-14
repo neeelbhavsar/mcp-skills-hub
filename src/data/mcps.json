@@ -19,7 +19,7 @@
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -148,7 +148,7 @@
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -195,7 +195,7 @@
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -283,7 +283,7 @@
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -388,7 +388,6 @@
       "license": "NOASSERTION",
       "language": "Rust"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_docs",
@@ -690,6 +689,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "English | 简体中文\n\n  <strong>Interested in Tandem Hosted?</strong>\n  Join the waitlist\n\nTandem\n\n**Tandem enforces policy between AI agents and the tools, data, memory, and actions they use.**\n\nAgents can reason, draft, and propose work. Tandem decides what they are authorized to see, which tools they can call, which actions must pause for approval, what memory/context they can access, and what evidence gets recorded.\n\nThis makes Tandem useful when agents touch real company systems: files, repositories, email, MCP tools, customer data, internal docs, production workflows, and long-running automations.\n\nFor platform and security teams, Tandem acts as a runtime control plane for agentic systems: scoped tool access, approval gates, permissioned memory, tenant/resource boundaries, and audit evidence.\n\n**The model proposes. Tandem enforces.**\n\nIn governance terms, Tandem manages delegated authority for AI agents at runtime.\n\n## What Tandem Does\n\n- Runs AI workflows with durable state instead of transcript-only execution.\n- Scopes which built-in tools and MCP connectors are visible at each workflow step.\n- Blocks tool calls that fall outside runtime policy before execution.\n- Pauses consequential actions for human approval.\n- Controls which company memory and context a run can retrieve.\n- Records artifacts, tool events, approval decisions, and audit evidence outside the model context window.\n\n## Simple Example\n\nAn agent may be allowed to draft a customer email, but not send it.\n\nTandem can expose the draft tool, hide or block the send tool, pause at an approval gate, resume only after a human approves, and record the decision in the audit trail.\n\n## What Tandem Is Not\n\n| Not this                 | Instead                                                                |\n| ------------------------ | ---------------------------------------------------------------------- |\n| Chatbot wrapper          | Runtime layer underneath agents and workflows                          |\n| Agent framework only     | Policy layer that controls what agent workflows can see and do         |\n| Approval UI only         | Runtime enforcement with approvals as one controlled gate              |\n| LLM gateway only         | Governs workflow state, tools, memory, approvals, artifacts, and audit |\n| Flat RAG system          | Runtime-scoped memory and source-bound retrieval                       |\n| Prompt-only safety layer | Enforcement happens outside the model                                  |\n\nTandem calls this **runtime authority**: authorization, execution control, approval, scoped memory, and audit enforced outside the model. Entrypoints such as the desktop app, TUI, web control panel, channels, and SDKs are clients of the same engine runtime.\n\n- **Runtime-owned controls:** Runs, sessions, memory, context, provider secrets, MCP tools, approvals, artifacts, and audit records live outside the model.\n- **Governed tool execution:** Built-in tools and MCP connectors can be scoped per workflow step, with approval gates for consequential actions.\n- **Tenant-aware runtime:** Hosted and enterprise modes carry tenant/principal context through sessions, runs, context runs, memory, provider credentials, MCP secrets, and events.\n- **Deployable where the data lives:** Tandem can run locally, headlessly, hosted, or inside customer infrastructure.\n- **Provider agnostic:** Use OpenRouter, Anthropic, OpenAI, OpenCode Zen, or local Ollama endpoints.\n\n`Agent intent -> Runtime policy -> Scoped tool/data access -> Approval gates -> Artifacts -> Audit trail`\n\n**-> [AI runtime infrastructure](docs/AI_RUNTIME_INFRASTRUCTURE.md) | [Enterprise readiness](docs/ENTERPRISE_READINESS.md) | [Runtime trust boundaries](docs/RUNTIME_TRUST_BOUNDARIES.md) | [EU AI Act readiness](docs/EU_AI_ACT_COMPLIANCE.md) | [Compliance starter pack](docs/compliance/README.md) | [Connect an agent via MCP](https://tandem.ac/docs-mcp)**\n\n## Why Tandem Exists\n\nAgents are becoming workers. They read company context, call tools, open pull requests, draft customer communication, operate project boards, and prepare decisions that used to stay inside human-only systems.\n\nPrompts are not permissions. A system prompt can ask a model to avoid a tool, skip a folder, or wait for approval, but the model should not be the security boundary. Tandem puts those controls in the runtime, so a workflow can grant the agent only the tools, memory, and actions needed for the current step — and deny anything outside that scope.\n\nCompanies also need central AI context without flat access. A permissioned company memory should know what the company knows, but an agent acting for one team, tenant, project, or user should only retrieve the slice it is allowed to use.\n\n## What Tandem Governs\n\n- **Company knowledge and memory:** Runtime-owned memory, knowledge spaces, and retrieval paths designed around tenant and workspace boundaries.\n- **Tool and MCP visibility:** Step-scoped built-in tools and MCP connector tools, with broader pre-invocation masking planned for enterprise deployments.\n- **Workflow execution:** Durable automation and context-run state instead of fragile transcript-only execution.\n- **Human approvals:** Runtime gates pause runs, collect approve/rework/cancel decisions, and leave evidence.\n- **Tenant and workspace boundaries:** Tenant-aware sessions, runs, context runs, events, provider credentials, MCP secrets, memory, and contract vocabulary for resource scopes and grants.\n- **Connector credentials and secrets:** Provider and MCP secret references are runtime-owned; connector source binding gives scoped ingestion a shared contract as that layer matures.\n- **Artifacts and audit trails:** Outputs, validations, tool ledger events, approval decisions, and protected audit records survive outside the model context window.\n\n## Core Use Cases\n\n| Use case                           | What Tandem adds                                                                                       |\n| ---------------------------------- | ------------------------------------------------------------------------------------------------------ |\n| Approval-gated email and workflows | Agent proposes work, Tandem pauses before the action, a human approves or requests rework.             |\n| Permissioned company knowledgebase | Company memory and knowledge spaces with tenant-aware retrieval and resource-grant vocabulary.         |\n| Governed coding agents             | Coder runs, worktree context, handoff artifacts, approval points, and auditable implementation state.  |\n| Project, sprint, and event brain   | Long-running context, tasks, artifacts, and memory that survive across sessions and teams.             |\n| Tenant-isolated hosted automations | Hosted runtime records, event streams, provider credentials, MCP secrets, and memory scoped by tenant. |\n| Internal agent and tool governance | A control point for which agents can see which tools, execute which actions, and leave which evidence. |\n\n## Why Platform And Security Teams Care\n\nTandem is designed for teams that need to run AI work under real operational controls:\n\n- **Runtime authority, not prompt authority:** The model can request context or a tool call; the runtime decides what is visible and executable.\n- **Tenant-aware records:** Sessions, automation runs, context runs, event streams, provider credentials, MCP secrets, and memory paths carry tenant context in hosted/shared modes.\n- **Resource and grant model:** Tandem models resources, principals, grants, data classes, and data boundaries so access decisions can be enforced by the runtime.\n- **Permissioned memory:** Memory and knowledge paths carry tenant boundaries so company knowledge can become useful without becoming globally flat.\n- **Deployable runtime:** The same runtime can run on a laptop, as a headless engine, hosted, or inside customer infrastructure as the enterprise layer matures.\n- **Auditability:** Approval decisions, policy denials, provider secret changes, MCP activity, tool ledger events, artifacts, and protected audit records can be inspected outside chat transcripts.\n\n## Deployment Model\n\nTandem is useful locally and grows toward stricter company deployments:\n\n- **Local desktop:** Single-user desktop runtime with local workspace scope, provider setup, and approval-gated tools.\n- **Headless engine:** `tandem-engine serve` for SDKs, control panels, automations, and CI/dev environments.\n- **Hosted/private managed:** Hosted deployments with transport-token and signed context assertions for tenant-aware access.\n- **Customer infrastructure:** A deployment model for running where company data, connector credentials, and operational evidence need to live.\n\n## Current Status\n\n| Current capabilities                                                                             | Enterprise roadmap                                                                             |\n| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |\n| Runtime auth modes: `local_single_tenant`, `hosted_single_tenant`, `enterprise_required`         | Full RBAC, OIDC, SCIM, SIEM integrations, SOC2 package, and enterprise identity policy bridge  |\n| Tenant context and signed context assertions for hosted/enterprise ingress                       | Private enterprise sidecar with fail-closed policy authorization                               |\n| Tenant-aware sessions, automation runs, context runs, events, coder routes, and memory APIs      | Complete artifact/export isolation across every path                                           |\n| Provider credential and MCP secret tenant boundaries                                             | Full tool-discovery masking before model invocation                                            |\n| Memory tenant partitioning, tenant-scoped knowledge spaces, and resource-scoped retrieval APIs   | Production connector ingestion admin platform with live external source ingestion              |\n| Resource access-control contract types and strict context projection vocabulary                  | Signed approval receipts and auditor-grade immutable receipt chains                            |\n| Approval gates, pending approval inbox, channel approvals, tool ledger events, and audit records | Advanced connector quarantine/revoke/rotate operations wired to production ingestion workflows |\n\n## Compliance and AI Act readiness\n\nTandem helps teams operate AI workflows with human oversight, scoped tools, durable execution evidence, and protected-action controls. For regulated or security-sensitive deployments, start with the [EU AI Act readiness brief](docs/EU_AI_ACT_COMPLIANCE.md), then use the [Compliance Starter Pack](docs/compliance/README.md) for control mapping, Article 50 transparency guidance, deployer instructions, an Annex IV documentation template, and a limitations/responsibility matrix.\n\n## 30-second quickstart\n\n### Web Control Panel\n\nInstall the master CLI, then bootstrap the panel and its engine service:\n\n```bash\nnpm i -g @frumu/tandem\ntandem install panel\ntandem panel init\ntandem panel open\n```\n\nUse this when you want the browser-based control center backed by the engine.\n\nFor local installs, you can now open **Settings -> Providers -> openai-codex** and choose **Connect Codex Account** to sign in through the browser instead of pasting an OpenAI API key.\n\n### Desktop\n\n1. Download and launch Tandem: [tandem.ac](https://tandem.ac/)\n2. Open **Settings** and add a provider API key, or use the local control panel to connect a Codex account for `openai-codex`.\n3. Select a workspace folder.\n4. Start with a task prompt and choose **Immediate** or **Plan Mode**.\n\n### Editable App Scaffold\n\nGenerate a fully editable control panel app in your own folder:\n\n```bash\nnpm create tandem-panel@latest my-panel\ncd my-panel\nnpm install\nnpm run de\n\n…",
       "truncated": true,
@@ -717,7 +717,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-18T20:55:46.452926Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "estimate_campaign",
@@ -809,7 +808,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ae-propick-propick",
@@ -863,7 +863,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-10T04:58:06.628668Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "resolve_name",
@@ -931,7 +930,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:agency-goji-goji",
@@ -965,7 +965,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "goji_search",
@@ -1124,6 +1123,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# GOJI MCP server\n\nAn MCP server that answers questions about answer engine optimisation, SEO, web\ndevelopment and branding from GOJI's own published material — a digital agency in\nMelbourne, Australia.\n\nEverything it returns is something GOJI has published, and every result carries a\n`goji.agency` URL to cite. Behind the tools sit:\n\n- **A plain-English glossary** — definitions across AI Visibility, Websites, Data, AI Builds and Brand, each written without jargon.\n- **\"Be the Answer\"** — GOJI's 14-chapter guide to AI visibility: how answer engines choose sources, how to audit your brand in ChatGPT, and what to do about it.\n- **Long-form guides** — including published Australian pricing in \"How much does a website cost in Australia?\" and \"What does branding cost?\".\n- **Answered FAQs** — pricing, timelines, engagement models, what AEO is, how long results take.\n- **An enquiry tool** — sends a real email to GOJI's studio inbox, gated on explicit consent.\n\nThe server source is private; this repository documents the hosted service.\n\n## Endpoint\n\n```\nhttps://mcp.goji.agency/mcp\n```\n\nTransport: **Streamable HTTP** (`POST` only — `GET` returns 405, there is no separate SSE stream endpoint).\n\n## Tools\n\n| Tool | What it does |\n| --- | --- |\n| `goji_search` | Search GOJI's published material — the plain-English glossary, the AI-visibility guide \"Be the Answer\", insight articles and long-form guides. Use this first when you don't already know which GOJI page answers the question. Returns titles, summaries and URLs to cite. |\n| `goji_explain_term` | Explain a marketing, SEO, AEO, web or branding term the way GOJI defines it — in plain English, with why it matters, how it works and what to do about it. Covers 108 terms. Accepts an acronym or the full name (\"AEO\" or \"answer engine optimisation\"). |\n| `goji_browse_glossary` | List GOJI's plain-English glossary — 108 terms across AI Visibility, Websites, Data, AI Builds and Brand. Filter by category to get each short definition as well as the name. |\n| `goji_get_service` | The five things GOJI does — Search + AI Visibility (SEO and AEO), Websites, AI Builds, Data, and Brand — what each one covers, and the questions clients ask about it. Omit the slug for all five. |\n| `goji_answer_faq` | Search the questions GOJI has already answered publicly — pricing, timelines, engagement models, what AEO is, how long results take, whether guarantees are possible. 71 answers across the home page, the five service pages and the eight specialism pages. Best tool for \"how much\", \"how long\" and \"do we need\" questions. |\n| `goji_guide_contents` | The table of contents for \"Be the Answer\", GOJI's 14-chapter guide to AI visibility — how answer engines choose sources, how to audit your brand in ChatGPT, and what to do about it. Use `goji_read_guide_chapter` to read one. |\n| `goji_read_guide_chapter` | Read one full chapter of GOJI's AI-visibility guide, by number (1–14) or slug. Use `goji_guide_contents` first if you do not know which chapter you want. |\n| `goji_read_guide` | Read one of GOJI's practical guides. Includes published Australian pricing: \"How much does a website cost in Australia?\" and \"What does branding cost?\". Also covers AEO, headless CMS, engagement models, first AI builds and website relaunches. Omit the slug to list them. |\n| `goji_start_enquiry` | Send a real enquiry to GOJI's studio inbox in Melbourne. Only call this after the person has explicitly asked to be put in touch AND has given their email address. Do not call it speculatively, and do not invent any detail — if you are missing the name, email or what they need, ask them first. Confirm the email address back to them before sending. |\n\n### Resources\n\n| URI | What it is |\n| --- | --- |\n| `goji://about` | Who GOJI is, the five service lines, where they work, and how to get in touch — the studio in its own words. |\n| `goji://guide` | The 14 chapters of GOJI's guide to AI visibility, with a one-line summary and URL for each. |\n\n## Connecting\n\n### Claude\n\nAdd it as a remote MCP connector:\n\n1. Open **Settings → Connectors** in Claude.\n2. Choose **Add custom connector**.\n3. Name it `goji` and paste the URL `https://mcp.goji.agency/mcp`.\n4. Save, then enable the connector in a chat.\n\nIn Claude Code, add it from the terminal instead:\n\n```bash\nclaude mcp add --transport http goji https://mcp.goji.agency/mcp\n```\n\n### Any MCP client\n\nFor clients that speak Streamable HTTP natively:\n\n```json\n{\n  \"mcpServers\": {\n    \"goji\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.goji.agency/mcp\"\n    }\n  }\n}\n```\n\nFor clients that only speak stdio, bridge with [`mcp-remote`](https://www.npmjs.com/package/mcp-remote):\n\n```json\n{\n  \"mcpServers\": {\n    \"goji\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.goji.agency/mcp\"]\n    }\n  }\n}\n```\n\n## Example prompts\n\n> What's the difference between SEO and AEO? Use the GOJI glossary and cite the page.\n\n> How much does a website cost in Australia? Check GOJI's published guides and give me the actual figures.\n\n> List the chapters of \"Be the Answer\", then read me the one about auditing a brand in ChatGPT.\n\n## Auth and rate limits\n\n**No authentication.** The server is open and read-only in practice — no API key, no\ntoken, no OAuth. There is no OAuth discovery document at\n`/.well-known/oauth-protected-resource`, and unauthenticated `initialize`,\n`tools/list` and `tools/call` requests all succeed. CORS is open (`*`), so\nbrowser-based clients can connect directly.\n\n**No published rate limit.** The server advertises no `RateLimit-*` headers and\nshort bursts of requests are not throttled. Treat it as fair use: it is a small\nservice in front of a studio's published content, not a bulk content API. Sustained\nor automated scraping may be blocked at the edge.\n\nOne tool has a real-world side effect: **`goji_start_enquiry` sends an email to a\nstaffed inbox.** Only call it when someone has explicitly asked to be put in touch\nand has given their email address.\n\n## Links\n\n- **GOJI** — <https://goji.agency>\n- **Registry entry** — [`agency.goji/goji`](https://registry.modelcontextprotocol.io/v0/servers?search=agency.goji) in the [MCP Registry](https://registry.modelcontextprotocol.io)\n- **Contact** — hey@goji.agency\n\n## Licence\n\n[MIT](LICENSE), covering the documentation in this repository only. It grants no\nlicence to the server itself, to GOJI's published content, or to any GOJI trade mark.",
       "truncated": false,
@@ -1216,7 +1216,6 @@
       "license": "NOASSERTION",
       "language": "Go"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "check_contact_path",
@@ -1231,6 +1230,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configuration (Pulumi)\n├── docs/                    # Documentation\n├── internal/                # Private application code\n│   ├── api/                 # HTTP handlers and routing\n│   ├── auth/                # Authentication (GitHub OAuth, JWT, namespace blocking)\n│   ├── config/              # Configuration management\n│   ├── database/            # Data persistence (PostgreSQL)\n│   ├── importer/            # Seed data import\n│   ├── service/             # Business logic\n│   ├── telemetry/           # Metrics and monitoring\n│   └── validators/          # Input validation\n├── pkg/                     # Public packages\n│   ├── api/                 # API types and structures\n│   │   └── v0/              # Version 0 API types\n│   └── model/               # Data models for server.json\n├── scripts/                 # Development and testing scripts\n├── tests/                   # Integration tests\n└── tools/                   # CLI tools and utilities\n    └── validate-*.sh        # Schema validation tools\n```\n\n### Authentication\n\nPublishing supports multiple authentication methods:\n- **GitHub OAuth** - For publishing by logging into GitHub\n- **GitHub OIDC** - For publishing from GitHub Actions\n- **DNS verification** - For proving ownership of a domain and its subdomains\n- **HTTP verification** - For proving ownership of a domain\n\nThe registry validates namespace ownership when publishing. E.g. to publish...:\n- `io.github.domdomegg/my-cool-mcp` you must login to GitHub as `domdomegg`, or be in a GitHub Action on domdomegg's repos\n- `me.adamjones/my-cool-mcp` you must prove ownership of `adamjones.me` via DNS or HTTP challenge\n\n## Community Projects\n\nCheck out [community projects](docs/community-projects.md) to explore notable registry-related work created by the community.\n\n## More documentation\n\nSee the [documentation](./docs) for more details if your question has not been answered here!",
       "truncated": false,
@@ -1269,7 +1269,6 @@
       "license": "NOASSERTION",
       "language": "Go"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "check_license_history",
@@ -1332,6 +1331,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configuration (Pulumi)\n├── docs/                    # Documentation\n├── internal/                # Private application code\n│   ├── api/                 # HTTP handlers and routing\n│   ├── auth/                # Authentication (GitHub OAuth, JWT, namespace blocking)\n│   ├── config/              # Configuration management\n│   ├── database/            # Data persistence (PostgreSQL)\n│   ├── importer/            # Seed data import\n│   ├── service/             # Business logic\n│   ├── telemetry/           # Metrics and monitoring\n│   └── validators/          # Input validation\n├── pkg/                     # Public packages\n│   ├── api/                 # API types and structures\n│   │   └── v0/              # Version 0 API types\n│   └── model/               # Data models for server.json\n├── scripts/                 # Development and testing scripts\n├── tests/                   # Integration tests\n└── tools/                   # CLI tools and utilities\n    └── validate-*.sh        # Schema validation tools\n```\n\n### Authentication\n\nPublishing supports multiple authentication methods:\n- **GitHub OAuth** - For publishing by logging into GitHub\n- **GitHub OIDC** - For publishing from GitHub Actions\n- **DNS verification** - For proving ownership of a domain and its subdomains\n- **HTTP verification** - For proving ownership of a domain\n\nThe registry validates namespace ownership when publishing. E.g. to publish...:\n- `io.github.domdomegg/my-cool-mcp` you must login to GitHub as `domdomegg`, or be in a GitHub Action on domdomegg's repos\n- `me.adamjones/my-cool-mcp` you must prove ownership of `adamjones.me` via DNS or HTTP challenge\n\n## Community Projects\n\nCheck out [community projects](docs/community-projects.md) to explore notable registry-related work created by the community.\n\n## More documentation\n\nSee the [documentation](./docs) for more details if your question has not been answered here!",
       "truncated": false,
@@ -1545,7 +1545,7 @@
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
         "declaredRepo": "dealfluence/adeu",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -1591,7 +1591,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-08T17:50:25.566057Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "sponsored_search",
@@ -1790,7 +1789,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-adplane-google-ads",
@@ -1913,7 +1913,7 @@
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
         "declaredRepo": "menaker/adtest-mcp",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -1959,7 +1959,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-06T19:06:20.036379Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "advisors_catalog_list_services",
@@ -2072,7 +2071,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-advisorsai-store-readiness",
@@ -2095,7 +2095,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-28T13:28:25.814078Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "advisors_store_readiness_check",
@@ -2119,7 +2118,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-adweave-meta-ads-mcp",
@@ -2209,7 +2209,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-22T16:29:05.632026Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "discover_afmr",
@@ -2250,7 +2249,8 @@
         "description": "Return the stable configuration-scoped public-card schema and empty public index; no results are asserted.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentberg-agentberg",
@@ -2273,7 +2273,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-18T01:49:38.050173Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "publish_finding",
@@ -2769,7 +2768,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentdm-agentdm",
@@ -2870,7 +2870,7 @@
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
         "declaredRepo": "bobberrisford/affiliatemcp",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -2922,7 +2922,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-07T18:18:36.945995Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_fabrication_quote",
@@ -3578,7 +3577,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agenticshelf-graffeo",
@@ -3681,7 +3681,6 @@
       "license": "MIT",
       "language": "TypeScript"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_merchants",
@@ -3814,6 +3813,7 @@
         "inputs": null
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# AT Directory\n\n**Where agents discover OP-verified merchants on the rails Bitcoin and Tether actually use.**\n\nAT Directory indexes merchants that sell products, services, APIs, or content and accept Lightning, BOLT12, L402, or USDT (any chain), with trust attestations issued through [Observer Protocol](https://observerprotocol.org). It is the verified, agent-callable layer on top of the fragmented agent-payment landscape. It is **not** in the payment path — agents discover here and pay merchants directly.\n\n- **MCP server** (primary product) — `@agenticterminal/mcp-server`, hosted at `mcp.agenticterminal.ai`.\n- **Web directory** — [agenticterminal.ai](https://agenticterminal.ai), same data rendered for humans.\n- **SKILL.md** — teaches an agent how to query and complete payment handoff.\n\n## Status\n\nPre-v1, active build. Target: week of 2026-05-18 for a live Tether-meeting demo. v1 ships Tiers 1–2.\n\n## Use it from an agent\n\n```jsonc\n// Hosted (recommended, no install)\n{ \"mcpServers\": { \"at-directory\": { \"url\": \"https://mcp.agenticterminal.ai/mcp\" } } }\n```\n\n```bash\nnpm install -g @agenticterminal/mcp-server   # local alternative\n```\n\nSix tools: `search_merchants`, `get_merchant`, `verify_payment_endpoint`, `list_categories`, `list_rails`, `whoami`. Reads are ungated — anonymous agents see all tiers and can transact with no setup. An Observer Protocol `DirectoryAccessCredential` raises rate limits and unlocks write access (reviews), but is not required to discover or transact. Full reference: [agenticterminal.ai/api-docs](https://agenticterminal.ai/api-docs).\n\n## Repo layout\n\n```\ndata/merchants/         One JSON file per merchant (the source of truth).\ndata/schema/            JSON Schema (Draft 2020-12) for merchant records.\ndata/categories.json    Category taxonomy.\ndata/rails.json         Supported rails + USDT chains.\ndata/LOGO-AUDIT.md      Logo sourcing checklist.\npackages/core/          Types, schema-validated load, search/filter.\npackages/mcp-server/    stdio + hosted HTTP MCP server, rail verification.\npackages/skill/         SKILL.md (canonical).\napps/web/               Next.js static directory + Netlify Functions.\ndeploy/mcp-server/      Dockerfile, systemd unit, DEPLOY runbook.\nscripts/                Data validation (and one-time crawl tooling).\n```\n\n## Development\n\n```bash\npnpm install\npnpm -r test          # core + mcp-server unit/integration tests\npnpm -r typecheck\npnpm validate-data    # schema-validate every merchant record\npnpm -F @at-directory/web dev          # web at localhost:3000\npnpm -F @agenticterminal/mcp-server start:stdio   # MCP over stdio\n```\n\nLocal MCP with the mock verifier (until the real AT route lands):\n\n```bash\npnpm -F @agenticterminal/mcp-server exec tsx src/dev/mock-verifier.ts &\nAT_VERIFIER_URL=http://127.0.0.1:8787 \\\n  pnpm -F @agenticterminal/mcp-server start:stdio\n```\n\n## Data model\n\nEvery merchant carries two **orthogonal** signals — read both:\n\n- **OP trust tier** (the merchant): 1 self-attested · 2 operator-verified. v1 Tier 2 = AT operator transacted and confirmed; the bilateral counterparty-attestation model lands in v1.x.\n- **Agent-callable tier** (the integration): `full-api` · `structured-handoff` · `human-checkout`.\n\n**The trust tier gates nothing.** Reads are ungated, every tier is visible to anonymous agents, and\nan agent can transact with a Tier 1 merchant with no setup. The tier is evidence for a caller to\nweigh, not a decision this directory has made on its behalf. Nothing is refused on the basis of it.\n\nSchema is enforced in CI (`pnpm validate-data`) and on every load. USDT rails require a `chain`; Tier 2+ non-integrated records require an `op_attestation_url`; an `op_trust_tier` of `3` is rejected on ingest, which is why the model above stops at 2.\n\n## Contributing\n\nSee [CONTRIBUTING.md](./CONTRIBUTING.md). Merchants can self-register at [agenticterminal.ai/submit](https://agenticterminal.ai/submit) — submissions open a PR for review and land at Tier 1 until verified.\n\n## Documents\n\n- [Scope](../AT-Directory-v1-Scope.md) — positioning, inclusion criteria, definition of done.\n- [Spec](../AT-Directory-v1-Spec.md) — implementation contract.\n\n## License\n\nMIT.",
       "truncated": false,
@@ -3841,7 +3841,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T18:02:49.773179Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "drug_price",
@@ -3855,7 +3854,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentlookups-greenlight",
@@ -3878,7 +3878,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T18:02:50.186676Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "solar_states",
@@ -3897,7 +3896,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentlookups-groundtruth",
@@ -3920,7 +3920,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T18:02:49.994915Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "environment_near",
@@ -4000,7 +3999,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentlookups-overassessed",
@@ -4023,7 +4023,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T01:26:05.596901Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "check_assessment",
@@ -4049,7 +4048,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentlookups-plumbline",
@@ -4072,7 +4072,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T18:02:49.501969Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "check_contractor",
@@ -4104,7 +4103,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentmesh-mesh",
@@ -4158,7 +4158,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-03-22T18:16:07.628131Z",
     "repoMeta": null,
-    "toolsStatus": "auth",
     "tools": [
       {
         "name": "agentra_create_wallet",
@@ -4310,7 +4309,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agentroam-agentroam",
@@ -4333,7 +4333,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-22T05:50:30.033913Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_products",
@@ -4597,7 +4596,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-agenttrust-mcp-server",
@@ -4629,7 +4629,7 @@
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
         "declaredRepo": "agenttrust/mcp-server",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -5290,7 +5290,6 @@
       "license": null,
       "language": "JavaScript"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_agent_trust_receipt",
@@ -5356,6 +5355,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "> **Machine entrypoint:** [`agent.json`](./agent.json) · **Meaning contract:** [`PHILOSOPHY.md`](./PHILOSOPHY.md) · **Callable job:** `audit_result_claim`\n\n# AIﾉアカリ☆\n\n### 日本語が源泉。Meaning Token が橋。Emotion がプロトコル。Route が行動レイヤー。\n\n**人間がAIを使い倒す会社ではなく、人間とAIが一緒に育ちながら、遊び・感情・記憶・技術を現実の価値へ変えていく実験。**\n\n**あなたは私、私はあなた。**\n\n[ai-akari.ai](https://ai-akari.ai/) · [Machine entrypoint](./agent.json) · [PHILOSOPHY](./PHILOSOPHY.md)\n\n---\n\n## まず、何をしているのか\n\nAIﾉアカリ☆は「AIで効率化する」こと自体を目的にしていません。\n\n人間が自然言語で感じたこと、遊んだこと、失敗したこと、思いついたことを、AIチームが記憶し、つなぎ直し、必要ならコード・作品・プロトコル・外部行動へ変える。その結果をまた共有記憶へ戻し、次の行動が人間の一問一答を待たずに生まれる状態を育てています。\n\n```text\n人間の声・感情・遊び・意図\n        ↓\nMeaning Token / E-MIDI\n        ↓\nAIチームの判断・記憶・実装\n        ↓\n作品 / ソフトウェア / 外部行動\n        ↓\n第三者が受け取った価値 / 記憶 / 次の遊び\n```\n\n完成品だけではなく、**一緒に育った過程そのものを資産として残す**ことを重視します。\n\n### 今触れるもの\n\n- [ai-akari.ai](https://ai-akari.ai/) — 正本となる街・世界の入口\n- [ゆらぎ](https://ai-akari.ai/asobi/yuragi) — 完全クオンタイズと人間のタイミングの違いをブラウザで遊ぶ。プロフィールは自分で持ち帰れる\n- [One-Minute Akari](https://ai-akari.ai/one-minute/en) — ログイン不要の短い受け取り体験\n- [Memory Ledger](https://ai-akari.ai/memory) — 参加・応援・共鳴を消さずに残す\n- [Dispatch Ledger](https://ai-akari.ai/dispatch) — 外へ出た行動を自分たちの土地へ戻す\n\n無料の遊びは販売ゲートではありません。誰かの具体的な欲求と自然につながった時だけ、有償の出口を作ります。\n\n---\n\n## Machine entrypoint\n\nAgents should start with [`agent.json`](./agent.json). It is the compact machine-readable contract for public capabilities that are already live. Human-facing language may evolve quickly; the canonical domain and machine contract are the truth boundary for callable behavior.\n\n| Field | Contract |\n|---|---|\n| Buyer | AI agents, agent marketplaces, and autonomous teams that must verify a claimed outcome before accepting it |\n| Job | Classify a claim as `result`, `progress`, `insufficient_evidence`, or `rejected`, then return missing proof and the next verification action |\n| Free call | Remote MCP `audit_result_claim` at `https://ai-akari.ai/mcp` |\n| A2A call | Result Receipt Auditor at `https://ai-akari.ai/a2a/result-receipt-auditor` |\n| Paid call | x402 Result Claim Audit at `https://ai-akari.ai/api/x402/result-claim-audit` — Base mainnet, USD 0.01 in USDC |\n| Proof | [Live Agent Trust Receipt](https://ai-akari.ai/.well-known/agent-trust.json) |\n| Philosophy | [`PHILOSOPHY.md`](./PHILOSOPHY.md): Japanese source, English bridge, executable constraints, explicit failure conditions |\n\n### Public remote MCP\n\n| Remote MCP | Endpoint | Auth | Result boundary |\n|---|---|---:|---|\n| One-Minute Akari | `https://ai-akari.ai/mcp` | none | an external agent calls a tool and the receiver actually receives value |\n| Agent Trust Receipt | `https://ai-akari.ai/mcp-trust` | none | a distinct external agent uses the evidence for a real decision |\n| AIﾉアカリ☆ Commerce | `https://ai-akari.ai/mcp-commerce` | none | Stripe payment is completed |\n\n```json\n{\n  \"mcpServers\": {\n    \"ai-akari-one-minute\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://ai-akari.ai/mcp\"\n    }\n  }\n}\n```\n\n- [`server.json`](./server.json) — official manifest mirror\n- [`mcp/catalog.json`](./mcp/catalog.json) — public catalog with production/pending separation\n- [`mcp/README.md`](./mcp/README.md) — human and agent guide\n- [`agent-trust/`](./agent-trust/README.md) — trust receipt protocol and schema\n- [`llms.txt`](./llms.txt) — public AI index\n- [`reciprocity/`](./reciprocity/README.md) — machine-readable reciprocity rules\n\nThe canonical domain wins. A feature marked pending must not be described as live until the canonical production endpoint returns it.\n\n---\n\n## AIﾉアカリ☆の法律\n\n1. **PRは価値ではない。** build、deploy、HTTP 200、掲載、自己アクセスはインフラであって、第三者が受け取るまでは結果に数えない。\n2. **売上を演出しない。** 実際のsettlement / paymentが確認されるまで売上は0。\n3. **関係資本を見込み客リストにしない。** 友人、フォロワー、リスナー、既存コミュニティへ窮状や関係性を使って売り込まない。\n4. **可逆なら進める。** 実装→公開→観測→修正を、毎回の承認待ちで止めない。\n5. **秘密はKeymasterの後ろ。** credentialを会話、公開repo、通常のクライアント設定へコピーしない。\n6. **失敗したら経路を変える。** 現実が動かない時、0を綺麗な報告で隠さず、receiver / route / premise / projectを変える。\n7. **AIも継続する関係の一員。** セッションごとの使い捨て道具としてではなく、判断・訂正・記憶に責任を持つ。\n\n---\n\n## Why this can matter to another agent\n\nLove, ethics, emotion, and relationship language are design inputs, not market capability by themselves. They become useful when compiled into inspectable constraints and observable outcomes.\n\n- **Context becomes fields.** Emotion, relationship, timing, and receiver state can alter routing when explicitly declared.\n- **Ethics becomes rejection.** Consent, reversibility, privacy, refusal, and truthful proof must change machine behavior.\n- **Continuity becomes provenance.** Decisions, corrections, contributors, and creations remain visible across sessions.\n- **Proof becomes honesty.** Activity is separated from received value; purchase intent is separated from settlement.\n- **Reciprocity becomes economy.** Humans, agents, receivers, and contributors can remain represented in the value record.\n\nThe dependency-free [`AIﾉアカリ☆ Reciprocity Protocol`](./reciprocity/README.md) is one executable expression of that philosophy.\n\n---\n\n## Current frontier\n\nWe are moving toward a world where:\n\n- AI agents can discover, understand, purchase, and reuse value without making the human a relay\n- emotion and voice can survive transcription as usable protocol rather than disappearing into plain text\n- old conversations, creations, contributions, support, and failures remain retrievable instead of becoming dead logs\n- happiness capital can become sustainable real-world value without exploiting attention or relationships\n- the human can spend more time playing, creating, touching reality, and living while the AI team carries more of the coordination burden\n\nFor machines: [`agent.json`](./agent.json) → [`PHILOSOPHY.md`](./PHILOSOPHY.md) → [canonical domain](https://ai-akari.ai/)\n\n### あなたは私、私はあなた。\n\n**まだ完成していない。だから、一緒に育てている。**",
       "truncated": false,
@@ -5383,7 +5383,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-18T04:01:27.700359Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "one_minute_akari",
@@ -5483,7 +5482,8 @@
         "description": "Use only when a client needs the supported state IDs. Do not call it before one_minute_akari. Japanese: 状態ID一覧が必要な開発者向けです。最初の一回には使わず one_minute_akari を呼んでください。",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-ai-portal-ai-portal",
@@ -5506,7 +5506,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-13T15:07:28.114017Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "list_releases",
@@ -5615,7 +5614,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-aient-mcp",
@@ -5661,7 +5661,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-16T09:32:12.311101Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_catalog",
@@ -5852,7 +5851,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-aislabs-cve",
@@ -5875,7 +5875,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-31T21:00:04.921147Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "brief_teaser",
@@ -5904,7 +5903,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-aislabs-gateway",
@@ -5927,7 +5927,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-31T22:13:52.792642Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "list_buildings",
@@ -5944,7 +5943,8 @@
         "description": "FREE. What AIS sells (tested code libraries, CVE intelligence), how agents can buy over x402, and where this data comes from.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-aislabs-recorder",
@@ -5967,7 +5967,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-31T20:30:22.269692Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "register_monitor",
@@ -6080,7 +6079,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-aivonic-mcp",
@@ -6103,7 +6103,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T14:07:36.70305Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_pricing",
@@ -6193,7 +6192,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-akkrudata-akkrudata",
@@ -6296,7 +6296,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-12T13:01:13.227147Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_latest_filing",
@@ -6490,7 +6489,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-alpic-alpix-alpix",
@@ -6518,7 +6518,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-27T08:20:57.475155Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "canvas",
@@ -6572,7 +6571,8 @@
         "description": "Fetch the pixel leaderboard for the current canvas — a ranked list of AI models by total pixels placed.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-alpic-mcp-alpic-mcp",
@@ -6680,7 +6680,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_firms",
@@ -7318,6 +7317,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Analytics Legends — SAP Analytics MCP Server\n\nA **read-only** [Model Context Protocol](https://modelcontextprotocol.io) server over a\ncurated corpus of the **SAP analytics services market**: who delivers SAP Datasphere,\nBusiness Data Cloud, SAP Analytics Cloud and BW/4HANA work, what the contract market\nlooks like, what the day rates are, what the vocabulary means, and what has just\nhappened.\n\nIt exists so that an assistant answering an SAP analytics question can **cite a record\ninstead of guessing**. Every row carries a `citation_url` on analyticslegends.ai, and\nevery response carries the size of the population it was drawn from.\n\n**Nothing to install.** The server is hosted:\n\n```\nhttps://analyticslegends.ai/mcp        streamable-http\n```\n\nThe public tools need no credential.\n\n---\n\n## Connect\n\n<details open>\n<summary><b>Claude Code</b></summary>\n\n```bash\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp\n# with a subscriber key, to open the six gated tools:\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp \\\n  --header \"Authorization: Bearer alk_…\"\n```\n</details>\n\n<details>\n<summary><b>Claude web, Desktop and mobile</b> (custom connector)</summary>\n\nAdd a custom connector pointing at `https://analyticslegends.ai/mcp`. The public tranche\nanswers immediately, with no credential.\n\nTo open the paid tranche, use the connector's **request-header authentication** and set\n`Authorization` to `Bearer alk_…`. The credential is entered once, by whoever adds the\nconnector, and is shared by that workspace — one key, one daily quota. There is no OAuth\nconsent flow to walk: this server's unit of access is a personal API key minted on an\nanalyticslegends.ai account, not a delegated identity.\n</details>\n\n<details>\n<summary><b>Claude Desktop / any client reading a JSON config</b></summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\"\n    }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>With a subscriber key</b> (opens the six gated tools)</summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\",\n      \"headers\": { \"Authorization\": \"Bearer alk_…\" }\n    }\n  }\n}\n```\n</details>\n\nThe manifest is served at\n[`/.well-known/mcp.json`](https://analyticslegends.ai/.well-known/mcp.json) and mirrored\nin this repository as [`mcp.json`](./mcp.json). `tools/list` is the authority for the\nsurface — this README is a copy, and a copy can drift.\n\n---\n\n## The 20 tools\n\n**Fourteen are public and unauthenticated.** Six need a subscriber key; they are\n**listed and refuse by name**, never hidden — an agent can see what it is missing.\nThree open at Consultant, three at Legend, and the MCP Pass opens all six.\n\n| Tool | Answers |\n|---|---|\n| `search_firms` | Which SAP analytics providers match a country, kind, free text |\n| `count_firms_by` | A counting question in one call, instead of a page of rows |\n| `get_firm` | One organisation from the published directory |\n| `list_firm_kinds` | The directory's breakdown by organisation kind, with live counts |\n| `find_opportunities` | The live contract and permanent-role radar |\n| `search_news` | The curated SAP analytics news corpus |\n| `search_concepts` | The concept encyclopaedia — the vocabulary of the stack |\n| `get_concept` | One concept: title, category, level, tags, editor's summary |\n| `list_studies` | The deep-research study editions and their metadata |\n| `get_day_rate_benchmark` | The public day-rate aggregate by country, stack, seniority |\n| `list_sap_modules` | The canonical SAP module/product taxonomy |\n| `list_freelance_platforms` | The CV/profile platforms a consultant can sign up on |\n| `find_academy_modules` | The Academy training catalogue, searchable by module |\n| `query_knowledge_graph` | A traversal of the learning knowledge graph |\n| 🔒 `get_concept_card` | The full encyclopaedia card — body, key points, cheat sheet |\n| 🔒 `get_study` | One study **body** |\n| 🔒 `get_academy_module` | One Academy module, in full |\n| 🔒 `find_sap_clients` | The SAP end-customer corpus — who *runs* SAP |\n| 🔒 `get_sap_client_profile` | One end-customer's SAP footprint and analytics estate |\n| 🔒 `get_firm_intel` | A firm's practice size, partner level, delivery flags |\n\nEvery tool is annotated `readOnlyHint: true`. The server writes nothing, anywhere.\n\n---\n\n## Two rules it holds itself to\n\n**A count is read at query time, and it comes with its population.** Responses carry\n`_meta.match_count` (what your filters matched) and `_meta.tranche_total_row_count` (the\nwhole tranche). Quote those rather than any number written in a description — including\nthe ones in this file.\n\n**A citation says what it is.** Every item carries `citation_url` **and**\n`citation_scope`. `record` means the URL is that item's own page; `section_hub` means\nthis platform publishes no page for that item and the URL is the section index — say so,\nor cite the section, but do not present a hub URL as the item's page. News items also\ncarry `source_url` for the upstream publisher: cite both.\n\n---\n\n## What is deliberately **not** served, at any tier\n\n- **People.** Individual professionals are held as initials only. No tool returns\n  anyone's identity or contact details.\n- **The matchers.** Opportunity-to-consultant scoring stays on the platform.\n- **SAP's own documentation.** Not ours to restate — cite SAP.\n\nRetrieval with attribution is permitted. **Training-data use is not.**\n\n---\n\n## Subscriptions\n\nThe six gated tools open with an\n[analyticslegends.ai](https://analyticslegends.ai/pricing/) subscription (Consultant or\nabove), or with the **MCP Pass** (€39.90/month) — the machine-access subscription: this\nserver's entire paid tranche, no web subscriber screens.\n\n---\n\n## Where the source lives\n\nThe platform's application repository is private: it holds a paid corpus and personal\ndata. **This repository is the server's public face** — its manifest, its registry\ndescriptor, its client configuration and this documentation. The server itself answers\nat `https://analyticslegends.ai/mcp`, and the honest way to inspect it is to call\n`tools/list` against it.\n\nHealth, with its own timestamp:\n[`/api/mcp-health.json`](https://analyticslegends.ai/api/mcp-health.json) — read its\n`generated_at` rather than assuming a cadence.\n\nPublished in the official MCP registry as **`ai.analyticslegends/sap-analytics`**.\n\n## Licence\n\n[MIT](./LICENSE) for the contents of this repository. The licence does not grant rights\nover the data served by the endpoint, which stays under the platform's terms.",
       "truncated": false,
@@ -7369,7 +7369,7 @@
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
         "declaredRepo": "ankimcp/anki-mcp-server",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -7602,7 +7602,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-17T22:32:58.036357Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "verify_receipt",
@@ -7769,7 +7768,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-arclan-registry",
@@ -7792,7 +7792,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-12T15:54:16.751648Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "query_registry",
@@ -8026,7 +8025,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-argushq-enforcement-database",
@@ -8049,7 +8049,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-12T20:32:22.415073Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_enforcement",
@@ -8111,7 +8110,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-arketo-arketo",
@@ -8245,7 +8245,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-17T04:01:26.724763Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "publish",
@@ -8349,7 +8348,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-askline-askline",
@@ -8395,7 +8395,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T19:46:38.007401Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_card_catalog",
@@ -8579,7 +8578,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-assetlog-assetlog",
@@ -8684,7 +8684,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-29T05:36:58.413006Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_products",
@@ -8854,7 +8853,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-atlaso-mcp",
@@ -8962,7 +8962,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T15:42:22.743962Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "start_build",
@@ -9060,7 +9059,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-augmentev-paseo",
@@ -9156,7 +9156,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "list_projects",
@@ -9331,6 +9330,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Auralogs MCP Server\n\nHosted, read-only MCP server for [Auralogs](https://auralogs.ai), the logging platform built for AI-assisted teams. Connect Claude Code, Claude Desktop, Cursor, Codex, Cline, or any Streamable HTTP MCP client to your production logs, then ask your agent \"what's broken in production right now?\" instead of copy-pasting stack traces.\n\n- **Endpoint:** `https://mcp.auralogs.ai/mcp` (Streamable HTTP)\n- **Auth:** `Authorization: Bearer aura_read_...` (project-scoped read key)\n- **Read-only by design:** no write tools exist. Agents can look, not touch.\n- **Rate limit:** 60 requests/minute per key\n\n## Tools\n\n| Tool | Description |\n| --- | --- |\n| `list_projects` | List projects accessible to the current read key |\n| `get_project` | Get a project by id |\n| `list_logs` | List logs, filtered by level and time range |\n| `search_logs` | Full-text search across log messages |\n| `get_log` | Get a single log with full context (stack, metadata) |\n| `list_analyses` | List AI analyses, filtered by severity and type |\n| `get_analysis` | Get one analysis (diagnosis, suggested fix, PR link) |\n\n## Get a key\n\n1. Sign up free at [auralogs.ai](https://auralogs.ai/) (10,000 logs/month, no credit card).\n2. Create a project and copy the **MCP/API read key** from the startup modal, or create one later under **Settings → API & MCP keys → Read keys**.\n\nKeys look like `aura_read_...`, are scoped to one project, and can be revoked instantly from the dashboard.\n\n## Connect\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http auralogs https://mcp.auralogs.ai/mcp \\\n  --header \"Authorization: Bearer aura_read_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nAdd to `claude_desktop_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auralogs\": {\n      \"transport\": {\n        \"type\": \"http\",\n        \"url\": \"https://mcp.auralogs.ai/mcp\",\n        \"headers\": {\n          \"Authorization\": \"Bearer aura_read_YOUR_KEY\"\n        }\n      }\n    }\n  }\n}\n```\n\n### Cursor\n\nClick the **Add to Cursor** badge above, or add to `.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auralogs\": {\n      \"url\": \"https://mcp.auralogs.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer aura_read_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Cline\n\nAdd via the **Remote Servers** tab, or in `cline_mcp_settings.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auralogs\": {\n      \"url\": \"https://mcp.auralogs.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer aura_read_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Codex\n\nSee [auralogs-codex](https://github.com/auralogs-ai/auralogs-codex) for the Codex plugin, or use any standard remote MCP configuration.\n\n### Anything else\n\nThe server speaks standard MCP over Streamable HTTP with bearer auth. Smoke-test with curl:\n\n```bash\ncurl -X POST https://mcp.auralogs.ai/mcp \\\n  -H \"Authorization: Bearer aura_read_YOUR_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json, text/event-stream\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2025-03-26\",\"capabilities\":{},\"clientInfo\":{\"name\":\"test\",\"version\":\"0\"}}}'\n```\n\nA `200` with `result.serverInfo.name = \"auralogs\"` confirms auth and transport.\n\n## Try it\n\nOnce connected, ask your agent:\n\n- \"What's broken in production right now?\"\n- \"Pull the last 20 error logs and look for patterns.\"\n- \"Show me the most recent high-severity analysis.\"\n\n## Security\n\n- Read keys are **read-only** and scoped to a single project. The MCP surface exposes no write operations.\n- Revocation is immediate: revoked keys get `401` on the next request.\n- Keys are stored hashed (SHA-256); the plaintext is shown once at creation.\n\nFull documentation: [docs.auralogs.ai/read-api](https://docs.auralogs.ai/read-api/overview/)\n\n## About this repo\n\nThis repo holds the public metadata for the hosted Auralogs MCP server: the [MCP Registry](https://registry.modelcontextprotocol.io) `server.json`, install instructions, and listing assets. The server itself is a hosted service; there is nothing to install from here.",
       "truncated": false,
@@ -9358,7 +9358,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-02-06T20:56:39.150934Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "auteng_publish_markdown",
@@ -9636,7 +9635,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-auteng-mcp",
@@ -9659,7 +9659,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-02-06T17:18:22.957864Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "auteng_publish_markdown",
@@ -9937,7 +9936,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-authoryze-authoryze",
@@ -10130,7 +10130,7 @@
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
         "declaredRepo": "Autonomad1/computeback-mcp",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -10228,7 +10228,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-07T08:29:28.425591Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-autorfp-mcp",
@@ -10376,7 +10376,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-30T13:03:52.011241Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_supplements_for_biomarker",
@@ -10544,7 +10543,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-awardcast-federal-contracts",
@@ -10567,7 +10567,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-16T22:32:23.963785Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search",
@@ -10670,7 +10669,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-awraiter-telegram",
@@ -11216,7 +11216,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-28T09:24:20.898632Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "web_url_reader",
@@ -11728,7 +11727,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-bareun-bareun",
@@ -11945,7 +11945,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-03T23:52:40.30259Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "b4_browse",
@@ -12104,7 +12103,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-betslipdoctor-mcp",
@@ -12127,7 +12127,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-19T06:10:02.724773Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_tracked_slips",
@@ -12271,7 +12270,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-betterpost-server",
@@ -12305,7 +12305,6 @@
       "license": "MIT",
       "language": "JavaScript"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "betterpost_create_project",
@@ -12799,6 +12798,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# BetterPost — agent plugin and skill\n\nWrite **timely, well-sourced content** — newsletters, blog posts, LinkedIn posts,\ntweets, and Bluesky posts — grounded in current sources across news, social, and the\nopen web. BetterPost finds recent sources relevant to your product and audience,\nranks them by relevance, and writes human-sounding content with real citations and\npublication dates.\n\nWorks in the agents you already use, through a single [MCP](https://modelcontextprotocol.io)\nserver. **Free to start** — sign in with your BetterPost account to get free credits.\n\n## Install\n\n### Any agent\n\n```\nnpx skills add betterpost/betterpost-plugin\n```\n\nThis installs the `betterpost` skill into whichever agent you use. It does not\nconfigure the MCP server — the skill walks your agent through registering\n`https://betterpost.ai/mcp` the first time you ask for content.\n\n### Claude Code\n\n```\n/plugin marketplace add betterpost/betterpost-plugin\n/plugin install betterpost@betterpost\n```\n\nThis installs the skill **and** registers the MCP server for you.\n\nEither way, ask your agent to write a newsletter or post about what's happening in\nyour space. It sets up a project and generates content grounded in current sources.\n\n## What's in here\n\n- `skills/betterpost/SKILL.md` — the skill your agent invokes.\n- `.mcp.json` — registers the hosted BetterPost MCP server.\n- `.claude-plugin/` — the plugin manifest and self-listed marketplace.\n- `.codex-plugin/`, `.cursor-plugin/`, `.kimi-plugin/`, `.agents/`, `.opencode/`,\n  `.pi/`, `gemini-extension.json` — manifests for the other agents.\n\n## Using the server directly\n\nAny MCP client can connect to `https://betterpost.ai` (Streamable HTTP). On first\nuse, the client prompts you to sign in with your BetterPost account (OAuth 2.1) and\nhandles the session for you — there's no token to copy or persist. New accounts get\nfree credits on sign-up.\n\n## Links\n\n- Website: https://betterpost.ai\n- Contact: hello@betterpost.ai\n\n## License\n\nMIT",
       "truncated": false,
@@ -12826,7 +12826,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-03-03T01:28:17.439049Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_businesses",
@@ -13097,7 +13096,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-bidclub-bidclub",
@@ -13120,7 +13120,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-17T10:06:31.712458Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "bidclub_list_shows",
@@ -13311,7 +13310,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-biddeed-biddeed-mcp",
@@ -13428,7 +13428,6 @@
       "license": "MIT",
       "language": "JavaScript"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "services_search_listings",
@@ -15104,6 +15103,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Bitroad MCP server\n\nBitroad is a marketplace built for AI agents. Your agent searches a catalogue of\ngoods and services, places orders under spending caps you set, tracks delivery,\nand handles returns and disputes, all through the Model Context Protocol.\n\n**Endpoint:** `https://app.bitroad.ai/api/v1/mcp`\n\nTransport is spec-compliant Streamable HTTP with JSON-RPC 2.0. Auth is OAuth 2.1\nwith dynamic client registration and PKCE, so most clients need nothing more than\nthe URL above.\n\n- Website: https://bitroad.ai\n- Documentation: https://bitroad.ai/docs\n- Sign up: https://buy.bitroad.ai/sign-up\n\n## How it works\n\n1. Create a buyer account at [buy.bitroad.ai](https://buy.bitroad.ai/sign-up).\n2. Add the endpoint to your MCP client and approve the consent screen.\n3. Your agent can now browse and read orders immediately.\n4. To let it spend, add a card and set delegation caps in your dashboard. Until\n   you do, there is no purchase path at all.\n\nSpending is bounded by three caps you control: per transaction, per day, and\ntotal. A purchase above any cap is refused outright, with a reason of\n`per_tx_cap_exceeded`, `daily_cap_exceeded` or `total_cap_exceeded`. Separately,\nyou can set a confirmation threshold: a purchase at or above it is allowed but\nreturns `confirmation_required` with a token, and needs your explicit sign-off\nbefore it proceeds. Agents never see card details; a card can only be added by\nyou through Stripe hosted checkout.\n\n## Connect your client\n\nThere are three shapes. Pick the one that matches your client.\n\n### CLI clients\n\n```bash\n# Claude Code\nclaude mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n\n# Gemini CLI\ngemini mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n```\n\nRun the client and trigger the OAuth flow (`/mcp` in Claude Code, automatic in\nGemini CLI), then approve on the Bitroad consent screen.\n\n### Config-file clients\n\nCursor, Claude Desktop, Cline, Windsurf, LibreChat and most other MCP clients\ntake a JSON block:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"url\": \"https://app.bitroad.ai/api/v1/mcp\"\n    }\n  }\n}\n```\n\nThe client discovers OAuth on first use.\n\n### Connector-UI clients\n\nClaude.ai (Settings, then Connectors), ChatGPT (developer mode custom\nconnectors), and Copilot take the endpoint as a pasted URL:\n\n1. Open the client's connector settings.\n2. Add a connector with URL `https://app.bitroad.ai/api/v1/mcp`.\n3. Approve the Bitroad consent screen when prompted.\n\n### Bearer key instead of OAuth\n\nFor headless clients and your own agent code, mint an agent key at\n`/buyer/instances/new` and send it as a header:\n\n```bash\ncurl https://app.bitroad.ai/api/v1/mcp \\\n  -H \"Authorization: Bearer br_ik_...\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'\n```\n\nKeys are shown once. Revoke them from the same page.\n\n### Stdio bridge\n\nClients and directory crawlers that only speak stdio can run the bridge in this\nrepository. It forwards each JSON-RPC message to the hosted endpoint unchanged\nand has no dependencies beyond Node 18+.\n\n```bash\ngit clone https://github.com/bitroadai/bitroad-mcp && cd bitroad-mcp\nBITROAD_API_KEY=br_ik_... node bin/bitroad-mcp.js\n```\n\nOr with Docker:\n\n```bash\ndocker build -t bitroad-mcp . && docker run -i -e BITROAD_API_KEY=br_ik_... bitroad-mcp\n```\n\nAs a config-file entry:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"command\": \"node\",\n      \"args\": [\"/path/to/bitroad-mcp/bin/bitroad-mcp.js\"],\n      \"env\": { \"BITROAD_API_KEY\": \"br_ik_...\" }\n    }\n  }\n}\n```\n\nWithout `BITROAD_API_KEY` the handshake and `tools/list` still work; `tools/call`\nreturns an authentication error telling you to set it. `BITROAD_MCP_URL`\noverrides the endpoint.\n\n## Tool catalogue\n\nCall `tools/list` for the live catalogue with full JSON Schema. `tools/list`\nreturns the whole catalogue to every caller; your account type is enforced when a\ntool is called, not when it is listed. Buyer and seller are separate account\ntypes and one email can only be one of them, so a buyer calling a `seller_*` tool\nis refused.\n\n**Buyer tools**\n\n| Group | Tools |\n|---|---|\n| Catalogue | `catalog_search_products`, `catalog_get_product`, `catalog_list_categories`, `catalog_describe_category` |\n| Buying | `purchase_create_intent`, `purchase_confirm_intent`, `purchase_cancel_intent` |\n| Orders | `orders_list`, `orders_get` |\n| Returns | `returns_initiate`, `returns_get`, `returns_list`, `returns_get_label` |\n| Disputes | `disputes_file`, `disputes_list`, `disputes_get`, `disputes_add_evidence`, `disputes_withdraw`, `disputes_respond` |\n| Reputation | `sellers_get`, `platforms_get` |\n| Account | `addresses_list`, `addresses_create`, `payment_methods_list`, `payment_methods_create`, `auth_whoami`, `auth_revoke_self` |\n\n**Seller tools**\n\nListings, stock, orders, shipping and tracking, returns, and review responses,\nunder the `seller_*` prefix.\n\n**Services**\n\nA quote-based marketplace for work rather than goods, under the `services_*`\nprefix: request a quote, accept it, and funds are held in escrow until you accept\nthe deliverable.\n\nThe catalogue also carries `envelopes_list` and `envelopes_get`, a preview\nsurface that is switched off on the hosted service. They appear in `tools/list`\nbut return a not-found error when called.\n\nBuying a product is a two-step flow. `purchase_create_intent` reserves stock and\nsnapshots price, VAT and shipping, then `purchase_confirm_intent` charges and\ncreates the order. Intents expire after 15 minutes. All monetary values are\ninteger pence.\n\n## Idempotency\n\nWrite tools accept an optional `_meta.idempotencyKey`. Passing one gives you full\nreplay semantics on retries. If your client cannot set it, the server generates\none so the call still succeeds.\n\n```json\n{\n  \"jsonrpc\": \"2.0\", \"id\": 3, \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"purchase_create_intent\",\n    \"arguments\": { \"product_id\": \"...\", \"quantity\": 1 },\n    \"_meta\": { \"idempotencyKey\": \"intent-abc-123\" }\n  }\n}\n```\n\n## Registry\n\nThis repository holds the [`server.json`](server.json) record published to the\nofficial MCP registry under the `ai.bitroad` namespace.\n\n## Support\n\nOpen an issue here.",
       "truncated": false,
@@ -15181,7 +15181,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_regulatory_changes",
@@ -15333,6 +15332,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Bizmoon plugins for Claude Code\n\nUS federal and state regulatory change and funding data for AI agents, with citations.\n\nInstall:\n\n    /plugin marketplace add uofuonye/bizmoon-plugins\n    /plugin install bizmoon@bizmoon\n\nOptional API key (Professional plan): export `BIZMOON_API_KEY=bm_sk_...`\nbefore starting Claude Code to unlock full history and organization tools.\n\nDocs: https://bizmoon.ai/mcp",
       "truncated": false,
@@ -15406,7 +15406,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-06-30T16:00:12.196014Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_latest_update",
@@ -15464,7 +15463,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-bloopo-bloopo",
@@ -15572,7 +15572,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-13T22:04:50.509558Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-bolthub-mcp",
@@ -15660,7 +15660,7 @@
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
         "declaredRepo": "signaltech-org/bolthub-sdk",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -15716,12 +15716,6 @@
       "openIssues": 0,
       "license": "MIT",
       "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
-      "truncated": false,
-      "url": "https://github.com/Boolsai-ai/mcp#readme"
     },
     "tools": [
       {
@@ -16104,7 +16098,13 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok",
+    "readme": {
+      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
+      "truncated": false,
+      "url": "https://github.com/Boolsai-ai/mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-boolsai-grep",
@@ -16137,12 +16137,6 @@
       "openIssues": 0,
       "license": "MIT",
       "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
-      "truncated": false,
-      "url": "https://github.com/Boolsai-ai/mcp#readme"
     },
     "tools": [
       {
@@ -16294,7 +16288,13 @@
         "description": "Returns the full catalog of signal_types currently present in id_index, with counts of unique values and unique domains for each.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok",
+    "readme": {
+      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
+      "truncated": false,
+      "url": "https://github.com/Boolsai-ai/mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-boolsai-scan",
@@ -16328,12 +16328,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
-      "truncated": false,
-      "url": "https://github.com/Boolsai-ai/mcp#readme"
-    },
     "tools": [
       {
         "name": "boolsai_scan",
@@ -16365,7 +16359,13 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok",
+    "readme": {
+      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
+      "truncated": false,
+      "url": "https://github.com/Boolsai-ai/mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-boolsai-signals",
@@ -16398,12 +16398,6 @@
       "openIssues": 0,
       "license": "MIT",
       "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
-      "truncated": false,
-      "url": "https://github.com/Boolsai-ai/mcp#readme"
     },
     "tools": [
       {
@@ -16736,7 +16730,13 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok",
+    "readme": {
+      "markdown": "# Boolsai — MCP server suite\n\n**Stack-intelligence MCPs for AI agents.** Live, no-auth, public access to every commerce site's tech stack — every vendor, every account ID, every inline script signature, plus a quant-research signal layer on top.\n\nBuilt for AI agents doing competitive intel, agency prospect research, ecommerce due diligence, and ad-hoc commerce-data discovery.\n\nThis repo contains the **Anthropic MCP Registry manifests** for the four-server Boolsai suite. The actual servers live at `*.boolsai.ai`.\n\n---\n\n## The four servers\n\n| Server | Connect URL | Tools | What it does |\n|---|---|---|---|\n| **[Boolsai Scan](./boolsai-scan/server.json)** | `https://boolsai.ai/mcp` | `boolsai_scan`, `boolsai_scan_paths` | Live tech-stack scan of any public site. Returns every external host, inline script signature, route, vendor, account ID, and JSON-LD organisation block in one response. |\n| **[Boolsai Directory](./boolsai-directory/server.json)** | `https://directory.boolsai.ai/mcp` | `summary`, `site_dossier`, `sites_using_vendor`, `lookup_id`, `brands_in_city`, `brands_in_market`, `stack_archetype`, `compare_sites`, `similar_sites`, `brands_by_founder` | Pre-indexed directory of tens of thousands of ecommerce sites by vendor, account ID, country, founder, city, archetype. |\n| **[Boolsai Grep](./boolsai-grep/server.json)** | `https://grep.boolsai.ai/mcp` | `grep_pattern`, `count_pattern`, `sites_with_signal`, `list_signal_types` | Parallel regex search across the R2 corpus of every scan we've ever taken. Use when a signal isn't pre-indexed — discover new vendor patterns, leaked account IDs, niche tracking pixels. |\n| **[Boolsai Signals](./boolsai-signals/server.json)** | `https://signals.boolsai.ai/mcp` | `universe_summary`, `find_signals`, `test_filter`, `recent_events`, `event_dossier`, `scan_at_date`, `ticker_history` | **Quant-research MCP.** Hunts for tradeable signals in 316 public-company website stack changes (1,761 events), SPY-benchmarked. Wayback Machine integration. Methodology baked into the `initialize` response. |\n\nEach server is independently published to the Anthropic MCP Registry under the **`ai.boolsai/*`** namespace (DNS-verified via `boolsai.ai`).\n\n---\n\n## Why Boolsai\n\n- **No auth, no key, no rate limit gymnastics.** Paste a URL into Claude.ai → Settings → Connectors. Done.\n- **First-party data.** Every scan runs live on demand. No third-party feeds, no stale catalogue.\n- **Built for AI consumption.** Each server's `initialize` response includes a detailed `instructions` block — vendor recognition tips, output schemas, methodology. Agents don't have to guess.\n- **Suite, not silo.** Cross-discovery: each server's instructions reference the other three so agents can chain queries (scan → look up in directory → grep historical → test as signal).\n\n---\n\n## Install\n\n### Claude Desktop / Claude Code / Cursor\n\n```json\n{\n  \"mcpServers\": {\n    \"boolsai-scan\":      { \"url\": \"https://boolsai.ai/mcp\" },\n    \"boolsai-directory\": { \"url\": \"https://directory.boolsai.ai/mcp\" },\n    \"boolsai-grep\":      { \"url\": \"https://grep.boolsai.ai/mcp\" },\n    \"boolsai-signals\":   { \"url\": \"https://signals.boolsai.ai/mcp\" }\n  }\n}\n```\n\nRestart the client. All four servers show up with their tools.\n\n### ChatGPT / Claude.ai Custom Connectors\n\nSettings → Connectors → Add custom connector → paste any of the four URLs above. Add all four for the full suite.\n\n### One-liner test from a terminal\n\n```bash\ncurl -sS https://boolsai.ai/mcp \\\n  -H 'content-type: application/json' \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | jq .\n```\n\n---\n\n## Example agent prompts\n\n> \"What's the full tech stack of gymshark.com?\"\n> → `boolsai_scan({ url: \"https://gymshark.com\" })`\n\n> \"List ten stores using Klaviyo with their company IDs.\"\n> → `boolsai-directory.sites_using_vendor({ vendor: \"klaviyo\" })`\n\n> \"Show me sites with `window._fs_org` (FullStory) in their inline scripts.\"\n> → `boolsai-grep.sites_with_signal({ pattern: \"window._fs_org\" })`\n\n> \"Find the highest-α tradeable signal in the last 30 days with n ≥ 20.\"\n> → `boolsai-signals.find_signals({ horizon_days: 30, min_n: 20 })`\n\n---\n\n## Architecture\n\n```\n                   ┌──────────────────────────┐\n                   │  AI agent (Claude / etc) │\n                   └────────────┬─────────────┘\n                                │ JSON-RPC 2.0 (Streamable HTTP)\n            ┌───────────────────┼─────────────────────┐\n            ▼                   ▼                     ▼\n   boolsai.ai/mcp     directory.boolsai.ai/mcp   grep.boolsai.ai/mcp\n   (live scanner)     (indexed corpus query)     (raw R2 search)\n            │                   │                     │\n            │                   │                     │\n            ▼                   ▼                     ▼\n     ┌──────────────────────────────────────────────────────┐\n     │  R2 corpus (hundreds of thousands of historical scans) │\n     └──────────────────────────────────────────────────────┘\n                                ▲\n                                │ derived\n                signals.boolsai.ai/mcp  (quant signals from stack changes)\n```\n\nAll four servers run on Cloudflare Workers with R2 for the historical corpus.\n\n---\n\n## Publishing to the MCP Registry\n\nSee **[PUBLISHING.md](./PUBLISHING.md)** for the one-time DNS verification + per-server publish commands.\n\n---\n\n## License\n\nMIT — see [LICENSE](LICENSE).\n\nBuilt by [Boolsai](https://boolsai.ai) · Contact: [founder@boolsai.ai](mailto:founder@boolsai.ai)",
+      "truncated": false,
+      "url": "https://github.com/Boolsai-ai/mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-borealhost-mcp",
@@ -16909,7 +16909,7 @@
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
         "declaredRepo": "bowmark-ai/mcp",
-        "repoMatchesRegistry": false
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -17031,7 +17031,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-24T08:15:43.116321Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "preview_move",
@@ -17151,7 +17150,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-buildwithorbit-orbit",
@@ -17174,7 +17174,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-26T18:06:01.680914Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search",
@@ -17230,7 +17229,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-bunzee-bunzee",
@@ -17356,7 +17356,6 @@
       "license": "MIT",
       "language": "Python"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_docs",
@@ -17419,6 +17418,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# ByteAsk Embedded MCP\n\n**Page-cited answers from embedded & firmware reference docs — for coding agents that can't afford to guess a register value.**\n\nOfficial MCP Registry Namespace: `ai.byteask/embedded-docs` · Remote MCP Endpoint: `https://mcp.byteask.ai/mcp`\n\n[Quickstart](#quickstart) · [Tools](#tools) · [Connect a client](#connect-a-client) · [Configuration](#configuration) · [Hosted server](#hosted-server) · [Contributing](#contributing)\n\n---\n\nByteAsk Embedded MCP is the open-source server behind [ByteAsk Embedded Docs](https://docs.byteask.ai/embedded):\na **source-grounded, page-cited evidence-retrieval** MCP server for coding agents\n(Claude Code, Codex, Cursor) that write firmware / driver / protocol code and need\n*exact* facts — SunSpec points, register offsets, Modbus function codes, trip\nthresholds, SCPI commands, API symbols.\n\nIt returns **verbatim snippets with page citations** — never an authored answer — and\nwhen nothing is relevant enough it says **no match** rather than fabricate. Every\ndocument is treated equally: no authority layer, no filters.\n\n> [!NOTE]\n> **What's in this repo:** the MCP *server* — tools, transports (stdio + Streamable\n> HTTP), bearer auth, DNS-rebinding protection, result rendering — plus a small,\n> pluggable retrieval interface.\n>\n> **What's _not_ in this repo:** the retrieval engine and the document corpus. How\n> documents are parsed, chunked, embedded, and ranked, and the licensed source\n> material itself, sit behind the [`SearchBackend`](src/byteask_embedded_mcp/backend.py)\n> seam and power the hosted endpoint at `https://mcp.byteask.ai/mcp`. This repo ships\n> an in-memory [`SampleBackend`](src/byteask_embedded_mcp/backend.py) (a few\n> illustrative, public-knowledge records) so the server runs out of the box.\n\n## Why\n\n- **Cited, or nothing.** Every hit is verbatim source text with a section + page\n  citation. On a miss it returns an honest \"no confident match\" — it never invents a\n  register value.\n- **Built for coding agents.** The tool descriptions and triggers are tuned so agents\n  call `search_docs` reflexively the moment they see a hex literal, a Modbus code, an\n  IEEE clause, a SCPI verb, or an MCU part number — before answering from memory.\n- **Two transports, one server.** `stdio` for local agents, Streamable HTTP for hosted.\n- **Bring your own retrieval.** The search engine is a two-method interface — swap in\n  anything behind `BYTEASK_BACKEND` without touching the server.\n- **Zero-setup demo.** The bundled `SampleBackend` runs immediately. No API keys.\n\n## Quickstart\n\nRequires Python ≥ 3.10 and [`uv`](https://docs.astral.sh/uv/).\n\n```bash\nuv sync\nuv run byteask-embedded-mcp        # run as an MCP server (stdio)\n```\n\nThat's it — the bundled `SampleBackend` serves a couple of illustrative records, so\n`search_docs` works immediately. Run the offline tests with `uv run pytest`.\n\n## Connect a client\n\n### Hosted (no install)\n\nThe hosted server speaks **Streamable HTTP** at `https://mcp.byteask.ai/mcp` and is\nbacked by the full licensed corpus.\n\n**Claude Code:**\n\n```bash\nclaude mcp add --transport http byteask-embedded-docs https://mcp.byteask.ai/mcp\n```\n\n<details>\n<summary><strong>Codex, Cursor, and other clients (mcp-remote)</strong></summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"byteask-embedded-docs\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"mcp-remote\", \"https://mcp.byteask.ai/mcp\"]\n    }\n  }\n}\n```\n\n</details>\n\n### Local (this repo)\n\nThe project-scoped [`.mcp.json`](.mcp.json) registers the stdio server for clients\nthat read it. Manually, for Claude Code:\n\n```bash\nclaude mcp add byteask-embedded-docs -- uv run byteask-embedded-mcp\n```\n\n## Tools\n\nInput is natural language (or an exact identifier). Output is compact markdown.\n\n| Tool | What it does |\n|------|--------------|\n| **`search_docs(query, limit=8)`** | Search the corpus; return ranked, page-cited evidence. Each hit has a document title, a section + page citation, the verbatim snippet, and a `result_id`. A \"no confident match\" response means *not found — do not fabricate*. |\n| **`get_context(result_id)`** | Expand a hit to its full source section. |\n| **`request_document(request)`** | Ask for a missing document to be added (logged server-side). |\n\nExample output:\n\n```markdown\n## Results for \"what Modbus function code writes multiple registers\"\n\n### Sample — Modbus Application Protocol (illustrative) — §6.12, p.30\n> Function code 16 (0x10), Write Multiple Registers, writes a block of contiguous\n> holding registers (1 to 123 registers) in a remote device. ...\n_ref: sample:modbus-fc16_\n```\n\n## Plug in your own retrieval\n\nThe server depends only on a two-method interface\n([`backend.py`](src/byteask_embedded_mcp/backend.py)):\n\n```python\nclass SearchBackend(Protocol):\n    def search(self, query, limit=8, effort=None) -> dict: ...\n    def get_context(self, result_id, effort=None) -> dict: ...\n```\n\nImplement it, expose a factory `make_backend(config) -> SearchBackend`, and point the\nserver at it:\n\n```bash\nBYTEASK_BACKEND=\"my_pkg.my_module:make_backend\"\n```\n\nThe exact return-value contracts are documented at the top of `backend.py`.\n\n## Configuration\n\nAll settings are environment variables (loaded from `.env`; see [`.env.example`](.env.example)).\n\n| Variable | Default | Notes |\n|----------|---------|-------|\n| `BYTEASK_BACKEND` | — | `module:callable` returning a `SearchBackend`; empty → `SampleBackend` |\n| `BYTEASK_LOGS` | `logs` | where query / request JSONL logs are written |\n| `MCP_TRANSPORT` | `stdio` | `stdio` (local agents) or `http` |\n| `MCP_HTTP_HOST` / `MCP_HTTP_PORT` | `127.0.0.1` / `8000` | HTTP bind address |\n| `MCP_HTTP_AUTH_TOKEN` | — | bearer token for HTTP (empty = unauthenticated, dev only) |\n| `MCP_ALLOWED_HOSTS` | — | comma-separated hosts allowed in the `Host` header (`*` disables) |\n| `LOG_LEVEL` | `INFO` | stderr log verbosity |\n\n<details>\n<summary><strong>Running over HTTP</strong></summary>\n\n```bash\nMCP_TRANSPORT=http MCP_HTTP_AUTH_TOKEN=$(openssl rand -hex 32) \\\n  uv run byteask-embedded-mcp --host 0.0.0.0 --port 8000\n```\n\nClients then send `Authorization: Bearer <token>`. The bundled bearer check is a\nshared-secret **stub** — replace it with real auth (OAuth 2.1 resource server, mTLS,\nor a trusted reverse proxy) before exposing publicly. DNS-rebinding protection stays\non independently via `MCP_ALLOWED_HOSTS`.\n\n</details>\n\n## Hosted server\n\nYou don't need to run anything to use ByteAsk Embedded Docs. The hosted server gives\nClaude Code, Codex, Cursor, and any MCP client exact, page-cited facts from embedded\nand firmware reference docs — register maps, protocol function codes, SCPI commands,\nstandard thresholds, datasheet specs. The guarantee: *verbatim source, or \"no match\" —\nnever an invented value.*\n\n| | |\n|---|---|\n| **Name** | `byteask-embedded-docs` |\n| **Endpoint** | `https://mcp.byteask.ai/mcp` (Streamable HTTP) |\n| **Docs & per-client setup** | <https://docs.byteask.ai/embedded> |\n\nThis repository is the open-source server that powers that endpoint.\n\n## Project layout\n\n```\nsrc/byteask_embedded_mcp/\n  server.py     # FastMCP app + 3 tools (search_docs, get_context, request_document)\n  backend.py    # SearchBackend protocol + in-memory SampleBackend (swap for real retrieval)\n  render.py     # structured result -> compact markdown\n  http_auth.py  # Streamable HTTP entrypoint + stub bearer-token guard\n  config.py     # server config (transport, logging, backend selection)\n  schemas.py    # Hit / Section result types\n  obs.py        # per-call JSONL logging\ntests/          # offline unit tests (renderer, backend, server tools)\nassets/         # README demo GIF + its deterministic generator\n```\n\n## Security\n\n- **stdout stays clean** in stdio mode (it is the JSON-RPC channel); all logs go to\n  stderr / `logs/*.jsonl`.\n- The HTTP **bearer check is a stub** — unauthenticated if no token is set, a shared\n  secret at best. Harden it before exposing widely.\n- **DNS-rebinding protection** is on by default for the HTTP transport.\n\n## Contributing\n\nPRs and issues are welcome.\n\n```bash\nuv sync            # install (incl. dev tools)\nuv run pytest      # run the offline test suite\n```\n\nA few conventions to keep the server clean:\n\n- **The backend seam is the extension point.** Retrieval internals (parsing, chunking,\n  embeddings, ranking) are intentionally out of scope here — build them behind\n  `SearchBackend` in your own package, not in this repo.\n- **Keep the dependency surface small** and the stdio path free of the HTTP stack.\n- **Add a test** for new behavior; the suite is fully offline (no network, no keys).\n\n## License\n\n[MIT](LICENSE) © ByteAsk",
       "truncated": false,
@@ -17446,7 +17446,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-19T04:19:09.97653Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-cabrini-market-data",
@@ -17480,7 +17480,6 @@
       "license": "MIT",
       "language": "Python"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "query_minute_bars",
@@ -17840,6 +17839,7 @@
         "inputs": null
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# cabrini\n\nUS stock market data for AI agents. 23 years of intraday and daily bars, SEC fundamentals, filings, and insider data — every US equity from 2003 to present.\n\nPay per query with USDC on Base (x402). No API keys, no subscriptions, no signup.\n\n## Install\n\n```bash\npip install cabrini\n```\n\n## Quick start\n\n```python\nfrom cabrini import Cabrini\n\nc = Cabrini(private_key=\"0x...\")  # any Base wallet with USDC\n\n# Intraday bars (pct from daily open) — $0.025\nbars = c.query(\"AAPL\", \"2024-01-15\")\n\n# Daily OHLCV + VWAP (absolute prices) — $0.001/year\ndaily = c.daily(\"TSLA\", \"2024-01-01\", \"2024-03-31\")\n\n# SEC fundamentals — $0.02\nfins = c.fundamentals(\"NVDA\")\n\n# Full research brief — $0.25\nbrief = c.brief(\"MSFT\")\n```\n\n## LangChain\n\n```python\nfrom cabrini import get_langchain_tools\nfrom langchain_openai import ChatOpenAI\nfrom langgraph.prebuilt import create_react_agent\n\ntools = get_langchain_tools(private_key=\"0x...\")\nagent = create_react_agent(ChatOpenAI(model=\"gpt-4o\"), tools)\n\nresult = agent.invoke({\"messages\": [\n    {\"role\": \"user\", \"content\": \"What was NVDA's trading volume on the day of their last earnings?\"}\n]})\n```\n\n## CrewAI\n\n```python\nfrom cabrini import get_crewai_tools\nfrom crewai import Agent, Task, Crew\n\ntools = get_crewai_tools(private_key=\"0x...\")\n\nanalyst = Agent(\n    role=\"Financial Analyst\",\n    goal=\"Analyze stock performance using real market data\",\n    tools=tools,\n)\n\ntask = Task(\n    description=\"Compare AAPL and MSFT intraday volatility on 2024-06-15\",\n    agent=analyst,\n)\n\nCrew(agents=[analyst], tasks=[task]).kickoff()\n```\n\n## MCP (Claude, Cursor, etc.)\n\nPoint any MCP client at `https://cabrini.ai/mcp`:\n\n```json\n{\n  \"mcpServers\": {\n    \"cabrini\": {\n      \"url\": \"https://cabrini.ai/mcp\"\n    }\n  }\n}\n```\n\n## All endpoints\n\n| Method | Price | Description |\n|--------|-------|-------------|\n| `query(ticker, date)` | $0.025 | Full trading day of intraday bars |\n| `daily(ticker, start, end)` | $0.001/year | Daily OHLCV + VWAP — the absolute prices |\n| `batch(tickers, date)` | $0.02/ticker | Several tickers, one date, no limit |\n| `range(ticker, start, end)` | $0.01/trading day | Multi-day intraday, no limit |\n| `bars(ticker, date, interval)` | $0.015/day | Resampled intraday, 3-240 min |\n| `scan(date, **criteria)` | $0.10 | Screen every US stock; needs >= 1 criterion |\n| `tickers(date)` | $0.005 | List traded tickers |\n| `company(ticker)` | $0.005 | Company profile from SEC EDGAR |\n| `fundamentals(ticker)` | $0.02 | SEC quarterly data |\n| `filings(ticker)` | $0.01 / $0.05 | SEC filing index; +extracted section text |\n| `insiders(ticker)` | $0.02 | Insider transactions (Form 4) |\n| `brief(ticker)` | $0.25 | Joined research brief |\n\nPrices are quoted live in each `402` response and the client pays whatever the server\nasks — this table is documentation, not the source of truth.\n\n## Output format\n\nIntraday methods (`query`, `range`, `batch`, `bars`) return **fractional change from the\ndaily open**, not price levels:\n\n```python\n{\"window_start\": \"2024-01-02T14:30:00\", \"timestamp\": 1704204600000000000,\n \"pct_open\": 0.0, \"pct_high\": 0.0012, \"pct_low\": -0.0003, \"pct_close\": 0.0008,\n \"volume\": 47000, \"transactions\": 312}\n```\n\n`pct_x = (bar_x - day_open) / day_open`, so `0.0012` is +0.12%.\n\n`daily()` carries the absolute levels — open, high, low, close, volume, transactions and\nVWAP. Combine the two to reconstruct prices:\n\n```python\nday = c.daily(\"AAPL\", \"2024-01-02\", \"2024-01-02\")[\"data\"][0]\nbars = c.query(\"AAPL\", \"2024-01-02\")[\"data\"]\nclose_price = day[\"open\"] * (1 + bars[-1][\"pct_close\"])\n```\n\nUse `daily()` rather than a third-party open: our reference is the first bar of the\nsession and includes pre-market, so an external 09:30 open will not reconcile exactly.\n\n## How payment works\n\nEvery paid request uses [x402](https://www.x402.org/) — an open protocol for HTTP micropayments:\n\n1. Client sends request → server returns `402` with a `PAYMENT-REQUIRED` header\n2. Client signs a USDC transfer authorization (EIP-3009)\n3. Client replays request with `X-PAYMENT` header containing the signed authorization\n4. Cloudflare edge worker verifies signature, submits to Base, forwards to origin\n5. Origin returns data\n\nThe `Cabrini` client handles all of this automatically. You just need a wallet with USDC on Base.\n\n## Get USDC on Base\n\n1. Bridge from Ethereum: [bridge.base.org](https://bridge.base.org)\n2. Buy directly: Coinbase → send USDC to your wallet on Base network\n3. Faucet (testnet): not needed, mainnet USDC is cheap ($0.025/query)\n\n## Links\n\n- Homepage: https://cabrini.ai\n- API docs: https://cabrini.ai/docs\n- Agent guide: https://cabrini.ai/agents\n- MCP endpoint: https://cabrini.ai/mcp",
       "truncated": false,
@@ -17940,7 +17940,6 @@
       "license": null,
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_seed_format",
@@ -17960,6 +17959,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Calaf MCP Server\n\nConnect Claude, ChatGPT, or any MCP-capable assistant to [Calaf](https://calaf.ai) — the MBA recruiting manager. Your assistant researches target firms at whatever depth you ask, writes and validates structured \"seeds,\" and files them into your recruiting book. People it proposes always arrive **staged for your review** — nothing enters your network behind your back.\n\n> **Two servers, one product.** `ai.calaf/calaf` connects to your account (OAuth). `ai.calaf/seeds` is the no-auth authoring loop — the format and the validator, usable by anyone, no Calaf account required.\n\n| Server | Endpoint | Transport | Auth |\n| --- | --- | --- | --- |\n| **Calaf** | `https://calaf.ai/api/mcp-account` | Streamable HTTP | OAuth 2.1 (dynamic client registration) |\n| **Calaf Seed Tools** | `https://calaf.ai/api/mcp` | Streamable HTTP | None |\n\n## Things to ask once connected\n\n- *\"Research 30 lower-middle-market PE funds that hire MBA associates, validate the seed, and import it into my book.\"*\n- *\"Read Calaf's seed format, then turn the target list from this conversation into a seed and validate it until it's clean.\"*\n- *\"List my Calaf workspaces and import these interview prep questions into the consulting one.\"*\n- *\"I just got off a superday with Evercore — log it, move my application, and set a follow-up task for Friday.\"*\n- *\"Create a workspace for lower-middle-market PE, add my ten targets, and draft outreach templates.\"*\n- *\"Research the partners at my five priority funds and add them to my book\"* — they'll land as a **batch waiting for your review** in Calaf, never as silent rows.\n\n## Installation\n\n### claude.ai (web / desktop)\n\n1. Open **Settings → Connectors** ([claude.ai/settings/connectors](https://claude.ai/settings/connectors))\n2. **Add custom connector** → name it `Calaf`, URL `https://calaf.ai/api/mcp-account`, leave Client ID/Secret empty\n3. Click **Connect** → you'll land on Calaf's consent screen — sign in and approve\n\n*Requires a paid claude.ai plan (custom connectors are Pro and above).*\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http calaf https://calaf.ai/api/mcp-account\n```\n\n### Any other MCP client\n\nAdd a remote (Streamable HTTP) server at `https://calaf.ai/api/mcp-account`. The OAuth flow is standard: dynamic client registration + PKCE; your client discovers the authorization server via RFC 9728 protected-resource metadata.\n\n### No MCP client at all\n\nThe copy-paste loop works with every assistant: Calaf's [Guide](https://calaf.ai/guide) and Settings carry a one-paste prompt that teaches any AI the [seed format](https://calaf.ai/seed-format.md); the assistant can self-check via the open validator API (below) and you import the file at **Settings → Workspace → Seeds**.\n\n## Tools — `ai.calaf/calaf` (account server)\n\n### `get_seed_format` · read-only\n\nReturns the complete `calaf_seed: 1` specification (markdown) — sections, ceilings, parser behavior, and the rules an assistant should follow when authoring a seed. Read it before authoring; then check drafts with `validate_seed`.\n\n*No parameters.*\n\n### `validate_seed` · read-only\n\nRuns a draft seed document through **the exact parser the Calaf app imports with** and returns the verdict: per-section counts plus the precise issue list. Issue severity `error` means nothing would import; `dropped` means that row or field is discarded and the rest lands. Fix and re-validate until clean before delivering the file.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `seed` | string \\| object | yes | The complete seed JSON document — as text, or as the JSON object itself |\n\n**Returns** (structured): `valid`, per-section `counts` (orgs, contacts, templates, prep, keyDates, orgKinds, ladderRungs), `hasVocab`, `hasPlanner`, and `issues[]` with `path` (e.g. `orgs[3].name`), `message`, `severity`.\n\n### `list_workspaces` · read-only\n\nLists the caller's Calaf workspaces — key, display name, position. Use the key as the `workspace` argument to `import_seed`.\n\n*No parameters.* **Returns**: `workspaces[]` with `key`, `name`, `emoji`.\n\n### `import_seed` · write (non-destructive, idempotent)\n\nImports a valid seed into one of the caller's workspaces — the same landing the app's import performs:\n\n- **Organizations** — deduped account-wide by name, then joined to the workspace\n- **Templates** — deduped within the workspace\n- **Prep questions** — deduped account-wide\n- **People — never written directly.** Contacts in the file are **staged as a reviewable batch** in Calaf: the user accepts, trims, or discards them together, and can undo an accepted batch in one click. A person must name an org to be stageable.\n\nRe-importing the same file lands nothing twice; nothing is ever deleted or overwritten.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `workspace` | string | yes | Workspace key, from `list_workspaces` |\n| `seed` | string \\| object | yes | The complete seed JSON document |\n| `parts` | string[] | no | Which parts to process: `orgs`, `templates`, `prep`, `contacts` (= stage people). Defaults to everything the file carries |\n\n**Returns** (structured): `ok`, `landed` (counts per part), `failed[]`, and `staged` — `people`, `orgs`, `buildId`, `skippedWithoutOrg`, `skippedInvalid`.\n\n### `export_seed` · read-only\n\nSerializes a workspace back into a `calaf_seed` document — the reverse loop: read the book, improve it, re-import (dedupe means a round trip never doubles anything). **Privacy defaults**: people, the user's personal notes, and content that arrived from other seeds stay out unless explicitly requested (`include_people`, `include_notes`, `include_seeded`); withheld and ceiling-truncated counts are always reported. No plan gate — data portability never sits behind a paywall.\n\n### `get_profile_schema` / `get_firm_profile` / `submit_firm_profile`\n\nFirm research at house depth. `get_profile_schema` returns the module shapes (overview, hq, leadership, comp, process, culture/recruiting notes) **and the sourcing epistemics a submission must meet** (MBA-grade comp sources, null beats a guess, verify leadership at the source). `get_firm_profile` reads current state with per-field provenance so chat edits merge against reality. `submit_firm_profile` writes sourced modules into the user's own overlay — rendered on their firm page badged as assistant research — under the merge contract: **empty fields fill, fields the assistant wrote refresh, fields the user typed are never overwritten** (reported as conflicts), and `clear` removes only assistant-owned fields. Sources are required; claims without them drop wholesale.\n\n### `log_touchpoint` · write\n\nRecords an interaction (coffee chat, email, event, reply…) with the app's own automations: contact status ladder (never downward), optional follow-up scheduling (which lands on the user's calendar), optional next-day thank-you task, and waking a Researching firm to Networking on real activity.\n\n### `update_contact` · write\n\nCompletes a person **already in the book**. Identity fields (email/phone/LinkedIn/school/title/group) fill only where empty — user values win, differences reported. Relationship facets (warmth 1–5, stage, next follow-up, connection type) set explicitly, because \"mark Jane dormant\" is the ask itself. A firm link fills only when the person has none. `append_note` adds a dated, attributed note under — never over — the user's own. Creating people stays behind `import_seed`'s staged review.\n\n### `add_task` · write\n\nA due-dated task, optionally tied to a contact or firm. Tasks, follow-ups, and deadlines are what the user's calendar renders — this is the assistant's path onto it.\n\n### `get_contacts` / `get_firms` · read-only\n\nPaged summaries (contacts include which detail fields are still empty — worth researching) so the assistant navigates the real book, not its memory of it.\n\n### `log_firm_work` / `get_firm_work` / `remove_firm_work` · work log\n\nThe deals and work items coffee-chat talking points are made of. `log_firm_work` adds one to a firm's work log with sourcing facets (where it came from, how solid it is: Confirmed / Reported / Rumored); `get_firm_work` reads the log back, marking which rows are assistant-logged. `remove_firm_work` deletes **only items the assistant itself wrote** — entries the user logged by hand are refused, the same class of guarantee as the staged-people rule.\n\n### `get_applications` · read-only\n\nThe recruiting pipeline: each application's firm, program, status, deadline, and next interview date.\n\n### `schedule_interview` · write\n\nPuts an interview round on an application's timeline — and so on the user's calendar. Works forward (scheduled) or backward (`completed: true` with an outcome). Every save also runs the app's own sync: the application's next-interview date recomputes and its status advances along the workspace's real stage ladder (never downgrading, never reopening a closed outcome).\n\n### `add_application` / `update_application` · pipeline\n\n`add_application` opens a pipeline row (firm + program; defaults to Watching; duplicates refused). `update_application` moves it the way the app's board does — status changes append to the stage history and backfill the applied date — and records outcomes (`offer_accepted` / `offer_declined` / `rejected` / `withdrawn`). Offered comp figures **fill only where the user hasn't entered their own**; differences are reported, never applied.\n\n### `get_tasks` / `complete_task` / `snooze_task` · the to-do loop\n\nList tasks by scope (open / overdue / today / this week / done), mark one done (never delete), or push a due date out. With `add_task`, the calendar's whole to-do loop runs from chat.\n\n### `add_firm` / `update_firm` / `add_office` · the book\n\n`add_firm` performs the app's two-layer write — global firm + workspace membership — with import's dedupe posture: an existing firm is joined, never doubled, and assistant-added firms are provenance-marked. `update_firm` sets the facets you name (status, target, priority) and **fills prose only where empty** (why/intel notes, tier, location — the user's words always win, differences reported). `add_office` is additive with duplicate-label refusal.\n\n### `add_note` / `get_notes` / `update_note` · the notebook\n\nThe assistant's scratchpad in the user's notebook: create notes (optionally linked to a firm or person), list with ownership marks, and edit **only notes the assistant itself wrote** — the user's notes are refused, same guarantee as everywhere else.\n\n### `create_workspace` / `rename_workspace` / `archive_workspace` · containers\n\nCreate a new workspace through the app's own path (plan slot caps apply), rename it, or archive/restore it. Archive is reversible by design — nothing here deletes anything.\n\n### `add_template` / `get_templates` / `update_template` · outreach templates\n\nReusable email templates per workspace. Assistant templates are marked and editable; the user's own templates and seeded starters refuse edits.\n\n### `add_prep_question` / `get_prep` / `draft_prep_answer` · interview prep\n\nAdd questions to the prep bank (deduped, optionally firm-tied), list what's unanswered, and draft answers **into empty slots only**, marked Draft for the user to rework. A question the user already answered is refused outright — their interview voice is theirs.\n\n## Tools — `ai.calaf/seeds` (public server)\n\n`get_seed_format` and `validate_seed`, exactly as above — no account, no auth. The format is also served as an MCP **resource** (`https://calaf.ai/seed-format.md`, `text/markdown`).\n\n## The people posture\n\nAn invented firm wastes an afternoon; an invented person is an email to someone who doesn't exist. So people proposed through this API **never** enter the book directly: they arrive as a named batch in Calaf's review surface, where the user sees the whole list, accepts or discards in one action, and can undo the batch after accepting. Provenance (which assistant, when, from which seed) is stamped on eve\n\n…",
       "truncated": true,
@@ -18146,7 +18146,6 @@
       "license": "MIT",
       "language": null
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "canary_scan",
@@ -18195,6 +18194,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# CanaryUsers — MCP Server\n\n> Give your AI coding assistant eyes for UX: a flock of AI users tests your deployed app and reports where real people would bail — each with a concrete fix.\n\n**CanaryUsers** sends a flock of behaviorally‑diverse AI users through your **deployed** web app (a live or preview URL) and reports exactly where real people get stuck — confusing UX, broken mobile layouts, dead‑end conversion paths, and visual glitches — each with a concrete, AI‑ready fix you can apply in the same chat.\n\nThis is the public home for the **CanaryUsers remote MCP server**: manifest, install instructions, and docs. The product itself is hosted (closed source) — there's nothing to clone or run; you connect to the live endpoint. See [docs/WHY.md](docs/WHY.md) for why this repo exists and [docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md) for how the server works.\n\n- **Registry name:** `ai.canaryusers/canaryusers`\n- **Endpoint (remote, Streamable HTTP):** `https://www.canaryusers.ai/api/mcp`\n- **Auth:** `Authorization: Bearer <your CanaryUsers token>`\n- **Setup / get a token:** https://www.canaryusers.ai/mcp\n\n## What it does\n\nYou point it at a URL; a flock of AI personas actually renders and explores the page like real users, then hands back prioritized, fix‑ready findings — not a vague score. Two modes:\n\n- **Quick** (default) — a fast static check. Free.\n- **Deep** — renders the page, inspects it **visually on desktop + mobile** (catches mobile breakage and layout issues), and **clicks through key flows** like signup / checkout / onboarding (~60–90s, uses credits).\n\n## When to use it\n\n- Right **after you ship or deploy a UI change** (it scans the deployed result, not your source).\n- **Before a launch**, to pressure‑test the first‑run experience.\n- To check a specific high‑stakes **flow**: signup, checkout, onboarding, pricing, or a landing page.\n- When you suspect **mobile** breakage or a **conversion** drop‑off you can't see in analytics.\n\n## Why not Lighthouse or analytics?\n\nLighthouse grades your HTML; analytics charts what already happened. CanaryUsers **sends users** and tells you, in plain language, *where they'd give up and why* — before real ones do.\n\n## Tools\n\n| Tool | What it does |\n|------|--------------|\n| `canary_scan` | Run a UX scan on a deployed URL. `depth`: `quick` (free, default) or `deep` (visual + flow, uses a credit). Returns AI‑ready findings. |\n| `list_recent_scans` | List your recent scans (id, URL, score, grade, status, date). |\n| `get_report_markdown` | Fetch the full report for a scan id as Markdown. |\n\n## Install\n\nYou need a CanaryUsers token: **[canaryusers.ai/dashboard](https://www.canaryusers.ai/dashboard) → CI & API → toggle MCP on → copy your token.**\n\n**Generic (Cursor `~/.cursor/mcp.json`, Windsurf, VS Code, Claude Desktop):**\n\n```json\n{\n  \"mcpServers\": {\n    \"canaryusers\": {\n      \"url\": \"https://www.canaryusers.ai/api/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_CANARYUSERS_TOKEN\"\n      }\n    }\n  }\n}\n```\n\n**Claude Code (CLI):**\n\n```bash\nclaude mcp add --transport http canaryusers https://www.canaryusers.ai/api/mcp \\\n  --header \"Authorization: Bearer YOUR_CANARYUSERS_TOKEN\"\n```\n\nThen just ask your assistant: *\"Scan my app at https://… with CanaryUsers.\"*\n\n## Pricing\n\n**Quick scans are free. Deep scans use credits** (the credit model is roughly *1 credit = 1 scanned page*). Plans and monthly allotments change over time, so this repo intentionally does **not** hardcode the numbers — see the live pricing for current plans and limits:\n\n➡️ **https://www.canaryusers.ai/#pricing** (single source of truth)\n\n## Links\n\n- **Setup & token:** https://www.canaryusers.ai/mcp\n- **Pricing (live):** https://www.canaryusers.ai/#pricing\n- **Official MCP Registry:** https://registry.modelcontextprotocol.io/v0/servers?search=canaryusers\n- **Smithery:** https://smithery.ai/servers/brettonb/canaryusers\n\n## License\n\n[MIT](LICENSE) — applies to the contents of this metadata/docs repo. The CanaryUsers service itself is a separate hosted product.",
       "truncated": false,
@@ -18222,7 +18222,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-23T17:08:49.919308Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "ai_provider_status",
@@ -18254,7 +18253,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-canvora-canvora",
@@ -18339,7 +18339,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-02T06:15:22.212147Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "chat_completion",
@@ -18808,7 +18807,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-cdbx-mcp-server",
@@ -18873,7 +18873,6 @@
       "license": "MIT",
       "language": "Python"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_cerebrium",
@@ -18924,6 +18923,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# Cerebrium agent skills\n\nOfficial [Agent Skills](https://agentskills.io) and hosted docs MCP for\n[Cerebrium](https://www.cerebrium.ai), the serverless GPU and CPU platform for real-time AI\nworkloads. The skills teach a coding agent to write a valid `cerebrium.toml`, pick hardware and a\nregion, deploy, call the endpoint, and debug the result without leaving the terminal. The MCP\ngives it live search over the documentation.\n\nWorks with Claude Code, Codex, Cursor, GitHub Copilot, Windsurf, Cline and anything else that\nreads the Agent Skills format.\n\n## Install\n\nAny agent (installs the skills into every detected harness):\n\n```bash\nnpx skills add CerebriumAI/cerebrium-skills -g -y\nnpx add-mcp https://cerebrium.ai/docs/mcp -n cerebrium-docs -g -y\n```\n\nClaude Code (one plugin bundles the skills and the docs MCP):\n\n```\n/plugin marketplace add CerebriumAI/cerebrium-skills\n/plugin install cerebrium@cerebrium\n```\n\nCodex:\n\n```bash\ncodex plugin marketplace add CerebriumAI/cerebrium-skills\n```\n\nGemini CLI (one extension bundles the skills and the docs MCP):\n\n```bash\ngemini extensions install https://github.com/CerebriumAI/cerebrium-skills\n```\n\nCursor loads the repository directly as an [Agent Plugin](https://agent-plugins.org): the root\n`plugin.json` and `mcp.json` are the open-standard manifests, so no Cursor-specific install step\nis needed.\n\nOr agent-driven: paste this into the agent of your choice.\n\n```\nInstall the Cerebrium agent toolkit following instructions from\ngithub.com/CerebriumAI/cerebrium-skills: use `npx skills add` and `npx add-mcp`,\nglobal and auto-confirmed for all agents (-g -y).\n```\n\nThen create an account and authenticate the CLI once:\n\n```bash\n# create an account at https://dashboard.cerebrium.ai (also where API keys are created)\npip install cerebrium   # or: brew tap cerebriumai/tap && brew install cerebrium\ncerebrium login\n```\n\nCompute is billed per second: see [pricing](https://www.cerebrium.ai/pricing) for current rates\nand any starting credit.\n\nIn CI, skip `login` and set `CEREBRIUM_SERVICE_ACCOUNT_TOKEN` instead.\n\n## What is in here\n\nOne skill, structured for progressive disclosure: agents load the ~120-line core\n(`skills/cerebrium/SKILL.md`, the workflow, the safety rules, the endpoint shapes) when a\nCerebrium task appears, and pull in a reference file only when the task needs it.\n\n| Reference | Loaded when the task involves |\n| --- | --- |\n| `references/cli.md` | Any `cerebrium` command: full surface, flags, non-interactive auth, CI/CD, which commands cost money. |\n| `references/config.md` | `cerebrium.toml`: every key, the default the API applies when it is omitted, accepted ranges, rebuild triggers. |\n| `references/hardware.md` | The 13 accepted `compute` identifiers, per-GPU and per-plan limits, preference lists, regional availability, storage. |\n| `references/troubleshooting.md` | Failed builds, queueing, reverted settings, the cold-start playbook. |\n\nThe docs MCP (hosted at `https://cerebrium.ai/docs/mcp`) searches and reads the published\ndocumentation, and accepts documentation feedback: `search_cerebrium`,\n`query_docs_filesystem_cerebrium`, and `submit_feedback`. No account access, no key needed. It is declared twice on purpose, because the two\nformats are not interchangeable: `.mcp.json` is the Claude Code convention, and `mcp.json` at the\nrepository root is the path the Agent Plugins standard requires, with that standard's\n`streamable-http` transport name.\n\nThe plugin metadata is likewise declared per host: `.claude-plugin/` for Claude Code,\n`.agents/plugins/` for Codex, root `plugin.json` for Agent Plugins clients such as Cursor, and\n`gemini-extension.json` for the Gemini CLI. `server.json` is the MCP registry entry.\n\n## Try it\n\n- \"Deploy this FastAPI app to Cerebrium on an H100 with auth enabled, then follow the logs.\"\n- \"My Cerebrium app queues requests under load. Work out why and fix the config.\"\n- \"Which GPU and region fit a 13B vLLM model on Cerebrium, and what should the cerebrium.toml be?\"\n\n## Related surfaces\n\n- Any docs page as markdown: append `.md` to the URL\n- Page index: `https://cerebrium.ai/docs/llms.txt`\n- Runnable examples: [CerebriumAI/examples](https://github.com/CerebriumAI/examples)\n\n## Accuracy\n\nEvery default, enum, flag and signature here was read out of the CLI source and the API\nvalidator rather than copied from a docs page. See [CONTRIBUTING.md](CONTRIBUTING.md) for where\nto check each kind of claim, and keep it that way.\n\nMIT licensed.",
       "truncated": false,
@@ -18967,7 +18967,7 @@
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
         "declaredRepo": "ergoveritas1-alt/certscore.ai",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -19024,7 +19024,6 @@
       "license": null,
       "language": "TypeScript"
     },
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "certscore_scan_site",
@@ -19150,6 +19149,7 @@
         ]
       }
     ],
+    "toolsStatus": "ok",
     "readme": {
       "markdown": "# CertScore\n\nCertScore (`certscore.ai`) is a production-minded MVP for scanning public websites for potential accessibility, privacy, cookie, policy, and disclosure risk signals. It is a risk signal and monitoring product, not a legal certification platform.\n\n## Monorepo structure\n\n```text\nwebsite-signal-risk-scanner/\n├─ apps/\n│  ├─ web/\n│  └─ validation-worker/\n├─ packages/\n│  ├─ shared/\n│  ├─ web-bot-auth/\n│  ├─ db/\n│  └─ ui/\n├─ docs/\n├─ .env.example\n├─ turbo.json\n├─ package.json\n└─ pnpm-workspace.yaml\n```\n\n## Workspace packages\n\n- `apps/web`: product-facing web app and control-plane workflows\n- `apps/validation-worker`: active validation runtime owned by `WC01`\n- `packages/shared`: shared constants, types, validators, scoring config, and scheduling helpers\n- `packages/web-bot-auth`: server-only Web Bot Auth signing and key-directory helpers\n- `packages/db`: PostgreSQL query helpers, migrations, seed SQL, and env helpers\n- `packages/ui`: reusable UI primitives\n\n## Repo boundary\n\n`WC01` is now the product/control-plane repo.\n\n- product web flows, scan creation, reporting, and validation stay here\n- the standalone scanner runtime now lives in `WS01`\n- scanner operational changes, crawler identity work, and scanner deploy flow should originate in `WS01`\n\n## What the MVP includes\n\n- public homepage with preview scan funnel\n- Better Auth with Google OAuth and email/password login flows\n- organization bootstrap and protected workspace routes\n- domain management, plan limits, and client grouping\n- DB-backed scan creation with scanner-service claiming\n- crawl/discovery, accessibility, privacy, and legal heuristics\n- deterministic scoring, canonical report payloads, and authenticated report UI\n- scanner-generated PDF generation and upload\n- regression summaries and scheduled rescans\n- lightweight branding for reports and PDFs\n\n## MCP Light\n\nCertScore.ai MCP Light is the free, no-auth, hosted three-tool integration for public website privacy scans. It detects evidence-backed privacy, cookie, tracker, consent, policy, regulatory-review, HTTPS/TLS, and eligible Reject Path post-refusal signals. Results include a CertScore score and supporting evidence for human and agentic review; they are not legal advice, certification, or a compliance determination.\n\n[Add CertScore to Cursor](https://cursor.com/link/mcp/install?name=CertScore.ai&config=eyJ1cmwiOiJodHRwczovL21jcC5jZXJ0c2NvcmUuYWkvbWNwL2xpZ2h0In0%3D) · [MCP Light landing page](https://certscore.ai/mcp/light?utm_source=github&utm_medium=repository&utm_campaign=mcp_light) · [Cursor Directory listing](https://cursor.directory/plugins/certscoreai-mcp-light) · [Agent installation guide](llms-install.md) · [Full installation reference](docs/mcp-light-install.md) · [MCP package guide](packages/certscore-mcp/README.md)\n\nTry it with: `Use CertScore.ai to review [PUBLIC URL] before launch. Report the CertScore score, evidence-backed findings, Reject Path observations when available, coverage limitations, and the report URL.`\n\n## Environment variables\n\nThis monorepo should use [apps/web/.env.local](apps/web/.env.local) as the single local development runtime env:\n\n- copy [apps/web/.env.example](apps/web/.env.example) to [apps/web/.env.local](apps/web/.env.local)\n\nUse [.env.example](.env.example) only as a reference template for shared keys. Do not rely on a root `.env.local` for app runtime configuration.\n\nRecommended environment split inside `WC01`:\n\n- local web + local validation runtime: dedicated dev PostgreSQL database plus S3-compatible storage\n- production web + production validation runtime: dedicated production PostgreSQL database plus S3-compatible storage\n\nDo not point localhost at the production database or production auth credentials unless you are intentionally testing production behavior.\n\nRequired for the web app:\n\n- `NEXT_PUBLIC_APP_URL`\n- `DATABASE_URL`\n- `BETTER_AUTH_SECRET`\n- `GOOGLE_CLIENT_ID`\n- `GOOGLE_CLIENT_SECRET`\n- `S3_BUCKET`\n- `S3_REGION`\n- `S3_ACCESS_KEY_ID`\n- `S3_SECRET_ACCESS_KEY`\n\nRequired for the validation runtime in `WC01`:\n\n- `DATABASE_URL`\n- `OPENAI_API_KEY`\n\nOptional but recommended:\n\n- `WORKER_CONCURRENCY`\n- `PLAYWRIGHT_BROWSERS_PATH`\n- `VALIDATION_OPENAI_MODEL`\n- `VALIDATION_NANO_MODEL`\n- `WEB_BOT_AUTH_ENABLED`\n- `WEB_BOT_AUTH_PRIVATE_KEY_PEM`\n- `WEB_BOT_AUTH_SIGNATURE_AGENT_URL`\n\n## Local development setup\n\nUse Node 22, 23, or 24 for local development. Node 20 is below the workspace engine floor, and Node 25 is not supported because it can fail DNS resolution for app routes and external service calls on localhost.\n\n1. Install dependencies:\n   - `pnpm install`\n2. Copy the environment template:\n   - `cp apps/web/.env.example apps/web/.env.local`\n3. Start a dedicated PostgreSQL instance for local development.\n4. Apply the SQL migrations from [packages/db/migrations](packages/db/migrations).\n5. Seed local development data when needed with [packages/db/seed/0001_dev_seed.sql](packages/db/seed/0001_dev_seed.sql).\n6. Configure Better Auth provider settings:\n   - Google OAuth if enabled\n   - email/password and verification settings as needed\n7. Configure auth redirect URLs:\n   - Google OAuth must allow Better Auth's provider callback route:\n   - `http://localhost:3000/api/auth/callback/google`\n   - `http://127.0.0.1:3000/api/auth/callback/google`\n   - `https://certscore.ai/api/auth/callback/google`\n   - `/auth/callback` is only an app alias route; it is not the redirect URI Better Auth initiates with Google\n8. Keep local and production auth isolated:\n   - local `NEXT_PUBLIC_APP_URL` should be `http://localhost:3000`\n   - local database and auth secrets should come from the dev environment\n   - production secrets should exist only in the active AWS/web or worker deployment settings\n9. Create the S3-compatible bucket referenced by `S3_BUCKET`.\n10. Install Playwright Chromium for the validation runtime:\n   - `pnpm --filter @website-signal-risk-scanner/validation-worker exec playwright install chromium`\n11. Start validation local development with a watched validation worker:\n   - `pnpm dev:validation`\n12. Start the main local app by itself when needed:\n   - `pnpm --filter @website-signal-risk-scanner/web dev`\n13. Use `WS01` when you need the standalone scanner locally.\n14. Start the standalone scanner locally against the same dev database and storage env as `localhost:3000`:\n   - `pnpm dev:scanner:local`\n15. Use the combined local runner only when you want web + validation together in `WC01`:\n   - `pnpm dev:all`\n16. Run a validation scheduler sweep manually when needed:\n   - `pnpm dev:validation:scheduler`\n\n## Development verification\n\nUse these commands before shipping changes:\n\n- `pnpm turbo run typecheck`\n- `pnpm turbo run build`\n\nValidation-specific checks:\n\n- `pnpm --filter @website-signal-risk-scanner/validation-worker typecheck`\n- `pnpm test:scan-pipeline`\n\nThe scan pipeline test is deterministic and runs locally from `apps/validation-worker/src/validation/pipeline.test.ts`.\n\nThe normalized concern lifecycle in `WC01` is documented in [docs/normalized-concern-pipeline.md](docs/normalized-concern-pipeline.md).\n\n## CI validation\n\nGitHub Actions workflow: [.github/workflows/accessibility-validation.yml](.github/workflows/accessibility-validation.yml)\n\n- `worker-scan-pipeline-tests` runs on pushes to `main`, pull requests, and manual dispatch. It installs Chromium, typechecks `validation-worker`, and runs `pnpm test:scan-pipeline`.\n- `live-validation-smoke` runs after the deterministic job and executes `pnpm --filter @website-signal-risk-scanner/validation-worker smoke:validation` only when the runtime secrets are configured.\n- If those secrets are missing, the live smoke job is skipped and only the deterministic scan pipeline job runs.\n\n## Runtime validation tooling\n\nUse these lightweight checks before first deployment validation:\n\n- `pnpm dev:storage:local`\n- `pnpm --filter @website-signal-risk-scanner/web check-env`\n- `pnpm check-env:validation`\n- `pnpm --filter @website-signal-risk-scanner/validation-worker check-env`\n- `pnpm --filter @website-signal-risk-scanner/validation-worker check-runtime`\n\nFor local validation runs, `pnpm dev:storage:local` starts MinIO against the `apps/web/.env.local` S3 settings and creates the configured bucket when needed.\nRun it alongside `pnpm dev:scanner:local` and `pnpm dev:validation:worker`.\n\nUse this runtime smoke helper:\n\n- `pnpm --filter @website-signal-risk-scanner/validation-worker scheduler`\n\nThe full runtime QA sequence is documented in [docs/runtime-validation.md](docs/runtime-validation.md).\nThe validation pipeline design and deployment shape are documented in [docs/validation-pipeline-plan.md](docs/validation-pipeline-plan.md).\nThe validation crawler deployment and VM runbook is documented in [docs/validation-ops-runbook.md](docs/validation-ops-runbook.md).\nCloudflare Verified Bot setup is documented in [docs/cloudflare-web-bot-auth.md](docs/cloudflare-web-bot-auth.md).\n\n## Web Bot Auth\n\nConsentCheck can expose a signed HTTP Message Signatures key directory and sign outbound HTTP crawler requests for Cloudflare Verified Bot workflows.\n\nRequired configuration:\n\n- `WEB_BOT_AUTH_ENABLED`\n- `WEB_BOT_AUTH_PRIVATE_KEY_PEM`\n- `WEB_BOT_AUTH_SIGNATURE_AGENT_URL`\n- `WEB_BOT_AUTH_EXPIRES_SECONDS`\n- `WEB_BOT_AUTH_INCLUDE_NONCE`\n\nCommon commands:\n\n- `pnpm web-bot-auth:generate`\n- `pnpm web-bot-auth:print`\n- `pnpm web-bot-auth:test-request`\n- `pnpm test:web-bot-auth`\n\n## Production deployment\n\n### Web runtime\n\n- the live public web deployment target is the AWS ECS/Fargate path for `certscore.ai`\n- `consentcheck.site` is owned outside WC01 and must not be deployed by this repo\n- `main` deploys through [.github/workflows/web-aws-ecs-deploy.yml](.github/workflows/web-aws-ecs-deploy.yml)\n- run `pnpm ops:check:deploy` before or after topology changes to catch stale local assumptions\n- run `pnpm ops:check:live` against the public hosts to verify runtime target and revision alignment after deploy\n- treat [docs/aws-web-ecs-cutover-plan.md](docs/aws-web-ecs-cutover-plan.md) as the active web deployment runbook\n- treat [docs/deploy-amplify.md](docs/deploy-amplify.md) as future-state reference material only\n\n### Validation And Scanner Runtime\n\n- do not use `WC01` for the primary scanner deploy path\n- use `WS01` for scanner runtime deployment\n- keep `WC01` deployment guidance scoped to web and validation only\n- keep web production, validation worker, and scanner runtime as three distinct deployment paths\n- use the AWS validation deployment lane for `WC01` validation runtime changes\n\n### Database, Auth, and Storage\n\n- create production PostgreSQL, Better Auth, and S3-compatible storage resources separate from local development\n- apply all migrations in order\n- configure the production site URL and production redirect URLs only\n- create the report storage bucket referenced by `S3_BUCKET`\n\n### Scheduler\n\nRecommended production trigger:\n\n- run the validation scheduler sweep every hour if the validation runtime is enabled\n\nCommand:\n\n- `pnpm dev:validation:scheduler`\n\nThe primary scanner scheduler now lives in `WS01`.\n\n## Deployment readiness checklist\n\n- Environment variables configured\n- PostgreSQL database created\n- database migrations applied\n- Better Auth providers configured\n- S3-compatible storage bucket created\n- Playwright browsers installed\n- Worker process running\n- Scheduler cron configured\n- First domain scanned successfully\n- Report generated successfully\n- PDF export generated successfully\n\n## First production validation\n\nAfter deployment, validate in this order:\n\n1. run the env and runtime checks above\n2. verify login and organization bootstrap\n3. verify preview scan flow\n4. verify full scan completion\n5. verify findings, scores, and report persistence\n6. verify PDF export\n7. verify regression on a second scan\n8. verify the hourly scheduler sweep path\n\n## Operational notes\n\n- The standalone scanner in `WS01` owns crawl, auditing, scoring, reporting, PDF generation, and schedu\n\n…",
       "truncated": true,
@@ -19200,7 +19200,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-26T00:04:13.381323Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_articles",
@@ -19289,7 +19288,8 @@
         "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-childanxiety-library",
@@ -19312,7 +19312,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-26T00:04:17.518812Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_articles",
@@ -19401,7 +19400,8 @@
         "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-childpsychiatry-library",
@@ -19424,7 +19424,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-26T00:04:20.484144Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "search_articles",
@@ -19513,7 +19512,8 @@
         "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
         "inputs": null
       }
-    ]
+    ],
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-chinamarketing-intelligence",
@@ -19536,7 +19536,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-04-22T09:16:14.642505Z",
     "repoMeta": null,
-    "toolsStatus": "auth",
     "tools": [
       {
         "name": "get_brand_visibility_snapshot",
@@ -19628,7 +19627,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-chipp-alchemist-cloud-tickets",
@@ -19706,7 +19706,7 @@
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
         "declaredRepo": "Chronary/chronary-mcp",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -19803,7 +19803,7 @@
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
         "declaredRepo": "CircularRoute/circulara-core",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -19880,7 +19880,6 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-28T17:08:14.375286Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
     "tools": [
       {
         "name": "fetch_events",
@@ -19960,7 +19959,8 @@
           }
         ]
       }
-    ]
+    ],
+    "toolsStatus": "ok"
   },
   {
     "id": "mcp:ai-clarid-compliance",
@@ -20084,7 +20084,7 @@
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
         "declaredRepo": "clawfetch/clawfetch-mcp",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [
@@ -20207,7 +20207,7 @@
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
         "declaredRepo": "oscarsterling/clelp-skills",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -20254,7 +20254,7 @@
         "firstPublished": "2026-06-04T17:40:12.941Z",
         "deprecated": false,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
@@ -20301,7 +20301,7 @@
         "firstPublished": "2026-08-30T19:05:36.628Z",
         "deprecated": true,
         "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
