@@ -1,62 +1,87 @@
 {
-  "generatedAt": "2026-09-13T11:24:08.905Z",
+  "generatedAt": "2026-09-14T12:16:39.217Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "blackrock-advisor-center-plugin",
+          "name": "blackrock-advisor-center-plugin",
+          "description": "BlackRock Advisor Center 360° skills for financial advisors: portfolio review, opportunity and fund-health checks, guided benchmark selection, guided portfolio building, wealth projections, and routing to Advisor Center web workflows. Requires the BlackRock Advisor Center connector and an Advisor Center account.",
+          "category": "Automation & Workflow"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 318,
-        "currentTotal": 318
+        "currentTotal": 319
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "agency-thebureauoflostcontext-bureau-public",
-          "name": "Bureau public reader",
-          "description": "Bureau-operated public read-only MCP service for public Context Packets and Cases.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-anha-resolver",
-          "name": "resolver",
-          "description": "Resolve @handles to post-quantum-signed agent identities and transact with the brands behind them.",
-          "category": "AI & Memory"
+          "slug": "ai-adako-ads",
+          "name": "Adako — careful ad ops for AI agents",
+          "description": "Google, Meta, ChatGPT, TikTok and LinkedIn Ads for AI agents. Every write needs your approval.",
+          "category": "Marketing & Social"
         }
       ],
       "removed": [
         {
-          "slug": "ai-clize-storefront",
-          "name": "Agent Storefront",
-          "description": "Let your AI agent run a real store: checkout, orders, refunds, shipping and support.",
-          "category": "Commerce & Retail"
+          "slug": "ai-clize-inbox",
+          "name": "Agent Inbox",
+          "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-cnaps-studio",
-          "name": "CNAPS.ai MCP Server",
-          "description": "Run 70+ AI models and 50+ tools on CNAPS Studio in natural language — Claude, n8n, or Zapier.",
-          "category": "Other"
+          "slug": "ai-clize-sites",
+          "name": "Sites by Clize",
+          "description": "Ship a real marketing site from your coding agent: domain, HTTPS and a working inbox.",
+          "category": "Marketing & Social"
+        }
+      ],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 1,
+        "removed": 2,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 233,
+        "currentTotal": 232
+      }
+    },
+    "repos": {
+      "baseline": true,
+      "added": [
+        {
+          "slug": "ai4finance-foundation-fingpt",
+          "name": "FinGPT",
+          "description": "FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.",
+          "category": "Prompts"
         },
         {
-          "slug": "ai-cnpj-mcp",
-          "name": "cnpj.ai",
-          "description": "Empresas, sócios e conexões por CNPJ. Brazilian company data, ownership and corporate networks.",
-          "category": "Other"
-        },
+          "slug": "x-plug-mobileagent",
+          "name": "MobileAgent",
+          "description": "Mobile-Agent: The Powerful GUI Agent Family",
+          "category": "Coding Assistants"
+        }
+      ],
+      "removed": [
         {
-          "slug": "ai-cobbles-cobbles",
-          "name": "cobbles",
-          "description": "The shared task board for teams and their AI agents — connect over OAuth, every action signed.",
-          "category": "AI & Memory"
+          "slug": "wshobson-agents",
+          "name": "agents",
+          "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity",
+          "category": "Prompts"
         }
       ],
       "deprecated": [],
@@ -64,27 +89,11 @@
       "movers": [],
       "counts": {
         "added": 2,
-        "removed": 4,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 235,
-        "currentTotal": 233
-      }
-    },
-    "repos": {
-      "baseline": true,
-      "added": [],
-      "removed": [],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 0,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 126,
-        "currentTotal": 126
+        "currentTotal": 127
       }
     }
   }

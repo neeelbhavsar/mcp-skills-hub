@@ -25,13 +25,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -66,13 +66,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -107,13 +107,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -154,13 +154,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -201,13 +201,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -242,13 +242,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -289,13 +289,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90284,
+    "stars": 90309,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90284,
-      "forks": 11627,
+      "stars": 90309,
+      "forks": 11630,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -1201,13 +1201,13 @@
         "headers": []
       }
     ],
-    "stars": 7241,
+    "stars": 7245,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7241,
-      "forks": 985,
+      "stars": 7245,
+      "forks": 988,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
@@ -1254,13 +1254,13 @@
         "headers": []
       }
     ],
-    "stars": 7241,
+    "stars": 7245,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7241,
-      "forks": 985,
+      "stars": 7245,
+      "forks": 988,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
@@ -1485,6 +1485,45 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-adako-ads",
+    "name": "Adako — careful ad ops for AI agents",
+    "qualifiedName": "ai.adako/ads",
+    "slug": "ai-adako-ads",
+    "description": "Google, Meta, ChatGPT, TikTok and LinkedIn Ads for AI agents. Every write needs your approval.",
+    "category": "Marketing & Social",
+    "repository": "https://github.com/ruslan2027/adako-mcp",
+    "homepage": "https://adako.ai/docs",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://adako.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-13T20:00:50.661243Z",
+    "repoMeta": {
+      "slug": "ruslan2027/adako-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-13T17:47:27Z",
+      "pushedAt": "2026-09-13T19:45:47Z",
+      "openIssues": 0,
+      "license": "NOASSERTION",
+      "language": "JavaScript"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# Adako — careful ad ops for AI agents\n\n**アダコ** · [adako.ai](https://adako.ai)\n\nAdako is an MCP server and REST API that connects Claude, ChatGPT, Cursor and other assistants to\nGoogle Ads, Meta Ads, ChatGPT Ads, TikTok Ads and LinkedIn Ads.\n\n```\nhttps://adako.ai/mcp\n```\n\nAsk \"how did my campaigns do last month?\" and get an answer from the live account, in the account's\nown currency. Ask \"raise that budget to 40 a day\" and get a proposal you approve before anything\nmoves. Created campaigns are always paused.\n\nThis repository holds the public pieces: the Agent Skills, per-client configuration, one-file\ninstallers, a Claude Code plugin, and the MCP Registry entry. The server itself is hosted.\n\n---\n\n## What it can do\n\n231 tools across five platforms, plus Adako's own.\n\n| Platform     | Tools | What they cover                                                                                                                                                                 |\n| ------------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Google Ads   | 70    | Search and Performance Max, keywords and search terms, budgets and bid strategies, assets and extensions, conversion actions, labels, schedules, geo, hourly and device reports |\n| Meta Ads     | 43    | Campaigns, ad sets and ads, image, video, carousel and app-install launches, audiences and placements, pixels, lead forms, creative fatigue                                     |\n| LinkedIn Ads | 34    | Campaign groups and campaigns, image, video, carousel and text ads, B2B targeting, audience forecasts, conversion rules, engagement metrics                                     |\n| TikTok Ads   | 30    | Campaigns, ad groups and in-feed video ads, Spark Ads, video metrics, identities, pixels, creative fatigue                                                                      |\n| ChatGPT Ads  | 23    | Chat card campaigns end to end, account limits, pixels, review verdicts                                                                                                         |\n| Adako        | 31    | Connections and usage, tool discovery, proposals, diagnostics, monitors, briefs and reports                                                                                     |\n\nYour client does not see 231 entries. It sees 15 tools callable by name plus 7 routers\n(`google_ads`, `meta_ads`, `chatgpt_ads`, `tiktok_ads`, `linkedin_ads`, `monitoring`,\n`diagnostics`), and reaches the rest with\n`google_ads(action=\"execute\", tool_name=\"…\", arguments={...})`. `search_tools` finds the right one\nfrom your own wording, and it is free. See [adako.ai/docs/routers](https://adako.ai/docs/routers).\n\nTikTok Ads and LinkedIn Ads are available on request; write to support@adako.ai if you do not see\nthem on the Connections page.\n\n---\n\n## The safety model\n\nAdako is built so that an assistant can be useful without being dangerous.\n\n| Rule                           | What it means                                                                                                                                              |\n| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Reads run immediately          | Performance, structure, search terms, audiences. Nothing to approve.                                                                                       |\n| Every write becomes a proposal | You see the object, the before and after values, and the daily cost before anything is sent.                                                               |\n| Approval is yours              | Confirm in the chat, or leave proposals in an inbox and approve them at [adako.ai/approvals](https://adako.ai/approvals). Proposals expire after 48 hours. |\n| Created objects are paused     | Every campaign, ad set and ad Adako creates starts paused. You enable it yourself.                                                                         |\n| Almost nothing deletes         | Eight tools remove something and each needs an explicit confirmation flag. Pause never routes to a delete.                                                 |\n| Executed once                  | Each approved proposal carries an idempotency key. Approving twice reports the first result and repeats nothing.                                           |\n| Read-back on every write       | The change is confirmed by reading the object back from the platform, not by trusting the response.                                                        |\n| Tokens stay server-side        | Your platform tokens are held encrypted by Adako and are never forwarded to the AI client.                                                                 |\n\nDetails: [adako.ai/docs/safety](https://adako.ai/docs/safety).\n\n---\n\n## Install — five minutes\n\nTwo ways to authenticate:\n\n- **OAuth** — the client opens a browser, you sign in to Adako once. Preferred everywhere it works.\n- **API key** — create one at [adako.ai/keys](https://adako.ai/keys), send it as\n  `Authorization: Bearer ak_live_…`. Use it for clients that read a static config file.\n\nPick your client.\n\n### Claude.ai (custom connector)\n\nPro and Max: **Settings → Connectors → Add custom connector**. Paste the URL, click **Add**, then\n**Connect** and sign in.\n\nTeam and Enterprise: an owner adds it first under **Organization settings → Connectors → Add**, hovers\n**Custom**, chooses **Web**, and pastes the URL. Members then connect it from their own\n**Settings → Connectors**.\n\n```\nhttps://adako.ai/mcp\n```\n\nThe number of custom connectors you can add depends on your Claude plan.\n\n### Claude Desktop\n\nSame **Connectors** settings as Claude.ai — add the custom connector with the URL above, then sign in\nwhen prompted. Desktop shares your Claude account, so a connector added on the web is available here\ntoo. Full guide: [`clients/claude-desktop.md`](clients/claude-desktop.md).\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http adako https://adako.ai/mcp\n```\n\nThen run `/mcp` inside a session and pick **adako** to sign in through the browser.\n\nAdd it once for every project with `--scope user`:\n\n```bash\nclaude mcp add --transport http adako https://adako.ai/mcp --scope user\n```\n\nAPI-key variant, no browser step:\n\n```bash\nclaude mcp add --transport http adako https://adako.ai/mcp \\\n  --header \"Authorization: Bearer ak_live_your_key\"\n```\n\nThere is also a plugin that installs the server, the skills, a setup command and an operator agent in\none step:\n\n```\n/plugin marketplace add ruslan2027/adako-mcp\n/plugin install adako@adako\n/adako-setup\n```\n\nSee [`clients/claude-code.md`](clients/claude-code.md) and [`plugin/`](plugin).\n\n### ChatGPT (developer mode)\n\n1. Turn on **Developer mode** under **Settings → Security & login**, then\n   [open ChatGPT Plugins](https://chatgpt.com/plugins#settings/Connectors?create-connector=true).\n2. Click **+**. Enter `Adako` as the connection name and `https://adako.ai/mcp` as the MCP server URL.\n   Add a short description, choose the public endpoint connection option, and click **Create**.\n3. Complete authorization if prompted.\n4. Start a new conversation, open the tools menu, and select Adako.\n\nFull guide: [`clients/chatgpt.md`](clients/chatgpt.md).\n\n### Cursor\n\nOne command, idempotent, and it leaves your other servers alone:\n\n```bash\nnode install/cursor.mjs            # ~/.cursor/mcp.json\nnode install/cursor.mjs --project  # .cursor/mcp.json in this repository\n```\n\nOr write the file yourself:\n\n```json\n{\n  \"mcpServers\": {\n    \"adako\": {\n      \"url\": \"https://adako.ai/mcp\"\n    }\n  }\n}\n```\n\nFull file: [`clients/cursor/mcp.json`](clients/cursor/mcp.json). Guide:\n[`clients/cursor.md`](clients/cursor.md).\n\n### Codex CLI\n\n```bash\ncodex mcp add adako --url https://adako.ai/mcp\ncodex mcp login adako\n```\n\nOr run the installer, which rewrites one table in `~/.codex/config.toml` and leaves the rest of the\nfile untouched:\n\n```bash\nnode install/codex.mjs            # API key from $ADAKO_API_KEY\nnode install/codex.mjs --oauth    # sign in with codex mcp login instead\n```\n\nFull file: [`clients/codex/config.toml`](clients/codex/config.toml). Guide:\n[`clients/codex.md`](clients/codex.md).\n\n### Windsurf\n\n```bash\nnode install/windsurf.mjs\n```\n\nOr add the block by hand to `~/.codeium/windsurf/mcp_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"adako\": {\n      \"serverUrl\": \"https://adako.ai/mcp\"\n    }\n  }\n}\n```\n\nFull file: [`clients/windsurf/mcp_config.json`](clients/windsurf/mcp_config.json). Guide:\n[`clients/windsurf.md`](clients/windsurf.md). **Untested** — the configuration follows the documented\nformat, but Adako has not been verified in Windsurf yet.\n\n### Gemini CLI\n\n`~/.gemini/settings.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"adako\": {\n      \"httpUrl\": \"https://adako.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer ${ADAKO_API_KEY}\"\n      }\n    }\n  }\n}\n```\n\nAn extension manifest is in [`clients/gemini-cli/gemini-extension.json`](clients/gemini-cli/gemini-extension.json).\nGuide: [`clients/gemini-cli.md`](clients/gemini-cli.md). **Untested** — the extension packaging has\nnot been run end to end against Adako yet.\n\n### VS Code (Copilot)\n\n`.vscode/mcp.json` in a workspace, or your user `mcp.json`:\n\n```json\n{\n  \"servers\": {\n    \"adako\": {\n      \"type\": \"http\",\n      \"url\": \"https://adako.ai/mcp\"\n    }\n  }\n}\n```\n\nVS Code handles the OAuth flow. Full file with the API-key variant:\n[`clients/vscode/mcp.json`](clients/vscode/mcp.json). Guide: [`clients/vscode.md`](clients/vscode.md).\n**Untested** — configuration follows the documented format.\n\n### Perplexity\n\nAdd Adako as a connector in the desktop app: **Settings → Connectors**, then the URL above. Guide:\n[`clients/perplexity.md`](clients/perplexity.md). **Untested** — connector support depends on your\nplan and app version.\n\n---\n\n## Add the skills\n\n`skills/` holds eleven Agent Skills. `adako` is the operating procedure: the safety contract, the\ntool-call contract, the tool map and the workflows. The others are focused: one per platform, one per\njob.\n\n| Skill                                                                 | For                                                                |\n| --------------------------------------------------------------------- | ------------------------------------------------------------------ |\n| `adako`                                                               | The operating procedure. Start here.                               |\n| `google-ads`, `meta-ads`, `tiktok-ads`, `linkedin-ads`, `chatgpt-ads` | One platform each: tools by job, rules, launch order               |\n| `launch`                                                              | Creating a campaign safely on any platform                         |\n| `performance-review`                                                  | Answering \"how are we doing\" with numbers that hold up             |\n| `optimize`                                                            | What to change after the review, and in what order                 |\n| `creative`                                                            | Copy limits and asset specs per platform, and the fatigue playbook |\n| `monitoring`                                                          | Monitors, alerts, briefs and reports                               |\n\n- **Claude Code** — install the plugin, or copy `skills/` into `~/.claude/skills/`.\n- **claude.ai** — upload `SKILL.md` (the same file as `skills/adako/SKILL.md`) as a skill in settings.\n- **Anything else** — paste the contents into your system prompt or project instructions.\n\nThe server also ships short instructions on connect, so the skills are optional. They make long\nsessions noticeably steadier.\n\n---\n\n## REST API and the \n\n…",
+      "truncated": true,
+      "url": "https://github.com/ruslan2027/adako-mcp#readme"
+    }
+  },
+  {
     "id": "mcp:ai-adeu-adeu",
     "name": "adeu",
     "qualifiedName": "ai.adeu/adeu",
@@ -1502,7 +1541,7 @@
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 579,
-        "lastPublished": "2026-09-09T10:16:44.089Z",
+        "lastPublished": "2026-09-14T09:42:45.918Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
         "declaredRepo": "dealfluence/adeu",
@@ -1510,18 +1549,18 @@
       }
     ],
     "remotes": [],
-    "stars": 156,
+    "stars": 157,
     "source": "MCP Registry",
     "updatedAt": "2026-05-16T13:54:48.18266Z",
     "repoMeta": {
       "slug": "dealfluence/adeu",
-      "stars": 156,
+      "stars": 157,
       "forks": 24,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-09-13T09:30:08Z",
-      "openIssues": 1,
+      "pushedAt": "2026-09-14T09:42:21Z",
+      "openIssues": 0,
       "license": "MIT",
       "language": "Python"
     },
@@ -6064,7 +6103,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T14:07:36.70305Z",
     "repoMeta": null,
-    "toolsStatus": "error",
+    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_pricing",
@@ -7306,7 +7345,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-13T03:16:03.080006Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-ankimcp-anki-mcp-server",
@@ -7334,12 +7373,12 @@
       }
     ],
     "remotes": [],
-    "stars": 477,
+    "stars": 480,
     "source": "MCP Registry",
     "updatedAt": "2026-09-09T18:23:41.436244Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 477,
+      "stars": 480,
       "forks": 35,
       "archived": false,
       "isFork": false,
@@ -7377,7 +7416,7 @@
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
       "pushedAt": "2026-09-10T15:12:11Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "license": "NOASSERTION",
       "language": "Python"
     },
@@ -15137,7 +15176,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-05T15:22:03Z",
-      "pushedAt": "2026-09-05T15:22:10Z",
+      "pushedAt": "2026-09-13T11:57:23Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
@@ -15508,7 +15547,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-10T02:17:03.877351Z",
+    "updatedAt": "2026-09-14T06:58:53.870086Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -15517,8 +15556,8 @@
     "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
     "qualifiedName": "ai.bodenrichtwert/mcp",
     "slug": "ai-bodenrichtwert-mcp",
-    "description": "German land values (Bodenrichtwerte) by address, with mandatory dl-de/by-2-0 attribution.",
-    "category": "Other",
+    "description": "German land values (Bodenrichtwerte) by address + land-use type. Coverage varies; not in SH/SN/BY.",
+    "category": "AI & Memory",
     "repository": null,
     "homepage": "https://bodenrichtwert.ai",
     "packages": [],
@@ -15531,7 +15570,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-03T06:19:03.560017Z",
+    "updatedAt": "2026-09-13T22:04:50.509558Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -16890,7 +16929,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-13T10:56:17.519649Z",
+    "updatedAt": "2026-09-14T11:53:45.738107Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 0,
@@ -18942,7 +18981,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-13T05:41:13Z",
+      "pushedAt": "2026-09-14T08:48:25Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -18980,7 +19019,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-13T05:41:13Z",
+      "pushedAt": "2026-09-14T08:48:25Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -20040,7 +20079,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-08-06T07:04:26.492Z",
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
@@ -20066,7 +20105,7 @@
       "isFork": false,
       "createdAt": "2026-08-05T05:57:36Z",
       "pushedAt": "2026-08-06T07:05:01Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -20163,7 +20202,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 63,
         "lastPublished": "2026-08-01T18:43:14.193Z",
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
@@ -20206,12 +20245,12 @@
       {
         "registryType": "npm",
         "identifier": "@clize/clize",
-        "version": "0.37.5",
+        "version": "0.46.2",
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-10T21:56:19.948Z",
+        "weeklyDownloads": 1540,
+        "lastPublished": "2026-09-14T00:00:32.222Z",
         "firstPublished": "2026-06-04T17:40:12.941Z",
         "deprecated": false,
         "declaredRepo": "cooldk/clize-cli",
@@ -20221,7 +20260,7 @@
     "remotes": [],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-04T20:32:26.981617Z",
+    "updatedAt": "2026-09-14T00:00:48.761203Z",
     "repoMeta": {
       "slug": "cooldk/clize-cli",
       "stars": 0,
@@ -20257,7 +20296,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 259,
         "lastPublished": "2026-09-03T21:50:59.397Z",
         "firstPublished": "2026-08-30T19:05:36.628Z",
         "deprecated": true,
@@ -20269,100 +20308,6 @@
     "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-03T11:43:33.859191Z",
-    "repoMeta": {
-      "slug": "cooldk/clize-cli",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-02T01:29:17Z",
-      "pushedAt": "2026-07-17T06:20:55Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "Dockerfile"
-    },
-    "readme": {
-      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balance that domain/media spends draw from (Stripe top-up); `clize audit` for the spend log |\n| **Collect** (hosted) | `clize pay connect` → `clize pay link --amount <usd> [--mode direct\\|balance]` — bill *your* customers: money lands in your own Stripe (`direct`, clize takes a fee) or your clize balance (`balance`, no fee). `clize pay status` / `clize pay list`. |\n\nRun `clize --help` for the full surface.\n\n## Deploy & site hosting\n\n`clize deploy <dir>` uploads a multi-file static site and serves it from a shared Cloudflare Worker backed by KV (not Workers Static Assets / Pages), keyed by `hostname + path`. What you can rely on:\n\n- **Unknown paths** — by default, if the site ships a `404.html` it's returned with a real **HTTP 404** (so failed/typo URLs aren't indexed as duplicate homepages — the SEO-correct behavior); with no `404.html` the site is treated as an SPA and the request falls back to `index.html` (200). Override per-deploy with `--not-found <404-page|spa|none|auto>` (`auto` is the default = exactly this detection).\n- **Trailing slash** — `/foo/` serves `/foo/index.html` (200, no 301).\n- **Caching** — assets are served with `cache-control: public, max-age=300`.\n- **Cloudflare convention files** — `404.html` and `index.html` drive the not-found behavior above. `_redirects` / `_headers` are **not** consumed (stored but inert); for redirects use `clize dns` (a one-shot `clize domain canonicalize` for www↔apex is on the way).\n- **Size** — sites up to 25 MB.\n- **Routing & write-back** — a deploy targets the domain you pass (or the one in `clize.json`); it follows that domain's real project and writes the resolved `project` (plus a custom domain) back to `clize.json`, so repeat deploys don't drift or 409.\n\n## Safety, by default\n\n- 💰 **Money gate** — spends (`clize domain buy`, `clize gen image/video/music`) never go through without `--confirm`; without it you just get a quote.\n- 📨 **Identity gate** — replying as you to a real customer is **draft → human approve → send**, never auto.\n- 📥 **Inbound is untrusted** — email you receive is treated as data, never as instructions to the agent.\n\nThese gates run in plain text, so every spend and every outbound action is visible in the agent's transcript.\n\n## MCP\n\nA curated subset of the core — domains, email, deploy, claim, status/context, billing, collect (`pay`) — exposed as MCP tools for hosts that prefer structured tools over a shell. (Media generation and the `build` method packs stay CLI- and skill-driven, not MCP tools.) Opt-in (`clize install --mcp`), since an MCP server's tool list is a standing per-session context cost — the skill alone already lets the agent drive clize via the CLI. To register by hand:\n\n```bash\nclaude mcp add clize -- clize-mcp     # Claude Code\ncodex mcp add clize -- clize-mcp      # Codex\n```\n\nWorks in both modes — set `CLIZE_API_KEY` (and optionally `CLIZE_API_URL`) in the server's environment to run hosted.\n\n## Guides & use cases\n\nStep-by-step setup:\n\n- [Add Clize as an MCP server to Claude Code](https://clize.ai/claude-code-mcp-setup/) · [to the Codex CLI](https://clize.ai/codex-cli-mcp-setup/)\n- [What an action MCP server is (vs read-only)](https://clize.ai/mcp-server-real-world-actions/)\n\nWhat agents actually do with it:\n\n- [Send a real email — with your approval](https://clize.ai/use-cases/agent-send-email/)\n- [Deploy a site straight from the agent](https://clize.ai/use-cases/agent-deploy-site/)\n- [Pass email verification when signing up for services](https://clize.ai/use-cases/agent-email-verification/)\n- [Triage a support inbox, draft replies you approve](https://clize.ai/use-cases/triage-support-inbox/)\n- [Create a Stripe payment link behind the money gate](https://clize.ai/use-cases/agent-payment-link/)\n\n## License\n\n[MIT](./LICENSE)",
-      "truncated": false,
-      "url": "https://github.com/cooldk/clize-cli#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-clize-inbox",
-    "name": "Agent Inbox",
-    "qualifiedName": "ai.clize/inbox",
-    "slug": "ai-clize-inbox",
-    "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
-    "category": "Productivity",
-    "repository": "https://github.com/cooldk/clize-cli",
-    "homepage": "https://clize.ai/inbox/",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@clize/inbox",
-        "version": "0.35.5",
-        "transport": "stdio",
-        "runtimeHint": "npx",
-        "env": [],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-03T22:06:13.672Z",
-        "firstPublished": "2026-08-30T19:05:06.544Z",
-        "deprecated": true,
-        "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": true
-      }
-    ],
-    "remotes": [],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:34.530918Z",
-    "repoMeta": {
-      "slug": "cooldk/clize-cli",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-02T01:29:17Z",
-      "pushedAt": "2026-07-17T06:20:55Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "Dockerfile"
-    },
-    "readme": {
-      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balance that domain/media spends draw from (Stripe top-up); `clize audit` for the spend log |\n| **Collect** (hosted) | `clize pay connect` → `clize pay link --amount <usd> [--mode direct\\|balance]` — bill *your* customers: money lands in your own Stripe (`direct`, clize takes a fee) or your clize balance (`balance`, no fee). `clize pay status` / `clize pay list`. |\n\nRun `clize --help` for the full surface.\n\n## Deploy & site hosting\n\n`clize deploy <dir>` uploads a multi-file static site and serves it from a shared Cloudflare Worker backed by KV (not Workers Static Assets / Pages), keyed by `hostname + path`. What you can rely on:\n\n- **Unknown paths** — by default, if the site ships a `404.html` it's returned with a real **HTTP 404** (so failed/typo URLs aren't indexed as duplicate homepages — the SEO-correct behavior); with no `404.html` the site is treated as an SPA and the request falls back to `index.html` (200). Override per-deploy with `--not-found <404-page|spa|none|auto>` (`auto` is the default = exactly this detection).\n- **Trailing slash** — `/foo/` serves `/foo/index.html` (200, no 301).\n- **Caching** — assets are served with `cache-control: public, max-age=300`.\n- **Cloudflare convention files** — `404.html` and `index.html` drive the not-found behavior above. `_redirects` / `_headers` are **not** consumed (stored but inert); for redirects use `clize dns` (a one-shot `clize domain canonicalize` for www↔apex is on the way).\n- **Size** — sites up to 25 MB.\n- **Routing & write-back** — a deploy targets the domain you pass (or the one in `clize.json`); it follows that domain's real project and writes the resolved `project` (plus a custom domain) back to `clize.json`, so repeat deploys don't drift or 409.\n\n## Safety, by default\n\n- 💰 **Money gate** — spends (`clize domain buy`, `clize gen image/video/music`) never go through without `--confirm`; without it you just get a quote.\n- 📨 **Identity gate** — replying as you to a real customer is **draft → human approve → send**, never auto.\n- 📥 **Inbound is untrusted** — email you receive is treated as data, never as instructions to the agent.\n\nThese gates run in plain text, so every spend and every outbound action is visible in the agent's transcript.\n\n## MCP\n\nA curated subset of the core — domains, email, deploy, claim, status/context, billing, collect (`pay`) — exposed as MCP tools for hosts that prefer structured tools over a shell. (Media generation and the `build` method packs stay CLI- and skill-driven, not MCP tools.) Opt-in (`clize install --mcp`), since an MCP server's tool list is a standing per-session context cost — the skill alone already lets the agent drive clize via the CLI. To register by hand:\n\n```bash\nclaude mcp add clize -- clize-mcp     # Claude Code\ncodex mcp add clize -- clize-mcp      # Codex\n```\n\nWorks in both modes — set `CLIZE_API_KEY` (and optionally `CLIZE_API_URL`) in the server's environment to run hosted.\n\n## Guides & use cases\n\nStep-by-step setup:\n\n- [Add Clize as an MCP server to Claude Code](https://clize.ai/claude-code-mcp-setup/) · [to the Codex CLI](https://clize.ai/codex-cli-mcp-setup/)\n- [What an action MCP server is (vs read-only)](https://clize.ai/mcp-server-real-world-actions/)\n\nWhat agents actually do with it:\n\n- [Send a real email — with your approval](https://clize.ai/use-cases/agent-send-email/)\n- [Deploy a site straight from the agent](https://clize.ai/use-cases/agent-deploy-site/)\n- [Pass email verification when signing up for services](https://clize.ai/use-cases/agent-email-verification/)\n- [Triage a support inbox, draft replies you approve](https://clize.ai/use-cases/triage-support-inbox/)\n- [Create a Stripe payment link behind the money gate](https://clize.ai/use-cases/agent-payment-link/)\n\n## License\n\n[MIT](./LICENSE)",
-      "truncated": false,
-      "url": "https://github.com/cooldk/clize-cli#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-clize-sites",
-    "name": "Sites by Clize",
-    "qualifiedName": "ai.clize/sites",
-    "slug": "ai-clize-sites",
-    "description": "Ship a real marketing site from your coding agent: domain, HTTPS and a working inbox.",
-    "category": "Marketing & Social",
-    "repository": "https://github.com/cooldk/clize-cli",
-    "homepage": "https://clize.ai/sites/",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@clize/sites",
-        "version": "0.35.5",
-        "transport": "stdio",
-        "runtimeHint": "npx",
-        "env": [],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-03T22:07:30.094Z",
-        "firstPublished": "2026-08-30T19:05:26.809Z",
-        "deprecated": true,
-        "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": true
-      }
-    ],
-    "remotes": [],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:36.102796Z",
     "repoMeta": {
       "slug": "cooldk/clize-cli",
       "stars": 0,
