@@ -142,6 +142,12 @@ The pipeline refuses to overwrite a non-empty data file with an empty fetch and 
 non-zero instead, so an upstream breaking change fails loudly rather than silently shipping
 an empty catalog.
 
+**Refreshing daily does not mean deploying daily.** The run hashes only the fields a visitor
+would notice — names, descriptions, packages, endpoints, tool signatures — and skips the
+commit entirely when nothing meaningful moved, so star drift and registry reordering no
+longer trigger a full rebuild. A weekly floor publishes anyway, so star counts and health
+scores cannot go stale behind unchanged content. See `scripts/lib/signature.mjs`.
+
 **Key modules**
 
 | File | Role |

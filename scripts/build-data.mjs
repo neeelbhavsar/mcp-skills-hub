@@ -1,7 +1,7 @@
 // Orchestrator: runs every fetcher, writes normalized JSON into src/data.
 // Run manually (`npm run data`) or on a daily GitHub Actions cron.
 
-import { writeFile, mkdir, readFile } from "node:fs/promises";
+import { writeFile, mkdir, readFile, appendFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { fetchMCPs } from "./fetch-mcps.mjs";
@@ -9,6 +9,7 @@ import { fetchSkills } from "./fetch-skills.mjs";
 import { fetchRepos } from "./fetch-repos.mjs";
 import { log } from "./lib/util.mjs";
 import { diffCatalogs } from "./lib/changes.mjs";
+import { evaluateChange, reportDecision } from "./lib/signature.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "..", "src", "data");
@@ -102,14 +103,20 @@ async function main() {
     fetchRepos().catch((e) => (log("repos fatal", e.message), [])),
   ]);
 
-  // Both of these read the on-disk files, which are still yesterday's
-  // snapshot, so they must run before anything is written.
+  // These all read the on-disk files, which are still yesterday's snapshot,
+  // so they must run before anything is written.
   const changes = await diffCatalogs(DATA_DIR, { skills, mcps, repos });
   await Promise.all([
     preserveEnrichment("skills.json", skills),
     preserveEnrichment("mcps.json", mcps),
     preserveEnrichment("repos.json", repos),
   ]);
+
+  // Signed after enrichment, on exactly what is about to be written. Signing
+  // the raw fetch instead compared a token-less run (no tools, no repo data)
+  // against a CI run that had both, so every alternating run looked changed.
+  const decision = await evaluateChange(DATA_DIR, { skills, mcps, repos });
+  reportDecision(decision);
 
   const skillsOut = await keepOrFail("skills.json", skills);
   const mcpsOut = await keepOrFail("mcps.json", mcps);
@@ -134,8 +141,19 @@ async function main() {
   });
 
   await writeJSON("changes.json", changes);
+  await writeJSON("signature.json", decision.signature);
 
-  log(`DONE — skills:${skillsOut.length} mcps:${mcpsOut.length} repos:${reposOut.length}`);
+  // Consumed by the workflow to decide whether to commit (and so whether to
+  // trigger a deploy). Written as a GitHub Actions output when running in CI.
+  if (process.env.GITHUB_OUTPUT) {
+    await appendFile(process.env.GITHUB_OUTPUT, `deploy=${decision.shouldDeploy}
+`);
+  }
+
+  log(
+    `DONE — skills:${skillsOut.length} mcps:${mcpsOut.length} repos:${reposOut.length} ` +
+      `· deploy:${decision.shouldDeploy ? "yes" : "no"}`,
+  );
   if (failed.length) throw new Error(`empty fetch for: ${failed.join(", ")}`);
 }
 

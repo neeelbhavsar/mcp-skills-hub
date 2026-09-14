@@ -23,20 +23,32 @@ jobs:
           node-version: 22
 
       - name: Fetch latest data
+        id: data
         env:
-          # Optional but recommended: lifts GitHub Search API limits.
+          # Required for star counts and maintenance signals (GraphQL needs a
+          # token); also lifts the GitHub Search API limit for the repo queries.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_STAMP: ${{ github.event.repository.updated_at }}
         run: node scripts/build-data.mjs
 
+      # Committing is what triggers a deploy, so it is gated on whether the
+      # catalog actually changed in a way a visitor would notice. Star drift and
+      # registry reordering used to force a full ~2,000-page rebuild every single
+      # day; see scripts/lib/signature.mjs. A weekly floor keeps star counts and
+      # health scores from going stale behind unchanged content.
       - name: Commit changes
+        if: steps.data.outputs.deploy == 'true'
         run: |
           git config user.name "ai-library-bot"
           git config user.email "actions@github.com"
           git add src/data/*.json
           if git diff --staged --quiet; then
-            echo "No data changes today."
+            echo "Nothing staged — data identical."
           else
-            git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
+            git commit -m "chore(data): refresh $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Skipped
+        if: steps.data.outputs.deploy != 'true'
+        run: echo "No meaningful catalog change — skipping commit, so no rebuild."
