@@ -1751,6 +1751,21 @@
     }
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-clay",
+    "name": "clay",
+    "slug": "clay",
+    "description": "Work with Clay from Claude Code: set up and sign in to the clay CLI, query and analyze Clay tables, search Clay's GTM database for people and companies, manage audiences, signals, routines and workflows, and draft and review Sequencer campaigns. Includes hooks that auto-approve the plugin's own clay CLI calls and Clay…",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-clickhouse",
     "name": "clickhouse",
     "slug": "clickhouse",
@@ -3727,6 +3742,21 @@
     }
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-intuit-quickbooks",
+    "name": "intuit-quickbooks",
+    "slug": "intuit-quickbooks",
+    "description": "QuickBooks business insights and actions: financial health briefings across P&L, cash flow, balance sheet and A/R, industry benchmarking, payroll cost analysis, overdue-invoice reminders, estimate/invoice drafting from email, payroll onboarding and base-pay changes (with confirmation), and QuickBooks Capital lending g…",
+    "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-jdtls-lsp",
     "name": "jdtls-lsp",
     "slug": "jdtls-lsp",
@@ -5133,6 +5163,51 @@
     }
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-pendo-analytics",
+    "name": "pendo-analytics",
+    "slug": "pendo-analytics",
+    "description": "Bring Pendo product analytics into Claude Code: account health, feature adoption, session replay lookup and triage, feedback analysis, and data-informed planning grounded in real usage data. Requires the Pendo connector and a Pendo subscription.",
+    "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-pendo-guides",
+    "name": "pendo-guides",
+    "slug": "pendo-guides",
+    "description": "Create production-ready Pendo in-app guides (walkthroughs, announcements, alerts, polls, promotions) as HTML/CSS/JS from a short intake conversation, using Pendo's guide components.",
+    "category": "Design & Creative",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-pendo-orchestrate",
+    "name": "pendo-orchestrate",
+    "slug": "pendo-orchestrate",
+    "description": "Create, configure and edit draft Pendo Orchestrate email journeys, including multi-email and conditional split flows, via the Pendo connector. Journeys stay in draft; activation happens in the Orchestrate UI.",
+    "category": "Automation & Workflow",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-php-lsp",
     "name": "php-lsp",
     "slug": "php-lsp",
@@ -6485,6 +6560,36 @@
     }
   },
   {
+    "id": "skill:anthropics-claude-plugins-official-setup-agent-analytics",
+    "name": "setup-agent-analytics",
+    "slug": "setup-agent-analytics",
+    "description": "Detect AI agents in your codebase and instrument them with Pendo Agent Analytics via the best-fit path: Python SDK, TypeScript SDK, client-side trackAgent(), or the Conversations API.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-setup-mcp-agent-analytics",
+    "name": "setup-mcp-agent-analytics",
+    "slug": "setup-mcp-agent-analytics",
+    "description": "Detect an MCP server's language (Python, TypeScript or Go) and instrument it with the matching Pendo SDK so MCP tool calls flow into Pendo Agent Analytics.",
+    "category": "Coding & Engineering",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
+  },
+  {
     "id": "skill:anthropics-claude-plugins-official-shippo",
     "name": "shippo",
     "slug": "shippo",
@@ -7679,6 +7784,21 @@
       "license": "Apache-2.0",
       "language": "Python"
     }
+  },
+  {
+    "id": "skill:anthropics-claude-plugins-official-zocks-advisor",
+    "name": "zocks-advisor",
+    "slug": "zocks-advisor",
+    "description": "Seven skills for financial advisors built on Zocks meeting intelligence: client behavioral profiles, attrition-risk ranking, held-away asset radar, client journey dossiers, household review packs, next-best-action analysis and a tax opportunity scan. Requires the Zocks connector and a Zocks account.",
+    "category": "Data & Analysis",
+    "author": "Anthropic",
+    "skills": [],
+    "source": "Claude Plugins (Official)",
+    "repo": "anthropics/claude-plugins-official",
+    "sourceUrl": "https://github.com/anthropics/claude-plugins-official",
+    "target": "claude",
+    "stars": null,
+    "repoMeta": null
   },
   {
     "id": "skill:anthropics-claude-plugins-official-zoom-plugin",
