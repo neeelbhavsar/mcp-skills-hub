@@ -25,7 +25,7 @@ function summarize(items, key) {
  * registry: a token-less local run, an auth-walled server or a slow README
  * fetch all legitimately produce nothing for them.
  */
-const ENRICHED_FIELDS = ["repoMeta", "stars", "tools", "toolsStatus", "readme"];
+const ENRICHED_FIELDS = ["repoMeta", "stars", "tools", "toolsStatus", "readme", "inspection"];
 
 const isEmpty = (v) =>
   v === null || v === undefined || (Array.isArray(v) && v.length === 0);
