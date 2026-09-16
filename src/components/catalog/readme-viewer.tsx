@@ -24,11 +24,18 @@ type Block =
   | { kind: "rule" };
 
 function parse(markdown: string): Block[] {
-  const lines = markdown.split("\n");
+  // CRLF must be normalized before anything else. In JavaScript `.` and `$`
+  // treat \r as a line terminator, so /^(#{1,6})\s+(.*)$/ fails to match
+  // "## Heading\r" — the line then falls through to the paragraph branch,
+  // which refuses anything starting with "#", leaving `i` unadvanced. That is
+  // an infinite loop, and it exhausted the build's heap on the first README
+  // with Windows line endings.
+  const lines = markdown.replace(/\r\n?/g, "\n").split("\n");
   const blocks: Block[] = [];
   let i = 0;
 
   while (i < lines.length) {
+    const start = i;
     const line = lines[i];
 
     if (!line.trim()) {
@@ -80,6 +87,17 @@ function parse(markdown: string): Block[] {
     while (i < lines.length && lines[i].trim() && !bullet.test(lines[i]) && !/^\s*(#|>|```)/.test(lines[i])) {
       body.push(lines[i++].trim());
     }
+
+    // Guaranteed progress. This input comes from arbitrary third-party repos,
+    // so no branch may ever leave `i` where it started — emit the line as a
+    // paragraph and move on rather than risk spinning on an input shape we
+    // did not anticipate.
+    if (i === start) {
+      blocks.push({ kind: "para", text: line.trim() });
+      i++;
+      continue;
+    }
+
     blocks.push({ kind: "para", text: body.join(" ") });
   }
 
