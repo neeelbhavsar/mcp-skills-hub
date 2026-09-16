@@ -9,6 +9,7 @@ import { TrustPanel } from "./trust-panel";
 import { InstallButtons } from "./install-buttons";
 import { AddToSetup } from "@/components/cart/add-to-setup";
 import { ToolsPanel, RequirementsPanel } from "./tools-panel";
+import { CapabilityPanel } from "./capability-panel";
 import { HealthPanel, HealthPill } from "./health-badge";
 import { ReadmeViewer } from "./readme-viewer";
 import { CopyAsPrompt } from "./copy-as-prompt";
@@ -138,6 +139,7 @@ export function ResourceDetail({ item }: { item: CardItem }) {
 
       {mcp && <RequirementsPanel mcp={mcp} requirements={requirementsOf(mcp)} />}
       {mcp && <ToolsPanel mcp={mcp} />}
+      {mcp && <CapabilityPanel mcp={mcp} />}
       {mcp && <TrustPanel mcp={mcp} />}
       {mcp && <HealthPanel health={healthOf(mcp)} />}
       {mcp?.readme && <ReadmeViewer readme={mcp.readme} />}

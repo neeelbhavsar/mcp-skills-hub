@@ -39,6 +39,58 @@ export interface McpTool {
   inputs: ToolInput[] | null;
 }
 
+/** One place in the published source where a capability was observed. */
+export interface CapabilityEvidence {
+  file: string;
+  line: number;
+  detail: string;
+  /** Observed inside a bundled file, so it may come from a bundled dependency. */
+  bundled?: boolean;
+}
+
+export type CapabilityId =
+  | "exec"
+  | "filesystem"
+  | "network"
+  | "dynamic-code"
+  | "spawn"
+  | "env"
+  | "system";
+
+export interface ObservedCapability {
+  id: CapabilityId;
+  evidence: CapabilityEvidence[];
+}
+
+/**
+ * Static analysis of a published npm package, plus registry publisher signals.
+ * Only the package's own files are read — never its dependencies, and nothing
+ * is ever executed.
+ */
+export interface Inspection {
+  name: string;
+  version: string | null;
+  /** ok = every file parsed · partial = some did not · unavailable/no-source */
+  status: "ok" | "partial" | "unavailable" | "no-source";
+  filesScanned?: number;
+  filesTotal?: number;
+  /** How many scanned files were bundles rather than hand-written source. */
+  bundledFiles?: number;
+  capabilities: ObservedCapability[];
+  maintainers: number | null;
+  publishedBy: string | null;
+  /** npm trusted publishing: released by a verified CI identity, not a token. */
+  trustedPublisher: string | null;
+  /** SLSA provenance attestation linking artifact to source commit. */
+  provenance: boolean;
+  signed: boolean;
+  /** Hooks that run automatically on install, before any deliberate use. */
+  installScripts: string[] | null;
+  unpackedSize: number | null;
+  fileCount: number | null;
+  analyzedAt: string;
+}
+
 export interface Readme {
   markdown: string;
   truncated: boolean;
@@ -97,6 +149,7 @@ export interface Mcp {
   /** Outcome of live tool discovery: why the tool list may be absent. */
   toolsStatus?: "ok" | "auth" | "error" | "unsupported";
   readme?: Readme | null;
+  inspection?: Inspection | null;
   license?: string | null;
   stars: number | null;
   source: string;
