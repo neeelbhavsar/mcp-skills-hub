@@ -1,57 +1,43 @@
 {
-  "generatedAt": "2026-09-16T11:09:54.553Z",
+  "generatedAt": "2026-09-16T19:50:31.368Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [
         {
-          "slug": "informatica-for-claude-platform",
-          "name": "informatica-for-claude-platform",
-          "description": "Governed catalog discovery for Informatica Intelligent Data Management Cloud (CDGC): find tables, columns, files, glossary terms and policies across the enterprise catalog, check ownership, certification, sensitivity and applicable policy, and get safe-usage guidance grounded in catalog metadata before querying any da…",
-          "category": "Data & Analysis"
+          "slug": "superpowers-skills",
+          "name": "superpowers-skills",
+          "description": "Community-editable skills repository",
+          "category": "Other"
         }
       ],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 1,
+        "previousTotal": 328,
+        "currentTotal": 328
+      }
+    },
+    "mcps": {
+      "baseline": true,
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 319,
-        "currentTotal": 320
-      }
-    },
-    "mcps": {
-      "baseline": true,
-      "added": [
-        {
-          "slug": "ai-aeviamodeler-aevia",
-          "name": "Aevia",
-          "description": "AI-powered life cycle assessment and modelling: connect to LCA databases, build and analyze systems",
-          "category": "Databases & Storage"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "ai-clize-clize",
-          "name": "Clize",
-          "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
-          "category": "Finance & Data"
-        }
-      ],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 1,
-        "removed": 1,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 232,
-        "currentTotal": 232
+        "previousTotal": 233,
+        "currentTotal": 233
       }
     },
     "repos": {
