@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ExternalLink, GitFork, Star } from "lucide-react";
 import type { CardItem } from "@/lib/view";
-import type { Mcp, Repo } from "@/lib/types";
+import type { Mcp, Repo, Skill } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { AiUsage } from "./ai-usage";
 import { ResourceExtras } from "./resource-extras";
@@ -58,6 +58,9 @@ function itemJsonLd(item: CardItem) {
 export function ResourceDetail({ item }: { item: CardItem }) {
   const kind = KIND_META[item.kind];
   const mcp = item.kind === "mcps" ? (item.raw as Mcp) : null;
+  // Skills carry their own documentation now, which is the only substantial
+  // unique text on the page.
+  const skill = item.kind === "skills" ? (item.raw as Skill) : null;
   const jsonLd = [
     breadcrumbJsonLd([
       { name: kind.label, path: kind.path },
@@ -141,6 +144,7 @@ export function ResourceDetail({ item }: { item: CardItem }) {
       {mcp && <TrustPanel mcp={mcp} />}
       {mcp && <HealthPanel health={healthOf(mcp)} />}
       {mcp?.readme && <ReadmeViewer readme={mcp.readme} />}
+      {skill?.readme && <ReadmeViewer readme={skill.readme} />}
       {mcp && <AlternativesPanel current={mcp} alternatives={alternativesTo(mcp)} />}
     </article>
   );

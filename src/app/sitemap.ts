@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { skills, mcps, repos, meta, toolPages } from "@/lib/data";
 import { USE_CASES } from "@/lib/use-cases";
 import { STACKS } from "@/lib/stacks";
+import { isIndexableTool } from "@/lib/tool-index";
 import { SITE_URL, categoryPath, resourcePath } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -22,12 +23,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // 658 tool pages: the long tail of "mcp server with a <tool> tool".
-  const toolRoutes: MetadataRoute.Sitemap = toolPages.map((t) => ({
-    url: `${SITE_URL}/tools/${t.slug}`,
-    lastModified: updated,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  // A tool page is only as fresh as the servers that expose it. Stamping every
+  // URL with the build time made 850 of 1,202 entries claim the same lastmod,
+  // which tells Google nothing and is not even true.
+  const toolRoutes: MetadataRoute.Sitemap = toolPages
+    .filter((t) => isIndexableTool(t.name, t.providers.length))
+    .map((t) => {
+      const newest = t.providers
+        .map((p) => (p.server.updatedAt ? Date.parse(p.server.updatedAt) : 0))
+        .reduce((a, b) => Math.max(a, b), 0);
+      return {
+        url: `${SITE_URL}/tools/${t.slug}`,
+        lastModified: newest ? new Date(newest) : updated,
+        changeFrequency: "weekly" as const,
+        // Tools listed by more than one server answer a comparison question
+        // nothing else on the site answers, so they rank above the singletons.
+        priority: t.providers.length > 1 ? 0.7 : 0.5,
+      };
+    });
 
   const stackRoutes: MetadataRoute.Sitemap = STACKS.map((s) => ({
     url: `${SITE_URL}/stacks/${s.slug}`,

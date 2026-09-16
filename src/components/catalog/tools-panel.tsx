@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ChevronDown, Lock, Wrench } from "lucide-react";
 import type { Mcp } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { cn, toolSlug } from "@/lib/utils";
 
 /**
  * The tools a server actually exposes, with their input schemas.
@@ -58,23 +59,37 @@ export function ToolsPanel({ mcp }: { mcp: Mcp }) {
           const hasInputs = !!tool.inputs?.length;
           return (
             <li key={tool.name}>
-              <button
-                onClick={() => setOpen(isOpen ? null : tool.name)}
-                aria-expanded={isOpen}
-                disabled={!hasInputs}
-                className="ring-focus flex w-full items-start gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-2/50 disabled:cursor-default disabled:hover:bg-transparent"
-              >
-                <code className="shrink-0 font-mono text-sm text-brand-2">{tool.name}</code>
+              <div className="flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50">
+                {/*
+                  Always rendered, never behind a toggle: these are the only
+                  contextual links to the tool pages. With just the 474-link
+                  index pointing at them, Google discovered those pages and then
+                  declined to crawl a single one.
+                */}
+                <Link
+                  href={`/tools/${toolSlug(tool.name)}`}
+                  className="ring-focus shrink-0 font-mono text-sm text-brand-2 hover:underline"
+                  title={`Servers exposing ${tool.name}`}
+                >
+                  {tool.name}
+                </Link>
                 <span className="min-w-0 flex-1 text-sm text-muted">{tool.description}</span>
                 {hasInputs && (
-                  <ChevronDown
-                    className={cn(
-                      "mt-0.5 h-4 w-4 shrink-0 text-muted-2 transition-transform",
-                      isOpen && "rotate-180",
-                    )}
-                  />
+                  <button
+                    onClick={() => setOpen(isOpen ? null : tool.name)}
+                    aria-expanded={isOpen}
+                    aria-label={`${isOpen ? "Hide" : "Show"} parameters for ${tool.name}`}
+                    className="ring-focus -m-1 shrink-0 rounded p-1"
+                  >
+                    <ChevronDown
+                      className={cn(
+                        "h-4 w-4 text-muted-2 transition-transform",
+                        isOpen && "rotate-180",
+                      )}
+                    />
+                  </button>
                 )}
-              </button>
+              </div>
 
               {isOpen && tool.inputs && (
                 <div className="border-t border-border/60 bg-background/40 px-4 py-3">

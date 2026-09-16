@@ -27,6 +27,9 @@ function summarize(items, key) {
  */
 const ENRICHED_FIELDS = ["repoMeta", "stars", "tools", "toolsStatus", "readme"];
 
+/** Enrichment that describes a specific repository, not the resource itself. */
+const ORIGIN_BOUND_FIELDS = new Set(["repoMeta", "stars", "readme"]);
+
 const isEmpty = (v) =>
   v === null || v === undefined || (Array.isArray(v) && v.length === 0);
 
@@ -50,17 +53,47 @@ async function preserveEnrichment(name, current) {
 
   const before = new Map(previous.map((i) => [i.slug, i]));
   let carried = 0;
+  let dropped = 0;
 
   for (const item of current) {
     const old = before.get(item.slug);
     if (!old) continue;
+
+    // Enrichment is only valid for the source it was derived from. When a
+    // resource is re-pointed at a different repository, carrying the previous
+    // stars, README or maintenance data forward would attribute one project's
+    // numbers to another — which is how 297 skills kept the marketplace
+    // repo's 36,397 stars after being correctly re-attributed to their own.
+    const originChanged =
+      (old.repo ?? old.repository ?? null) !== (item.repo ?? item.repository ?? null) ||
+      (old.subdir ?? null) !== (item.subdir ?? null);
+
     for (const field of ENRICHED_FIELDS) {
+      if (originChanged && ORIGIN_BOUND_FIELDS.has(field)) {
+        if (!isEmpty(old[field])) dropped++;
+        continue;
+      }
       if (isEmpty(item[field]) && !isEmpty(old[field])) {
         item[field] = old[field];
         carried++;
       }
     }
   }
+
+  // Belt and braces: repoMeta records the repo it came from, so a mismatch is
+  // detectable regardless of snapshot ordering. The comparison above only sees
+  // a re-pointing on the run it happens; this catches one already baked in.
+  for (const item of current) {
+    const claimed = item.repoMeta?.slug;
+    const actual = item.repo ?? null;
+    if (claimed && actual && claimed.toLowerCase() !== actual.toLowerCase()) {
+      item.repoMeta = null;
+      item.stars = null;
+      dropped++;
+    }
+  }
+
+  if (dropped) log(`${name}: dropped ${dropped} stale values whose source repo changed`);
 
   if (carried) log(`${name}: carried ${carried} enriched values forward`);
   return current;

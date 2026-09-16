@@ -7,6 +7,7 @@ import type { Skill, Mcp, Repo, Meta, CatalogChanges, ToolInput } from "./types"
 import { skillToCard, mcpToCard, repoToCard, toPaletteItem, toolIndexOf, type PaletteItem, type ToolIndexEntry } from "./view";
 import { serverEntry, type ServerEntry } from "./ai-targets";
 import { isInstallable } from "./compat";
+import { toolSlug } from "./utils";
 
 export const skills = skillsJson as Skill[];
 export const mcps = mcpsJson as Mcp[];
@@ -140,10 +141,6 @@ export interface ToolPage {
   providers: { server: Mcp; description: string | null; inputs: ToolInput[] | null }[];
 }
 
-/** Tool names are already identifier-shaped; normalize for use in a URL. */
-export function toolSlug(name: string) {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
-}
 
 const toolPageMap = (() => {
   const map = new Map<string, ToolPage>();
@@ -171,3 +168,5 @@ export const toolPages: ToolPage[] = [...toolPageMap.values()].sort(
 export function getToolPage(slug: string) {
   return toolPageMap.get(slug);
 }
+
+export { toolSlug };
