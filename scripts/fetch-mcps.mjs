@@ -6,6 +6,7 @@
 import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs";
 import { attachRepoMeta } from "./lib/github.mjs";
 import { resolveNpmPackages } from "./lib/npm.mjs";
+import { attachInspections } from "./lib/inspect-package.mjs";
 import { fetchReferenceMCPs } from "./fetch-reference-mcps.mjs";
 import { attachTools } from "./lib/mcp-probe.mjs";
 import { attachReadmes } from "./lib/readme.mjs";
@@ -231,6 +232,14 @@ export async function fetchMCPs() {
           : null;
     }
   }
+
+  // Read the published source of the packaged servers. These are the ones that
+  // execute on the user's machine, so "what does this code reach for" is a
+  // question worth answering with evidence rather than a README.
+  const packuments = new Map(
+    [...npmMeta.entries()].flatMap(([name, meta]) => (meta.packument ? [[name, meta.packument]] : [])),
+  );
+  await attachInspections(all, packuments);
 
   // Ask remote servers what they actually do. Packaged servers are skipped
   // deliberately — see lib/mcp-probe.mjs.
