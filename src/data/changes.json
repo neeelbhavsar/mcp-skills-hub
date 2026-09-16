@@ -1,38 +1,45 @@
 {
-  "generatedAt": "2026-09-15T11:24:44.007Z",
+  "generatedAt": "2026-09-16T11:09:54.553Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "informatica-for-claude-platform",
+          "name": "informatica-for-claude-platform",
+          "description": "Governed catalog discovery for Informatica Intelligent Data Management Cloud (CDGC): find tables, columns, files, glossary terms and policies across the enterprise catalog, check ownership, certification, sensitivity and applicable policy, and get safe-usage guidance grounded in catalog metadata before querying any da…",
+          "category": "Data & Analysis"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 319,
-        "currentTotal": 319
+        "currentTotal": 320
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "ai-aard-aard",
-          "name": "Aard",
-          "description": "Official statistics from 170+ publishers, resolved from natural language with provenance.",
-          "category": "Other"
+          "slug": "ai-aeviamodeler-aevia",
+          "name": "Aevia",
+          "description": "AI-powered life cycle assessment and modelling: connect to LCA databases, build and analyze systems",
+          "category": "Databases & Storage"
         }
       ],
       "removed": [
         {
-          "slug": "ai-clize-domains",
-          "name": "Agent Domains",
-          "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
-          "category": "Health & Science"
+          "slug": "ai-clize-clize",
+          "name": "Clize",
+          "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
+          "category": "Finance & Data"
         }
       ],
       "deprecated": [],
@@ -49,40 +56,14 @@
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "hkuds-deeptutor",
-          "name": "DeepTutor",
-          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-          "category": "RAG & Retrieval"
-        },
-        {
-          "slug": "google-adk-python",
-          "name": "adk-python",
-          "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-          "category": "AI Agents"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "hkuds-lightrag",
-          "name": "LightRAG",
-          "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
-          "category": "RAG & Retrieval"
-        },
-        {
-          "slug": "agentscope-ai-qwenpaw",
-          "name": "QwenPaw",
-          "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-          "category": "AI Agents"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 2,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 127,

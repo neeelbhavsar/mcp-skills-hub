@@ -7,8 +7,8 @@
     "slug": "affaan-m-ecc",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "url": "https://github.com/affaan-m/ECC",
-    "stars": 258708,
-    "forks": 38687,
+    "stars": 259681,
+    "forks": 38845,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -22,7 +22,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T05:42:28Z"
+    "updatedAt": "2026-09-15T19:33:00Z"
   },
   {
     "id": "repo:nousresearch-hermes-agent",
@@ -32,8 +32,8 @@
     "slug": "nousresearch-hermes-agent",
     "description": "The agent that grows with you",
     "url": "https://github.com/NousResearch/hermes-agent",
-    "stars": 245688,
-    "forks": 51228,
+    "stars": 246025,
+    "forks": 51369,
     "language": "Python",
     "topics": [
       "ai",
@@ -47,7 +47,7 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:23:47Z"
+    "updatedAt": "2026-09-16T10:51:13Z"
   },
   {
     "id": "repo:deepseek-ai-deepseek-harness",
@@ -57,8 +57,8 @@
     "slug": "deepseek-ai-deepseek-harness",
     "description": "DeepSeek Harness: Everything is a Plugin.",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
-    "stars": 224854,
-    "forks": 26733,
+    "stars": 226162,
+    "forks": 26963,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -78,8 +78,8 @@
     "slug": "n8n-io-n8n",
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "url": "https://github.com/n8n-io/n8n",
-    "stars": 204360,
-    "forks": 60682,
+    "stars": 204516,
+    "forks": 60701,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -93,7 +93,7 @@
     ],
     "license": null,
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T11:23:34Z"
+    "updatedAt": "2026-09-16T11:08:45Z"
   },
   {
     "id": "repo:significant-gravitas-autogpt",
@@ -103,8 +103,8 @@
     "slug": "significant-gravitas-autogpt",
     "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "stars": 187360,
-    "forks": 46016,
+    "stars": 187380,
+    "forks": 46011,
     "language": "Python",
     "topics": [
       "agentic-ai",
@@ -118,7 +118,7 @@
     ],
     "license": null,
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T11:22:18Z"
+    "updatedAt": "2026-09-16T10:56:01Z"
   },
   {
     "id": "repo:ollama-ollama",
@@ -128,8 +128,8 @@
     "slug": "ollama-ollama",
     "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
     "url": "https://github.com/ollama/ollama",
-    "stars": 181019,
-    "forks": 17879,
+    "stars": 181112,
+    "forks": 17901,
     "language": "Go",
     "topics": [
       "deepseek",
@@ -143,7 +143,7 @@
     ],
     "license": "MIT",
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T06:32:32Z"
+    "updatedAt": "2026-09-16T00:37:09Z"
   },
   {
     "id": "repo:firecrawl-firecrawl",
@@ -153,8 +153,8 @@
     "slug": "firecrawl-firecrawl",
     "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
     "url": "https://github.com/firecrawl/firecrawl",
-    "stars": 180617,
-    "forks": 9800,
+    "stars": 181086,
+    "forks": 9819,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -168,7 +168,7 @@
     ],
     "license": "AGPL-3.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:10:17Z"
+    "updatedAt": "2026-09-16T11:05:45Z"
   },
   {
     "id": "repo:f-prompts-chat",
@@ -178,8 +178,8 @@
     "slug": "f-prompts-chat",
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "url": "https://github.com/f/prompts.chat",
-    "stars": 170392,
-    "forks": 21913,
+    "stars": 170459,
+    "forks": 21923,
     "language": "HTML",
     "topics": [
       "ai",
@@ -203,8 +203,8 @@
     "slug": "huggingface-transformers",
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 166159,
-    "forks": 34586,
+    "stars": 166239,
+    "forks": 34593,
     "language": "Python",
     "topics": [
       "audio",
@@ -218,7 +218,7 @@
     ],
     "license": "Apache-2.0",
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T11:19:02Z"
+    "updatedAt": "2026-09-16T11:06:05Z"
   },
   {
     "id": "repo:snailclimb-javaguide",
@@ -228,8 +228,8 @@
     "slug": "snailclimb-javaguide",
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
     "url": "https://github.com/Snailclimb/JavaGuide",
-    "stars": 158567,
-    "forks": 46137,
+    "stars": 158597,
+    "forks": 46136,
     "language": "JavaScript",
     "topics": [
       "agent",
@@ -253,8 +253,8 @@
     "slug": "langgenius-dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "url": "https://github.com/langgenius/dify",
-    "stars": 155796,
-    "forks": 24610,
+    "stars": 155927,
+    "forks": 24629,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -268,7 +268,7 @@
     ],
     "license": null,
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T11:04:19Z"
+    "updatedAt": "2026-09-16T08:01:27Z"
   },
   {
     "id": "repo:open-webui-open-webui",
@@ -278,8 +278,8 @@
     "slug": "open-webui-open-webui",
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "url": "https://github.com/open-webui/open-webui",
-    "stars": 152119,
-    "forks": 22261,
+    "stars": 152260,
+    "forks": 22282,
     "language": "Python",
     "topics": [
       "ai",
@@ -293,7 +293,7 @@
     ],
     "license": null,
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-14T21:57:14Z"
+    "updatedAt": "2026-09-16T04:34:26Z"
   },
   {
     "id": "repo:langchain-ai-langchain",
@@ -303,8 +303,8 @@
     "slug": "langchain-ai-langchain",
     "description": "The agent engineering platform.",
     "url": "https://github.com/langchain-ai/langchain",
-    "stars": 146365,
-    "forks": 24459,
+    "stars": 146436,
+    "forks": 24483,
     "language": "Python",
     "topics": [
       "agents",
@@ -318,7 +318,7 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T08:31:17Z"
+    "updatedAt": "2026-09-16T08:33:01Z"
   },
   {
     "id": "repo:x1xhlol-system-prompts-and-models-of-ai-tools",
@@ -328,8 +328,8 @@
     "slug": "x1xhlol-system-prompts-and-models-of-ai-tools",
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools &…",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "stars": 143640,
-    "forks": 34810,
+    "stars": 143655,
+    "forks": 34813,
     "language": null,
     "topics": [
       "ai",
@@ -353,8 +353,8 @@
     "slug": "dietrichgebert-ponytail",
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 138955,
-    "forks": 7463,
+    "stars": 139878,
+    "forks": 7517,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -378,8 +378,8 @@
     "slug": "shubhamsaboo-awesome-llm-apps",
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
     "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-    "stars": 138282,
-    "forks": 20314,
+    "stars": 138430,
+    "forks": 20337,
     "language": "Python",
     "topics": [
       "agents",
@@ -389,7 +389,7 @@
     ],
     "license": "Apache-2.0",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-14T08:06:38Z"
+    "updatedAt": "2026-09-16T04:08:39Z"
   },
   {
     "id": "repo:github-spec-kit",
@@ -399,8 +399,8 @@
     "slug": "github-spec-kit",
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
     "url": "https://github.com/github/spec-kit",
-    "stars": 136923,
-    "forks": 12273,
+    "stars": 137210,
+    "forks": 12285,
     "language": "Python",
     "topics": [
       "ai",
@@ -413,7 +413,7 @@
     ],
     "license": "MIT",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-14T20:10:58Z"
+    "updatedAt": "2026-09-15T22:48:36Z"
   },
   {
     "id": "repo:farion1231-cc-switch",
@@ -423,8 +423,8 @@
     "slug": "farion1231-cc-switch",
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
     "url": "https://github.com/farion1231/cc-switch",
-    "stars": 132963,
-    "forks": 9161,
+    "stars": 133143,
+    "forks": 9181,
     "language": "Rust",
     "topics": [
       "ai-tools",
@@ -448,8 +448,8 @@
     "slug": "nextlevelbuilder-ui-ux-pro-max-skill",
     "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
     "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-    "stars": 127751,
-    "forks": 13638,
+    "stars": 128051,
+    "forks": 13661,
     "language": "Python",
     "topics": [
       "ai-skills",
@@ -473,8 +473,8 @@
     "slug": "harry0703-moneyprinterturbo",
     "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
     "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "stars": 123815,
-    "forks": 19143,
+    "stars": 124149,
+    "forks": 19211,
     "language": "Python",
     "topics": [
       "ai-video-generator",
@@ -488,7 +488,7 @@
     ],
     "license": "MIT",
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T10:14:23Z"
+    "updatedAt": "2026-09-16T09:43:26Z"
   },
   {
     "id": "repo:microsoft-generative-ai-for-beginners",
@@ -498,8 +498,8 @@
     "slug": "microsoft-generative-ai-for-beginners",
     "description": "21 Lessons, Get Started Building with Generative AI",
     "url": "https://github.com/microsoft/generative-ai-for-beginners",
-    "stars": 119764,
-    "forks": 63062,
+    "stars": 119847,
+    "forks": 63097,
     "language": "Jupyter Notebook",
     "topics": [
       "ai",
@@ -513,7 +513,7 @@
     ],
     "license": "MIT",
     "category": "Prompts",
-    "updatedAt": "2026-09-10T01:09:32Z"
+    "updatedAt": "2026-09-15T19:29:22Z"
   },
   {
     "id": "repo:graphify-labs-graphify",
@@ -523,8 +523,8 @@
     "slug": "graphify-labs-graphify",
     "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
     "url": "https://github.com/Graphify-Labs/graphify",
-    "stars": 116875,
-    "forks": 11400,
+    "stars": 118184,
+    "forks": 11422,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -538,7 +538,7 @@
     ],
     "license": "Apache-2.0",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-12T21:24:20Z"
+    "updatedAt": "2026-09-15T17:58:19Z"
   },
   {
     "id": "repo:browser-use-browser-use",
@@ -548,8 +548,8 @@
     "slug": "browser-use-browser-use",
     "description": "Agents that use the browser.",
     "url": "https://github.com/browser-use/browser-use",
-    "stars": 114691,
-    "forks": 12605,
+    "stars": 114779,
+    "forks": 12624,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -562,7 +562,7 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T01:14:00Z"
+    "updatedAt": "2026-09-15T22:49:04Z"
   },
   {
     "id": "repo:google-gemini-gemini-cli",
@@ -572,8 +572,8 @@
     "slug": "google-gemini-gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "url": "https://github.com/google-gemini/gemini-cli",
-    "stars": 106998,
-    "forks": 14582,
+    "stars": 107012,
+    "forks": 14592,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -586,7 +586,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T01:28:16Z"
+    "updatedAt": "2026-09-16T01:28:52Z"
   },
   {
     "id": "repo:tauricresearch-tradingagents",
@@ -596,8 +596,8 @@
     "slug": "tauricresearch-tradingagents",
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "url": "https://github.com/TauricResearch/TradingAgents",
-    "stars": 106486,
-    "forks": 20352,
+    "stars": 106872,
+    "forks": 20413,
     "language": "Python",
     "topics": [
       "agent",
@@ -618,8 +618,8 @@
     "slug": "juliusbrussee-caveman",
     "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
     "url": "https://github.com/JuliusBrussee/caveman",
-    "stars": 105678,
-    "forks": 6117,
+    "stars": 105885,
+    "forks": 6127,
     "language": "Go",
     "topics": [
       "ai",
@@ -633,7 +633,7 @@
     ],
     "license": null,
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T07:52:04Z"
+    "updatedAt": "2026-09-16T07:52:54Z"
   },
   {
     "id": "repo:rasbt-llms-from-scratch",
@@ -643,8 +643,8 @@
     "slug": "rasbt-llms-from-scratch",
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
     "url": "https://github.com/rasbt/LLMs-from-scratch",
-    "stars": 105001,
-    "forks": 16091,
+    "stars": 105066,
+    "forks": 16103,
     "language": "Jupyter Notebook",
     "topics": [
       "ai",
@@ -668,8 +668,8 @@
     "slug": "punkpeye-awesome-mcp-servers",
     "description": "A collection of MCP servers.",
     "url": "https://github.com/punkpeye/awesome-mcp-servers",
-    "stars": 95029,
-    "forks": 16175,
+    "stars": 95071,
+    "forks": 16213,
     "language": null,
     "topics": [
       "ai",
@@ -677,7 +677,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-13T07:49:46Z"
+    "updatedAt": "2026-09-15T23:17:39Z"
   },
   {
     "id": "repo:thedotmack-claude-mem",
@@ -687,8 +687,8 @@
     "slug": "thedotmack-claude-mem",
     "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "url": "https://github.com/thedotmack/claude-mem",
-    "stars": 93936,
-    "forks": 8268,
+    "stars": 94014,
+    "forks": 8282,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -702,7 +702,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-13T09:42:20Z"
+    "updatedAt": "2026-09-16T01:00:29Z"
   },
   {
     "id": "repo:vllm-project-vllm",
@@ -712,8 +712,8 @@
     "slug": "vllm-project-vllm",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
     "url": "https://github.com/vllm-project/vllm",
-    "stars": 91812,
-    "forks": 22221,
+    "stars": 91904,
+    "forks": 22270,
     "language": "Python",
     "topics": [
       "amd",
@@ -727,7 +727,7 @@
     ],
     "license": "Apache-2.0",
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T11:01:07Z"
+    "updatedAt": "2026-09-16T10:55:27Z"
   },
   {
     "id": "repo:infiniflow-ragflow",
@@ -737,8 +737,8 @@
     "slug": "infiniflow-ragflow",
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
     "url": "https://github.com/infiniflow/ragflow",
-    "stars": 90728,
-    "forks": 10742,
+    "stars": 90804,
+    "forks": 10747,
     "language": "Go",
     "topics": [
       "agent-harness",
@@ -752,7 +752,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:22:37Z"
+    "updatedAt": "2026-09-16T11:08:03Z"
   },
   {
     "id": "repo:paddlepaddle-paddleocr",
@@ -762,8 +762,8 @@
     "slug": "paddlepaddle-paddleocr",
     "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
     "url": "https://github.com/PaddlePaddle/PaddleOCR",
-    "stars": 89575,
-    "forks": 11336,
+    "stars": 89640,
+    "forks": 11344,
     "language": "Python",
     "topics": [
       "ai4science",
@@ -777,7 +777,7 @@
     ],
     "license": "Apache-2.0",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-07-22T11:59:34Z"
+    "updatedAt": "2026-09-16T03:31:50Z"
   },
   {
     "id": "repo:openhands-openhands",
@@ -787,8 +787,8 @@
     "slug": "openhands-openhands",
     "description": "🙌 OpenHands: AI-Driven Development",
     "url": "https://github.com/OpenHands/OpenHands",
-    "stars": 87969,
-    "forks": 11535,
+    "stars": 88109,
+    "forks": 11565,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -802,7 +802,7 @@
     ],
     "license": "MIT",
     "category": "LLM Frameworks",
-    "updatedAt": "2026-09-15T05:01:39Z"
+    "updatedAt": "2026-09-16T11:08:24Z"
   },
   {
     "id": "repo:koala73-worldmonitor",
@@ -812,8 +812,8 @@
     "slug": "koala73-worldmonitor",
     "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
     "url": "https://github.com/koala73/worldmonitor",
-    "stars": 86318,
-    "forks": 13099,
+    "stars": 86553,
+    "forks": 13118,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -827,7 +827,7 @@
     ],
     "license": "AGPL-3.0",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T11:22:28Z"
+    "updatedAt": "2026-09-16T10:44:09Z"
   },
   {
     "id": "repo:mlabonne-llm-course",
@@ -837,8 +837,8 @@
     "slug": "mlabonne-llm-course",
     "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
     "url": "https://github.com/mlabonne/llm-course",
-    "stars": 82827,
-    "forks": 9636,
+    "stars": 82921,
+    "forks": 9651,
     "language": null,
     "topics": [
       "course",
@@ -852,31 +852,6 @@
     "updatedAt": "2026-02-05T13:09:26Z"
   },
   {
-    "id": "repo:lobehub-lobehub",
-    "name": "lobehub",
-    "fullName": "lobehub/lobehub",
-    "owner": "lobehub",
-    "slug": "lobehub-lobehub",
-    "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-    "url": "https://github.com/lobehub/lobehub",
-    "stars": 82496,
-    "forks": 15887,
-    "language": "TypeScript",
-    "topics": [
-      "agent",
-      "agent-collaboration",
-      "agent-harness",
-      "ai",
-      "cao",
-      "chatgpt",
-      "chief-agent-operator",
-      "claude"
-    ],
-    "license": null,
-    "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T11:08:25Z"
-  },
-  {
     "id": "repo:bytedance-deer-flow",
     "name": "deer-flow",
     "fullName": "bytedance/deer-flow",
@@ -884,8 +859,8 @@
     "slug": "bytedance-deer-flow",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "url": "https://github.com/bytedance/deer-flow",
-    "stars": 82471,
-    "forks": 11375,
+    "stars": 82524,
+    "forks": 11383,
     "language": "Python",
     "topics": [
       "agent",
@@ -899,7 +874,32 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T00:45:08Z"
+    "updatedAt": "2026-09-16T10:46:18Z"
+  },
+  {
+    "id": "repo:lobehub-lobehub",
+    "name": "lobehub",
+    "fullName": "lobehub/lobehub",
+    "owner": "lobehub",
+    "slug": "lobehub-lobehub",
+    "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "url": "https://github.com/lobehub/lobehub",
+    "stars": 82523,
+    "forks": 15893,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "agent-collaboration",
+      "agent-harness",
+      "ai",
+      "cao",
+      "chatgpt",
+      "chief-agent-operator",
+      "claude"
+    ],
+    "license": null,
+    "category": "MCP & Tooling",
+    "updatedAt": "2026-09-16T10:26:21Z"
   },
   {
     "id": "repo:panniantong-agent-reach",
@@ -909,8 +909,8 @@
     "slug": "panniantong-agent-reach",
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "url": "https://github.com/Panniantong/Agent-Reach",
-    "stars": 81823,
-    "forks": 7116,
+    "stars": 82268,
+    "forks": 7170,
     "language": "Python",
     "topics": [
       "agent-infrastructure",
@@ -924,7 +924,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-01T08:09:58Z"
+    "updatedAt": "2026-09-15T16:16:24Z"
   },
   {
     "id": "repo:d4vinci-scrapling",
@@ -934,8 +934,8 @@
     "slug": "d4vinci-scrapling",
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ",
     "url": "https://github.com/D4Vinci/Scrapling",
-    "stars": 81053,
-    "forks": 8185,
+    "stars": 81291,
+    "forks": 8227,
     "language": "Python",
     "topics": [
       "ai",
@@ -959,8 +959,8 @@
     "slug": "netdata-netdata",
     "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "url": "https://github.com/netdata/netdata",
-    "stars": 80533,
-    "forks": 6631,
+    "stars": 80545,
+    "forks": 6628,
     "language": "Go",
     "topics": [
       "ai",
@@ -974,7 +974,7 @@
     ],
     "license": "GPL-3.0",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T10:35:08Z"
+    "updatedAt": "2026-09-16T10:13:41Z"
   },
   {
     "id": "repo:datawhalechina-hello-agents",
@@ -984,8 +984,8 @@
     "slug": "datawhalechina-hello-agents",
     "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
     "url": "https://github.com/datawhalechina/hello-agents",
-    "stars": 79070,
-    "forks": 9821,
+    "stars": 79327,
+    "forks": 9859,
     "language": "Python",
     "topics": [
       "agent",
@@ -1005,8 +1005,8 @@
     "slug": "dair-ai-prompt-engineering-guide",
     "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
     "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-    "stars": 78333,
-    "forks": 8605,
+    "stars": 78364,
+    "forks": 8618,
     "language": "MDX",
     "topics": [
       "agent",
@@ -1030,8 +1030,8 @@
     "slug": "shareai-lab-learn-claude-code",
     "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "url": "https://github.com/shareAI-lab/learn-claude-code",
-    "stars": 76824,
-    "forks": 12348,
+    "stars": 76940,
+    "forks": 12373,
     "language": "Python",
     "topics": [
       "agent",
@@ -1055,8 +1055,8 @@
     "slug": "unslothai-unsloth",
     "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
     "url": "https://github.com/unslothai/unsloth",
-    "stars": 76193,
-    "forks": 6946,
+    "stars": 76223,
+    "forks": 6945,
     "language": "Python",
     "topics": [
       "agent",
@@ -1070,7 +1070,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:23:48Z"
+    "updatedAt": "2026-09-16T11:07:38Z"
   },
   {
     "id": "repo:composiohq-awesome-claude-skills",
@@ -1080,8 +1080,8 @@
     "slug": "composiohq-awesome-claude-skills",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "stars": 75066,
-    "forks": 8678,
+    "stars": 75183,
+    "forks": 8693,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -1098,31 +1098,6 @@
     "updatedAt": "2026-08-10T21:45:44Z"
   },
   {
-    "id": "repo:hiyouga-llamafactory",
-    "name": "LlamaFactory",
-    "fullName": "hiyouga/LlamaFactory",
-    "owner": "hiyouga",
-    "slug": "hiyouga-llamafactory",
-    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-    "url": "https://github.com/hiyouga/LlamaFactory",
-    "stars": 74783,
-    "forks": 9159,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "ai",
-      "deepseek",
-      "fine-tuning",
-      "gemma",
-      "gpt",
-      "instruction-tuning",
-      "large-language-models"
-    ],
-    "license": "Apache-2.0",
-    "category": "AI Agents",
-    "updatedAt": "2026-09-14T08:09:48Z"
-  },
-  {
     "id": "repo:microsoft-ai-agents-for-beginners",
     "name": "ai-agents-for-beginners",
     "fullName": "microsoft/ai-agents-for-beginners",
@@ -1130,8 +1105,8 @@
     "slug": "microsoft-ai-agents-for-beginners",
     "description": "18 Lessons to Get Started Building AI Agents",
     "url": "https://github.com/microsoft/ai-agents-for-beginners",
-    "stars": 74761,
-    "forks": 24647,
+    "stars": 74849,
+    "forks": 24681,
     "language": "Jupyter Notebook",
     "topics": [
       "agentic-ai",
@@ -1148,6 +1123,31 @@
     "updatedAt": "2026-09-10T17:41:19Z"
   },
   {
+    "id": "repo:hiyouga-llamafactory",
+    "name": "LlamaFactory",
+    "fullName": "hiyouga/LlamaFactory",
+    "owner": "hiyouga",
+    "slug": "hiyouga-llamafactory",
+    "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+    "url": "https://github.com/hiyouga/LlamaFactory",
+    "stars": 74810,
+    "forks": 9166,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "deepseek",
+      "fine-tuning",
+      "gemma",
+      "gpt",
+      "instruction-tuning",
+      "large-language-models"
+    ],
+    "license": "Apache-2.0",
+    "category": "AI Agents",
+    "updatedAt": "2026-09-14T08:09:48Z"
+  },
+  {
     "id": "repo:thedaviddias-front-end-checklist",
     "name": "Front-End-Checklist",
     "fullName": "thedaviddias/Front-End-Checklist",
@@ -1155,8 +1155,8 @@
     "slug": "thedaviddias-front-end-checklist",
     "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
     "url": "https://github.com/thedaviddias/Front-End-Checklist",
-    "stars": 74144,
-    "forks": 6737,
+    "stars": 74151,
+    "forks": 6739,
     "language": "MDX",
     "topics": [
       "ai-agent",
@@ -1180,8 +1180,8 @@
     "slug": "ruvnet-ruflo",
     "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
     "url": "https://github.com/ruvnet/ruflo",
-    "stars": 72501,
-    "forks": 8582,
+    "stars": 72588,
+    "forks": 8595,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -1195,7 +1195,7 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T07:36:21Z"
+    "updatedAt": "2026-09-16T07:56:16Z"
   },
   {
     "id": "repo:headroomlabs-ai-headroom",
@@ -1205,8 +1205,8 @@
     "slug": "headroomlabs-ai-headroom",
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "url": "https://github.com/headroomlabs-ai/headroom",
-    "stars": 72247,
-    "forks": 5531,
+    "stars": 72391,
+    "forks": 5551,
     "language": "Python",
     "topics": [
       "agent",
@@ -1220,7 +1220,7 @@
     ],
     "license": "Apache-2.0",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T04:39:29Z"
+    "updatedAt": "2026-09-16T02:23:53Z"
   },
   {
     "id": "repo:daytonaio-daytona",
@@ -1230,8 +1230,8 @@
     "slug": "daytonaio-daytona",
     "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
     "url": "https://github.com/daytonaio/daytona",
-    "stars": 71715,
-    "forks": 5644,
+    "stars": 71712,
+    "forks": 5643,
     "language": null,
     "topics": [
       "agentic-workflow",
@@ -1255,8 +1255,8 @@
     "slug": "foundationagents-metagpt",
     "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
     "url": "https://github.com/FoundationAgents/MetaGPT",
-    "stars": 70399,
-    "forks": 8947,
+    "stars": 70420,
+    "forks": 8945,
     "language": "Python",
     "topics": [
       "agent",
@@ -1277,8 +1277,8 @@
     "slug": "stablyai-orca",
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
     "url": "https://github.com/stablyai/orca",
-    "stars": 69123,
-    "forks": 4512,
+    "stars": 69882,
+    "forks": 4562,
     "language": "TypeScript",
     "topics": [
       "ade",
@@ -1292,7 +1292,7 @@
     ],
     "license": "MIT",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T10:30:23Z"
+    "updatedAt": "2026-09-16T11:03:46Z"
   },
   {
     "id": "repo:code-yeongyu-oh-my-openagent",
@@ -1302,8 +1302,8 @@
     "slug": "code-yeongyu-oh-my-openagent",
     "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
     "url": "https://github.com/code-yeongyu/oh-my-openagent",
-    "stars": 69068,
-    "forks": 5684,
+    "stars": 69092,
+    "forks": 5686,
     "language": "TypeScript",
     "topics": [
       "ai",
@@ -1317,7 +1317,7 @@
     ],
     "license": null,
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:12:11Z"
+    "updatedAt": "2026-09-16T10:11:24Z"
   },
   {
     "id": "repo:asgeirtj-system-prompts-leaks",
@@ -1327,8 +1327,8 @@
     "slug": "asgeirtj-system-prompts-leaks",
     "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "stars": 67090,
-    "forks": 10894,
+    "stars": 67300,
+    "forks": 10924,
     "language": "JavaScript",
     "topics": [
       "ai",
@@ -1342,7 +1342,7 @@
     ],
     "license": "CC0-1.0",
     "category": "Prompts",
-    "updatedAt": "2026-09-13T19:18:51Z"
+    "updatedAt": "2026-09-15T16:46:47Z"
   },
   {
     "id": "repo:diegosouzapw-omniroute",
@@ -1352,8 +1352,8 @@
     "slug": "diegosouzapw-omniroute",
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+…",
     "url": "https://github.com/diegosouzapw/OmniRoute",
-    "stars": 66390,
-    "forks": 9307,
+    "stars": 66797,
+    "forks": 9380,
     "language": "TypeScript",
     "topics": [
       "a2a",
@@ -1367,7 +1367,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T10:24:21Z"
+    "updatedAt": "2026-09-16T11:08:49Z"
   },
   {
     "id": "repo:mintplex-labs-anything-llm",
@@ -1377,8 +1377,8 @@
     "slug": "mintplex-labs-anything-llm",
     "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience",
     "url": "https://github.com/Mintplex-Labs/anything-llm",
-    "stars": 66046,
-    "forks": 7330,
+    "stars": 66091,
+    "forks": 7343,
     "language": "JavaScript",
     "topics": [
       "agent-computer",
@@ -1392,7 +1392,7 @@
     ],
     "license": "MIT",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-15T01:59:13Z"
+    "updatedAt": "2026-09-16T04:18:55Z"
   },
   {
     "id": "repo:mem0ai-mem0",
@@ -1402,8 +1402,8 @@
     "slug": "mem0ai-mem0",
     "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
     "url": "https://github.com/mem0ai/mem0",
-    "stars": 65327,
-    "forks": 7655,
+    "stars": 65394,
+    "forks": 7667,
     "language": "Python",
     "topics": [
       "agentic-memory",
@@ -1417,7 +1417,7 @@
     ],
     "license": "Apache-2.0",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-14T19:12:46Z"
+    "updatedAt": "2026-09-15T21:19:16Z"
   },
   {
     "id": "repo:sansan0-trendradar",
@@ -1427,8 +1427,8 @@
     "slug": "sansan0-trendradar",
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "url": "https://github.com/sansan0/TrendRadar",
-    "stars": 62278,
-    "forks": 24884,
+    "stars": 62293,
+    "forks": 24881,
     "language": "Python",
     "topics": [
       "ai",
@@ -1452,8 +1452,8 @@
     "slug": "upstash-context7",
     "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
     "url": "https://github.com/upstash/context7",
-    "stars": 62044,
-    "forks": 2995,
+    "stars": 62074,
+    "forks": 3001,
     "language": "TypeScript",
     "topics": [
       "llm",
@@ -1463,7 +1463,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T10:43:06Z"
+    "updatedAt": "2026-09-16T09:23:52Z"
   },
   {
     "id": "repo:calesthio-openmontage",
@@ -1473,8 +1473,8 @@
     "slug": "calesthio-openmontage",
     "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
     "url": "https://github.com/calesthio/OpenMontage",
-    "stars": 59233,
-    "forks": 7443,
+    "stars": 59446,
+    "forks": 7481,
     "language": "Python",
     "topics": [
       "agent",
@@ -1498,8 +1498,8 @@
     "slug": "mempalace-mempalace",
     "description": "The best-benchmarked open-source AI memory system. And it's free.",
     "url": "https://github.com/MemPalace/mempalace",
-    "stars": 59072,
-    "forks": 7555,
+    "stars": 59091,
+    "forks": 7557,
     "language": "Python",
     "topics": [
       "ai",
@@ -1511,7 +1511,7 @@
     ],
     "license": "MIT",
     "category": "MCP & Tooling",
-    "updatedAt": "2026-09-15T08:16:34Z"
+    "updatedAt": "2026-09-16T10:44:11Z"
   },
   {
     "id": "repo:pathwaycom-llm-app",
@@ -1521,8 +1521,8 @@
     "slug": "pathwaycom-llm-app",
     "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
     "url": "https://github.com/pathwaycom/llm-app",
-    "stars": 58929,
-    "forks": 1497,
+    "stars": 58927,
+    "forks": 1498,
     "language": "Jupyter Notebook",
     "topics": [
       "chatbot",
@@ -1546,8 +1546,8 @@
     "slug": "flowiseai-flowise",
     "description": "Build AI Agents, Visually",
     "url": "https://github.com/FlowiseAI/Flowise",
-    "stars": 55460,
-    "forks": 25017,
+    "stars": 55464,
+    "forks": 25019,
     "language": "TypeScript",
     "topics": [
       "agentic-ai",
@@ -1571,8 +1571,8 @@
     "slug": "rohitg00-ai-engineering-from-scratch",
     "description": "Learn it. Build it. Ship it for others.",
     "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "stars": 54642,
-    "forks": 9567,
+    "stars": 54764,
+    "forks": 9600,
     "language": "Python",
     "topics": [
       "agents",
@@ -1596,8 +1596,8 @@
     "slug": "run-llama-llama-index",
     "description": "LlamaIndex is the document processing platform for AI",
     "url": "https://github.com/run-llama/llama_index",
-    "stars": 52167,
-    "forks": 8140,
+    "stars": 52185,
+    "forks": 8152,
     "language": "Python",
     "topics": [
       "agents",
@@ -1611,7 +1611,7 @@
     ],
     "license": "MIT",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-15T01:48:43Z"
+    "updatedAt": "2026-09-15T23:21:17Z"
   },
   {
     "id": "repo:elder-plinius-cl4r1t4s",
@@ -1621,8 +1621,8 @@
     "slug": "elder-plinius-cl4r1t4s",
     "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
     "url": "https://github.com/elder-plinius/CL4R1T4S",
-    "stars": 49867,
-    "forks": 10252,
+    "stars": 49915,
+    "forks": 10259,
     "language": null,
     "topics": [
       "agents",
@@ -1646,8 +1646,8 @@
     "slug": "blader-humanizer",
     "description": "Agent skill that removes signs of AI-generated writing from text",
     "url": "https://github.com/blader/humanizer",
-    "stars": 48339,
-    "forks": 3932,
+    "stars": 48920,
+    "forks": 3971,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -1670,8 +1670,8 @@
     "slug": "imbad0202-academic-research-skills",
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
     "url": "https://github.com/Imbad0202/academic-research-skills",
-    "stars": 48134,
-    "forks": 3750,
+    "stars": 48296,
+    "forks": 3763,
     "language": "Python",
     "topics": [
       "academic-pipeline",
@@ -1685,7 +1685,32 @@
     ],
     "license": null,
     "category": "Prompts",
-    "updatedAt": "2026-09-15T07:56:55Z"
+    "updatedAt": "2026-09-16T03:18:59Z"
+  },
+  {
+    "id": "repo:bojieli-ai-agent-book",
+    "name": "ai-agent-book",
+    "fullName": "bojieli/ai-agent-book",
+    "owner": "bojieli",
+    "slug": "bojieli-ai-agent-book",
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "stars": 47915,
+    "forks": 5338,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-memory",
+      "ai-agent",
+      "book",
+      "coding-agent",
+      "context-engineering",
+      "large-language-models",
+      "llm"
+    ],
+    "license": "Apache-2.0",
+    "category": "RAG & Retrieval",
+    "updatedAt": "2026-09-16T03:02:22Z"
   },
   {
     "id": "repo:jeecgboot-jeecgboot",
@@ -1695,8 +1720,8 @@
     "slug": "jeecgboot-jeecgboot",
     "description": "【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
     "url": "https://github.com/jeecgboot/JeecgBoot",
-    "stars": 47815,
-    "forks": 16181,
+    "stars": 47841,
+    "forks": 16183,
     "language": "Java",
     "topics": [
       "activiti",
@@ -1713,31 +1738,6 @@
     "updatedAt": "2026-09-11T09:53:29Z"
   },
   {
-    "id": "repo:bojieli-ai-agent-book",
-    "name": "ai-agent-book",
-    "fullName": "bojieli/ai-agent-book",
-    "owner": "bojieli",
-    "slug": "bojieli-ai-agent-book",
-    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-    "url": "https://github.com/bojieli/ai-agent-book",
-    "stars": 47433,
-    "forks": 5301,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "agent-memory",
-      "ai-agent",
-      "book",
-      "coding-agent",
-      "context-engineering",
-      "large-language-models",
-      "llm"
-    ],
-    "license": "Apache-2.0",
-    "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-15T03:02:40Z"
-  },
-  {
     "id": "repo:milvus-io-milvus",
     "name": "milvus",
     "fullName": "milvus-io/milvus",
@@ -1745,7 +1745,7 @@
     "slug": "milvus-io-milvus",
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
     "url": "https://github.com/milvus-io/milvus",
-    "stars": 46120,
+    "stars": 46125,
     "forks": 4253,
     "language": "Go",
     "topics": [
@@ -1760,7 +1760,7 @@
     ],
     "license": "Apache-2.0",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-15T11:17:37Z"
+    "updatedAt": "2026-09-16T10:47:37Z"
   },
   {
     "id": "repo:chatboxai-chatbox",
@@ -1770,7 +1770,7 @@
     "slug": "chatboxai-chatbox",
     "description": "Powerful AI Client",
     "url": "https://github.com/chatboxai/chatbox",
-    "stars": 41772,
+    "stars": 41783,
     "forks": 4250,
     "language": "TypeScript",
     "topics": [
@@ -1795,8 +1795,8 @@
     "slug": "langchain-ai-langgraph",
     "description": "Build resilient agents.",
     "url": "https://github.com/langchain-ai/langgraph",
-    "stars": 41687,
-    "forks": 7043,
+    "stars": 41755,
+    "forks": 7055,
     "language": "Python",
     "topics": [
       "agents",
@@ -1810,7 +1810,7 @@
     ],
     "license": "MIT",
     "category": "RAG & Retrieval",
-    "updatedAt": "2026-09-14T19:45:22Z"
+    "updatedAt": "2026-09-15T16:04:25Z"
   },
   {
     "id": "repo:patrickjs-awesome-cursorrules",
@@ -1820,8 +1820,8 @@
     "slug": "patrickjs-awesome-cursorrules",
     "description": "📄 Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
     "url": "https://github.com/PatrickJS/awesome-cursorrules",
-    "stars": 40789,
-    "forks": 3485,
+    "stars": 40793,
+    "forks": 3487,
     "language": "JavaScript",
     "topics": [
       "awesome",
@@ -1842,8 +1842,8 @@
     "slug": "astrbotdevs-astrbot",
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "url": "https://github.com/AstrBotDevs/AstrBot",
-    "stars": 40528,
-    "forks": 2915,
+    "stars": 40570,
+    "forks": 2920,
     "language": "Python",
     "topics": [
       "agent",
@@ -1857,7 +1857,7 @@
     ],
     "license": "AGPL-3.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T09:05:42Z"
+    "updatedAt": "2026-09-16T07:42:52Z"
   },
   {
     "id": "repo:2noise-chattts",
@@ -1867,7 +1867,7 @@
     "slug": "2noise-chattts",
     "description": "A generative speech model for daily dialogue.",
     "url": "https://github.com/2noise/ChatTTS",
-    "stars": 39842,
+    "stars": 39843,
     "forks": 4256,
     "language": "Python",
     "topics": [
@@ -1892,8 +1892,8 @@
     "slug": "hkuds-deeptutor",
     "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
     "url": "https://github.com/HKUDS/DeepTutor",
-    "stars": 39692,
-    "forks": 4981,
+    "stars": 39786,
+    "forks": 4988,
     "language": "Python",
     "topics": [
       "ai-agents",
@@ -1917,8 +1917,8 @@
     "slug": "github-awesome-copilot",
     "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
     "url": "https://github.com/github/awesome-copilot",
-    "stars": 39024,
-    "forks": 4946,
+    "stars": 39069,
+    "forks": 4956,
     "language": "JavaScript",
     "topics": [
       "agent-skills",
@@ -1932,7 +1932,7 @@
     ],
     "license": "MIT",
     "category": "Prompts",
-    "updatedAt": "2026-09-15T06:47:04Z"
+    "updatedAt": "2026-09-16T04:47:11Z"
   },
   {
     "id": "repo:copilotkit-copilotkit",
@@ -1942,8 +1942,8 @@
     "slug": "copilotkit-copilotkit",
     "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
     "url": "https://github.com/CopilotKit/CopilotKit",
-    "stars": 37368,
-    "forks": 4629,
+    "stars": 37380,
+    "forks": 4631,
     "language": "TypeScript",
     "topics": [
       "agent",
@@ -1957,7 +1957,7 @@
     ],
     "license": "MIT",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-15T11:18:20Z"
+    "updatedAt": "2026-09-16T10:32:08Z"
   },
   {
     "id": "repo:khoj-ai-khoj",
@@ -1967,8 +1967,8 @@
     "slug": "khoj-ai-khoj",
     "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "url": "https://github.com/khoj-ai/khoj",
-    "stars": 37339,
-    "forks": 2481,
+    "stars": 37355,
+    "forks": 2483,
     "language": "Python",
     "topics": [
       "agent",
@@ -1992,8 +1992,8 @@
     "slug": "ashishpatel26-500-ai-machine-learning-deep-learning-computer-vision-nlp-projects",
     "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
     "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-    "stars": 36857,
-    "forks": 7483,
+    "stars": 36870,
+    "forks": 7482,
     "language": null,
     "topics": [
       "artificial-intelligence",
@@ -2017,8 +2017,8 @@
     "slug": "linshenkx-prompt-optimizer",
     "description": "An AI prompt optimizer for writing better prompts and getting better AI results.",
     "url": "https://github.com/linshenkx/prompt-optimizer",
-    "stars": 34731,
-    "forks": 4060,
+    "stars": 34828,
+    "forks": 4066,
     "language": "TypeScript",
     "topics": [
       "ai-prompts",
@@ -2042,8 +2042,8 @@
     "slug": "langfuse-langfuse",
     "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
     "url": "https://github.com/langfuse/langfuse",
-    "stars": 34635,
-    "forks": 3772,
+    "stars": 34680,
+    "forks": 3778,
     "language": "TypeScript",
     "topics": [
       "analytics",
@@ -2057,7 +2057,7 @@
     ],
     "license": null,
     "category": "Prompts",
-    "updatedAt": "2026-09-15T11:23:48Z"
+    "updatedAt": "2026-09-16T11:09:02Z"
   },
   {
     "id": "repo:freestylefly-awesome-gpt-image-2",
@@ -2067,8 +2067,8 @@
     "slug": "freestylefly-awesome-gpt-image-2",
     "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
     "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "stars": 32024,
-    "forks": 3080,
+    "stars": 32204,
+    "forks": 3101,
     "language": "JavaScript",
     "topics": [
       "agents",
@@ -2092,8 +2092,8 @@
     "slug": "agentscope-ai-agentscope",
     "description": "Build and run agents you can see, understand and trust.",
     "url": "https://github.com/agentscope-ai/agentscope",
-    "stars": 31704,
-    "forks": 3509,
+    "stars": 31795,
+    "forks": 3513,
     "language": "Python",
     "topics": [
       "agent",
@@ -2107,7 +2107,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T07:36:30Z"
+    "updatedAt": "2026-09-16T06:16:13Z"
   },
   {
     "id": "repo:e2b-dev-awesome-ai-agents",
@@ -2117,8 +2117,8 @@
     "slug": "e2b-dev-awesome-ai-agents",
     "description": "A list of AI autonomous agents",
     "url": "https://github.com/e2b-dev/awesome-ai-agents",
-    "stars": 30019,
-    "forks": 3465,
+    "stars": 30032,
+    "forks": 3467,
     "language": null,
     "topics": [
       "agent",
@@ -2142,8 +2142,8 @@
     "slug": "assafelovic-gpt-researcher",
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
     "url": "https://github.com/assafelovic/gpt-researcher",
-    "stars": 29460,
-    "forks": 4007,
+    "stars": 29479,
+    "forks": 4011,
     "language": "Python",
     "topics": [
       "agent",
@@ -2160,6 +2160,31 @@
     "updatedAt": "2026-08-27T19:34:56Z"
   },
   {
+    "id": "repo:oraios-serena",
+    "name": "serena",
+    "fullName": "oraios/serena",
+    "owner": "oraios",
+    "slug": "oraios-serena",
+    "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent",
+    "url": "https://github.com/oraios/serena",
+    "stars": 29451,
+    "forks": 1996,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "codex",
+      "ide",
+      "jetbrains"
+    ],
+    "license": null,
+    "category": "AI Agents",
+    "updatedAt": "2026-09-16T00:25:21Z"
+  },
+  {
     "id": "repo:aishwaryanr-awesome-generative-ai-guide",
     "name": "awesome-generative-ai-guide",
     "fullName": "aishwaryanr/awesome-generative-ai-guide",
@@ -2167,7 +2192,7 @@
     "slug": "aishwaryanr-awesome-generative-ai-guide",
     "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
     "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-    "stars": 29423,
+    "stars": 29438,
     "forks": 5953,
     "language": "HTML",
     "topics": [
@@ -2185,31 +2210,6 @@
     "updatedAt": "2026-09-10T22:50:59Z"
   },
   {
-    "id": "repo:oraios-serena",
-    "name": "serena",
-    "fullName": "oraios/serena",
-    "owner": "oraios",
-    "slug": "oraios-serena",
-    "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent",
-    "url": "https://github.com/oraios/serena",
-    "stars": 29365,
-    "forks": 1991,
-    "language": "Python",
-    "topics": [
-      "agent",
-      "ai",
-      "ai-coding",
-      "claude",
-      "claude-code",
-      "codex",
-      "ide",
-      "jetbrains"
-    ],
-    "license": null,
-    "category": "AI Agents",
-    "updatedAt": "2026-09-15T10:50:50Z"
-  },
-  {
     "id": "repo:decolua-9router",
     "name": "9router",
     "fullName": "decolua/9router",
@@ -2217,8 +2217,8 @@
     "slug": "decolua-9router",
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
     "url": "https://github.com/decolua/9router",
-    "stars": 28812,
-    "forks": 5291,
+    "stars": 28997,
+    "forks": 5318,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -2267,8 +2267,8 @@
     "slug": "rohitg00-agentmemory",
     "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
     "url": "https://github.com/rohitg00/agentmemory",
-    "stars": 28458,
-    "forks": 2460,
+    "stars": 28495,
+    "forks": 2463,
     "language": "TypeScript",
     "topics": [
       "agentmemory",
@@ -2292,8 +2292,8 @@
     "slug": "mlflow-mlflow",
     "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
     "url": "https://github.com/mlflow/mlflow",
-    "stars": 27963,
-    "forks": 6304,
+    "stars": 27980,
+    "forks": 6312,
     "language": "Python",
     "topics": [
       "agentops",
@@ -2307,7 +2307,7 @@
     ],
     "license": "Apache-2.0",
     "category": "Prompts",
-    "updatedAt": "2026-09-15T10:26:57Z"
+    "updatedAt": "2026-09-16T10:50:01Z"
   },
   {
     "id": "repo:zai-org-open-autoglm",
@@ -2317,8 +2317,8 @@
     "slug": "zai-org-open-autoglm",
     "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
     "url": "https://github.com/zai-org/Open-AutoGLM",
-    "stars": 26222,
-    "forks": 4028,
+    "stars": 26236,
+    "forks": 4030,
     "language": "Python",
     "topics": [
       "agent",
@@ -2336,8 +2336,8 @@
     "slug": "alirezarezvani-claude-skills",
     "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and…",
     "url": "https://github.com/alirezarezvani/claude-skills",
-    "stars": 25975,
-    "forks": 3657,
+    "stars": 26013,
+    "forks": 3660,
     "language": "Python",
     "topics": [
       "agent-plugins",
@@ -2361,7 +2361,7 @@
     "slug": "humanlayer-12-factor-agents",
     "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
     "url": "https://github.com/humanlayer/12-factor-agents",
-    "stars": 25866,
+    "stars": 25876,
     "forks": 1969,
     "language": "TypeScript",
     "topics": [
@@ -2386,8 +2386,8 @@
     "slug": "enescingoz-awesome-n8n-templates",
     "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
     "url": "https://github.com/enescingoz/awesome-n8n-templates",
-    "stars": 25366,
-    "forks": 6459,
+    "stars": 25395,
+    "forks": 6466,
     "language": null,
     "topics": [
       "ai-agents",
@@ -2411,8 +2411,8 @@
     "slug": "promptfoo-promptfoo",
     "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic.",
     "url": "https://github.com/promptfoo/promptfoo",
-    "stars": 25117,
-    "forks": 2308,
+    "stars": 25170,
+    "forks": 2318,
     "language": "TypeScript",
     "topics": [
       "ci",
@@ -2426,7 +2426,7 @@
     ],
     "license": "MIT",
     "category": "Prompts",
-    "updatedAt": "2026-09-15T11:14:30Z"
+    "updatedAt": "2026-09-16T10:21:38Z"
   },
   {
     "id": "repo:vanna-ai-vanna",
@@ -2437,7 +2437,7 @@
     "description": "🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.",
     "url": "https://github.com/vanna-ai/vanna",
     "stars": 23815,
-    "forks": 2506,
+    "forks": 2507,
     "language": "Python",
     "topics": [
       "agent",
@@ -2461,8 +2461,8 @@
     "slug": "mksglu-context-mode",
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
     "url": "https://github.com/mksglu/context-mode",
-    "stars": 22984,
-    "forks": 1658,
+    "stars": 23164,
+    "forks": 1673,
     "language": "TypeScript",
     "topics": [
       "antigravity",
@@ -2476,7 +2476,7 @@
     ],
     "license": null,
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-14T12:06:53Z"
+    "updatedAt": "2026-09-15T18:04:54Z"
   },
   {
     "id": "repo:1panel-dev-maxkb",
@@ -2486,8 +2486,8 @@
     "slug": "1panel-dev-maxkb",
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. 强大易用的开源企业级智能体平台。",
     "url": "https://github.com/1Panel-dev/MaxKB",
-    "stars": 22798,
-    "forks": 3149,
+    "stars": 22806,
+    "forks": 3150,
     "language": "Python",
     "topics": [
       "agent",
@@ -2501,7 +2501,7 @@
     ],
     "license": "GPL-3.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:23:28Z"
+    "updatedAt": "2026-09-16T10:37:57Z"
   },
   {
     "id": "repo:comet-ml-opik",
@@ -2511,8 +2511,8 @@
     "slug": "comet-ml-opik",
     "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
     "url": "https://github.com/comet-ml/opik",
-    "stars": 22035,
-    "forks": 1791,
+    "stars": 22058,
+    "forks": 1793,
     "language": "Python",
     "topics": [
       "evaluation",
@@ -2526,7 +2526,7 @@
     ],
     "license": "Apache-2.0",
     "category": "Prompts",
-    "updatedAt": "2026-09-15T11:21:29Z"
+    "updatedAt": "2026-09-16T11:05:29Z"
   },
   {
     "id": "repo:google-adk-python",
@@ -2536,8 +2536,8 @@
     "slug": "google-adk-python",
     "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "url": "https://github.com/google/adk-python",
-    "stars": 21543,
-    "forks": 4010,
+    "stars": 21550,
+    "forks": 4012,
     "language": "Python",
     "topics": [
       "agent",
@@ -2551,7 +2551,7 @@
     ],
     "license": "Apache-2.0",
     "category": "AI Agents",
-    "updatedAt": "2026-09-15T11:05:39Z"
+    "updatedAt": "2026-09-16T08:34:50Z"
   },
   {
     "id": "repo:ai4finance-foundation-fingpt",
@@ -2561,8 +2561,8 @@
     "slug": "ai4finance-foundation-fingpt",
     "description": "FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.",
     "url": "https://github.com/AI4Finance-Foundation/FinGPT",
-    "stars": 21252,
-    "forks": 3013,
+    "stars": 21256,
+    "forks": 3015,
     "language": "Jupyter Notebook",
     "topics": [
       "chatgpt",
@@ -2586,8 +2586,8 @@
     "slug": "getpaseo-paseo",
     "description": "Orchestrate multiple coding agents from desktop and mobile",
     "url": "https://github.com/getpaseo/paseo",
-    "stars": 17352,
-    "forks": 1947,
+    "stars": 17441,
+    "forks": 1967,
     "language": "TypeScript",
     "topics": [
       "ade",
@@ -2601,7 +2601,7 @@
     ],
     "license": null,
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-15T07:23:19Z"
+    "updatedAt": "2026-09-16T10:43:29Z"
   },
   {
     "id": "repo:travisvn-awesome-claude-skills",
@@ -2611,8 +2611,8 @@
     "slug": "travisvn-awesome-claude-skills",
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
     "url": "https://github.com/travisvn/awesome-claude-skills",
-    "stars": 15072,
-    "forks": 1961,
+    "stars": 15086,
+    "forks": 1966,
     "language": null,
     "topics": [
       "agentic-coding",
@@ -2636,8 +2636,8 @@
     "slug": "coplaydev-unity-mcp",
     "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
     "url": "https://github.com/CoplayDev/unity-mcp",
-    "stars": 14230,
-    "forks": 1493,
+    "stars": 14254,
+    "forks": 1496,
     "language": "C#",
     "topics": [
       "ai",
@@ -2661,7 +2661,7 @@
     "slug": "e2b-dev-e2b",
     "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
     "url": "https://github.com/e2b-dev/E2B",
-    "stars": 13811,
+    "stars": 13838,
     "forks": 1033,
     "language": "Python",
     "topics": [
@@ -2676,7 +2676,7 @@
     ],
     "license": "Apache-2.0",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-15T09:45:11Z"
+    "updatedAt": "2026-09-16T09:16:05Z"
   },
   {
     "id": "repo:youmind-openlab-awesome-nano-banana-pro-prompts",
@@ -2686,8 +2686,8 @@
     "slug": "youmind-openlab-awesome-nano-banana-pro-prompts",
     "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
     "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
-    "stars": 13427,
-    "forks": 1433,
+    "stars": 13428,
+    "forks": 1431,
     "language": "TypeScript",
     "topics": [
       "ai-image-generation",
@@ -2701,7 +2701,7 @@
     ],
     "license": null,
     "category": "Awesome Lists",
-    "updatedAt": "2026-09-15T08:11:55Z"
+    "updatedAt": "2026-09-16T08:05:22Z"
   },
   {
     "id": "repo:zoicware-removewindowsai",
@@ -2711,7 +2711,7 @@
     "slug": "zoicware-removewindowsai",
     "description": "Force Remove Copilot, Recall and More in Windows 11",
     "url": "https://github.com/zoicware/RemoveWindowsAI",
-    "stars": 13029,
+    "stars": 13036,
     "forks": 460,
     "language": "PowerShell",
     "topics": [
@@ -2726,7 +2726,7 @@
     ],
     "license": "MIT",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-13T16:22:49Z"
+    "updatedAt": "2026-09-15T16:23:51Z"
   },
   {
     "id": "repo:steven2358-awesome-generative-ai",
@@ -2736,7 +2736,7 @@
     "slug": "steven2358-awesome-generative-ai",
     "description": "A curated list of modern Generative Artificial Intelligence projects and services",
     "url": "https://github.com/steven2358/awesome-generative-ai",
-    "stars": 12641,
+    "stars": 12644,
     "forks": 2114,
     "language": null,
     "topics": [
@@ -2751,7 +2751,7 @@
     ],
     "license": "CC0-1.0",
     "category": "Awesome Lists",
-    "updatedAt": "2026-09-09T00:01:42Z"
+    "updatedAt": "2026-09-16T07:13:10Z"
   },
   {
     "id": "repo:assistant-ui-assistant-ui",
@@ -2761,8 +2761,8 @@
     "slug": "assistant-ui-assistant-ui",
     "description": "Typescript/React Library for AI Chat 💬🚀",
     "url": "https://github.com/assistant-ui/assistant-ui",
-    "stars": 12153,
-    "forks": 1179,
+    "stars": 12163,
+    "forks": 1180,
     "language": "TypeScript",
     "topics": [
       "ai-chatbot",
@@ -2776,7 +2776,7 @@
     ],
     "license": "MIT",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-15T10:58:57Z"
+    "updatedAt": "2026-09-16T11:07:53Z"
   },
   {
     "id": "repo:embraceagi-awesome-chatgpt-zh",
@@ -2786,8 +2786,8 @@
     "slug": "embraceagi-awesome-chatgpt-zh",
     "description": "ChatGPT 中文指南🔥，ChatGPT 中文调教指南，指令指南，应用开发指南，精选资源清单，更好的使用 chatGPT 让你的生产力 up up up! 🚀",
     "url": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
-    "stars": 11692,
-    "forks": 958,
+    "stars": 11695,
+    "forks": 959,
     "language": "Python",
     "topics": [
       "agi",
@@ -2811,8 +2811,8 @@
     "slug": "0xjacky-nginx-ui",
     "description": "Yet another WebUI for Nginx",
     "url": "https://github.com/0xJacky/nginx-ui",
-    "stars": 11493,
-    "forks": 868,
+    "stars": 11496,
+    "forks": 869,
     "language": "Go",
     "topics": [
       "code-completion",
@@ -2826,7 +2826,7 @@
     ],
     "license": "AGPL-3.0",
     "category": "Coding Assistants",
-    "updatedAt": "2026-09-15T08:30:58Z"
+    "updatedAt": "2026-09-16T08:36:59Z"
   },
   {
     "id": "repo:friuns2-blackfriday-gpts-prompts",
@@ -2836,7 +2836,7 @@
     "slug": "friuns2-blackfriday-gpts-prompts",
     "description": "List of free GPTs that doesn't require plus subscription",
     "url": "https://github.com/friuns2/BlackFriday-GPTs-Prompts",
-    "stars": 9755,
+    "stars": 9763,
     "forks": 1385,
     "language": null,
     "topics": [
@@ -2861,7 +2861,7 @@
     "slug": "microsoft-ufo",
     "description": "UFO³: Weaving the Digital Agent Galaxy",
     "url": "https://github.com/microsoft/UFO",
-    "stars": 9738,
+    "stars": 9742,
     "forks": 1052,
     "language": "Python",
     "topics": [
@@ -2884,7 +2884,7 @@
     "slug": "kyrolabs-awesome-langchain",
     "description": "😎 Awesome list of tools and projects with the awesome LangChain framework",
     "url": "https://github.com/kyrolabs/awesome-langchain",
-    "stars": 9528,
+    "stars": 9534,
     "forks": 949,
     "language": null,
     "topics": [
@@ -2906,8 +2906,8 @@
     "slug": "x-plug-mobileagent",
     "description": "Mobile-Agent: The Powerful GUI Agent Family",
     "url": "https://github.com/X-PLUG/MobileAgent",
-    "stars": 9205,
-    "forks": 915,
+    "stars": 9212,
+    "forks": 916,
     "language": "Python",
     "topics": [
       "agent",
@@ -2931,7 +2931,7 @@
     "slug": "ai-collection-ai-collection",
     "description": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
     "url": "https://github.com/ai-collection/ai-collection",
-    "stars": 9155,
+    "stars": 9157,
     "forks": 1016,
     "language": null,
     "topics": [
@@ -2956,7 +2956,7 @@
     "slug": "nhivp-awesome-embedded",
     "description": "A curated list of awesome embedded programming.",
     "url": "https://github.com/nhivp/Awesome-Embedded",
-    "stars": 9115,
+    "stars": 9120,
     "forks": 1210,
     "language": null,
     "topics": [
@@ -2981,8 +2981,8 @@
     "slug": "hkustdial-supervisor-skills",
     "description": "将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。",
     "url": "https://github.com/HKUSTDial/Supervisor-Skills",
-    "stars": 7013,
-    "forks": 445,
+    "stars": 7067,
+    "forks": 446,
     "language": "Python",
     "topics": [
       "ai-research",
@@ -3006,8 +3006,8 @@
     "slug": "georgezouq-awesome-ai-in-finance",
     "description": "🔬 A curated list of awesome LLMs & deep learning strategies & tools in financial market.",
     "url": "https://github.com/georgezouq/awesome-ai-in-finance",
-    "stars": 6570,
-    "forks": 807,
+    "stars": 6575,
+    "forks": 809,
     "language": null,
     "topics": [
       "analysis",
@@ -3031,8 +3031,8 @@
     "slug": "sindresorhus-awesome-chatgpt",
     "description": "🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI [SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE OF TOO MANY LOW QUALITY SUBMISSIONS]",
     "url": "https://github.com/sindresorhus/awesome-chatgpt",
-    "stars": 6404,
-    "forks": 471,
+    "stars": 6408,
+    "forks": 472,
     "language": null,
     "topics": [
       "ai",
@@ -3056,8 +3056,8 @@
     "slug": "mahseema-awesome-ai-tools",
     "description": "A curated list of Artificial Intelligence Top Tools",
     "url": "https://github.com/mahseema/awesome-ai-tools",
-    "stars": 6205,
-    "forks": 2173,
+    "stars": 6214,
+    "forks": 2176,
     "language": null,
     "topics": [
       "ai",
@@ -3082,7 +3082,7 @@
     "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
     "url": "https://github.com/ikaijua/Awesome-AITools",
     "stars": 6181,
-    "forks": 775,
+    "forks": 779,
     "language": "Python",
     "topics": [
       "agent-skills",
@@ -3096,7 +3096,7 @@
     ],
     "license": null,
     "category": "Awesome Lists",
-    "updatedAt": "2026-09-14T13:34:18Z"
+    "updatedAt": "2026-09-16T00:03:13Z"
   },
   {
     "id": "repo:ewingyangs-awesome-open-gpt",
@@ -3106,8 +3106,8 @@
     "slug": "ewingyangs-awesome-open-gpt",
     "description": "Collection of Open Source Projects Related to GPT，GPT相关开源项目合集🚀、精选🔥🔥",
     "url": "https://github.com/EwingYangs/awesome-open-gpt",
-    "stars": 6051,
-    "forks": 541,
+    "stars": 6052,
+    "forks": 542,
     "language": "Python",
     "topics": [
       "agentgpt",
