@@ -1,27 +1,39 @@
 {
-  "generatedAt": "2026-09-16T19:50:31.368Z",
+  "generatedAt": "2026-09-17T11:18:21.263Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
-      "removed": [],
-      "deprecated": [],
-      "revived": [
+      "added": [
         {
-          "slug": "superpowers-skills",
-          "name": "superpowers-skills",
-          "description": "Community-editable skills repository",
-          "category": "Other"
+          "slug": "chronograph-gp",
+          "name": "chronograph-gp",
+          "description": "Portfolio monitoring, valuations and analytics for private-capital GP teams using the Chronograph connector: portfolio-company one-pagers, fund quarterly review packs, markup/markdown briefs, TVPI attribution and budget-vs-actuals. Requires a Chronograph account and the Chronograph connector.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "chronograph-lp",
+          "name": "chronograph-lp",
+          "description": "Portfolio monitoring and analytics for private-capital LP teams using the Chronograph connector: cashflow forecasting, commitment pacing, look-through exposure scans and GP-meeting prep. Requires a Chronograph account and the Chronograph connector.",
+          "category": "Coding & Engineering"
+        },
+        {
+          "slug": "leadfeeder",
+          "name": "leadfeeder",
+          "description": "Turn website visitor signals into pipeline with Leadfeeder: daily visitor briefs, visitor company research, buyer and contact discovery, personalised outreach drafts, and adding companies to your Leadfeeder lists, via the Leadfeeder connector. Requires a Leadfeeder account.",
+          "category": "Data & Analysis"
         }
       ],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
+        "added": 3,
         "removed": 0,
         "deprecated": 0,
-        "revived": 1,
+        "revived": 0,
         "previousTotal": 328,
-        "currentTotal": 328
+        "currentTotal": 331
       }
     },
     "mcps": {
@@ -42,14 +54,28 @@
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "aaif-goose-goose",
+          "name": "goose",
+          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "category": "MCP & Tooling"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "lobehub-lobehub",
+          "name": "lobehub",
+          "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+          "category": "MCP & Tooling"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 127,
