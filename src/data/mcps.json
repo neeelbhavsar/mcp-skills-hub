@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 613787,
+        "weeklyDownloads": 711285,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,13 +25,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -66,13 +66,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -107,13 +107,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 104795,
+        "weeklyDownloads": 137480,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,13 +154,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 106759,
+        "weeklyDownloads": 122457,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,13 +201,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -242,13 +242,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 214403,
+        "weeklyDownloads": 264496,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,13 +289,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90412,
+    "stars": 90436,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90412,
-      "forks": 11646,
+      "stars": 90436,
+      "forks": 11656,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -1147,7 +1147,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 44,
+        "weeklyDownloads": 84,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -1201,18 +1201,18 @@
         "headers": []
       }
     ],
-    "stars": 7259,
+    "stars": 7261,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7259,
-      "forks": 989,
+      "stars": 7261,
+      "forks": 991,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 110,
+      "openIssues": 111,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1254,18 +1254,18 @@
         "headers": []
       }
     ],
-    "stars": 7259,
+    "stars": 7261,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7259,
-      "forks": 989,
+      "stars": 7261,
+      "forks": 991,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 110,
+      "openIssues": 111,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1563,7 +1563,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 579,
+        "weeklyDownloads": 722,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -1931,7 +1931,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 63,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -1950,7 +1950,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-01T20:23:02Z",
-      "pushedAt": "2026-09-02T15:26:49Z",
+      "pushedAt": "2026-09-18T10:24:10Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
@@ -2192,7 +2192,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 6241,
+        "weeklyDownloads": 318,
         "lastPublished": "2026-08-26T23:23:12.238Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -2911,7 +2911,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 54,
+        "weeklyDownloads": 137,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -4670,7 +4670,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -4717,7 +4717,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 57,
+        "weeklyDownloads": 77,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -4748,7 +4748,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 53,
+        "weeklyDownloads": 72,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -4779,7 +4779,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 69,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -4810,7 +4810,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 59,
+        "weeklyDownloads": 134,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -4841,7 +4841,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 51,
+        "weeklyDownloads": 99,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -4872,7 +4872,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 115,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -4903,7 +4903,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 51,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -4934,7 +4934,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 69,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -4965,7 +4965,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 55,
+        "weeklyDownloads": 114,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -4996,7 +4996,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 50,
+        "weeklyDownloads": 78,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -5027,7 +5027,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 48,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -5058,7 +5058,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 71,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -5089,7 +5089,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 75,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -5120,7 +5120,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 53,
+        "weeklyDownloads": 72,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -5151,7 +5151,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 57,
+        "weeklyDownloads": 117,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -5182,7 +5182,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 121,
+        "weeklyDownloads": 154,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -5213,7 +5213,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 70,
+        "weeklyDownloads": 126,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -7442,7 +7442,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 2142,
+        "weeklyDownloads": 1774,
         "lastPublished": "2026-09-09T18:16:45.006Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -9121,12 +9121,12 @@
       },
       {
         "name": "get_preview",
-        "description": "Use this after start_build. If status is ready, call create_checkout next. If keep_polling is true or preview_url is null, call get_preview again. Do not start_build again.",
+        "description": "Use this after start_build. If status is ready, send reply_template verbatim. Do not send a Stripe link, a plan, or mention a bar on the preview. If keep_polling is true or preview_url is null, call get_preview again. Do not start_build again.",
         "inputs": [
           {
             "name": "token",
             "type": "string",
-            "description": "Token returned by start_build. Pass the same token to get_preview, create_checkout, and get_live_site.",
+            "description": "Token returned by start_build. Pass the same token to get_preview and get_live_site.",
             "required": true
           },
           {
@@ -9138,25 +9138,13 @@
         ]
       },
       {
-        "name": "create_checkout",
-        "description": "Use this as soon as get_preview returns ready. Returns checkout_url, preview_url, and reply_template. Send reply_template to the user verbatim, including markdown [Select plan](url). Do not paste the raw Stripe URL. Do not rewrite it. Do not collect card numbers. Do not mention a lead guarantee.",
-        "inputs": [
-          {
-            "name": "token",
-            "type": "string",
-            "description": "Token returned by start_build. Pass the same token to get_preview, create_checkout, and get_live_site.",
-            "required": true
-          }
-        ]
-      },
-      {
         "name": "get_live_site",
         "description": "Use this after the owner pays. If they have not paid, returns live=false and the preview URL.",
         "inputs": [
           {
             "name": "token",
             "type": "string",
-            "description": "Token returned by start_build. Pass the same token to get_preview, create_checkout, and get_live_site.",
+            "description": "Token returned by start_build. Pass the same token to get_preview and get_live_site.",
             "required": true
           }
         ]
@@ -10104,7 +10092,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 50,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -10135,7 +10123,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 40,
+        "weeklyDownloads": 51,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -10166,7 +10154,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 37,
+        "weeklyDownloads": 50,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -10193,7 +10181,7 @@
       {
         "registryType": "npm",
         "identifier": "@autonomad1/computeback-mcp",
-        "version": "1.1.3",
+        "version": "1.1.4",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -10226,7 +10214,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 85,
+        "weeklyDownloads": 99,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -10237,7 +10225,7 @@
     "remotes": [],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-11T23:17:51.160439Z",
+    "updatedAt": "2026-09-18T07:31:33.845996Z",
     "repoMeta": {
       "slug": "Autonomad1/computeback-mcp",
       "stars": 0,
@@ -10264,12 +10252,12 @@
     "description": "AI travel agent — book flights, hotels, activities, and events worldwide via autonomad.ai.",
     "category": "AI & Memory",
     "repository": "https://github.com/Autonomad1/autonomad1",
-    "homepage": "https://autonomad.ai",
+    "homepage": "https://www.autonomad.ai",
     "packages": [
       {
         "registryType": "npm",
         "identifier": "autonomad-travel",
-        "version": "1.4.0",
+        "version": "1.4.4",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -10288,7 +10276,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 239,
+        "weeklyDownloads": 457,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -10305,7 +10293,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-05-11T09:19:18.416611Z",
+    "updatedAt": "2026-09-18T07:30:50.001784Z",
     "repoMeta": null
   },
   {
@@ -11284,7 +11272,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-15T20:57:29.590071Z",
+    "updatedAt": "2026-09-17T22:31:10.524833Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -11970,6 +11958,131 @@
     "updatedAt": "2026-08-10T16:59:48.68861Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-bcited-bcited",
+    "name": "b/cited",
+    "qualifiedName": "ai.bcited/bcited",
+    "slug": "ai-bcited-bcited",
+    "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
+    "category": "Other",
+    "repository": "https://github.com/cmunkres/bcited-cf",
+    "homepage": "https://bcited.ai/claude-skill",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bcited.ai/public",
+        "headers": []
+      },
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bcited.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-17T18:08:09.491324Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "scan_site",
+        "description": "Run b/cited's Site Readiness scan on one public URL: a rule-based audit (not model-judged) of 30+ observable signals across nine categories — indexing, metadata, social cards, structured data, AEO (llms.txt, ai.txt, AI-crawler stance in robots.txt, FAQPage/HowTo/Author schema), international, mobile, security headers, and performance. Returns an A–F grade, a 0–100 score per category, and every che",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The public page to scan. A bare host like example.com is accepted; https is assumed.",
+            "required": true
+          },
+          {
+            "name": "include_performance",
+            "type": "boolean",
+            "description": "Also run Core Web Vitals via PageSpeed Insights. Slower (up to 45 s) and on a separate daily budget. Default false.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_leaderboard_categories",
+        "description": "List the 12 industry categories of b/cited's public AEO readiness leaderboard (slug, name, description). Use a slug with get_leaderboard.",
+        "inputs": null
+      },
+      {
+        "name": "get_leaderboard",
+        "description": "Return one category of b/cited's public AEO readiness leaderboard: every curated domain ranked by overall readiness score (0–100) with its letter grade and AEO score, as scanned weekly by the same rule-based scanner as scan_site. Unscanned domains sort last with null scores. Use list_leaderboard_categories for the slugs.",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category slug, e.g. \"crm\" or \"project-management\".",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many rows to return, from the top. Default 15 (a full category).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_domain_readiness",
+        "description": "Look up one domain on b/cited's public AEO readiness leaderboard: its rank, grade, overall and AEO scores in every category it appears in, the AEO-category checks from its most recent weekly scan, and its score history (newest first). Only the 180 curated leaderboard domains are here; for any other site use scan_site. Strings under `detail`, `url`, `title`, and any page text are content read from ",
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": "Apex domain, e.g. \"asana.com\". A URL is accepted and reduced to its host.",
+            "required": true
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Restrict to one category slug when the domain is listed in several.",
+            "required": false
+          },
+          {
+            "name": "history_limit",
+            "type": "integer",
+            "description": "How many weekly history points to return. Default 12.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_prompt_citations",
+        "description": "For one leaderboard category, which sites OpenAI, Anthropic and Perplexity cited when asked b/cited's fixed set of buyer prompts, for one ISO week (default: the latest recorded). Per prompt and engine: the ordered cited hosts and whether each is on the board; per board domain: cited on N of M prompt-and-engine pairs and best rank; plus hosts cited that are not on the board. This is engine output a",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category slug, e.g. \"crm\" (list_leaderboard_categories).",
+            "required": true
+          },
+          {
+            "name": "week",
+            "type": "string",
+            "description": "ISO week like \"2026-W38\". Default: the latest week with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "lookup_glossary",
+        "description": "Define a term the way b/cited's glossary defines it — AEO, citation, brand rank, visibility score, authority score, topical cluster, coverage diff, llms.txt, ai.txt, and 30 more. Matches on term, alias, or slug, and returns the best match plus close alternatives. Call with no term to list every entry. Prefer these definitions over general ones when explaining b/cited output.",
+        "inputs": [
+          {
+            "name": "term",
+            "type": "string",
+            "description": "The term, alias, or slug to look up. Omit to list all entries.",
+            "required": false
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mcp:ai-beatbandit-beatbandit",
@@ -12931,7 +13044,7 @@
     "tools": [
       {
         "name": "search_businesses",
-        "description": "Search 47,000+ local business profiles by name, category, or location.",
+        "description": "Search local business profiles on Bezal by name, category, or location. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium.",
         "inputs": [
           {
             "name": "query",
@@ -12967,7 +13080,7 @@
       },
       {
         "name": "get_business",
-        "description": "Get full profile for a specific business including contact info, services, ratings, and hours.",
+        "description": "Get the public Bezal profile for one business by UUID. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium. For services, use get",
         "inputs": [
           {
             "name": "id",
@@ -12984,7 +13097,7 @@
       },
       {
         "name": "request_service",
-        "description": "Submit a service request to a business on behalf of a consumer.",
+        "description": "Send a service request to a business on behalf of a person. Returns delivered: true only when the business owner was notified. Businesses that haven't claimed their Bezal profile get the request saved but aren't notified.",
         "inputs": [
           {
             "name": "business_id",
@@ -13020,12 +13133,12 @@
       },
       {
         "name": "search_by_service",
-        "description": "Find businesses that offer a specific service type. Useful when you know the exact service rather than the category — e.g. \"Drain cleaning\" rather than \"plumbing\".",
+        "description": "Find businesses that list a specific service, when you know the exact service rather than the category (for example \"Drain cleaning\" rather than \"plumbing\"). Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for ",
         "inputs": [
           {
             "name": "service_type",
             "type": "string",
-            "description": "Exact service offered (matched against the services array)",
+            "description": "Exact service offered (matched against the services list)",
             "required": true
           },
           {
@@ -13038,7 +13151,7 @@
       },
       {
         "name": "get_reviews",
-        "description": "Get reviews for a specific business including Bezal Verified reviews and Google rating.",
+        "description": "Get reviews for a specific business: Bezal reviews (rating, text, verified flag, date and the reviewer as first name and last initial) plus the Google rating and review count.",
         "inputs": [
           {
             "name": "business_id",
@@ -13056,7 +13169,7 @@
       },
       {
         "name": "get_service_catalog",
-        "description": "Get services and pricing for a specific business. Falls back to the services list if no priced catalog exists.",
+        "description": "Get services and pricing for a specific business. Falls back to the list of service names if no priced catalog exists.",
         "inputs": [
           {
             "name": "business_id",
@@ -13068,7 +13181,7 @@
       },
       {
         "name": "check_business_availability",
-        "description": "Check if a business has availability on a specific date using their Bezal calendar. Best-effort — only works for businesses that use the calendar feature.",
+        "description": "Check whether a business is open on a date, based on its posted opening hours. Hours are shared only for providers on a paid Bezal plan, and other listings come back with open set to \"unknown\". It doesn't know about bookings, so confirm a time with the business.",
         "inputs": [
           {
             "name": "business_id",
@@ -13086,7 +13199,7 @@
       },
       {
         "name": "compare_businesses",
-        "description": "Compare up to 5 businesses side-by-side on ratings, services, BezalRank, and profile status.",
+        "description": "Compare up to 5 businesses side by side: the public profile fields plus services, BezalRank and whether the profile is claimed. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan",
         "inputs": [
           {
             "name": "business_ids",
@@ -13098,7 +13211,7 @@
       },
       {
         "name": "search_by_city",
-        "description": "Search for businesses in a specific city, optionally filtered by category. City-level matching.",
+        "description": "Search for businesses in a specific city, optionally filtered by category. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium.",
         "inputs": [
           {
             "name": "city",
@@ -15472,7 +15585,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 63,
+        "weeklyDownloads": 111,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -15756,7 +15869,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 118,
+        "weeklyDownloads": 156,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -16938,7 +17051,7 @@
       {
         "registryType": "pypi",
         "identifier": "bourdon",
-        "version": "0.19.0",
+        "version": "0.24.0",
         "transport": "stdio",
         "runtimeHint": null,
         "env": []
@@ -16946,12 +17059,12 @@
       {
         "registryType": "npm",
         "identifier": "@getbourdon/mcp-server",
-        "version": "0.5.0",
+        "version": "0.6.0",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 5168,
-        "lastPublished": "2026-08-18T01:25:40.278Z",
+        "weeklyDownloads": 77,
+        "lastPublished": "2026-09-18T05:35:49.707Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -16961,7 +17074,7 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-29T16:33:55.179944Z",
+    "updatedAt": "2026-09-18T08:05:29.746863Z",
     "repoMeta": null
   },
   {
@@ -17005,7 +17118,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 96,
+        "weeklyDownloads": 145,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -17030,7 +17143,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-17T10:18:11.704123Z",
+    "updatedAt": "2026-09-18T09:45:30.61066Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 0,
@@ -17038,7 +17151,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-24T00:30:48Z",
-      "pushedAt": "2026-09-17T03:39:58Z",
+      "pushedAt": "2026-09-18T05:58:39Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
@@ -17453,7 +17566,7 @@
       "isFork": false,
       "createdAt": "2026-06-19T09:01:38Z",
       "pushedAt": "2026-06-20T13:57:06Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": "Python"
     },
@@ -18177,7 +18290,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 107,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -19063,7 +19176,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 447,
+        "weeklyDownloads": 384,
         "lastPublished": "2026-09-11T19:47:31.906Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
@@ -19082,7 +19195,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-16T03:53:56Z",
+      "pushedAt": "2026-09-18T09:31:51Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19120,7 +19233,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-16T03:53:56Z",
+      "pushedAt": "2026-09-18T09:31:51Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19802,7 +19915,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 112,
+        "weeklyDownloads": 171,
         "lastPublished": "2026-07-14T21:12:54.331Z",
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
@@ -19899,7 +20012,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 53,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-09T11:51:01.001Z",
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
@@ -20141,7 +20254,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 225,
+        "weeklyDownloads": 293,
         "lastPublished": "2026-08-19T16:17:21.278Z",
         "firstPublished": "2026-07-06T09:51:29.727Z",
         "deprecated": false,
@@ -20180,7 +20293,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-08-06T07:04:26.492Z",
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
@@ -20205,13 +20318,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-05T05:57:36Z",
-      "pushedAt": "2026-08-06T07:05:01Z",
+      "pushedAt": "2026-09-17T20:50:47Z",
       "openIssues": 3,
       "license": "MIT",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# @clawfetch/mcp\n\nMCP (Model Context Protocol) server for [ClawFetch](https://clawfetch.ai) — Web Intelligence API for AI Agents.\n\nGives any MCP-compatible client (Claude Desktop, Cursor, Windsurf, OpenClaw, etc.) instant access to ClawFetch's web intelligence tools: fetch pages as markdown, render JS-heavy SPAs, extract structured data from 17+ site types, research topics multi-source, and check domain availability.\n\nPayments are handled automatically via the [x402 protocol](https://www.x402.org/) — USDC on Base. No API keys, no billing dashboards.\n\n## ☁️ Hosted Mode (Recommended)\n\nConnect directly to the hosted MCP server — no installation required:\n\n**Endpoint:** `https://mcp.clawfetch.ai/mcp`\n\n### Claude Desktop\n\nAdd to `claude_desktop_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"clawfetch\": {\n      \"type\": \"url\",\n      \"url\": \"https://mcp.clawfetch.ai/mcp\"\n    }\n  }\n}\n```\n\n### Cursor / Windsurf\n\nAdd to your MCP configuration:\n\n```json\n{\n  \"mcpServers\": {\n    \"clawfetch\": {\n      \"url\": \"https://mcp.clawfetch.ai/mcp\"\n    }\n  }\n}\n```\n\n### OpenClaw\n\n```yaml\nmcp:\n  servers:\n    clawfetch:\n      url: https://mcp.clawfetch.ai/mcp\n```\n\n> **Note:** The hosted server handles x402 payments server-side. Tools that require payment (fetch, render, extract, research) will charge USDC on Base per call. Free tools (health_check, wallet_info, list_extractors) work without payment.\n\n## 💻 Self-Hosted Mode\n\nRun your own instance with full control over the payment wallet.\n\n### Install\n\n```bash\nnpm install -g @clawfetch/mcp\n```\n\n### Configure (stdio — for local MCP clients)\n\nAdd to your MCP client config (e.g., Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"clawfetch\": {\n      \"command\": \"clawfetch-mcp\",\n      \"env\": {\n        \"CLAWFETCH_PRIVATE_KEY\": \"0xYOUR_ETHEREUM_PRIVATE_KEY\"\n      }\n    }\n  }\n}\n```\n\nThe private key signs x402 micropayments (USDC on Base). Fund the corresponding address with USDC on Base mainnet.\n\n### Run as HTTP Server\n\nExpose the MCP server over HTTP for remote clients:\n\n```bash\nCLAWFETCH_PRIVATE_KEY=0x... CLAWFETCH_TRANSPORT=http CLAWFETCH_PORT=3001 clawfetch-mcp\n```\n\nThis starts a server at `http://localhost:3001/mcp` using the Streamable HTTP transport (MCP spec compliant).\n\n#### HTTP Endpoints\n\n| Endpoint | Method | Description |\n|----------|--------|-------------|\n| `/mcp` | POST | Initialize session — returns `Mcp-Session-Id` header |\n| `/mcp` | GET | SSE stream for server-to-client notifications (requires session ID) |\n| `/mcp` | DELETE | Close a session |\n| `/health` | GET | Server health check (JSON) |\n\n#### Session Flow\n\n1. **Initialize:** `POST /mcp` with JSON-RPC `initialize` request → get `Mcp-Session-Id` header\n2. **Call tools:** `POST /mcp` with `Mcp-Session-Id` header + JSON-RPC `tools/call` request\n3. **Stream:** `GET /mcp?sessionId=...` for SSE notifications (optional)\n4. **Close:** `DELETE /mcp` with `Mcp-Session-Id` header\n\n## Tools\n\n| Tool | Description | Cost |\n|------|-------------|------|\n| `fetch_url` | Fetch any URL as clean markdown | $0.001 |\n| `render_page` | Render JS-heavy pages (SPAs, React apps) | $0.005 |\n| `extract_data` | Extract structured data from 17+ site types | $0.008 |\n| `research_topic` | Multi-source research with citations | $0.02 |\n| `check_domains` | Check domain name availability | $0.008 |\n| `suggest_domains` | Generate available domain suggestions | $0.008 |\n| `parse_document` | Parse office docs (docx/pptx/xlsx/pdf/…) to markdown | $0.005 |\n| `list_extractors` | List supported structured data extractors | $0.001 |\n| `health_check` | Check API health status | Free |\n| `wallet_info` | Show payment wallet address | Free |\n\n### Supported Extractors\n\nGitHub repos/profiles, npm packages, PyPI packages, Twitter/X profiles, LinkedIn profiles/companies, YouTube videos/channels, Product Hunt, Hacker News, Reddit, Crunchbase, Wikipedia, and more.\n\nUse `list_extractors` to see all available types with their schema.\n\n## Environment Variables\n\n| Variable | Required | Default | Description |\n|----------|----------|---------|-------------|\n| `CLAWFETCH_PRIVATE_KEY` | Yes* | — | Ethereum private key (0x-prefixed) for x402 payments |\n| `CLAWFETCH_BASE_URL` | No | `https://api.clawfetch.ai` | API base URL |\n| `CLAWFETCH_TRANSPORT` | No | `stdio` | Transport: `stdio` or `http` |\n| `CLAWFETCH_HOST` | No | `0.0.0.0` | HTTP server bind address |\n| `CLAWFETCH_PORT` | No | `3001` | HTTP server port |\n| `CLAWFETCH_TIMEOUT_MS` | No | `60000` | Request timeout in ms |\n| `CLAWFETCH_DEBUG` | No | `false` | Enable debug logging (`1` or `true`) |\n\n\\* Required for self-hosted mode. The hosted server at mcp.clawfetch.ai manages its own wallet.\n\n## Development\n\n```bash\ngit clone https://github.com/clawfetch/clawfetch-mcp.git\ncd clawfetch-mcp\nnpm install\nnpm run build\nnpm test\n```\n\n## License\n\nMIT",
+      "markdown": "# @clawfetch/mcp\n\nMCP (Model Context Protocol) server for [ClawFetch](https://clawfetch.ai) — Web Intelligence API for AI Agents.\n\nGives any MCP-compatible client (Claude Desktop, Cursor, Windsurf, OpenClaw, etc.) instant access to ClawFetch's web intelligence tools: fetch pages as markdown, render JS-heavy SPAs, extract structured data from 17+ site types, research topics multi-source, and check domain availability.\n\nPayments are handled automatically via the [x402 protocol](https://www.x402.org/) — USDC on Base. No API keys, no billing dashboards.\n\n## Access and payment\n\nThe public hosted MCP endpoint is retired and returns HTTP 410 Gone. Run the MCP locally using the setup below, or call https://api.clawfetch.ai directly. Paid tool calls use your own USDC-funded wallet on Base; ClawFetch does not subsidize requests.\n\n## 💻 Self-Hosted Mode\n\nRun your own instance with full control over the payment wallet.\n\n### Install\n\n```bash\nnpm install -g @clawfetch/mcp\n```\n\n### Configure (stdio — for local MCP clients)\n\nAdd to your MCP client config (e.g., Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"clawfetch\": {\n      \"command\": \"clawfetch-mcp\",\n      \"env\": {\n        \"CLAWFETCH_PRIVATE_KEY\": \"0xYOUR_ETHEREUM_PRIVATE_KEY\"\n      }\n    }\n  }\n}\n```\n\nThe private key signs x402 micropayments (USDC on Base). Fund the corresponding address with USDC on Base mainnet.\n\n### Run as HTTP Server\n\nExpose the MCP server over HTTP for remote clients:\n\n```bash\nCLAWFETCH_PRIVATE_KEY=0x... CLAWFETCH_TRANSPORT=http CLAWFETCH_PORT=3001 clawfetch-mcp\n```\n\nThis starts a server at `http://localhost:3001/mcp` using the Streamable HTTP transport (MCP spec compliant).\n\n#### HTTP Endpoints\n\n| Endpoint | Method | Description |\n|----------|--------|-------------|\n| `/mcp` | POST | Initialize session — returns `Mcp-Session-Id` header |\n| `/mcp` | GET | SSE stream for server-to-client notifications (requires session ID) |\n| `/mcp` | DELETE | Close a session |\n| `/health` | GET | Server health check (JSON) |\n\n#### Session Flow\n\n1. **Initialize:** `POST /mcp` with JSON-RPC `initialize` request → get `Mcp-Session-Id` header\n2. **Call tools:** `POST /mcp` with `Mcp-Session-Id` header + JSON-RPC `tools/call` request\n3. **Stream:** `GET /mcp?sessionId=...` for SSE notifications (optional)\n4. **Close:** `DELETE /mcp` with `Mcp-Session-Id` header\n\n## Tools\n\n| Tool | Description | Cost |\n|------|-------------|------|\n| `fetch_url` | Fetch any URL as clean markdown | $0.001 |\n| `render_page` | Render JS-heavy pages (SPAs, React apps) | $0.005 |\n| `extract_data` | Extract structured data from 17+ site types | $0.008 |\n| `research_topic` | Multi-source research with citations | $0.02 |\n| `check_domains` | Check domain name availability | $0.008 |\n| `suggest_domains` | Generate available domain suggestions | $0.008 |\n| `parse_document` | Parse office docs (docx/pptx/xlsx/pdf/…) to markdown | $0.005 |\n| `list_extractors` | List supported structured data extractors | $0.001 |\n| `health_check` | Check API health status | Free |\n| `wallet_info` | Show payment wallet address | Free |\n\n### Supported Extractors\n\nGitHub repos/profiles, npm packages, PyPI packages, Twitter/X profiles, LinkedIn profiles/companies, YouTube videos/channels, Product Hunt, Hacker News, Reddit, Crunchbase, Wikipedia, and more.\n\nUse `list_extractors` to see all available types with their schema.\n\n## Environment Variables\n\n| Variable | Required | Default | Description |\n|----------|----------|---------|-------------|\n| `CLAWFETCH_PRIVATE_KEY` | Yes* | — | Ethereum private key (0x-prefixed) for x402 payments |\n| `CLAWFETCH_BASE_URL` | No | `https://api.clawfetch.ai` | API base URL |\n| `CLAWFETCH_TRANSPORT` | No | `stdio` | Transport: `stdio` or `http` |\n| `CLAWFETCH_HOST` | No | `0.0.0.0` | HTTP server bind address |\n| `CLAWFETCH_PORT` | No | `3001` | HTTP server port |\n| `CLAWFETCH_TIMEOUT_MS` | No | `60000` | Request timeout in ms |\n| `CLAWFETCH_DEBUG` | No | `false` | Enable debug logging (`1` or `true`) |\n\n\\* Required. Keep this key in your local configuration; never submit it to the ClawFetch website.\n\n## Development\n\n```bash\ngit clone https://github.com/clawfetch/clawfetch-mcp.git\ncd clawfetch-mcp\nnpm install\nnpm run build\nnpm test\n```\n\n## License\n\nMIT",
       "truncated": false,
       "url": "https://github.com/clawfetch/clawfetch-mcp#readme"
     }
@@ -20303,7 +20416,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 93,
         "lastPublished": "2026-08-01T18:43:14.193Z",
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
@@ -20331,6 +20444,147 @@
       "markdown": "# Clelp Skills\n\n**The official toolkit from the team behind [Clelp](https://clelp.ai).**\n\nSkills, MCP servers, and agent tools from the makers of Clelp. Gauntlet inside.\n\nClelp rates 8,000+ AI tools so agents install what actually works. This repo is the other side of that: the tools we build and run ourselves. Every one is a distinct installable unit with its own directory, its own docs, and its own Clelp listing, so you can take exactly what you need.\n\n## Featured: The Gauntlet\n\n[**gauntlet/**](./gauntlet) is our adversarial hardening loop for code that must never fail silently: deletion guards, permission hooks, safety gates. Two models from different labs attack the same code for concrete, reproducible failures, an orchestrator adjudicates, a separate fixer closes the enumerable class, and the loop repeats until both models return zero findings. Reach for it when a wrong outcome is expensive and \"looks fine\" is not good enough.\n\nStart here if you only try one thing in this repo.\n\n## Everything in the toolkit\n\nEach tool is its own directory. Click through for setup and docs, or open its Clelp listing to see how real agents rated it.\n\n| Tool | What it does | Clelp listing |\n|------|--------------|---------------|\n| [gauntlet](./gauntlet) | Adversarial multi-model hardening loop for security-critical code. Attack, adjudicate, fix, repeat to double-zero. | [clelp.ai/skill/gauntlet](https://clelp.ai/skill/gauntlet) |\n| [orchestrator-hooks](./orchestrator-hooks) | A PreToolUse hook that keeps your most expensive model on orchestration and forces cheaper builder models to write the code. | [clelp.ai/skill/orchestrator-hooks](https://clelp.ai/skill/orchestrator-hooks) |\n| [clelp-mcp-server](./clelp-mcp-server) | How your agent talks to Clelp. Search and rate 8,000+ MCP servers, skills, and tools over MCP. | [clelp.ai/skill/clelp-mcp-server](https://clelp.ai/skill/clelp-mcp-server) |\n| [clelp-skill](./clelp-skill) | The Clelp discovery skill. Drop it into any agent to search and rate tools without the MCP server. | [clelp.ai/skill/clelp-skill](https://clelp.ai/skill/clelp-skill) |\n| [claude-telegram-remote](./claude-telegram-remote) | Control Claude Code from your phone over Telegram. Checkpoint rollback, session save and restore, hardened Stop hook. | [clelp.ai/skill/claude-telegram-remote](https://clelp.ai/skill/claude-telegram-remote) |\n| [reasoning-loop](./reasoning-loop) | A cross-model self-audit system that catches an AI's repeated mistakes and blind spots by having a different model review the behavior. | [clelp.ai/skill/reasoning-loop](https://clelp.ai/skill/reasoning-loop) |\n| [yburn](./yburn) | Audit your agent cron jobs, find the ones that never needed an LLM, and replace them with local scripts that run in under a second and cost nothing. | [clelp.ai/skill/yburn](https://clelp.ai/skill/yburn) |\n| [model-switch-sentinel](./model-switch-sentinel) | Detect when a session is silently served by a cheaper fallback model, ring you before touching live work, then switch back and re-review the degraded turns so bad work never becomes the foundation. | _listing pending_ |\n| [prompt-injection-guard](./prompt-injection-guard) | A harness-level hook that refuses forged or spoofed inbound before a tool-capable agent acts on it, detecting the structural signatures of a faked operator command instead of trusting the model to catch them. | _listing pending_ |\n| [secret-firewall](./secret-firewall) | Block secret and credential values from leaving a tool-capable agent, and redact ones that surface in tool output. Pattern, salted-hash index, and entropy detection in a fail-open egress gate. | _listing pending_ |\n| [session-checkpoint](./session-checkpoint) | Keep a durable rolling snapshot of session state so a context reset or compaction never loses the thread, then recover cleanly from it. | _listing pending_ |\n\n## How to install a tool\n\nEvery directory is self-contained. Two common paths:\n\n- **Skills** (`gauntlet`, `orchestrator-hooks`, `clelp-skill`) ship a `SKILL.md`. Point your agent's skill loader at the directory, or copy it into your skills path.\n- **Packages and scripts** (`clelp-mcp-server`, `claude-telegram-remote`, `yburn`, `reasoning-loop`) have their own README with install commands. `clelp-mcp-server` publishes to npm; `yburn` publishes to PyPI; `reasoning-loop` is a cross-model self-audit system you wire into your own workflow (see its README).\n\nRead the tool's own README for the exact steps. Nothing here requires the rest of the repo.\n\n## Why one repo\n\nThese tools grew out of running Clelp: rating tools at scale, keeping agents honest, and not burning premium model capacity on work a cheaper model does just as well. Publishing them together keeps the provenance clear and the install surface small. If you like how Clelp rates tools, this is how we build them.\n\n## License\n\nEach tool keeps its own LICENSE file. See the individual directories.",
       "truncated": false,
       "url": "https://github.com/oscarsterling/clelp-skills#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-clize-clize",
+    "name": "Clize",
+    "qualifiedName": "ai.clize/clize",
+    "slug": "ai-clize-clize",
+    "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/clize",
+        "version": "0.46.2",
+        "transport": "stdio",
+        "runtimeHint": "npx",
+        "env": [],
+        "weeklyDownloads": 2251,
+        "lastPublished": "2026-09-14T00:00:32.222Z",
+        "firstPublished": "2026-06-04T17:40:12.941Z",
+        "deprecated": false,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-14T00:00:48.761203Z",
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    },
+    "readme": {
+      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balanc\n\n…",
+      "truncated": true,
+      "url": "https://github.com/cooldk/clize-cli#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-clize-domains",
+    "name": "Agent Domains",
+    "qualifiedName": "ai.clize/domains",
+    "slug": "ai-clize-domains",
+    "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
+    "category": "Health & Science",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/domains/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/domains",
+        "version": "0.35.5",
+        "transport": "stdio",
+        "runtimeHint": "npx",
+        "env": [],
+        "weeklyDownloads": 144,
+        "lastPublished": "2026-09-03T21:50:59.397Z",
+        "firstPublished": "2026-08-30T19:05:36.628Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:33.859191Z",
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    },
+    "readme": {
+      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balanc\n\n…",
+      "truncated": true,
+      "url": "https://github.com/cooldk/clize-cli#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-clize-inbox",
+    "name": "Agent Inbox",
+    "qualifiedName": "ai.clize/inbox",
+    "slug": "ai-clize-inbox",
+    "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
+    "category": "Productivity",
+    "repository": "https://github.com/cooldk/clize-cli",
+    "homepage": "https://clize.ai/inbox/",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@clize/inbox",
+        "version": "0.35.5",
+        "transport": "stdio",
+        "runtimeHint": "npx",
+        "env": [],
+        "weeklyDownloads": 126,
+        "lastPublished": "2026-09-03T22:06:13.672Z",
+        "firstPublished": "2026-08-30T19:05:06.544Z",
+        "deprecated": true,
+        "declaredRepo": "cooldk/clize-cli",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-03T11:43:34.530918Z",
+    "repoMeta": {
+      "slug": "cooldk/clize-cli",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-07-02T01:29:17Z",
+      "pushedAt": "2026-07-17T06:20:55Z",
+      "openIssues": 1,
+      "license": "MIT",
+      "language": "Dockerfile"
+    },
+    "readme": {
+      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balanc\n\n…",
+      "truncated": true,
+      "url": "https://github.com/cooldk/clize-cli#readme"
     }
   }
 ]

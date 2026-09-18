@@ -1,26 +1,57 @@
 {
-  "generatedAt": "2026-09-17T11:18:21.263Z",
+  "generatedAt": "2026-09-18T10:52:30.609Z",
   "kinds": {
     "skills": {
       "baseline": true,
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
+      "movers": [
+        {
+          "slug": "atlassian",
+          "name": "atlassian",
+          "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
+          "category": "Documents & Office",
+          "delta": -68,
+          "stars": 1046
+        }
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 331,
+        "currentTotal": 331
+      }
+    },
+    "mcps": {
+      "baseline": true,
       "added": [
         {
-          "slug": "chronograph-gp",
-          "name": "chronograph-gp",
-          "description": "Portfolio monitoring, valuations and analytics for private-capital GP teams using the Chronograph connector: portfolio-company one-pagers, fund quarterly review packs, markup/markdown briefs, TVPI attribution and budget-vs-actuals. Requires a Chronograph account and the Chronograph connector.",
-          "category": "Coding & Engineering"
+          "slug": "ai-bcited-bcited",
+          "name": "b/cited",
+          "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
+          "category": "Other"
         },
         {
-          "slug": "chronograph-lp",
-          "name": "chronograph-lp",
-          "description": "Portfolio monitoring and analytics for private-capital LP teams using the Chronograph connector: cashflow forecasting, commitment pacing, look-through exposure scans and GP-meeting prep. Requires a Chronograph account and the Chronograph connector.",
-          "category": "Coding & Engineering"
+          "slug": "ai-clize-clize",
+          "name": "Clize",
+          "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
+          "category": "Finance & Data"
         },
         {
-          "slug": "leadfeeder",
-          "name": "leadfeeder",
-          "description": "Turn website visitor signals into pipeline with Leadfeeder: daily visitor briefs, visitor company research, buyer and contact discovery, personalised outreach drafts, and adding companies to your Leadfeeder lists, via the Leadfeeder connector. Requires a Leadfeeder account.",
-          "category": "Data & Analysis"
+          "slug": "ai-clize-domains",
+          "name": "Agent Domains",
+          "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-clize-inbox",
+          "name": "Agent Inbox",
+          "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
+          "category": "Productivity"
         }
       ],
       "removed": [],
@@ -28,45 +59,29 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 3,
-        "removed": 0,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 328,
-        "currentTotal": 331
-      }
-    },
-    "mcps": {
-      "baseline": true,
-      "added": [],
-      "removed": [],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 0,
+        "added": 4,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 233,
-        "currentTotal": 233
+        "currentTotal": 237
       }
     },
     "repos": {
       "baseline": true,
       "added": [
         {
-          "slug": "aaif-goose-goose",
-          "name": "goose",
-          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "slug": "lobehub-lobehub",
+          "name": "lobehub",
+          "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
           "category": "MCP & Tooling"
         }
       ],
       "removed": [
         {
-          "slug": "lobehub-lobehub",
-          "name": "lobehub",
-          "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+          "slug": "aaif-goose-goose",
+          "name": "goose",
+          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
           "category": "MCP & Tooling"
         }
       ],
