@@ -1,88 +1,60 @@
 {
-  "generatedAt": "2026-09-18T10:52:30.609Z",
+  "generatedAt": "2026-09-19T10:35:37.408Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "incident-io",
+          "name": "incident-io",
+          "description": "Work with incident.io from Claude: respond to and investigate incidents, check on-call schedules and escalations, and author the runbooks, skills and architecture docs that incident.io investigations draw on. Bundles the official incident.io MCP server (OAuth on first use).",
+          "category": "Automation & Workflow"
+        },
+        {
+          "slug": "wingspan",
+          "name": "wingspan",
+          "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment, then onboard contractors and log payments as drafts, with a preview before anything is written. Requires a Wingspan account; bundles the Wingspan MCP server (OAuth on first use).",
+          "category": "Coding & Engineering"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [
         {
-          "slug": "atlassian",
-          "name": "atlassian",
-          "description": "Connect to Atlassian products including Jira and Confluence. Search and create issues, access documentation, manage sprints, and integrate your development workflow with Atlassian's collaboration tools.",
-          "category": "Documents & Office",
-          "delta": -68,
-          "stars": 1046
+          "slug": "unity",
+          "name": "unity",
+          "description": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
+          "category": "Coding & Engineering",
+          "delta": 18,
+          "stars": 306
         }
       ],
       "counts": {
-        "added": 0,
+        "added": 2,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 331,
-        "currentTotal": 331
+        "currentTotal": 333
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "ai-bcited-bcited",
-          "name": "b/cited",
-          "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-clize-clize",
-          "name": "Clize",
-          "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-clize-domains",
-          "name": "Agent Domains",
-          "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
-          "category": "Health & Science"
-        },
+          "slug": "ai-audiopod-audiopod",
+          "name": "AudioPod AI",
+          "description": "Audio AI tools: text-to-speech, voice cloning, music generation, stem separation, transcription.",
+          "category": "Design & Media"
+        }
+      ],
+      "removed": [
         {
           "slug": "ai-clize-inbox",
           "name": "Agent Inbox",
           "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
           "category": "Productivity"
-        }
-      ],
-      "removed": [],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 4,
-        "removed": 0,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 233,
-        "currentTotal": 237
-      }
-    },
-    "repos": {
-      "baseline": true,
-      "added": [
-        {
-          "slug": "lobehub-lobehub",
-          "name": "lobehub",
-          "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-          "category": "MCP & Tooling"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "aaif-goose-goose",
-          "name": "goose",
-          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-          "category": "MCP & Tooling"
         }
       ],
       "deprecated": [],
@@ -91,6 +63,22 @@
       "counts": {
         "added": 1,
         "removed": 1,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 237,
+        "currentTotal": 237
+      }
+    },
+    "repos": {
+      "baseline": true,
+      "added": [],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 127,
