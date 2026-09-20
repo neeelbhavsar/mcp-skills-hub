@@ -1,41 +1,19 @@
 {
-  "generatedAt": "2026-09-19T10:35:37.408Z",
+  "generatedAt": "2026-09-20T10:58:29.886Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "incident-io",
-          "name": "incident-io",
-          "description": "Work with incident.io from Claude: respond to and investigate incidents, check on-call schedules and escalations, and author the runbooks, skills and architecture docs that incident.io investigations draw on. Bundles the official incident.io MCP server (OAuth on first use).",
-          "category": "Automation & Workflow"
-        },
-        {
-          "slug": "wingspan",
-          "name": "wingspan",
-          "description": "Ask Claude about the contractors you pay through Wingspan, what you owe them, and what is holding up a payment, then onboard contractors and log payments as drafts, with a preview before anything is written. Requires a Wingspan account; bundles the Wingspan MCP server (OAuth on first use).",
-          "category": "Coding & Engineering"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "unity",
-          "name": "unity",
-          "description": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
-          "category": "Coding & Engineering",
-          "delta": 18,
-          "stars": 306
-        }
-      ],
+      "movers": [],
       "counts": {
-        "added": 2,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 331,
+        "previousTotal": 333,
         "currentTotal": 333
       }
     },
@@ -43,30 +21,36 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-audiopod-audiopod",
-          "name": "AudioPod AI",
-          "description": "Audio AI tools: text-to-speech, voice cloning, music generation, stem separation, transcription.",
+          "slug": "ai-adsap-adsap",
+          "name": "Adsap",
+          "description": "Launch and manage Meta and Google Ads from your AI assistant. You approve every change first.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-beatra-beatra",
+          "name": "Beatra",
+          "description": "Images, video, music, speech, and public social data for AI agents.",
           "category": "Design & Media"
         }
       ],
       "removed": [
         {
-          "slug": "ai-clize-inbox",
-          "name": "Agent Inbox",
-          "description": "A real email inbox for AI agents: human-approved sends, untrusted-by-default inbound.",
-          "category": "Productivity"
+          "slug": "ai-clize-domains",
+          "name": "Agent Domains",
+          "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
+          "category": "Health & Science"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 2,
         "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 237,
-        "currentTotal": 237
+        "currentTotal": 238
       }
     },
     "repos": {

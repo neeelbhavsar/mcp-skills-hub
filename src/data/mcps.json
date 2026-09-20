@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 711285,
+        "weeklyDownloads": 542166,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 137480,
+        "weeklyDownloads": 111922,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 122457,
+        "weeklyDownloads": 93577,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 264496,
+        "weeklyDownloads": 204563,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90458,
+    "stars": 90487,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90458,
-      "forks": 11662,
+      "stars": 90487,
+      "forks": 11668,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-09-03T01:42:26Z",
-      "openIssues": 232,
+      "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1147,7 +1147,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 84,
+        "weeklyDownloads": 77,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -1201,13 +1201,13 @@
         "headers": []
       }
     ],
-    "stars": 7265,
+    "stars": 7266,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7265,
-      "forks": 993,
+      "stars": 7266,
+      "forks": 994,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
@@ -1254,13 +1254,13 @@
         "headers": []
       }
     ],
-    "stars": 7265,
+    "stars": 7266,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7265,
-      "forks": 993,
+      "stars": 7266,
+      "forks": 994,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
@@ -1526,7 +1526,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-14T18:32:10.015915Z",
+    "updatedAt": "2026-09-19T18:18:12.505174Z",
     "repoMeta": {
       "slug": "ruslan2027/adako-mcp",
       "stars": 0,
@@ -1534,14 +1534,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-13T17:47:27Z",
-      "pushedAt": "2026-09-14T20:06:10Z",
+      "pushedAt": "2026-09-19T17:41:43Z",
       "openIssues": 0,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# Adako: ad ops for AI assistants\n\n**アダコ** · [adako.ai](https://adako.ai)\n\nAdako is an MCP server and REST API that connects Claude, ChatGPT, Cursor and other assistants to\nGoogle Ads, Meta Ads, ChatGPT Ads, TikTok Ads and LinkedIn Ads.\n\n```\nhttps://adako.ai/mcp\n```\n\nAsk \"how did my campaigns do last month?\" and get an answer from the live account, in the account's\nown currency. Ask \"raise that budget to 40 a day\" and get a proposal you approve before anything\nmoves. Created campaigns are always paused.\n\nThis repository holds the public pieces: the Agent Skills, per-client configuration, one-file\ninstallers, a Claude Code plugin, and the MCP Registry entry. The server itself is hosted.\n\n---\n\n## What it can do\n\n231 tools across five platforms, plus Adako's own.\n\n| Platform     | Tools | What they cover                                                                                                                                                                 |\n| ------------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Google Ads   | 70    | Search and Performance Max, keywords and search terms, budgets and bid strategies, assets and extensions, conversion actions, labels, schedules, geo, hourly and device reports |\n| Meta Ads     | 43    | Campaigns, ad sets and ads, image, video, carousel and app-install launches, audiences and placements, pixels, lead forms, creative fatigue                                     |\n| LinkedIn Ads | 34    | Campaign groups and campaigns, image, video, carousel and text ads, B2B targeting, audience forecasts, conversion rules, engagement metrics                                     |\n| TikTok Ads   | 30    | Campaigns, ad groups and in-feed video ads, Spark Ads, video metrics, identities, pixels, creative fatigue                                                                      |\n| ChatGPT Ads  | 23    | Chat card campaigns end to end, account limits, pixels, review verdicts                                                                                                         |\n| Adako        | 31    | Connections and usage, tool discovery, proposals, diagnostics, monitors, briefs and reports                                                                                     |\n\nYour client does not see 231 entries. It sees 15 tools callable by name plus 13 routers. Each\nplatform has a read router (`google_ads`, `meta_ads`, `chatgpt_ads`, `tiktok_ads`, `linkedin_ads`)\nand a write router beside it (`google_ads_write`, `meta_ads_write`, `chatgpt_ads_write`,\n`tiktok_ads_write`, `linkedin_ads_write`). Monitors have `monitoring` and `monitoring_write`, and\n`diagnostics` only reads. A read looks like\n`google_ads(action=\"execute\", tool_name=\"google_list_campaigns\", arguments={...})`, a change like\n`google_ads_write(action=\"execute\", tool_name=\"google_pause_campaign\", arguments={...})`.\n\nLooking things up never changes an account, so an assistant that asks permission per tool can allow\nreads once. Every change runs through a `_write` tool, which asks each time and creates a proposal.\n`search_tools` finds the right tool from your own wording and returns its exact call line, and it is\nfree. See [adako.ai/docs/routers](https://adako.ai/docs/routers).\n\nTikTok Ads and LinkedIn Ads are available on request; write to support@adako.ai if you do not see\nthem on the Connections page.\n\n---\n\n## The safety model\n\nAdako is built so that an assistant can be useful without being dangerous.\n\n| Rule                           | What it means                                                                                                                                              |\n| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Reads run immediately          | Performance, structure, search terms, audiences. Nothing to approve.                                                                                       |\n| Every write becomes a proposal | You see the object, the before and after values, and the daily cost before anything is sent.                                                               |\n| Approval is yours              | Confirm in the chat, or leave proposals in an inbox and approve them at [adako.ai/approvals](https://adako.ai/approvals). Proposals expire after 48 hours. |\n| Created objects are paused     | Every campaign, ad set and ad Adako creates starts paused. You enable it yourself.                                                                         |\n| Almost nothing deletes         | Eight tools remove something and each needs an explicit confirmation flag. Pause never routes to a delete.                                                 |\n| Executed once                  | Each approved proposal carries an idempotency key. Approving twice reports the first result and repeats nothing.                                           |\n| Read-back on every write       | The change is confirmed by reading the object back from the platform, not by trusting the response.                                                        |\n| Tokens stay server-side        | Your platform tokens are held encrypted by Adako and are never forwarded to the AI client.                                                                 |\n\nDetails: [adako.ai/docs/safety](https://adako.ai/docs/safety).\n\n---\n\n## Install — five minutes\n\nTwo ways to authenticate:\n\n- **OAuth** — the client opens a browser, you sign in to Adako once. Preferred everywhere it works.\n- **API key** — create one at [adako.ai/keys](https://adako.ai/keys), send it as\n  `Authorization: Bearer ak_live_…`. Use it for clients that read a static config file.\n\nPick your client.\n\n### Claude.ai (custom connector)\n\nPro and Max: **Settings \n\n…",
+      "markdown": "# Adako: ad ops for AI assistants\n\n**アダコ** · [adako.ai](https://adako.ai)\n\nAdako is an MCP server and REST API that connects Claude, ChatGPT, Cursor and other assistants to\nGoogle Ads, Meta Ads, ChatGPT Ads, TikTok Ads and LinkedIn Ads.\n\n```\nhttps://adako.ai/mcp\n```\n\nAsk \"how did my campaigns do last month?\" and get an answer from the live account, in the account's\nown currency. Ask \"raise that budget to 40 a day\" and get a proposal you approve before anything\nmoves. Created campaigns are always paused.\n\nThis repository holds the public pieces: the Agent Skills, per-client configuration, one-file\ninstallers, a Claude Code plugin, and the MCP Registry entry. The server itself is hosted.\n\n---\n\n## What it can do\n\n233 tools across five platforms, plus Adako's own.\n\n| Platform     | Tools | What they cover                                                                                                                                                                 |\n| ------------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Google Ads   | 70    | Search and Performance Max, keywords and search terms, budgets and bid strategies, assets and extensions, conversion actions, labels, schedules, geo, hourly and device reports |\n| Meta Ads     | 44    | Campaigns, ad sets and ads, image, video, carousel and app-install launches, audiences and placements, pixels, lead forms, creative fatigue                                     |\n| LinkedIn Ads | 34    | Campaign groups and campaigns, image, video, carousel and text ads, B2B targeting, audience forecasts, conversion rules, engagement metrics                                     |\n| TikTok Ads   | 30    | Campaigns, ad groups and in-feed video ads, Spark Ads, video metrics, identities, pixels, creative fatigue                                                                      |\n| ChatGPT Ads  | 23    | Chat card campaigns end to end, account limits, pixels, review verdicts                                                                                                         |\n| Adako        | 32    | Connections and usage, tool discovery, proposals, diagnostics, monitors, briefs and reports                                                                                     |\n\nYour client does not see 233 entries. It sees 16 tools callable by name plus 13 routers. Each\nplatform has a read router (`google_ads`, `meta_ads`, `chatgpt_ads`, `tiktok_ads`, `linkedin_ads`)\nand a write router beside it (`google_ads_write`, `meta_ads_write`, `chatgpt_ads_write`,\n`tiktok_ads_write`, `linkedin_ads_write`). Monitors have `monitoring` and `monitoring_write`, and\n`diagnostics` only reads. A read looks like\n`google_ads(action=\"execute\", tool_name=\"google_list_campaigns\", arguments={...})`, a change like\n`google_ads_write(action=\"execute\", tool_name=\"google_pause_campaign\", arguments={...})`.\n\nLooking things up never changes an account, so an assistant that asks permission per tool can allow\nreads once. Every change runs through a `_write` tool, which asks each time and creates a proposal.\n`search_tools` finds the right tool from your own wording and returns its exact call line, and it is\nfree. See [adako.ai/docs/routers](https://adako.ai/docs/routers).\n\nTikTok Ads and LinkedIn Ads are available on request; write to support@adako.ai if you do not see\nthem on the Accounts page.\n\n---\n\n## The safety model\n\nAdako is built so that an assistant can be useful without being dangerous.\n\n| Rule                           | What it means                                                                                                                                              |\n| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Reads run immediately          | Performance, structure, search terms, audiences. Nothing to approve.                                                                                       |\n| Every write becomes a proposal | You see the object, the before and after values, and the daily cost before anything is sent.                                                               |\n| Approval is yours              | Confirm in the chat, or leave proposals in an inbox and approve them at [adako.ai/approvals](https://adako.ai/approvals). Proposals expire after 48 hours. |\n| Created objects are paused     | Every campaign, ad set and ad Adako creates starts paused. You enable it yourself.                                                                         |\n| Almost nothing deletes         | Eight tools remove something and each needs an explicit confirmation flag. Pause never routes to a delete.                                                 |\n| Executed once                  | Each approved proposal carries an idempotency key. Approving twice reports the first result and repeats nothing.                                           |\n| Read-back on every write       | The change is confirmed by reading the object back from the platform, not by trusting the response.                                                        |\n| Tokens stay server-side        | Your platform tokens are held encrypted by Adako and are never forwarded to the AI client.                                                                 |\n\nDetails: [adako.ai/docs/safety](https://adako.ai/docs/safety).\n\n---\n\n## Install — five minutes\n\nTwo ways to authenticate:\n\n- **OAuth** — the client opens a browser, you sign in to Adako once. Preferred everywhere it works.\n- **API key** — create one at [adako.ai/keys](https://adako.ai/keys), send it as\n  `Authorization: Bearer ak_live_…`. Use it for clients that read a static config file.\n\nPick your client.\n\n### Claude.ai (custom connector)\n\nPro and Max: **Settings → C\n\n…",
       "truncated": true,
       "url": "https://github.com/ruslan2027/adako-mcp#readme"
     }
@@ -1563,7 +1563,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 722,
+        "weeklyDownloads": 618,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -1578,11 +1578,11 @@
     "repoMeta": {
       "slug": "dealfluence/adeu",
       "stars": 162,
-      "forks": 24,
+      "forks": 25,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-09-17T09:16:14Z",
+      "pushedAt": "2026-09-20T08:44:26Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -1862,6 +1862,29 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-adsap-adsap",
+    "name": "Adsap",
+    "qualifiedName": "ai.adsap/adsap",
+    "slug": "ai-adsap-adsap",
+    "description": "Launch and manage Meta and Google Ads from your AI assistant. You approve every change first.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://adsap.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.adsap.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-19T12:13:27.871767Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
     "id": "mcp:ai-adside-adside",
     "name": "adside",
     "qualifiedName": "ai.adside/adside",
@@ -1931,7 +1954,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 63,
+        "weeklyDownloads": 46,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -2192,7 +2215,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 318,
+        "weeklyDownloads": 261,
         "lastPublished": "2026-08-26T23:23:12.238Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -2911,7 +2934,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 137,
+        "weeklyDownloads": 88,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -4670,7 +4693,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 61,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -4717,7 +4740,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 64,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -4748,7 +4771,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 53,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -4779,7 +4802,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -4810,7 +4833,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 134,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -4841,7 +4864,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 99,
+        "weeklyDownloads": 68,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -4872,7 +4895,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 115,
+        "weeklyDownloads": 88,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -4903,7 +4926,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -4934,7 +4957,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -4965,7 +4988,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 114,
+        "weeklyDownloads": 92,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -4996,7 +5019,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 78,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -5027,7 +5050,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 74,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -5058,7 +5081,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 71,
+        "weeklyDownloads": 53,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -5089,7 +5112,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 75,
+        "weeklyDownloads": 50,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -5120,7 +5143,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 58,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -5151,7 +5174,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 117,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -5182,7 +5205,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 154,
+        "weeklyDownloads": 89,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -5213,7 +5236,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 126,
+        "weeklyDownloads": 71,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -7005,7 +7028,7 @@
       },
       {
         "name": "search_concepts",
-        "description": "Search the SAP analytics concept encyclopaedia — the vocabulary of the stack, written for practitioners. Returns slug, title, category, level, tags and the editor's summary. `level` is SPARSE — null on 108 of the 330 active rows, measured 2026-08-27 — and a null there means 'not graded', never 'Beginner'. These are the same fields `get_concept` returns for ONE slug. The card BODY (why-it-matters, ",
+        "description": "Search the SAP analytics concept encyclopaedia — the vocabulary of the stack, written for practitioners. Returns slug, title, category, level, tags and the editor's summary. `level` is GRADED on every active row since 2026-09-18 (the CHECK constraint accepted only the legacy vocabulary OR NULL, so the loader wrote NULL rather than fail; 108 of 330 were blank). A null, if one ever returns, means 'n",
         "inputs": [
           {
             "name": "query",
@@ -7035,7 +7058,7 @@
       },
       {
         "name": "get_concept",
-        "description": "Fetch one concept entry by slug: title, category, level, tags and the editor's summary. Written by a named human editor, not generated. The card body, why-it-matters, key points and pro tip are subscriber content and are NOT returned — follow citation_url for those.",
+        "description": "Fetch one concept entry by slug: title, category, level, tags and the editor's summary. Written by a named human editor, not generated. `level` is GRADED on every active row since 2026-09-18 (the CHECK constraint accepted only the legacy vocabulary OR NULL, so the loader wrote NULL rather than fail; 108 of 330 were blank). A null, if one ever returns, means 'not graded', never 'Beginner'. The card",
         "inputs": [
           {
             "name": "slug",
@@ -7220,7 +7243,7 @@
       },
       {
         "name": "get_concept_card",
-        "description": "The FULL encyclopaedia card for one concept — body, why-it-matters, key points, cheat sheet, glossary, pro tip, and the four analysis tables (decision table, peer comparison, named pitfalls, performance facts), EN, FR and DE — the corpus the €29.90 Consultant Pass sells. On THIS endpoint the machine-access subscription is the MCP Pass (€39.90/month, analyticslegends.ai/pricing/), which opens the E",
+        "description": "The FULL encyclopaedia card for one concept — body, cheat sheet, glossary, pro tip, and the four analysis tables (decision table, peer comparison, named pitfalls, performance facts), EN, FR and DE, plus why-it-matters and key points (those two are also published free on the concept page; here they come structured, in three languages, in the same payload) — the corpus the €29.90 Consultant Pass sel",
         "inputs": [
           {
             "name": "slug",
@@ -7442,7 +7465,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1774,
+        "weeklyDownloads": 1769,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -7493,13 +7516,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
-      "pushedAt": "2026-09-18T12:38:57Z",
+      "pushedAt": "2026-09-19T19:36:06Z",
       "openIssues": 2,
       "license": "NOASSERTION",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under the addon's `_cache/` directory, so they happen once, not on every launch.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_fields` tool (with an opt-in [destructive](#destructive-tools-opt-in) remove)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Check status via *Tools → AnkiMCP Server Settings...*\n\n### Connect with Claude Desktop\n\nRequires [Node.js](https://nodejs.org/) installed. Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):\n\n```json\n{\n  \"mcpServers\": {\n    \"anki\": {\n      \"command\": \"npx\",\n      \"args\": [\"mcp-remote\", \"http://127.0.0.1:3141\"]\n    }\n  }\n}\n```\n\n> **Note:** Claude Desktop doesn't natively support HTTP servers in its JSON config — `mcp-remote` bridges the connection via stdio.\n\n### Connect with Claude Code\n\n```bash\nclaude mcp add anki --transport http http://127.0.0.1:3141/\n```\n\n### Opencode\n\n```bash\nopencode mcp add anki --url http://127.0.0.1:3141/\n```\n\n### Tunnel (Remote Access)\n\nThe built-in tunnel gives your Anki collection a public HTTPS URL, so AI assistants can reach it from anywhere — no port forwarding or reverse proxy needed. The collection is relayed through a WebSocket tunnel server (`wss://tunnel.ankimcp.ai` \n\n…",
+      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under Anki's own data folder (outside the addon's own folder, so it survives addon updates cleanly on every OS), falling back to the addon's `_cache/` directory when that location isn't available — so either way they happen once, not on every launch. The old in-folder fallback cache is only ever removed once the outside-the-folder cache has proven itself usable (a successful load from it) and is never touched while a native module is still loaded from it — a failed first attempt (e.g. offline) leaves the old cache untouched rather than destroyed.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_fields` tool (with an opt-in [destructive](#destructive-tools-opt-in) remove)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Check status via *Tools → AnkiMCP Server Settings...*\n\n### Connect with Claude Desktop\n\nRequires [Node.js](https://nodejs.org/) installed. Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):\n\n```json\n{\n  \"mcpServers\": {\n    \"anki\": {\n      \"command\": \"npx\",\n      \"args\": [\"mcp-remote\", \"http://127.0.0.1:3141\"]\n    }\n  }\n}\n```\n\n> **Note:** Claude Desktop doesn't natively support HTTP servers in its JSON config — `mcp-remote` bridges the conn\n\n…",
       "truncated": true,
       "url": "https://github.com/ankimcp/anki-mcp-server-addon#readme"
     }
@@ -9078,7 +9101,7 @@
       "isFork": false,
       "createdAt": "2026-06-29T07:36:29Z",
       "pushedAt": "2026-09-19T05:05:36Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -10139,7 +10162,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 50,
+        "weeklyDownloads": 37,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -10170,7 +10193,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 51,
+        "weeklyDownloads": 41,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -10201,7 +10224,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 50,
+        "weeklyDownloads": 40,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -10261,7 +10284,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 99,
+        "weeklyDownloads": 90,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -10323,7 +10346,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 457,
+        "weeklyDownloads": 111,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -11305,7 +11328,7 @@
     "name": "Balanços.AI",
     "qualifiedName": "ai.balancos/mcp",
     "slug": "ai-balancos-mcp",
-    "description": "Balanços, DRE, DFPs da CVM e IF.data do BCB de empresas brasileiras. Brazilian financial statements.",
+    "description": "Balanços, DREs, DFPs e ITRs da CVM e IF.data do BCB. Brazilian companies' financial statements.",
     "category": "Other",
     "repository": null,
     "homepage": "https://balancos.ai/mcp",
@@ -11319,7 +11342,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-17T22:31:10.524833Z",
+    "updatedAt": "2026-09-19T20:44:03.832258Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -12151,6 +12174,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-13T15:54:48.389416Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-beatra-beatra",
+    "name": "Beatra",
+    "qualifiedName": "ai.beatra/beatra",
+    "slug": "ai-beatra-beatra",
+    "description": "Images, video, music, speech, and public social data for AI agents.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://beatra.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.beatra.ai/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer token from one Beatra sign-in (Device Token)",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-20T02:54:21.344955Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -15710,7 +15764,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 111,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -15994,7 +16048,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 156,
+        "weeklyDownloads": 95,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -17188,7 +17242,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 257,
         "lastPublished": "2026-09-18T05:35:49.707Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -17243,7 +17297,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 145,
+        "weeklyDownloads": 120,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -17268,7 +17322,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-19T10:26:37.998951Z",
+    "updatedAt": "2026-09-20T07:02:58.225577Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -17276,7 +17330,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-24T00:30:48Z",
-      "pushedAt": "2026-09-18T05:58:39Z",
+      "pushedAt": "2026-09-19T20:06:54Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
@@ -17723,7 +17777,7 @@
       },
       {
         "name": "get_context",
-        "description": "Expand a previous search hit to its full verbatim section (markdown). Args: result_id: The result_id from a search_docs hit. effort: Internal diagnostics tag; clients should leave this unset. ",
+        "description": "Expand a previous search hit to its full verbatim section (markdown). Args: result_id: The id from a search_docs hit's `_ref:` line - the token inside the backticks, e.g. E1_Nasdaq_ITCH-5.0:1.2:1:0. Pass it exactly. effort: Internal diagnostics tag; clients should leave this unset. ",
         "inputs": [
           {
             "name": "result_id",
@@ -18341,7 +18395,7 @@
       "isFork": false,
       "createdAt": "2026-05-14T22:20:19Z",
       "pushedAt": "2026-06-07T18:12:00Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "NOASSERTION",
       "language": null
     },
@@ -18415,7 +18469,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 107,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -19301,7 +19355,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 384,
+        "weeklyDownloads": 151,
         "lastPublished": "2026-09-11T19:47:31.906Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
@@ -19320,7 +19374,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-19T07:46:55Z",
+      "pushedAt": "2026-09-19T16:22:06Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19358,7 +19412,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-19T07:46:55Z",
+      "pushedAt": "2026-09-19T16:22:06Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -20040,7 +20094,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 171,
+        "weeklyDownloads": 91,
         "lastPublished": "2026-07-14T21:12:54.331Z",
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
@@ -20137,7 +20191,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-07-09T11:51:01.001Z",
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
@@ -20379,7 +20433,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 293,
+        "weeklyDownloads": 203,
         "lastPublished": "2026-08-19T16:17:21.278Z",
         "firstPublished": "2026-07-06T09:51:29.727Z",
         "deprecated": false,
@@ -20418,7 +20472,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 47,
         "lastPublished": "2026-08-06T07:04:26.492Z",
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
@@ -20557,7 +20611,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 65,
         "lastPublished": "2026-08-01T18:43:14.193Z",
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
@@ -20604,7 +20658,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 1579,
         "lastPublished": "2026-09-14T00:00:32.222Z",
         "firstPublished": "2026-06-04T17:40:12.941Z",
         "deprecated": false,
@@ -20616,53 +20670,6 @@
     "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-14T00:00:48.761203Z",
-    "repoMeta": {
-      "slug": "cooldk/clize-cli",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-02T01:29:17Z",
-      "pushedAt": "2026-07-17T06:20:55Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "Dockerfile"
-    },
-    "readme": {
-      "markdown": "# Clize\n\n**Clize is a CLI and MCP server that gives AI coding agents real-world actions: domains, email, deploys, payments, and media generation.** Your agent already has a brain — Clize gives it hands: a domain, a working inbox, a live website. One CLI (plus an MCP server) so coding agents in Claude Code / Codex can register domains, run real email, build & ship sites and short clips, generate media, and collect payments from their customers — across as many projects as you run.\n\n→ **[clize.ai](https://clize.ai)**\n\n## Install\n\n```bash\nnpm i -g @clize/clize\nclize install          # wire clize into your coding agent (Claude Code / Codex)\n```\n\n`clize install` is the step that makes your agent actually *reach for* clize — a binary on your `PATH` doesn't tell the agent it exists. By default it drops clize's skill (when to use it + the safety gates) into each agent's skills dir; the skill is lightweight — only its short description sits in context until something triggers it. It auto-detects Claude Code (`~/.claude`) and Codex (`~/.codex`); scope with `--claude` / `--codex`, preview with `--dry-run`. Add `--mcp` to also register the `clize-mcp` server — opt-in, because an MCP server's tool list stays in context every session.\n\nUpdate later with one command — pulls the latest release and refreshes the skill together:\n\n```bash\nclize update            # or `clize update --check` to only check for a newer version\n```\n\n## Quickstart (hosted)\n\nLog in and go — your agent never touches Cloudflare:\n\n```bash\nclize login                       # browser authorize → creates your account, saves a clize key\nclize check                       # ✓ connected to the hosted backend\nclize claim acme                  # free handle: acme.clize.app (+ support@ inbox, already receiving)\nclize init --handle acme          # bind this directory — deploy / email send infer domain & from\nclize deploy ./site               # ship a static site → https://acme.clize.app\nclize status                      # who's waiting, this month's spend\nclize email inbox acme.clize.app  # read what customers sent\n```\n\n## Hosted — just log in\n\n| Log in with | What runs where |\n|---|---|\n| `clize login` (web: GitHub / Google / email) — or `clize login --token clize_…` for CI / headless | Commands call the clize backend; resources run on clize's infra. You never touch Cloudflare / Vercel keys. |\n\nclize is a **thin client**: the CLI / MCP carry no infrastructure credentials and talk only to the clize control plane — domains, email, deploy, and media all run hosted. (Credentials live in your dashboard; bring-your-own Cloudflare / Vercel is configured there, not on your machine.)\n\nA few specifics worth knowing:\n\n- `clize deploy <dir>` and `clize email send` need `--domain` / `--from` — unless the directory is bound with `clize init --handle <slug>`, which infers both from `./clize.json`. Deploy is directory-based (multi-file static sites).\n- `gen image --ref/--mask` (reference image / mask) and `gen budget` pre-approval are coming soon — hosted confirms each generation with `--confirm`.\n- Free `*.clize.app` handle: `clize claim <slug>`. Your own domain: `clize domain buy` / `clize domain import`. Run `clize check` to verify your login.\n\n## What it does\n\n| Area | Commands |\n|---|---|\n| **Claim** | `clize claim <slug>` — first-come, free `<slug>.clize.app` handle with inbox + site in one shot (`support@` is already receiving — no extra email setup needed) |\n| **Domains** | `clize domain search / tlds / buy / import / list` |\n| **Email** | `clize email setup` → `inbox-setup` → `address add` (`--tag` / `--knowledge`) wires a real send/receive inbox on your domain — or get `support@` instantly with `clize claim`. Then `send` (`--attach`) / `inbox` / `show` / `thread` / `route` / `webhook`. (`address add` only stores tag + knowledge; `inbox-setup` is what opens receiving.) |\n| **Media** | `clize gen image / video / music` — text→image (`gpt-image-2` / `nano-banana-2`), text/image→video (`veo`), text→music (`suno`); long tasks via `gen jobs / status`, spend-gated via `gen budget`. Results land as local files, ready to `deploy` or `email --attach`. |\n| **Build · site** (hosted methods) | `clize build site start <brief>` — a hosted design system that briefs your agent on a cohesive style *before* it writes the site, so pages land with taste instead of AI-template sludge. Then `build site recommend / list / get / search / review` + `build site stack <stack>` for stack-specific guidance (React / Next / SwiftUI / …). The former `clize design …` spelling still works as a hidden alias. |\n| **Build · clip** (hosted methods) | `clize build clip start <brief>` → your agent writes a shot-by-shot blueprint → `build clip check` (free local lint: continuity, dialogue coverage, timing) → `build clip render --confirm` (💰 one summed quote, batch-generate + merge, resumable). One-off footage stays `gen video`. |\n| **Deploy** | `clize deploy <dir> --domain <host>` — multi-file static sites; free `*.clize.app` or your own domain. Preview locally first with `clize serve <dir>` (proper `Range` support — `<video>` pages actually play in Safari). |\n| **Projects** | One project = one directory: `clize init --handle <slug>` binds it (the project record auto-creates on first `claim` / `buy`). `clize projects` to list / `new` / `move` / `rename` / `rm`; `-p <slug>` for one-off cross-project calls. Email send across projects is blocked (409); deploy instead **follows the target domain** — a stale `clize.json` checkout auto-routes to the domain's real project (and is written back to `clize.json`), and only an explicit mismatched `-p` is a 409. `status` / lists / spend scope to the checked-out project, and `status` flags any local↔remote drift. |\n| **Context** | `clize status [--assets]`, `clize context [address]` — rehydrate who's waiting + identity/knowledge at the start of a session |\n| **Billing** (hosted) | `clize balance` / `clize recharge --amount <usd>` — prepaid clize balanc\n\n…",
-      "truncated": true,
-      "url": "https://github.com/cooldk/clize-cli#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-clize-domains",
-    "name": "Agent Domains",
-    "qualifiedName": "ai.clize/domains",
-    "slug": "ai-clize-domains",
-    "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
-    "category": "Health & Science",
-    "repository": "https://github.com/cooldk/clize-cli",
-    "homepage": "https://clize.ai/domains/",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@clize/domains",
-        "version": "0.35.5",
-        "transport": "stdio",
-        "runtimeHint": "npx",
-        "env": [],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-03T21:50:59.397Z",
-        "firstPublished": "2026-08-30T19:05:36.628Z",
-        "deprecated": true,
-        "declaredRepo": "cooldk/clize-cli",
-        "repoMatchesRegistry": true
-      }
-    ],
-    "remotes": [],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-03T11:43:33.859191Z",
     "repoMeta": {
       "slug": "cooldk/clize-cli",
       "stars": 0,
