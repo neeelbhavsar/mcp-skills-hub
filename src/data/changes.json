@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T10:58:29.886Z",
+  "generatedAt": "2026-09-21T12:24:24.549Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,36 +21,42 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-adsap-adsap",
-          "name": "Adsap",
-          "description": "Launch and manage Meta and Google Ads from your AI assistant. You approve every change first.",
-          "category": "Web & Search"
+          "slug": "ai-agenticbooks-books",
+          "name": "AgenticBooks",
+          "description": "Startup books from live bank and billing feeds: P&L, balances, approvals, period close.",
+          "category": "AI & Memory"
         },
         {
-          "slug": "ai-beatra-beatra",
-          "name": "Beatra",
-          "description": "Images, video, music, speech, and public social data for AI agents.",
-          "category": "Design & Media"
+          "slug": "ai-botinfo-robot-market-data",
+          "name": "BotInfo — Advanced Robot Market Data",
+          "description": "Checkout-verified prices, stock, US FCC status and buy routes for humanoid and quadruped robots",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-clipstudio-mcp",
+          "name": "Clip Studio MCP",
+          "description": "Hosted MCP for Clip Studio public products — same plan as the website.",
+          "category": "Web & Search"
         }
       ],
       "removed": [
         {
-          "slug": "ai-clize-domains",
-          "name": "Agent Domains",
-          "description": "Domains your AI agent can buy, point and monitor, with four-layer health checks and alerts.",
-          "category": "Health & Science"
+          "slug": "ai-clize-clize",
+          "name": "Clize",
+          "description": "Real-world actions for AI coding agents: domains, email, deploys, payments, media, and SEO/GEO.",
+          "category": "Finance & Data"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
+        "added": 3,
         "removed": 1,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 237,
-        "currentTotal": 238
+        "previousTotal": 238,
+        "currentTotal": 240
       }
     },
     "repos": {
