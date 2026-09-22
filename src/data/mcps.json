@@ -25,13 +25,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -66,13 +66,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -107,13 +107,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -154,13 +154,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -201,13 +201,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -242,13 +242,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -289,13 +289,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90521,
+    "stars": 90545,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90521,
-      "forks": 11672,
+      "stars": 90545,
+      "forks": 11676,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -1201,18 +1201,18 @@
         "headers": []
       }
     ],
-    "stars": 7267,
+    "stars": 7272,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7267,
-      "forks": 995,
+      "stars": 7272,
+      "forks": 998,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 114,
+      "openIssues": 118,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1254,18 +1254,18 @@
         "headers": []
       }
     ],
-    "stars": 7267,
+    "stars": 7272,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7267,
-      "forks": 995,
+      "stars": 7272,
+      "forks": 998,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 114,
+      "openIssues": 118,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -2949,12 +2949,12 @@
         "headers": []
       }
     ],
-    "stars": 6,
+    "stars": 7,
     "source": "MCP Registry",
     "updatedAt": "2026-07-29T07:26:14.414867Z",
     "repoMeta": {
       "slug": "bobberrisford/affiliatemcp",
-      "stars": 6,
+      "stars": 7,
       "forks": 1,
       "archived": false,
       "isFork": false,
@@ -5800,7 +5800,7 @@
           {
             "name": "category",
             "type": "string",
-            "description": "Optional category filter (industrial-automation, wiring-devices, mechanical-keyboards, mfp, barcode-printer, laser-printer, inkjet-printer, cybersecurity, or threat-intelligence-platform)",
+            "description": "Optional category filter (industrial-automation, wiring-devices, digital-signage, business-display, mechanical-keyboards, mfp, barcode-printer, laser-printer, inkjet-printer, cybersecurity, or threat-",
             "required": false
           },
           {
@@ -6380,7 +6380,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-03T00:10:55Z",
-      "pushedAt": "2026-09-20T21:30:40Z",
+      "pushedAt": "2026-09-21T23:02:27Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "Go"
@@ -7497,12 +7497,12 @@
       }
     ],
     "remotes": [],
-    "stars": 486,
+    "stars": 488,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 486,
+      "stars": 488,
       "forks": 36,
       "archived": false,
       "isFork": false,
@@ -10881,14 +10881,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-17T08:21:14Z",
-      "pushedAt": "2026-09-16T18:21:59Z",
+      "pushedAt": "2026-09-22T10:53:29Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n25 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief and banlist |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel under [MCP connection](https://awraiter.ai/mcp-connect).\n\n## Security model\n\n|  | Userbot-style Telegram MCP servers | AwrAIter |\n|---|---|---|\n| What you hand over | Phone number, login code, session file | An OAuth grant to your own account |\n| What it can reach | Everything your account can — DMs, groups, private material | Only the channels of the team you authorized |\n| How it publishes | As you | Through the panel's own service admin, with the same permission checks as the UI |\n| If the token leaks | Your whole Telegram account | Revoke the token in the panel; nothing else is exposed |\n\nEvery write goes through the same channel-level access control as the panel, and rate limits apply per token.\nThe full model, and how to report a vulnerability, are in **[SECURITY.md](SECURITY.md)**.\n\n## About AwrAIter\n\nAwrAIter is a panel for people who run Telegram channels: weekly content plans, AI drafts in your channel's tone, scheduled publishing, and analytics for everything published — growth, reach, ER/ERR, per-post performance, channel comparison, export to XLSX or Google Sheets. One c\n\n…",
+      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### Agent skill (Claude Code, Codex and other agents)\n\nThe [AwrAiter_skills](https://github.com/MediaZione/AwrAiter_skills) repository ships a skill with the full tool contract, authentication, the draft → check → preview → schedule workflow and the guardrails an agent should follow:\n\n```bash\n# Claude Code — as a plugin\nclaude plugin marketplace add MediaZione/AwrAiter_skills\nclaude plugin install awraiter@awraiter\n\n# Codex and any other agent with skills\nnpx skills add MediaZione/AwrAiter_skills --skill awraiter\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once, together with ready-to-paste snippets (Claude Code command, JSON config, cURL, Node.js) that already contain it — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n25 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief and banlist |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel under [MCP connection](https://awraiter.ai/mcp-connect).\n\n## Security model\n\n|  | Userbot-style Telegram MCP servers | AwrAIter |\n|---|---|---|\n| What you hand over | Phone number, login code, session file | An OAuth grant to your own account |\n| What it can reach | Everything your account can — DMs, groups, private material | Only the channels of the team you authorized |\n| How it publishes | As you | Through the panel's own service admin, with the same perm\n\n…",
       "truncated": true,
       "url": "https://github.com/MediaZione/AwrAiter#readme"
     }
@@ -11013,10 +11013,10 @@
     "name": "Fibalo",
     "qualifiedName": "ai.b77/fibalo",
     "slug": "ai-b77-fibalo",
-    "description": "Query and add to your Fibalo bookkeeping: documents, bank transactions, suppliers, access.",
+    "description": "Moved to de.fibalo/mcp. Connect to https://mcp.fibalo.de/mcp for Fibalo bookkeeping.",
     "category": "Other",
     "repository": null,
-    "homepage": "https://b77.ai/apps/fibalo",
+    "homepage": "https://fibalo.de",
     "packages": [],
     "remotes": [
       {
@@ -11027,7 +11027,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-14T20:37:07.451898Z",
+    "updatedAt": "2026-09-21T17:18:15.860309Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -11425,24 +11425,6 @@
         ]
       },
       {
-        "name": "crypto_price_lite",
-        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
-        "inputs": [
-          {
-            "name": "coin",
-            "type": "string",
-            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "open_banking_transactions",
         "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
         "inputs": [
@@ -11462,6 +11444,42 @@
             "name": "from_date",
             "type": "string",
             "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "finnhub_stock_quote",
+        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
+            "required": true
+          },
+          {
+            "name": "include_company_info",
+            "type": "boolean",
+            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "crypto_price_lite",
+        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
+        "inputs": [
+          {
+            "name": "coin",
+            "type": "string",
+            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
             "required": false
           }
         ]
@@ -11521,48 +11539,6 @@
         ]
       },
       {
-        "name": "finnhub_stock_quote",
-        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
-        "inputs": [
-          {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
-            "required": true
-          },
-          {
-            "name": "include_company_info",
-            "type": "boolean",
-            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "currency_fx_lite",
-        "description": "Converts a foreign exchange (FX) amount between two fiat currencies using live mid-market rates. Returns the converted amount and the exchange rate applied. Use currency_fx_lite when only the numeric result is required and the ECB/Frankfurter data source is not specifically needed. Prefer currency_convert when richer metadata (rate timestamp, ECB-backed Frankfurter source) is needed. Prefer curren",
-        "inputs": [
-          {
-            "name": "amount",
-            "type": "number",
-            "description": "Monetary amount to convert. Must be a positive number.",
-            "required": true
-          },
-          {
-            "name": "from",
-            "type": "string",
-            "description": "ISO 4217 source currency code (e.g. 'USD', 'GBP', 'EUR', 'JPY'). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "to",
-            "type": "string",
-            "description": "ISO 4217 target currency code (e.g. 'EUR', 'CHF', 'AUD', 'CAD'). Case-insensitive.",
-            "required": true
-          }
-        ]
-      },
-      {
         "name": "financial_calculator_lite",
         "description": "Performs common financial calculations locally with no external API dependency. Supports compound interest, loan repayment, return on investment (ROI), present value, future value, and break-even analysis. Returns a single numeric result for the requested calculation type. This is a lightweight variant of financial_calculator — it returns only the result number rather than a full structured breakd",
         "inputs": [
@@ -11605,30 +11581,6 @@
         ]
       },
       {
-        "name": "platform_tool_finder",
-        "description": "Discovers the most relevant tools available on this MCP server for a given task using local semantic search (MiniLM-L6-v2 embeddings). Accepts a plain-English description of what needs to be accomplished and returns the best matching tools ranked by relevance, along with their input schemas, pricing tier, and exact call instructions. Use this tool first when you are connected to this server but do",
-        "inputs": [
-          {
-            "name": "intent",
-            "type": "string",
-            "description": "Plain-English description of what you need to accomplish. Be specific about the goal, not the tool name. Example: 'I need to convert 500 dollars to euros at the current exchange rate' or 'get the late",
-            "required": true
-          },
-          {
-            "name": "model_hint",
-            "type": "string",
-            "description": "Optional: the name of the calling LLM model. Examples: claude, gpt-4, gemini. Used to apply model-specific manifest variant ranking when available. Omit if unknown.",
-            "required": false
-          },
-          {
-            "name": "top_k",
-            "type": "number",
-            "description": "How many ranked results to return. Integer between 1 and 10. Defaults to 3. Use a higher value when the best tool is ambiguous.",
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "currency_rates",
         "description": "Retrieves live and historical fiat currency exchange rates from the Frankfurter API (sourced from the European Central Bank). Supports both real-time conversion and historical rate lookup for any past date, making it the preferred tool when auditable, ECB-sourced rate data is required. Use currency_rates when a rate from a specific past date is required (e.g. accounting, tax, or audit), or when th",
         "inputs": [
@@ -11649,6 +11601,90 @@
             "type": "string",
             "description": "ISO 4217 target currency code (e.g. 'EUR', 'JPY', 'CHF'). Case-insensitive.",
             "required": true
+          }
+        ]
+      },
+      {
+        "name": "stock_price_lite",
+        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "crypto_price",
+        "description": "Retrieves real-time price data for any cryptocurrency listed on CoinGecko. Returns the current price in any fiat currency, 24-hour percentage change, market capitalisation, and 24-hour trading volume. Supports all major cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, Cardano (ADA), Dogecoin (DOGE), Polygon (MATIC), Chainlink (LINK), Avalanche (AVAX), and 10,000+ additi",
+        "inputs": [
+          {
+            "name": "coin",
+            "type": "string",
+            "description": "Cryptocurrency name or ticker symbol. Accepts common symbols (BTC, ETH, SOL, XRP, ADA, DOGE, MATIC, LINK, AVAX) or full names (bitcoin, ethereum, solana). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "Target fiat currency code for the price. Must be a valid ISO 4217 code. Defaults to USD. Examples: usd, eur, gbp, jpy, chf, aud, cad.",
+            "required": false
+          },
+          {
+            "name": "include_market_data",
+            "type": "boolean",
+            "description": "Whether to include market capitalisation and 24-hour trading volume alongside the price. Defaults to true. Set to false for a lighter response when only the price is needed.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "currency_fx_lite",
+        "description": "Converts a foreign exchange (FX) amount between two fiat currencies using live mid-market rates. Returns the converted amount and the exchange rate applied. Use currency_fx_lite when only the numeric result is required and the ECB/Frankfurter data source is not specifically needed. Prefer currency_convert when richer metadata (rate timestamp, ECB-backed Frankfurter source) is needed. Prefer curren",
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "number",
+            "description": "Monetary amount to convert. Must be a positive number.",
+            "required": true
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "ISO 4217 source currency code (e.g. 'USD', 'GBP', 'EUR', 'JPY'). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "ISO 4217 target currency code (e.g. 'EUR', 'CHF', 'AUD', 'CAD'). Case-insensitive.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "platform_tool_finder",
+        "description": "Discovers the most relevant tools available on this MCP server for a given task using local semantic search (MiniLM-L6-v2 embeddings). Accepts a plain-English description of what needs to be accomplished and returns the best matching tools ranked by relevance, along with their input schemas, pricing tier, and exact call instructions. Use this tool first when you are connected to this server but do",
+        "inputs": [
+          {
+            "name": "intent",
+            "type": "string",
+            "description": "Plain-English description of what you need to accomplish. Be specific about the goal, not the tool name. Example: 'I need to convert 500 dollars to euros at the current exchange rate' or 'get the late",
+            "required": true
+          },
+          {
+            "name": "model_hint",
+            "type": "string",
+            "description": "Optional: the name of the calling LLM model. Examples: claude, gpt-4, gemini. Used to apply model-specific manifest variant ranking when available. Omit if unknown.",
+            "required": false
+          },
+          {
+            "name": "top_k",
+            "type": "number",
+            "description": "How many ranked results to return. Integer between 1 and 10. Defaults to 3. Use a higher value when the best tool is ambiguous.",
+            "required": false
           }
         ]
       },
@@ -11738,42 +11774,6 @@
             "name": "price_per_unit",
             "type": "number",
             "description": "The selling price per unit of product or service. Used for break_even calculations.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "stock_price_lite",
-        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
-        "inputs": [
-          {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "crypto_price",
-        "description": "Retrieves real-time price data for any cryptocurrency listed on CoinGecko. Returns the current price in any fiat currency, 24-hour percentage change, market capitalisation, and 24-hour trading volume. Supports all major cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Solana (SOL), XRP, Cardano (ADA), Dogecoin (DOGE), Polygon (MATIC), Chainlink (LINK), Avalanche (AVAX), and 10,000+ additi",
-        "inputs": [
-          {
-            "name": "coin",
-            "type": "string",
-            "description": "Cryptocurrency name or ticker symbol. Accepts common symbols (BTC, ETH, SOL, XRP, ADA, DOGE, MATIC, LINK, AVAX) or full names (bitcoin, ethereum, solana). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": "Target fiat currency code for the price. Must be a valid ISO 4217 code. Defaults to USD. Examples: usd, eur, gbp, jpy, chf, aud, cad.",
-            "required": false
-          },
-          {
-            "name": "include_market_data",
-            "type": "boolean",
-            "description": "Whether to include market capitalisation and 24-hour trading volume alongside the price. Defaults to true. Set to false for a lighter response when only the price is needed.",
             "required": false
           }
         ]
@@ -12559,55 +12559,13 @@
       },
       {
         "name": "grade_slip",
-        "description": "Submit betslip text and get BetSlip Doctor's graded second opinion: rank, score, per-leg calls, ten-dimension checkup and sourced evidence. Entertainment/decision support only. Uses the user's plan allowance exactly like grading in the app.",
-        "inputs": [
-          {
-            "name": "slipText",
-            "type": "string",
-            "description": "The betslip as pasted text: one leg per line with odds where known.",
-            "required": false
-          },
-          {
-            "name": "ticket",
-            "type": "object",
-            "description": "Optional BSD two-level BetTicketContract. Use this for screenshot/manual parses and SGP trees.",
-            "required": false
-          },
-          {
-            "name": "stake",
-            "type": "number",
-            "description": "Optional stake in dollars for payout context.",
-            "required": false
-          },
-          {
-            "name": "mode",
-            "type": "string",
-            "description": "Research depth. 'fast' (default) answers quickly; 'deep' fans out to every research provider.",
-            "required": false,
-            "enum": [
-              "fast",
-              "deep"
-            ]
-          }
-        ]
+        "description": "Quote the current Grade service for an existing saved ticket or exact confirmed manual ticket, then start the quote to reserve its disclosed allowance. Returns a durable job; use get_saved_reports to follow progress and read the saved result. Requires bsd-agent-grade-v1. Text and legacy SGP inputs return migration_required.",
+        "inputs": null
       },
       {
         "name": "get_saved_reports",
-        "description": "List the authenticated user's saved diagnosis reports (newest first), or fetch one full report by id. Only ever the calling user's own reports.",
-        "inputs": [
-          {
-            "name": "report_id",
-            "type": "string",
-            "description": "Return this one report in full instead of the compact list.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Compact list size (default 10).",
-            "required": false
-          }
-        ]
+        "description": "Read your saved Grade job, exact paginated live progress, saved report, or job library. Use bsd-agent-grade-v1 actions list/job/progress/report. Readiness requires a readable saved report. Unversioned report_id/limit reads are retained for legacy reports only.",
+        "inputs": null
       },
       {
         "name": "get_history_summary",
@@ -16086,7 +16044,7 @@
     "repoMeta": {
       "slug": "signaltech-org/bolthub-sdk",
       "stars": 0,
-      "forks": 1,
+      "forks": 2,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-10T06:50:11Z",
@@ -17381,7 +17339,7 @@
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 262,
-        "lastPublished": "2026-09-18T05:35:49.707Z",
+        "lastPublished": "2026-09-21T21:41:45.719Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -17460,7 +17418,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-21T12:00:46.325546Z",
+    "updatedAt": "2026-09-22T11:06:46.118758Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -18804,12 +18762,12 @@
         "headers": []
       }
     ],
-    "stars": 0,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-07-20T00:14:46.676606Z",
     "repoMeta": {
       "slug": "canvora/canvora-mcp",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -19512,7 +19470,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-21T05:26:46Z",
+      "pushedAt": "2026-09-21T16:57:04Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19550,7 +19508,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-21T05:26:46Z",
+      "pushedAt": "2026-09-21T16:57:04Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -20334,7 +20292,7 @@
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
         "declaredRepo": "CircularRoute/circulara-core",
-        "repoMatchesRegistry": true
+        "repoMatchesRegistry": null
       }
     ],
     "remotes": [],
