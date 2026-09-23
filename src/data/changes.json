@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:15:14.304Z",
+  "generatedAt": "2026-09-23T11:07:38.658Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -19,34 +19,66 @@
     },
     "mcps": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "ai-agentxray-amazon-seller-mcp",
+          "name": "Amazon Seller Central & Ads MCP",
+          "description": "Amazon Seller Central and Ads in Claude or ChatGPT. Connect at agentxray.ai/connect.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-aidoo-aidoo",
+          "name": "Aidoo for Odoo",
+          "description": "Query and update your Odoo ERP in plain language, under your own Odoo access rules.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-askwatch-gsc",
+          "name": "AskWatch Google Search Console MCP",
+          "description": "Ask Google Search Console in plain language. Hosted, free, no Google Cloud project.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bindry-bindry",
+          "name": "Bindry",
+          "description": "Reuse your team's AI instructions (Bindings and Stacks) from Bindry in any MCP client.",
+          "category": "Other"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
+        "added": 4,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 240,
-        "currentTotal": 240
+        "currentTotal": 244
       }
     },
     "repos": {
       "baseline": true,
       "added": [],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "code-yeongyu-oh-my-openagent",
+          "name": "oh-my-openagent",
+          "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+          "category": "AI Agents"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 0,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 127,
-        "currentTotal": 127
+        "currentTotal": 126
       }
     }
   }

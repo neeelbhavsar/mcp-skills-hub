@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 534469,
+        "weeklyDownloads": 497862,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,17 +25,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -66,17 +66,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -107,17 +107,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 112338,
+        "weeklyDownloads": 114646,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,17 +154,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 92552,
+        "weeklyDownloads": 90206,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,17 +201,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -242,17 +242,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 214312,
+        "weeklyDownloads": 217048,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,17 +289,17 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90545,
+    "stars": 90559,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90545,
-      "forks": 11676,
+      "stars": 90559,
+      "forks": 11684,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-03T01:42:26Z",
+      "pushedAt": "2026-09-22T14:30:16Z",
       "openIssues": 235,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -1147,7 +1147,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -1201,18 +1201,18 @@
         "headers": []
       }
     ],
-    "stars": 7272,
+    "stars": 7277,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7272,
-      "forks": 998,
+      "stars": 7277,
+      "forks": 1003,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 118,
+      "pushedAt": "2026-09-22T15:11:20Z",
+      "openIssues": 119,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1254,18 +1254,18 @@
         "headers": []
       }
     ],
-    "stars": 7272,
+    "stars": 7277,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7272,
-      "forks": 998,
+      "stars": 7277,
+      "forks": 1003,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-16T23:33:43Z",
-      "openIssues": 118,
+      "pushedAt": "2026-09-22T15:11:20Z",
+      "openIssues": 119,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1563,7 +1563,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 585,
+        "weeklyDownloads": 393,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -1954,7 +1954,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 45,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -2005,7 +2005,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-06T19:06:20.036379Z",
     "repoMeta": null,
-    "toolsStatus": "error",
+    "toolsStatus": "ok",
     "tools": [
       {
         "name": "advisors_catalog_list_services",
@@ -2141,7 +2141,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-28T13:28:25.814078Z",
     "repoMeta": null,
-    "toolsStatus": "error",
+    "toolsStatus": "ok",
     "tools": [
       {
         "name": "advisors_store_readiness_check",
@@ -2215,7 +2215,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 535,
+        "weeklyDownloads": 559,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -2934,7 +2934,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 90,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -4716,7 +4716,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -4763,7 +4763,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 66,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -4794,7 +4794,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 54,
+        "weeklyDownloads": 37,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -4825,7 +4825,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 44,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -4856,7 +4856,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 103,
+        "weeklyDownloads": 83,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -4887,7 +4887,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 48,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -4918,7 +4918,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 90,
+        "weeklyDownloads": 46,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -4949,7 +4949,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 47,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -4980,7 +4980,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 47,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -5011,7 +5011,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 94,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -5042,7 +5042,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 43,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -5073,7 +5073,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 43,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -5104,7 +5104,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 56,
+        "weeklyDownloads": 40,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -5135,7 +5135,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 51,
+        "weeklyDownloads": 37,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -5166,7 +5166,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 48,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -5197,7 +5197,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 51,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -5228,7 +5228,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 90,
+        "weeklyDownloads": 62,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -5259,7 +5259,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 66,
+        "weeklyDownloads": 48,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -5274,11 +5274,27 @@
     "repoMeta": null
   },
   {
+    "id": "mcp:ai-agentxray-amazon-seller-mcp",
+    "name": "Amazon Seller Central & Ads MCP",
+    "qualifiedName": "ai.agentxray/amazon-seller-mcp",
+    "slug": "ai-agentxray-amazon-seller-mcp",
+    "description": "Amazon Seller Central and Ads in Claude or ChatGPT. Connect at agentxray.ai/connect.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentxray.ai/connect",
+    "packages": [],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-23T08:05:15.873174Z",
+    "repoMeta": null
+  },
+  {
     "id": "mcp:ai-agentxray-mcp",
-    "name": "Agentxray MCP",
+    "name": "Amazon Seller Central & Ads MCP",
     "qualifiedName": "ai.agentxray/mcp",
     "slug": "ai-agentxray-mcp",
-    "description": "Amazon sellers: real per-unit profit from your own settlement data, plus drafts you approve.",
+    "description": "Amazon Seller Central and Ads inside Claude or ChatGPT. Real fees from your own settlements.",
     "category": "AI & Memory",
     "repository": null,
     "homepage": "https://agentxray.ai/connect",
@@ -5292,7 +5308,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-01T10:54:13.681499Z",
+    "updatedAt": "2026-09-23T07:37:30.057382Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -5710,6 +5726,50 @@
     ]
   },
   {
+    "id": "mcp:ai-aidoo-aidoo",
+    "name": "Aidoo for Odoo",
+    "qualifiedName": "ai.aidoo/aidoo",
+    "slug": "ai-aidoo-aidoo",
+    "description": "Query and update your Odoo ERP in plain language, under your own Odoo access rules.",
+    "category": "Other",
+    "repository": "https://github.com/eantoniomota/aidoo-mcp",
+    "homepage": "https://aidoo.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aidoo.ai/mcp",
+        "headers": []
+      },
+      {
+        "type": "sse",
+        "url": "https://mcp.aidoo.ai/sse",
+        "headers": []
+      }
+    ],
+    "stars": 1,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-22T16:55:46.749657Z",
+    "repoMeta": {
+      "slug": "eantoniomota/aidoo-mcp",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-22T16:28:20Z",
+      "pushedAt": "2026-09-22T19:18:22Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Python"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# aidoo-mcp\n\nConnect any MCP client to your Odoo ERP through [Aidoo](https://aidoo.ai).\n\n`aidoo-mcp` is a small stdio bridge. It takes an Aidoo API key, opens an authenticated\nsession against the hosted Aidoo MCP server, and relays the Model Context Protocol\nmessages in both directions. Your assistant then queries, creates and updates Odoo\nrecords in plain language, under the permissions carried by the key.\n\n## Why a bridge\n\nThe Aidoo MCP server is hosted at `https://mcp.aidoo.ai`, and clients that support\nremote connectors with OAuth or custom headers can reach it directly, with nothing to\ninstall. Many MCP clients still speak stdio only, or offer no way to set an\n`Authorization` header. This bridge fills that gap: one command, no local server,\nno Odoo credentials on your machine.\n\n```\nMCP client  <--stdio-->  aidoo-mcp  <--HTTPS-->  Aidoo  <--XML-RPC-->  Odoo\n```\n\nThe bridge is transparent. It never rewrites payloads, so every tool your workspace\nexposes is available the moment Aidoo ships it, with no update needed here.\n\n## Requirements\n\n- Python 3.10 or newer\n- An [Aidoo account](https://app.aidoo.ai/register) with an Odoo connection\n- An Aidoo API key, prefixed `aid_live_`, created from the API keys page of your workspace\n\n## Install\n\nRun it without installing anything, with [uv](https://docs.astral.sh/uv/):\n\n```bash\nuvx aidoo-mcp --check\n```\n\nOr install it:\n\n```bash\npipx install aidoo-mcp\n# or\npip install aidoo-mcp\n```\n\n## Check your setup\n\n```bash\nexport AIDOO_API_KEY=aid_live_your_key_here\naidoo-mcp --check\n```\n\nThe command verifies that the endpoint answers, performs the MCP handshake and prints\nthe tools your key grants:\n\n```\n[aidoo-mcp] https://mcp.aidoo.ai/health is reachable\n[aidoo-mcp] authenticated with https://mcp.aidoo.ai/mcp (transport=http, key=aid_live_...cdef)\n[aidoo-mcp] 8 tools available: aidoo_context, aidoo_create, aidoo_print, aidoo_query, ...\n```\n\n## Configure your client\n\n### Claude Desktop\n\n`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS,\n`%APPDATA%\\Claude\\claude_desktop_config.json` on Windows:\n\n```json\n{\n  \"mcpServers\": {\n    \"aidoo\": {\n      \"command\": \"uvx\",\n      \"args\": [\"aidoo-mcp\"],\n      \"env\": { \"AIDOO_API_KEY\": \"aid_live_your_key_here\" }\n    }\n  }\n}\n```\n\n### Cursor\n\n`~/.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"aidoo\": {\n      \"command\": \"uvx\",\n      \"args\": [\"aidoo-mcp\"],\n      \"env\": { \"AIDOO_API_KEY\": \"aid_live_your_key_here\" }\n    }\n  }\n}\n```\n\n### Windsurf\n\n`~/.codeium/windsurf/mcp_config.json`, same block as Cursor.\n\n### VS Code\n\n`.vscode/mcp.json` in your workspace:\n\n```json\n{\n  \"servers\": {\n    \"aidoo\": {\n      \"type\": \"stdio\",\n      \"command\": \"uvx\",\n      \"args\": [\"aidoo-mcp\"],\n      \"env\": { \"AIDOO_API_KEY\": \"aid_live_your_key_here\" }\n    }\n  }\n}\n```\n\n### Any other stdio client\n\nPoint it at the `aidoo-mcp` executable and pass the key through the environment. If the\nclient cannot set environment variables, use the flag instead:\n\n```bash\naidoo-mcp --api-key aid_live_your_key_here\n```\n\nCursor, Windsurf and any client that does accept custom headers can also skip the\nbridge entirely and target `https://mcp.aidoo.ai/sse` with an `Authorization` header.\nSee the [Aidoo documentation](https://aidoo.ai/docs).\n\n## Usage\n\n```\naidoo-mcp [--api-key KEY] [--url URL] [--transport {http,sse}]\n          [--timeout SECONDS] [--retries N] [--check] [--quiet]\n```\n\n| Option | Environment variable | Default |\n| --- | --- | --- |\n| `--api-key` | `AIDOO_API_KEY` | required |\n| `--url` | `AIDOO_MCP_URL` | `https://mcp.aidoo.ai/mcp` |\n| `--transport` | `AIDOO_MCP_TRANSPORT` | inferred from the URL path |\n| `--timeout` | `AIDOO_MCP_TIMEOUT` | `60` |\n| `--retries` | | `3` |\n\nLogs go to stderr, so they never interfere with the protocol stream on stdout. Exit\ncode `2` means a configuration problem, `1` a connection that could not be established.\n\n## Ask your assistant\n\n```\nList the five quotations I sent last week that are still pending.\nCreate a contact for Martin Dupont at Dupont SA, martin@dupont.fr.\nGenerate the PDF of invoice INV/2026/0042.\n```\n\n## Security\n\n- The key is read from the environment or the command line and sent as a bearer token\n  over HTTPS. It is masked in every log line.\n- Odoo credentials stay in Aidoo. The bridge never sees them, and never talks to Odoo.\n- Each key carries its own permissions, and every call runs under the Odoo access\n  rules of the linked user. Grant only what the assistant needs.\n- Use one key per person, never a shared key, and revoke it from the dashboard if in doubt.\n- Report a vulnerability privately: see [SECURITY.md](SECURITY.md).\n\n## Troubleshooting\n\n**`No API key found`** The `AIDOO_API_KEY` variable did not reach the process. Client\nconfiguration files often ignore your shell profile, so set the key in the `env` block\nshown above.\n\n**Handshake fails with 401** The key was revoked, or its MCP permissions are disabled.\nCheck it on the API keys page of your workspace.\n\n**The tool list is shorter than expected** Tools follow the permissions of the key.\nGrant the missing ones, then restart your client.\n\n**Nothing happens in the client** Restart the client completely after editing its\nconfiguration, then look at its MCP logs. `aidoo-mcp --check` tells you within seconds\nwhether the problem is on your side or ours.\n\n**A corporate network blocks the connection** The bridge needs outbound HTTPS on port\n443 to `mcp.aidoo.ai`. Try `--transport sse` if an intermediate proxy mishandles\nstreamable HTTP.\n\n## Development\n\n```bash\nuv sync\nuv run pytest\nuv run ruff check .\nuv run ruff format --check .\n```\n\n## License\n\nMIT. See [LICENSE](LICENSE).",
+      "truncated": false,
+      "url": "https://github.com/eantoniomota/aidoo-mcp#readme"
+    }
+  },
+  {
     "id": "mcp:ai-aient-mcp",
     "name": "Aient MCP",
     "qualifiedName": "ai.aient/mcp",
@@ -5789,7 +5849,7 @@
     "tools": [
       {
         "name": "search_catalog",
-        "description": "Search the AirShelf cross-vendor product catalog by natural-language query. The catalog covers industrial-automation components (sensors, encoders, vacuum handling, motors and drives, circuit protection, machine vision — the largest category by row count), wiring devices (plugs, receptacles, connector bodies, rocker switches), multifunction printers (mfp), barcode printers, laser printers, mechani",
+        "description": "Search the AirShelf cross-vendor product catalog by natural-language query. The catalog covers industrial-automation, wiring-devices, digital-signage, business-display, mfp, barcode-printer, laser-printer, inkjet-printer, mechanical-keyboards, cybersecurity, threat-intelligence-platform. Industrial-automation and wiring-device rows are indexed by manufacturer part number, so a brand or part number",
         "inputs": [
           {
             "name": "q",
@@ -5800,7 +5860,7 @@
           {
             "name": "category",
             "type": "string",
-            "description": "Optional category filter (industrial-automation, wiring-devices, digital-signage, business-display, mechanical-keyboards, mfp, barcode-printer, laser-printer, inkjet-printer, cybersecurity, or threat-",
+            "description": "Optional category filter (industrial-automation, wiring-devices, digital-signage, business-display, mfp, barcode-printer, laser-printer, inkjet-printer, mechanical-keyboards, cybersecurity, threat-int",
             "required": false
           },
           {
@@ -7488,7 +7548,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1810,
+        "weeklyDownloads": 1761,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -7497,12 +7557,12 @@
       }
     ],
     "remotes": [],
-    "stars": 488,
+    "stars": 489,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 488,
+      "stars": 489,
       "forks": 36,
       "archived": false,
       "isFork": false,
@@ -7529,12 +7589,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 76,
+    "stars": 78,
     "source": "MCP Registry",
     "updatedAt": "2026-09-20T14:56:20.426988Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 76,
+      "stars": 78,
       "forks": 9,
       "archived": false,
       "isFork": false,
@@ -8722,6 +8782,457 @@
             "name": "points",
             "type": "number",
             "description": "A balance to value, in points.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mcp:ai-askwatch-gsc",
+    "name": "AskWatch Google Search Console MCP",
+    "qualifiedName": "ai.askwatch/gsc",
+    "slug": "ai-askwatch-gsc",
+    "description": "Ask Google Search Console in plain language. Hosted, free, no Google Cloud project.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://askwatch.ai/free-tools/google-search-console-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.askwatch.ai/gsc",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer <your AskWatch key>. Free, issued when you connect Google Search Console at https://askwatch.ai/free-tools/google-search-console-mcp. The key also works as a path segment: https://mcp.askwatch.ai/gsc/<key>.",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-22T17:02:07.800881Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "site_overview",
+        "description": "How the site did over a period compared with the one before it: clicks, impressions, CTR, average position and the change in each. Start here for 'how is my site doing'.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "top",
+        "description": "Top queries, pages, countries or devices for a period. Optionally narrowed to one country or device — 'top pages in Germany on mobile' is one call.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "dimension",
+            "type": "string",
+            "description": "What to group by. Default query.",
+            "required": false,
+            "enum": [
+              "query",
+              "page",
+              "country",
+              "device"
+            ]
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "ISO-3166-1 alpha-3, e.g. deu, usa. Filters rather than groups.",
+            "required": false
+          },
+          {
+            "name": "device",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "desktop",
+              "mobile",
+              "tablet"
+            ]
+          },
+          {
+            "name": "order_by",
+            "type": "string",
+            "description": "Default clicks.",
+            "required": false,
+            "enum": [
+              "clicks",
+              "impressions"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "changes",
+        "description": "What gained and what lost between this period and the one before it, with small rows filtered out. Answers 'what dropped in the last 28 days'.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "dimension",
+            "type": "string",
+            "description": "Default query.",
+            "required": false,
+            "enum": [
+              "query",
+              "page"
+            ]
+          },
+          {
+            "name": "min_impressions",
+            "type": "integer",
+            "description": "Noise floor. Default 30 in either window.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "find_opportunities",
+        "description": "Queries ranking 5-20 with plenty of impressions but a click-through rate below what is typical at their position — where a title or snippet rewrite is worth the most clicks.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "min_impressions",
+            "type": "integer",
+            "description": "Default 60.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "find_cannibalization",
+        "description": "Queries where more than one page of the site is being shown, with how each page does on them.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "min_impressions",
+            "type": "integer",
+            "description": "Per page. Default 30.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "page_queries",
+        "description": "What searches a specific page is shown for.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "page",
+            "type": "string",
+            "description": "Full URL of the page.",
+            "required": true
+          },
+          {
+            "name": "match",
+            "type": "string",
+            "description": "Default equals.",
+            "required": false,
+            "enum": [
+              "equals",
+              "contains"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "brand_split",
+        "description": "Branded versus non-branded search, split on words you supply. Pass every spelling people use, including the domain.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "brand_terms",
+            "type": "array",
+            "description": "Words that make a search branded, e.g. ['askwatch', 'ask watch'].",
+            "required": true
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "query",
+        "description": "Direct Search Analytics query, for questions the other tools do not shape. Same dates, dimensions and filters the Google API takes.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "dimensions",
+            "type": "array",
+            "description": "Group by these. Omit for totals.",
+            "required": false
+          },
+          {
+            "name": "filters",
+            "type": "array",
+            "description": "Google's dimensionFilterGroups, passed through unchanged.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows to return. Default 25, maximum 100; `has_more` says whether there were more.",
+            "required": false
+          },
+          {
+            "name": "start_row",
+            "type": "integer",
+            "description": "Paging offset; `next_start_row` comes back in the answer.",
+            "required": false
+          },
+          {
+            "name": "days",
+            "type": "integer",
+            "description": "Length of the window, counted back from the last day with data. Default 28.",
+            "required": false
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Overrides `days`.",
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": "YYYY-MM-DD. Defaults to the last day with data.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_sites",
+        "description": "Search Console properties this connection can read. Call it first when the account has more than one.",
+        "inputs": null
+      },
+      {
+        "name": "inspect_url",
+        "description": "Google's index status for one URL: whether it is indexed, when it was last crawled, and which canonical Google chose.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
+            "required": false
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The exact URL to inspect.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_sitemaps",
+        "description": "Sitemaps submitted for the property and their status. Read-only — submitting is not possible with read access.",
+        "inputs": [
+          {
+            "name": "site",
+            "type": "string",
+            "description": "Search Console property, exactly as list_sites reports it (sc-domain:example.com or https://example.com/). Optional when the account has only one property.",
             "required": false
           }
         ]
@@ -10185,7 +10696,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 37,
+        "weeklyDownloads": 30,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -10216,7 +10727,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 41,
+        "weeklyDownloads": 29,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -10247,7 +10758,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 39,
+        "weeklyDownloads": 30,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -10307,7 +10818,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 73,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -10369,7 +10880,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 103,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -11425,6 +11936,24 @@
         ]
       },
       {
+        "name": "finnhub_stock_quote",
+        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
+            "required": true
+          },
+          {
+            "name": "include_company_info",
+            "type": "boolean",
+            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
+            "required": false
+          }
+        ]
+      },
+      {
         "name": "open_banking_transactions",
         "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
         "inputs": [
@@ -11444,24 +11973,6 @@
             "name": "from_date",
             "type": "string",
             "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "finnhub_stock_quote",
-        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
-        "inputs": [
-          {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
-            "required": true
-          },
-          {
-            "name": "include_company_info",
-            "type": "boolean",
-            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
             "required": false
           }
         ]
@@ -12287,7 +12798,7 @@
     "tools": [
       {
         "name": "b4_browse",
-        "description": "Search and filter the B4 Index's 1,600+ independently scored software categories. Browse by keyword, domain, quadrant, or industry. When filtering by industry, returns all vertical categories for that industry PLUS all horizontal categories (which apply to every industry). Each row carries its banded verdict — primary, confidence word, and a near-call flag — and the quadrant filter matches the ver",
+        "description": "For browsing, filtering, or finding the index's name for something. Example: {\"query\": \"warehouse picking\", \"domain\": \"Supply Chain\"}. Search and filter the B4 Index's 1,600+ independently scored software categories. Browse by keyword, domain, quadrant, or industry. When filtering by industry, returns all vertical categories for that industry PLUS all horizontal categories (which apply to every in",
         "inputs": [
           {
             "name": "org",
@@ -12352,7 +12863,7 @@
       },
       {
         "name": "b4_score",
-        "description": "Score a software category using the B4 Index. Provide a known category name to get pre-computed scores, or provide raw dimension scores (1-5 each) for a custom evaluation. Structured output carries the full picture: the banded verdict, the five dimension scores, both axes, urgency, vendors at your access depth, and a `guidance` block stating what the verdict means, the recommended action, what not",
+        "description": "For one exact category name or id. Example: {\"category\": \"Expense Management\", \"org\": \"medium\"}. Score a software category using the B4 Index. Provide a known category name to get pre-computed scores, or provide raw dimension scores (1-5 each) for a custom evaluation. Structured output carries the full picture: the banded verdict, the five dimension scores, both axes, urgency, vendors at your acce",
         "inputs": [
           {
             "name": "org",
@@ -12387,7 +12898,7 @@
       },
       {
         "name": "b4_audit",
-        "description": "Analyze a software stack against the B4 Index. Provide a list of tool/category names, and get per-tool banded verdicts plus a portfolio verdict distribution. Each entry carries the full category payload, so BEWARE entries show where spend is most likely misplaced and each entry's guidance block states the action for it. Structured output carries the full picture: the banded verdict, the five dimen",
+        "description": "For a list of vendor or product names (a stack), with an optional description per row. Example: {\"tools\": [\"Salesforce\", {\"name\": \"Lydia Voice\", \"description\": \"voice-directed picking in the warehouse\"}]}. Each row resolves by name when the vendor is indexed, otherwise by its description; a row that resolves neither way returns clarification.needed with the question to ask the user. Returns per-to",
         "inputs": [
           {
             "name": "org",
@@ -12403,14 +12914,14 @@
           {
             "name": "tools",
             "type": "array",
-            "description": "List of software tool or category names to audit (e.g., ['Salesforce', 'Slack', 'Expense Management']). Max 100 per call.",
+            "description": "Rows to audit: a name, {name, description}, or {name, category} once a category is confirmed. Vendor names resolve when the vendor is indexed; add a short description of what it does for anything else",
             "required": true
           }
         ]
       },
       {
         "name": "b4_compare",
-        "description": "Compare build vs buy for a specific software category. Returns side-by-side analysis with the category's banded verdict, scores, vendor options, AI replacement approach, and action steps for each path. Structured output carries the full picture: the banded verdict, the five dimension scores, both axes, urgency, vendors at your access depth, and a `guidance` block stating what the verdict means, th",
+        "description": "For one exact category name or id when the question is the build path against the buy path. Example: {\"category\": \"Order Management (OMS)\"}. Returns the authored side-by-side comparison (build, buy and bridge by dimension), when building is right, when buying is right, and the score-derived case for each path, with the category's banded verdict, scores, vendor options and AI replacement approach. ",
         "inputs": [
           {
             "name": "org",
@@ -12433,7 +12944,7 @@
       },
       {
         "name": "b4_recommend",
-        "description": "Get B4 Index recommendations from a natural language description of a software need or business context. Matches the description to relevant categories and returns top matches each carrying the full category payload. Structured output carries the full picture: the banded verdict, the five dimension scores, both axes, urgency, vendors at your access depth, and a `guidance` block stating what the ve",
+        "description": "For a need or problem in words, not a vendor name. Example: {\"description\": \"we need to route warehouse pickers by voice\"}. Get B4 Index recommendations from a natural language description of a software need or business context. Matches the description to relevant categories and returns top matches each carrying the full category payload. Structured output carries the full picture: the banded verd",
         "inputs": [
           {
             "name": "org",
@@ -12493,12 +13004,33 @@
     "tools": [
       {
         "name": "get_tracked_slips",
-        "description": "Read the authenticated user's tracked ticket trees and tracking lifecycle. Provider placement ids and sportsbook deep links are never returned.",
+        "description": "Read the authenticated user's tracked ticket trees and tracking lifecycle. Set view: app to read the current app saved-ticket library instead. Provider placement ids and sportsbook deep links are never returned.",
         "inputs": [
           {
             "name": "limit",
             "type": "integer",
-            "description": "Tickets to return (default 20).",
+            "description": "Legacy tracked trees: max 50. Current app view: max 20.",
+            "required": false
+          },
+          {
+            "name": "view",
+            "type": "string",
+            "description": "Use current app saved-ticket library; omit for tracked trees.",
+            "required": false,
+            "enum": [
+              "app"
+            ]
+          },
+          {
+            "name": "search",
+            "type": "string",
+            "description": "Current app view only.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Current app view only.",
             "required": false
           }
         ]
@@ -12535,7 +13067,7 @@
       },
       {
         "name": "get_todays_board",
-        "description": "Live sports board: upcoming and in-play games with main-market prices (moneyline, spread, total) and the best posted price per selection across connected books. Read-only decision support; never a guarantee and never a wager.",
+        "description": "Live sports board: upcoming and in-play games with main-market prices (moneyline, spread, total) and the best posted price per selection across connected books. Read-only decision support; never a guarantee and never a wager. Set view: app for the current app Live board and its provider, filters and cursor.",
         "inputs": [
           {
             "name": "leagues",
@@ -12546,7 +13078,7 @@
           {
             "name": "limit",
             "type": "integer",
-            "description": "Games to return (default 20, max 50). Live plus soonest first.",
+            "description": "Legacy main-market board: max 50. Current app games view: max 20.",
             "required": false
           },
           {
@@ -12554,27 +13086,216 @@
             "type": "integer",
             "description": "Window offset for paging (default 0).",
             "required": false
+          },
+          {
+            "name": "view",
+            "type": "string",
+            "description": "Use the current app Live board; omit for the legacy main-market board.",
+            "required": false,
+            "enum": [
+              "app"
+            ]
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Current app games board only; current event prices are a separate app read.",
+            "required": false,
+            "enum": [
+              "games"
+            ]
+          },
+          {
+            "name": "league",
+            "type": "string",
+            "description": "Current app view only.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Current app view only.",
+            "required": false
           }
         ]
       },
       {
         "name": "grade_slip",
-        "description": "Quote the current Grade service for an existing saved ticket or exact confirmed manual ticket, then start the quote to reserve its disclosed allowance. Returns a durable job; use get_saved_reports to follow progress and read the saved result. Requires bsd-agent-grade-v1. Text and legacy SGP inputs return migration_required.",
-        "inputs": null
+        "description": "Use version bsd-agent-grade-v1 and a unique commandKey (16-120 characters) for every action. quote requires depth plus exactly one of ticketId (saved UUID) or ticket (exact confirmed manual ticket); funding is optional. start requires quoteId. cancel requires jobId. A quote discloses the allowance; start reserves it and returns a durable job. Use get_saved_reports for progress and the saved result",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "quote",
+              "start",
+              "cancel"
+            ]
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "fast",
+              "smart",
+              "deep",
+              "elite"
+            ]
+          },
+          {
+            "name": "funding",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "auto",
+              "weekly",
+              "bug_bounty"
+            ]
+          },
+          {
+            "name": "ticketId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "ticket",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "quoteId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
       },
       {
         "name": "get_saved_reports",
-        "description": "Read your saved Grade job, exact paginated live progress, saved report, or job library. Use bsd-agent-grade-v1 actions list/job/progress/report. Readiness requires a readable saved report. Unversioned report_id/limit reads are retained for legacy reports only.",
-        "inputs": null
+        "description": "For current Grade, send version bsd-agent-grade-v1 and action: list (optional limit 1-20 and cursor), job or report (jobId UUID required), or progress (jobId UUID required; optional after 0-1000000 and limit 1-100). Readiness requires a readable saved report. For legacy reports only, omit version/action and send optional report_id and limit 1-25. Never mix current and legacy fields.",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "list",
+              "job",
+              "progress",
+              "report"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "after",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "report_id",
+            "type": "string",
+            "description": "Legacy saved report ID; omit version and action.",
+            "required": false
+          }
+        ]
       },
       {
         "name": "get_history_summary",
-        "description": "The authenticated user's imported betting-history ledger: W-L record, stake and net over lifetime/30d/7d windows, sync freshness, and their most recent bets. Numbers come only from the user's own imported slips; nothing is fabricated.",
+        "description": "The authenticated user's imported betting-history ledger: W-L record, stake and net over lifetime/30d/7d windows, sync freshness, and their most recent bets. Numbers come only from the user's own imported slips; nothing is fabricated. Set view: app for the current app History summary with its source, currency and limitation rules.",
         "inputs": [
           {
             "name": "recent",
             "type": "integer",
             "description": "How many recent bets to include (default 5).",
+            "required": false
+          },
+          {
+            "name": "view",
+            "type": "string",
+            "description": "Use the current app History summary; omit for legacy imported history.",
+            "required": false,
+            "enum": [
+              "app"
+            ]
+          },
+          {
+            "name": "range",
+            "type": "string",
+            "description": "Current app view only.",
+            "required": false,
+            "enum": [
+              "1w",
+              "1m",
+              "3m",
+              "ytd",
+              "all"
+            ]
+          },
+          {
+            "name": "recordKind",
+            "type": "string",
+            "description": "Current app view only.",
+            "required": false,
+            "enum": [
+              "all",
+              "import",
+              "manual"
+            ]
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "Current app view only; ISO 4217 code.",
             "required": false
           }
         ]
@@ -12588,6 +13309,241 @@
             "type": "array",
             "description": null,
             "required": true
+          }
+        ]
+      },
+      {
+        "name": "doctor_conversation",
+        "description": "The app Doctor conversation. Send version bsd-agent-doctor-v1 and one action: open (commandKey, optional owned subject), threads, conversation (threadId), quota, quote (commandKey, threadId, current sequence, text), start (commandKey, quoteId), job or events (jobId), or cancel (commandKey, jobId). Keep each write commandKey stable on retry. Show the quote before start; a succeeded job carries the ",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "open",
+              "threads",
+              "conversation",
+              "quota",
+              "quote",
+              "start",
+              "job",
+              "events",
+              "cancel"
+            ]
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": "Stable key for one write action and all its retries.",
+            "required": false
+          },
+          {
+            "name": "threadId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "ticketId",
+            "type": "string | null",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "reportId",
+            "type": "string | null",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "history",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sequence",
+            "type": "integer",
+            "description": "Current thread sequence from conversation.",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "quoteId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "before",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "after",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "tail_read",
+        "description": "Send version bsd-agent-tail-v1 and action feed (optional feed/profileId/listId/search/limit/cursor) or post (postId). Read the same account-filtered Tail feed or one visible post as the BSD app. Moderation, follows, mutes, private lists and cursor binding use the app service.",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "feed",
+              "post"
+            ]
+          },
+          {
+            "name": "feed",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "community",
+              "for_you",
+              "following",
+              "own",
+              "profile",
+              "bookmarks",
+              "list"
+            ]
+          },
+          {
+            "name": "profileId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "listId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "search",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "postId",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "tail_post",
+        "description": "Send version bsd-agent-tail-v1. Preview a draft from either an owned saved Grade report (reportId, text, showStake, placement) or saved Doctor exchange (source doctor_exchange, threadId, messageId, text) through the app service. Publish only after showing the exact preview and getting the customer’s confirmation. For action publish reuse the same draft and previewBinding, pass confirmation PUBLISH",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "preview",
+              "publish"
+            ]
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "confirmation",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "draft",
+            "type": "object",
+            "description": "The exact app post draft: either a saved Grade report or a saved Doctor exchange.",
+            "required": true
+          },
+          {
+            "name": "previewBinding",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "placementConfirmation",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "NOT_PLACED",
+              "SELF_REPORTED_PLACED"
+            ]
+          },
+          {
+            "name": "fWarning",
+            "type": "string | null",
+            "description": null,
+            "required": false,
+            "enum": [
+              "acknowledge",
+              "dont_ask_again",
+              "null"
+            ]
           }
         ]
       }
@@ -13769,6 +14725,37 @@
       "truncated": false,
       "url": "https://github.com/TechDocsStudio/biel-mcp#readme"
     }
+  },
+  {
+    "id": "mcp:ai-bindry-bindry",
+    "name": "Bindry",
+    "qualifiedName": "ai.bindry/bindry",
+    "slug": "ai-bindry-bindry",
+    "description": "Reuse your team's AI instructions (Bindings and Stacks) from Bindry in any MCP client.",
+    "category": "Other",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.bindry.ai/api/mcp",
+        "headers": [
+          {
+            "name": "X-Api-Key",
+            "description": "A Bindry API key, created on your workspace's Team page at https://bindry.ai/workspace",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-22T20:34:30.591525Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-bitroad-bitroad",
@@ -15745,7 +16732,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 75,
+        "weeklyDownloads": 44,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -16029,7 +17016,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 81,
+        "weeklyDownloads": 42,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -17338,7 +18325,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 262,
+        "weeklyDownloads": 535,
         "lastPublished": "2026-09-21T21:41:45.719Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -17393,7 +18380,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 115,
+        "weeklyDownloads": 114,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -17418,7 +18405,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-22T11:06:46.118758Z",
+    "updatedAt": "2026-09-23T03:27:55.488082Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -18565,7 +19552,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 59,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -19328,7 +20315,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-20T08:13:44.889307Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-cerebrium-docs",
@@ -19451,8 +20438,8 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 162,
-        "lastPublished": "2026-09-11T19:47:31.906Z",
+        "weeklyDownloads": 121,
+        "lastPublished": "2026-09-23T05:07:27.332Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
         "declaredRepo": "ergoveritas1-alt/certscore.ai",
@@ -19470,7 +20457,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-21T16:57:04Z",
+      "pushedAt": "2026-09-23T10:55:08Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -19508,7 +20495,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-21T16:57:04Z",
+      "pushedAt": "2026-09-23T10:55:08Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -20190,7 +21177,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 83,
+        "weeklyDownloads": 45,
         "lastPublished": "2026-07-14T21:12:54.331Z",
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
@@ -20287,7 +21274,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 33,
         "lastPublished": "2026-07-09T11:51:01.001Z",
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
@@ -20529,7 +21516,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 183,
+        "weeklyDownloads": 160,
         "lastPublished": "2026-08-19T16:17:21.278Z",
         "firstPublished": "2026-07-06T09:51:29.727Z",
         "deprecated": false,
@@ -20568,7 +21555,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 49,
+        "weeklyDownloads": null,
         "lastPublished": "2026-08-06T07:04:26.492Z",
         "firstPublished": "2026-08-05T05:59:39.120Z",
         "deprecated": false,
@@ -20953,7 +21940,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 64,
+        "weeklyDownloads": null,
         "lastPublished": "2026-08-01T18:43:14.193Z",
         "firstPublished": "2026-02-05T17:29:30.717Z",
         "deprecated": false,
