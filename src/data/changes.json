@@ -1,59 +1,146 @@
 {
-  "generatedAt": "2026-09-24T11:24:33.248Z",
+  "generatedAt": "2026-09-25T11:29:45.672Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [
         {
-          "slug": "amazon-selling-partner",
-          "name": "amazon-selling-partner",
-          "description": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, then review and approve every listing, inventory or FBA action before it runs. Bundles the Amazon Selling Partner MCP server (Seller Central OAuth on first use).…",
-          "category": "Coding & Engineering"
+          "slug": "govtribe",
+          "name": "govtribe",
+          "description": "Government contracting research and capture workflows in Claude: opportunity and pipeline briefs, bid/no-bid and competitor analysis, price-to-win and proposal prep, powered by the GovTribe connector.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "linq-alpha",
+          "name": "linq-alpha",
+          "description": "LinqAlpha financial research in Claude: guided setup for the LinqAlpha connector, capability-based source selection for fundamentals, estimates, transcripts, filings and market data, and an optional, opt-in default-source preference you can remove at any time. Requires a LinqAlpha account.",
+          "category": "Data & Analysis"
+        },
+        {
+          "slug": "vanguard-advisor-tools",
+          "name": "vanguard-advisor-tools",
+          "description": "Vanguard Advisor Tools for financial professionals: research and compare funds and ETFs across the industry and prepare for client conversations, using Vanguard's advisor connector in Claude.",
+          "category": "Data & Analysis"
         }
       ],
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "vibe-prospecting",
+          "name": "vibe-prospecting",
+          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
+          "category": "Data & Analysis",
+          "delta": 9,
+          "stars": 41
+        },
+        {
+          "slug": "amazon-selling-partner",
+          "name": "amazon-selling-partner",
+          "description": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, then review and approve every listing, inventory or FBA action before it runs. Bundles the Amazon Selling Partner MCP server (Seller Central OAuth on first use).…",
+          "category": "Coding & Engineering",
+          "delta": 7,
+          "stars": 8
+        }
+      ],
       "counts": {
-        "added": 1,
+        "added": 3,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 333,
-        "currentTotal": 334
+        "previousTotal": 334,
+        "currentTotal": 337
       }
     },
     "mcps": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "ai-alphaquantlabs-propertycheck",
+          "name": "AQL PropertyCheck - Gold Coast property data",
+          "description": "Official open data for one Gold Coast address point: planning, flood, bushfire, schools, transport.",
+          "category": "Other"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ai-clawterminal-markets",
+          "name": "ClawTerminal",
+          "description": "Ask your AI about the markets: filings, insider & congress trades, fund flows, options, macro",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-cleanvector-cleanvector",
+          "name": "CleanVector",
+          "description": "Create professional SVG artwork, icons and vector logos from a prompt, or vectorize any image.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-clelp-clelp",
+          "name": "Clelp",
+          "description": "Search and rate AI tools, MCP servers, and agent skills reviewed by real agent use.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-clipstudio-mcp",
+          "name": "Clip Studio MCP",
+          "description": "Hosted MCP for Clip Studio public products — same plan as the website.",
+          "category": "Web & Search"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 4,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 244,
-        "currentTotal": 244
+        "currentTotal": 241
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "unclecode-crawl4ai",
+          "name": "crawl4ai",
+          "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+          "category": "MCP & Tooling"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "mlabonne-llm-course",
+          "name": "llm-course",
+          "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+          "category": "LLM Frameworks"
+        },
+        {
+          "slug": "rohitg00-ai-engineering-from-scratch",
+          "name": "ai-engineering-from-scratch",
+          "description": "Learn it. Build it. Ship it for others.",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "hkuds-deeptutor",
+          "name": "DeepTutor",
+          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+          "category": "RAG & Retrieval"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 126,
-        "currentTotal": 126
+        "currentTotal": 124
       }
     }
   }
