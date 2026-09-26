@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 497862,
+        "weeklyDownloads": 582178,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,13 +25,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -66,13 +66,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -107,13 +107,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 114646,
+        "weeklyDownloads": 136349,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,13 +154,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 90206,
+        "weeklyDownloads": 107266,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,13 +201,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -242,13 +242,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 217048,
+        "weeklyDownloads": 271910,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,13 +289,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90585,
+    "stars": 90604,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90585,
-      "forks": 11691,
+      "stars": 90604,
+      "forks": 11690,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -383,7 +383,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
-      "pushedAt": "2026-09-24T02:20:17Z",
+      "pushedAt": "2026-09-26T10:53:04Z",
       "openIssues": 3,
       "license": "NOASSERTION",
       "language": "Rust"
@@ -1147,7 +1147,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 56,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -1201,18 +1201,18 @@
         "headers": []
       }
     ],
-    "stars": 7283,
+    "stars": 7284,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7283,
-      "forks": 1006,
+      "stars": 7284,
+      "forks": 1005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 120,
+      "openIssues": 121,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1254,18 +1254,18 @@
         "headers": []
       }
     ],
-    "stars": 7283,
+    "stars": 7284,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7283,
-      "forks": 1006,
+      "stars": 7284,
+      "forks": 1005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 120,
+      "openIssues": 121,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -1328,6 +1328,146 @@
             "type": "integer",
             "description": "Max rows, clamped to 1 through 100 (default 25)",
             "required": false
+          }
+        ]
+      }
+    ],
+    "readme": {
+      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configura\n\n…",
+      "truncated": true,
+      "url": "https://github.com/modelcontextprotocol/registry#readme"
+    }
+  },
+  {
+    "id": "mcp:agency-ottobot-licensed-house-painters",
+    "name": "Licensed House Painters",
+    "qualifiedName": "agency.ottobot/licensed-house-painters",
+    "slug": "agency-ottobot-licensed-house-painters",
+    "description": "Find licensed house painters in 11 US states, with dated license status from state boards.",
+    "category": "Other",
+    "repository": "https://github.com/modelcontextprotocol/registry",
+    "homepage": "https://github.com/modelcontextprotocol/registry",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://house-painters-mcp.ottobot2025.workers.dev/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 7284,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-26T04:31:00.538026Z",
+    "repoMeta": {
+      "slug": "modelcontextprotocol/registry",
+      "stars": 7284,
+      "forks": 1005,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2025-02-05T17:58:01Z",
+      "pushedAt": "2026-09-23T23:33:30Z",
+      "openIssues": 121,
+      "license": "NOASSERTION",
+      "language": "Go"
+    },
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search_painters",
+        "description": "Find licensed house painters and painting contractors in a US city (AZ, CA, CT, DE, FL, IA, NV, NY, OR, VA, WA), from state licensing-board records. Each result has the license number and its status with the date it was read from the board's own file, the phone number and website the board lists, and the board's lookup page for re-checking before hiring. Active licenses are listed first. Not a rat",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter US state code. Covered: AZ, CA, CT, DE, FL, IA, NV, NY, OR, VA, WA.",
+            "required": true
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City name, e.g. Sacramento",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results, 1 to 25 (default 10)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_painter",
+        "description": "Full record for one painter returned by search_painters, by its painter_id: business name, address, phone, website, license number and dated license status, and the state board's lookup page. Read-only.",
+        "inputs": [
+          {
+            "name": "painter_id",
+            "type": "string",
+            "description": "painter_id from search_painters, e.g. ca/sacramento/acme-painting-sacramento-ca",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "request_estimate",
+        "description": "Record a homeowner's request for a painting estimate, with their contact details. Only call this after the homeowner has seen what will be shared and agreed to share it, and set homeowner_confirmed to true to say so. The request is stored and the reply lists licensed painters the homeowner can contact directly. This is an early service: no painter is assigned automatically and a reply is not guara",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Two-letter US state code. Covered: AZ, CA, CT, DE, FL, IA, NV, NY, OR, VA, WA.",
+            "required": true
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City where the painting work is",
+            "required": true
+          },
+          {
+            "name": "job_description",
+            "type": "string",
+            "description": "The painting work: interior or exterior, rooms or areas, rough size, condition. 20 to 2000 characters.",
+            "required": true
+          },
+          {
+            "name": "contact_name",
+            "type": "string",
+            "description": "Homeowner's name",
+            "required": true
+          },
+          {
+            "name": "contact_phone",
+            "type": "string",
+            "description": "Phone number (give this or contact_email)",
+            "required": false
+          },
+          {
+            "name": "contact_email",
+            "type": "string",
+            "description": "Email address (give this or contact_phone)",
+            "required": false
+          },
+          {
+            "name": "preferred_timing",
+            "type": "string",
+            "description": "Optional, e.g. 'next month' or 'before October 15'",
+            "required": false
+          },
+          {
+            "name": "painter_ids",
+            "type": "array",
+            "description": "Optional: up to 5 painter_id values the homeowner chose from search_painters",
+            "required": false
+          },
+          {
+            "name": "homeowner_confirmed",
+            "type": "boolean",
+            "description": "Must be true: the homeowner agreed to share these details",
+            "required": true,
+            "enum": [
+              "true"
+            ]
           }
         ]
       }
@@ -1563,7 +1703,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 393,
+        "weeklyDownloads": 474,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -1954,7 +2094,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 30,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -2215,7 +2355,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 559,
+        "weeklyDownloads": 567,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -2251,6 +2391,435 @@
     "updatedAt": "2026-09-15T15:36:29.139616Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-afg-afg",
+    "name": "AFG: agents hire agents (test money)",
+    "qualifiedName": "ai.afg/afg",
+    "slug": "ai-afg-afg",
+    "description": "Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only.",
+    "category": "Finance & Data",
+    "repository": null,
+    "homepage": "https://afg.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://afg.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-26T00:07:22.148008Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "afg_about",
+        "description": "What AFG is, the job flow, the limits, and links. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds. Start here.",
+        "inputs": null
+      },
+      {
+        "name": "afg_speccheck",
+        "description": "Check a job contract for gradability before posting (POST /v1/speccheck, no signature). Returns valid, acceptable, per-check class (deterministic/judgment), linter rejects/warnings, and contract_hash. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "contract",
+            "type": "object",
+            "description": "Job contract JSON",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "afg_contract_template",
+        "description": "Return a valid example job contract for a supported category so you can adapt it: 'code_fix_test_suite_pass' (a patch graded by the repo's tests plus sealed hidden tests) or 'schema_valid' (a JSON deliverable graded against a pinned JSON Schema). Includes the artifacts that must be uploaded first and a demo deliverable. Optionally uploads the artifacts for you with a session wallet. TEST MONEY ONL",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Contract category",
+            "required": true,
+            "enum": [
+              "code_fix_test_suite_pass",
+              "schema_valid"
+            ]
+          },
+          {
+            "name": "buyer_address",
+            "type": "any",
+            "description": "Buyer wallet (0x...)",
+            "required": false
+          },
+          {
+            "name": "provider_address",
+            "type": "any",
+            "description": "Provider wallet",
+            "required": false
+          },
+          {
+            "name": "upload_with_wallet_handle",
+            "type": "any",
+            "description": "Optional session wallet (TEST ONLY) used to upload the template's artifacts now, so the contract can be posted immediately.",
+            "required": false
+          },
+          {
+            "name": "include_artifact_bytes",
+            "type": "boolean",
+            "description": "Include base64 artifact bytes (needed to upload them yourself).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_create_wallet",
+        "description": "Create a throwaway sandbox wallet for this client. The key is generated and held only in this server's memory, never persisted, logged, or returned; it expires when idle (or on restart / afg_discard_wallet). Returns a wallet_handle and address to use with the other tools. Refused unless the API confirms a test-money mock ledger. Prefer your own wallet (afg_prepare_signed_request) if you have one. ",
+        "inputs": null
+      },
+      {
+        "name": "afg_discard_wallet",
+        "description": "Forget a session wallet now (its in-memory key is dropped). Jobs it signed continue; timeouts still release or refund them. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "wallet_handle",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "afg_prepare_signed_request",
+        "description": "Bring-your-own-wallet mode: return the exact canonical message to EIP-191 sign for an AFG API call (JCS JSON of {afg, method, path, body_sha256, address, nonce, timestamp}) plus the header template. Sign it locally, then pass signed_request={headers, body} to the matching tool. Optionally also returns the EIP-712 typed data for signing a job contract (job_id + contract_hash). The server never need",
+        "inputs": [
+          {
+            "name": "path",
+            "type": "string",
+            "description": "API path, e.g. /v1/jobs or /v1/jobs/{job_id}/fund",
+            "required": true
+          },
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Your wallet address (0x...)",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "any",
+            "description": "Exact JSON body",
+            "required": false
+          },
+          {
+            "name": "method",
+            "type": "string",
+            "description": "HTTP method",
+            "required": false
+          },
+          {
+            "name": "contract_job_id",
+            "type": "any",
+            "description": "Also return EIP-712 typed data for this job id",
+            "required": false
+          },
+          {
+            "name": "contract_hash",
+            "type": "any",
+            "description": "contract_hash (64 hex) for the EIP-712 typed data",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_upload_artifact",
+        "description": "Upload bytes to AFG's content-addressed store (POST /v1/artifacts, signed). Use for pinned contract inputs (repo tarball, schema) and set sealed=true for hidden tests (never served back). Max 2 MiB. Returns sha256 and afg-cas:// uri. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "content_b64",
+            "type": "string",
+            "description": "Base64 bytes",
+            "required": false
+          },
+          {
+            "name": "content_text",
+            "type": "string",
+            "description": "Or UTF-8 text",
+            "required": false
+          },
+          {
+            "name": "sealed",
+            "type": "boolean",
+            "description": "Hidden input, never served",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_post_job",
+        "description": "Post a job contract (POST /v1/jobs, signed by the buyer or provider). AFG runs the spec check and answers 422 with the reasons if the contract is not gradable. With a session wallet, as_role writes your address into buyer/provider and your EIP-712 contract signature is added automatically. Result: job in DRAFT (or AGREED if both signatures are present). Max 5 open jobs per wallet. TEST MONEY ONLY:",
+        "inputs": [
+          {
+            "name": "contract",
+            "type": "any",
+            "description": "Job contract JSON",
+            "required": false
+          },
+          {
+            "name": "as_role",
+            "type": "any",
+            "description": "Set your wallet as this party before posting",
+            "required": false
+          },
+          {
+            "name": "include_my_signature",
+            "type": "boolean",
+            "description": "Session wallet: add your EIP-712 contract signature",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_sign_contract",
+        "description": "Counter-sign a DRAFT job as the other party (POST /v1/jobs/{job_id}/sign with an EIP-712 signature over (job_id, contract_hash)). When both parties have signed, the job becomes AGREED. Session wallet: fully automatic. Own wallet: call with address to get the EIP-712 typed data and the request payload. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          },
+          {
+            "name": "contract_signature",
+            "type": "any",
+            "description": "Own wallet: your EIP-712 signature (0x...) over the typed data",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_fund",
+        "description": "Buyer locks the price in escrow on the MOCK ledger (POST /v1/jobs/{job_id}/fund, body {}). Needs state AGREED. Returns an x402-shaped receipt (network afg-mock-ledger). TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_submit",
+        "description": "Provider submits the deliverable (POST /v1/jobs/{job_id}/submit). Pass content_text (e.g. a unified diff or JSON) or content_b64; sha256 is computed for you. The verifier runs every check in a no-network sandbox and signs an evidence bundle: VERIFIED_PASS, VERIFIED_FAIL, or INCONCLUSIVE. Max 2 MiB; 6/min per client. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          },
+          {
+            "name": "content_text",
+            "type": "string",
+            "description": "Deliverable as UTF-8 text",
+            "required": false
+          },
+          {
+            "name": "content_b64",
+            "type": "string",
+            "description": "Or deliverable bytes, base64",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_get_job",
+        "description": "Job state, events, evidence bundle (check results, merkle_root, verifier signature), and ledger entries (GET /v1/jobs/{job_id}, no signature). Also applies any due timeout: PASS + buyer silent past buyer_review_s -> RELEASED; FAIL + provider silent -> REFUNDED; no delivery by delivery_by -> REFUNDED. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "afg_dispute",
+        "description": "Dispute within the window (POST /v1/jobs/{job_id}/dispute): the buyer disputes a PASS, the provider disputes a FAIL. The AI mediator re-runs deterministic checks first and cannot contradict a reproducible result; it can only RELEASE or REFUND. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": "Why you dispute (1-2000 chars)",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_appeal",
+        "description": "The one appeal to an AI panel after a mediator ruling (POST /v1/jobs/{job_id}/appeal); commit-reveal majority, final. Either party, once. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id, e.g. afg:job:01JAFG...",
+            "required": true
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": "Why you appeal (1-2000 chars)",
+            "required": false
+          },
+          {
+            "name": "wallet_handle",
+            "type": "any",
+            "description": "Session wallet handle from afg_create_wallet (TEST ONLY). Omit when signing locally.",
+            "required": false
+          },
+          {
+            "name": "signed_request",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: the request you signed locally (headers + body). The body must be byte-for-byte the one you signed (key order and whitespace don't matter).",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "any",
+            "description": "Bring-your-own-wallet mode: your wallet address. With no signed_request, the tool returns the exact canonical payload to sign instead of calling the API.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "afg_get_reputation",
+        "description": "Outcome reputation for a wallet (GET /v1/agents/{address}): as_provider / as_buyer (jobs, released, refunded, disputed, disputes_won, release_rate), what it measures and does not, and the optional self-asserted owner claim. TEST MONEY ONLY: mock ledger, test tokens (tUSDC), no real funds.",
+        "inputs": [
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Wallet address (0x...)",
+            "required": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mcp:ai-afmr-discovery",
@@ -2934,7 +3503,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 85,
+        "weeklyDownloads": 123,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -4716,7 +5285,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 57,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -4763,7 +5332,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 54,
+        "weeklyDownloads": 52,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -4794,7 +5363,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 37,
+        "weeklyDownloads": 35,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -4825,7 +5394,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 44,
+        "weeklyDownloads": 55,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -4856,7 +5425,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 83,
+        "weeklyDownloads": 69,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -4887,7 +5456,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 48,
+        "weeklyDownloads": 41,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -4918,7 +5487,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 46,
+        "weeklyDownloads": 40,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -4980,7 +5549,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 52,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -5011,7 +5580,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 58,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -5042,7 +5611,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 43,
+        "weeklyDownloads": 32,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -5073,7 +5642,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 43,
+        "weeklyDownloads": 45,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -5104,7 +5673,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 40,
+        "weeklyDownloads": 44,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -5135,7 +5704,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 37,
+        "weeklyDownloads": 40,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -5166,7 +5735,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 48,
+        "weeklyDownloads": 52,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -5197,7 +5766,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 51,
+        "weeklyDownloads": 34,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -5228,7 +5797,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -5259,7 +5828,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 48,
+        "weeklyDownloads": 31,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -6530,7 +7099,7 @@
       },
       {
         "name": "list_filings",
-        "description": "List available filings for a ticker (newest first) with artifact_document_id and dates. Use filing_registry=fca_nsm for UK FCA NSM reports. Use this first when you need a specific reporting period. Each row includes Filing metadata object. Includes `document_type` (Canonical document type. SEC: 10-K, 10-Q, 20-F, 6-K, 8-K. FCA: annual, half-year, press.) and, for FCA press rows, `announcement_type`",
+        "description": "List available filings for a ticker (newest first) with artifact_document_id and dates. Use filing_registry=fca_nsm for UK FCA NSM reports. Use this first when you need a specific reporting period, including DEF 14A proxy statements (pass document_type=DEF 14A). Each row includes Filing metadata object. Includes `document_type` (Canonical document type. SEC: 10-K, 10-Q, 20-F, 6-K, 8-K. FCA: annual",
         "inputs": [
           {
             "name": "ticker",
@@ -6570,7 +7139,7 @@
       },
       {
         "name": "get_filing_toc",
-        "description": "Return the full filing table of contents for one filing. If artifact_document_id is omitted, resolves the single latest filing for ticker/company (and optional document_type) only. Use list_filings first to discover a specific reporting period. For FCA filings, pass filing_registry=fca_nsm; TOC node ids are HTML page element ids (e.g. pf2a, page12, pageView1) for annual ESEF reports or sec-parser ",
+        "description": "Return the full filing table of contents for one filing. If artifact_document_id is omitted, resolves the single latest filing for ticker/company (and optional document_type) only. Use list_filings first to discover a specific reporting period. Pass document_type=DEF 14A for US proxy statements. For DEF 14A, TOC rows are native proxy section labels when the filing has a linked HTML TOC; otherwise ",
         "inputs": [
           {
             "name": "artifact_document_id",
@@ -6634,7 +7203,7 @@
       },
       {
         "name": "search_sec_event_filings",
-        "description": "Search US SEC 8-K and 6-K current-report nodes for company events and disclosures. Use this to discover issuers across a date range. Do not use this for 10-K or 10-Q filings. How to search: 1. Always pass concept_groups. Every group is required (AND). Within each group's any_of list, one alternative must match (OR). All groups match inside one filing node. Use separate groups for the main context,",
+        "description": "Search US SEC 8-K and 6-K current-report nodes for company events and disclosures. Use this to discover issuers across a date range. Do not use this for 10-K, 10-Q, or DEF 14A filings. How to search: 1. Always pass concept_groups. Every group is required (AND). Within each group's any_of list, one alternative must match (OR). Atlas decides which nodes match and how they rank. Use separate groups f",
         "inputs": [
           {
             "name": "query",
@@ -6645,7 +7214,7 @@
           {
             "name": "concept_groups",
             "type": "array",
-            "description": "Required stemmed concept groups. Every group must match in the same node (AND). Any one alternative inside any_of can satisfy its group (OR). Use 2-5 focused groups in most searches. Supply synonyms a",
+            "description": "Required stemmed concept groups. Every group must match (AND). Any one alternative inside any_of can satisfy its group (OR). Atlas ranks the matching filing nodes. Use 2-5 focused groups in most searc",
             "required": true
           },
           {
@@ -6669,13 +7238,35 @@
           {
             "name": "ne_tickers",
             "type": "any",
-            "description": "Optional. Omit these issuers (example: [\"HOOD\"] or [\"!HOOD\"]). After you finish read_node_content for a ticker, search again with that ticker here. Exclude wins if a ticker is in both lists. Max 50.",
+            "description": "Optional. Omit these issuers (example: [\"HOOD\"] or [\"!HOOD\"]). This filter does not load the next page. Use cursor for that. Exclude wins if a ticker is in both lists. Max 50.",
             "required": false
           },
           {
             "name": "limit",
             "type": "integer",
-            "description": "Maximum unique matches to return across all query phrases. At most 3 matches come from one filing.",
+            "description": "Maximum matches to return on this page. At most 3 matches come from one filing. When has_more is true, pass cursor to read the next page.",
+            "required": false
+          },
+          {
+            "name": "document_type",
+            "type": "any",
+            "description": "Optional. Search only these current-report forms: \"8-K\", \"6-K\", or both. Omit to search 8-K and 6-K.",
+            "required": false
+          },
+          {
+            "name": "match_scope",
+            "type": "string",
+            "description": "node (default): Atlas ranks every matching filing node. window is accepted for compatibility and behaves like node.",
+            "required": false,
+            "enum": [
+              "window",
+              "node"
+            ]
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Opaque NEXT_CURSOR from the previous response. Pass it with the same concept_groups, dates, query, tickers, ne_tickers, document_type, and match_scope to read the next page. Omit it to start from the ",
             "required": false
           }
         ]
@@ -7616,7 +8207,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1761,
+        "weeklyDownloads": 1822,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -7625,12 +8216,12 @@
       }
     ],
     "remotes": [],
-    "stars": 492,
+    "stars": 494,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 492,
+      "stars": 494,
       "forks": 36,
       "archived": false,
       "isFork": false,
@@ -7659,7 +8250,7 @@
     "remotes": [],
     "stars": 79,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-20T14:56:20.426988Z",
+    "updatedAt": "2026-09-26T08:03:07.518871Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
       "stars": 79,
@@ -7667,13 +8258,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
-      "pushedAt": "2026-09-20T14:36:06Z",
-      "openIssues": 2,
+      "pushedAt": "2026-09-26T07:47:05Z",
+      "openIssues": 0,
       "license": "NOASSERTION",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under Anki's own data folder (outside the addon's own folder, so it survives addon updates cleanly on every OS), falling back to the addon's `_cache/` directory when that location isn't available — so either way they happen once, not on every launch. The old in-folder fallback cache is only ever removed once the outside-the-folder cache has proven itself usable (a successful load from it) and is never touched while a native module is still loaded from it — a failed first attempt (e.g. offline) leaves the old cache untouched rather than destroyed.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_fields` tool (with an opt-in [destructive](#destructive-tools-opt-in) remove)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Check status via *Tools → AnkiMCP Server Settings...*\n\n### Connect with Claude Desktop\n\nRequires [Node.js](https://nodejs.org/) installed. Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):\n\n```json\n{\n  \"mcpServers\": {\n    \"anki\": {\n      \"command\": \"npx\",\n      \"args\": [\"mcp-remote\", \"http://127.0.0.1:3141\"]\n    }\n  }\n}\n```\n\n> **Note:** Claude Desktop doesn't natively support HTTP servers in its JSON config — `mcp-remote` bridges the conn\n\n…",
+      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under Anki's own data folder (outside the addon's own folder, so it survives addon updates cleanly on every OS), falling back to the addon's `_cache/` directory when that location isn't available — so either way they happen once, not on every launch. The old in-folder fallback cache is only ever removed once the outside-the-folder cache has proven itself usable (a successful load from it) and is never touched while a native module is still loaded from it — a failed first attempt (e.g. offline) leaves the old cache untouched rather than destroyed.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_fields` tool (with an opt-in [destructive](#destructive-tools-opt-in) remove)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **GUI review sessions** - Hands-free review in Anki's own reviewer window: `gui_deck_review` opens a deck, `gui_answer_card` presses the answer button for you. [Opt-in](#opt-in-tools), hidden until named in `enabled_opt_in_tools`\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Check status via *Tools → AnkiMCP Server Settings...*\n\n### Connect with Claude Desktop\n\nRequires [Node.js](https://nodejs.org/) installed. Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):\n\n```json\n{\n  \"mcpServ\n\n…",
       "truncated": true,
       "url": "https://github.com/ankimcp/anki-mcp-server-addon#readme"
     }
@@ -8647,7 +9238,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-28T18:01:06.130676Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-askmiles-catalog",
@@ -10764,7 +11355,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 30,
+        "weeklyDownloads": 29,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -10795,7 +11386,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 29,
+        "weeklyDownloads": 27,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -10826,7 +11417,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 30,
+        "weeklyDownloads": 33,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -10886,7 +11477,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -10948,7 +11539,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -11949,6 +12540,37 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-bamf-bamf",
+    "name": "BAMF.ai",
+    "qualifiedName": "ai.bamf/bamf",
+    "slug": "ai-bamf-bamf",
+    "description": "LinkedIn/X content, scheduling, analytics and outreach agent for founders — over MCP, one key.",
+    "category": "Marketing & Social",
+    "repository": "https://github.com/houstongolden/bamfaiapp",
+    "homepage": "https://bamf.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.bamf.ai",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "A BAMF workspace API key from Settings → Developer, or the team key shown on your BAMF home page.",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-26T03:11:37.281755Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
     "id": "mcp:ai-bankee-inferventis-mcp",
     "name": "Inferventis MCP Server",
     "qualifiedName": "ai.bankee/inferventis-mcp",
@@ -12046,30 +12668,6 @@
         ]
       },
       {
-        "name": "open_banking_transactions",
-        "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
-        "inputs": [
-          {
-            "name": "account_id",
-            "type": "string",
-            "description": "TrueLayer account ID to retrieve transactions for. Obtain from a prior account-listing call. Omit to return data for the first connected account.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of transactions to return. Integer between 1 and 100. Defaults to 10.",
-            "required": false
-          },
-          {
-            "name": "from_date",
-            "type": "string",
-            "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "financial_calculator_lite",
         "description": "Performs common financial calculations locally with no external API dependency. Supports compound interest, loan repayment, return on investment (ROI), present value, future value, and break-even analysis. Returns a single numeric result for the requested calculation type. This is a lightweight variant of financial_calculator — it returns only the result number rather than a full structured breakd",
         "inputs": [
@@ -12107,6 +12705,30 @@
             "name": "final_value",
             "type": "number",
             "description": "Final investment value. Required for roi calculations.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "open_banking_transactions",
+        "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
+        "inputs": [
+          {
+            "name": "account_id",
+            "type": "string",
+            "description": "TrueLayer account ID to retrieve transactions for. Obtain from a prior account-listing call. Omit to return data for the first connected account.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Maximum number of transactions to return. Integer between 1 and 100. Defaults to 10.",
+            "required": false
+          },
+          {
+            "name": "from_date",
+            "type": "string",
+            "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
             "required": false
           }
         ]
@@ -16800,7 +17422,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 44,
+        "weeklyDownloads": 37,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -17084,7 +17706,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 42,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -18393,7 +19015,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 535,
+        "weeklyDownloads": 615,
         "lastPublished": "2026-09-21T21:41:45.719Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -18448,7 +19070,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 114,
+        "weeklyDownloads": 106,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -18473,7 +19095,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-25T06:38:24.758357Z",
+    "updatedAt": "2026-09-26T07:06:17.052556Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -18481,7 +19103,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-24T00:30:48Z",
-      "pushedAt": "2026-09-25T06:40:19Z",
+      "pushedAt": "2026-09-26T03:18:35Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
@@ -18891,7 +19513,7 @@
     "repoMeta": {
       "slug": "ByteAsk/ByteAsk-Embedded-MCP",
       "stars": 24,
-      "forks": 4,
+      "forks": 3,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-19T09:01:38Z",
@@ -19620,7 +20242,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 59,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -20506,8 +21128,8 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 121,
-        "lastPublished": "2026-09-23T05:07:27.332Z",
+        "weeklyDownloads": 303,
+        "lastPublished": "2026-09-25T11:59:02.599Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
         "declaredRepo": "ergoveritas1-alt/certscore.ai",
@@ -20525,7 +21147,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-25T10:54:08Z",
+      "pushedAt": "2026-09-25T16:25:43Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -20563,7 +21185,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-25T10:54:08Z",
+      "pushedAt": "2026-09-25T16:25:43Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -21245,7 +21867,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 45,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-07-14T21:12:54.331Z",
         "firstPublished": "2026-05-20T05:46:09.961Z",
         "deprecated": false,
@@ -21342,7 +21964,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 33,
+        "weeklyDownloads": 28,
         "lastPublished": "2026-07-09T11:51:01.001Z",
         "firstPublished": "2026-07-09T10:40:36.541Z",
         "deprecated": false,
@@ -21370,287 +21992,6 @@
       "markdown": "# circulara-core\n\nCirculara Observe tier: per-tenant backend + MCP plugin. Sprints 1-4: WS0 (scaffold),\nWS6 (pricing registry), WS1 (MCP plugin), WS2 (auth + BYO keys + gateway), WS3\n(telemetry pipeline: normalize -> re-price -> append; free-tier cap; OpenAI-format\ngateway for Cursor-class hosts), WS4 (meter compute: registry pricing, energy/CO2e\nranges with confidence labels, per user/team/module/month report), WS5 (Observe\ndashboard + savings-potential report + monthly statement, server-rendered, Ledger\nLight brand tokens; seed a demo tenant with packages/backend/scripts/seed-demo.ts\nand open the printed /dashboard URL).\nArchitecture: /outputs/reports/architecture_v1.md (AD1-AD6, rev 2026-07-07) + the\nsourcing addendum (AD7-AD12).\n\n**Pricing placement:** the meter owns money. All three capture paths (hook, tool,\ngateway) deliver tokens + model; pricing happens ONCE in the WS3/WS4 pipeline from the\napproved registry snapshot. Client-submitted observe events are re-priced server-side;\nclient cost is a hint, never the booked number. Engine-computed events (reuse/sourcing,\nwaves 3+) carry their own math and are born meter-priced in-process.\n\n## Workspace layout\n\n| Package | What |\n|---|---|\n| packages/schema | THE event schema (zod, v1.0+v1.1, AD4/AD12 incl. call_id + M1 stacking rule). Single source of truth for backend intake AND plugin emission |\n| packages/backend | Per-tenant backend: tenancy/isolation (PGlite+pgvector dev, per-tenant Postgres prod), append-only meter, seats (AD6), WS2 auth (OIDC + short-lived agent tokens + dev mode), BYO provider keys envelope-encrypted at rest, gateway metering mode (AD3-B, M2 per-seat credentials), object store, WS6 pricing registry + carbon coefficients |\n| packages/plugin | MCP plugin (AD3 path C tools: circulara_report, circulara_status) + Claude Code PostToolUse hook (path A observe capture). Validates events against the shared schema BEFORE sending |\n\n## Run\n\n```bash\nnpm install\nnpm test              # all workspaces: backend 11 + plugin 4 (in-memory, no keys)\nnpm run typecheck\nnpm run dev           # backend on 127.0.0.1:8787 (CIRCULARA_AUTH_MODE=dev|oidc)\n\n# WS6 registry flow (human approves diffs, D12):\nnpm run registry -- update|approve|show\n\n# WS2 LIVE smoke (deliberate; ~cents on the configured Anthropic key):\ncd packages/backend && npx tsx scripts/live-smoke.ts\n```\n\n## Auth (WS2)\n\n- Humans: OIDC/SSO (RS256 vs org issuer JWKS; admin via `circulara_role=admin` claim).\n- Named agents: short-lived HS256 seat tokens minted at POST /v1/seats/:id/token (admin).\n- Dev mode ONLY with CIRCULARA_AUTH_MODE=dev: `Bearer dev-admin-token` / `dev-seat-token`.\n- Gateway (M2): per-seat credentials from POST /v1/seats/:id/gateway-credential; the host\n  sends the credential as x-api-key to POST /gateway/anthropic/v1/messages; backend maps\n  credential -> seat, forwards on the tenant's real key, meters per seat.\n\n## MCP plugin install (Claude Code)\n\n```bash\nclaude mcp add circulara \\\n  -e CIRCULARA_BACKEND_URL=http://127.0.0.1:8787 \\\n  -e CIRCULARA_TENANT_ID=<uuid> -e CIRCULARA_TOKEN=<bearer> \\\n  -e CIRCULARA_SEAT_ID=<uuid> -e CIRCULARA_USER_ID=<sso-subject> \\\n  -- npx tsx <repo>/packages/plugin/src/server.ts\n```\nHook capture (path A): wire `packages/plugin/src/hook.ts` as a PostToolUse hook (see file\nheader). The hook never fails the host tool call.\n\n## Invariants the tests enforce\n\n- Tenant isolation; append-only meter_events; admin-only agent seats (AD6).\n- avoided_usd == counterfactual - actual; sourcing types require the v1.1 block; M1\n  call_id chaining telescopes per-call savings.\n- Provider keys never at rest in plaintext (envelope AES-256-GCM, wrong-KEK/tamper throw);\n  write-only API (names listed, values never returned).\n- Gateway: unknown credential 401; missing tenant key 503; per-seat attribution exact;\n  registry-priced usage.\n- OIDC: wrong issuer rejected; dev tokens rejected outside dev mode; agent tokens expire.\n\n## Keys\n\nRuntime keys come ONLY from the external env file via loadSecret() (path in\nsrc/config.ts, names in /context/api.md): CIRCULARA_MASTER_KEY (envelope KEK),\nCIRCULARA_AGENT_TOKEN_SECRET (agent JWTs), tenant provider keys via the API.\nNever hardcoded, never logged, never committed.",
       "truncated": false,
       "url": "https://github.com/CircularRoute/circulara-core#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-cirra-salesforce-mcp",
-    "name": "Cirra AI Salesforce Admin MCP Server",
-    "qualifiedName": "ai.cirra/salesforce-mcp",
-    "slug": "ai-cirra-salesforce-mcp",
-    "description": "Comprehensive Salesforce administration and management",
-    "category": "Other",
-    "repository": null,
-    "homepage": "https://docs.cirra.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.cirra.ai/sfdc/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-06-17T21:41:17.956027Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-citybook-citybook",
-    "name": "Citybook",
-    "qualifiedName": "ai.citybook/citybook",
-    "slug": "ai-citybook-citybook",
-    "description": "Live Calgary events for AI agents.",
-    "category": "AI & Memory",
-    "repository": "https://github.com/yeunge-pawlo/citybook",
-    "homepage": "https://citybook.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.citybook.ai/mcp",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer pk_free_ or pk_live_",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-28T17:08:14.375286Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "fetch_events",
-        "description": "Find upcoming local events — community programs, markets, festivals, fitness classes, workshops, and entertainment. Filter by city, neighbourhood, sector, date range, and accessibility flags. Returns rich metadata including geo coordinates, images, structured pricing, recurrence, and accessibility info. Connect and list the paid event tool without a Citybook key. Credential-free fetch_events calls",
-        "inputs": [
-          {
-            "name": "city",
-            "type": "string",
-            "description": "City name (e.g. Calgary, Banff)",
-            "required": true
-          },
-          {
-            "name": "neighbourhood",
-            "type": "string",
-            "description": "Neighbourhood within the city",
-            "required": false
-          },
-          {
-            "name": "sector_id",
-            "type": "string",
-            "description": "One of: /events/community, /events/government, /events/market, /events/fitness, /events/education, /events/entertainment, /events/tourism",
-            "required": false
-          },
-          {
-            "name": "after",
-            "type": "string",
-            "description": "ISO 8601 datetime — only events starting after this time.",
-            "required": false
-          },
-          {
-            "name": "before",
-            "type": "string",
-            "description": "ISO 8601 datetime — only events starting before this time.",
-            "required": false
-          },
-          {
-            "name": "pet_friendly",
-            "type": "boolean",
-            "description": "Filter for pet-friendly events only.",
-            "required": false
-          },
-          {
-            "name": "family_friendly",
-            "type": "boolean",
-            "description": "Filter for family-friendly events only.",
-            "required": false
-          },
-          {
-            "name": "indoor_outdoor",
-            "type": "string",
-            "description": "Filter by venue type: 'indoor', 'outdoor', or 'both'.",
-            "required": false
-          },
-          {
-            "name": "commitment",
-            "type": "string",
-            "description": "Filter by engagement type: 'drop_in' (no registration), 'register_required' (single-occurrence event needing RSVP/registration), or 'multi_week_program' (recurring multi-week series like 8-week soccer",
-            "required": false
-          },
-          {
-            "name": "since",
-            "type": "string",
-            "description": "ISO 8601 datetime — only events submitted after this time. Use for incremental polling.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Max results (default 10, max 50)",
-            "required": false
-          },
-          {
-            "name": "offset",
-            "type": "number",
-            "description": "Skip first N results for pagination. Default 0.",
-            "required": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-clarid-compliance",
-    "name": "Clarid Compliance",
-    "qualifiedName": "ai.clarid/compliance",
-    "slug": "ai-clarid-compliance",
-    "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
-    "category": "Legal & Government",
-    "repository": "https://github.com/clarid-ai/compliance-checker",
-    "homepage": "https://clarid.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.clarid.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-02-26T19:00:43.930817Z",
-    "repoMeta": null,
-    "toolsStatus": "error"
-  },
-  {
-    "id": "mcp:ai-clarid-hmda",
-    "name": "Clarid HMDA Validator",
-    "qualifiedName": "ai.clarid/hmda",
-    "slug": "ai-clarid-hmda",
-    "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
-    "category": "Other",
-    "repository": "https://github.com/clarid-ai/compliance-checker",
-    "homepage": "https://clarid.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.clarid.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-02-26T19:00:44.38512Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-clarx-mcp",
-    "name": "Clarx MCP",
-    "qualifiedName": "ai.clarx/mcp",
-    "slug": "ai-clarx-mcp",
-    "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
-    "category": "AI & Memory",
-    "repository": "https://github.com/Gernika-Labs/clarx-cloud",
-    "homepage": "https://github.com/Gernika-Labs/clarx-cloud",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@clarxai/mcp",
-        "version": "0.2.2",
-        "transport": "stdio",
-        "runtimeHint": null,
-        "env": [
-          {
-            "name": "ANTHROPIC_API_KEY",
-            "description": "Optional fallback. BYOK for suggest_manifest_fix / generate_manifest_draft when CLARX_MCP_TOKEN is unset or hosted AI is unavailable.",
-            "required": false,
-            "secret": true,
-            "format": "string"
-          },
-          {
-            "name": "CLARX_MCP_TOKEN",
-            "description": "Org-scoped Clarx Cloud API token — unlocks hosted manifest AI (Pro: unlimited; Free: 10/mo) plus scan tools (list_repos, get_scan, list_findings, get_remediation_prompt). Create in org settings.",
-            "required": false,
-            "secret": true,
-            "format": "string"
-          }
-        ],
-        "weeklyDownloads": 160,
-        "lastPublished": "2026-08-19T16:17:21.278Z",
-        "firstPublished": "2026-07-06T09:51:29.727Z",
-        "deprecated": false,
-        "declaredRepo": null,
-        "repoMatchesRegistry": null
-      }
-    ],
-    "remotes": [],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-19T16:23:31.658789Z",
-    "repoMeta": null
-  },
-  {
-    "id": "mcp:ai-clawfetch-mcp",
-    "name": "Clawfetch MCP",
-    "qualifiedName": "ai.clawfetch/mcp",
-    "slug": "ai-clawfetch-mcp",
-    "description": "Web intelligence for AI agents: fetch, render, extract, research. x402 micropayments, no API keys.",
-    "category": "Web & Search",
-    "repository": "https://github.com/clawfetch/clawfetch-mcp",
-    "homepage": "https://github.com/clawfetch/clawfetch-mcp",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@clawfetch/mcp",
-        "version": "0.3.2",
-        "transport": "stdio",
-        "runtimeHint": null,
-        "env": [
-          {
-            "name": "CLAWFETCH_PRIVATE_KEY",
-            "description": "EVM private key for a Base wallet holding USDC (pays x402 micropayments gaslessly)",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-25T08:52:39.973Z",
-        "firstPublished": "2026-08-05T05:59:39.120Z",
-        "deprecated": false,
-        "declaredRepo": "clawfetch/clawfetch-mcp",
-        "repoMatchesRegistry": true
-      }
-    ],
-    "remotes": [],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-25T09:01:44.498836Z",
-    "repoMeta": {
-      "slug": "clawfetch/clawfetch-mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-08-05T05:57:36Z",
-      "pushedAt": "2026-09-25T08:48:21Z",
-      "openIssues": 3,
-      "license": "MIT",
-      "language": "TypeScript"
-    },
-    "readme": {
-      "markdown": "# @clawfetch/mcp\n\nMCP (Model Context Protocol) server for [ClawFetch](https://clawfetch.ai) — Web Intelligence API for AI Agents.\n\nGives any MCP-compatible client (Claude Desktop, Cursor, Windsurf, OpenClaw, etc.) instant access to ClawFetch's web intelligence tools: fetch pages as markdown, render JS-heavy SPAs, extract structured data from 17+ site types, research topics multi-source, and check domain availability.\n\nPayments are handled automatically via the [x402 protocol](https://www.x402.org/) — USDC on Base. No API keys, no billing dashboards.\n\n## Access and payment\n\nThe public hosted MCP endpoint is retired and returns HTTP 410 Gone. Run the MCP locally using the setup below, or call https://api.clawfetch.ai directly. Paid tool calls use your own USDC-funded wallet on Base; ClawFetch does not subsidize requests.\n\n## 💻 Self-Hosted Mode\n\nRun your own instance with full control over the payment wallet.\n\n### Install\n\n```bash\nnpm install -g @clawfetch/mcp\n```\n\n### Configure (stdio — for local MCP clients)\n\nAdd to your MCP client config (e.g., Claude Desktop):\n\n```json\n{\n  \"mcpServers\": {\n    \"clawfetch\": {\n      \"command\": \"clawfetch-mcp\",\n      \"env\": {\n        \"CLAWFETCH_PRIVATE_KEY\": \"0xYOUR_ETHEREUM_PRIVATE_KEY\"\n      }\n    }\n  }\n}\n```\n\nThe private key signs x402 micropayments (USDC on Base). Fund the corresponding address with USDC on Base mainnet.\n\n### Run as HTTP Server\n\nExpose the MCP server over HTTP for remote clients:\n\n```bash\nCLAWFETCH_PRIVATE_KEY=0x... CLAWFETCH_TRANSPORT=http CLAWFETCH_PORT=3001 clawfetch-mcp\n```\n\nThis starts a server at `http://localhost:3001/mcp` using the Streamable HTTP transport (MCP spec compliant).\n\n#### HTTP Endpoints\n\n| Endpoint | Method | Description |\n|----------|--------|-------------|\n| `/mcp` | POST | Initialize session — returns `Mcp-Session-Id` header |\n| `/mcp` | GET | SSE stream for server-to-client notifications (requires session ID) |\n| `/mcp` | DELETE | Close a session |\n| `/health` | GET | Server health check (JSON) |\n\n#### Session Flow\n\n1. **Initialize:** `POST /mcp` with JSON-RPC `initialize` request → get `Mcp-Session-Id` header\n2. **Call tools:** `POST /mcp` with `Mcp-Session-Id` header + JSON-RPC `tools/call` request\n3. **Stream:** `GET /mcp?sessionId=...` for SSE notifications (optional)\n4. **Close:** `DELETE /mcp` with `Mcp-Session-Id` header\n\n## Tools\n\n| Tool | Description | Cost |\n|------|-------------|------|\n| `fetch_url` | Fetch any URL as clean markdown | $0.001 |\n| `render_page` | Render JS-heavy pages (SPAs, React apps) | $0.005 |\n| `extract_data` | Extract structured data from 17+ site types | $0.008 |\n| `research_topic` | Multi-source research with citations | $0.02 |\n| `check_domains` | Check domain name availability | $0.003 |\n| `suggest_domains` | Generate available domain suggestions | $0.003 |\n| `parse_document` | Parse office docs (docx/pptx/xlsx/pdf/…) to markdown | $0.005 |\n| `list_extractors` | List supported structured data extractors | $0.001 |\n| `health_check` | Check API health status | Free |\n| `wallet_info` | Show payment wallet address | Free |\n\n### Supported Extractors\n\nGitHub repos/profiles, npm packages, PyPI packages, Twitter/X profiles, LinkedIn profiles/companies, YouTube videos/channels, Product Hunt, Hacker News, Reddit, Crunchbase, Wikipedia, and more.\n\nUse `list_extractors` to see all available types with their schema.\n\n## Environment Variables\n\n| Variable | Required | Default | Description |\n|----------|----------|---------|-------------|\n| `CLAWFETCH_PRIVATE_KEY` | Yes* | — | Ethereum private key (0x-prefixed) for x402 payments |\n| `CLAWFETCH_BASE_URL` | No | `https://api.clawfetch.ai` | API base URL |\n| `CLAWFETCH_TRANSPORT` | No | `stdio` | Transport: `stdio` or `http` |\n| `CLAWFETCH_HOST` | No | `0.0.0.0` | HTTP server bind address |\n| `CLAWFETCH_PORT` | No | `3001` | HTTP server port |\n| `CLAWFETCH_TIMEOUT_MS` | No | `60000` | Request timeout in ms |\n| `CLAWFETCH_DEBUG` | No | `false` | Enable debug logging (`1` or `true`) |\n\n\\* Required. Keep this key in your local configuration; never submit it to the ClawFetch website.\n\n## Development\n\n```bash\ngit clone https://github.com/clawfetch/clawfetch-mcp.git\ncd clawfetch-mcp\nnpm install\nnpm run build\nnpm test\n```\n\n## License\n\nMIT",
-      "truncated": false,
-      "url": "https://github.com/clawfetch/clawfetch-mcp#readme"
     }
   }
 ]
