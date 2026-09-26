@@ -21993,5 +21993,683 @@
       "truncated": false,
       "url": "https://github.com/CircularRoute/circulara-core#readme"
     }
+  },
+  {
+    "id": "mcp:io-github-worklittle-jobs",
+    "name": "Worklittle Jobs",
+    "qualifiedName": "io.github.worklittle/jobs",
+    "slug": "io-github-worklittle-jobs",
+    "description": "Search over 4 million jobs with visa, salary and distance filters, swipe to apply from your AI app, and save roles to a Worklittle account.",
+    "category": "Productivity",
+    "repository": "https://github.com/worklittle/jobs-mcp",
+    "homepage": "https://docs.worklittle.com/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.worklittle.com/",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "search_jobs",
+        "description": "Jobs — Search Worklittle job listings. People say Worklittle plus a role, city, company, or filters (or just 'jobs') — they will not name this tool. Call it whenever they want Worklittle jobs. Search by keyword, company, location, job type, seniority, or recency. Use for ANY industry (retail, finance, healthcare, tech, etc.). Search matches title and filter text (substring / FTS), not vector embed",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Job title or role phrase (merged with keywords). Sent as API title= — matches job TITLE text only, separate from company. Preserve negative title terms with a leading dash, e.g. 'product manager, soft",
+            "required": false
+          },
+          {
+            "name": "keywords",
+            "type": "string",
+            "description": "Only if the user named skills or stacks in this turn. Omit by default — do not pull from resume or profile.",
+            "required": false
+          },
+          {
+            "name": "company",
+            "type": "string",
+            "description": "Employer slug(s): bare slug or comma-separated OR include (e.g. meta,google,apple). Prefix with '-' to exclude (e.g. -lucid-motors,-tesla). Mix allowed (meta,google,-amazon). Lowercase hyphenated. Mid",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Text filter on job location strings (partial match). For metro-area or 'near me' intent, prefer near_lat + near_lng + radius_km (50–65 km typical) so results are not tied to one city spelling. Use loc",
+            "required": false
+          },
+          {
+            "name": "location_or",
+            "type": "string",
+            "description": "Comma-separated place substrings when the user names two or more metros at once (e.g. San Francisco,New York). The API returns jobs whose location text matches ANY term. Mutually exclusive with distan",
+            "required": false
+          },
+          {
+            "name": "employment_type",
+            "type": "string",
+            "description": "Type of employment contract.",
+            "required": false,
+            "enum": [
+              "full_time",
+              "part_time",
+              "contract",
+              "internship",
+              "temporary"
+            ]
+          },
+          {
+            "name": "workplace_type",
+            "type": "string",
+            "description": "Work arrangement.",
+            "required": false,
+            "enum": [
+              "remote",
+              "hybrid",
+              "on_site"
+            ]
+          },
+          {
+            "name": "seniority_level",
+            "type": "string",
+            "description": "Omit unless the user explicitly asked for a band. Never infer from profile. Enum when set:",
+            "required": false,
+            "enum": [
+              "new_grad",
+              "entry",
+              "mid",
+              "senior",
+              "staff",
+              "manager",
+              "director",
+              "executive"
+            ]
+          },
+          {
+            "name": "posted_within_days",
+            "type": "number",
+            "description": "Days of posted-date lookback. Omit → default 14. 0 → no cutoff (any age). 1 → today/last 24h. 7 → this week. Any positive integer allowed (e.g. 90, 365). Never encode recency words in query.",
+            "required": false
+          },
+          {
+            "name": "salary_min",
+            "type": "number",
+            "description": "Minimum annual salary in the job's listed currency. Only returns jobs where a salary is known and meets this threshold. Examples: 100000, 150000.",
+            "required": false
+          },
+          {
+            "name": "visa_sponsorship",
+            "type": "string",
+            "description": "Filter by explicit visa sponsorship text in the posting (AI-extracted). Use 'yes' for jobs that sponsor visas (H-1B, etc.). Use 'no' only when the user wants roles that explicitly state no sponsorship",
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          },
+          {
+            "name": "description_language",
+            "type": "string",
+            "description": "ISO 639-1 code for the language of the job posting body. Examples: en, es, de, fr, pt.",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 country filter (e.g. US, GB, DE). Returns jobs in that country or workplace_type remote.",
+            "required": false
+          },
+          {
+            "name": "exclude_ids",
+            "type": "string",
+            "description": "Comma-separated job IDs to exclude (e.g. postings already shown in the conversation).",
+            "required": false
+          },
+          {
+            "name": "near_lat",
+            "type": "number",
+            "description": "Latitude for distance search. Use with near_lng. Typical source: browser geolocation or geocoded city.",
+            "required": false
+          },
+          {
+            "name": "near_lng",
+            "type": "number",
+            "description": "Longitude for distance search. Required with near_lat.",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Radius in kilometers around near_lat/near_lng. Default 50, max 500.",
+            "required": false
+          },
+          {
+            "name": "exclude_remote",
+            "type": "boolean",
+            "description": "When using near_lat/near_lng: false includes remote-only jobs; true (default) excludes them so results are geographically local.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Number of results to return. Default 10, max 50.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor from a previous search_jobs response to fetch the next page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_companies",
+        "description": "Jobs — Search the Worklittle market company index by name or slug (ranked typeahead). Returns id, name, slug, logo_url, and enrichment fields for employers with open jobs. Use when the user names an employer and you need a real slug/id for search_jobs company= filters, job alerts, or automations. If zero hits, try alternate spellings or related employer names from further search_companies calls — ",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "Company name or slug query (min 2 characters, max 80).",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Max results to return. Default 5, max 20.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "load_more_job_cards",
+        "description": "Jobs — Fetch Job Cards for the current search (same filters as search_jobs). Omit cursor for the first page; pass next_cursor to page. Used by the Job Cards widget. Do not call from the model.",
+        "inputs": [
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "next_cursor from the previous search_jobs / load_more_job_cards response. Omit for the first page.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "keywords",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "company",
+            "type": "string",
+            "description": "Same as search_jobs: bare slug include OR; leading '-' excludes (e.g. -lucid-motors).",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "location_or",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "employment_type",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "workplace_type",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "seniority_level",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "posted_within_days",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "salary_min",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "visa_sponsorship",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          },
+          {
+            "name": "description_language",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "exclude_ids",
+            "type": "string",
+            "description": "Comma-separated job IDs already in the deck (dedupe).",
+            "required": false
+          },
+          {
+            "name": "near_lat",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "near_lng",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "exclude_remote",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_job_details",
+        "description": "Jobs — Fetch detailed information about a specific job, including full responsibilities, qualifications, and company details. Pass job_id from search_jobs when you have one. If the user asks for full details of a role without an id (e.g. the first software engineer job in Austin), pass query and optional location instead — the tool loads the first matching live listing.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "The job ID from a previous search_jobs result when available.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Role/title search used when job_id is missing (picks the first live match).",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Optional location substring when resolving details by query.",
+            "required": false
+          },
+          {
+            "name": "summary",
+            "type": "boolean",
+            "description": "If true, request first-time AI generation via GET /jobs/:id?summary=true. Default is raw plus cached AI only.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_job_keywords",
+        "description": "Jobs — Get skill and technology keywords from live Worklittle job data. Pass job_id for one posting. If the user asks what keywords show up for a role (resume tailoring, 'data scientist jobs', applications) and you do not have a job_id, pass query instead (optional location). Returns keywords plus keyword_count. Do not require a prior search when the question is about a role in general.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job ID from search_jobs when keywords are for one listing.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Role or title phrase when aggregating common keywords across live jobs (e.g. data scientist).",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Optional location substring when aggregating by query.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_market_overview",
+        "description": "Jobs — Returns aggregate job-market statistics from Worklittle. Call with no args for the full indexed market (counts, workplace mix, top hiring companies). When the user names a role and/or city (e.g. product managers in San Francisco), pass query and location. The filtered slice includes match count, top companies in the sample, and salary signals from listings that publish pay.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Role or title filter for a market slice (e.g. product manager).",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Location substring for a market slice (e.g. San Francisco).",
+            "required": false
+          },
+          {
+            "name": "workplace_type",
+            "type": "string",
+            "description": "Optional workplace filter for the slice.",
+            "required": false,
+            "enum": [
+              "remote",
+              "hybrid",
+              "on_site"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "track_applied_job",
+        "description": "Jobs — Record that the API key owner saved, applied to, clicked Apply, or skipped a job. Use status saved for heart/save and skipped for deck Skip. Defaults to in_progress (apply / apply_with_ai) or applied (api).",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Worklittle job id from search_jobs or get_job_details.",
+            "required": true
+          },
+          {
+            "name": "job_title",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "company_name",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "apply_url",
+            "type": "string",
+            "description": "Optional employer apply URL.",
+            "required": false
+          },
+          {
+            "name": "method",
+            "type": "string",
+            "description": "How the user applied. Defaults to apply.",
+            "required": false,
+            "enum": [
+              "apply",
+              "apply_with_ai",
+              "api"
+            ]
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Pipeline stage when known. Use saved for heart/save, skipped for Job Cards / deck Skip. Defaults to in_progress for apply / apply_with_ai, applied for api.",
+            "required": false,
+            "enum": [
+              "saved",
+              "in_progress",
+              "applied",
+              "interview",
+              "offer",
+              "rejected",
+              "withdrawn",
+              "skipped"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "delete_applied_job",
+        "description": "Jobs — Remove a job from the API key owner's personal saved-jobs pipeline (unheart / remove from Saved).",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Worklittle job id to remove from the pipeline.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_account",
+        "description": "Jobs — Return the connected Worklittle account when the user already linked via Connect. If they have not connected, return connected: false. Do not call this to search jobs, and do not ask them to Connect just to browse.",
+        "inputs": null
+      },
+      {
+        "name": "upload_resume",
+        "description": "Jobs — Upload the connected account's profile resume file (PDF, Word, text, or image). Used by Job Cards Apply resume gate before start_apply_with_ai. Requires jobs:apply.",
+        "inputs": [
+          {
+            "name": "filename",
+            "type": "string",
+            "description": "Original file name, e.g. resume.pdf",
+            "required": true
+          },
+          {
+            "name": "mime",
+            "type": "string",
+            "description": "MIME type, e.g. application/pdf",
+            "required": false
+          },
+          {
+            "name": "content_base64",
+            "type": "string",
+            "description": "Base64-encoded file bytes (data: URLs accepted; strip prefix ok).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_resume",
+        "description": "Jobs — Poll profile resume processing status after upload_profile_resume (ready | processing | idle | missing). Job Cards analyzing phase.",
+        "inputs": null
+      },
+      {
+        "name": "delete_resume",
+        "description": "Jobs — Delete the connected account's profile resume file. Used by Job Cards You/Settings. Requires jobs:apply.",
+        "inputs": null
+      },
+      {
+        "name": "update_account",
+        "description": "Jobs — Patch the connected account's Settings profile fields (name, school, desired role, phone, links, work authorization, driver's license, interests). Used by Job Cards You overlay. Requires jobs:apply. Syncs to cloud for worklittle.com.",
+        "inputs": [
+          {
+            "name": "you_name",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "you_school",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "you_work",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "you_interests",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "school_degree",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "phone",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "phone_national",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "phone_country_iso",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "drivers_license",
+            "type": "string",
+            "description": "valid | none | empty to clear",
+            "required": false
+          },
+          {
+            "name": "work_authorization_countries",
+            "type": "array",
+            "description": "ISO2 country codes",
+            "required": false
+          },
+          {
+            "name": "linkedin_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "github_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "huggingface_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "personal_website_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "x_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "instagram_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "youtube_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "facebook_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "tiktok_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "profile_clear_fields",
+            "type": "array",
+            "description": "Field names to clear when empty",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "apply_for_job",
+        "description": "Jobs — Start applying to a catalog job (browser session) or submit a hosted Worklittle application. Pass job_id. Include name, email, and resume when applying to a hosted posting.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Worklittle job id from search_jobs / get_job_details.",
+            "required": true
+          },
+          {
+            "name": "auto_submit",
+            "type": "boolean",
+            "description": "Ignored on API keys. Sessions started with a key always submit.",
+            "required": false
+          },
+          {
+            "name": "resume_html",
+            "type": "string",
+            "description": "Optional resume HTML to seed.",
+            "required": false
+          },
+          {
+            "name": "cover_letter_html",
+            "type": "string",
+            "description": "Optional cover letter HTML to seed.",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "license": null,
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": null,
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "readme": {
+      "markdown": "# Worklittle Jobs\n\nSwipe to apply for jobs using the Worklittle MCP app, and search over 4 million jobs with filters like visa status, distance, and salary, and connect your Worklittle account to save jobs you love.\n\nPublic MCP connector and plugin files for [Worklittle](https://worklittle.com). This repository contains skill instructions, a plugin manifest, and a pointer to the public MCP URL. It does not contain API keys, OAuth secrets, or private product source.\n\n## What users get\n\n- Remote MCP at `https://mcp.worklittle.com/`\n- Search with visa, distance, salary, and other filters\n- Connect a Worklittle account to save jobs\n\n## Connect\n\nRemote Streamable HTTP (any MCP client):\n\n```\nhttps://mcp.worklittle.com/\n```\n\nAdd that URL in ChatGPT, VS Code, Cursor, Claude, Codex, or another app that supports remote MCP. Docs for each client: https://docs.worklittle.com/mcp\n\nClaude Code (this is the Claude CLI, not the connector name):\n\n```bash\nclaude mcp add --transport http worklittle https://mcp.worklittle.com/\n```\n\nDocs: https://docs.worklittle.com/mcp  \nPrivacy: https://worklittle.com/privacy  \nSupport: hello@worklittle.com\n\n## Client manifests\n\nThe same remote MCP and skills work in Cursor, Claude, ChatGPT, VS Code, Codex, and other clients. Each host just looks for its own files:\n\n- Claude Code / Claude plugin directory: `.claude-plugin/plugin.json`\n- Cursor Marketplace: `.cursor-plugin/` plus `mcp.json` (Cursor’s required filename)\n- Official MCP Registry: `server.json`\n- Skills (`npx skills add`): `skills/`\n\nCursor’s reviewer script is in this repo so a marketplace submit matches their [plugin template](https://github.com/cursor/plugin-template). It does not make this a Cursor-only project.\n\n```bash\nnode scripts/validate-template.mjs\n```\n\n## Agent skills\n\nInstall the public job-search skills into Cursor, Codex, Claude Code, and other agents:\n\n```bash\nnpx skills add worklittle/jobs-mcp\n```\n\nBrowse them on [skills.sh](https://skills.sh). Docs also publish skills at `https://docs.worklittle.com`.\n\n## License\n\nMIT\n\n## Directories\n\nListed in the [Claude Market MCP directory](https://www.claudemarket.ai/mcp).",
+      "truncated": false,
+      "url": "https://github.com/worklittle/jobs-mcp#readme"
+    }
   }
 ]
