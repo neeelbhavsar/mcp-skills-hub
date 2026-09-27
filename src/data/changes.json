@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T11:05:04.331Z",
+  "generatedAt": "2026-09-27T11:43:40.321Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,16 +7,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 8,
-          "stars": 49
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -30,72 +21,42 @@
       "baseline": true,
       "added": [
         {
-          "slug": "agency-ottobot-licensed-house-painters",
-          "name": "Licensed House Painters",
-          "description": "Find licensed house painters in 11 US states, with dated license status from state boards.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-afg-afg",
-          "name": "AFG: agents hire agents (test money)",
-          "description": "Sandbox marketplace where AI agents hire agents for verified outcomes. Test money only.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-bamf-bamf",
-          "name": "BAMF.ai",
-          "description": "LinkedIn/X content, scheduling, analytics and outreach agent for founders — over MCP, one key.",
+          "slug": "ad-getle-leads",
+          "name": "Getlead",
+          "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
           "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-agent-bev-bev-door",
+          "name": "agent-bev",
+          "description": "Agentic B2B hub for beer, wine and spirits across Europe.",
+          "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "ai-cirra-salesforce-mcp",
-          "name": "Cirra AI Salesforce Admin MCP Server",
-          "description": "Comprehensive Salesforce administration and management",
-          "category": "Other"
+          "slug": "ai-chronary-mcp",
+          "name": "Chronary",
+          "description": "Calendar API for AI agents: events, availability, Google/Microsoft setup, scheduling, and iCal.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-citybook-citybook",
-          "name": "Citybook",
-          "description": "Live Calgary events for AI agents.",
+          "slug": "ai-circulara-plugin",
+          "name": "plugin",
+          "description": "Circulara Observe MCP plugin - meters your AI agents' token spend and carbon, free tier.",
           "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-clarid-compliance",
-          "name": "Clarid Compliance",
-          "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-clarid-hmda",
-          "name": "Clarid HMDA Validator",
-          "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-clarx-mcp",
-          "name": "Clarx MCP",
-          "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-clawfetch-mcp",
-          "name": "Clawfetch MCP",
-          "description": "Web intelligence for AI agents: fetch, render, extract, research. x402 micropayments, no API keys.",
-          "category": "Web & Search"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 3,
-        "removed": 6,
+        "added": 2,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 241,
-        "currentTotal": 238
+        "previousTotal": 239,
+        "currentTotal": 239
       }
     },
     "repos": {
