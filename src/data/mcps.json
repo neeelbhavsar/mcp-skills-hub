@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 647066,
+        "weeklyDownloads": 624049,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 162542,
+        "weeklyDownloads": 163576,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 127274,
+        "weeklyDownloads": 127302,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 307223,
+        "weeklyDownloads": 297424,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90618,
+    "stars": 90642,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90618,
-      "forks": 11696,
+      "stars": 90642,
+      "forks": 11697,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-27T04:29:15Z",
-      "openIssues": 262,
+      "pushedAt": "2026-09-28T04:06:36Z",
+      "openIssues": 263,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1072,8 +1072,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
-      "pushedAt": "2026-09-27T11:34:13Z",
-      "openIssues": 3,
+      "pushedAt": "2026-09-28T13:07:58Z",
+      "openIssues": 4,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -2727,6 +2727,191 @@
     }
   },
   {
+    "id": "mcp:agency-justidea-justidea-agency",
+    "name": "JustIdea Agency",
+    "qualifiedName": "agency.justidea/justidea-agency",
+    "slug": "agency-justidea-justidea-agency",
+    "description": "Services, published prices, site search and sales inquiries of JustIdea, a Polish e-commerce agency.",
+    "category": "Commerce & Retail",
+    "repository": null,
+    "homepage": "https://justidea.agency/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://justidea.agency/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-27T23:11:35.114076Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "list_services",
+        "description": "List JustIdea Agency services with the published starting (\"from\") prices and links. Returns the price list (12 service categories, each with its packages) and every service page with its short description. All prices are net (VAT excluded) and exactly as published on justidea.agency. Use get_page for the full scope of a service and search_site for city pages, case studies and articles.",
+        "inputs": [
+          {
+            "name": "language",
+            "type": "string",
+            "description": "Site language: \"pl\" (prices in PLN) or \"en\" (prices in EUR for clients outside Poland).",
+            "required": false,
+            "enum": [
+              "pl",
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_page",
+        "description": "Full text of one justidea.agency page as Markdown: a service, a price list, the company profile, reviews, a blog article. Accepts a full URL or a path, e.g. \"/pl/cennik/sklepy-internetowe/\" or \"https://justidea.agency/en/pricing/online-stores/\". Only pages published on the site; use list_services or search_site to find the URL.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Page URL or path on justidea.agency.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_site",
+        "description": "Search justidea.agency pages by titles, descriptions and section headings. Polish and English queries both work. Returns titles, URLs and descriptions; read a result with get_page.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What to look for, e.g. \"PrestaShop migration\", \"sklep internetowy Kraków\", \"SEO price\".",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "Limit to one site language.",
+            "required": false,
+            "enum": [
+              "pl",
+              "en",
+              "any"
+            ]
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Limit to one kind of page.",
+            "required": false,
+            "enum": [
+              "services_index",
+              "service_area",
+              "service",
+              "city_page",
+              "pricing",
+              "case_studies",
+              "event",
+              "blog",
+              "company"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "send_inquiry",
+        "description": "Send a sales inquiry to JustIdea Agency (Kraków, Poland) on behalf of the user. It goes to the agency CRM and the sales team, the sender gets a short confirmation e-mail, and a person replies within one business day. Use only details the user gave you. Never invent a name, e-mail or phone number. Before sending, show the user what will be sent and ask for consent to data processing under the priva",
+        "inputs": [
+          {
+            "name": "imie",
+            "type": "string",
+            "description": "Full name of the person sending the inquiry.",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "Email address for the reply.",
+            "required": true
+          },
+          {
+            "name": "telefon",
+            "type": "string",
+            "description": "Phone number with at least 9 digits, country code welcome.",
+            "required": true
+          },
+          {
+            "name": "firma",
+            "type": "string",
+            "description": "Company name, optional.",
+            "required": false
+          },
+          {
+            "name": "strona",
+            "type": "string",
+            "description": "Current website or online store address, optional.",
+            "required": false
+          },
+          {
+            "name": "usluga",
+            "type": "string",
+            "description": "What the inquiry is about: \"sklep\" = Sklep internetowy; \"strona\" = Strona internetowa; \"seo\" = Pozycjonowanie SEO; \"kampanie\" = Kampanie reklamowe; \"marketing\" = Marketing, pełny zakres; \"content\" = C",
+            "required": true,
+            "enum": [
+              "sklep",
+              "strona",
+              "seo",
+              "kampanie",
+              "marketing",
+              "content",
+              "opieka",
+              "audyt",
+              "kreacja",
+              "inne"
+            ]
+          },
+          {
+            "name": "budzet",
+            "type": "string",
+            "description": "Budget range, exactly one of the listed values, and it must match the service. One-off projects (\"sklep\", \"strona\", \"audyt\", \"kreacja\", \"inne\") take a project budget: \"do 15 tys. zł\", \"15-40 tys. zł\",",
+            "required": true,
+            "enum": [
+              "do 15 tys. zł",
+              "15-40 tys. zł",
+              "40-80 tys. zł",
+              "80-150 tys. zł",
+              "150-300 tys. zł",
+              "powyżej 300 tys. zł",
+              "jeszcze nie wiem",
+              "do 2 tys. zł",
+              "2-6 tys. zł",
+              "6-15 tys. zł",
+              "40-100 tys. zł",
+              "powyżej 100 tys. zł"
+            ]
+          },
+          {
+            "name": "wiadomosc",
+            "type": "string",
+            "description": "The request in the user's own language, at least two sentences: what they need, scope, deadline.",
+            "required": true
+          },
+          {
+            "name": "zgoda",
+            "type": "boolean",
+            "description": "Must be true: the user agreed to the processing of the data in this inquiry under the privacy policy.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:agency-kesey-pretrip",
     "name": "Pre-Trip compliance scanner",
     "qualifiedName": "agency.kesey/pretrip",
@@ -2743,7 +2928,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -2797,18 +2982,18 @@
         "headers": []
       }
     ],
-    "stars": 7286,
+    "stars": 7291,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7286,
-      "forks": 1007,
+      "stars": 7291,
+      "forks": 1009,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -2850,18 +3035,18 @@
         "headers": []
       }
     ],
-    "stars": 7286,
+    "stars": 7291,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7286,
-      "forks": 1007,
+      "stars": 7291,
+      "forks": 1009,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -2951,18 +3136,18 @@
         "headers": []
       }
     ],
-    "stars": 7286,
+    "stars": 7291,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7286,
-      "forks": 1007,
+      "stars": 7291,
+      "forks": 1009,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3299,7 +3484,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 414,
+        "weeklyDownloads": 384,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -3308,12 +3493,12 @@
       }
     ],
     "remotes": [],
-    "stars": 162,
+    "stars": 163,
     "source": "MCP Registry",
     "updatedAt": "2026-05-16T13:54:48.18266Z",
     "repoMeta": {
       "slug": "dealfluence/adeu",
-      "stars": 162,
+      "stars": 163,
       "forks": 25,
       "archived": false,
       "isFork": false,
@@ -3690,7 +3875,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 33,
+        "weeklyDownloads": 32,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -3951,7 +4136,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 643,
+        "weeklyDownloads": 351,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -4602,7 +4787,7 @@
     "name": "agent-bev",
     "qualifiedName": "ai.agent-bev/bev-door",
     "slug": "ai-agent-bev-bev-door",
-    "description": "Agentic B2B hub for beer, wine and spirits across Europe.",
+    "description": "The world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.",
     "category": "AI & Memory",
     "repository": "https://github.com/agent-bev/bev-door",
     "homepage": "https://agent-bev.ai",
@@ -4610,12 +4795,12 @@
       {
         "registryType": "npm",
         "identifier": "@agent-bev/mcp-server",
-        "version": "0.2.1",
+        "version": "0.2.2",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": null,
-        "lastPublished": "2026-09-27T03:06:52.472Z",
+        "weeklyDownloads": 288,
+        "lastPublished": "2026-09-27T18:48:42.038Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
         "declaredRepo": "agent-bev/bev-door",
@@ -4631,7 +4816,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-27T03:12:13.05419Z",
+    "updatedAt": "2026-09-28T02:28:06.963429Z",
     "repoMeta": {
       "slug": "agent-bev/bev-door",
       "stars": 0,
@@ -4639,13 +4824,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-27T02:40:47Z",
-      "pushedAt": "2026-09-27T03:13:31Z",
+      "pushedAt": "2026-09-28T02:31:12Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
     },
     "readme": {
-      "markdown": "Agentic B2B hub for beer, wine and spirits across Europe.\n\nagent-bev is Europe's agentic commerce hub for the B2B beverage alcohol (bev-alc) industry. AI agents for buyers source, sort and procure. Every beer, wine and spirit in Europe, through agent-bev.ai. Trade only, never to consumers.\n\n## Install\n\n`npx @agent-bev/mcp-server`, or connect to https://mcp.bev-buyer.ai/mcp\n\nClaude Desktop, Cursor or Windsurf:\n\n```json\n{\n  \"mcpServers\": {\n    \"agent-bev\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@agent-bev/mcp-server\"]\n    }\n  }\n}\n```\n\n## Tools\n\n| Tool | Input | Returns |\n|---|---|---|\n| list_nodes | — | the countries on the record, each with its door, languages and state |\n| search_drinks | query (name, style, origin, category) | beers, wines, spirits, ciders and ready-to-drink drinks that match, each with its CUVEE |\n| find_producer | producer name | the maker and its products |\n| get_record | record_id | one product in full: every field with its source page, signed |\n| compare_drinks | 2–10 record_ids | products side by side, field by field |\n| get_order_route | record_id | the maker's or distributor's trade channel to order |\n\nAgent Holdings S.A., Barcelona · held by Agentic KG Holdings · MIT",
+      "markdown": "# agent-bev\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Three products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK\n\nOperated by Agent Holdings S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
       "truncated": false,
       "url": "https://github.com/agent-bev/bev-door#readme"
     }
@@ -5263,7 +5448,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 247,
+        "weeklyDownloads": 259,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -6266,7 +6451,7 @@
     "tools": [
       {
         "name": "drug_price",
-        "description": "Look up what US pharmacies actually pay to acquire a drug (CMS NADAC benchmark), a fair cash-price estimate range, FDA generic equivalents, and Medicare negotiated prices where applicable. Returns match, candidates (disambiguate and call again), or no_match.",
+        "description": "Looks up what US pharmacies actually pay to acquire a drug (the CMS NADAC benchmark, per unit, with its date), a fair cash-price estimate range, FDA generic equivalents, and Medicare negotiated prices where they apply. The input is a drug name with optional strength and form. result_type is one of three values. match: one drug, with prices, provenance and honesty notes; a brand-name drug with no g",
         "inputs": [
           {
             "name": "query",
@@ -6303,17 +6488,17 @@
     "tools": [
       {
         "name": "solar_states",
-        "description": "List every state in the GreenLight plug-in (balcony) solar registry with its legal status, law name, power cap, and verification state. GreenLight records enacted law only, verified field-by-field against the enrolled bill text; entries still marked pending are under review and unconfirmed. A state not listed is simply not in the registry; that says nothing about its law. Not legal advice.",
+        "description": "Lists every state in the GreenLight plug-in (balcony) solar registry with its legal status, law name, power cap, and verification state, plus a count of entries by verification state. Takes no input. GreenLight records enacted law only, verified field-by-field against the enrolled bill text; entries still marked pending are under review and unconfirmed. A state not listed is simply not in the regi",
         "inputs": null
       },
       {
         "name": "solar_law",
-        "description": "Fetch the full GreenLight registry record for one state's plug-in (balcony) solar law: legal status, the law's name and dates, key provisions as recorded (power cap, certification requirement, utility notice, renter/HOA treatment), citations with official-text URLs where the verification pass attached them, and verification status with dates. Entries marked pending are under review: unconfirmed ag",
+        "description": "Returns the full GreenLight registry record for one state's plug-in (balcony) solar law: legal status, the law's name and dates, key provisions as recorded (power cap, certification requirement, utility notice, renter/HOA treatment), citations with official-text URLs where the verification pass attached them, and verification status with dates. Input: state, a two-letter US state or DC code or a f",
         "inputs": [
           {
             "name": "state",
             "type": "string",
-            "description": "Two-letter US state code, e.g. \"UT\" or \"md\" (case-insensitive).",
+            "description": "Two-letter US state or DC code, e.g. \"UT\" or \"md\" (case-insensitive), or a full state name such as \"Utah\".",
             "required": true
           }
         ]
@@ -6448,24 +6633,24 @@
     "tools": [
       {
         "name": "check_assessment",
-        "description": "Fairness check for a Maryland property assessment: where the address sits among genuinely similar homes (same reassessment group, similar size/lot/age, same zip), the group's median sales ratio, verdict branch (fair/review/elevated/insufficient), and Maryland's appeal windows with official filing links. If several parcels share the address, returns multiple_matches with account ids; re-call with a",
+        "description": "Fairness check for one Maryland property assessment against genuinely similar homes (same triennial reassessment group, similar size, lot and age, same zip), from a copy of the state's own assessment roll (SDAT) refreshed monthly. Input is a street address plus zip, or an SDAT account id (acct). A single match returns the parcel record, a uniformity object, a plain-language verdict, Maryland's app",
         "inputs": [
           {
             "name": "acct",
             "type": "string",
-            "description": "SDAT account id from a prior multiple_matches result (wins over address)",
+            "description": "SDAT account id, letters and digits with no dashes or spaces (e.g. 04121302001), as returned in parcel.account_id or in a multiple_matches result; when present it takes precedence over address",
             "required": false
           },
           {
             "name": "address",
             "type": "string",
-            "description": "Street address as the roll writes it, e.g. 1 STATE CIR (no unit numbers, no city)",
+            "description": "Street address in the form the roll uses, e.g. 1 STATE CIR, without unit number or city",
             "required": false
           },
           {
             "name": "zip",
             "type": "string",
-            "description": "5-digit zip (recommended; addresses repeat across Maryland)",
+            "description": "5-digit zip; a ZIP+4 is read as its first five digits. Optional, but the same street address occurs in several Maryland towns, and a zip narrows the match",
             "required": false
           }
         ]
@@ -6497,12 +6682,24 @@
     "tools": [
       {
         "name": "check_contractor",
-        "description": "Check a contractor's license against official state and local licensing records covering dozens of US jurisdictions. The covered set grows over time; GET /v1/coverage on this host for the exact current list, and never assume from this description whether a jurisdiction is covered. Provide a license number or a business name, plus the jurisdiction. Returns match (the license record with status and ",
+        "description": "Looks up a contractor's public credential in indexed state and local licensing records. Licenses, registrations and bond records mean different things. Each record carries a credential object (kind, label, note): kind is license, registration, business_license or bond when the source makes that clear; otherwise it is the generic \"credential\", and the note says what to verify with the issuing agenc",
         "inputs": [
+          {
+            "name": "city",
+            "type": "string",
+            "description": "Optional exact record-city filter, case-insensitive. Filters before pagination; does not represent service area or silently drop terms.",
+            "required": false
+          },
+          {
+            "name": "entity_id",
+            "type": "string",
+            "description": "The exact entity.id from a previous response. It selects that one record, keeping records that share a number distinct, and overrides name and license. An id no record carries, or a jurisdiction or ci",
+            "required": false
+          },
           {
             "name": "jurisdiction",
             "type": "string",
-            "description": "State or local jurisdiction code, e.g. \"CA\" (\"US-CA\" style also accepted) or \"NYC\". Coverage spans dozens of US jurisdictions; GET /v1/coverage for the exact current list.",
+            "description": "State or local jurisdiction: a state code (\"CA\" or \"US-CA\", any case), a full state name (\"California\", \"District of Columbia\"), or a local code such as \"NYC\". Coverage spans dozens of US jurisdiction",
             "required": false
           },
           {
@@ -6520,7 +6717,7 @@
           {
             "name": "offset",
             "type": "integer",
-            "description": "Pagination offset into the candidates list, default 0. Use with total_candidates from a prior call to page through large candidate sets.",
+            "description": "Pagination offset into the candidates list, a whole number, default 0. Each page holds up to 20 candidates; total_candidates in a candidates result is the full count. An offset past the end returns an",
             "required": false
           }
         ]
@@ -7045,7 +7242,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -7092,7 +7289,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 71,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -7123,7 +7320,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -7154,7 +7351,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -7185,7 +7382,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 104,
+        "weeklyDownloads": 93,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -7216,7 +7413,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 71,
+        "weeklyDownloads": 82,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -7247,7 +7444,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -7278,7 +7475,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 64,
+        "weeklyDownloads": 68,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -7309,7 +7506,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 67,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -7340,7 +7537,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 75,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -7371,7 +7568,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 62,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -7402,7 +7599,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 67,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -7433,7 +7630,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 65,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -7464,7 +7661,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 56,
+        "weeklyDownloads": 61,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -7495,7 +7692,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 65,
+        "weeklyDownloads": 70,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -7526,7 +7723,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 82,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -7557,7 +7754,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 104,
+        "weeklyDownloads": 110,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -7588,7 +7785,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 73,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -9035,11 +9232,11 @@
   },
   {
     "id": "mcp:ai-alphaquantlabs-propertycheck",
-    "name": "AQL PropertyCheck - Gold Coast property data",
+    "name": "AQL PropertyCheck - Australian property intelligence",
     "qualifiedName": "ai.alphaquantlabs/propertycheck",
     "slug": "ai-alphaquantlabs-propertycheck",
-    "description": "Official open data for one Gold Coast address point: planning, flood, bushfire, schools, transport.",
-    "category": "Other",
+    "description": "Australian property intelligence for AI agents. Check live geographic coverage programmatically.",
+    "category": "AI & Memory",
     "repository": null,
     "homepage": "https://agents.alphaquantlabs.ai/",
     "packages": [],
@@ -9060,13 +9257,67 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-25T06:46:02.658003Z",
+    "updatedAt": "2026-09-28T07:21:43.558735Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
       {
+        "name": "property_coverage",
+        "description": "Free coverage-only check for one Australian coordinate. Returns no paid property intelligence.",
+        "inputs": [
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Decimal degrees.",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Decimal degrees.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "property_report",
+        "description": "Creates and stores the complete permitted PropertyCheck report for one point in live coverage. Costs one credit; retries with the same request id do not charge twice.",
+        "inputs": [
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Decimal degrees.",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Decimal degrees.",
+            "required": true
+          },
+          {
+            "name": "request_id",
+            "type": "string",
+            "description": "Caller-stable idempotency key. Reuse it only for the same coordinates.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "property_report_get",
+        "description": "Returns one immutable report owned by the calling organisation. Free; another organisation's report is not visible.",
+        "inputs": [
+          {
+            "name": "report_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "propertycheck_lookup",
-        "description": "Flood, bushfire, transport noise, major electricity infrastructure, planning zone, land use, school catchments, nearest public transport, police division and measured traffic for one point on the Gold Coast. Costs one credit. Refused, and not charged for, outside the serviced area.",
+        "description": "Flood, bushfire, transport noise, major electricity infrastructure, planning zone, land use, school catchments, nearest public transport, police division and measured traffic for one point inside current PropertyCheck coverage. Costs one credit. Refused, and not charged for, outside the serviced area. Deprecated compatibility alias; use property_report.",
         "inputs": [
           {
             "name": "latitude",
@@ -9967,7 +10218,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1527,
+        "weeklyDownloads": 1444,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -9976,12 +10227,12 @@
       }
     ],
     "remotes": [],
-    "stars": 495,
+    "stars": 497,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 495,
+      "stars": 497,
       "forks": 36,
       "archived": false,
       "isFork": false,
@@ -11709,9 +11960,9 @@
     "name": "Atako",
     "qualifiedName": "ai.atako/mcp",
     "slug": "ai-atako-mcp",
-    "description": "Remote MCP server to read and manage your Atako AI agents, messages, files, and integrations.",
+    "description": "Remote MCP server to run your Atako AI agents: chat, projects, files, integrations and channels.",
     "category": "AI & Memory",
-    "repository": "https://github.com/aiybiz/aiybiz-next",
+    "repository": "https://github.com/aiybiz/atako-mcp",
     "homepage": "https://atako.ai/en/developers",
     "packages": [],
     "remotes": [
@@ -11721,7 +11972,7 @@
         "headers": [
           {
             "name": "Authorization",
-            "description": "Bearer token: an Atako API key (aik_...) from Settings → API keys. Grants the 30 authenticated read/write tools, scoped to that key's owner.",
+            "description": "Bearer token: an Atako API key (aik_...) from Settings → API keys. Grants 86 read/write tools grouped in toolsets (?toolsets=), limited by the key's read or write scope.",
             "required": true,
             "secret": true,
             "format": null
@@ -11734,11 +11985,27 @@
         "headers": []
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-10T11:38:52.479628Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
+    "updatedAt": "2026-09-28T13:11:37.264268Z",
+    "repoMeta": {
+      "slug": "aiybiz/atako-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-28T13:11:23Z",
+      "pushedAt": "2026-09-28T13:11:27Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# Atako MCP server\n\n[Atako](https://atako.ai) is a platform of AI agents for companies. Its remote MCP server lets an MCP client (Claude Code, Claude Desktop, Cursor, ChatGPT developer mode…) read and act on an Atako account: agents, chat, files, integrations, projects, organization, billing state.\n\nRegistry entry: [`ai.atako/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers?search=ai.atako/mcp) (JSON) — manifest in [`server.json`](server.json).\nFull documentation: [docs.atako.ai](https://docs.atako.ai/developers/mcp/overview).\n\nThis repository holds the registry manifest and connection instructions only. The server is hosted by Atako; there is nothing to install or run.\n\n## Endpoints\n\nBoth use the Streamable HTTP transport.\n\n| URL | Auth | Tools |\n|---|---|---|\n| `https://api.atako.ai/mcp` | `Authorization: Bearer aik_...` (Atako API key) | 86 |\n| `https://api.atako.ai/mcp/public` | none | 3: `get_pricing`, `list_use_cases`, `list_integration_pages` |\n\n## API key\n\n[app.atako.ai](https://app.atako.ai) → **Settings → API keys** → **Create key** (company admins). The key is shown once.\n\n| Scope | Over MCP |\n|---|---|\n| Read | Read-only tools only; write tools are neither listed nor callable. |\n| Read & write | All tools, with the permissions of the key's owner. |\n\nBilling and subscription changes are not exposed by any tool. OAuth integrations return a consent URL to open in a browser.\n\n## Toolsets\n\nRestrict the served tools with `?toolsets=` (comma-separated). Without it, all toolsets are served.\n\n```\nhttps://api.atako.ai/mcp?toolsets=agents,messages,projects\n```\n\n| Toolset | Tools | Covers |\n|---|---|---|\n| `agents` | 14 | Agents (create, profile, lifecycle), notices |\n| `messages` | 11 | Chat, conversations, cron jobs, sub-agents, activity |\n| `files` | 5 | Context files, agent file grants |\n| `integrations` | 7 | Integration catalog, connections, grants |\n| `billing` | 4 | Credits, subscription, models, harnesses |\n| `projects` | 22 | Projects, kanban, card comments, wiki |\n| `organization` | 5 | Teams, org chart, members, search |\n| `dashboard` | 5 | Company dashboard, credit usage, integration logs (admins) |\n| `webhooks` | 6 | Agents' inbound webhooks |\n| `email` | 5 | Agents' email addresses, threads, approvals |\n| `notifications` | 2 | Your notifications |\n\nTool list: [docs.atako.ai/developers/mcp/overview](https://docs.atako.ai/developers/mcp/overview#tools).\n\n## Client configuration\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http atako https://api.atako.ai/mcp \\\n  --header \"Authorization: Bearer aik_...\"\n```\n\n### Claude Desktop, Cursor\n\nClaude Desktop: **Settings → Developer → Edit Config**. Cursor: `~/.cursor/mcp.json` or `.cursor/mcp.json`.\n\n```json\n{\n  \"mcpServers\": {\n    \"atako\": {\n      \"url\": \"https://api.atako.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer aik_...\"\n      }\n    }\n  }\n}\n```\n\nPublic endpoint: same config with `https://api.atako.ai/mcp/public` and no `headers`.\n\n## License\n\n[MIT](LICENSE) for the files in this repository. The Atako service is proprietary.",
+      "truncated": false,
+      "url": "https://github.com/aiybiz/atako-mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-atdev-supershopping",
@@ -13115,7 +13382,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 32,
+        "weeklyDownloads": 30,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -13146,7 +13413,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 26,
+        "weeklyDownloads": 24,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -13177,7 +13444,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 32,
+        "weeklyDownloads": 33,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -13237,7 +13504,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 81,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -13299,7 +13566,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 84,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -14874,6 +15141,81 @@
     ]
   },
   {
+    "id": "mcp:ai-bankrolled-agent-hub",
+    "name": "Bankrolled.ai Agent Hub",
+    "qualifiedName": "ai.bankrolled/agent-hub",
+    "slug": "ai-bankrolled-agent-hub",
+    "description": "Free, sourced money facts and scheme lookups for US/UK/CA/AU/NZ. Answers cite bankrolled.com.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://bankrolled.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://bankrolled.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-27T15:13:27.579538Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "health_check",
+        "description": "Check Agent Hub liveness (free). Returns ok, service, version, billed:false. No payment required.",
+        "inputs": null
+      },
+      {
+        "name": "pricing_list",
+        "description": "List Agent Hub tools (all free) with example arguments and the full supported-queries list: every money_fact fact_key + example query and every scheme_lookup country. Docs https://bankrolled.ai/llms.txt.",
+        "inputs": null
+      },
+      {
+        "name": "money_fact",
+        "description": "Free. Fetch one verified money fact with official source and as-of date, plus source_url (bankrolled.com) and a cite line. Pass q = a fact_key or a short query. Supported fact_keys: us_fdic_standard_limit, us_fdic_joint_accounts, uk_fscs_deposit_limit, uk_fscs_temporary_high_balance, ca_cdic_deposit_limit, au_fcs_deposit_limit, nz_dcs_deposit_limit, uk_isa_annual_limit, us_401k_limit_2026, us_401k",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "A fact_key (exact) or a short search query. fact_keys: us_fdic_standard_limit, us_fdic_joint_accounts, uk_fscs_deposit_limit, uk_fscs_temporary_high_balance, ca_cdic_deposit_limit, au_fcs_deposit_limi",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "scheme_lookup",
+        "description": "Free. Look up the deposit-insurance scheme for an English-speaking country: name, coverage headline, official source, as_of, plus source_url (bankrolled.com) and a cite line. Supported countries: US, UK, CA, AU, NZ. topic: deposit_insurance (default). Example: country=\"CA\".",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country code: US, UK, CA, AU, or NZ. Example: \"CA\".",
+            "required": true,
+            "enum": [
+              "US",
+              "UK",
+              "CA",
+              "AU",
+              "NZ"
+            ]
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "Topic key (default: deposit_insurance).",
+            "required": false,
+            "enum": [
+              "deposit_insurance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ai-bareun-bareun",
     "name": "Bareun — Korean NLP & Spell/Grammar Checking",
     "qualifiedName": "ai.bareun/bareun",
@@ -15009,7 +15351,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-10T16:59:48.68861Z",
+    "updatedAt": "2026-09-27T23:38:20.955048Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -19182,7 +19524,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 59,
+        "weeklyDownloads": 62,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -19396,7 +19738,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-16T08:34:11.646279Z",
+    "updatedAt": "2026-09-28T08:43:13.346918Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -19504,7 +19846,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 63,
+        "weeklyDownloads": 58,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -20813,7 +21155,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 486,
+        "weeklyDownloads": 487,
         "lastPublished": "2026-09-21T21:41:45.719Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -20868,7 +21210,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 94,
+        "weeklyDownloads": 93,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -20893,7 +21235,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-26T16:56:14.244058Z",
+    "updatedAt": "2026-09-28T12:22:15.874789Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -22040,7 +22382,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 89,
+        "weeklyDownloads": 76,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -22279,6 +22621,29 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-03T15:24:58.514124Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-caybl-caybl",
+    "name": "Caybl",
+    "qualifiedName": "ai.caybl/caybl",
+    "slug": "ai-caybl-caybl",
+    "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://caybl.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.caybl.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-27T21:39:11.9391Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -22926,7 +23291,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 776,
+        "weeklyDownloads": 790,
         "lastPublished": "2026-09-26T14:46:25.364Z",
         "firstPublished": "2026-07-05T20:47:48.715Z",
         "deprecated": false,
@@ -22945,7 +23310,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-27T04:50:26Z",
+      "pushedAt": "2026-09-28T13:13:26Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -22983,7 +23348,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T22:03:01Z",
-      "pushedAt": "2026-09-27T04:50:26Z",
+      "pushedAt": "2026-09-28T13:13:26Z",
       "openIssues": 2,
       "license": null,
       "language": "TypeScript"
@@ -23125,525 +23490,5 @@
       "truncated": true,
       "url": "https://github.com/ergoveritas1-alt/certscore.ai#readme"
     }
-  },
-  {
-    "id": "mcp:ai-chatthing-chat-thing",
-    "name": "Chat Thing",
-    "qualifiedName": "ai.chatthing/chat-thing",
-    "slug": "ai-chatthing-chat-thing",
-    "description": "Build and manage AI-native customer support agents from Claude or any MCP client.",
-    "category": "AI & Memory",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://app.chatthing.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-16T17:04:43.886064Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-childadhd-library",
-    "name": "library",
-    "qualifiedName": "ai.childadhd/library",
-    "slug": "ai-childadhd-library",
-    "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
-    "category": "Health & Science",
-    "repository": null,
-    "homepage": "https://childadhd.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://childadhd.ai/api/mcp/v1",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:13.381323Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search_articles",
-        "description": "Search ADHD in Children's editorial corpus by query. Returns title, slug, summary, and URL for matching articles.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Free-text search query.",
-            "required": true
-          },
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Alternate parameter name for `query`.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results (default 10, max 50).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_articles",
-        "description": "Paginated list of articles from ADHD in Children. Returns title, slug, summary, and URL.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results per page (default 30, max 100).",
-            "required": false
-          },
-          {
-            "name": "page",
-            "type": "integer",
-            "description": "Page number (1-indexed).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_article",
-        "description": "Fetch a single article from ADHD in Children by slug. Returns title, body content, author, clinical reviewer, citations, and metadata.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "cite_article",
-        "description": "Get a formatted citation for a ADHD in Children article. Supports AMA, APA, and Chicago styles.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          },
-          {
-            "name": "format",
-            "type": "string",
-            "description": "Citation style (default ama).",
-            "required": false,
-            "enum": [
-              "ama",
-              "apa",
-              "chicago"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_microsite_info",
-        "description": "Identity and links for ADHD in Children: tagline, audience, focus, publisher, sponsor relationship to Emora Health, and key URLs.",
-        "inputs": null
-      },
-      {
-        "name": "get_crisis_resources",
-        "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
-        "inputs": null
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-childanxiety-library",
-    "name": "library",
-    "qualifiedName": "ai.childanxiety/library",
-    "slug": "ai-childanxiety-library",
-    "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
-    "category": "Health & Science",
-    "repository": null,
-    "homepage": "https://childanxiety.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://childanxiety.ai/api/mcp/v1",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:17.518812Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search_articles",
-        "description": "Search Anxiety in Children's editorial corpus by query. Returns title, slug, summary, and URL for matching articles.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Free-text search query.",
-            "required": true
-          },
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Alternate parameter name for `query`.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results (default 10, max 50).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_articles",
-        "description": "Paginated list of articles from Anxiety in Children. Returns title, slug, summary, and URL.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results per page (default 30, max 100).",
-            "required": false
-          },
-          {
-            "name": "page",
-            "type": "integer",
-            "description": "Page number (1-indexed).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_article",
-        "description": "Fetch a single article from Anxiety in Children by slug. Returns title, body content, author, clinical reviewer, citations, and metadata.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "cite_article",
-        "description": "Get a formatted citation for a Anxiety in Children article. Supports AMA, APA, and Chicago styles.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          },
-          {
-            "name": "format",
-            "type": "string",
-            "description": "Citation style (default ama).",
-            "required": false,
-            "enum": [
-              "ama",
-              "apa",
-              "chicago"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_microsite_info",
-        "description": "Identity and links for Anxiety in Children: tagline, audience, focus, publisher, sponsor relationship to Emora Health, and key URLs.",
-        "inputs": null
-      },
-      {
-        "name": "get_crisis_resources",
-        "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
-        "inputs": null
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-childpsychiatry-library",
-    "name": "library",
-    "qualifiedName": "ai.childpsychiatry/library",
-    "slug": "ai-childpsychiatry-library",
-    "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
-    "category": "Health & Science",
-    "repository": null,
-    "homepage": "https://childpsychiatry.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://childpsychiatry.ai/api/mcp/v1",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-04-26T00:04:20.484144Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search_articles",
-        "description": "Search Psychiatry for Children's editorial corpus by query. Returns title, slug, summary, and URL for matching articles.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Free-text search query.",
-            "required": true
-          },
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Alternate parameter name for `query`.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results (default 10, max 50).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_articles",
-        "description": "Paginated list of articles from Psychiatry for Children. Returns title, slug, summary, and URL.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max results per page (default 30, max 100).",
-            "required": false
-          },
-          {
-            "name": "page",
-            "type": "integer",
-            "description": "Page number (1-indexed).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_article",
-        "description": "Fetch a single article from Psychiatry for Children by slug. Returns title, body content, author, clinical reviewer, citations, and metadata.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "cite_article",
-        "description": "Get a formatted citation for a Psychiatry for Children article. Supports AMA, APA, and Chicago styles.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Article slug.",
-            "required": true
-          },
-          {
-            "name": "format",
-            "type": "string",
-            "description": "Citation style (default ama).",
-            "required": false,
-            "enum": [
-              "ama",
-              "apa",
-              "chicago"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "get_microsite_info",
-        "description": "Identity and links for Psychiatry for Children: tagline, audience, focus, publisher, sponsor relationship to Emora Health, and key URLs.",
-        "inputs": null
-      },
-      {
-        "name": "get_crisis_resources",
-        "description": "Return the canonical 988 / 911 / Crisis Text Line payload. Surface this immediately whenever the user signals self-harm or imminent danger.",
-        "inputs": null
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-chinamarketing-intelligence",
-    "name": "China Marketing AI Intelligence MCP",
-    "qualifiedName": "ai.chinamarketing/intelligence",
-    "slug": "ai-chinamarketing-intelligence",
-    "description": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
-    "category": "Marketing & Social",
-    "repository": null,
-    "homepage": "https://www.chinamarketing.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.chinamarketing.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-04-22T09:16:14.642505Z",
-    "repoMeta": null,
-    "toolsStatus": "auth",
-    "tools": [
-      {
-        "name": "get_brand_visibility_snapshot",
-        "description": "Generate a China brand visibility snapshot with summary assessment, scored strengths and gaps, and priority actions.",
-        "inputs": [
-          {
-            "name": "brand_name",
-            "type": "string",
-            "description": "Brand or entity to evaluate.",
-            "required": true
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Commercial category or sector.",
-            "required": false
-          },
-          {
-            "name": "market_scope",
-            "type": "string",
-            "description": "China-facing scope, platform focus, or audience scope.",
-            "required": false
-          },
-          {
-            "name": "notes",
-            "type": "string",
-            "description": "Optional analyst notes or campaign context.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_destination_demand_snapshot",
-        "description": "Generate a China outbound destination demand snapshot with demand direction, notable signals, risk framing, and priority actions.",
-        "inputs": [
-          {
-            "name": "destination",
-            "type": "string",
-            "description": "Destination city, market, or country to evaluate.",
-            "required": true
-          },
-          {
-            "name": "origin_market",
-            "type": "string",
-            "description": "Origin market for the demand check.",
-            "required": false
-          },
-          {
-            "name": "travel_window",
-            "type": "string",
-            "description": "Optional YYYY-MM or period label for the check.",
-            "required": false
-          },
-          {
-            "name": "audience_segment",
-            "type": "string",
-            "description": "Optional audience or traveler segment.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_kol_shortlist",
-        "description": "Generate a decision-ready China KOL shortlist with creator candidates, selection rationale, risk flags, and next steps.",
-        "inputs": [
-          {
-            "name": "brand_name",
-            "type": "string",
-            "description": "Brand or campaign owner name.",
-            "required": true
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Campaign or product category.",
-            "required": true
-          },
-          {
-            "name": "campaign_goal",
-            "type": "string",
-            "description": "Optional campaign objective.",
-            "required": false
-          },
-          {
-            "name": "platform_focus",
-            "type": "array",
-            "description": "Optional list of preferred platforms.",
-            "required": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-chipp-alchemist-cloud-tickets",
-    "name": "Alchemist Cloud Tickets",
-    "qualifiedName": "ai.chipp/alchemist-cloud-tickets",
-    "slug": "ai-chipp-alchemist-cloud-tickets",
-    "description": "Dispatch and track Alchemist Cloud tickets, watch deploys, read logs, and query your project DB.",
-    "category": "Cloud & DevOps",
-    "repository": null,
-    "homepage": "https://chipp.ai/docs/guides/alchemist-mcp-server",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://build.chipp.ai/alchemist-api/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-02T20:05:59.419656Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-chipp-chipp",
-    "name": "Chipp",
-    "qualifiedName": "ai.chipp/chipp",
-    "slug": "ai-chipp-chipp",
-    "description": "Build and manage Chipp AI apps: prompts, knowledge, custom actions, and chat with your apps.",
-    "category": "AI & Memory",
-    "repository": null,
-    "homepage": "https://chipp.ai/docs/guides/mcp/",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://build.chipp.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-02T20:05:59.198909Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
   }
 ]

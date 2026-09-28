@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:43:40.321Z",
+  "generatedAt": "2026-09-28T13:21:29.941Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,7 +7,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "vibe-prospecting",
+          "name": "vibe-prospecting",
+          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
+          "category": "Data & Analysis",
+          "delta": 6,
+          "stars": 58
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -21,29 +30,65 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ad-getle-leads",
-          "name": "Getlead",
-          "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
-          "category": "Marketing & Social"
+          "slug": "agency-justidea-justidea-agency",
+          "name": "JustIdea Agency",
+          "description": "Services, published prices, site search and sales inquiries of JustIdea, a Polish e-commerce agency.",
+          "category": "Commerce & Retail"
         },
         {
-          "slug": "ai-agent-bev-bev-door",
-          "name": "agent-bev",
-          "description": "Agentic B2B hub for beer, wine and spirits across Europe.",
+          "slug": "ai-bankrolled-agent-hub",
+          "name": "Bankrolled.ai Agent Hub",
+          "description": "Free, sourced money facts and scheme lookups for US/UK/CA/AU/NZ. Answers cite bankrolled.com.",
           "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-caybl-caybl",
+          "name": "Caybl",
+          "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
+          "category": "Web & Search"
         }
       ],
       "removed": [
         {
-          "slug": "ai-chronary-mcp",
-          "name": "Chronary",
-          "description": "Calendar API for AI agents: events, availability, Google/Microsoft setup, scheduling, and iCal.",
-          "category": "Productivity"
+          "slug": "ai-chatthing-chat-thing",
+          "name": "Chat Thing",
+          "description": "Build and manage AI-native customer support agents from Claude or any MCP client.",
+          "category": "AI & Memory"
         },
         {
-          "slug": "ai-circulara-plugin",
-          "name": "plugin",
-          "description": "Circulara Observe MCP plugin - meters your AI agents' token spend and carbon, free tier.",
+          "slug": "ai-childadhd-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-childanxiety-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-childpsychiatry-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-chinamarketing-intelligence",
+          "name": "China Marketing AI Intelligence MCP",
+          "description": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-chipp-alchemist-cloud-tickets",
+          "name": "Alchemist Cloud Tickets",
+          "description": "Dispatch and track Alchemist Cloud tickets, watch deploys, read logs, and query your project DB.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-chipp-chipp",
+          "name": "Chipp",
+          "description": "Build and manage Chipp AI apps: prompts, knowledge, custom actions, and chat with your apps.",
           "category": "AI & Memory"
         }
       ],
@@ -51,24 +96,38 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 2,
+        "added": 3,
+        "removed": 7,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 239,
-        "currentTotal": 239
+        "currentTotal": 235
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "rohitg00-ai-engineering-from-scratch",
+          "name": "ai-engineering-from-scratch",
+          "description": "Learn it. Build it. Ship it for others.",
+          "category": "MCP & Tooling"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "mempalace-mempalace",
+          "name": "mempalace",
+          "description": "The best-benchmarked open-source AI memory system. And it's free.",
+          "category": "MCP & Tooling"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 124,
