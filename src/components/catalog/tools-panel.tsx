@@ -92,8 +92,8 @@ export function ToolsPanel({ mcp }: { mcp: Mcp }) {
               </div>
 
               {isOpen && tool.inputs && (
-                <div className="border-t border-border/60 bg-background/40 px-4 py-3">
-                  <table className="w-full text-left text-xs">
+                <div className="overflow-x-auto border-t border-border/60 bg-background/40 px-4 py-3">
+                  <table className="w-full min-w-[420px] text-left text-xs">
                     <thead>
                       <tr className="text-muted-2">
                         <th className="pb-2 pr-3 font-medium">Parameter</th>

@@ -22,6 +22,14 @@ const SORTS = [
 type SortKey = (typeof SORTS)[number]["key"];
 const PAGE = 24;
 
+/**
+ * Chip rows swipe horizontally on phones (a wrapped row of 15+ categories is
+ * several screens tall there) and wrap from sm up. The negative margin lets
+ * the strip bleed to the screen edge so it reads as scrollable.
+ */
+const CHIP_ROW =
+  "no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0";
+
 function isSort(v: string | null): v is SortKey {
   return !!v && SORTS.some((s) => s.key === v);
 }
@@ -135,9 +143,10 @@ export function CatalogShell({
 
   return (
     <div>
-      {/* controls */}
-      <div className="sticky top-16 z-30 -mx-4 mb-6 bg-background/70 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6">
-        <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
+      {/* controls — only sticky on large screens; on phones and tablets the
+          stacked filters would cover most of the viewport while scrolling. */}
+      <div className="-mx-4 mb-6 bg-background/70 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:sticky lg:top-16 lg:z-30">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-2" />
             <input
@@ -145,7 +154,7 @@ export function CatalogShell({
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search by name, use-case, keyword…"
               aria-label="Search"
-              className="ring-focus h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-10 text-sm text-foreground placeholder:text-muted-2 focus:border-brand/50"
+              className="ring-focus h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-10 text-base text-foreground sm:text-sm placeholder:text-muted-2 focus:border-brand/50"
             />
             {query && (
               <button
@@ -189,8 +198,8 @@ export function CatalogShell({
 
         {/* client compatibility — MCP-only, since it is derived from transport */}
         {kind === "mcps" && (
-          <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="text-xs text-muted-2">Runs natively in</span>
+          <div className={cn("mt-3 items-center", CHIP_ROW)}>
+            <span className="shrink-0 text-xs text-muted-2">Runs natively in</span>
             <Chip active={!client} onClick={() => setClient(null)}>
               Any client
             </Chip>
@@ -207,7 +216,7 @@ export function CatalogShell({
         )}
 
         {/* category chips */}
-        <div className="mt-3 flex flex-wrap gap-2">
+        <div className={cn("mt-3", CHIP_ROW)}>
           <Chip active={!cat} href={basePath}>
             All <span className="text-muted-2">{items.length}</span>
           </Chip>
@@ -280,7 +289,7 @@ function Chip({
   onClick?: () => void;
 }) {
   const className = cn(
-    "ring-focus rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
+    "ring-focus shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
     active
       ? "border-transparent brand-gradient text-white shadow-md shadow-brand/25"
       : "border-border bg-surface text-muted hover:text-foreground",

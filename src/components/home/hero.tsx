@@ -81,7 +81,7 @@ export function Hero({
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: EASE, delay: 0.28 }}
-          className="mx-auto mt-14 grid max-w-lg grid-cols-3 gap-4 rounded-2xl border border-border bg-surface/40 p-6 backdrop-blur"
+          className="mx-auto mt-14 grid max-w-lg grid-cols-3 gap-2 rounded-2xl border border-border bg-surface/40 p-4 backdrop-blur sm:gap-4 sm:p-6"
         >
           <StatCounter value={counts.skills} label="Skills" suffix="+" />
           <StatCounter value={counts.mcps} label="MCP Servers" suffix="+" />
