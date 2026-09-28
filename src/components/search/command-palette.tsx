@@ -121,7 +121,7 @@ export function CommandPalette({ items }: { items: PaletteItem[] }) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.15 }}
-            className="fixed inset-0 z-[100] flex items-start justify-center bg-background/70 p-4 pt-[12vh] backdrop-blur-sm"
+            className="fixed inset-0 z-[100] flex items-start justify-center bg-background/70 p-3 pt-[8vh] backdrop-blur-sm sm:p-4 sm:pt-[12vh]"
             onClick={() => setOpen(false)}
           >
             <motion.div
@@ -144,7 +144,7 @@ export function CommandPalette({ items }: { items: PaletteItem[] }) {
                   onKeyDown={onInputKey}
                   placeholder="Search skills, MCP servers and repos…"
                   aria-label="Search all resources"
-                  className="h-12 w-full bg-transparent text-sm text-foreground outline-none placeholder:text-muted-2"
+                  className="h-12 w-full bg-transparent text-base text-foreground sm:text-sm outline-none placeholder:text-muted-2"
                 />
               </div>
 

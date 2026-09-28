@@ -186,7 +186,7 @@ export function ReadmeViewer({ readme }: { readme: Readme }) {
         </a>
       </div>
 
-      <div className="rounded-xl border border-border bg-surface/60 px-5 py-4 text-sm leading-relaxed text-muted">
+      <div className="min-w-0 rounded-xl border border-border bg-surface/60 px-4 py-4 text-sm leading-relaxed text-muted wrap-anywhere sm:px-5">
         {visible.map((block, i) => {
           switch (block.kind) {
             case "heading":
