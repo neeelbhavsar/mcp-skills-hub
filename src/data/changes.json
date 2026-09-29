@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T13:21:29.941Z",
+  "generatedAt": "2026-09-29T12:28:06.639Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -14,7 +14,7 @@
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
           "delta": 6,
-          "stars": 58
+          "stars": 64
         }
       ],
       "counts": {
@@ -28,106 +28,43 @@
     },
     "mcps": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "agency-justidea-justidea-agency",
-          "name": "JustIdea Agency",
-          "description": "Services, published prices, site search and sales inquiries of JustIdea, a Polish e-commerce agency.",
-          "category": "Commerce & Retail"
-        },
-        {
-          "slug": "ai-bankrolled-agent-hub",
-          "name": "Bankrolled.ai Agent Hub",
-          "description": "Free, sourced money facts and scheme lookups for US/UK/CA/AU/NZ. Answers cite bankrolled.com.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-caybl-caybl",
-          "name": "Caybl",
-          "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
-          "category": "Web & Search"
-        }
-      ],
+      "added": [],
       "removed": [
         {
-          "slug": "ai-chatthing-chat-thing",
-          "name": "Chat Thing",
-          "description": "Build and manage AI-native customer support agents from Claude or any MCP client.",
-          "category": "AI & Memory"
+          "slug": "ai-certscore-mcp",
+          "name": "CertScore MCP",
+          "description": "CertScore website risk-signal tools for scans, findings, evidence, and latest-domain lookups.",
+          "category": "Web & Search"
         },
         {
-          "slug": "ai-childadhd-library",
-          "name": "library",
-          "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
-          "category": "Health & Science"
-        },
-        {
-          "slug": "ai-childanxiety-library",
-          "name": "library",
-          "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
-          "category": "Health & Science"
-        },
-        {
-          "slug": "ai-childpsychiatry-library",
-          "name": "library",
-          "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
-          "category": "Health & Science"
-        },
-        {
-          "slug": "ai-chinamarketing-intelligence",
-          "name": "China Marketing AI Intelligence MCP",
-          "description": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-chipp-alchemist-cloud-tickets",
-          "name": "Alchemist Cloud Tickets",
-          "description": "Dispatch and track Alchemist Cloud tickets, watch deploys, read logs, and query your project DB.",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "ai-chipp-chipp",
-          "name": "Chipp",
-          "description": "Build and manage Chipp AI apps: prompts, knowledge, custom actions, and chat with your apps.",
-          "category": "AI & Memory"
+          "slug": "ai-certscore-mcp-light",
+          "name": "CertScore.ai MCP Light",
+          "description": "Free website privacy scanner for pre-consent cookies, trackers, consent, policy, and HTTPS/TLS.",
+          "category": "Legal & Government"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 3,
-        "removed": 7,
+        "added": 0,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 239,
-        "currentTotal": 235
+        "previousTotal": 235,
+        "currentTotal": 233
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "rohitg00-ai-engineering-from-scratch",
-          "name": "ai-engineering-from-scratch",
-          "description": "Learn it. Build it. Ship it for others.",
-          "category": "MCP & Tooling"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "mempalace-mempalace",
-          "name": "mempalace",
-          "description": "The best-benchmarked open-source AI memory system. And it's free.",
-          "category": "MCP & Tooling"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
-        "removed": 1,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 124,
