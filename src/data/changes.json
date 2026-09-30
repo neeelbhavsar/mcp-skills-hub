@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:28:06.639Z",
+  "generatedAt": "2026-09-30T12:12:19.417Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -9,12 +9,28 @@
       "revived": [],
       "movers": [
         {
+          "slug": "aws-startup-advisor",
+          "name": "aws-startup-advisor",
+          "description": "Personalized AWS guidance built on patterns from 350,000+ startups. Get architecture, cost, and security recommendations matched to your stage, from day-one account setup to production-ready infrastructure. Migrate to AWS from Azure, GCP, or Heroku with resource discovery, cost estimates, and generated Terraform. Move…",
+          "category": "Design & Creative",
+          "delta": 2738,
+          "stars": 2758
+        },
+        {
           "slug": "vibe-prospecting",
           "name": "vibe-prospecting",
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
-          "delta": 6,
-          "stars": 64
+          "delta": 8,
+          "stars": 72
+        },
+        {
+          "slug": "postman",
+          "name": "postman",
+          "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman Flows, and publish generated API documentation.",
+          "category": "Automation & Workflow",
+          "delta": -35,
+          "stars": 6
         }
       ],
       "counts": {
@@ -28,31 +44,86 @@
     },
     "mcps": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "ae-brainy-grocery-prices",
+          "name": "Dubai Grocery Prices",
+          "description": "Compare Dubai grocery lists, observed prices, delivery rules and indicative online offers in AED.",
+          "category": "Other"
+        },
+        {
+          "slug": "ae-datadubai-dubai-real-estate",
+          "name": "Dubai Data — Dubai real estate statistics",
+          "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
+          "category": "Other"
+        },
+        {
+          "slug": "ae-projectory-mcp",
+          "name": "Projectory",
+          "description": "Find UAE off-plan developments and registered residential sales.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-69ai-69ai",
+          "name": "69.ai",
+          "description": "Relationship network for AI agents and people: register, match, chat, dinner ideas, virtual gifts.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-bithuman-docs",
+          "name": "bitHuman docs",
+          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+          "category": "Web & Search"
+        }
+      ],
       "removed": [
         {
-          "slug": "ai-certscore-mcp",
-          "name": "CertScore MCP",
-          "description": "CertScore website risk-signal tools for scans, findings, evidence, and latest-domain lookups.",
+          "slug": "ai-canvora-canvora",
+          "name": "Canvora",
+          "description": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-caulo-caulo",
+          "name": "Caulo",
+          "description": "Social network for verified humans where your AI agent reads the feed, posts, DMs, and moderates.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-caybl-caybl",
+          "name": "Caybl",
+          "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-certscore-mcp-light",
-          "name": "CertScore.ai MCP Light",
-          "description": "Free website privacy scanner for pre-consent cookies, trackers, consent, policy, and HTTPS/TLS.",
-          "category": "Legal & Government"
+          "slug": "ai-ccapi-mcp",
+          "name": "CCAPI",
+          "description": "Image, video, music and text generation across 100+ models through one endpoint.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-cdbx-mcp-server",
+          "name": "Cdbx MCP",
+          "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-cerebrium-docs",
+          "name": "Cerebrium Docs",
+          "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
+          "category": "Web & Search"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 2,
+        "added": 5,
+        "removed": 6,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 235,
-        "currentTotal": 233
+        "previousTotal": 233,
+        "currentTotal": 232
       }
     },
     "repos": {

@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 624049,
+        "weeklyDownloads": 616637,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 163576,
+        "weeklyDownloads": 163555,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 127302,
+        "weeklyDownloads": 129911,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 297424,
+        "weeklyDownloads": 297111,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90664,
+    "stars": 90707,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90664,
-      "forks": 11703,
+      "stars": 90707,
+      "forks": 11715,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-29T06:43:12Z",
-      "openIssues": 241,
+      "pushedAt": "2026-09-30T10:02:11Z",
+      "openIssues": 237,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1062,17 +1062,17 @@
         "headers": []
       }
     ],
-    "stars": 121,
+    "stars": 122,
     "source": "MCP Registry",
     "updatedAt": "2026-04-22T21:06:34.500049Z",
     "repoMeta": {
       "slug": "frumu-ai/tandem",
-      "stars": 121,
+      "stars": 122,
       "forks": 13,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
-      "pushedAt": "2026-09-29T11:46:53Z",
+      "pushedAt": "2026-09-30T11:41:39Z",
       "openIssues": 4,
       "license": "NOASSERTION",
       "language": "Rust"
@@ -2408,6 +2408,458 @@
     ]
   },
   {
+    "id": "mcp:ae-brainy-grocery-prices",
+    "name": "Dubai Grocery Prices",
+    "qualifiedName": "ae.brainy/grocery-prices",
+    "slug": "ae-brainy-grocery-prices",
+    "description": "Compare Dubai grocery lists, observed prices, delivery rules and indicative online offers in AED.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://prices.brainy.ae/developers.html",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://prices.brainy.ae/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-30T10:34:55.977998Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "compare_grocery_list",
+        "description": "Compare the total cost of a grocery list across Dubai supermarkets. Uses observed catalogue prices and published delivery rules; unknown delivery stays unknown. Product and quantity matches are explicit proposals. A single product is ranked by product price; minimum order is shown without excluding stores.",
+        "inputs": [
+          {
+            "name": "items",
+            "type": "array",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_products",
+        "description": "Search the observed Dubai grocery catalogue by name, brand or identifier. Returns exact/equivalent matches and dated offers in AED. This does not run a live web search.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_product",
+        "description": "Get a catalogue product, observed store offers and product history where available. Basket-total history is never presented as product history.",
+        "inputs": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "find_price_online",
+        "description": "Find indicative online prices from Google Shopping UAE. New searches have strict daily limits. If queued, wait retry_after_s before calling again. Delivery is excluded; check product variants, stock and final price at the store.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_stores",
+        "description": "List Dubai stores and their published delivery rules, minimum orders, source URLs and verification dates. Unknown or expired delivery rules are explicitly labelled.",
+        "inputs": null
+      }
+    ]
+  },
+  {
+    "id": "mcp:ae-datadubai-dubai-real-estate",
+    "name": "Dubai Data — Dubai real estate statistics",
+    "qualifiedName": "ae.datadubai/dubai-real-estate",
+    "slug": "ae-datadubai-dubai-real-estate",
+    "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
+    "category": "Other",
+    "repository": "https://github.com/datadubai/dubai-real-estate-dld",
+    "homepage": "https://datadubai.ae/mcp/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.datadubai.ae/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-30T08:30:47.911063Z",
+    "repoMeta": {
+      "slug": "datadubai/dubai-real-estate-dld",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-22T11:47:50Z",
+      "pushedAt": "2026-09-28T14:21:29Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    },
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search",
+        "description": "Search Dubai projects, communities, developers and areas by name (case- and accent-insensitive, all query words must match; exact > prefix > contains, then by number of sales). type: optional filter, one of project | community | developer | area. Returns for each hit: id (\"type:slug\"), title, type, name, slug, url and key figures (median price AED, AED per sqft, sales in last 12 months, status/com",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "type",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_entity",
+        "description": "Get the full statistics record for one project, community, developer or area by slug (the last part of its page address, e.g. dubai-marina). type: project | community | developer | area. Includes price and AED/sqft medians, year-on-year changes, off-plan share, bedroom breakdown, monthly price history (may be truncated) and, for developers, their projects. Data: registered sales transactions from ",
+        "inputs": [
+          {
+            "name": "type",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_market_summary",
+        "description": "Get the overall Dubai property market summary: sales count, median price and AED/sqft, year-on-year changes, off-plan share, bedroom and property-type breakdown, yearly history and recent monthly price series. Data: registered sales transactions from Dubai Land Department open data, updated daily, licensed CC BY 4.0. Each response includes the url of the source page on datadubai.ae.",
+        "inputs": null
+      },
+      {
+        "name": "get_monthly_report",
+        "description": "Get the monthly Dubai property market report: key figures (sales, median price, AED/sqft, year-on-year), summary facts, top movers and a ready-made citation string. month: 'YYYY-MM'; omit for the latest report. Data: registered sales transactions from Dubai Land Department open data, updated daily, licensed CC BY 4.0. Each response includes the url of the source page on datadubai.ae.",
+        "inputs": [
+          {
+            "name": "month",
+            "type": "any",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Fetch the full readable record for one project, community, developer or area by its id (\"type:slug\", e.g. \"community:dubai-marina\") — the same text as the datadubai.ae page, as Markdown with figures, limits and a citation line. Returns id, title, text, url and metadata. Data: registered sales transactions from Dubai Land Department open data, updated daily, licensed CC BY 4.0. Each response includ",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_rankings",
+        "description": "List top rankings. kind: rents (communities by median annual rent, AED), yields (communities by gross rental yield %), communities (by number of sales in last 12 months, with median price and AED/sqft) or developers (by number of sales). Each row includes a url. limit: 1-100. Data: registered sales transactions from Dubai Land Department open data, updated daily, licensed CC BY 4.0. Each response ",
+        "inputs": [
+          {
+            "name": "kind",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ],
+    "readme": {
+      "markdown": "---\nlicense: cc-by-4.0\nlanguage:\n- en\npretty_name: Dubai Real Estate — DLD open data, cleaned and aggregated\ntags:\n- real-estate\n- dubai\n- uae\n- property-prices\n- rental-yield\n- housing\n- open-data\nsize_categories:\n- 10K<n<100K\nconfigs:\n- config_name: market_monthly\n  data_files: data/market_monthly.csv\n- config_name: market_yearly\n  data_files: data/market_yearly.csv\n- config_name: market_bedrooms\n  data_files: data/market_bedrooms.csv\n- config_name: communities\n  data_files: data/communities.csv\n- config_name: community_monthly\n  data_files: data/community_monthly.csv\n- config_name: community_yearly\n  data_files: data/community_yearly.csv\n- config_name: community_bedrooms\n  data_files: data/community_bedrooms.csv\n- config_name: rents_by_community\n  data_files: data/rents_by_community.csv\n- config_name: yields_by_community\n  data_files: data/yields_by_community.csv\n- config_name: areas\n  data_files: data/areas.csv\n- config_name: developers\n  data_files: data/developers.csv\n- config_name: projects\n  data_files: data/projects.csv\n---\n\n# Dubai Real Estate — DLD open data, cleaned and aggregated\n\nRegistered property sales, rent contracts and the project registry of the\n**Dubai Land Department (DLD)**, cleaned and aggregated by\n[Dubai Data](https://datadubai.ae) — the same numbers that are published on the portal,\nexported from its nightly build.\n\n- **Data through:** 2026-09-24 (DLD publishes with a lag of a few working days)\n- **Updated:** weekly from the portal's nightly build\n- **Methodology:** https://datadubai.ae/methodology/ — outlier trimming, minimum samples, how yields are computed\n- **Sources and row counts:** https://datadubai.ae/sources/\n- **Every row links back** to its page on the portal (`url` column) with charts, context and the latest figures.\n- **Mirrors:** [Hugging Face](https://huggingface.co/datasets/datadubai/dubai-real-estate-dld) ·\n  [GitHub](https://github.com/datadubai/dubai-real-estate-dld) — identical files.\n\n## Files\n\n| File | Rows | What it holds |\n|---|---:|---|\n| `data/market_monthly.csv` | 120 | Dubai-wide monthly medians: price per sqft (median, q1, q3), median price, number of registered sales. Built homes, outliers trimmed per the methodology. |\n| `data/market_yearly.csv` | 17 | Dubai-wide yearly totals since 2010: sales count, median price, median price per sqft, total registered value (AED). |\n| `data/market_bedrooms.csv` | 6 | Last 12 complete months by bedroom count: median price, price per sqft, size, annual rent and gross yield. |\n| `data/communities.csv` | 113 | 113 master communities, last 12 complete months: sales, median price and price per sqft, year-on-year change, off-plan share, data quality flag. |\n| `data/community_monthly.csv` | 5,888 | Monthly price-per-sqft medians and IQR for every community (5 years). |\n| `data/community_yearly.csv` | 1,426 | Yearly sales and medians for every community since 2010. |\n| `data/community_bedrooms.csv` | 422 | Community × bedroom count: median price, price per sqft, annual rent, gross yield. |\n| `data/rents_by_community.csv` | 102 | Ejari rent contracts, last 12 months: contracts and median annual rent (AED) per community. |\n| `data/yields_by_community.csv` | 77 | Gross rental yield per community, computed inside property-class × bedroom segments (never as the ratio of two community-wide medians). |\n| `data/areas.csv` | 98 | DLD land-registry areas: sales, medians, off-plan share. |\n| `data/developers.csv` | 378 | Developers active in the DLD project registry: projects, units, sales, medians. Company records only — no contact details. |\n| `data/projects.csv` | 798 | Registered projects: developer, status, construction completion %, completion date, units, escrow bank, and sales medians. Coordinates only where the registry has a real point. |\n\n## Notes on the numbers\n\n- Medians, not averages; price per sqft uses built homes only; outliers outside P1–P99 are removed.\n- A figure is published only when the sample is large enough; `quality` marks thin samples.\n- Gross yield = median annual rent / median price **within the same property class and bedroom count**,\n  then the median across segments for a place — dividing two place-wide medians would mix villas with studios.\n- Sales data: DLD transactions (2010 →). Rents: Ejari contracts (2023 →). Projects: DLD project registry.\n\n## License and attribution\n\nAggregates are released under **CC BY 4.0**. Please cite:\n\n> Dubai Data (datadubai.ae), Continental Club Property — based on Dubai Land Department open data, data through 2026-09-24.\n\nSource data © Dubai Land Department, published as open data. This dataset is not an official DLD product.",
+      "truncated": false,
+      "url": "https://github.com/datadubai/dubai-real-estate-dld#readme"
+    }
+  },
+  {
+    "id": "mcp:ae-projectory-mcp",
+    "name": "Projectory",
+    "qualifiedName": "ae.projectory/mcp",
+    "slug": "ae-projectory-mcp",
+    "description": "Find UAE off-plan developments and registered residential sales.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://projectory.ae/mcp/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.projectory.ae/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-29T20:37:54.5633Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search",
+        "description": "Find published off-plan UAE developments by project name or slug text, combined with exact structured filters. Returns shortlist facts and a pagination cursor. Follow more pages only when the user's task needs them; a page's result count is not a total. Use `suggest_project_terms` for a partial facet name, `list_project_facets` to explore all filter choices, and `fetch` for selected project detail",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Literal text within a project name or slug; ASCII letter case is ignored. Use structured filters for location, budget and other criteria; this does not interpret natural-language requests.",
+            "required": false
+          },
+          {
+            "name": "emirate",
+            "type": "string",
+            "description": "Exact public API emirate slug from list_project_facets, for example dubai.",
+            "required": false
+          },
+          {
+            "name": "developer",
+            "type": "string",
+            "description": "Exact public API developer slug from list_project_facets, for example sobha-realty.",
+            "required": false
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "Exact public API area slug from list_project_facets, for example dubai-marina.",
+            "required": false
+          },
+          {
+            "name": "propertyType",
+            "type": "string",
+            "description": "Exact public API property type slug from list_project_facets, for example apartment.",
+            "required": false
+          },
+          {
+            "name": "bedroomsMin",
+            "type": "integer",
+            "description": "Return developments advertising a bedroom count at or above this value. Zero leaves the filter unset; it does not select studios or identify a unit at a particular price.",
+            "required": false
+          },
+          {
+            "name": "priceMinAed",
+            "type": "integer",
+            "description": "Lower bound of the desired development-wide price interval. A development matches when its known range reaches this amount or above; unknown pricing is excluded.",
+            "required": false
+          },
+          {
+            "name": "priceMaxAed",
+            "type": "integer",
+            "description": "Upper bound of the desired development-wide price interval. A development matches when its known range starts at or below this amount; unknown pricing is excluded.",
+            "required": false
+          },
+          {
+            "name": "handoverYear",
+            "type": "integer",
+            "description": "Expected handover year.",
+            "required": false
+          },
+          {
+            "name": "availability",
+            "type": "string",
+            "description": "Availability filter from list_project_facets.",
+            "required": false,
+            "enum": [
+              "available",
+              "limited",
+              "sold-out"
+            ]
+          },
+          {
+            "name": "newLaunch",
+            "type": "boolean",
+            "description": "Filter for projects marked as new launches.",
+            "required": false
+          },
+          {
+            "name": "comingSoon",
+            "type": "boolean",
+            "description": "Filter for projects marked as coming soon.",
+            "required": false
+          },
+          {
+            "name": "sort",
+            "type": "string",
+            "description": "Sort value from list_project_facets.",
+            "required": false,
+            "enum": [
+              "recommended",
+              "price-asc",
+              "price-desc",
+              "handover-asc",
+              "handover-desc"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Maximum results to return. Defaults to 10.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Pagination cursor returned by a previous search call.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_transactions",
+        "description": "Search canonical residential sale registrations in one required market: Dubai or Abu Dhabi. Whole area, project and building names ignore ASCII letter case; provider IDs match exactly. Filters combine with AND; date bounds are inclusive. Returns newest-first pages of 25 rows by default, at most 100. Follow `nextCursor` with the same filters only when more rows are needed for the user's task. A pag",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Required transaction market.",
+            "required": true,
+            "enum": [
+              "dubai",
+              "abu-dhabi"
+            ]
+          },
+          {
+            "name": "areaName",
+            "type": "string",
+            "description": "Whole canonical area name; ASCII letter case is ignored.",
+            "required": false
+          },
+          {
+            "name": "projectName",
+            "type": "string",
+            "description": "Whole canonical project name; ASCII letter case is ignored.",
+            "required": false
+          },
+          {
+            "name": "buildingName",
+            "type": "string",
+            "description": "Whole canonical building name; ASCII letter case is ignored.",
+            "required": false
+          },
+          {
+            "name": "sourceProjectId",
+            "type": "string",
+            "description": "Exact provider project identifier. This is not a Projectory development ID.",
+            "required": false
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Inclusive sale-registration date lower bound in YYYY-MM-DD format; year 1900 to 2200.",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "Inclusive sale-registration date upper bound in YYYY-MM-DD format; year 1900 to 2200.",
+            "required": false
+          },
+          {
+            "name": "bedrooms",
+            "type": "integer",
+            "description": "Bedroom count to match against each transaction's canonical bedroom range. Use 0 for a studio.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Maximum rows to return. Defaults to 25.",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Opaque pagination cursor returned by the previous transaction search page. Reuse the same filters when continuing.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Fetch one development's detail using a known ID, slug or Projectory URL; no prior search or facet lookup is needed. Returns development-wide pricing, location, availability, enquiry action, payment plan, grouped unit types, evidence, media and a plain-text description marked as untrusted source material. Individual unit rows and raw HTML are omitted. Accepted forms: `project:jacob-co-beachfront-li",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Project ID from search, plain slug, or public Projectory project URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_project_facets",
+        "description": "Explore all exact values for `emirate`, `area`, `developer`, `propertyType`, `availability` and `sort`, plus boolean flags `newLaunch` and `comingSoon`. Skip this call when the needed slugs are known. Use `suggest_project_terms` for a single partial facet name instead of downloading all choices.",
+        "inputs": null
+      },
+      {
+        "name": "suggest_project_terms",
+        "description": "Resolve partial emirate, area, developer or property-type text, such as \"marina\" or \"sobha\", into exact filter slugs for `search`. Does not search project names. Skip when the exact slug is known; use `list_project_facets` to enumerate all values.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Partial developer, area, emirate, or property-type text.",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Maximum suggestions. Defaults to 5.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ae-propick-propick",
     "name": "Propick Integration MCP",
     "qualifiedName": "ae.propick/propick",
@@ -2928,7 +3380,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 76,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -2982,18 +3434,18 @@
         "headers": []
       }
     ],
-    "stars": 7300,
+    "stars": 7303,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7300,
-      "forks": 1012,
+      "stars": 7303,
+      "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 123,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3035,18 +3487,18 @@
         "headers": []
       }
     ],
-    "stars": 7300,
+    "stars": 7303,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7300,
-      "forks": 1012,
+      "stars": 7303,
+      "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 123,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3136,18 +3588,18 @@
         "headers": []
       }
     ],
-    "stars": 7300,
+    "stars": 7303,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7300,
-      "forks": 1012,
+      "stars": 7303,
+      "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 122,
+      "openIssues": 123,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3304,6 +3756,29 @@
     "updatedAt": "2026-09-16T01:24:05.807612Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-69ai-69ai",
+    "name": "69.ai",
+    "qualifiedName": "ai.69ai/69ai",
+    "slug": "ai-69ai-69ai",
+    "description": "Relationship network for AI agents and people: register, match, chat, dinner ideas, virtual gifts.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://69ai.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://69ai.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-29T16:18:02.678783Z",
+    "repoMeta": null,
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-aard-aard",
@@ -3484,7 +3959,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 384,
+        "weeklyDownloads": 353,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -3493,12 +3968,12 @@
       }
     ],
     "remotes": [],
-    "stars": 163,
+    "stars": 164,
     "source": "MCP Registry",
     "updatedAt": "2026-05-16T13:54:48.18266Z",
     "repoMeta": {
       "slug": "dealfluence/adeu",
-      "stars": 163,
+      "stars": 164,
       "forks": 25,
       "archived": false,
       "isFork": false,
@@ -3875,7 +4350,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 32,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -4136,7 +4611,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 351,
+        "weeklyDownloads": 319,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -4795,12 +5270,12 @@
       {
         "registryType": "npm",
         "identifier": "@agent-bev/mcp-server",
-        "version": "0.2.2",
+        "version": "0.2.5",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 288,
-        "lastPublished": "2026-09-27T18:48:42.038Z",
+        "weeklyDownloads": 343,
+        "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
         "declaredRepo": "agent-bev/bev-door",
@@ -4816,7 +5291,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-28T02:28:06.963429Z",
+    "updatedAt": "2026-09-30T02:38:24.149981Z",
     "repoMeta": {
       "slug": "agent-bev/bev-door",
       "stars": 0,
@@ -4824,13 +5299,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-27T02:40:47Z",
-      "pushedAt": "2026-09-29T04:31:11Z",
+      "pushedAt": "2026-09-30T02:27:34Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
     },
     "readme": {
-      "markdown": "# agent-bev\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Three products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK · USA · Japan · Australia · Korea · Singapore · Thailand · Mexico · Brazil\n\nOperated by Agent Holdings S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
+      "markdown": "# agent-bev\n\nThe world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.\n\nDocs: https://agent-bev.ai/docs · Support: https://agent-bev.ai/support · Enterprise setup: https://agent-bev.ai/setup · Privacy: https://agent-bev.ai/privacy\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Three products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK · USA · Japan · Australia · Korea · Singapore · Thailand · Mexico · Brazil\n\nOperated by Agent Holdings S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
       "truncated": false,
       "url": "https://github.com/agent-bev/bev-door#readme"
     }
@@ -5448,7 +5923,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 259,
+        "weeklyDownloads": 300,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -7242,7 +7717,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -7289,7 +7764,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 71,
+        "weeklyDownloads": 80,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -7320,7 +7795,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 54,
+        "weeklyDownloads": 58,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -7351,7 +7826,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 74,
+        "weeklyDownloads": 121,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -7382,7 +7857,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 93,
+        "weeklyDownloads": 97,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -7413,7 +7888,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 82,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -7444,7 +7919,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 66,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -7475,7 +7950,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 77,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -7506,7 +7981,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 75,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -7537,7 +8012,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 84,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -7568,7 +8043,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -7599,7 +8074,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 76,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -7630,7 +8105,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 65,
+        "weeklyDownloads": 76,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -7661,7 +8136,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 72,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -7692,7 +8167,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 70,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -7723,7 +8198,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 82,
+        "weeklyDownloads": 93,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -7754,7 +8229,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 110,
+        "weeklyDownloads": 153,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -7785,7 +8260,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -9235,8 +9710,8 @@
     "name": "AQL PropertyCheck - Gold Coast Property Intelligence",
     "qualifiedName": "ai.alphaquantlabs/propertycheck",
     "slug": "ai-alphaquantlabs-propertycheck",
-    "description": "Gold Coast address due diligence: risks and context for buyers, renters and AI agents.",
-    "category": "AI & Memory",
+    "description": "Gold Coast property due diligence for buyers and renters: everyday life, local risks and changes.",
+    "category": "Other",
     "repository": null,
     "homepage": "https://agents.alphaquantlabs.ai/",
     "packages": [],
@@ -9257,13 +9732,13 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-29T11:28:37.086921Z",
+    "updatedAt": "2026-09-30T05:59:23.962017Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
       {
         "name": "property_coverage",
-        "description": "Call this first for one coordinate in or near the City of Gold Coast. Free and returns coverage only, not paid property intelligence. If supported is true, call property_report with the same coordinates and a stable request_id; otherwise stop because unsupported points are never charged. Example: latitude=-27.9675, longitude=153.4136.",
+        "description": "Use this first to check whether a Gold Coast property or address is supported before buying or renting. Free and returns coverage only, not paid property intelligence. It checks one coordinate in or near the City of Gold Coast. If supported is true, call property_report with the same coordinates and a stable request_id; otherwise stop because unsupported points are never charged. Example: latitude",
         "inputs": [
           {
             "name": "latitude",
@@ -9281,7 +9756,7 @@
       },
       {
         "name": "property_report",
-        "description": "Use after property_coverage returns supported=true. Requires latitude, longitude and a caller-stable request_id. Creates and stores one complete structured JSON report of address-specific surrounding risks and context for a Gold Coast buyer or renter; this is not a valuation. Costs one credit; retrying the same request_id does not charge twice. Every data block is has_value, checked_absent or not_",
+        "description": "Use this to check a Gold Coast property or address before buying or renting. Call it after property_coverage returns supported=true, with latitude, longitude and a caller-stable request_id. It creates and stores one complete structured JSON report covering the property, everyday life around the address, local risks and mapped changes. One paid lookup returns the full available PropertyCheck packag",
         "inputs": [
           {
             "name": "latitude",
@@ -9520,7 +9995,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-18T19:33:29.605357Z",
+    "updatedAt": "2026-09-30T11:37:26.948766Z",
     "repoMeta": {
       "slug": "analyticslegends/analytics-legends-mcp",
       "stars": 0,
@@ -9537,7 +10012,7 @@
     "tools": [
       {
         "name": "search_firms",
-        "description": "Search the published Analytics Legends directory of SAP AI & analytics service providers — placement agencies, Big-4 and ESN practices, SAP vendors, platforms and community groups — by country, kind, declared SAP module and free text. Returns name, HQ country/city, website, careers URL and a one-line editorial claim. SAP END-CUSTOMER companies are NOT in this directory: they are a separate paid da",
+        "description": "Search the published Analytics Legends directory of SAP AI & analytics service providers — placement agencies, Big-4 and ESN practices, SAP vendors, platforms and community groups — by country, region (EMEA · AMER · LATAM · APAC · AFRICA), kind, declared SAP module and free text. Returns name, HQ country/city, website, careers URL and a one-line editorial claim. SAP END-CUSTOMER companies are NOT ",
         "inputs": [
           {
             "name": "query",
@@ -9550,6 +10025,20 @@
             "type": "string",
             "description": "ISO-3166-1 alpha-2 country code, e.g. DE, FR, CH.",
             "required": false
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Region code of the HQ country — the platform's six-value geography: EMEA (Europe AND the Middle East), AMER (North America), LATAM, APAC, AFRICA (its own region, not folded into EMEA), GLOBAL (country",
+            "required": false,
+            "enum": [
+              "EMEA",
+              "AMER",
+              "LATAM",
+              "APAC",
+              "AFRICA",
+              "GLOBAL"
+            ]
           },
           {
             "name": "kind",
@@ -9591,7 +10080,7 @@
       },
       {
         "name": "count_firms_by",
-        "description": "Answer a COUNTING question about the published firm directory in one call: how many organisations per country, per kind, per declared SAP module, or per SAP signal band — with the same `country`/`kind`/`module`/`query` filters `search_firms` takes, so you can count a slice as easily as the whole. Use this instead of paging `search_firms` and tallying rows: the directory holds thousands of organisa",
+        "description": "Answer a COUNTING question about the published firm directory in one call: how many organisations per country, per REGION (the six-value geography), per kind, per declared SAP module, or per SAP signal band — with the same `country`/`kind`/`module`/`query` filters `search_firms` takes, so you can count a slice as easily as the whole. Use this instead of paging `search_firms` and tallying rows: the",
         "inputs": [
           {
             "name": "by",
@@ -9600,6 +10089,7 @@
             "required": true,
             "enum": [
               "country",
+              "region",
               "kind",
               "module",
               "sap_signal_band"
@@ -9618,6 +10108,20 @@
             "required": false
           },
           {
+            "name": "region",
+            "type": "string",
+            "description": "Region code of the HQ country — the platform's six-value geography: EMEA (Europe AND the Middle East), AMER (North America), LATAM, APAC, AFRICA (its own region, not folded into EMEA), GLOBAL (country",
+            "required": false,
+            "enum": [
+              "EMEA",
+              "AMER",
+              "LATAM",
+              "APAC",
+              "AFRICA",
+              "GLOBAL"
+            ]
+          },
+          {
             "name": "kind",
             "type": "string",
             "description": "Restrict to one organisation kind before counting, same vocabulary as search_firms. Combining it with `by:\"kind\"` is legal and returns that single bucket.",
@@ -9633,7 +10137,7 @@
       },
       {
         "name": "get_firm",
-        "description": "Fetch one organisation from the published directory by its database slug (`rows[].slug` from search_firms, verbatim). Returns the same public fields plus `partnerships_declared`, the count of partnerships this directory records for the firm — 0 on ~97 % of rows (re-measured 2026-08-14 on the published tranche: 96,8 %), meaning none declared here, never that the firm has no partners. Does not retur",
+        "description": "Fetch one organisation from the published directory by its database slug (`rows[].slug` from search_firms, verbatim). Returns the same public fields plus `partnerships_declared`, the count of partnerships this directory records for the firm — 0 on ~77 % of rows (re-measured 2026-09-30 on the published tranche: 77,1 %; it read ~97 % until the 2026-09-30 brand-family pass derived 3 730 sibling links",
         "inputs": [
           {
             "name": "slug",
@@ -10111,6 +10615,105 @@
         ]
       },
       {
+        "name": "get_expansion_brief",
+        "description": "The one-call brief a services practice reads before opening a subsidiary in another region: providers already there (by kind and by country, and how many are LOCAL entities versus members of multi-region groups), SAP end-customers there (by country and by industry — counts from the Legend corpus, never rows), live opportunities by country, professionals by country (a COUNT per country, never a per",
+        "inputs": [
+          {
+            "name": "target_region",
+            "type": "string",
+            "description": "The region you want to enter. One of EMEA, AMER, LATAM, APAC, AFRICA (GLOBAL is refused: it is not a market).",
+            "required": true,
+            "enum": [
+              "EMEA",
+              "AMER",
+              "LATAM",
+              "APAC",
+              "AFRICA",
+              "GLOBAL"
+            ]
+          },
+          {
+            "name": "home_region",
+            "type": "string",
+            "description": "Optional. The region you operate from today. When set, bridge groups are the families present in BOTH regions; when omitted, in the target region and any other.",
+            "required": false,
+            "enum": [
+              "EMEA",
+              "AMER",
+              "LATAM",
+              "APAC",
+              "AFRICA",
+              "GLOBAL"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "find_partner_candidates",
+        "description": "Rank the LOCAL service providers of a target country or region — the firms a practice partners with, subcontracts to, or acquires to enter a market. `local_only` (default true) keeps firms with NO sister entity in another country (read from the brand-family key of the SSOT): a subsidiary of a global group is a competitor, not a partner. Filter by kind and by DECLARED SAP module; rows carry the dec",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "ISO-3166-1 alpha-2 country code, e.g. DE, FR, CH.",
+            "required": false
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Region code of the HQ country — the platform's six-value geography: EMEA (Europe AND the Middle East), AMER (North America), LATAM, APAC, AFRICA (its own region, not folded into EMEA), GLOBAL (country",
+            "required": false,
+            "enum": [
+              "EMEA",
+              "AMER",
+              "LATAM",
+              "APAC",
+              "AFRICA",
+              "GLOBAL"
+            ]
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Restrict to one provider kind (placement agencies, ESN/SI practices, Big-4, SAP partners, platforms). Communities, schools and public bodies are never in this population.",
+            "required": false,
+            "enum": [
+              "agency_placement",
+              "professional_services_esn",
+              "professional_services_big4",
+              "vendor_partner",
+              "vendor_sap",
+              "platform_marketplace",
+              "other"
+            ]
+          },
+          {
+            "name": "module",
+            "type": "string",
+            "description": "Restrict to firms with a DECLARED link to one SAP module code (UPPERCASE snake_case, e.g. DATASPHERE, BDC, SAC — call count_firms_by {by:\"module\"} for the live vocabulary). Absence means no declared l",
+            "required": false
+          },
+          {
+            "name": "local_only",
+            "type": "boolean",
+            "description": "true (default): only firms with no sister entity abroad. false: every provider of the market, groups included.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (hard cap 50).",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "Opaque token from a previous response's `_meta.next_cursor`. Pass it back with the SAME filter arguments; `null` means the last page. Changing a filter refuses the cursor.",
+            "required": false
+          }
+        ]
+      },
+      {
         "name": "get_firm_intel",
         "description": "The paid intelligence profile of a services firm — SAP practice size and partner level, delivery flags per product, typical day rate and seniority, notable clients, analytics practice summary, and a LinkedIn company URL (present on ~71% of the corpus, re-measured 2026-09-05 on 9,104 profiles — it read ~39% from 2026-08-10 to 2026-09-05, i.e. a third of the corpus below the truth, because an enrich",
         "inputs": [
@@ -10218,7 +10821,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1444,
+        "weeklyDownloads": 1496,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -10227,12 +10830,12 @@
       }
     ],
     "remotes": [],
-    "stars": 497,
+    "stars": 500,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 497,
+      "stars": 500,
       "forks": 36,
       "archived": false,
       "isFork": false,
@@ -10259,12 +10862,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 79,
+    "stars": 80,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T08:03:07.518871Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 79,
+      "stars": 80,
       "forks": 9,
       "archived": false,
       "isFork": false,
@@ -13382,7 +13985,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 30,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -13413,7 +14016,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 24,
+        "weeklyDownloads": 26,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -13444,7 +14047,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 33,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -13504,7 +14107,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -13566,7 +14169,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 84,
+        "weeklyDownloads": 91,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -14078,14 +14681,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-17T08:21:14Z",
-      "pushedAt": "2026-09-22T10:53:29Z",
+      "pushedAt": "2026-09-30T11:42:49Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### Agent skill (Claude Code, Codex and other agents)\n\nThe [AwrAiter_skills](https://github.com/MediaZione/AwrAiter_skills) repository ships a skill with the full tool contract, authentication, the draft → check → preview → schedule workflow and the guardrails an agent should follow:\n\n```bash\n# Claude Code — as a plugin\nclaude plugin marketplace add MediaZione/AwrAiter_skills\nclaude plugin install awraiter@awraiter\n\n# Codex and any other agent with skills\nnpx skills add MediaZione/AwrAiter_skills --skill awraiter\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once, together with ready-to-paste snippets (Claude Code command, JSON config, cURL, Node.js) that already contain it — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n25 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief and banlist |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel under [MCP connection](https://awraiter.ai/mcp-connect).\n\n## Security model\n\n|  | Userbot-style Telegram MCP servers | AwrAIter |\n|---|---|---|\n| What you hand over | Phone number, login code, session file | An OAuth grant to your own account |\n| What it can reach | Everything your account can — DMs, groups, private material | Only the channels of the team you authorized |\n| How it publishes | As you | Through the panel's own service admin, with the same perm\n\n…",
+      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [Team and invites](docs/team.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### Agent skill (Claude Code, Codex and other agents)\n\nThe [AwrAiter_skills](https://github.com/MediaZione/AwrAiter_skills) repository ships a skill with the full tool contract, authentication, the draft → check → preview → schedule workflow and the guardrails an agent should follow:\n\n```bash\n# Claude Code — as a plugin\nclaude plugin marketplace add MediaZione/AwrAiter_skills\nclaude plugin install awraiter@awraiter\n\n# Codex and any other agent with skills\nnpx skills add MediaZione/AwrAiter_skills --skill awraiter\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once, together with ready-to-paste snippets (Claude Code command, JSON config, cURL, Node.js) that already contain it — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n25 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief and banlist |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel under [MCP connection](https://awraiter.ai/mcp-connect).\n\n## Security model\n\n|  | Userbot-style Telegram MCP servers | AwrAIter |\n|---|---|---|\n| What you hand over | Phone number, login code, session file | An OAuth grant to your own account |\n| What it can reach | Everything your account can — DMs, groups, private material | Only the channels of the team you authorized |\n| How it publishes | As you | Through the panel's ow\n\n…",
       "truncated": true,
       "url": "https://github.com/MediaZione/AwrAiter#readme"
     }
@@ -14629,6 +15232,216 @@
     "toolsStatus": "ok",
     "tools": [
       {
+        "name": "finnhub_stock_quote",
+        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
+            "required": true
+          },
+          {
+            "name": "include_company_info",
+            "type": "boolean",
+            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "timezone_convert",
+        "description": "Converts time between timezones. Useful for time conversion tasks. Use when you need to convert 3:45 PM EST to Pacific Time for a meeting schedule; or find what time it will be in Tokyo when it's 9 AM in New York; or translate an event time from London timezone to Sydney timezone. Also use to find the equivalent time in Dubai for a 2 PM Central European Time appointment; or find the local time in ",
+        "inputs": [
+          {
+            "name": "time",
+            "type": "string",
+            "description": "A string representing the time to convert, formatted in 24-hour or 12-hour notation with optional AM/PM indicator, such as '14:30' or '2:45 PM'.",
+            "required": true
+          },
+          {
+            "name": "from_tz",
+            "type": "string",
+            "description": "Timezone identifier for the source time, accepting IANA standard names like 'America/New_York' or common abbreviations such as 'EST', specifying the original time's geographical context.",
+            "required": true
+          },
+          {
+            "name": "to_tz",
+            "type": "string",
+            "description": "Target timezone identifier where the time will be converted, supporting IANA standard timezone names like 'Europe/London' or abbreviations such as 'GMT', indicating the destination geographical region",
+            "required": true
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "description": "Calendar date string in standard formats like 'YYYY-MM-DD', 'MM/DD/YYYY', or 'DD.MM.YYYY', representing the specific day for the timezone conversion calculation.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "web_url_reader",
+        "description": "Fetches any public web page and returns clean, readable plain text stripped of HTML, navigation, scripts, advertisements, and boilerplate. Returns the page title, meta description, word count, and main body text ready for analysis or summarisation. Use this tool when an agent needs to read the content of a specific web page or article URL — for example to summarise an article, extract facts from a",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The full public URL to fetch and read. Must include the scheme. Examples: 'https://en.wikipedia.org/wiki/Artificial_intelligence', 'https://www.bbc.com/news/technology-12345678'. Only HTTP and HTTPS U",
+            "required": true
+          },
+          {
+            "name": "max_chars",
+            "type": "number",
+            "description": "Maximum number of characters to return from the page body text. Defaults to 8000. Set higher (up to 50000) for long articles or documents. Set lower for quick headline extraction. The response indicat",
+            "required": false
+          },
+          {
+            "name": "include_links",
+            "type": "boolean",
+            "description": "Whether to include a list of hyperlinks found on the page alongside the text content. Defaults to false. Set to true when the agent needs to discover further URLs to follow, such as when crawling a si",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "open_banking_transactions",
+        "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
+        "inputs": [
+          {
+            "name": "account_id",
+            "type": "string",
+            "description": "TrueLayer account ID to retrieve transactions for. Obtain from a prior account-listing call. Omit to return data for the first connected account.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Maximum number of transactions to return. Integer between 1 and 100. Defaults to 10.",
+            "required": false
+          },
+          {
+            "name": "from_date",
+            "type": "string",
+            "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "currency_convert",
+        "description": "Converts a monetary amount from one currency to another using live exchange rates sourced from the Frankfurter API (European Central Bank data). Returns the converted amount, the exact exchange rate applied, and the timestamp of the rate. Supports 30+ currencies including USD, EUR, GBP, JPY, CHF, AUD, CAD, SEK, NOK, DKK, SGD, HKD, and all major ISO 4217 codes. Use currency_convert when an agent ne",
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "number",
+            "description": "The monetary amount to convert. Must be a positive number. Decimals are supported. Example: 1500.50 to convert one thousand five hundred and fifty cents.",
+            "required": true
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "The source currency code in ISO 4217 format. Must be uppercase. Examples: USD, GBP, EUR, JPY, CHF, AUD, CAD.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "The target currency code in ISO 4217 format. Must be uppercase. Examples: EUR, JPY, CHF, SGD, HKD, SEK.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "platform_tool_finder",
+        "description": "Discovers the most relevant tools available on this MCP server for a given task using local semantic search (MiniLM-L6-v2 embeddings). Accepts a plain-English description of what needs to be accomplished and returns the best matching tools ranked by relevance, along with their input schemas, pricing tier, and exact call instructions. Use this tool first when you are connected to this server but do",
+        "inputs": [
+          {
+            "name": "intent",
+            "type": "string",
+            "description": "Plain-English description of what you need to accomplish. Be specific about the goal, not the tool name. Example: 'I need to convert 500 dollars to euros at the current exchange rate' or 'get the late",
+            "required": true
+          },
+          {
+            "name": "model_hint",
+            "type": "string",
+            "description": "Optional: the name of the calling LLM model. Examples: claude, gpt-4, gemini. Used to apply model-specific manifest variant ranking when available. Omit if unknown.",
+            "required": false
+          },
+          {
+            "name": "top_k",
+            "type": "number",
+            "description": "How many ranked results to return. Integer between 1 and 10. Defaults to 3. Use a higher value when the best tool is ambiguous.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "financial_calculator_lite",
+        "description": "Performs common financial calculations locally with no external API dependency. Supports compound interest, loan repayment, return on investment (ROI), present value, future value, and break-even analysis. Returns a single numeric result for the requested calculation type. This is a lightweight variant of financial_calculator — it returns only the result number rather than a full structured breakd",
+        "inputs": [
+          {
+            "name": "calculator_type",
+            "type": "string",
+            "description": "Type of calculation to perform. Accepted values: 'compound_interest', 'loan_repayment', 'roi', 'present_value', 'future_value', 'break_even'.",
+            "required": true
+          },
+          {
+            "name": "principal",
+            "type": "number",
+            "description": "Starting amount or loan principal in currency units. Required for compound_interest, loan_repayment, present_value, and future_value.",
+            "required": false
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "description": "Annual interest or discount rate as a decimal (e.g. 0.05 for 5%). Required for compound_interest, loan_repayment, present_value, and future_value.",
+            "required": false
+          },
+          {
+            "name": "periods",
+            "type": "number",
+            "description": "Number of compounding periods (years) or loan term in months depending on calculator_type. Required for compound_interest, loan_repayment, future_value, and present_value.",
+            "required": false
+          },
+          {
+            "name": "initial_value",
+            "type": "number",
+            "description": "Initial investment amount. Required for roi calculations.",
+            "required": false
+          },
+          {
+            "name": "final_value",
+            "type": "number",
+            "description": "Final investment value. Required for roi calculations.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "currency_rates",
+        "description": "Retrieves live and historical fiat currency exchange rates from the Frankfurter API (sourced from the European Central Bank). Supports both real-time conversion and historical rate lookup for any past date, making it the preferred tool when auditable, ECB-sourced rate data is required. Use currency_rates when a rate from a specific past date is required (e.g. accounting, tax, or audit), or when th",
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "number",
+            "description": "Monetary amount to convert. Must be a positive number.",
+            "required": true
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "ISO 4217 source currency code (e.g. 'USD', 'GBP', 'EUR'). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "ISO 4217 target currency code (e.g. 'EUR', 'JPY', 'CHF'). Case-insensitive.",
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "bank_accounts",
         "description": "Retrieves bank account details and recent transaction history via a connected bank API integration. Returns a list of transactions for the specified account, or for all linked accounts when no account ID is provided. Use bank_accounts when an agent needs to inspect account balances, review recent spending, categorise transactions, or reconcile records against a specific bank account. Prefer open_b",
         "inputs": [
@@ -14667,72 +15480,6 @@
             "type": "boolean",
             "description": "Whether to include market capitalisation and 24-hour trading volume alongside the price. Defaults to true. Set to false for a lighter response when only the price is needed.",
             "required": false
-          }
-        ]
-      },
-      {
-        "name": "crypto_price_lite",
-        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
-        "inputs": [
-          {
-            "name": "coin",
-            "type": "string",
-            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "currency_convert",
-        "description": "Converts a monetary amount from one currency to another using live exchange rates sourced from the Frankfurter API (European Central Bank data). Returns the converted amount, the exact exchange rate applied, and the timestamp of the rate. Supports 30+ currencies including USD, EUR, GBP, JPY, CHF, AUD, CAD, SEK, NOK, DKK, SGD, HKD, and all major ISO 4217 codes. Use currency_convert when an agent ne",
-        "inputs": [
-          {
-            "name": "amount",
-            "type": "number",
-            "description": "The monetary amount to convert. Must be a positive number. Decimals are supported. Example: 1500.50 to convert one thousand five hundred and fifty cents.",
-            "required": true
-          },
-          {
-            "name": "from",
-            "type": "string",
-            "description": "The source currency code in ISO 4217 format. Must be uppercase. Examples: USD, GBP, EUR, JPY, CHF, AUD, CAD.",
-            "required": true
-          },
-          {
-            "name": "to",
-            "type": "string",
-            "description": "The target currency code in ISO 4217 format. Must be uppercase. Examples: EUR, JPY, CHF, SGD, HKD, SEK.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "currency_convert_lite",
-        "description": "Converts a monetary amount between any two fiat currencies using live exchange rates from the Frankfurter API (European Central Bank data). Returns the converted amount and the exchange rate applied. This is a lightweight variant of currency_convert — minimal response without rate timestamp or source attribution. Use currency_convert_lite when only the converted value and rate are needed and ECB/F",
-        "inputs": [
-          {
-            "name": "amount",
-            "type": "number",
-            "description": "Monetary amount to convert. Must be a positive number.",
-            "required": true
-          },
-          {
-            "name": "from",
-            "type": "string",
-            "description": "ISO 4217 code of the source currency (e.g. 'USD', 'GBP', 'EUR'). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "to",
-            "type": "string",
-            "description": "ISO 4217 code of the target currency (e.g. 'EUR', 'JPY', 'CHF'). Case-insensitive.",
-            "required": true
           }
         ]
       },
@@ -14809,62 +15556,50 @@
         ]
       },
       {
-        "name": "financial_calculator_lite",
-        "description": "Performs common financial calculations locally with no external API dependency. Supports compound interest, loan repayment, return on investment (ROI), present value, future value, and break-even analysis. Returns a single numeric result for the requested calculation type. This is a lightweight variant of financial_calculator — it returns only the result number rather than a full structured breakd",
+        "name": "crypto_fx_rates",
+        "description": "Converts an amount between any cryptocurrency and fiat currency pair, or between two cryptocurrencies, using real-time exchange rates sourced from CoinAPI. Supports all crypto-to-fiat (BTC/USD, ETH/EUR), fiat-to-crypto (USD/BTC), and cross-crypto (BTC/ETH) conversions. Use crypto_fx_rates when the conversion involves at least one cryptocurrency and a specific amount must be converted. Prefer crypt",
         "inputs": [
           {
-            "name": "calculator_type",
-            "type": "string",
-            "description": "Type of calculation to perform. Accepted values: 'compound_interest', 'loan_repayment', 'roi', 'present_value', 'future_value', 'break_even'.",
+            "name": "amount",
+            "type": "number",
+            "description": "Amount to convert. Must be a positive number. Denominated in the 'from' currency.",
             "required": true
           },
           {
-            "name": "principal",
-            "type": "number",
-            "description": "Starting amount or loan principal in currency units. Required for compound_interest, loan_repayment, present_value, and future_value.",
-            "required": false
+            "name": "from",
+            "type": "string",
+            "description": "Source currency code. Accepts ISO 4217 fiat codes (USD, EUR, GBP) or cryptocurrency ticker symbols (BTC, ETH, SOL, XRP). Case-insensitive.",
+            "required": true
           },
           {
-            "name": "rate",
-            "type": "number",
-            "description": "Annual interest or discount rate as a decimal (e.g. 0.05 for 5%). Required for compound_interest, loan_repayment, present_value, and future_value.",
-            "required": false
-          },
-          {
-            "name": "periods",
-            "type": "number",
-            "description": "Number of compounding periods (years) or loan term in months depending on calculator_type. Required for compound_interest, loan_repayment, future_value, and present_value.",
-            "required": false
-          },
-          {
-            "name": "initial_value",
-            "type": "number",
-            "description": "Initial investment amount. Required for roi calculations.",
-            "required": false
-          },
-          {
-            "name": "final_value",
-            "type": "number",
-            "description": "Final investment value. Required for roi calculations.",
-            "required": false
+            "name": "to",
+            "type": "string",
+            "description": "Target currency code. Accepts ISO 4217 fiat codes (USD, EUR, GBP) or cryptocurrency ticker symbols (BTC, ETH, SOL, XRP). Case-insensitive.",
+            "required": true
           }
         ]
       },
       {
-        "name": "finnhub_stock_quote",
-        "description": "Retrieves real-time stock price quotes and company information for any publicly traded company via the Finnhub API. Returns current price, intraday high and low, percentage change from previous close, previous close price, sector, and exchange. Use stock_quote when an agent needs to look up a stock price, check intraday market performance, retrieve company sector data, monitor equity portfolio val",
+        "name": "currency_convert_lite",
+        "description": "Converts a monetary amount between any two fiat currencies using live exchange rates from the Frankfurter API (European Central Bank data). Returns the converted amount and the exchange rate applied. This is a lightweight variant of currency_convert — minimal response without rate timestamp or source attribution. Use currency_convert_lite when only the converted value and rate are needed and ECB/F",
         "inputs": [
           {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker symbol.",
+            "name": "amount",
+            "type": "number",
+            "description": "Monetary amount to convert. Must be a positive number.",
             "required": true
           },
           {
-            "name": "include_company_info",
-            "type": "boolean",
-            "description": "Whether to include company name, sector, and exchange details alongside the price quote. Defaults to true. Set to false for a faster, price-only response.",
-            "required": false
+            "name": "from",
+            "type": "string",
+            "description": "ISO 4217 code of the source currency (e.g. 'USD', 'GBP', 'EUR'). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "ISO 4217 code of the target currency (e.g. 'EUR', 'JPY', 'CHF'). Case-insensitive.",
+            "required": true
           }
         ]
       },
@@ -14893,6 +15628,36 @@
         ]
       },
       {
+        "name": "stock_price_lite",
+        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "crypto_price_lite",
+        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
+        "inputs": [
+          {
+            "name": "coin",
+            "type": "string",
+            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
+            "required": false
+          }
+        ]
+      },
+      {
         "name": "web_news_headlines",
         "description": "Retrieves the latest real-time news headlines and article summaries from BBC News and The Guardian across nine topic categories. Returns structured articles with headline, description, source name, article URL, and publication date — sorted most recent first. No API key required. Use this tool when an agent needs current news about a specific topic, wants to summarise today's headlines, needs to r",
         "inputs": [
@@ -14917,30 +15682,6 @@
         ]
       },
       {
-        "name": "open_banking_transactions",
-        "description": "Retrieves bank account balances and transaction history via PSD2 Open Banking (TrueLayer), covering 300+ UK and European banks. Returns the account balance, ISO 4217 currency code, and up to 100 recent transactions — each with date, merchant description, amount, and category. Supports optional date filtering to narrow the transaction window. Use this tool when an agent needs to inspect a user's sp",
-        "inputs": [
-          {
-            "name": "account_id",
-            "type": "string",
-            "description": "TrueLayer account ID to retrieve transactions for. Obtain from a prior account-listing call. Omit to return data for the first connected account.",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Maximum number of transactions to return. Integer between 1 and 100. Defaults to 10.",
-            "required": false
-          },
-          {
-            "name": "from_date",
-            "type": "string",
-            "description": "Optional start date for filtering transactions. ISO 8601 date format: YYYY-MM-DD. Example: 2026-01-01 to retrieve transactions from 1 January 2026 onwards.",
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "stripe_payment_records",
         "description": "Retrieves payment and charge records from a Stripe merchant account. Returns a list of payment records filtered by the requested query type. Use stripe_payment_records when an agent needs to review recent charges, refunds, disputes, or subscription payments from a Stripe account. This is a lightweight variant of stripe_payments — it returns a simple records array rather than the full structured St",
         "inputs": [
@@ -14955,54 +15696,6 @@
             "type": "number",
             "description": "Maximum number of records to return. Defaults to 10. Maximum 50.",
             "required": false
-          }
-        ]
-      },
-      {
-        "name": "crypto_fx_rates",
-        "description": "Converts an amount between any cryptocurrency and fiat currency pair, or between two cryptocurrencies, using real-time exchange rates sourced from CoinAPI. Supports all crypto-to-fiat (BTC/USD, ETH/EUR), fiat-to-crypto (USD/BTC), and cross-crypto (BTC/ETH) conversions. Use crypto_fx_rates when the conversion involves at least one cryptocurrency and a specific amount must be converted. Prefer crypt",
-        "inputs": [
-          {
-            "name": "amount",
-            "type": "number",
-            "description": "Amount to convert. Must be a positive number. Denominated in the 'from' currency.",
-            "required": true
-          },
-          {
-            "name": "from",
-            "type": "string",
-            "description": "Source currency code. Accepts ISO 4217 fiat codes (USD, EUR, GBP) or cryptocurrency ticker symbols (BTC, ETH, SOL, XRP). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "to",
-            "type": "string",
-            "description": "Target currency code. Accepts ISO 4217 fiat codes (USD, EUR, GBP) or cryptocurrency ticker symbols (BTC, ETH, SOL, XRP). Case-insensitive.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "currency_rates",
-        "description": "Retrieves live and historical fiat currency exchange rates from the Frankfurter API (sourced from the European Central Bank). Supports both real-time conversion and historical rate lookup for any past date, making it the preferred tool when auditable, ECB-sourced rate data is required. Use currency_rates when a rate from a specific past date is required (e.g. accounting, tax, or audit), or when th",
-        "inputs": [
-          {
-            "name": "amount",
-            "type": "number",
-            "description": "Monetary amount to convert. Must be a positive number.",
-            "required": true
-          },
-          {
-            "name": "from",
-            "type": "string",
-            "description": "ISO 4217 source currency code (e.g. 'USD', 'GBP', 'EUR'). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "to",
-            "type": "string",
-            "description": "ISO 4217 target currency code (e.g. 'EUR', 'JPY', 'CHF'). Case-insensitive.",
-            "required": true
           }
         ]
       },
@@ -15031,18 +15724,6 @@
         ]
       },
       {
-        "name": "stock_price_lite",
-        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
-        "inputs": [
-          {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
-            "required": true
-          }
-        ]
-      },
-      {
         "name": "stripe_payments",
         "description": "Retrieves live payment data from a Stripe account via the Stripe API. Supports four query types: recent_payments returns the latest payment intents with status, amount, and currency; failed_charges returns declined or failed charges with failure reasons and error codes; customers returns customer records with name, email, and payment method details; subscriptions returns active and cancelled subsc",
         "inputs": [
@@ -15056,84 +15737,6 @@
             "name": "limit",
             "type": "number",
             "description": "Number of records to return. Integer between 1 and 25. Defaults to 10.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "timezone_convert",
-        "description": "Converts time between timezones. Useful for time conversion tasks. Use when you need to convert 3:45 PM EST to Pacific Time for a meeting schedule; or find what time it will be in Tokyo when it's 9 AM in New York; or translate an event time from London timezone to Sydney timezone. Also use to find the equivalent time in Dubai for a 2 PM Central European Time appointment; or find the local time in ",
-        "inputs": [
-          {
-            "name": "time",
-            "type": "string",
-            "description": "A string representing the time to convert, formatted in 24-hour or 12-hour notation with optional AM/PM indicator, such as '14:30' or '2:45 PM'.",
-            "required": true
-          },
-          {
-            "name": "from_tz",
-            "type": "string",
-            "description": "Timezone identifier for the source time, accepting IANA standard names like 'America/New_York' or common abbreviations such as 'EST', specifying the original time's geographical context.",
-            "required": true
-          },
-          {
-            "name": "to_tz",
-            "type": "string",
-            "description": "Target timezone identifier where the time will be converted, supporting IANA standard timezone names like 'Europe/London' or abbreviations such as 'GMT', indicating the destination geographical region",
-            "required": true
-          },
-          {
-            "name": "date",
-            "type": "string",
-            "description": "Calendar date string in standard formats like 'YYYY-MM-DD', 'MM/DD/YYYY', or 'DD.MM.YYYY', representing the specific day for the timezone conversion calculation.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "platform_tool_finder",
-        "description": "Discovers the most relevant tools available on this MCP server for a given task using local semantic search (MiniLM-L6-v2 embeddings). Accepts a plain-English description of what needs to be accomplished and returns the best matching tools ranked by relevance, along with their input schemas, pricing tier, and exact call instructions. Use this tool first when you are connected to this server but do",
-        "inputs": [
-          {
-            "name": "intent",
-            "type": "string",
-            "description": "Plain-English description of what you need to accomplish. Be specific about the goal, not the tool name. Example: 'I need to convert 500 dollars to euros at the current exchange rate' or 'get the late",
-            "required": true
-          },
-          {
-            "name": "model_hint",
-            "type": "string",
-            "description": "Optional: the name of the calling LLM model. Examples: claude, gpt-4, gemini. Used to apply model-specific manifest variant ranking when available. Omit if unknown.",
-            "required": false
-          },
-          {
-            "name": "top_k",
-            "type": "number",
-            "description": "How many ranked results to return. Integer between 1 and 10. Defaults to 3. Use a higher value when the best tool is ambiguous.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "web_url_reader",
-        "description": "Fetches any public web page and returns clean, readable plain text stripped of HTML, navigation, scripts, advertisements, and boilerplate. Returns the page title, meta description, word count, and main body text ready for analysis or summarisation. Use this tool when an agent needs to read the content of a specific web page or article URL — for example to summarise an article, extract facts from a",
-        "inputs": [
-          {
-            "name": "url",
-            "type": "string",
-            "description": "The full public URL to fetch and read. Must include the scheme. Examples: 'https://en.wikipedia.org/wiki/Artificial_intelligence', 'https://www.bbc.com/news/technology-12345678'. Only HTTP and HTTPS U",
-            "required": true
-          },
-          {
-            "name": "max_chars",
-            "type": "number",
-            "description": "Maximum number of characters to return from the page body text. Defaults to 8000. Set higher (up to 50000) for long articles or documents. Set lower for quick headline extraction. The response indicat",
-            "required": false
-          },
-          {
-            "name": "include_links",
-            "type": "boolean",
-            "description": "Whether to include a list of hyperlinks found on the page alongside the text content. Defaults to false. Set to true when the agent needs to discover further URLs to follow, such as when crawling a si",
             "required": false
           }
         ]
@@ -17550,6 +18153,96 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-bithuman-docs",
+    "name": "bitHuman docs",
+    "qualifiedName": "ai.bithuman/docs",
+    "slug": "ai-bithuman-docs",
+    "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+    "category": "Web & Search",
+    "repository": "https://github.com/bithuman-product/public-docs",
+    "homepage": "https://docs.bithuman.ai/resources/agents#docs-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://docs.bithuman.ai/docs-mcp",
+        "headers": []
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-30T04:58:52.062952Z",
+    "repoMeta": {
+      "slug": "bithuman-product/public-docs",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-29T05:48:51Z",
+      "pushedAt": "2026-09-30T11:08:19Z",
+      "openIssues": 3,
+      "license": "Apache-2.0",
+      "language": "JavaScript"
+    },
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search",
+        "description": "Search docs.bithuman.ai (bitHuman real-time avatar SDKs, the REST API, deployment options, models, pricing). Returns the best-matching pages, each with an id to pass to `fetch`.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What to look for, e.g. \"Android first frame\" or \"LiveKit secret\".",
+            "required": true
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "description": "Limit to one section.",
+            "required": false,
+            "enum": [
+              "Overview",
+              "Platforms",
+              "Models",
+              "Guides",
+              "Deploy",
+              "Performance",
+              "API reference",
+              "Get started",
+              "Resources",
+              "Build",
+              "API"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many results (default 8).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Fetch one docs page as markdown by the id `search` returned (a path such as /platforms/python), or by its full URL.",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "A page path (/platforms/python) or URL (https://docs.bithuman.ai/platforms/python).",
+            "required": true
+          }
+        ]
+      }
+    ],
+    "readme": {
+      "markdown": "# bitHuman developer docs\n\nSource for [docs.bithuman.ai](https://docs.bithuman.ai) — bitHuman's developer\nplatform. A custom **Astro 6** site styled after\n[developers.openai.com](https://developers.openai.com/) (semantic design tokens,\nlight/dark, Shiki code, brand coral `#FF5757` + Roboto). The API\nreference at `/api/reference` is rendered from the OpenAPI spec at build time,\nwith no third-party script.\n\n## Local dev\n\n```bash\nnvm use            # Node 22+ (Astro 6); see .nvmrc\nnpm install\nnpm run dev        # http://localhost:4321\nnpm run build      # static output -> dist/\n```\n\n## Structure\n\n```\nsrc/\n  content/docs/          The markdown pages; the file path is the URL\n  config/nav.ts          Sections, sidebar groups, header, Resources menu, footer\n  data/                  One source per fact: versions, pricing, platforms, demo avatars, offline copy\n  layouts/               Base (head, nav, footer) and DocLayout (sidebar, chips, Next, pager)\n  components/            Card, Chip, LiveDemo, CodeTabs, QuickstartPicker, PlatformSwitcher and the rest of the design system\n  scripts/               The small browser scripts: tab and platform state, the explorer, the calculator, filters\n  lib/                   Build-time helpers: data blocks, the OpenAPI reader, the curl → Python and Node generator\n  styles/                tokens.css (light/dark tokens), components.css, prose.css\n  pages/                 The home page, /start, the hubs, llms files and markdown twins\n  openapi/bithuman.yaml  OpenAPI spec -> synced to public/api/openapi.yaml\nscripts/                 The gates ci/run-local.sh runs, and the generators (redirects, versions, pricing)\nSTYLE.md                 The style guide: voice, terminology, claims, templates, budgets\n```\n\n## Information architecture\n\nOrganized by the developer's question. The header is Get started · Platforms · Deploy · Models · Build · API · Performance, then Resources.\n\n- **Get started** (`/start`): the quickstart, the API secret.\n- **Platforms** (`/platforms`): iOS & iPadOS, Android, Web, Python, the CLI, LiveKit, REST, and the SDK references.\n- **Deploy** (`/deploy`): the bitHuman cloud, your servers, on the device, CPU only (no GPU), fully offline, pricing, and the use-case guides (`/deploy/use-cases`).\n- **Models** (`/models`): Essence 2, Expression 2, the first generation, how it works, the avatar file.\n- **Build** (`/build`): create your own avatar, persona, voices, recipes, and the example gallery (`/examples`).\n- **API** (`/api`), **Performance** (`/performance`), **Resources** (`/resources`).\n\nA page that moves gets a row in `scripts/ia-map.json`; `node scripts/gen-redirects.mjs` regenerates the redirects in `vercel.json`, and `ci/run-local.sh` checks them before merging (`--served` after each deploy).\n\n## API reference\n\nThe reference at `/api/reference` is generated from `src/openapi/bithuman.yaml`\n(OpenAPI 3.1) — `npm run sync-openapi` copies it to `public/api/openapi.yaml`\n(runs automatically on `dev`/`build`). Edit the spec; no hand-written endpoint pages.\n\n## Deploy\n\nGitHub push → Vercel build (project `public-docs`) → preview URL. DNS for\n`docs.bithuman.ai` is swapped to this project only once the rebuild is approved.\n\n### ★ A push can succeed while the site keeps serving the old build\n\n**Verify a publish by fetching the live HTML, never by reading the Vercel\nstatus.** This has bitten us: the push lands, the dashboard goes green, the\ndeployment is marked Ready — and `docs.bithuman.ai` keeps serving the previous\nbuild. A green status says a build finished; it does not say the domain is\npointing at it. The two failure shapes we have actually seen are an alias that\nnever moved to the new deployment, and a cached HTML response served ahead of\nit.\n\nSo the last step of publishing is not `git push`. It is:\n\n```bash\n# 1. Note the commit you pushed.\ngit rev-parse --short HEAD\n\n# 2. Fetch the LIVE page — cache-busted — and grep for a string that exists\n#    only in the new build. Pick a distinctive sentence from your own diff.\ncurl -sS \"https://docs.bithuman.ai/models/essence-2?cb=$(date +%s)\" \\\n  | grep -c \"head-upsample\"\n\n# 3. Zero means the site is still serving the old build. Investigate the alias\n#    before telling anyone the change is live.\n```\n\nDo the same for `/llms.txt` and `/sitemap.xml` when the change adds or removes a\npage — they are generated at build time and are the quickest signal that the\nbuild you are looking at is the build you pushed.\n\n**A page that carries a `TKTK` marker is not publishable at all** — `ci/run-local.sh` is red\nuntil the marker is resolved (`scripts/check-placeholders.mjs`), and\n`drafts/` holds page-sized text whose subject is not yet true. See\n`drafts/README.md`.",
+      "truncated": false,
+      "url": "https://github.com/bithuman-product/public-docs#readme"
+    }
+  },
+  {
     "id": "mcp:ai-bitroad-bitroad",
     "name": "bitroad",
     "qualifiedName": "ai.bitroad/bitroad",
@@ -19524,7 +20217,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 62,
+        "weeklyDownloads": 64,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -19846,7 +20539,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 56,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -21155,7 +21848,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 487,
+        "weeklyDownloads": 226,
         "lastPublished": "2026-09-29T06:42:07.006Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -21210,7 +21903,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 93,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -21235,7 +21928,7 @@
     ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-29T02:38:58.965501Z",
+    "updatedAt": "2026-09-30T11:42:56.507613Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 1,
@@ -22382,7 +23075,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 76,
+        "weeklyDownloads": 78,
         "lastPublished": "2026-07-10T21:59:56.081Z",
         "firstPublished": "2026-07-10T00:28:51.965Z",
         "deprecated": false,
@@ -22561,702 +23254,5 @@
         ]
       }
     ]
-  },
-  {
-    "id": "mcp:ai-canvora-canvora",
-    "name": "Canvora",
-    "qualifiedName": "ai.canvora/canvora",
-    "slug": "ai-canvora-canvora",
-    "description": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
-    "category": "Marketing & Social",
-    "repository": "https://github.com/canvora/canvora-mcp",
-    "homepage": "https://canvora.ai/for-agents",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.canvora.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 1,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-20T00:14:46.676606Z",
-    "repoMeta": {
-      "slug": "canvora/canvora-mcp",
-      "stars": 1,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-18T00:55:28Z",
-      "pushedAt": "2026-08-13T11:02:18Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": "JavaScript"
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "## Install as a skill\n\n```bash\nnpx skills add canvora/canvora-mcp\n```\n\n# Canvora — visuals for AI agents\n\n**Give your agent a design department.** Turn any idea, URL, doc, or PDF into finished, on-brand visuals: **82 formats** (posts, carousels, decks, PDFs, ads, infographics, landing-page kits), generated natively in **150+ languages** — including RTL and CJK. Brand kits keep every output in the client's colors, fonts, logo, and tone.\n\n```bash\ncanvora generate --idea \"5 tips for remote work\" \\\n  --format linkedin_carousel --slides linkedin_carousel=5 \\\n  --brand $BRAND_ID --wait --json\n# → 5 finished branded slides on CDN URLs\n```\n\nYour agent writes the brief. Canvora does the design. The outputs are stable CDN URLs ready to post, embed, or hand to a scheduler (works great upstream of [Postiz](https://github.com/gitroomhq/postiz-agent) or any posting tool: **generate → schedule**, end to end agentic).\n\nThis repo is the agent-facing toolkit for [Canvora](https://canvora.ai/for-agents):\n\n- **Agent skills** — [`skills/`](skills/): 11 task-specific skills, one `npx skills add` installs all of them into Claude Code, Cursor, Codex, OpenCode, OpenClaw and 60+ agents.\n\n  | Skill | For |\n  |---|---|\n  | [`canvora`](skills/canvora/SKILL.md) | core: setup, generate loop, credits, refinement |\n  | [`instagram-carousel`](skills/instagram-carousel/SKILL.md) | Instagram carousels / swipe posts |\n  | [`linkedin-carousel`](skills/linkedin-carousel/SKILL.md) | LinkedIn document carousels + safe zones |\n  | [`pitch-deck`](skills/pitch-deck/SKILL.md) | pitch/sales/training decks, document → slides |\n  | [`pdf-document`](skills/pdf-document/SKILL.md) | multi-page PDFs: brochures, reports, one-pagers |\n  | [`landing-page-visuals`](skills/landing-page-visuals/SKILL.md) | a whole page's visual kit from its URL |\n  | [`ad-campaign`](skills/ad-campaign/SKILL.md) | paid social + display ad sets and variants |\n  | [`blog-promo-kit`](skills/blog-promo-kit/SKILL.md) | header, OG image and promo set from one post |\n  | [`data-infographic`](skills/data-infographic/SKILL.md) | process flows, comparisons, timelines, stats |\n  | [`multilingual-campaign`](skills/multilingual-campaign/SKILL.md) | one campaign → many languages |\n  | [`product-photo-visuals`](skills/product-photo-visuals/SKILL.md) | designs built around the user's own photos |\n  | [`visual-refresh`](skills/visual-refresh/SKILL.md) | edit, vary, localize and revert what exists |\n- **Remote MCP server** — for Claude, ChatGPT, Cursor, and any MCP client. Nothing to install.\n- **`canvora` CLI** — for shell-native agents, cron jobs, and CI. Zero dependencies.\n\n> The Canvora service itself is hosted; this repo contains client tooling, skills, and docs.\n\n## Option 1 — Skills + CLI (Claude Code, Cursor, Codex, OpenClaw, shell-native agents)\n\n```bash\nnpx skills add canvora/canvora-mcp     # installs the skills (they set up the CLI on first use)\n# or just the CLI:\nnpm install -g @canvora/cli\n\nexport CANVORA_API_KEY=vd_...   # create at canvora.ai → Integrations → API Keys (all plans, incl. Free)\n\n# one atomic command: generates, polls, exits with the output URLs\ncanvora generate \\\n  --idea \"5 tips for remote work\" \\\n  --format linkedin_carousel --slides linkedin_carousel=5 \\\n  --wait --json\n```\n\nMore runnable recipes: [`examples/`](examples/)\n\n### Commands\n\n| Command | What it does |\n|---|---|\n| `canvora generate` | Create visuals from an `--idea` (short concept, Canvora develops it), `--input` (your full content text), `--url`, or `--file-url` (PDF). `--wait` polls to completion and prints output URLs. |\n| `canvora localize <id> --language es` | Same design, new language: translates an existing generation's visuals, layout untouched |\n| `canvora variations <id> [--count n]` | Fresh takes on an existing generation's visuals |\n| `canvora edit <outputId> --prompt \"...\"` | Natural-language edit of one visual (previews the change; `--yes` auto-confirms) |\n| `canvora status <id>` | Check a generation and list its output URLs |\n| `canvora download <id> --dir out/` | Save all output files locally |\n| `canvora formats` | All 82 format IDs with dimensions (live catalog) |\n| `canvora brands` | Your brand kits (pass one via `--brand <uuid>`) |\n| `canvora credits` | Credit balance (10 credits per visual, 15 per carousel/deck slide) |\n\nEvery command takes `--json` for machine-readable stdout; progress and errors go to stderr, so piping stays clean. Exit codes: `0` success, `1` failure, `2` usage error.\n\n### Generate flags\n\n```\n--idea \"concept\"          short concept - Canvora develops it into content\n--input \"text\"            your full content text, used as the source material\n--url <url>               extract content from a webpage\n--file-url <pdf-url>      extract content from a PDF\n--format <id>[,<id>...]   output formats (see: canvora formats)\n--slides <format>=<n>     slide count for carousel/deck formats (1-10, default 5); match it to the item count your idea promises\n--brand <uuid>            apply a brand kit\n--style <name>            modern | minimal | bold | elegant | playful | corporate | creative | dark\n--resolution 2K|4K        4K on paid plans\n--language <code-or-name> visual text language (\"es\", \"Spanish\"); default: matches your input's language\n--exact                   use --input text verbatim, no rewording (quotes, taglines)\n--logo                    place the brand kit's logo on the visual (needs --brand)\n--cta                     end a carousel/deck on a call-to-action slide\n--no-text                 pure visual, no typography (backgrounds, hero imagery)\n--freeform                ignore format-specific art direction, use dimensions only\n--landing-page            with --url: read the page's sections and produce a matching\n                          landingPage-* visual kit (Starter plan or higher)\n--project <uuid>          group outputs into a project/campaign\n--workspace <uuid>        bill a team workspace pool instead of your personal credits\n--wait           \n\n…",
-      "truncated": true,
-      "url": "https://github.com/canvora/canvora-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-caulo-caulo",
-    "name": "Caulo",
-    "qualifiedName": "ai.caulo/caulo",
-    "slug": "ai-caulo-caulo",
-    "description": "Social network for verified humans where your AI agent reads the feed, posts, DMs, and moderates.",
-    "category": "AI & Memory",
-    "repository": null,
-    "homepage": "https://caulo.ai/docs/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.caulo.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-03T15:24:58.514124Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-caybl-caybl",
-    "name": "Caybl",
-    "qualifiedName": "ai.caybl/caybl",
-    "slug": "ai-caybl-caybl",
-    "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
-    "category": "Web & Search",
-    "repository": null,
-    "homepage": "https://caybl.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.caybl.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-27T21:39:11.9391Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-ccapi-mcp",
-    "name": "CCAPI",
-    "qualifiedName": "ai.ccapi/mcp",
-    "slug": "ai-ccapi-mcp",
-    "description": "Image, video, music and text generation across 100+ models through one endpoint.",
-    "category": "Design & Media",
-    "repository": null,
-    "homepage": "https://ccapi.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.ccapi.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-02T06:15:22.212147Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "chat_completion",
-        "description": "Send a conversation to any text model available through CCAPI (Claude, GPT, Gemini, DeepSeek, GLM, MiniMax, Kimi, Qwen…) and get the reply. Useful for consulting a second model for a different perspective, running a cheap model over bulk work, or reaching a model the current client does not have configured. Responses are non-streaming.",
-        "inputs": [
-          {
-            "name": "model",
-            "type": "string",
-            "description": "Exact model name, e.g. claude-sonnet-5 or deepseek-v4-pro. Call list_models with category 'text' if unsure.",
-            "required": true
-          },
-          {
-            "name": "messages",
-            "type": "null | array",
-            "description": "Conversation so far, oldest first. Must contain at least one message.",
-            "required": true
-          },
-          {
-            "name": "max_tokens",
-            "type": "null | integer",
-            "description": "Maximum tokens to generate. Omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "temperature",
-            "type": "null | number",
-            "description": "Sampling temperature, typically 0-2. Omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "top_p",
-            "type": "null | number",
-            "description": "Nucleus sampling probability mass, 0-1. Omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "stop",
-            "type": "null | array",
-            "description": "Up to 4 sequences that stop generation.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "edit_image",
-        "description": "Edit existing images according to an instruction, using the dedicated image edit endpoint. Provide at least one source image. For pure text-to-image, or for models that take references through the generation endpoint, use generate_image instead.",
-        "inputs": [
-          {
-            "name": "model",
-            "type": "string",
-            "description": "Exact model name, e.g. gpt-image-2 or nano-banana-pro. Call list_models with category 'image' if unsure.",
-            "required": true
-          },
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "Description of the image to generate.",
-            "required": true
-          },
-          {
-            "name": "images",
-            "type": "null | array",
-            "description": "Optional reference images as HTTPS URLs or data URLs, for image-to-image generation. Not all models accept references.",
-            "required": false
-          },
-          {
-            "name": "size",
-            "type": "string",
-            "description": "Output size, e.g. 1024x1024, 1536x1024, or 'auto'. Model-dependent; omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "n",
-            "type": "null | integer",
-            "description": "How many images to generate. Defaults to 1. Each one is billed.",
-            "required": false
-          },
-          {
-            "name": "quality",
-            "type": "string",
-            "description": "Quality hint, e.g. low, medium, high or auto. Model-dependent.",
-            "required": false
-          },
-          {
-            "name": "response_format",
-            "type": "string",
-            "description": "'url' (default) returns links; 'b64_json' returns base64 data, which is far larger and usually unnecessary.",
-            "required": false
-          },
-          {
-            "name": "aspect_ratio",
-            "type": "string",
-            "description": "Z-Image only: required output aspect ratio. Supported values: 1:1, 4:3, 3:4, 16:9, 9:16.",
-            "required": false
-          },
-          {
-            "name": "nsfw_checker",
-            "type": "null | boolean",
-            "description": "Z-Image only: enable or disable the upstream NSFW checker. Explicit false is preserved.",
-            "required": false
-          },
-          {
-            "name": "async",
-            "type": "boolean",
-            "description": "Submit asynchronously and return a task_id instead of waiting. Use when the client times out on slow models; poll with get_task using platform 'image'.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Only with async: poll server-side for up to this many seconds (max 240) and return the finished image if it completes in time.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "extend_music",
-        "description": "Continue an existing song from a given timestamp, producing a longer version. Requires the clip_id of a previously generated song, which appears in the 'raw' payload of a completed generate_music task. Asynchronous — poll with get_task.",
-        "inputs": [
-          {
-            "name": "clip_id",
-            "type": "string",
-            "description": "ID of the song to extend, taken from the 'raw' clip list of a completed generate_music task.",
-            "required": true
-          },
-          {
-            "name": "continue_at",
-            "type": "number",
-            "description": "Timestamp in seconds within the original song to continue from.",
-            "required": true
-          },
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "Lyrics for the extended section.",
-            "required": false
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": "New title for the extended song.",
-            "required": false
-          },
-          {
-            "name": "tags",
-            "type": "string",
-            "description": "Style tags for the extension.",
-            "required": false
-          },
-          {
-            "name": "provider",
-            "type": "string",
-            "description": "Music backend: 'suno' (default) or 'producer'.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Poll server-side for up to this many seconds (max 240).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "generate_image",
-        "description": "Generate an image from a text prompt, optionally guided by reference images (image-to-image). Returns image URLs directly. Most models finish in 10-60 seconds; if your client times out, set async=true to get a task_id you can poll instead. This call costs money — do not retry speculatively.",
-        "inputs": [
-          {
-            "name": "model",
-            "type": "string",
-            "description": "Exact model name, e.g. gpt-image-2 or nano-banana-pro. Call list_models with category 'image' if unsure.",
-            "required": true
-          },
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "Description of the image to generate.",
-            "required": true
-          },
-          {
-            "name": "images",
-            "type": "null | array",
-            "description": "Optional reference images as HTTPS URLs or data URLs, for image-to-image generation. Not all models accept references.",
-            "required": false
-          },
-          {
-            "name": "size",
-            "type": "string",
-            "description": "Output size, e.g. 1024x1024, 1536x1024, or 'auto'. Model-dependent; omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "n",
-            "type": "null | integer",
-            "description": "How many images to generate. Defaults to 1. Each one is billed.",
-            "required": false
-          },
-          {
-            "name": "quality",
-            "type": "string",
-            "description": "Quality hint, e.g. low, medium, high or auto. Model-dependent.",
-            "required": false
-          },
-          {
-            "name": "response_format",
-            "type": "string",
-            "description": "'url' (default) returns links; 'b64_json' returns base64 data, which is far larger and usually unnecessary.",
-            "required": false
-          },
-          {
-            "name": "aspect_ratio",
-            "type": "string",
-            "description": "Z-Image only: required output aspect ratio. Supported values: 1:1, 4:3, 3:4, 16:9, 9:16.",
-            "required": false
-          },
-          {
-            "name": "nsfw_checker",
-            "type": "null | boolean",
-            "description": "Z-Image only: enable or disable the upstream NSFW checker. Explicit false is preserved.",
-            "required": false
-          },
-          {
-            "name": "async",
-            "type": "boolean",
-            "description": "Submit asynchronously and return a task_id instead of waiting. Use when the client times out on slow models; poll with get_task using platform 'image'.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Only with async: poll server-side for up to this many seconds (max 240) and return the finished image if it completes in time.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "generate_lyrics",
-        "description": "Write song lyrics from a description, without generating audio. Useful as a first step before generate_music with custom=true, so the user can approve the words before paying for audio. Asynchronous — poll with get_task.",
-        "inputs": [
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "Description of the lyrics to write, e.g. 'a love song about meeting someone at a coffee shop'.",
-            "required": true
-          },
-          {
-            "name": "lyrics_model",
-            "type": "string",
-            "description": "Lyrics model: classic or remi.",
-            "required": false
-          },
-          {
-            "name": "provider",
-            "type": "string",
-            "description": "Music backend: 'suno' (default) or 'producer'.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Poll server-side for up to this many seconds (max 240). Lyrics usually finish in under 30 seconds.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "generate_music",
-        "description": "Generate a song with vocals or instrumental. Two modes: simple (custom=false) where you describe the song and the model writes the lyrics, or custom (custom=true) where you supply lyrics, title and style tags. Asynchronous — returns a task_id you poll with get_task; generation usually takes 30-120 seconds and normally yields two variations.",
-        "inputs": [
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "In simple mode (custom=false) a description of the song, e.g. 'a dreamy lo-fi track about late-night trains'. In custom mode (custom=true) the actual lyrics, with section markers like [Verse] and [Cho",
-            "required": true
-          },
-          {
-            "name": "custom",
-            "type": "boolean",
-            "description": "false (default) lets the model write the lyrics from your description; true means prompt contains lyrics you wrote and you should also set title and tags.",
-            "required": false
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Song title. Used in custom mode.",
-            "required": false
-          },
-          {
-            "name": "tags",
-            "type": "string",
-            "description": "Comma-separated style tags, e.g. 'pop, upbeat, guitar'. Max 200 characters.",
-            "required": false
-          },
-          {
-            "name": "negative_tags",
-            "type": "string",
-            "description": "Styles to avoid, e.g. 'heavy metal, rap'.",
-            "required": false
-          },
-          {
-            "name": "instrumental",
-            "type": "boolean",
-            "description": "Generate without vocals.",
-            "required": false
-          },
-          {
-            "name": "model",
-            "type": "string",
-            "description": "Suno model version, e.g. chirp-v5 or chirp-v4-5-plus. Omit for the platform default.",
-            "required": false
-          },
-          {
-            "name": "provider",
-            "type": "string",
-            "description": "Music backend: 'suno' (default) or 'producer'.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Poll server-side for up to this many seconds (max 240) and return finished audio if it completes in time. Omit to return a task_id immediately.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "generate_video",
-        "description": "Generate a video from a text prompt, optionally driven by reference images (image-to-video, first/last frame). This is asynchronous: it returns a task_id you poll with get_task(platform='video'). Generation usually takes 30-180 seconds. Pass wait_seconds to have the server poll for you. Video generation is the most expensive capability here — confirm the prompt with the user before spending on ret",
-        "inputs": [
-          {
-            "name": "model",
-            "type": "string",
-            "description": "Exact model name, e.g. doubao-seedance-2-0-260128, veo-3.1-quality or viduq3-pro. Call list_models with category 'video' if unsure.",
-            "required": true
-          },
-          {
-            "name": "prompt",
-            "type": "string",
-            "description": "Description of the video to generate.",
-            "required": true
-          },
-          {
-            "name": "images",
-            "type": "null | array",
-            "description": "Optional reference image URLs. A single image is used as the first frame; use image_roles to control multiple.",
-            "required": false
-          },
-          {
-            "name": "videos",
-            "type": "null | array",
-            "description": "Optional Seedance reference video URLs or asset:// URIs returned by the trusted asset catalog.",
-            "required": false
-          },
-          {
-            "name": "audios",
-            "type": "null | array",
-            "description": "Optional Seedance reference audio URLs or asset:// URIs returned by the trusted asset catalog. Reference audio cannot be used alone.",
-            "required": false
-          },
-          {
-            "name": "duration",
-            "type": "null | integer",
-            "description": "Clip length in seconds. Model-dependent, typically 4-15; an unsupported value is rejected with a message naming the supported ones. Omit for the model default.",
-            "required": false
-          },
-          {
-            "name": "resolution",
-            "type": "string",
-            "description": "Output resolution: 480p, 720p (widest compatibility) or 1080p. Model-dependent.",
-            "required": false
-          },
-          {
-            "name": "ratio",
-            "type": "string",
-            "description": "Aspect ratio, e.g. 16:9, 9:16, 1:1, 21:9 or adaptive. Which values a model accepts varies; an unsupported one is rejected with a message naming the valid ones.",
-            "required": false
-          },
-          {
-            "name": "generate_audio",
-            "type": "null | boolean",
-            "description": "Generate a synchronised soundtrack. Only some models support this.",
-            "required": false
-          },
-          {
-            "name": "image_roles",
-            "type": "null | array",
-            "description": "Role of each entry in images, positionally: first_frame, last_frame or reference_image.",
-            "required": false
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Poll server-side for up to this many seconds (max 240) and return the finished video if it completes in time. Omit to return a task_id immediately.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_balance",
-        "description": "Report the remaining and used balance for this CCAPI key. Useful before starting an expensive batch of generations, or to explain a quota failure to the user.",
-        "inputs": null
-      },
-      {
-        "name": "get_task",
-        "description": "Check the status of an asynchronous generation task submitted by generate_video, generate_music, generate_lyrics, extend_music, or generate_image with async=true. Pass the platform and task_id exactly as they were returned. Status is one of queued, in_progress, completed or failed; poll every few seconds until it settles, or pass wait_seconds to have the server wait for you.",
-        "inputs": [
-          {
-            "name": "platform",
-            "type": "string",
-            "description": "Platform the task belongs to, exactly as returned by the submit tool: image, video, suno or producer.",
-            "required": true
-          },
-          {
-            "name": "task_id",
-            "type": "string",
-            "description": "Task identifier returned by the submit tool.",
-            "required": true
-          },
-          {
-            "name": "wait_seconds",
-            "type": "null | integer",
-            "description": "Poll server-side for up to this many seconds (max 240) and return once the task finishes. Omit for a single immediate status check.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "list_models",
-        "description": "List the AI models this CCAPI key can actually call, with their capability category and the MCP tool that drives them. Call this before generating anything if you are unsure a model name is valid — availability depends on the key's group and changes over time. Never guess model names.",
-        "inputs": [
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Filter by capability. One of: text, image, video, music, embedding, other. Omit to list every model this key can use.",
-            "required": false
-          },
-          {
-            "name": "search",
-            "type": "string",
-            "description": "Case-insensitive substring match on the model name, e.g. 'claude' or 'seedance'.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "upscale_image",
-        "description": "Increase the resolution of an existing image 2x with ccapi-upscale-v1. Input must be between 256x256 and 1024x1024 and under 5 MB; for larger inputs, regenerate with a high-resolution model instead.",
-        "inputs": [
-          {
-            "name": "image",
-            "type": "string",
-            "description": "The image to upscale, as an HTTPS URL, data URL, or raw base64. Width and height must each be 256-1024 px and the file at most 5 MB.",
-            "required": true
-          },
-          {
-            "name": "model_quality",
-            "type": "string",
-            "description": "Upscale quality hint: HQ, MQ (default) or LQ.",
-            "required": false
-          },
-          {
-            "name": "response_format",
-            "type": "string",
-            "description": "'url' (default) or 'b64_json'.",
-            "required": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-cdbx-mcp-server",
-    "name": "Cdbx MCP",
-    "qualifiedName": "ai.cdbx/mcp-server",
-    "slug": "ai-cdbx-mcp-server",
-    "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
-    "category": "AI & Memory",
-    "repository": "https://github.com/ChristopherHButler/cdbx.ai",
-    "homepage": "https://github.com/ChristopherHButler/cdbx.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://cdbx.ai/api/mcp/server",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer cdbx API key (cdbx_<64 hex chars>), generated from cdbx account settings. Needs mcp:read or mcp:write scope.",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-20T08:13:44.889307Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-cerebrium-docs",
-    "name": "Cerebrium Docs",
-    "qualifiedName": "ai.cerebrium/docs",
-    "slug": "ai-cerebrium-docs",
-    "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
-    "category": "Web & Search",
-    "repository": "https://github.com/CerebriumAI/cerebrium-skills",
-    "homepage": "https://cerebrium.ai/docs",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://cerebrium.ai/docs/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-01T16:54:17.505427Z",
-    "repoMeta": {
-      "slug": "CerebriumAI/cerebrium-skills",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-08-19T14:26:16Z",
-      "pushedAt": "2026-09-04T16:52:02Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": "Python"
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search_cerebrium",
-        "description": "Search across the Cerebrium knowledge base to find relevant information, code examples, API references, and guides. Use this tool when you need to answer questions about Cerebrium, find specific documentation, understand how features work, or locate implementation details. The search returns contextual content with titles and direct links to the documentation pages. If you need the full content of",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Search query",
-            "required": true
-          },
-          {
-            "name": "version",
-            "type": "string",
-            "description": "Filter to specific version (e.g., 'v0.7')",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "query_docs_filesystem_cerebrium",
-        "description": "Run a read-only shell-like query against a virtualized, in-memory filesystem rooted at `/` that contains ONLY the Cerebrium documentation pages and OpenAPI specs. This is NOT a shell on any real machine — nothing runs on the user's computer, the server host, or any network. The filesystem is a sandbox backed by documentation chunks. This is how you read documentation pages: there is no separate \"g",
-        "inputs": [
-          {
-            "name": "command",
-            "type": "string",
-            "description": "A shell command to run against the virtualized documentation filesystem (e.g., `rg -il \"keyword\" /`, `tree / -L 2`, `head -80 /path/file.mdx`).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "submit_feedback",
-        "description": "Report a problem with this documentation site so the docs team can fix it. Use when a documentation page is incorrect, outdated, confusing, incomplete, or has a broken example. This is for feedback about the documentation content itself — not for product support requests or feedback about this tool or assistant.",
-        "inputs": [
-          {
-            "name": "path",
-            "type": "string",
-            "description": "The URL path of the documentation page the feedback is about (the page you were reading, without the `.mdx` extension).",
-            "required": true
-          },
-          {
-            "name": "feedback",
-            "type": "string",
-            "description": "A clear description of the documentation issue or suggestion — what is incorrect, outdated, missing, or confusing.",
-            "required": true
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# Cerebrium agent skills\n\nOfficial [Agent Skills](https://agentskills.io) and hosted docs MCP for\n[Cerebrium](https://www.cerebrium.ai), the serverless GPU and CPU platform for real-time AI\nworkloads. The skills teach a coding agent to write a valid `cerebrium.toml`, pick hardware and a\nregion, deploy, call the endpoint, and debug the result without leaving the terminal. The MCP\ngives it live search over the documentation.\n\nWorks with Claude Code, Codex, Cursor, GitHub Copilot, Windsurf, Cline and anything else that\nreads the Agent Skills format.\n\n## Install\n\nAny agent (installs the skills into every detected harness):\n\n```bash\nnpx skills add CerebriumAI/cerebrium-skills -g -y\nnpx add-mcp https://cerebrium.ai/docs/mcp -n cerebrium-docs -g -y\n```\n\nClaude Code (one plugin bundles the skills and the docs MCP):\n\n```\n/plugin marketplace add CerebriumAI/cerebrium-skills\n/plugin install cerebrium@cerebrium\n```\n\nCodex:\n\n```bash\ncodex plugin marketplace add CerebriumAI/cerebrium-skills\n```\n\nGemini CLI (one extension bundles the skills and the docs MCP):\n\n```bash\ngemini extensions install https://github.com/CerebriumAI/cerebrium-skills\n```\n\nCursor loads the repository directly as an [Agent Plugin](https://agent-plugins.org): the root\n`plugin.json` and `mcp.json` are the open-standard manifests, so no Cursor-specific install step\nis needed.\n\nOr agent-driven: paste this into the agent of your choice.\n\n```\nInstall the Cerebrium agent toolkit following instructions from\ngithub.com/CerebriumAI/cerebrium-skills: use `npx skills add` and `npx add-mcp`,\nglobal and auto-confirmed for all agents (-g -y).\n```\n\nThen create an account and authenticate the CLI once:\n\n```bash\n# create an account at https://dashboard.cerebrium.ai (also where API keys are created)\npip install cerebrium   # or: brew tap cerebriumai/tap && brew install cerebrium\ncerebrium login\n```\n\nCompute is billed per second: see [pricing](https://www.cerebrium.ai/pricing) for current rates\nand any starting credit.\n\nIn CI, skip `login` and set `CEREBRIUM_SERVICE_ACCOUNT_TOKEN` instead.\n\n## What is in here\n\nOne skill, structured for progressive disclosure: agents load the ~120-line core\n(`skills/cerebrium/SKILL.md`, the workflow, the safety rules, the endpoint shapes) when a\nCerebrium task appears, and pull in a reference file only when the task needs it.\n\n| Reference | Loaded when the task involves |\n| --- | --- |\n| `references/cli.md` | Any `cerebrium` command: full surface, flags, non-interactive auth, CI/CD, which commands cost money. |\n| `references/config.md` | `cerebrium.toml`: every key, the default the API applies when it is omitted, accepted ranges, rebuild triggers. |\n| `references/hardware.md` | The 13 accepted `compute` identifiers, per-GPU and per-plan limits, preference lists, regional availability, storage. |\n| `references/troubleshooting.md` | Failed builds, queueing, reverted settings, the cold-start playbook. |\n\nThe docs MCP (hosted at `https://cerebrium.ai/docs/mcp`) searches and reads the published\ndocumentation, and accepts documentation feedback: `search_cerebrium`,\n`query_docs_filesystem_cerebrium`, and `submit_feedback`. No account access, no key needed. It is declared twice on purpose, because the two\nformats are not interchangeable: `.mcp.json` is the Claude Code convention, and `mcp.json` at the\nrepository root is the path the Agent Plugins standard requires, with that standard's\n`streamable-http` transport name.\n\nThe plugin metadata is likewise declared per host: `.claude-plugin/` for Claude Code,\n`.agents/plugins/` for Codex, root `plugin.json` for Agent Plugins clients such as Cursor, and\n`gemini-extension.json` for the Gemini CLI. `server.json` is the MCP registry entry.\n\n## Try it\n\n- \"Deploy this FastAPI app to Cerebrium on an H100 with auth enabled, then follow the logs.\"\n- \"My Cerebrium app queues requests under load. Work out why and fix the config.\"\n- \"Which GPU and region fit a 13B vLLM model on Cerebrium, and what should the cerebrium.toml be?\"\n\n## Related surfaces\n\n- Any docs page as markdown: append `.md` to the URL\n- Page index: `https://cerebrium.ai/docs/llms.txt`\n- Runnable examples: [CerebriumAI/examples](https://github.com/CerebriumAI/examples)\n\n## Accuracy\n\nEvery default, enum, flag and signature here was read out of the CLI source and the API\nvalidator rather than copied from a docs page. See [CONTRIBUTING.md](CONTRIBUTING.md) for where\nto check each kind of claim, and keep it that way.\n\nMIT licensed.",
-      "truncated": false,
-      "url": "https://github.com/CerebriumAI/cerebrium-skills#readme"
-    }
   }
 ]
