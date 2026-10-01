@@ -1,145 +1,137 @@
 {
-  "generatedAt": "2026-09-30T12:12:19.417Z",
+  "generatedAt": "2026-10-01T12:46:25.242Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "math-proof",
+          "name": "math-proof",
+          "description": "Two skills for hard mathematics problems, each ending in a self-contained proof.md: /math-proof:solo has the session work the problem itself in stages with a notes file; /math-proof:siege works on it for hours in rounds of judge and worker sub-agents and says plainly what is and is not proved.",
+          "category": "Automation & Workflow"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [
-        {
-          "slug": "aws-startup-advisor",
-          "name": "aws-startup-advisor",
-          "description": "Personalized AWS guidance built on patterns from 350,000+ startups. Get architecture, cost, and security recommendations matched to your stage, from day-one account setup to production-ready infrastructure. Migrate to AWS from Azure, GCP, or Heroku with resource discovery, cost estimates, and generated Terraform. Move…",
-          "category": "Design & Creative",
-          "delta": 2738,
-          "stars": 2758
-        },
         {
           "slug": "vibe-prospecting",
           "name": "vibe-prospecting",
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
           "delta": 8,
-          "stars": 72
-        },
-        {
-          "slug": "postman",
-          "name": "postman",
-          "description": "Work with Postman from your agent: bootstrap a repo's Postman setup, mock an API before it's implemented, run collection and governance checks in CI, monitor a live endpoint, deploy and debug Postman Flows, and publish generated API documentation.",
-          "category": "Automation & Workflow",
-          "delta": -35,
-          "stars": 6
+          "stars": 80
         }
       ],
       "counts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 337,
-        "currentTotal": 337
+        "currentTotal": 338
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "ae-brainy-grocery-prices",
-          "name": "Dubai Grocery Prices",
-          "description": "Compare Dubai grocery lists, observed prices, delivery rules and indicative online offers in AED.",
-          "category": "Other"
-        },
-        {
-          "slug": "ae-datadubai-dubai-real-estate",
-          "name": "Dubai Data — Dubai real estate statistics",
-          "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
-          "category": "Other"
-        },
-        {
-          "slug": "ae-projectory-mcp",
-          "name": "Projectory",
-          "description": "Find UAE off-plan developments and registered residential sales.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-69ai-69ai",
-          "name": "69.ai",
-          "description": "Relationship network for AI agents and people: register, match, chat, dinner ideas, virtual gifts.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-bithuman-docs",
-          "name": "bitHuman docs",
-          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+          "slug": "ai-aimentiontracker-mcp",
+          "name": "AIMentionTracker",
+          "description": "How often ChatGPT, Claude, Gemini and Perplexity name and cite your brand, with the evidence.",
           "category": "Web & Search"
+        },
+        {
+          "slug": "ai-blipsmith-sound-effects",
+          "name": "Blipsmith Sound Effects",
+          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-buildersinfintech-fintech-data",
+          "name": "Builders in Fintech",
+          "description": "Fintech funding rounds, companies, investors and podcast knowledge. Free, keyless, CC BY 4.0.",
+          "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "ai-canvora-canvora",
-          "name": "Canvora",
-          "description": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
-          "category": "Marketing & Social"
+          "slug": "ai-calaf-calaf",
+          "name": "Calaf",
+          "description": "Run your Calaf recruiting book from chat: firms, people, pipeline, calendar, notes, and prep.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-caulo-caulo",
-          "name": "Caulo",
-          "description": "Social network for verified humans where your AI agent reads the feed, posts, DMs, and moderates.",
-          "category": "AI & Memory"
+          "slug": "ai-calaf-seeds",
+          "name": "Calaf Seed Tools",
+          "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
+          "category": "Other"
         },
         {
-          "slug": "ai-caybl-caybl",
-          "name": "Caybl",
-          "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
-          "category": "Web & Search"
+          "slug": "ai-calendarmcp-server",
+          "name": "CalendarMCP",
+          "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-ccapi-mcp",
-          "name": "CCAPI",
-          "description": "Image, video, music and text generation across 100+ models through one endpoint.",
-          "category": "Design & Media"
+          "slug": "ai-calfeed-calfeed",
+          "name": "Calfeed",
+          "description": "Turn a written schedule into a live calendar link people subscribe to in Apple, Google, Outlook.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-cdbx-mcp-server",
-          "name": "Cdbx MCP",
-          "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
-          "category": "AI & Memory"
+          "slug": "ai-callmcp-server",
+          "name": "Callmcp MCP",
+          "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
+          "category": "Legal & Government"
         },
         {
-          "slug": "ai-cerebrium-docs",
-          "name": "Cerebrium Docs",
-          "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
-          "category": "Web & Search"
+          "slug": "ai-canaryusers-canaryusers",
+          "name": "canaryusers",
+          "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-canivibe-status",
+          "name": "Can I Vibe? — AI coding provider status",
+          "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
+          "category": "Health & Science"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 5,
-        "removed": 6,
+        "added": 3,
+        "removed": 7,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 233,
-        "currentTotal": 232
+        "previousTotal": 232,
+        "currentTotal": 228
       }
     },
     "repos": {
       "baseline": true,
       "added": [],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "daytonaio-daytona",
+          "name": "daytona",
+          "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+          "category": "AI Agents"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 0,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 124,
-        "currentTotal": 124
+        "currentTotal": 123
       }
     }
   }

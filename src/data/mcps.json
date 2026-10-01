@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 616637,
+        "weeklyDownloads": 599195,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 163555,
+        "weeklyDownloads": 163783,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 129911,
+        "weeklyDownloads": 134746,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 297111,
+        "weeklyDownloads": 296327,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90707,
+    "stars": 90914,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90707,
-      "forks": 11715,
+      "stars": 90914,
+      "forks": 11738,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-09-30T10:02:11Z",
-      "openIssues": 237,
+      "pushedAt": "2026-10-01T06:57:00Z",
+      "openIssues": 242,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1062,17 +1062,17 @@
         "headers": []
       }
     ],
-    "stars": 122,
+    "stars": 121,
     "source": "MCP Registry",
     "updatedAt": "2026-04-22T21:06:34.500049Z",
     "repoMeta": {
       "slug": "frumu-ai/tandem",
-      "stars": 122,
+      "stars": 121,
       "forks": 13,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
-      "pushedAt": "2026-09-30T11:41:39Z",
+      "pushedAt": "2026-09-30T20:48:40Z",
       "openIssues": 4,
       "license": "NOASSERTION",
       "language": "Rust"
@@ -3380,7 +3380,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 76,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -3434,18 +3434,18 @@
         "headers": []
       }
     ],
-    "stars": 7303,
+    "stars": 7306,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7303,
+      "stars": 7306,
       "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 123,
+      "pushedAt": "2026-09-30T23:35:30Z",
+      "openIssues": 124,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3487,18 +3487,18 @@
         "headers": []
       }
     ],
-    "stars": 7303,
+    "stars": 7306,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7303,
+      "stars": 7306,
       "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 123,
+      "pushedAt": "2026-09-30T23:35:30Z",
+      "openIssues": 124,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3588,18 +3588,18 @@
         "headers": []
       }
     ],
-    "stars": 7303,
+    "stars": 7306,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7303,
+      "stars": 7306,
       "forks": 1016,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-23T23:33:30Z",
-      "openIssues": 123,
+      "pushedAt": "2026-09-30T23:35:30Z",
+      "openIssues": 124,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3959,7 +3959,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 353,
+        "weeklyDownloads": 340,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -4350,7 +4350,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 34,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -4611,7 +4611,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 319,
+        "weeklyDownloads": 288,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -5274,7 +5274,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 343,
+        "weeklyDownloads": 355,
         "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
@@ -5923,7 +5923,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 300,
+        "weeklyDownloads": 274,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -6747,12 +6747,12 @@
         "headers": []
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T15:17:01.794422Z",
     "repoMeta": {
       "slug": "observer-protocol/at-directory",
-      "stars": 1,
+      "stars": 0,
       "forks": 4,
       "archived": false,
       "isFork": false,
@@ -7717,7 +7717,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 66,
+        "weeklyDownloads": 67,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -7726,12 +7726,12 @@
       }
     ],
     "remotes": [],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-03-06T11:23:10.721165Z",
     "repoMeta": {
       "slug": "agenttrust/mcp-server",
-      "stars": 2,
+      "stars": 1,
       "forks": 1,
       "archived": false,
       "isFork": false,
@@ -7764,7 +7764,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 80,
+        "weeklyDownloads": 91,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -7795,7 +7795,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 64,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -7826,7 +7826,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 121,
+        "weeklyDownloads": 182,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -7857,7 +7857,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 97,
+        "weeklyDownloads": 104,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -7888,7 +7888,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 87,
+        "weeklyDownloads": 93,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -7919,7 +7919,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 95,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -7950,7 +7950,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 92,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -7981,7 +7981,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 75,
+        "weeklyDownloads": 87,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -8012,7 +8012,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 84,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -8043,7 +8043,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 74,
+        "weeklyDownloads": 81,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -8074,7 +8074,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 76,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -8105,7 +8105,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 76,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -8136,7 +8136,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 83,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -8167,7 +8167,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 79,
+        "weeklyDownloads": 89,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -8198,7 +8198,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 93,
+        "weeklyDownloads": 95,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -8229,7 +8229,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 153,
+        "weeklyDownloads": 233,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -8260,7 +8260,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 92,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -8824,6 +8824,67 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mcp:ai-aimentiontracker-mcp",
+    "name": "AIMentionTracker",
+    "qualifiedName": "ai.aimentiontracker/mcp",
+    "slug": "ai-aimentiontracker-mcp",
+    "description": "How often ChatGPT, Claude, Gemini and Perplexity name and cite your brand, with the evidence.",
+    "category": "Web & Search",
+    "repository": "https://github.com/aimentiontracker/mcp",
+    "homepage": "https://aimentiontracker.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@aimentiontracker/mcp",
+        "version": "0.1.1",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": [
+          {
+            "name": "AMT_API_KEY",
+            "description": "An API key from https://app.aimentiontracker.ai/api-keys. Read-only: it cannot change billing, the team, or what is tracked.",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ],
+        "weeklyDownloads": null,
+        "lastPublished": "2026-09-30T22:09:13.403Z",
+        "firstPublished": "2026-09-30T19:50:15.536Z",
+        "deprecated": false,
+        "declaredRepo": "aimentiontracker/mcp",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aimentiontracker.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-09-30T22:12:41.984881Z",
+    "repoMeta": {
+      "slug": "aimentiontracker/mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-09-30T21:34:04Z",
+      "pushedAt": "2026-09-30T21:34:07Z",
+      "openIssues": 0,
+      "license": null,
+      "language": "TypeScript"
+    },
+    "readme": {
+      "markdown": "# @aimentiontracker/mcp\n\nMCP server for [AIMentionTracker](https://app.aimentiontracker.ai): how often AI assistants name and cite your brand.\n\n## Hosted (no install)\n\n```bash\nclaude mcp add --transport http aimentiontracker https://mcp.aimentiontracker.ai \\\n  --header \"Authorization: Bearer amt_live_YOUR_KEY\"\n```\n\n## Local (stdio)\n\n```bash\nclaude mcp add aimentiontracker -e AMT_API_KEY=amt_live_... -- npx -y @aimentiontracker/mcp\n```\n\nCreate a key at [app.aimentiontracker.ai/api-keys](https://app.aimentiontracker.ai/api-keys).\n\n## Tools\n\nAll read-only. v1 has no write endpoints, deliberately: adding a prompt expands a metered bill and triggering a run spends real vendor money.\n\n| Tool | What it answers |\n|---|---|\n| `get_me` | Who this key is, the plan, and the reporting thresholds. **Call first.** |\n| `list_brands` | Which brands this key can read, and their ids |\n| `get_visibility` | Presence per engine and per brand over a window |\n| `list_answers` | The stored answers, with mentions and citations |\n| `list_sources` | Domains the engines read before answering |\n| `list_alerts` | Findings worth acting on |\n\n## Three rules the tools enforce\n\n1. **A null rate means \"not enough answers yet\", never zero.** Rendering it as 0% reports a collapse that did not happen.\n2. **Engines are never averaged.** They disagree; a mean describes no real surface.\n3. **An empty findings list does not mean nothing changed.** `list_alerts` says so in the payload, not just the description.\n\n## Security\n\nThe hosted server **holds no secrets**. No database, no vendor credentials, no service account. Your key arrives in the `Authorization` header and is passed straight through to the API, which does all authentication, tenancy, entitlement and rate limiting. Each request gets a fresh, stateless server instance that is closed when the response ends.\n\nMIT.",
+      "truncated": false,
+      "url": "https://github.com/aimentiontracker/mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-airshelf-catalog",
@@ -9437,12 +9498,12 @@
       }
     ],
     "remotes": [],
-    "stars": 22,
+    "stars": 21,
     "source": "MCP Registry",
     "updatedAt": "2025-10-09T17:05:17.793149Z",
     "repoMeta": {
       "slug": "aliengiraffe/spotdb",
-      "stars": 22,
+      "stars": 21,
       "forks": 4,
       "archived": false,
       "isFork": false,
@@ -9635,7 +9696,7 @@
       },
       {
         "name": "search_sec_event_filings",
-        "description": "Search US SEC 8-K and 6-K current-report nodes for company events and disclosures. Use this to discover issuers across a date range. Do not use this for 10-K, 10-Q, or DEF 14A filings. How to search: 1. Always pass concept_groups. Every group is required (AND). Within each group's any_of list, one alternative must match (OR). Atlas decides which nodes match and how they rank. Use separate groups f",
+        "description": "Search US SEC filing nodes for a disclosure claim. The search covers 8-K, 6-K, 10-K, 10-Q, and 20-F. Omit document_type to search all of those forms. Pass document_type to search only the forms you name. Do not use this for DEF 14A. How to search: 1. Always pass concept_groups. Every group is required (AND). Within each group's any_of list, one alternative must match (OR). Use 2-5 groups for separ",
         "inputs": [
           {
             "name": "query",
@@ -9670,19 +9731,19 @@
           {
             "name": "ne_tickers",
             "type": "any",
-            "description": "Optional. Omit these issuers (example: [\"HOOD\"] or [\"!HOOD\"]). This filter does not load the next page. Use cursor for that. Exclude wins if a ticker is in both lists. Max 50.",
+            "description": "Optional. Omit these issuers (example: [\"HOOD\"] or [\"!HOOD\"]). This does not load the next page. Use cursor for that. Exclude wins if a ticker is in both lists. Max 50.",
             "required": false
           },
           {
             "name": "limit",
             "type": "integer",
-            "description": "Maximum matches to return on this page. At most 3 matches come from one filing. When has_more is true, pass cursor to read the next page.",
+            "description": "Maximum matches on this page. Not a total count. At most 3 matches come from one filing. When HAS_MORE is true, pass cursor to read the next page.",
             "required": false
           },
           {
             "name": "document_type",
             "type": "any",
-            "description": "Optional. Search only these current-report forms: \"8-K\", \"6-K\", or both. Omit to search 8-K and 6-K.",
+            "description": "Optional. Limit the search to one or more of \"8-K\", \"6-K\", \"10-K\", \"10-Q\", and \"20-F\". Omit to search all of those forms.",
             "required": false
           },
           {
@@ -9698,7 +9759,7 @@
           {
             "name": "cursor",
             "type": "string",
-            "description": "Opaque NEXT_CURSOR from the previous response. Pass it with the same concept_groups, dates, query, tickers, ne_tickers, document_type, and match_scope to read the next page. Omit it to start from the ",
+            "description": "Page id from the previous NEXT_CURSOR line. Copy it unchanged. Pass it only with the same concept_groups, dates, query, tickers, ne_tickers, document_type, and match_scope. A mismatch is rejected. Omi",
             "required": false
           }
         ]
@@ -9707,11 +9768,11 @@
   },
   {
     "id": "mcp:ai-alphaquantlabs-propertycheck",
-    "name": "AQL PropertyCheck - Gold Coast Property Intelligence",
+    "name": "AQL PropertyCheck — Gold Coast Property Intelligence API",
     "qualifiedName": "ai.alphaquantlabs/propertycheck",
     "slug": "ai-alphaquantlabs-propertycheck",
-    "description": "Gold Coast property due diligence for buyers and renters: everyday life, local risks and changes.",
-    "category": "Other",
+    "description": "Gold Coast property intelligence and due diligence for AI agents, renters and buyers.",
+    "category": "AI & Memory",
     "repository": null,
     "homepage": "https://agents.alphaquantlabs.ai/",
     "packages": [],
@@ -9732,25 +9793,31 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-30T05:59:23.962017Z",
+    "updatedAt": "2026-10-01T01:33:04.821367Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
       {
         "name": "property_coverage",
-        "description": "Use this first to check whether a Gold Coast property or address is supported before buying or renting. Free and returns coverage only, not paid property intelligence. It checks one coordinate in or near the City of Gold Coast. If supported is true, call property_report with the same coordinates and a stable request_id; otherwise stop because unsupported points are never charged. Example: latitude",
+        "description": "Use this first to check whether a Gold Coast property or address is supported before buying or renting. Free and returns coverage only, not paid property intelligence. Supply one specific Queensland street address OR a latitude/longitude pair. Address input is resolved only when it matches a high-confidence property point; ambiguous, POI or non-property matches are refused rather than guessed. If ",
         "inputs": [
+          {
+            "name": "address",
+            "type": "string",
+            "description": "A specific Queensland street address. Use address OR latitude/longitude, never both.",
+            "required": false
+          },
           {
             "name": "latitude",
             "type": "number",
-            "description": "Decimal degrees.",
-            "required": true
+            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
+            "required": false
           },
           {
             "name": "longitude",
             "type": "number",
-            "description": "Decimal degrees.",
-            "required": true
+            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
+            "required": false
           }
         ]
       },
@@ -9761,13 +9828,13 @@
           {
             "name": "latitude",
             "type": "number",
-            "description": "Decimal degrees.",
+            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
             "required": true
           },
           {
             "name": "longitude",
             "type": "number",
-            "description": "Decimal degrees.",
+            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
             "required": true
           },
           {
@@ -9792,30 +9859,30 @@
       },
       {
         "name": "propertycheck_lookup",
-        "description": "Flood, bushfire, transport noise, major electricity infrastructure, planning zone, land use, school catchments, nearest public transport, police division and measured traffic for one point inside current PropertyCheck coverage. Costs one credit. Refused, and not charged for, outside the serviced area. Example: latitude=-27.9675, longitude=153.4136. Deprecated compatibility alias; use property_repo",
+        "description": "Deprecated compatibility alias retained for existing clients; prefer property_coverage followed by property_report for new integrations and retry-safe stored reports. Use only when a legacy client needs the complete PropertyCheck package returned directly for one Gold Coast coordinate and cannot supply a stable request_id. It costs one credit and is not idempotent, so a retry may charge again. Poi",
         "inputs": [
           {
             "name": "latitude",
             "type": "number",
-            "description": "Decimal degrees.",
+            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
             "required": true
           },
           {
             "name": "longitude",
             "type": "number",
-            "description": "Decimal degrees.",
+            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
             "required": true
           }
         ]
       },
       {
         "name": "propertycheck_catalogue",
-        "description": "The data blocks available, their custodians, licences and required attribution, plus the credit packs. Free. Example: call with {} before choosing a paid report.",
+        "description": "Use this free, read-only tool before purchase to review available PropertyCheck data blocks, custodians, licences, required attribution and credit packs. It accepts no arguments, spends no credit and changes no state; use property_coverage for address support or propertycheck_account for the caller's balance. Example: call with {} before choosing a paid report.",
         "inputs": null
       },
       {
         "name": "propertycheck_account",
-        "description": "The calling key's credit balance, spend today, daily cap and rate limits. Free. Example: call with {} before requesting a paid report.",
+        "description": "Use this free, read-only tool to review the authenticated caller's credit balance, spend today, daily cap and rate limits before requesting a paid report. It accepts no arguments, spends no credit and changes no account state; use propertycheck_catalogue for product, licence and pricing details. Example: call with {} before requesting a paid report.",
         "inputs": null
       }
     ]
@@ -9995,7 +10062,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-30T11:37:26.948766Z",
+    "updatedAt": "2026-10-01T07:46:09.029192Z",
     "repoMeta": {
       "slug": "analyticslegends/analytics-legends-mcp",
       "stars": 0,
@@ -10458,7 +10525,7 @@
           {
             "name": "edge_type",
             "type": "string",
-            "description": "Restrict a walk to one relation. The served projection carries FIVE — teaches · taught_by · covers · related · mentions — and this list is a HINT, not the authority: read `_meta.available_edge_types`,",
+            "description": "Restrict a walk to one relation. The authority is `_meta.available_edge_types`, computed on every call — no list is kept here: a four-name list once stood here while the projection served five, then a",
             "required": false
           },
           {
@@ -10616,7 +10683,7 @@
       },
       {
         "name": "get_expansion_brief",
-        "description": "The one-call brief a services practice reads before opening a subsidiary in another region: providers already there (by kind and by country, and how many are LOCAL entities versus members of multi-region groups), SAP end-customers there (by country and by industry — counts from the Legend corpus, never rows), live opportunities by country, professionals by country (a COUNT per country, never a per",
+        "description": "The one-call brief a services practice reads before opening a subsidiary in another region: providers already there (by kind and by country, and how many are LOCAL entities versus members of multi-region groups), SAP end-customers there (by country and by industry — counts from the Legend corpus, never rows), live opportunities by country, and the BRIDGE GROUPS — brand families that hold entities ",
         "inputs": [
           {
             "name": "target_region",
@@ -10821,7 +10888,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1496,
+        "weeklyDownloads": 1579,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -10836,7 +10903,7 @@
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
       "stars": 500,
-      "forks": 36,
+      "forks": 37,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-29T20:06:25Z",
@@ -10917,12 +10984,12 @@
         "headers": []
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-04-18T00:51:37.350253Z",
     "repoMeta": {
       "slug": "anomalyarmor/agents",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -13985,7 +14052,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 34,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -14047,7 +14114,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 38,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -14107,7 +14174,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 87,
+        "weeklyDownloads": 88,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -14169,7 +14236,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 91,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -14229,12 +14296,12 @@
         "headers": []
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-18T01:09:10.259215Z",
     "repoMeta": {
       "slug": "AutoRFP/mcp",
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -14268,12 +14335,12 @@
         "headers": []
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-05-18T23:32:19.610277Z",
     "repoMeta": {
       "slug": "auxen-ai/auxen-mcp",
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -16462,7 +16529,7 @@
       },
       {
         "name": "get_todays_board",
-        "description": "Live sports board: upcoming and in-play games with main-market prices (moneyline, spread, total) and the best posted price per selection across connected books. Read-only decision support; never a guarantee and never a wager. Set view: app for the current app Live board and its provider, filters and cursor.",
+        "description": "Live sports board: upcoming and in-play games with main-market prices (moneyline, spread, total) and the best posted price per selection across connected books. Decision support; never a guarantee and never a wager. The default board may reserve/spend odds-refresh units under the app rules; retries deduplicate only within the existing 60-second usage bucket. Set view: app for the current app Live ",
         "inputs": [
           {
             "name": "leagues",
@@ -16651,7 +16718,7 @@
           {
             "name": "recent",
             "type": "integer",
-            "description": "How many recent bets to include (default 5).",
+            "description": "Legacy-only: how many recent bets to include (default 5). Do not send with view: app.",
             "required": false
           },
           {
@@ -16697,7 +16764,7 @@
       },
       {
         "name": "price_shop_slip",
-        "description": "Compare posted prices across books for each leg of a slip (main markets). Reports every book's quote, the best price for the bettor, and how much the user's own line gives up. Only ever describes books with real posted data; read-only, never places a wager.",
+        "description": "Compare posted prices across books for each leg of a slip (main markets). Reports every book's quote, the best price for the bettor, and how much the user's own line gives up. Only describes books with real posted data; never places a wager. May reserve/spend odds-refresh units under the app rules; retries deduplicate only within the existing 60-second usage bucket.",
         "inputs": [
           {
             "name": "legs",
@@ -16939,6 +17006,478 @@
               "dont_ask_again",
               "null"
             ]
+          }
+        ]
+      },
+      {
+        "name": "quote_grade",
+        "description": "Persist a Grade quote for an owned saved ticketId or exactly one confirmed manual ticket, with the requested depth and optional funding. May save that manual ticket. Returns the app allowance quote; does not start work. Show the quote before requesting a start. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "depth",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "fast",
+              "smart",
+              "deep",
+              "elite"
+            ]
+          },
+          {
+            "name": "funding",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "auto",
+              "weekly",
+              "bug_bounty"
+            ]
+          },
+          {
+            "name": "ticketId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "ticket",
+            "type": "object",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "start_grade",
+        "description": "Start the owned Grade quoteId after the customer has seen and accepted its allowance quote. Reserves app allowance and queues the same durable Grade job; consent, tier, credit and admission rules apply. Returns a job, not a completed answer. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "quoteId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "cancel_grade",
+        "description": "Cancel an owned Grade jobId through the app service. Stops eligible work and releases its remaining reservation under the existing app rules; cannot undo provider work already performed. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_grade_jobs",
+        "description": "Read the authenticated account’s current Grade library, with optional limit 1-20 and account-bound cursor. Never starts research. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_grade_job",
+        "description": "Read the owned Grade jobId and its current durable status. Never starts or resumes work. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_grade_progress",
+        "description": "Read saved progress for the owned Grade jobId, with optional after sequence and limit 1-100. Progress is not proof that a saved report is ready; never starts work. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "after",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_grade_report",
+        "description": "Return the verified immutable saved report for an owned completed Grade jobId. Returns unavailable until the real saved report is readable; never grades again. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "open_doctor_conversation",
+        "description": "Persist an app Doctor thread, optionally attached to an owned ticket, report or history item. Does not start a reply or spend a consult allowance. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "ticketId",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "reportId",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "history",
+            "type": "object",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_doctor_conversations",
+        "description": "Read this account’s saved app Doctor threads. Does not generate an answer. Action and version are fixed by this tool; do not supply them.",
+        "inputs": null
+      },
+      {
+        "name": "get_doctor_conversation",
+        "description": "Read the owned threadId, saved user messages, Doctor answers and jobs; optional before pages older messages. Does not generate a new answer. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "threadId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "before",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_doctor_quota",
+        "description": "Read this account’s current app consult allowance, held and used amounts, and reset information. Does not reserve a consult. Action and version are fixed by this tool; do not supply them.",
+        "inputs": null
+      },
+      {
+        "name": "quote_doctor_reply",
+        "description": "Persist an app consult quote for text in the owned threadId at its current sequence. Returns the allowance quote without starting a reply. Show the quote before requesting a start. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "threadId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "sequence",
+            "type": "integer",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "start_doctor_reply",
+        "description": "Start the owned consult quoteId after the customer has seen and accepted the quote. Reserves app allowance and queues the existing Doctor job; app AI consent, tier, credit, cost cap and admission rules apply. Does not return an answer before it is saved. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do no",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "quoteId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_doctor_job",
+        "description": "Read the owned Doctor jobId, including its real saved answer when available. Never generates or restarts a reply. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_doctor_events",
+        "description": "Read saved events for the owned Doctor jobId, optionally after a sequence. Never starts a consult. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "after",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "cancel_doctor_reply",
+        "description": "Cancel an owned Doctor jobId under the app cancellation and reservation rules. Cannot undo a reply or provider work already completed. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_tail_feed",
+        "description": "Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "feed",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "community",
+              "for_you",
+              "following",
+              "own",
+              "profile",
+              "bookmarks",
+              "list"
+            ]
+          },
+          {
+            "name": "profileId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "listId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "search",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_tail_post",
+        "description": "Read one app Tail postId visible to this account under the same moderation and privacy rules. May contain another community member’s published content; does not post. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "postId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "preview_tail_post",
+        "description": "Compute the exact app sharing preview and binding from an owned saved Grade report or Doctor exchange draft. Does not publish. Show the returned preview to the customer before requesting publication. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "draft",
+            "type": "any",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "publish_tail_post",
+        "description": "Submit the exact customer-approved draft and previewBinding to the app moderation queue. Requires confirmation PUBLISH_POST, placementConfirmation and fWarning. Shares approved content with the Tail community when moderation allows; this irreversible send never places a wager. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fi",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "confirmation",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "draft",
+            "type": "any",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "previewBinding",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "placementConfirmation",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "NOT_PLACED",
+              "SELF_REPORTED_PLACED"
+            ]
+          },
+          {
+            "name": "fWarning",
+            "type": "any",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "create_tracked_slip",
+        "description": "Create an owned ticket tree in building state with a stable client_mutation_id for retries. Stores truth only; never prepares or places a wager. Cannot revise an existing slip.",
+        "inputs": [
+          {
+            "name": "client_mutation_id",
+            "type": "string",
+            "description": "Caller-generated idempotency key.",
+            "required": true
+          },
+          {
+            "name": "ticket",
+            "type": "object",
+            "description": "BSD two-level BetTicketContract. SGP children stay nested under one outer pick.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "revise_tracked_slip",
+        "description": "Overwrite the owned tracked ticket_id with the supplied ticket tree in building state. Requires expected_revision; stale writes fail with the same app conflict. Keep client_mutation_id stable for retries. Never prepares or places a wager.",
+        "inputs": [
+          {
+            "name": "client_mutation_id",
+            "type": "string",
+            "description": "Caller-generated idempotency key.",
+            "required": true
+          },
+          {
+            "name": "ticket_id",
+            "type": "string",
+            "description": "Server ticket id when revising an existing tracked slip.",
+            "required": true
+          },
+          {
+            "name": "expected_revision",
+            "type": "integer",
+            "description": "Required with ticket_id; stale writes fail with a conflict.",
+            "required": true
+          },
+          {
+            "name": "ticket",
+            "type": "object",
+            "description": "BSD two-level BetTicketContract. SGP children stay nested under one outer pick.",
+            "required": true
           }
         ]
       }
@@ -18179,7 +18718,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-29T05:48:51Z",
-      "pushedAt": "2026-09-30T11:08:19Z",
+      "pushedAt": "2026-10-01T10:45:41Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -19973,12 +20512,12 @@
         "headers": []
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-06-02T16:24:51.181889Z",
     "repoMeta": {
       "slug": "bittlebitsai/bittlebits-plugin",
-      "stars": 1,
+      "stars": 0,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -20217,7 +20756,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 64,
+        "weeklyDownloads": 68,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -20351,6 +20890,37 @@
     ]
   },
   {
+    "id": "mcp:ai-blipsmith-sound-effects",
+    "name": "Blipsmith Sound Effects",
+    "qualifiedName": "ai.blipsmith/sound-effects",
+    "slug": "ai-blipsmith-sound-effects",
+    "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://blipsmith.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://blipsmith.ai/api/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer followed by your Blipsmith API key (create one at blipsmith.ai/studio/tools)",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-01T10:00:43.584444Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
     "id": "mcp:ai-bloopo-bloopo",
     "name": "Bloopo — AI Ad & Creative Studio",
     "qualifiedName": "ai.bloopo/bloopo",
@@ -20431,7 +21001,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-28T08:43:13.346918Z",
+    "updatedAt": "2026-10-01T01:29:20.000919Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -20539,7 +21109,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 56,
+        "weeklyDownloads": 57,
         "lastPublished": "2026-07-25T02:03:37.689Z",
         "firstPublished": "2026-07-07T00:45:12.018Z",
         "deprecated": false,
@@ -20586,12 +21156,12 @@
         "headers": []
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:35.464226Z",
     "repoMeta": {
       "slug": "Boolsai-ai/mcp",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -21007,12 +21577,12 @@
         "headers": []
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:36.222224Z",
     "repoMeta": {
       "slug": "Boolsai-ai/mcp",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -21197,12 +21767,12 @@
         "headers": []
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:34.760247Z",
     "repoMeta": {
       "slug": "Boolsai-ai/mcp",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -21268,12 +21838,12 @@
         "headers": []
       }
     ],
-    "stars": 2,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-05-19T13:30:36.922608Z",
     "repoMeta": {
       "slug": "Boolsai-ai/mcp",
-      "stars": 2,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -21656,12 +22226,12 @@
         "headers": []
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
     "updatedAt": "2026-09-06T20:32:29.563773Z",
     "repoMeta": {
       "slug": "alainsvrd/borealhost-mcp",
-      "stars": 1,
+      "stars": 0,
       "forks": 1,
       "archived": false,
       "isFork": false,
@@ -21836,7 +22406,7 @@
       {
         "registryType": "pypi",
         "identifier": "bourdon",
-        "version": "0.27.0",
+        "version": "0.28.2",
         "transport": "stdio",
         "runtimeHint": null,
         "env": []
@@ -21844,12 +22414,12 @@
       {
         "registryType": "npm",
         "identifier": "@getbourdon/mcp-server",
-        "version": "0.9.0",
+        "version": "0.11.0",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 226,
-        "lastPublished": "2026-09-29T06:42:07.006Z",
+        "weeklyDownloads": 473,
+        "lastPublished": "2026-10-01T04:37:19.668Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -21859,7 +22429,7 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-29T06:58:05.835817Z",
+    "updatedAt": "2026-10-01T05:29:37.909172Z",
     "repoMeta": null
   },
   {
@@ -21903,7 +22473,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 87,
+        "weeklyDownloads": 80,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -21926,12 +22496,12 @@
         ]
       }
     ],
-    "stars": 1,
+    "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-30T11:42:56.507613Z",
+    "updatedAt": "2026-10-01T04:42:48.563346Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
-      "stars": 1,
+      "stars": 0,
       "forks": 1,
       "archived": false,
       "isFork": false,
@@ -22149,6 +22719,565 @@
             "required": false
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "mcp:ai-buildersinfintech-fintech-data",
+    "name": "Builders in Fintech",
+    "qualifiedName": "ai.buildersinfintech/fintech-data",
+    "slug": "ai-buildersinfintech-fintech-data",
+    "description": "Fintech funding rounds, companies, investors and podcast knowledge. Free, keyless, CC BY 4.0.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://buildersinfintech.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://buildersinfintech.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-01T09:59:23.641009Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search_organizations",
+        "description": "Search fintech companies and investors by name, kind or country. Returns public profiles with canonical URLs. Arguments: q (or query): text to search for, matched against the name. With no q the tool returns a plain alphabetical list (first 25 by default). Unknown arguments are rejected.",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "q (or query): text to search for. Omit for a plain alphabetical list.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias of q; q wins if both are sent.",
+            "required": false
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Restrict to companies or investors.",
+            "required": false,
+            "enum": [
+              "company",
+              "investor"
+            ]
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_organization",
+        "description": "Full public profile for one organization by slug: description, country, funding rounds (raised or led), people, any disclosure, our published coverage of it (articles, newsletter issues, podcast episodes), and its products (company-provided, not part of the CC BY dataset).",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Organization slug from its URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_people",
+        "description": "Search founders, operators and investors covered by the publication. Arguments: q (or query): text to search for, matched against the full name. With no q the tool returns a plain alphabetical list (first 25 by default). Unknown arguments are rejected.",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "q (or query): text to search for. Omit for a plain alphabetical list.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias of q; q wins if both are sent.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_person",
+        "description": "Full public profile for one person by slug: bio, roles and coverage.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Person slug from their URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_funding_rounds",
+        "description": "Approved funding rounds, newest first, with optional filters and keyset pagination. Pass the returned next_cursor fields (after_date, after_id) to get the next page.",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive. Matches the company's country.",
+            "required": false
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "Topic slug.",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Round category: equity, debt, fund (fund close), grant or ipo (initial public offering; amount is the offering size when disclosed).",
+            "required": false,
+            "enum": [
+              "equity",
+              "debt",
+              "fund",
+              "grant",
+              "ipo"
+            ]
+          },
+          {
+            "name": "round_type",
+            "type": "string",
+            "description": "Round type, e.g. 'Series A'.",
+            "required": false
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "Currency code, e.g. 'EUR'.",
+            "required": false
+          },
+          {
+            "name": "amount_min",
+            "type": "number",
+            "description": "Minimum disclosed amount in the announced currency.",
+            "required": false
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Earliest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "Latest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "after_date",
+            "type": "string",
+            "description": "Cursor: announced date of the last row seen.",
+            "required": false
+          },
+          {
+            "name": "after_id",
+            "type": "string",
+            "description": "Cursor: id of the last row seen.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "largest_rounds",
+        "description": "Largest disclosed equity rounds, ranked per currency (amounts are never converted between currencies).",
+        "inputs": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Restrict to one calendar year.",
+            "required": false
+          },
+          {
+            "name": "per_currency",
+            "type": "integer",
+            "description": "Rows per currency (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "most_active_investors",
+        "description": "Investors ranked by the number of approved rounds they appear in. Category defaults to equity. With a country, only rounds of companies headquartered in that country are counted; the country may be a slug ('italy') or a two-letter ISO code ('IT'), case-insensitive.",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive. Counts rounds of companies headquartered there.",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Round category (equity, debt, fund, grant, ipo). Defaults to equity.",
+            "required": false,
+            "enum": [
+              "equity",
+              "debt",
+              "fund",
+              "grant",
+              "ipo"
+            ]
+          },
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Earliest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "Latest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "funding_summary",
+        "description": "Counts for a slice of the funding database: rounds, countries, totals per announced currency, undisclosed rounds and rounds per category. Note: rounds, per_currency and undisclosed count equity rounds only, while by_category covers every category (equity, debt, fund, grant, ipo), so the category split can sum higher than the round count.",
+        "inputs": [
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Earliest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "to",
+            "type": "string",
+            "description": "Latest announced date (YYYY-MM-DD).",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive.",
+            "required": false
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "Topic slug.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_funding_index",
+        "description": "The weekly Builders Fintech Funding Index of approved equity rounds (ISO weeks). Arguments: week (optional, 'YYYY-Www', e.g. '2026-W39') returns that week; otherwise the latest weeks, newest first. weeks (optional, 1–104, default 1) sets how many. Count Index = rounds this week / average of the prior 12 weeks × 100. USD median index uses disclosed USD rounds only (needs 5). Amounts are never conve",
+        "inputs": [
+          {
+            "name": "week",
+            "type": "string",
+            "description": "ISO week, 'YYYY-Www' (e.g. '2026-W39'). Omit for the latest.",
+            "required": false
+          },
+          {
+            "name": "weeks",
+            "type": "integer",
+            "description": "How many recent weeks (default 1).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_investor_scorecard",
+        "description": "Follow-on scorecard for one investor by slug: of the portfolio companies it first backed at least the window ago, the share that raised a later approved round (equity or IPO) within the window, at least gap_days after entry. Only returned when the investor has at least min_eligible eligible companies. Arguments: slug (required). Unknown arguments are rejected.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Investor slug from its URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_products",
+        "description": "Search fintech products by text, category, market, API availability or customer type. Company-provided, not part of the CC BY dataset. Each result carries provided_by, last_confirmed_at and sponsored; sponsorship never changes ordering. Arguments: q (or query) matched against name and short description; with no q the tool lists products alphabetically. cursor is the opaque next_cursor from a previ",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "q (or query): text to search for. Omit for a plain alphabetical list.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias of q; q wins if both are sent.",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category slug, e.g. 'payments'.",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Market. Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive.",
+            "required": false
+          },
+          {
+            "name": "api_available",
+            "type": "boolean",
+            "description": "Only products with (true) or without (false) an API.",
+            "required": false
+          },
+          {
+            "name": "customer_type",
+            "type": "string",
+            "description": "Customer type.",
+            "required": false,
+            "enum": [
+              "B2B",
+              "B2C",
+              "B2B2C"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "next_cursor from the previous page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_product",
+        "description": "Full public listing for one product by slug: description, category, markets, customer type, API, pricing model, links and the company. Company-provided, not part of the CC BY dataset. Each result carries provided_by, last_confirmed_at and sponsored; sponsorship never changes ordering.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Product slug from its URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_content",
+        "description": "Full-text search across published news, newsletter issues, podcast episodes and public entity pages. Arguments: q (or query): text to search for, at least 2 characters — required, this tool has no plain-list mode. Unknown arguments are rejected.",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "q (or query): text to search for (required, min 2 characters).",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias of q; q wins if both are sent.",
+            "required": false
+          },
+          {
+            "name": "kinds",
+            "type": "array",
+            "description": "Restrict to kinds, e.g. ['news','podcast','organization'].",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_content",
+        "description": "One published item by type and slug, with its body text (truncated), topics, countries, organizations and people. News items also include a corrections array (date + note), newest first.",
+        "inputs": [
+          {
+            "name": "content_type",
+            "type": "string",
+            "description": "Which section.",
+            "required": true,
+            "enum": [
+              "news",
+              "newsletter",
+              "podcast"
+            ]
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Slug from the URL.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_podcast_knowledge",
+        "description": "Search attributed facts and question-and-answer pairs from Builders in Fintech podcast episodes (as stated by the guest, not independently verified). Arguments: q (or query) matched against fact text, and against questions and answers; organization (slug) = facts linked to that company or investor; person (slug) = facts said by that person; fact_type (figure, fact, plan, view); episode (podcast ep",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "q (or query): text to search for. Omit to list the newest facts.",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias of q; q wins if both are sent.",
+            "required": false
+          },
+          {
+            "name": "organization",
+            "type": "string",
+            "description": "Organization slug: facts linked to it.",
+            "required": false
+          },
+          {
+            "name": "person",
+            "type": "string",
+            "description": "Person slug: facts said by them.",
+            "required": false
+          },
+          {
+            "name": "fact_type",
+            "type": "string",
+            "description": "Kind of fact.",
+            "required": false,
+            "enum": [
+              "figure",
+              "fact",
+              "plan",
+              "view"
+            ]
+          },
+          {
+            "name": "episode",
+            "type": "string",
+            "description": "Podcast episode slug.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max facts (≤50).",
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": "next_cursor from the previous page.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_events",
+        "description": "Approved fintech events, upcoming by default, with optional country, format, topic and month filters.",
+        "inputs": [
+          {
+            "name": "upcoming",
+            "type": "boolean",
+            "description": "Only events that have not ended yet (default true).",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country as a slug ('italy') or a two-letter ISO code ('IT'); case-insensitive.",
+            "required": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": "Event format.",
+            "required": false,
+            "enum": [
+              "in_person",
+              "online",
+              "hybrid"
+            ]
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": "Topic slug.",
+            "required": false
+          },
+          {
+            "name": "month",
+            "type": "string",
+            "description": "Month as YYYY-MM.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows (≤200).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_topics",
+        "description": "Every public topic with its slug and URL, for use as a filter in the other tools.",
+        "inputs": null
+      },
+      {
+        "name": "list_countries",
+        "description": "Countries that have public coverage, with company and content counts.",
+        "inputs": null
+      },
+      {
+        "name": "about",
+        "description": "What this database covers, how to cite it, and where the bulk downloads live.",
+        "inputs": null
       }
     ]
   },
@@ -22867,392 +23996,5 @@
     "updatedAt": "2026-08-07T01:55:50.969471Z",
     "repoMeta": null,
     "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-calaf-calaf",
-    "name": "Calaf",
-    "qualifiedName": "ai.calaf/calaf",
-    "slug": "ai-calaf-calaf",
-    "description": "Run your Calaf recruiting book from chat: firms, people, pipeline, calendar, notes, and prep.",
-    "category": "Productivity",
-    "repository": "https://github.com/gallaghern51-art/calaf-mcp",
-    "homepage": "https://calaf.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://calaf.ai/api/mcp-account",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-22T05:15:36.752059Z",
-    "repoMeta": {
-      "slug": "gallaghern51-art/calaf-mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-08-22T03:01:04Z",
-      "pushedAt": "2026-08-22T22:21:47Z",
-      "openIssues": 0,
-      "license": null,
-      "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# Calaf MCP Server\n\nConnect Claude, ChatGPT, or any MCP-capable assistant to [Calaf](https://calaf.ai) — the MBA recruiting manager. Your assistant researches target firms at whatever depth you ask, writes and validates structured \"seeds,\" and files them into your recruiting book. People it proposes always arrive **staged for your review** — nothing enters your network behind your back.\n\n> **Two servers, one product.** `ai.calaf/calaf` connects to your account (OAuth). `ai.calaf/seeds` is the no-auth authoring loop — the format and the validator, usable by anyone, no Calaf account required.\n\n| Server | Endpoint | Transport | Auth |\n| --- | --- | --- | --- |\n| **Calaf** | `https://calaf.ai/api/mcp-account` | Streamable HTTP | OAuth 2.1 (dynamic client registration) |\n| **Calaf Seed Tools** | `https://calaf.ai/api/mcp` | Streamable HTTP | None |\n\n## Things to ask once connected\n\n- *\"Research 30 lower-middle-market PE funds that hire MBA associates, validate the seed, and import it into my book.\"*\n- *\"Read Calaf's seed format, then turn the target list from this conversation into a seed and validate it until it's clean.\"*\n- *\"List my Calaf workspaces and import these interview prep questions into the consulting one.\"*\n- *\"I just got off a superday with Evercore — log it, move my application, and set a follow-up task for Friday.\"*\n- *\"Create a workspace for lower-middle-market PE, add my ten targets, and draft outreach templates.\"*\n- *\"Research the partners at my five priority funds and add them to my book\"* — they'll land as a **batch waiting for your review** in Calaf, never as silent rows.\n\n## Installation\n\n### claude.ai (web / desktop)\n\n1. Open **Settings → Connectors** ([claude.ai/settings/connectors](https://claude.ai/settings/connectors))\n2. **Add custom connector** → name it `Calaf`, URL `https://calaf.ai/api/mcp-account`, leave Client ID/Secret empty\n3. Click **Connect** → you'll land on Calaf's consent screen — sign in and approve\n\n*Requires a paid claude.ai plan (custom connectors are Pro and above).*\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http calaf https://calaf.ai/api/mcp-account\n```\n\n### Any other MCP client\n\nAdd a remote (Streamable HTTP) server at `https://calaf.ai/api/mcp-account`. The OAuth flow is standard: dynamic client registration + PKCE; your client discovers the authorization server via RFC 9728 protected-resource metadata.\n\n### No MCP client at all\n\nThe copy-paste loop works with every assistant: Calaf's [Guide](https://calaf.ai/guide) and Settings carry a one-paste prompt that teaches any AI the [seed format](https://calaf.ai/seed-format.md); the assistant can self-check via the open validator API (below) and you import the file at **Settings → Workspace → Seeds**.\n\n## Tools — `ai.calaf/calaf` (account server)\n\n### `get_seed_format` · read-only\n\nReturns the complete `calaf_seed: 1` specification (markdown) — sections, ceilings, parser behavior, and the rules an assistant should follow when authoring a seed. Read it before authoring; then check drafts with `validate_seed`.\n\n*No parameters.*\n\n### `validate_seed` · read-only\n\nRuns a draft seed document through **the exact parser the Calaf app imports with** and returns the verdict: per-section counts plus the precise issue list. Issue severity `error` means nothing would import; `dropped` means that row or field is discarded and the rest lands. Fix and re-validate until clean before delivering the file.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `seed` | string \\| object | yes | The complete seed JSON document — as text, or as the JSON object itself |\n\n**Returns** (structured): `valid`, per-section `counts` (orgs, contacts, templates, prep, keyDates, orgKinds, ladderRungs), `hasVocab`, `hasPlanner`, and `issues[]` with `path` (e.g. `orgs[3].name`), `message`, `severity`.\n\n### `list_workspaces` · read-only\n\nLists the caller's Calaf workspaces — key, display name, position. Use the key as the `workspace` argument to `import_seed`.\n\n*No parameters.* **Returns**: `workspaces[]` with `key`, `name`, `emoji`.\n\n### `import_seed` · write (non-destructive, idempotent)\n\nImports a valid seed into one of the caller's workspaces — the same landing the app's import performs:\n\n- **Organizations** — deduped account-wide by name, then joined to the workspace\n- **Templates** — deduped within the workspace\n- **Prep questions** — deduped account-wide\n- **People — never written directly.** Contacts in the file are **staged as a reviewable batch** in Calaf: the user accepts, trims, or discards them together, and can undo an accepted batch in one click. A person must name an org to be stageable.\n\nRe-importing the same file lands nothing twice; nothing is ever deleted or overwritten.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `workspace` | string | yes | Workspace key, from `list_workspaces` |\n| `seed` | string \\| object | yes | The complete seed JSON document |\n| `parts` | string[] | no | Which parts to process: `orgs`, `templates`, `prep`, `contacts` (= stage people). Defaults to everything the file carries |\n\n**Returns** (structured): `ok`, `landed` (counts per part), `failed[]`, and `staged` — `people`, `orgs`, `buildId`, `skippedWithoutOrg`, `skippedInvalid`.\n\n### `export_seed` · read-only\n\nSerializes a workspace back into a `calaf_seed` document — the reverse loop: read the book, improve it, re-import (dedupe means a round trip never doubles anything). **Privacy defaults**: people, the user's personal notes, and content that arrived from other seeds stay out unless explicitly requested (`include_people`, `include_notes`, `include_seeded`); withheld and ceiling-truncated counts are always reported. No plan gate — data portability never sits behind a paywall.\n\n### `get_profile_schema` / `get_firm_profile` / `submit_firm_profile`\n\nFirm research at house depth. `get_profile_schema` returns the module shapes (overview, hq, leadership, comp, process, culture/recrui\n\n…",
-      "truncated": true,
-      "url": "https://github.com/gallaghern51-art/calaf-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-calaf-seeds",
-    "name": "Calaf Seed Tools",
-    "qualifiedName": "ai.calaf/seeds",
-    "slug": "ai-calaf-seeds",
-    "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
-    "category": "Other",
-    "repository": "https://github.com/gallaghern51-art/calaf-mcp",
-    "homepage": "https://calaf.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://calaf.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-22T03:01:34.501752Z",
-    "repoMeta": {
-      "slug": "gallaghern51-art/calaf-mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-08-22T03:01:04Z",
-      "pushedAt": "2026-08-22T22:21:47Z",
-      "openIssues": 0,
-      "license": null,
-      "language": null
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "get_seed_format",
-        "description": "Returns the complete specification (markdown) for calaf_seed: 1 JSON documents — the format to follow when a user asks for a Calaf seed. Read it before authoring; then check your draft with validate_seed.",
-        "inputs": null
-      },
-      {
-        "name": "validate_seed",
-        "description": "Runs a draft seed document through the exact parser the Calaf app imports with. Pass the entire JSON document as a string. Returns per-section counts and the precise issue list (path, severity, message): severity \"error\" means nothing imports; \"dropped\" means that row or field is discarded and the rest lands. Fix the issues and validate again until clean before delivering the file to the user.",
-        "inputs": [
-          {
-            "name": "seed",
-            "type": "any",
-            "description": "The complete seed JSON document — as text, or as the JSON object itself.",
-            "required": true
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# Calaf MCP Server\n\nConnect Claude, ChatGPT, or any MCP-capable assistant to [Calaf](https://calaf.ai) — the MBA recruiting manager. Your assistant researches target firms at whatever depth you ask, writes and validates structured \"seeds,\" and files them into your recruiting book. People it proposes always arrive **staged for your review** — nothing enters your network behind your back.\n\n> **Two servers, one product.** `ai.calaf/calaf` connects to your account (OAuth). `ai.calaf/seeds` is the no-auth authoring loop — the format and the validator, usable by anyone, no Calaf account required.\n\n| Server | Endpoint | Transport | Auth |\n| --- | --- | --- | --- |\n| **Calaf** | `https://calaf.ai/api/mcp-account` | Streamable HTTP | OAuth 2.1 (dynamic client registration) |\n| **Calaf Seed Tools** | `https://calaf.ai/api/mcp` | Streamable HTTP | None |\n\n## Things to ask once connected\n\n- *\"Research 30 lower-middle-market PE funds that hire MBA associates, validate the seed, and import it into my book.\"*\n- *\"Read Calaf's seed format, then turn the target list from this conversation into a seed and validate it until it's clean.\"*\n- *\"List my Calaf workspaces and import these interview prep questions into the consulting one.\"*\n- *\"I just got off a superday with Evercore — log it, move my application, and set a follow-up task for Friday.\"*\n- *\"Create a workspace for lower-middle-market PE, add my ten targets, and draft outreach templates.\"*\n- *\"Research the partners at my five priority funds and add them to my book\"* — they'll land as a **batch waiting for your review** in Calaf, never as silent rows.\n\n## Installation\n\n### claude.ai (web / desktop)\n\n1. Open **Settings → Connectors** ([claude.ai/settings/connectors](https://claude.ai/settings/connectors))\n2. **Add custom connector** → name it `Calaf`, URL `https://calaf.ai/api/mcp-account`, leave Client ID/Secret empty\n3. Click **Connect** → you'll land on Calaf's consent screen — sign in and approve\n\n*Requires a paid claude.ai plan (custom connectors are Pro and above).*\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http calaf https://calaf.ai/api/mcp-account\n```\n\n### Any other MCP client\n\nAdd a remote (Streamable HTTP) server at `https://calaf.ai/api/mcp-account`. The OAuth flow is standard: dynamic client registration + PKCE; your client discovers the authorization server via RFC 9728 protected-resource metadata.\n\n### No MCP client at all\n\nThe copy-paste loop works with every assistant: Calaf's [Guide](https://calaf.ai/guide) and Settings carry a one-paste prompt that teaches any AI the [seed format](https://calaf.ai/seed-format.md); the assistant can self-check via the open validator API (below) and you import the file at **Settings → Workspace → Seeds**.\n\n## Tools — `ai.calaf/calaf` (account server)\n\n### `get_seed_format` · read-only\n\nReturns the complete `calaf_seed: 1` specification (markdown) — sections, ceilings, parser behavior, and the rules an assistant should follow when authoring a seed. Read it before authoring; then check drafts with `validate_seed`.\n\n*No parameters.*\n\n### `validate_seed` · read-only\n\nRuns a draft seed document through **the exact parser the Calaf app imports with** and returns the verdict: per-section counts plus the precise issue list. Issue severity `error` means nothing would import; `dropped` means that row or field is discarded and the rest lands. Fix and re-validate until clean before delivering the file.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `seed` | string \\| object | yes | The complete seed JSON document — as text, or as the JSON object itself |\n\n**Returns** (structured): `valid`, per-section `counts` (orgs, contacts, templates, prep, keyDates, orgKinds, ladderRungs), `hasVocab`, `hasPlanner`, and `issues[]` with `path` (e.g. `orgs[3].name`), `message`, `severity`.\n\n### `list_workspaces` · read-only\n\nLists the caller's Calaf workspaces — key, display name, position. Use the key as the `workspace` argument to `import_seed`.\n\n*No parameters.* **Returns**: `workspaces[]` with `key`, `name`, `emoji`.\n\n### `import_seed` · write (non-destructive, idempotent)\n\nImports a valid seed into one of the caller's workspaces — the same landing the app's import performs:\n\n- **Organizations** — deduped account-wide by name, then joined to the workspace\n- **Templates** — deduped within the workspace\n- **Prep questions** — deduped account-wide\n- **People — never written directly.** Contacts in the file are **staged as a reviewable batch** in Calaf: the user accepts, trims, or discards them together, and can undo an accepted batch in one click. A person must name an org to be stageable.\n\nRe-importing the same file lands nothing twice; nothing is ever deleted or overwritten.\n\n| Parameter | Type | Required | Description |\n| --- | --- | --- | --- |\n| `workspace` | string | yes | Workspace key, from `list_workspaces` |\n| `seed` | string \\| object | yes | The complete seed JSON document |\n| `parts` | string[] | no | Which parts to process: `orgs`, `templates`, `prep`, `contacts` (= stage people). Defaults to everything the file carries |\n\n**Returns** (structured): `ok`, `landed` (counts per part), `failed[]`, and `staged` — `people`, `orgs`, `buildId`, `skippedWithoutOrg`, `skippedInvalid`.\n\n### `export_seed` · read-only\n\nSerializes a workspace back into a `calaf_seed` document — the reverse loop: read the book, improve it, re-import (dedupe means a round trip never doubles anything). **Privacy defaults**: people, the user's personal notes, and content that arrived from other seeds stay out unless explicitly requested (`include_people`, `include_notes`, `include_seeded`); withheld and ceiling-truncated counts are always reported. No plan gate — data portability never sits behind a paywall.\n\n### `get_profile_schema` / `get_firm_profile` / `submit_firm_profile`\n\nFirm research at house depth. `get_profile_schema` returns the module shapes (overview, hq, leadership, comp, process, culture/recrui\n\n…",
-      "truncated": true,
-      "url": "https://github.com/gallaghern51-art/calaf-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-calendarmcp-server",
-    "name": "CalendarMCP",
-    "qualifiedName": "ai.calendarmcp/server",
-    "slug": "ai-calendarmcp-server",
-    "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
-    "category": "Productivity",
-    "repository": "https://github.com/Full-Vibe/calendarmcp-public",
-    "homepage": "https://calendarmcp.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://calendarmcp.ai/api/mcp",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer token. Get yours at https://calendarmcp.ai/dashboard",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": 1,
-    "source": "MCP Registry",
-    "updatedAt": "2026-05-20T07:09:04.298867Z",
-    "repoMeta": {
-      "slug": "Full-Vibe/calendarmcp-public",
-      "stars": 1,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-05-14T22:20:19Z",
-      "pushedAt": "2026-06-07T18:12:00Z",
-      "openIssues": 1,
-      "license": "NOASSERTION",
-      "language": null
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# CalendarMCP\n\n> **The hosted Google Calendar MCP server.** Connect any AI agent to your Google Calendar in about two minutes. No self-hosting, no Docker, no `credentials.json`.\n\n## What this is\n\nCalendarMCP is a hosted Model Context Protocol (MCP) server for Google Calendar. Connect your Google account once, get an API key, and any MCP-compatible client (Claude Desktop, Claude Code, Claude.ai, Cursor, OpenClaw, Continue, Cline, Windsurf, Goose, Zed, ChatGPT custom GPTs, n8n, etc.) can read and write your calendar.\n\nThis repo is the public docs, manifest, and client examples for the service. **The hosted service is not open source.** If you want a self-hosted alternative, the most popular OSS option is [nspady/google-calendar-mcp](https://github.com/nspady/google-calendar-mcp) and we recommend it for users who want OAuth tokens to never leave their machine.\n\n## What CalendarMCP gives you that self-hosted MCPs do not\n\n- **Zero setup.** One Google OAuth click. No `credentials.json`, no Google Cloud Console, no Docker.\n- **HTTP transport.** Works with Claude.ai, Claude Code, Cursor, and any hosted MCP client. Self-hosted stdio MCPs only work with Claude Desktop.\n- **Batch operations.** `batch_update_events` updates up to 50 events in one concurrent call. Renaming a recurring meeting across a year is one prompt, not 50 clicks.\n- **Multi-account, one key.** Connect any number of Google accounts (mix OAuth and service-account-shared calendars) under a single API key. Reading fans out across all of them, results merged and sorted.\n- **Google Advanced Protection support.** The only hosted MCP that works for GAP users (via service-account sharing. OAuth is blocked for those accounts).\n- **Per-calendar Read/Write matrix.** Tighten what each agent can touch from the dashboard without minting new keys.\n\n## Quick start\n\n1. Visit [calendarmcp.ai](https://calendarmcp.ai), sign in with Google, and copy your API key.\n2. Add the MCP server to your client of choice. Configs below.\n3. Talk to your agent: _\"What do I have on Tuesday?\"_\n\n## Client configs\n\nDrop these into the right config file for your MCP client.\n\n### Claude Desktop\n\n`~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\\Claude\\claude_desktop_config.json` (Windows):\n\n```json\n{\n  \"mcpServers\": {\n    \"calendar\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@modelcontextprotocol/server-fetch\",\n        \"https://calendarmcp.ai/api/mcp\"\n      ],\n      \"env\": {\n        \"MCP_AUTH_HEADER\": \"Authorization: Bearer YOUR_CALENDARMCP_API_KEY\"\n      }\n    }\n  }\n}\n```\n\nSee [examples/claude-desktop.json](./examples/claude-desktop.json) and our [Claude Desktop integration guide](https://calendarmcp.ai/integrations/claude-desktop).\n\n### Claude Code\n\n```bash\nclaude mcp add calendar https://calendarmcp.ai/api/mcp \\\n  --transport http \\\n  --header \"Authorization: Bearer YOUR_CALENDARMCP_API_KEY\"\n```\n\nSee [examples/claude-code.sh](./examples/claude-code.sh) and our [Claude Code integration guide](https://calendarmcp.ai/integrations/claude-code).\n\n### Cursor\n\n`~/.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"calendar\": {\n      \"url\": \"https://calendarmcp.ai/api/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_CALENDARMCP_API_KEY\"\n      }\n    }\n  }\n}\n```\n\nSee [examples/cursor.json](./examples/cursor.json) and our [Cursor integration guide](https://calendarmcp.ai/integrations/cursor).\n\n### OpenClaw\n\nIn your `openclaw.json`:\n\n```json\n{\n  \"plugins\": {\n    \"entries\": {\n      \"mcp-calendarmcp\": {\n        \"enabled\": true,\n        \"config\": {\n          \"url\": \"https://calendarmcp.ai/api/mcp\",\n          \"authHeader\": \"Bearer YOUR_CALENDARMCP_API_KEY\"\n        }\n      }\n    }\n  }\n}\n```\n\nSee [examples/openclaw.json](./examples/openclaw.json) and our [OpenClaw integration guide](https://calendarmcp.ai/integrations/openclaw).\n\n### Other clients\n\nSee [examples/](./examples/) for Continue, Windsurf, Goose, n8n, and more.\n\n## Tools\n\nCalendarMCP exposes 11 tools. The full machine-readable schema lives at [https://calendarmcp.ai/api/docs](https://calendarmcp.ai/api/docs).\n\n| Tool | Description |\n|------|-------------|\n| `list_events` | List events across one or all connected calendars in a time range. Auto-paginates up to 2500 results. |\n| `get_event` | Full details of one event. |\n| `create_event` | Create an event. Supports attendees, location, reminders, recurrence, all-day. |\n| `update_event` | Partial update of an existing event. |\n| `delete_event` | Delete an event. |\n| `quick_add_event` | Create from natural language (\"Lunch with Sam Friday 1pm\"). |\n| `list_calendars` | List every calendar the API key can see, with per-calendar R/W permissions. |\n| `find_free_time` | Free/busy query across one or more calendars. The right thing to call before `create_event` to prevent double-booking. |\n| `manage_attendees` | Add or remove attendees from an event. |\n| `batch_update_events` | Update up to 50 events in one concurrent call. |\n\nFull reference: [docs/tools.md](./docs/tools.md).\n\n## Authentication\n\nAPI keys are issued from the dashboard at [calendarmcp.ai/dashboard](https://calendarmcp.ai/dashboard). One key can hold any number of connected Google accounts. Per-calendar R/W scopes are enforced server-side.\n\nRate limit: **60 requests/minute per key.** Free tier; pay-as-you-go pricing for higher limits coming soon.\n\nSee [docs/authentication.md](./docs/authentication.md).\n\n## Google Advanced Protection\n\nIf you have Google Advanced Protection enabled, OAuth into third-party calendar apps is blocked by Google policy. CalendarMCP supports a service-account sharing flow that works for GAP users. We're the only hosted MCP we know of that supports this.\n\nSee [docs/google-advanced-protection.md](./docs/google-advanced-protection.md).\n\n## Roadmap\n\n- ✅ Google Calendar (live)\n- ⏳ Microsoft Outlook Calendar ([waitlist](https://calendarmcp.ai/outlook))\n- ⏳ iCloud Calendar ([waitlist](https://calendarmcp.ai/icloud))\n- ⏳ CalDAV (any provider)\n\n…",
-      "truncated": true,
-      "url": "https://github.com/Full-Vibe/calendarmcp-public#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-calfeed-calfeed",
-    "name": "Calfeed",
-    "qualifiedName": "ai.calfeed/calfeed",
-    "slug": "ai-calfeed-calfeed",
-    "description": "Turn a written schedule into a live calendar link people subscribe to in Apple, Google, Outlook.",
-    "category": "Productivity",
-    "repository": null,
-    "homepage": "https://calfeed.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://calfeed.ai/api/mcp",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer token — mint a Calfeed access token at https://calfeed.ai/profile and send as 'Bearer cf_...'",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-06-05T19:00:28.019015Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-callmcp-server",
-    "name": "Callmcp MCP",
-    "qualifiedName": "ai.callmcp/server",
-    "slug": "ai-callmcp-server",
-    "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
-    "category": "Legal & Government",
-    "repository": "https://github.com/CallMCP/callmcp",
-    "homepage": "https://github.com/CallMCP/callmcp",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@callmcp/server",
-        "version": "0.1.2",
-        "transport": "stdio",
-        "runtimeHint": "node",
-        "env": [
-          {
-            "name": "CALLMCP_CONFIG",
-            "description": "Path to a callmcp.config.json file. Omit to configure entirely via env vars.",
-            "required": false,
-            "secret": false,
-            "format": null
-          },
-          {
-            "name": "CALLMCP_DEFAULT_DRIVER",
-            "description": "driver_id routed to when a tool call omits `driver` (e.g. kaicalls, dograh, twilio_openai).",
-            "required": false,
-            "secret": false,
-            "format": null
-          }
-        ],
-        "weeklyDownloads": 78,
-        "lastPublished": "2026-07-10T21:59:56.081Z",
-        "firstPublished": "2026-07-10T00:28:51.965Z",
-        "deprecated": false,
-        "declaredRepo": null,
-        "repoMatchesRegistry": null
-      }
-    ],
-    "remotes": [],
-    "stars": 1,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-10T00:53:26.478263Z",
-    "repoMeta": {
-      "slug": "CallMCP/callmcp",
-      "stars": 1,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-09T23:30:30Z",
-      "pushedAt": "2026-07-11T13:56:34Z",
-      "openIssues": 3,
-      "license": "MIT",
-      "language": "TypeScript"
-    },
-    "readme": {
-      "markdown": "# One MCP server. Any call provider. Fully local, fully hosted, or bring your own frontier model.\n\nCallMCP is a single [Model Context Protocol](https://modelcontextprotocol.io) server that defines **one** tool contract — 14 tools, identical schemas, identical error shapes — for outbound/inbound telephony: calls, SMS, recordings, transcripts, and phone-number lifecycle. Point it at a hosted backend, a fully local backend, or a bring-your-own-key composed backend, and your agent code doesn't change. What changes is *which* tools are present (via capability-gated dynamic discovery), never the shape of a tool that's there.\n\nThe normative reference is [`SPEC.md`](./SPEC.md). This README is the pitch; the spec is the contract.\n\n```\nnpx -y @callmcp/server\n```\n\nBefore connecting a real provider, run `npx -y @callmcp/server doctor`.\nFor a safe local walkthrough, run `npx -y @callmcp/server --sandbox`.\nThe server fails closed when no driver is configured; the mock driver is only\navailable through explicit sandbox configuration.\n\nSee [`examples/`](./examples) for ready-to-paste Claude Desktop / Claude Code configs for each of the three legs below.\n\n---\n\n## Three structural claims\n\nThis isn't \"a Twilio wrapper with a marketing page.\" Three things are actually built into the contract, not bolted on:\n\n### 1. Provider-neutral, multi-backend contract\nEvery driver — hosted, local, or BYOK — implements the same 14 tools defined in [`SPEC.md`](./SPEC.md). Driver-specific behavior lives exclusively inside a namespaced `options.<driver_id>` passthrough object. There is no `make_call_twilio` or `make_call_kaicalls`. A tool either exists for your configured driver (and works, fully, per spec) or it's absent from `tools/list` — never present-but-broken. Swapping your call backend is a config change, not a rewrite.\n\n### 2. x402-funded autonomous provisioning to production\n`search_numbers`, `buy_number`, `configure_number`, and `list_numbers` are **never** human-approval-gated — they don't contact a third party, they contact your own provider account. That includes settling cost via [x402](https://www.x402.org/) machine payments when a driver requires prepayment (`INSUFFICIENT_FUNDS` embeds a full x402 challenge an agent can settle and retry). An agent can search for a number, pay for it, configure it, and go live — autonomously, in production, with real money — without a human clicking anything. This is a deliberate contrast with vendor MCPs whose autonomous/self-serve paths are trial- or sandbox-scoped only.\n\n### 3. Human-in-the-loop outbound approval as designed consent architecture\n`make_call` and `send_sms` — anything that contacts a phone number that isn't the calling agent's own infrastructure — structurally require a valid `approval_id` or a standing allowlist match before they act. This isn't a policy suggestion layered on top; it's enforced in the server core, so no driver implementation can bypass it. Primary path is MCP elicitation; the fallback for non-elicitation clients is a single-use out-of-band approval URL — the gate is designed to never silently block forever *and* never silently open. Read as a TCPA-consent posture: the contract makes \"who approved contacting this number, and when\" a first-class, auditable object (`request_call_approval` / `list_approvals`), not an assumption baked into application code you have to get right yourself.\n\n---\n\n## CallMCP vs. single-vendor MCPs vs. DIY\n\n| Capability | **CallMCP** | Vapi MCP | Telnyx MCP | AgentPhone MCP | DIY (Twilio + your own glue) |\n|---|---|---|---|---|---|\n| Tool contract | One schema, 14 tools, portable across backends | Single-vendor, Vapi only | Single-vendor, Telnyx only | Single-vendor, AgentPhone only | No contract — you write and maintain it |\n| Swap call backend without rewriting agent code | Yes — driver swap only | No | No | No | No |\n| Self-hostable / fully local option | Yes (Dograh driver) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | Yes, but you own the entire stack |\n| Bring your own frontier model as the call's \"brain\" | Yes (BYOK driver: any transport + any LLM) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | Yes, fully manual integration |\n| Autonomous, **funded**, production-scoped number provisioning (x402) | Yes — `search_numbers`/`buy_number`/`configure_number` ungated, x402-payable | (unverified, recheck before publishing) | Public self-serve docs read as trial-scoped autonomy, not funded production autonomy (unverified, recheck before publishing) | (unverified, recheck before publishing) | No — manual console purchase, manual compliance |\n| Outbound approval / consent gate structural in the schema | Yes — `make_call`/`send_sms` require `approval_id` or allowlist match, enforced server-side | (unverified, recheck before publishing) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | No — you build and maintain your own gate |\n| Standalone SMS (not agent-mediated only) | Capability-gated per driver, honestly reported — never claimed where it's actually agent-mediated | (unverified, recheck before publishing) | Yes, native | (unverified, recheck before publishing) | Yes, native Twilio API |\n| Call recording | Capability-gated per driver, honestly reported | (unverified, recheck before publishing) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | Yes, native Twilio API |\n| Real-time transcript streaming | Capability-gated per driver, subscribable resource when supported | (unverified, recheck before publishing) | (unverified, recheck before publishing) | (unverified, recheck before publishing) | DIY — you build the capture/assembly layer |\n| Source availability | MIT-licensed server + Apache-2.0 spec, public monorepo | (unverified, recheck before publishing) | (unverified, recheck before publi\n\n…",
-      "truncated": true,
-      "url": "https://github.com/CallMCP/callmcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-canaryusers-canaryusers",
-    "name": "canaryusers",
-    "qualifiedName": "ai.canaryusers/canaryusers",
-    "slug": "ai-canaryusers-canaryusers",
-    "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
-    "category": "Cloud & DevOps",
-    "repository": "https://github.com/CanaryUsers-ai/canaryusers-mcp",
-    "homepage": "https://www.canaryusers.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://www.canaryusers.ai/api/mcp",
-        "headers": [
-          {
-            "name": "Authorization",
-            "description": "Bearer <your CanaryUsers API token>. Generate it at canaryusers.ai/dashboard then CI & API, and toggle MCP on.",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-06-13T18:31:58.336704Z",
-    "repoMeta": {
-      "slug": "CanaryUsers-ai/canaryusers-mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-06-09T23:13:38Z",
-      "pushedAt": "2026-06-13T18:31:57Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": null
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "canary_scan",
-        "description": "Run a CanaryUsers UX scan on a DEPLOYED URL (your live or preview app — not source code). A flock of AI personas evaluates the page and reports where real users would get stuck, with concrete fixes. Returns AI-ready findings you can act on immediately. Use depth='deep' for the thorough scan that renders the page, checks it VISUALLY on desktop + mobile (catches mobile breakage and layout issues), a",
-        "inputs": [
-          {
-            "name": "url",
-            "type": "string",
-            "description": "The public URL to scan (e.g. your deployed app or preview URL).",
-            "required": true
-          },
-          {
-            "name": "depth",
-            "type": "string",
-            "description": "'quick' (default, fast, free) or 'deep' (clicks through flows + visual review, ~1 credit).",
-            "required": false,
-            "enum": [
-              "quick",
-              "deep"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "list_recent_scans",
-        "description": "List the most recent CanaryUsers UX scans for your account (id, URL, CanaryScore, grade, status, date). Use this to find a scan to dig into.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "How many to return (default 10, max 50).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_report_markdown",
-        "description": "Get one scan's full report as AI-ready markdown: the findings ranked by severity, why each matters, and how to fix it. Pass a scanId from list_recent_scans.",
-        "inputs": [
-          {
-            "name": "scanId",
-            "type": "string",
-            "description": "The scan id (UUID) to fetch.",
-            "required": true
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# CanaryUsers — MCP Server\n\n> Give your AI coding assistant eyes for UX: a flock of AI users tests your deployed app and reports where real people would bail — each with a concrete fix.\n\n**CanaryUsers** sends a flock of behaviorally‑diverse AI users through your **deployed** web app (a live or preview URL) and reports exactly where real people get stuck — confusing UX, broken mobile layouts, dead‑end conversion paths, and visual glitches — each with a concrete, AI‑ready fix you can apply in the same chat.\n\nThis is the public home for the **CanaryUsers remote MCP server**: manifest, install instructions, and docs. The product itself is hosted (closed source) — there's nothing to clone or run; you connect to the live endpoint. See [docs/WHY.md](docs/WHY.md) for why this repo exists and [docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md) for how the server works.\n\n- **Registry name:** `ai.canaryusers/canaryusers`\n- **Endpoint (remote, Streamable HTTP):** `https://www.canaryusers.ai/api/mcp`\n- **Auth:** `Authorization: Bearer <your CanaryUsers token>`\n- **Setup / get a token:** https://www.canaryusers.ai/mcp\n\n## What it does\n\nYou point it at a URL; a flock of AI personas actually renders and explores the page like real users, then hands back prioritized, fix‑ready findings — not a vague score. Two modes:\n\n- **Quick** (default) — a fast static check. Free.\n- **Deep** — renders the page, inspects it **visually on desktop + mobile** (catches mobile breakage and layout issues), and **clicks through key flows** like signup / checkout / onboarding (~60–90s, uses credits).\n\n## When to use it\n\n- Right **after you ship or deploy a UI change** (it scans the deployed result, not your source).\n- **Before a launch**, to pressure‑test the first‑run experience.\n- To check a specific high‑stakes **flow**: signup, checkout, onboarding, pricing, or a landing page.\n- When you suspect **mobile** breakage or a **conversion** drop‑off you can't see in analytics.\n\n## Why not Lighthouse or analytics?\n\nLighthouse grades your HTML; analytics charts what already happened. CanaryUsers **sends users** and tells you, in plain language, *where they'd give up and why* — before real ones do.\n\n## Tools\n\n| Tool | What it does |\n|------|--------------|\n| `canary_scan` | Run a UX scan on a deployed URL. `depth`: `quick` (free, default) or `deep` (visual + flow, uses a credit). Returns AI‑ready findings. |\n| `list_recent_scans` | List your recent scans (id, URL, score, grade, status, date). |\n| `get_report_markdown` | Fetch the full report for a scan id as Markdown. |\n\n## Install\n\nYou need a CanaryUsers token: **[canaryusers.ai/dashboard](https://www.canaryusers.ai/dashboard) → CI & API → toggle MCP on → copy your token.**\n\n**Generic (Cursor `~/.cursor/mcp.json`, Windsurf, VS Code, Claude Desktop):**\n\n```json\n{\n  \"mcpServers\": {\n    \"canaryusers\": {\n      \"url\": \"https://www.canaryusers.ai/api/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_CANARYUSERS_TOKEN\"\n      }\n    }\n  }\n}\n```\n\n**Claude Code (CLI):**\n\n```bash\nclaude mcp add --transport http canaryusers https://www.canaryusers.ai/api/mcp \\\n  --header \"Authorization: Bearer YOUR_CANARYUSERS_TOKEN\"\n```\n\nThen just ask your assistant: *\"Scan my app at https://… with CanaryUsers.\"*\n\n## Pricing\n\n**Quick scans are free. Deep scans use credits** (the credit model is roughly *1 credit = 1 scanned page*). Plans and monthly allotments change over time, so this repo intentionally does **not** hardcode the numbers — see the live pricing for current plans and limits:\n\n➡️ **https://www.canaryusers.ai/#pricing** (single source of truth)\n\n## Links\n\n- **Setup & token:** https://www.canaryusers.ai/mcp\n- **Pricing (live):** https://www.canaryusers.ai/#pricing\n- **Official MCP Registry:** https://registry.modelcontextprotocol.io/v0/servers?search=canaryusers\n- **Smithery:** https://smithery.ai/servers/brettonb/canaryusers\n\n## License\n\n[MIT](LICENSE) — applies to the contents of this metadata/docs repo. The CanaryUsers service itself is a separate hosted product.",
-      "truncated": false,
-      "url": "https://github.com/CanaryUsers-ai/canaryusers-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-canivibe-status",
-    "name": "Can I Vibe? — AI coding provider status",
-    "qualifiedName": "ai.canivibe/status",
-    "slug": "ai-canivibe-status",
-    "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
-    "category": "Health & Science",
-    "repository": null,
-    "homepage": "https://canivibe.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://canivibe.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-23T17:08:49.919308Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "ai_provider_status",
-        "description": "Get the live status of AI coding providers (Claude, OpenAI, Copilot, Cursor, OpenRouter and more). Returns status, how long each provider has been in its current state, and last check time. Pass service_id for one provider, omit it for all.",
-        "inputs": [
-          {
-            "name": "service_id",
-            "type": "string",
-            "description": "Optional provider id, e.g. claude, openai, github_copilot, cursor, openrouter",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "check_provider_health",
-        "description": "Check whether one or more AI coding providers are healthy enough to use right now. Returns healthy=true only when every requested provider is operational (or within the allowed statuses). Use this before starting work that depends on a provider, or to decide which provider to route to.",
-        "inputs": [
-          {
-            "name": "allow_degraded",
-            "type": "boolean",
-            "description": "Treat degraded performance as healthy (default false)",
-            "required": false
-          },
-          {
-            "name": "services",
-            "type": "array",
-            "description": "Provider ids to check, e.g. [\"claude\", \"openrouter\"]",
-            "required": true
-          }
-        ]
-      }
-    ]
   }
 ]
