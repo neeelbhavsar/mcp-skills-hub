@@ -1,35 +1,19 @@
 {
-  "generatedAt": "2026-10-01T12:46:25.242Z",
+  "generatedAt": "2026-10-02T12:10:38.698Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "math-proof",
-          "name": "math-proof",
-          "description": "Two skills for hard mathematics problems, each ending in a self-contained proof.md: /math-proof:solo has the session work the problem itself in stages with a notes file; /math-proof:siege works on it for hours in rounds of judge and worker sub-agents and says plainly what is and is not proved.",
-          "category": "Automation & Workflow"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 8,
-          "stars": 80
-        }
-      ],
+      "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 337,
+        "previousTotal": 338,
         "currentTotal": 338
       }
     },
@@ -37,100 +21,44 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-aimentiontracker-mcp",
-          "name": "AIMentionTracker",
-          "description": "How often ChatGPT, Claude, Gemini and Perplexity name and cite your brand, with the evidence.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-blipsmith-sound-effects",
-          "name": "Blipsmith Sound Effects",
-          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-buildersinfintech-fintech-data",
-          "name": "Builders in Fintech",
-          "description": "Fintech funding rounds, companies, investors and podcast knowledge. Free, keyless, CC BY 4.0.",
-          "category": "AI & Memory"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "ai-calaf-calaf",
-          "name": "Calaf",
-          "description": "Run your Calaf recruiting book from chat: firms, people, pipeline, calendar, notes, and prep.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "ai-calaf-seeds",
-          "name": "Calaf Seed Tools",
-          "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-calendarmcp-server",
-          "name": "CalendarMCP",
-          "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "ai-calfeed-calfeed",
-          "name": "Calfeed",
-          "description": "Turn a written schedule into a live calendar link people subscribe to in Apple, Google, Outlook.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "ai-callmcp-server",
-          "name": "Callmcp MCP",
-          "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-canaryusers-canaryusers",
-          "name": "canaryusers",
-          "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "ai-canivibe-status",
-          "name": "Can I Vibe? — AI coding provider status",
-          "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
+          "slug": "ae-grovisor-grotax",
+          "name": "groTAX by Grovisor",
+          "description": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
           "category": "Health & Science"
+        },
+        {
+          "slug": "ai-asrm-asrm",
+          "name": "ASRM (AI Search Rank Monitor)",
+          "description": "Check a website's AI readiness and answer AI visibility and GEO questions from ASRM's guides.",
+          "category": "Web & Search"
         }
       ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 3,
-        "removed": 7,
+        "added": 2,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 232,
-        "currentTotal": 228
+        "previousTotal": 228,
+        "currentTotal": 230
       }
     },
     "repos": {
       "baseline": true,
       "added": [],
-      "removed": [
-        {
-          "slug": "daytonaio-daytona",
-          "name": "daytona",
-          "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
-          "category": "AI Agents"
-        }
-      ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 0,
-        "removed": 1,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 124,
+        "previousTotal": 123,
         "currentTotal": 123
       }
     }

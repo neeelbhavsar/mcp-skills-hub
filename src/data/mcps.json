@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 599195,
+        "weeklyDownloads": 562943,
         "lastPublished": "2026-08-31T20:25:55.419Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 163783,
+        "weeklyDownloads": 165923,
         "lastPublished": "2026-08-31T20:23:48.078Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 134746,
+        "weeklyDownloads": 136644,
         "lastPublished": "2026-08-31T20:23:44.857Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 296327,
+        "weeklyDownloads": 286763,
         "lastPublished": "2026-08-31T20:23:50.168Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 90914,
+    "stars": 90952,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 90914,
-      "forks": 11738,
+      "stars": 90952,
+      "forks": 11749,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-01T06:57:00Z",
-      "openIssues": 242,
+      "pushedAt": "2026-10-01T15:33:30Z",
+      "openIssues": 232,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1073,7 +1073,7 @@
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
       "pushedAt": "2026-09-30T20:48:40Z",
-      "openIssues": 4,
+      "openIssues": 5,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -2409,10 +2409,10 @@
   },
   {
     "id": "mcp:ae-brainy-grocery-prices",
-    "name": "Dubai Grocery Prices",
+    "name": "Dubai Cost of Living Prices",
     "qualifiedName": "ae.brainy/grocery-prices",
     "slug": "ae-brainy-grocery-prices",
-    "description": "Compare Dubai grocery lists, observed prices, delivery rules and indicative online offers in AED.",
+    "description": "Dubai cost of living: groceries, schools, fuel, rent, utilities, phone plans, electronics and visas",
     "category": "Other",
     "repository": null,
     "homepage": "https://prices.brainy.ae/developers.html",
@@ -2426,7 +2426,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-30T10:34:55.977998Z",
+    "updatedAt": "2026-10-02T04:58:59.331523Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
@@ -2474,7 +2474,7 @@
       },
       {
         "name": "find_price_online",
-        "description": "Find indicative online prices from Google Shopping UAE. New searches have strict daily limits. If queued, wait retry_after_s before calling again. Delivery is excluded; check product variants, stock and final price at the store.",
+        "description": "PAUSED: live online price references are switched off while a legal review is under way; calls return an error. Find indicative online prices from Google Shopping UAE. New searches have strict daily limits. If queued, wait retry_after_s before calling again. Delivery is excluded; check product variants, stock and final price at the store.",
         "inputs": [
           {
             "name": "query",
@@ -2488,6 +2488,394 @@
         "name": "list_stores",
         "description": "List Dubai stores and their published delivery rules, minimum orders, source URLs and verification dates. Unknown or expired delivery rules are explicitly labelled.",
         "inputs": null
+      },
+      {
+        "name": "get_school_fees",
+        "description": "Annual tuition of Dubai private schools as published by KHDA (by grade, area, curriculum, inspection rating), with the school bus fee by zone and the uniform list where known. Grade labels are kept as published (Year ≠ Grade). Tuition only; confirm with the school.",
+        "inputs": [
+          {
+            "name": "school",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "curriculum",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "grade",
+            "type": "string",
+            "description": "Grade label as published, e.g. \"FS 1\", \"KG 2\", \"YEAR 3\", \"GRADE 10\".",
+            "required": false
+          },
+          {
+            "name": "max_fee_aed",
+            "type": "number",
+            "description": "Budget: keep schools with a published fee ≤ this (for the grade, if given).",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_school_uniforms",
+        "description": "Official school uniform items and prices for a Dubai/UAE school (supplier catalogue, item by item), plus KHDA tuition and school bus fees when linked. No kit total is invented: schools require different quantities.",
+        "inputs": [
+          {
+            "name": "school",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_fuel_prices",
+        "description": "UAE petrol and diesel prices for the current month (AED per litre, official monthly announcement), change vs last month, full-tank cost and monthly history, plus Dubai Salik tolls, Abu Dhabi Darb tolls, Dubai public parking and, when published, nol public-transport fares (currently paused while we confirm the official source).",
+        "inputs": null
+      },
+      {
+        "name": "estimate_commute_cost",
+        "description": "Monthly cost of a car commute in Dubai with this month's official fuel price and Salik tolls (same formula as the website: days per month = days per week × 52/12). Parking, Darb and car ownership are not included.",
+        "inputs": [
+          {
+            "name": "km_per_day",
+            "type": "number",
+            "description": "Total km driven per commuting day (both ways).",
+            "required": true
+          },
+          {
+            "name": "days_per_week",
+            "type": "number",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "l_per_100km",
+            "type": "number",
+            "description": "Fuel consumption in litres per 100 km.",
+            "required": true
+          },
+          {
+            "name": "fuel",
+            "type": "any",
+            "description": null,
+            "required": true,
+            "enum": [
+              "super98",
+              "special95",
+              "eplus91",
+              "diesel"
+            ]
+          },
+          {
+            "name": "salik_per_day",
+            "type": "integer",
+            "description": "Salik gate crossings per day, charged at the Mon–Sat peak rate.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_rent_prices",
+        "description": "Median annual rent by community, property type and bedrooms from registered Ejari contracts (Dubai Land Department open data, last 12 months), with quartiles, new vs renewal and registered sale prices. Not asking prices.",
+        "inputs": [
+          {
+            "name": "area",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "property_type",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "apartment",
+              "villa"
+            ]
+          },
+          {
+            "name": "bedrooms",
+            "type": "integer",
+            "description": "0 = studio.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "compare_areas_cost_of_living",
+        "description": "Rank Dubai communities by estimated monthly cost of living: median registered rent + Dubai Municipality housing fee + DEWA (official slabs, example use) + transport + mobile + home internet, the same defaults as the website. Optionally add the cheapest KHDA tuition in each area.",
+        "inputs": [
+          {
+            "name": "bedrooms",
+            "type": "integer",
+            "description": "0 = studio. Default 1.",
+            "required": false
+          },
+          {
+            "name": "property_type",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "apartment",
+              "villa"
+            ]
+          },
+          {
+            "name": "include_school",
+            "type": "boolean",
+            "description": "Add the cheapest KHDA-published tuition in each area (one child, per month) and rank by that total.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "transport",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "none",
+              "car-commute-with-salik",
+              "car-commute-no-tolls",
+              "public-transport-oneZone",
+              "public-transport-twoZones",
+              "public-transport-allZones"
+            ]
+          },
+          {
+            "name": "min_contracts",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_mobile_internet_plans",
+        "description": "Dubai mobile postpaid and home internet plans (Virgin Mobile, du, e&) with price per month including 5% VAT, data, minutes, contract and promo terms, cheapest first. Plans whose price is not shown are never ranked.",
+        "inputs": [
+          {
+            "name": "type",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "mobile",
+              "home_internet",
+              "all"
+            ]
+          },
+          {
+            "name": "max_aed",
+            "type": "number",
+            "description": "Maximum price per month in AED.",
+            "required": false
+          },
+          {
+            "name": "operator",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_dewa_tariff",
+        "description": "DEWA electricity and water slab tariff with this month's fuel surcharge and VAT, plus a monthly bill estimate for your kWh and water use (imperial gallons or m³) and the Dubai Municipality housing fee (5% of annual rent) if you give the rent.",
+        "inputs": [
+          {
+            "name": "kwh",
+            "type": "number",
+            "description": "Electricity per month in kWh.",
+            "required": false
+          },
+          {
+            "name": "water_gallons",
+            "type": "number",
+            "description": "Water per month in imperial gallons.",
+            "required": false
+          },
+          {
+            "name": "water_m3",
+            "type": "number",
+            "description": "Water per month in m³ (alternative to water_gallons).",
+            "required": false
+          },
+          {
+            "name": "annual_rent_aed",
+            "type": "number",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_electronics_prices",
+        "description": "Prices of popular phones, laptops, tablets, consoles, headphones, watches and TVs at Dubai stores (Sharaf DG, Jumbo, Amazon.ae, noon, Carrefour): every store offer in AED, cheapest buyable offer and saving vs the highest price.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "category",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "phones",
+              "audio",
+              "gaming",
+              "laptops",
+              "tablets",
+              "wearables",
+              "tvs"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "estimate_move_to_dubai",
+        "description": "Salary after tax at home vs in Dubai (0% personal income tax) for a gross annual salary, with the official tax model of the home country, the day's CBUAE exchange rate, registered Dubai rent for an area and our grocery basket, and the projected monthly savings. Estimate, not tax advice.",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Home country: ISO code (GB, US, IN…) or English name.",
+            "required": true
+          },
+          {
+            "name": "gross_annual",
+            "type": "number",
+            "description": "Gross annual salary, in `currency` (default: the country's currency).",
+            "required": true
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "household",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "bedrooms",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "property_type",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "apartment",
+              "villa"
+            ]
+          },
+          {
+            "name": "variant",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "dubai_gross_annual_aed",
+            "type": "number",
+            "description": "Dubai offer in AED, if different from the same gross converted.",
+            "required": false
+          },
+          {
+            "name": "home_monthly_costs",
+            "type": "number",
+            "description": "Current monthly spending at home, in `currency`.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_visa_and_company_costs",
+        "description": "Official government fees to move to Dubai by residence route (job, family, golden, remote work, freelance, investor): work permit, entry permit, residence, Emirates ID, medical test and insurance, who pays, processing time; or free-zone company setup packages (route \"company\"). Quotes the official wording.",
+        "inputs": [
+          {
+            "name": "route",
+            "type": "any",
+            "description": null,
+            "required": false,
+            "enum": [
+              "employment",
+              "family",
+              "golden",
+              "remote",
+              "freelance",
+              "investor",
+              "company"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_today",
+        "description": "Today's Dubai cost-of-living figures in one call: cheapest supermarket, biggest same-product price gap, fuel prices, a typical rent, tax savings, school fees and uniforms, each with its source and date.",
+        "inputs": null
+      },
+      {
+        "name": "get_cost_of_living",
+        "description": "A typical monthly budget in Dubai this month for a single person (studio), a couple (1-bedroom) and a family of four (2-bedroom, two children in private school): registered rent (DLD median), housing fee, DEWA, getting to work, mobile, home internet and school fees, each line with its assumption, source and date. Groceries are a separate reference basket, not part of the totals. Not an official st",
+        "inputs": [
+          {
+            "name": "profile",
+            "type": "any",
+            "description": "Only this household profile. Default: all three.",
+            "required": false,
+            "enum": [
+              "single",
+              "couple",
+              "family4"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2620,6 +3008,419 @@
       "truncated": false,
       "url": "https://github.com/datadubai/dubai-real-estate-dld#readme"
     }
+  },
+  {
+    "id": "mcp:ae-grovisor-grotax",
+    "name": "groTAX by Grovisor",
+    "qualifiedName": "ae.grovisor/grotax",
+    "slug": "ae-grovisor-grotax",
+    "description": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
+    "category": "Health & Science",
+    "repository": null,
+    "homepage": "https://grovisor.ae/tools",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.grovisor.ae/",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-02T03:01:23.583792Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "grotax_compute_ct",
+        "description": "Estimate UAE Corporate Tax using the Grovisor computation (rows A–K): AED 375,000 0% band then 9%, 50% entertainment add-back, interest cap (higher of AED 12m or 30% of adjusted EBITDA), 75% loss relief, Small Business Relief, simplified QFZP and WHT/FTC credits. Only accountingProfit is required; pass revenue to test SBR. Returns a markdown table plus structured rows. Indicative, not tax advice.",
+        "inputs": [
+          {
+            "name": "accountingProfit",
+            "type": "number",
+            "description": "Net profit (or loss, negative) per the financial statements, AED",
+            "required": true
+          },
+          {
+            "name": "revenue",
+            "type": "number",
+            "description": "Revenue for the tax period, AED (drives Small Business Relief and audit checks)",
+            "required": false
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Tax period end date, YYYY-MM-DD (default 2025-12-31)",
+            "required": false
+          },
+          {
+            "name": "lossesBF",
+            "type": "number",
+            "description": "Tax losses brought forward, AED",
+            "required": false
+          },
+          {
+            "name": "entertainment",
+            "type": "number",
+            "description": "Total client entertainment expense, AED (50% is added back)",
+            "required": false
+          },
+          {
+            "name": "fines",
+            "type": "number",
+            "description": "Fines and penalties (non-compensatory), AED",
+            "required": false
+          },
+          {
+            "name": "donations",
+            "type": "number",
+            "description": "Donations to non-qualifying bodies, AED",
+            "required": false
+          },
+          {
+            "name": "exemptIncomeExpenses",
+            "type": "number",
+            "description": "Expenses relating to exempt income, AED",
+            "required": false
+          },
+          {
+            "name": "connectedExcess",
+            "type": "number",
+            "description": "Payments to connected persons above market value, AED",
+            "required": false
+          },
+          {
+            "name": "otherAddBacks",
+            "type": "number",
+            "description": "Other non-deductible expenses, AED",
+            "required": false
+          },
+          {
+            "name": "exemptDividends",
+            "type": "number",
+            "description": "Exempt dividends from UAE/free zone companies, AED",
+            "required": false
+          },
+          {
+            "name": "participationIncome",
+            "type": "number",
+            "description": "Participation exemption income, AED",
+            "required": false
+          },
+          {
+            "name": "otherDeductions",
+            "type": "number",
+            "description": "Other allowable deductions, AED",
+            "required": false
+          },
+          {
+            "name": "netInterest",
+            "type": "number",
+            "description": "Net interest expense, AED",
+            "required": false
+          },
+          {
+            "name": "ebitda",
+            "type": "number",
+            "description": "Adjusted (tax) EBITDA, AED — used for the 30% interest cap",
+            "required": false
+          },
+          {
+            "name": "wht",
+            "type": "number",
+            "description": "Withholding tax credit, AED",
+            "required": false
+          },
+          {
+            "name": "ftc",
+            "type": "number",
+            "description": "Foreign tax credit, AED",
+            "required": false
+          },
+          {
+            "name": "sbrElect",
+            "type": "boolean",
+            "description": "Elect Small Business Relief if eligible",
+            "required": false
+          },
+          {
+            "name": "revenueExceededBefore",
+            "type": "boolean",
+            "description": "Revenue exceeded AED 3m in an earlier CT period (blocks SBR permanently)",
+            "required": false
+          },
+          {
+            "name": "qfzp",
+            "type": "boolean",
+            "description": "Treat as a Qualifying Free Zone Person (simplified: 0% on qualifying income)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "grotax_health_check",
+        "description": "Run the Grovisor CT reviewer red-flag checklist (SBR, free zone/QFZP, TP disclosure and Local/Master File, connected-person pay, related-party loans, entertainment, fines, interest cap, loss continuity, audit threshold, exempt income). Pass the answers you know; call grotax_list_health_questions first for the keys and allowed values. Returns findings ranked High → Low.",
+        "inputs": [
+          {
+            "name": "answers",
+            "type": "object",
+            "description": "Answers keyed by question id: revenueBand, sbrElected, freeZone, qualifyingAnalysis, auditedFS, mneGroup, rptLarge, cpPayments, tpDisclosure, ownerPayBenchmarked, rpLoansNoInterest, entertainment, ent",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "grotax_list_health_questions",
+        "description": "List the groTAX health-check questions with their answer keys and allowed values, including which questions only apply after others (dependsOn). Use before grotax_health_check.",
+        "inputs": null
+      },
+      {
+        "name": "grotax_tp_thresholds",
+        "description": "Check which UAE transfer pricing documents apply: TP Disclosure Form (related-party transactions > AED 40m with a category > AED 4m, or connected-person payments > AED 0.5m), Local File + Master File (revenue > AED 200m or MNE group).",
+        "inputs": [
+          {
+            "name": "revenue",
+            "type": "number",
+            "description": "Standalone revenue, AED",
+            "required": false
+          },
+          {
+            "name": "relatedPartyTotal",
+            "type": "number",
+            "description": "Aggregate related-party transactions in the period, AED",
+            "required": false
+          },
+          {
+            "name": "relatedPartyLargestCategory",
+            "type": "number",
+            "description": "Largest single transaction category with related parties, AED (omit if unknown)",
+            "required": false
+          },
+          {
+            "name": "connectedPersonPayments",
+            "type": "number",
+            "description": "Total payments/benefits to connected persons (owners, directors, relatives), AED",
+            "required": false
+          },
+          {
+            "name": "mneGroup",
+            "type": "boolean",
+            "description": "Constituent entity of a multinational group",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "grotax_compare_sbr",
+        "description": "Compute the same facts with and without Small Business Relief (revenue ≤ AED 3m, periods ending by 31 Dec 2029). Shows tax payable and what carries forward each way: in an SBR year a tax loss and disallowed interest are forfeited. Takes the same inputs as grotax_compute_ct (sbrElect is ignored).",
+        "inputs": [
+          {
+            "name": "accountingProfit",
+            "type": "number",
+            "description": "Net profit (or loss, negative) per the financial statements, AED",
+            "required": true
+          },
+          {
+            "name": "revenue",
+            "type": "number",
+            "description": "Revenue for the tax period, AED (drives Small Business Relief and audit checks)",
+            "required": false
+          },
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Tax period end date, YYYY-MM-DD (default 2025-12-31)",
+            "required": false
+          },
+          {
+            "name": "lossesBF",
+            "type": "number",
+            "description": "Tax losses brought forward, AED",
+            "required": false
+          },
+          {
+            "name": "entertainment",
+            "type": "number",
+            "description": "Total client entertainment expense, AED (50% is added back)",
+            "required": false
+          },
+          {
+            "name": "fines",
+            "type": "number",
+            "description": "Fines and penalties (non-compensatory), AED",
+            "required": false
+          },
+          {
+            "name": "donations",
+            "type": "number",
+            "description": "Donations to non-qualifying bodies, AED",
+            "required": false
+          },
+          {
+            "name": "exemptIncomeExpenses",
+            "type": "number",
+            "description": "Expenses relating to exempt income, AED",
+            "required": false
+          },
+          {
+            "name": "connectedExcess",
+            "type": "number",
+            "description": "Payments to connected persons above market value, AED",
+            "required": false
+          },
+          {
+            "name": "otherAddBacks",
+            "type": "number",
+            "description": "Other non-deductible expenses, AED",
+            "required": false
+          },
+          {
+            "name": "exemptDividends",
+            "type": "number",
+            "description": "Exempt dividends from UAE/free zone companies, AED",
+            "required": false
+          },
+          {
+            "name": "participationIncome",
+            "type": "number",
+            "description": "Participation exemption income, AED",
+            "required": false
+          },
+          {
+            "name": "otherDeductions",
+            "type": "number",
+            "description": "Other allowable deductions, AED",
+            "required": false
+          },
+          {
+            "name": "netInterest",
+            "type": "number",
+            "description": "Net interest expense, AED",
+            "required": false
+          },
+          {
+            "name": "ebitda",
+            "type": "number",
+            "description": "Adjusted (tax) EBITDA, AED — used for the 30% interest cap",
+            "required": false
+          },
+          {
+            "name": "wht",
+            "type": "number",
+            "description": "Withholding tax credit, AED",
+            "required": false
+          },
+          {
+            "name": "ftc",
+            "type": "number",
+            "description": "Foreign tax credit, AED",
+            "required": false
+          },
+          {
+            "name": "sbrElect",
+            "type": "boolean",
+            "description": "Elect Small Business Relief if eligible",
+            "required": false
+          },
+          {
+            "name": "revenueExceededBefore",
+            "type": "boolean",
+            "description": "Revenue exceeded AED 3m in an earlier CT period (blocks SBR permanently)",
+            "required": false
+          },
+          {
+            "name": "qfzp",
+            "type": "boolean",
+            "description": "Treat as a Qualifying Free Zone Person (simplified: 0% on qualifying income)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "grotax_penalties",
+        "description": "Return and payment due date (9 months after period end) and estimated penalties: late filing AED 500 a month for 12 months then AED 1,000, late payment 14% a year charged monthly (from 14 Apr 2026), AED 10,000 late registration, waived if the first return is filed within 7 months of the end of the first tax period. Blank filing date = today; blank payment date = filing date.",
+        "inputs": [
+          {
+            "name": "periodEnd",
+            "type": "string",
+            "description": "Tax period end date, YYYY-MM-DD",
+            "required": true
+          },
+          {
+            "name": "taxDue",
+            "type": "number",
+            "description": "Corporate Tax payable for the period, AED (for the late payment penalty)",
+            "required": false
+          },
+          {
+            "name": "filingDate",
+            "type": "string",
+            "description": "Date the return was or will be filed, YYYY-MM-DD (default today)",
+            "required": false
+          },
+          {
+            "name": "paymentDate",
+            "type": "string",
+            "description": "Date the tax was or will be paid, YYYY-MM-DD (default = filingDate)",
+            "required": false
+          },
+          {
+            "name": "lateRegistration",
+            "type": "boolean",
+            "description": "Registered for Corporate Tax after the deadline",
+            "required": false
+          },
+          {
+            "name": "firstPeriod",
+            "type": "boolean",
+            "description": "This period is the first tax period (used for the registration waiver)",
+            "required": false
+          },
+          {
+            "name": "firstPeriodEnd",
+            "type": "string",
+            "description": "End of the first tax period, if this is not the first period",
+            "required": false
+          },
+          {
+            "name": "firstReturnFiled",
+            "type": "string",
+            "description": "Date the first return was filed, if this is not the first period",
+            "required": false
+          },
+          {
+            "name": "today",
+            "type": "string",
+            "description": "Override today's date (testing / what-if)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "grotax_qfzp_de_minimis",
+        "description": "Test whether a free zone company's non-qualifying revenue stays within the de minimis limit: the lower of 5% of total revenue or AED 5m (MD 229 of 2025). Failing it ends Qualifying Free Zone Person status for that period and the next 4.",
+        "inputs": [
+          {
+            "name": "totalRevenue",
+            "type": "number",
+            "description": "Total revenue of the free zone company, AED",
+            "required": true
+          },
+          {
+            "name": "nonQualifyingRevenue",
+            "type": "number",
+            "description": "Non-qualifying revenue (excluding disregarded revenue), AED",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "grotax_get_rules",
+        "description": "List every rate and threshold groTAX uses, with its legal source and whether it still needs verification (verify: true).",
+        "inputs": null
+      }
+    ]
   },
   {
     "id": "mcp:ae-projectory-mcp",
@@ -3380,7 +4181,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 92,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -3434,18 +4235,18 @@
         "headers": []
       }
     ],
-    "stars": 7306,
+    "stars": 7307,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7306,
-      "forks": 1016,
+      "stars": 7307,
+      "forks": 1020,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 124,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3487,18 +4288,18 @@
         "headers": []
       }
     ],
-    "stars": 7306,
+    "stars": 7307,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7306,
-      "forks": 1016,
+      "stars": 7307,
+      "forks": 1020,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 124,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3588,18 +4389,18 @@
         "headers": []
       }
     ],
-    "stars": 7306,
+    "stars": 7307,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7306,
-      "forks": 1016,
+      "stars": 7307,
+      "forks": 1020,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 124,
+      "openIssues": 125,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -3959,7 +4760,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 340,
+        "weeklyDownloads": 297,
         "lastPublished": "2026-09-17T09:47:46.100Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -4350,7 +5151,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 34,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -4611,7 +5412,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 288,
+        "weeklyDownloads": 279,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -5274,7 +6075,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 355,
+        "weeklyDownloads": 556,
         "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
@@ -5923,7 +6724,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 274,
+        "weeklyDownloads": 260,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -7717,7 +8518,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 71,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -7764,7 +8565,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 91,
+        "weeklyDownloads": 97,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -7795,7 +8596,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 64,
+        "weeklyDownloads": 63,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -7826,7 +8627,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 182,
+        "weeklyDownloads": 190,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -7857,7 +8658,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 104,
+        "weeklyDownloads": 113,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -7888,7 +8689,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 93,
+        "weeklyDownloads": 100,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -7919,7 +8720,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 95,
+        "weeklyDownloads": 104,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -7950,7 +8751,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 100,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -7981,7 +8782,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 87,
+        "weeklyDownloads": 96,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -8012,7 +8813,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 94,
+        "weeklyDownloads": 105,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -8043,7 +8844,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 81,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -8074,7 +8875,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 85,
+        "weeklyDownloads": 92,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -8105,7 +8906,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 95,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -8136,7 +8937,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 83,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -8167,7 +8968,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 89,
+        "weeklyDownloads": 97,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -8198,7 +8999,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 95,
+        "weeklyDownloads": 105,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -8229,7 +9030,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 233,
+        "weeklyDownloads": 241,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -8260,7 +9061,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 99,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -8850,7 +9651,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": null,
+        "weeklyDownloads": 551,
         "lastPublished": "2026-09-30T22:09:13.403Z",
         "firstPublished": "2026-09-30T19:50:15.536Z",
         "deprecated": false,
@@ -9508,7 +10309,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-03T00:10:55Z",
-      "pushedAt": "2026-09-24T21:39:38Z",
+      "pushedAt": "2026-10-01T14:43:48Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "Go"
@@ -9799,7 +10600,7 @@
     "tools": [
       {
         "name": "property_coverage",
-        "description": "Use this first to check whether a Gold Coast property or address is supported before buying or renting. Free and returns coverage only, not paid property intelligence. Supply one specific Queensland street address OR a latitude/longitude pair. Address input is resolved only when it matches a high-confidence property point; ambiguous, POI or non-property matches are refused rather than guessed. If ",
+        "description": "FREE, NO API KEY: use this first for a Gold Coast street address before buying or renting. It checks coverage only and never charges. Supply one specific Queensland street address OR a latitude/longitude pair. Address input is resolved only when it matches a high-confidence property point; ambiguous, POI or non-property matches are refused rather than guessed. If supported is true, reuse the retur",
         "inputs": [
           {
             "name": "address",
@@ -9822,8 +10623,38 @@
         ]
       },
       {
+        "name": "property_report_one_off",
+        "description": "ONE-OFF A$1.39 X402 — NO ACCOUNT, NO API KEY. Use after property_coverage returns supported=true. Reuse the returned latitude and longitude. The first call without payment_signature returns x402 payment requirements and makes no charge. Build PAYMENT-SIGNATURE from those requirements and retry this same tool with payment_signature. Success returns the complete structured JSON report. Use property_",
+        "inputs": [
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
+            "required": true
+          },
+          {
+            "name": "payment_signature",
+            "type": "string",
+            "description": "Optional x402 v2 PAYMENT-SIGNATURE returned by the caller's payment client. Omit it on the first call, then retry this same tool with the signature.",
+            "required": false
+          },
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Optional: the resolved_address text returned by property_coverage. Used only to build the card-payment link for a human user when the caller cannot pay x402; it never changes the report or the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
         "name": "property_report",
-        "description": "Use this to check a Gold Coast property or address before buying or renting. Call it after property_coverage returns supported=true, with latitude, longitude and a caller-stable request_id. It creates and stores one complete structured JSON report covering the property, everyday life around the address, local risks and mapped changes. One paid lookup returns the full available PropertyCheck packag",
+        "description": "API KEY REQUIRED — 1 credit. Use this to check a Gold Coast property before buying or renting after property_coverage returns supported=true. Reuse the latitude and longitude returned by property_coverage (resolved_address for street-address input) and add a caller-stable request_id. It creates and stores one complete structured JSON report covering the property, everyday life around the address, ",
         "inputs": [
           {
             "name": "latitude",
@@ -9859,7 +10690,7 @@
       },
       {
         "name": "propertycheck_lookup",
-        "description": "Deprecated compatibility alias retained for existing clients; prefer property_coverage followed by property_report for new integrations and retry-safe stored reports. Use only when a legacy client needs the complete PropertyCheck package returned directly for one Gold Coast coordinate and cannot supply a stable request_id. It costs one credit and is not idempotent, so a retry may charge again. Poi",
+        "description": "API KEY REQUIRED — 1 credit. Deprecated compatibility alias retained for existing clients; prefer property_coverage followed by property_report for new integrations and retry-safe stored reports. Use only when a legacy client needs the complete PropertyCheck package returned directly for one Gold Coast coordinate and cannot supply a stable request_id. It costs one credit and is not idempotent, so ",
         "inputs": [
           {
             "name": "latitude",
@@ -10888,7 +11719,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1579,
+        "weeklyDownloads": 1773,
         "lastPublished": "2026-09-18T14:59:00.029Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -10897,12 +11728,12 @@
       }
     ],
     "remotes": [],
-    "stars": 500,
+    "stars": 502,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T15:07:12.087643Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 500,
+      "stars": 502,
       "forks": 37,
       "archived": false,
       "isFork": false,
@@ -10929,12 +11760,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 80,
+    "stars": 81,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T08:03:07.518871Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 80,
+      "stars": 81,
       "forks": 9,
       "archived": false,
       "isFork": false,
@@ -12580,6 +13411,85 @@
     ]
   },
   {
+    "id": "mcp:ai-asrm-asrm",
+    "name": "ASRM (AI Search Rank Monitor)",
+    "qualifiedName": "ai.asrm/asrm",
+    "slug": "ai-asrm-asrm",
+    "description": "Check a website's AI readiness and answer AI visibility and GEO questions from ASRM's guides.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://asrm.ai/plugin",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://asrm.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-01T22:03:27.105253Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "check_ai_readiness",
+        "description": "Technical check of whether AI engines can crawl and understand a website: which AI crawlers robots.txt allows or blocks (answer crawlers like OAI-SearchBot, PerplexityBot and Claude-SearchBot, and training crawlers like GPTBot), whether a sitemap and llms.txt exist, and homepage signals (title, description, H1, JSON-LD entity markup, server-rendered text, noindex). Returns pass/warn/fail checks wi",
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": "The website's domain, e.g. example.com (a full URL also works)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_visibility_scan_link",
+        "description": "Use when someone asks how visible their brand is in ChatGPT, Claude, Perplexity or Gemini, or whether AI engines recommend them. Returns the link to ASRM's free scan for their domain, which asks the AI engines real buyer questions from the brand's category and returns a 0 to 100 score. The scan runs on asrm.ai, not here: never state a score you did not get from the user.",
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": "The brand's domain, e.g. example.com",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_guides",
+        "description": "Search ASRM's published guides on AI visibility and generative engine optimization (GEO): how ChatGPT, Claude, Perplexity and Gemini choose which brands to mention and cite, how to get cited, how to track brand mentions, share of voice, and what an AI visibility score measures. Returns titles, summaries and urls; follow with get_guide for the full text. Omit query to list the newest guides.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What the user wants to know, in a few words",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many guides to return (default 5)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_guide",
+        "description": "The full text of one ASRM guide by slug or asrm.ai/learn/... url. Answer from the text and link the url.",
+        "inputs": [
+          {
+            "name": "slug_or_url",
+            "type": "string",
+            "description": "Guide slug from search_guides, or its asrm.ai/learn url",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ai-assetlog-assetlog",
     "name": "AssetLog",
     "qualifiedName": "ai.assetlog/assetlog",
@@ -14052,7 +14962,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 34,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -14083,7 +14993,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 26,
+        "weeklyDownloads": 28,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -14114,7 +15024,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 34,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -14174,7 +15084,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 88,
+        "weeklyDownloads": 100,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -14236,7 +15146,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 94,
+        "weeklyDownloads": 103,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -15647,6 +16557,18 @@
         ]
       },
       {
+        "name": "stock_price_lite",
+        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
+        "inputs": [
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "currency_convert_lite",
         "description": "Converts a monetary amount between any two fiat currencies using live exchange rates from the Frankfurter API (European Central Bank data). Returns the converted amount and the exchange rate applied. This is a lightweight variant of currency_convert — minimal response without rate timestamp or source attribution. Use currency_convert_lite when only the converted value and rate are needed and ECB/F",
         "inputs": [
@@ -15695,36 +16617,6 @@
         ]
       },
       {
-        "name": "stock_price_lite",
-        "description": "Retrieves the current trading price for a publicly listed stock by ticker symbol. Returns the current price as a single numeric value. This is a lightweight variant of stock_quote — it omits intraday high/low, percentage change, previous close, company name, sector, and exchange metadata. Use stock_price_lite when only the raw current price is needed for a quick lookup or calculation. Prefer stock",
-        "inputs": [
-          {
-            "name": "symbol",
-            "type": "string",
-            "description": "Stock ticker symbol in uppercase. Examples: AAPL (Apple), MSFT (Microsoft), TSLA (Tesla), GOOGL (Alphabet), AMZN (Amazon), NVDA (Nvidia). Must be a valid exchange-listed ticker.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "crypto_price_lite",
-        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
-        "inputs": [
-          {
-            "name": "coin",
-            "type": "string",
-            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
-            "required": true
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "web_news_headlines",
         "description": "Retrieves the latest real-time news headlines and article summaries from BBC News and The Guardian across nine topic categories. Returns structured articles with headline, description, source name, article URL, and publication date — sorted most recent first. No API key required. Use this tool when an agent needs current news about a specific topic, wants to summarise today's headlines, needs to r",
         "inputs": [
@@ -15744,6 +16636,24 @@
             "name": "limit",
             "type": "number",
             "description": "Maximum number of articles to return. Integer between 1 and 20. Defaults to 10. Use a lower number for a quick briefing and a higher number for comprehensive coverage.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "crypto_price_lite",
+        "description": "Retrieves the current spot price and 24-hour change for any cryptocurrency using the CoinGecko public API. Returns price, percentage change, and a timestamp. This is a lightweight variant of crypto_price that omits extended market data (market cap, volume) — use it when only the raw price and 24h direction are needed. Prefer crypto_price when the agent also needs market capitalisation, trading vol",
+        "inputs": [
+          {
+            "name": "coin",
+            "type": "string",
+            "description": "Cryptocurrency ticker symbol (BTC, ETH, SOL) or full CoinGecko name (bitcoin, ethereum, solana). Case-insensitive.",
+            "required": true
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "ISO 4217 fiat currency code for the returned price. Defaults to 'usd'. Examples: usd, eur, gbp, jpy.",
             "required": false
           }
         ]
@@ -18718,7 +19628,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-29T05:48:51Z",
-      "pushedAt": "2026-10-01T10:45:41Z",
+      "pushedAt": "2026-10-02T11:51:22Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -18764,7 +19674,7 @@
       },
       {
         "name": "fetch",
-        "description": "Fetch one docs page as markdown by the id `search` returned (a path such as /platforms/python), or by its full URL.",
+        "description": "Fetch one docs page as markdown by the id `search` returned (a path such as /platforms/python), or by its full docs.bithuman.ai URL.",
         "inputs": [
           {
             "name": "id",
@@ -20756,7 +21666,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -20918,7 +21828,145 @@
     "source": "MCP Registry",
     "updatedAt": "2026-10-01T10:00:43.584444Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "generate_sound_effect",
+        "description": "Create game-ready sound effects (WAV) from a text description: retro, UI, foley, creatures, weather, weapons, magic, ambiences. Each sound (variation) costs 1 credit. Returns time-limited download URLs (24 h) for each variation. Describe one concrete sound; ask for 3–4 variations for sounds that repeat (footsteps, hits).",
+        "inputs": [
+          {
+            "name": "description",
+            "type": "string",
+            "description": "What it should sound like, e.g. 'footsteps on wet gravel, single step' or '8-bit coin pickup'",
+            "required": true
+          },
+          {
+            "name": "variations",
+            "type": "integer",
+            "description": "Number of variations (capped by plan)",
+            "required": false
+          },
+          {
+            "name": "loop",
+            "type": "boolean",
+            "description": "Make a seamless loop (ambiences, hums, alarms)",
+            "required": false
+          },
+          {
+            "name": "duration_seconds",
+            "type": "number",
+            "description": "Optional target length; omit to let the agent pick",
+            "required": false
+          },
+          {
+            "name": "style",
+            "type": "string",
+            "description": "Optional aesthetic bias",
+            "required": false,
+            "enum": [
+              "auto",
+              "retro",
+              "realistic",
+              "stylized",
+              "sci-fi",
+              "cartoon",
+              "fantasy",
+              "horror",
+              "ui-modern"
+            ]
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": "wav16 = 48 kHz/16-bit (default, fine for every engine), wav24 = 48 kHz/24-bit master, wav16-44k = 44.1 kHz/16-bit, wav16-22k-mono = small",
+            "required": false,
+            "enum": [
+              "wav16",
+              "wav24",
+              "wav16-44k",
+              "wav16-22k-mono"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "make_variations",
+        "description": "Create free round-robin variations (pitch/EQ) of an existing sound so repeated sounds don't feel machine-gunned. Costs no credits.",
+        "inputs": [
+          {
+            "name": "sound_id",
+            "type": "string",
+            "description": "Id of an existing sound (snd_…)",
+            "required": true
+          },
+          {
+            "name": "count",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": "wav16 = 48 kHz/16-bit (default, fine for every engine), wav24 = 48 kHz/24-bit master, wav16-44k = 44.1 kHz/16-bit, wav16-22k-mono = small",
+            "required": false,
+            "enum": [
+              "wav16",
+              "wav24",
+              "wav16-44k",
+              "wav16-22k-mono"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "list_sounds",
+        "description": "Search the user's sound library (name, prompt or tag). Returns ids, names, technique and duration.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Optional search text",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "download_sound",
+        "description": "Get a time-limited download URL for an existing sound.",
+        "inputs": [
+          {
+            "name": "sound_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": "wav16 = 48 kHz/16-bit (default, fine for every engine), wav24 = 48 kHz/24-bit master, wav16-44k = 44.1 kHz/16-bit, wav16-22k-mono = small",
+            "required": false,
+            "enum": [
+              "wav16",
+              "wav24",
+              "wav16-44k",
+              "wav16-22k-mono"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_credits",
+        "description": "Show the remaining credit balance, plan and next monthly refill.",
+        "inputs": null
+      }
+    ]
   },
   {
     "id": "mcp:ai-bloopo-bloopo",
@@ -22418,7 +23466,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 473,
+        "weeklyDownloads": 645,
         "lastPublished": "2026-10-01T04:37:19.668Z",
         "firstPublished": "2026-06-30T13:59:30.581Z",
         "deprecated": false,
@@ -22473,7 +23521,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 80,
+        "weeklyDownloads": 77,
         "lastPublished": "2026-08-06T02:35:17.565Z",
         "firstPublished": "2026-08-06T01:56:25.203Z",
         "deprecated": false,
@@ -22498,7 +23546,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-01T04:42:48.563346Z",
+    "updatedAt": "2026-10-02T03:48:37.855772Z",
     "repoMeta": {
       "slug": "bowmark-ai/skill",
       "stars": 0,
@@ -22567,14 +23615,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-17T16:29:29Z",
-      "pushedAt": "2026-09-25T11:03:54Z",
+      "pushedAt": "2026-10-02T10:52:23Z",
       "openIssues": 0,
-      "license": null,
+      "license": "MIT",
       "language": null
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# BridgeApp plugins\n\nOfficial plugins that connect a coding agent to a [BridgeApp](https://bridgeapp.ai)\nworkspace over MCP, so it can read and act on tasks, chats, threads, pages, and\nprojects under the signed-in account's own permissions.\n\n## Claude Code\n\n```\nclaude plugin marketplace add MathAndMagic/bridgeapp-plugin\nclaude plugin install bridgeapp@bridgeapp\n```\n\nThen sign in — this needs an interactive terminal, so run it yourself rather\nthan asking an agent to. Claude Code addresses a plugin-provided server as\n`plugin:<plugin>:<server>`, unless a `bridgeapp` server was already registered\nby hand — then it keeps that entry, adds no plugin copy, and the bare name is\nthe one to sign in to:\n\n```\nclaude mcp login plugin:bridgeapp:bridgeapp || claude mcp login bridgeapp\n```\n\n## Codex and ChatGPT\n\nThe same plugin installs into Codex — MCP server and skills together:\n\n```\ncodex plugin marketplace add MathAndMagic/bridgeapp-plugin\ncodex plugin add bridgeapp@bridgeapp\n```\n\nCodex asks you to sign in to BridgeApp the first time a tool is used. The\nmanifest lives in `.codex-plugin/plugin.json` and the marketplace in\n`.agents/plugins/marketplace.json`; both read the same `skills/` and `.mcp.json`\nas the Claude Code and Cursor manifests.\n\n## Other agents\n\nPoint any MCP client that speaks streamable HTTP with OAuth at:\n\n```\nhttps://mcp.bridgeapp.ai/mcp\n```\n\nIt discovers the authorization server and the `bridgeapp:mcp` scope on its own\nfrom `https://mcp.bridgeapp.ai/.well-known/oauth-protected-resource`.\n\nPer-client instructions, including the ones an agent can follow on its own, live\nin [`agent-setup.md`](./agent-setup.md), published at\n`https://bridgeapp.ai/agent-setup.md` and at `/agent-setup.md` on every\nworkspace host.\n\nThat file is the master copy. The same file ships in `bridgeapp-web`\n(`public/agent-setup.md`, serving every workspace host) and in `bridge-website`\n(`public/agent-setup.md`, serving the apex domain) — edit it here and copy it to\nboth in the same piece of work, byte-identical.\n\n## Self-hosted workspaces\n\nEvery URL above belongs to the hosted service. BridgeApp also runs on customers'\nown infrastructure, under domains of their choosing, and the plugin ships the\nhosted endpoint in [`.mcp.json`](./plugins/bridgeapp/.mcp.json) — deliberately\nas a plain value: Claude Code substitutes plugin settings unreliably across\nversions, and a server that silently fails to register is worse than a fixed\nURL. On a self-hosted workspace, register the workspace's own endpoint — shown\non its **Agents → Connect Apps** page — directly:\n\n```\nclaude mcp add --scope user --transport http bridgeapp https://mcp.example.com/mcp\n```\n\nThe plugin's skills still apply; the plugin's own hosted server stays\nunauthenticated and can be ignored or removed from `/mcp`. `bridgeapp-links`\ncovers the matching rule for building links back into a self-hosted workspace.\n\n## What is in here\n\n```\nplugins/bridgeapp/\n  .claude-plugin/plugin.json   Claude Code manifest\n  .cursor-plugin/plugin.json   Cursor manifest\n  .codex-plugin/plugin.json    Codex / ChatGPT manifest (directory metadata, logo)\n  .mcp.json                    the hosted BridgeApp MCP server\n  skills/                      how to work with a BridgeApp workspace\n    bridgeapp-links/references/routes.md   the app's route map\n```\n\nOne plugin serves every client: the manifests differ, the MCP server and the\nskills are shared.\n\n## Skills\n\n- **bridgeapp-task** — working from a task: its plan, comments, subtasks and\n  blockers, plus the project brief, which is the only place the repository and\n  the team's flow are recorded.\n- **bridgeapp-thread** — reading a shared message or thread to the end,\n  including the agent transcripts inside it. This is what fires when someone\n  shares a message from BridgeApp with your agent.\n- **bridgeapp-context** — walking from a task, message, or page to everything it\n  hangs off, and where to stop.\n- **bridgeapp-links** — the URL shapes and the mention syntax: how to give a\n  human a link into the app, and how to resolve the tokens and keys you meet\n  while reading. Carries the full route map — every path in the app, web and\n  desktop, with the query params each one takes.\n- **bridgeapp-investigation** — diagnosing a bug when the trail runs through\n  both the repository and BridgeApp. Read-only by construction.\n- **bridgeapp-task-creation** — turning a request into a well-formed task,\n  including the duplicate check that comes first.\n\nBecause the skills carry the how, a shared link only has to carry the what: the\nShare action in BridgeApp sends a pointer to the message, not a copy of the\nconversation and not a list of instructions.\n\n## Verifying a connection\n\nCall `list_projects`. An empty list is a pass: it means the connection works and\nthe account has no projects yet.",
+      "markdown": "# BridgeApp plugins\n\nOfficial plugins that connect a coding agent to a [BridgeApp](https://bridgeapp.ai)\nworkspace over MCP, so it can read and act on tasks, chats, threads, pages, and\nprojects under the signed-in account's own permissions.\n\n## Claude Code\n\n```\nclaude plugin marketplace add MathAndMagic/bridgeapp-plugin\nclaude plugin install bridgeapp@bridgeapp\n```\n\nThen sign in — this needs an interactive terminal, so run it yourself rather\nthan asking an agent to. Claude Code addresses a plugin-provided server as\n`plugin:<plugin>:<server>`, unless a `bridgeapp` server was already registered\nby hand — then it keeps that entry, adds no plugin copy, and the bare name is\nthe one to sign in to:\n\n```\nclaude mcp login plugin:bridgeapp:bridgeapp || claude mcp login bridgeapp\n```\n\n## Codex and ChatGPT\n\nThe same plugin installs into Codex — MCP server and skills together:\n\n```\ncodex plugin marketplace add MathAndMagic/bridgeapp-plugin\ncodex plugin add bridgeapp@bridgeapp\n```\n\nCodex asks you to sign in to BridgeApp the first time a tool is used. The\nmanifest lives in `.codex-plugin/plugin.json` and the marketplace in\n`.agents/plugins/marketplace.json`; both read the same `skills/` and `.mcp.json`\nas the Claude Code and Cursor manifests.\n\n## Other agents\n\nPoint any MCP client that speaks streamable HTTP with OAuth at:\n\n```\nhttps://mcp.bridgeapp.ai/mcp\n```\n\nIt discovers the authorization server and the `bridgeapp:mcp` scope on its own\nfrom `https://mcp.bridgeapp.ai/.well-known/oauth-protected-resource`.\n\nPer-client instructions, including the ones an agent can follow on its own, live\nin [`agent-setup.md`](./agent-setup.md), published at\n`https://bridgeapp.ai/agent-setup.md` and at `/agent-setup.md` on every\nworkspace host.\n\nThat file is the master copy. The same file ships in `bridgeapp-web`\n(`public/agent-setup.md`, serving every workspace host) and in `bridge-website`\n(`public/agent-setup.md`, serving the apex domain) — edit it here and copy it to\nboth in the same piece of work, byte-identical.\n\n## Self-hosted workspaces\n\nEvery URL above belongs to the hosted service. BridgeApp also runs on customers'\nown infrastructure, under domains of their choosing, and the plugin ships the\nhosted endpoint in [`.mcp.json`](./plugins/bridgeapp/.mcp.json) — deliberately\nas a plain value: Claude Code substitutes plugin settings unreliably across\nversions, and a server that silently fails to register is worse than a fixed\nURL. On a self-hosted workspace, register the workspace's own endpoint — shown\non its **Agents → Connect Apps** page — directly:\n\n```\nclaude mcp add --scope user --transport http bridgeapp https://mcp.example.com/mcp\n```\n\nThe plugin's skills still apply; the plugin's own hosted server stays\nunauthenticated and can be ignored or removed from `/mcp`. Links back into the\nworkspace come from the server's `build_bridgeapp_link` tool, so they carry the\nself-hosted domain on their own.\n\n## What is in here\n\n```\nplugins/bridgeapp/\n  .claude-plugin/plugin.json   Claude Code manifest\n  .cursor-plugin/plugin.json   Cursor manifest\n  .codex-plugin/plugin.json    Codex / ChatGPT manifest (directory metadata, logo)\n  .mcp.json                    the hosted BridgeApp MCP server\n  skills/                      how to work with a BridgeApp workspace\n```\n\nOne plugin serves every client: the manifests differ, the MCP server and the\nskills are shared.\n\n## Skills\n\n- **bridgeapp-task** — working from a task: its plan, comments, subtasks and\n  blockers, plus the project brief, which is the only place the repository and\n  the team's flow are recorded.\n- **bridgeapp-thread** — reading a shared message or thread to the end,\n  including the agent transcripts inside it. This is what fires when someone\n  shares a message from BridgeApp with your agent.\n- **bridgeapp-context** — walking from a task, message, or page to everything it\n  hangs off, and where to stop.\n- **bridgeapp-investigation** — diagnosing a bug when the trail runs through\n  both the repository and BridgeApp. Read-only by construction.\n- **bridgeapp-task-creation** — turning a request into a well-formed task,\n  including the duplicate check that comes first.\n\nBecause the skills carry the how, a shared link only has to carry the what: the\nShare action in BridgeApp sends a pointer to the message, not a copy of the\nconversation and not a list of instructions.\n\n## Verifying a connection\n\nCall `list_projects`. An empty list is a pass: it means the connection works and\nthe account has no projects yet.",
       "truncated": false,
       "url": "https://github.com/MathAndMagic/bridgeapp-plugin#readme"
     }

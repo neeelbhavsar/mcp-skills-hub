@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-30T12:12:24Z",
+  "updatedAt": "2026-10-01T12:46:31Z",
   "counts": {
     "skills": 338,
-    "mcps": 228,
+    "mcps": 230,
     "repos": 123
   },
   "categories": {
@@ -17,19 +17,19 @@
     },
     "mcps": {
       "Dev Tools & Git": 5,
-      "Web & Search": 22,
+      "Web & Search": 23,
       "AI & Memory": 59,
       "Productivity": 7,
       "Design & Media": 13,
       "Marketing & Social": 18,
       "Other": 45,
+      "Health & Science": 2,
       "Finance & Data": 23,
       "Commerce & Retail": 10,
       "Legal & Government": 9,
       "Databases & Storage": 4,
       "Cloud & DevOps": 3,
-      "Docs & Knowledge": 9,
-      "Health & Science": 1
+      "Docs & Knowledge": 9
     },
     "repos": {
       "MCP & Tooling": 20,
