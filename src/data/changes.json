@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:10:38.698Z",
+  "generatedAt": "2026-10-03T11:21:12.105Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,29 +21,42 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ae-grovisor-grotax",
-          "name": "groTAX by Grovisor",
-          "description": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
-          "category": "Health & Science"
-        },
-        {
-          "slug": "ai-asrm-asrm",
-          "name": "ASRM (AI Search Rank Monitor)",
-          "description": "Check a website's AI readiness and answer AI visibility and GEO questions from ASRM's guides.",
-          "category": "Web & Search"
+          "slug": "ai-2kw-mcp-server",
+          "name": "2kw.ai",
+          "description": "EU-hosted AI platform: OpenAI-compatible LLM gateway, document extraction, transcription, agents.",
+          "category": "AI & Memory"
         }
       ],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "ai-byteray-byteray-mcp",
+          "name": "ByteRay AI",
+          "description": "Hunt zero-days by talking to binaries. 40+ tools. Hosted, OAuth + SSO, invite: hi@byteray.ai",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-cabrini-market-data",
+          "name": "Cabrini Market Data",
+          "description": "US equity data for AI agents — 23 years intraday + daily, SEC filings. x402 USDC payments.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-cactal-cactal",
+          "name": "Cactal",
+          "description": "The website platform for AI agents. One API to build, host, and operate real websites.",
+          "category": "AI & Memory"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 0,
+        "added": 1,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 228,
-        "currentTotal": 230
+        "previousTotal": 230,
+        "currentTotal": 228
       }
     },
     "repos": {
