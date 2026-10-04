@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:21:12.105Z",
+  "generatedAt": "2026-10-04T12:02:19.675Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,13 +21,47 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-2kw-mcp-server",
-          "name": "2kw.ai",
-          "description": "EU-hosted AI platform: OpenAI-compatible LLM gateway, document extraction, transcription, agents.",
+          "slug": "africa-ugc-ugc",
+          "name": "UGC, the Human Ad Network",
+          "description": "The Human Ad Network. Campaigns, clipping, and Clip Studio from chat.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-adrails-adrails",
+          "name": "Adrails",
+          "description": "AI agents that build, test and monitor Meta Ads and Google Ads campaigns from your real data.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-adrio-adrio",
+          "name": "Adrio",
+          "description": "Research competitor Meta ads, manage brand angles and audiences, and brief Spark to create ads.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-atalay-mcp",
+          "name": "Atalay",
+          "description": "Your business data across Atalay products: sites, domains, mail, invoices, shop and B2B orders, AI.",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "ai-athaus-immobiliensuche",
+          "name": "Athaus Immobiliensuche",
+          "description": "Find a home in Germany: search athaus listings, save searches, send enquiries and book viewings.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-athaus-makler",
+          "name": "Athaus für Makler",
+          "description": "Real estate brokerage in Germany: listings, enquiries, viewings, valuations, drafts, social posts.",
           "category": "AI & Memory"
-        }
-      ],
-      "removed": [
+        },
+        {
+          "slug": "ai-avaloncompany-web-content-url-tools",
+          "name": "Web Content & URL Tools",
+          "description": "26 tools: web pages to Markdown, metadata, tech stack, SSL, SEO, domains, email auth and SSO checks.",
+          "category": "Docs & Knowledge"
+        },
         {
           "slug": "ai-byteray-byteray-mcp",
           "name": "ByteRay AI",
@@ -45,34 +79,222 @@
           "name": "Cactal",
           "description": "The website platform for AI agents. One API to build, host, and operate real websites.",
           "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-calaf-calaf",
+          "name": "Calaf",
+          "description": "Run your Calaf recruiting book from chat: firms, people, pipeline, calendar, notes, and prep.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-calaf-seeds",
+          "name": "Calaf Seed Tools",
+          "description": "Author and validate Calaf workspace seeds against the app's real importer. No account needed.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-calendarmcp-server",
+          "name": "CalendarMCP",
+          "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-calfeed-calfeed",
+          "name": "Calfeed",
+          "description": "Turn a written schedule into a live calendar link people subscribe to in Apple, Google, Outlook.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-callmcp-server",
+          "name": "Callmcp MCP",
+          "description": "One MCP tool contract for telephony — any call provider, hosted, local, or BYOK.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-canaryusers-canaryusers",
+          "name": "canaryusers",
+          "description": "A flock of AI users tests your deployed app and reports where real people get stuck, with fixes.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-canivibe-status",
+          "name": "Can I Vibe? — AI coding provider status",
+          "description": "Live status and health checks for AI coding providers: Claude, Cursor, Copilot, Codex and more.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-canvora-canvora",
+          "name": "Canvora",
+          "description": "Turn any idea, URL, doc, or PDF into on-brand visuals: 100+ formats, native in 150+ languages",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-careercorner-careercorner",
+          "name": "CareerCorner",
+          "description": "Your personal career coach. Scanning jobs for you, daily.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-caulo-caulo",
+          "name": "Caulo",
+          "description": "Social network for verified humans where your AI agent reads the feed, posts, DMs, and moderates.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-caybl-caybl",
+          "name": "Caybl",
+          "description": "Hosted MCP server for GA4, Google Ads and Search Console. Google OAuth, nothing to install.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-ccapi-mcp",
+          "name": "CCAPI",
+          "description": "Image, video, music and text generation across 100+ models through one endpoint.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-cdbx-mcp-server",
+          "name": "Cdbx MCP",
+          "description": "Build Apps and run code in 30 languages — sandboxed, with persistent sessions for agent loops.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-cerebrium-docs",
+          "name": "Cerebrium Docs",
+          "description": "Search the Cerebrium docs: deployment, cerebrium.toml, hardware, endpoints. Also sends feedback.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-certscore-mcp",
+          "name": "CertScore MCP",
+          "description": "CertScore website risk-signal tools for scans, findings, evidence, and latest-domain lookups.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-certscore-mcp-light",
+          "name": "CertScore.ai MCP Light",
+          "description": "Free website privacy scanner for pre-consent cookies, trackers, consent, policy, and HTTPS/TLS.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-chatthing-chat-thing",
+          "name": "Chat Thing",
+          "description": "Build and manage AI-native customer support agents from Claude or any MCP client.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-childadhd-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on ADHD in children — evaluation, treatment, school, parenting.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-childanxiety-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on anxiety, OCD, and phobias in children ages 5–12.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-childpsychiatry-library",
+          "name": "library",
+          "description": "Clinician-reviewed library on child psychiatric evaluation and medication decision-making.",
+          "category": "Health & Science"
+        },
+        {
+          "slug": "ai-chinamarketing-intelligence",
+          "name": "China Marketing AI Intelligence MCP",
+          "description": "Remote MCP server for China brand visibility, destination demand, and KOL discovery workflows.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-chipp-alchemist-cloud-tickets",
+          "name": "Alchemist Cloud Tickets",
+          "description": "Dispatch and track Alchemist Cloud tickets, watch deploys, read logs, and query your project DB.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-chipp-chipp",
+          "name": "Chipp",
+          "description": "Build and manage Chipp AI apps: prompts, knowledge, custom actions, and chat with your apps.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-chronary-mcp",
+          "name": "Chronary",
+          "description": "Calendar API for AI agents: events, availability, Google/Microsoft setup, scheduling, and iCal.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-circulara-plugin",
+          "name": "plugin",
+          "description": "Circulara Observe MCP plugin - meters your AI agents' token spend and carbon, free tier.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-cirra-salesforce-mcp",
+          "name": "Cirra AI Salesforce Admin MCP Server",
+          "description": "Comprehensive Salesforce administration and management",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-citybook-citybook",
+          "name": "Citybook",
+          "description": "Live Calgary events for AI agents.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-clarid-compliance",
+          "name": "Clarid Compliance",
+          "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-clarid-hmda",
+          "name": "Clarid HMDA Validator",
+          "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-clarx-mcp",
+          "name": "Clarx MCP",
+          "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
+          "category": "AI & Memory"
         }
       ],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 1,
-        "removed": 3,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 230,
-        "currentTotal": 228
-      }
-    },
-    "repos": {
-      "baseline": true,
-      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
+        "added": 40,
+        "removed": 0,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 228,
+        "currentTotal": 268
+      }
+    },
+    "repos": {
+      "baseline": true,
+      "added": [
+        {
+          "slug": "tt-a1i-archify",
+          "name": "archify",
+          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+          "category": "AI Agents"
+        }
+      ],
+      "removed": [],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 123,
-        "currentTotal": 123
+        "currentTotal": 124
       }
     }
   }
