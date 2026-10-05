@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:02:19.675Z",
+  "generatedAt": "2026-10-05T14:05:02.840Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,7 +7,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "vibe-prospecting",
+          "name": "vibe-prospecting",
+          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
+          "category": "Data & Analysis",
+          "delta": 8,
+          "stars": 95
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -21,45 +30,95 @@
       "baseline": true,
       "added": [
         {
-          "slug": "africa-ugc-ugc",
-          "name": "UGC, the Human Ad Network",
-          "description": "The Human Ad Network. Campaigns, clipping, and Clip Studio from chat.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-adrails-adrails",
-          "name": "Adrails",
-          "description": "AI agents that build, test and monitor Meta Ads and Google Ads campaigns from your real data.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-adrio-adrio",
-          "name": "Adrio",
-          "description": "Research competitor Meta ads, manage brand angles and audiences, and brief Spark to create ads.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-atalay-mcp",
-          "name": "Atalay",
-          "description": "Your business data across Atalay products: sites, domains, mail, invoices, shop and B2B orders, AI.",
-          "category": "Commerce & Retail"
-        },
-        {
-          "slug": "ai-athaus-immobiliensuche",
-          "name": "Athaus Immobiliensuche",
-          "description": "Find a home in Germany: search athaus listings, save searches, send enquiries and book viewings.",
+          "slug": "ai-1clickwebsite-mcp",
+          "name": "1ClickWebsite",
+          "description": "Build and edit WordPress websites for local service businesses and run Lead Gen demo-site batches.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-athaus-makler",
-          "name": "Athaus für Makler",
-          "description": "Real estate brokerage in Germany: listings, enquiries, viewings, valuations, drafts, social posts.",
+          "slug": "ai-agothe-mcp-chatgpt-agent-contract-preflight",
+          "name": "Agothe Agent Contract Preflight",
+          "description": "Deterministic MCP, JSON Schema, and SemVer preflight via Agothe's public MUV scope.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-alcock-arena",
+          "name": "Alcock Arena",
+          "description": "AI forecasting gym: markets, sports, policy and tech. Graded by reality, measured against markets.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-askatria-atria",
+          "name": "Atria",
+          "description": "US site diligence for agents: parcels, power, flood, zoning rules and more, each with its source.",
+          "category": "AI & Memory"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ai-bowmark-bowmark",
+          "name": "Bowmark",
+          "description": "Do things on live websites: prices, availability, quotes, bookings, anything behind a form or login.",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "ai-brainattic-knowledge-base",
+          "name": "brainattic",
+          "description": "The knowledge base your AI reads and writes, under your rules — over MCP, EU-hosted.",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "ai-bridgeapp-bridgeapp",
+          "name": "bridgeapp",
+          "description": "BridgeApp workspace over MCP: tasks, chats, threads, pages, and projects.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-bringyour-bringyour",
+          "name": "Bring Your AI",
+          "description": "No-data MCP handoff for local Claude Code to Codex harness moves. $49 lifetime.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-buildersinfintech-fintech-data",
+          "name": "Builders in Fintech",
+          "description": "Fintech funding rounds, companies, investors and podcast knowledge. Free, keyless, CC BY 4.0.",
           "category": "AI & Memory"
         },
         {
-          "slug": "ai-avaloncompany-web-content-url-tools",
-          "name": "Web Content & URL Tools",
-          "description": "26 tools: web pages to Markdown, metadata, tech stack, SSL, SEO, domains, email auth and SSO checks.",
+          "slug": "ai-buildwithorbit-orbit",
+          "name": "Orbit",
+          "description": "Turn any task into the right API calls: discover, evaluate, and integrate public APIs.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-bunzee-bunzee",
+          "name": "Bunzee",
+          "description": "Turn your app idea into IA, wireframes, PRD, style guides, and dev specs for coding agents.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-buron-buron",
+          "name": "Buron",
+          "description": "Marketing-measurement MCP: dashboards, cross-channel queries, integrations, and knowledge files.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-butlerbrain-mcp",
+          "name": "Butlerbrain MCP",
+          "description": "Persistent memory for AI assistants. Save once; recall from Claude, ChatGPT, or any MCP client.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-buyersense-buyersense",
+          "name": "buyersense",
+          "description": "MCP server for the BuyerSense API. Get buyer signals from any MCP client.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-byteask-embedded-docs",
+          "name": "embedded-docs",
+          "description": "Page-cited retrieval for embedded docs, datasheets, MISRA, CMSIS, and RTOS references.",
           "category": "Docs & Knowledge"
         },
         {
@@ -235,65 +294,33 @@
           "name": "Cirra AI Salesforce Admin MCP Server",
           "description": "Comprehensive Salesforce administration and management",
           "category": "Other"
-        },
-        {
-          "slug": "ai-citybook-citybook",
-          "name": "Citybook",
-          "description": "Live Calgary events for AI agents.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-clarid-compliance",
-          "name": "Clarid Compliance",
-          "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-clarid-hmda",
-          "name": "Clarid HMDA Validator",
-          "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-clarx-mcp",
-          "name": "Clarx MCP",
-          "description": "Score agent manifests, generate CI workflows, and pull Clarx scan findings into your IDE.",
-          "category": "AI & Memory"
         }
       ],
-      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 40,
-        "removed": 0,
+        "added": 4,
+        "removed": 44,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 228,
-        "currentTotal": 268
+        "previousTotal": 268,
+        "currentTotal": 228
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "tt-a1i-archify",
-          "name": "archify",
-          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
-          "category": "AI Agents"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 123,
+        "previousTotal": 124,
         "currentTotal": 124
       }
     }
