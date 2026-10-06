@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91013,
+    "stars": 91039,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91013,
-      "forks": 11756,
+      "stars": 91039,
+      "forks": 11758,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-05T05:59:16Z",
-      "openIssues": 197,
+      "openIssues": 198,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -952,8 +952,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
-      "pushedAt": "2026-10-05T13:39:01Z",
-      "openIssues": 7,
+      "pushedAt": "2026-10-06T06:26:14Z",
+      "openIssues": 8,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -2334,7 +2334,7 @@
           },
           {
             "name": "fuel",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2352,7 +2352,7 @@
           },
           {
             "name": "emirate_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2373,7 +2373,7 @@
           },
           {
             "name": "to_hub_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2385,7 +2385,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2426,7 +2426,7 @@
           },
           {
             "name": "property_type",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2448,7 +2448,7 @@
           },
           {
             "name": "transport",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2466,7 +2466,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2515,7 +2515,7 @@
           },
           {
             "name": "emirate_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2536,7 +2536,7 @@
         "inputs": [
           {
             "name": "status",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2548,7 +2548,7 @@
           },
           {
             "name": "license_status",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2626,7 +2626,7 @@
           },
           {
             "name": "profile",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2643,7 +2643,7 @@
         "inputs": [
           {
             "name": "published",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2667,7 +2667,7 @@
           },
           {
             "name": "emirate",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2694,7 +2694,7 @@
         "inputs": [
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2748,7 +2748,7 @@
       },
       {
         "name": "grocery_compare_list",
-        "description": "proposed items, subtotals, delivery/minimums. Not MOET/reports.",
+        "description": "proposed items, subtotals, delivery/minimums. Not MOET/reports. Observed + generic estimated totals.",
         "inputs": [
           {
             "name": "items",
@@ -2766,11 +2766,11 @@
       },
       {
         "name": "grocery_products",
-        "description": "products, pack/unit offers/dates; product_id: history. Not MOET/reports.",
+        "description": "products, pack/unit offers/dates; product_id: history. Not MOET/reports. Labelled generic estimates.",
         "inputs": [
           {
             "name": "comparison",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2792,7 +2792,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2823,7 +2823,7 @@
           },
           {
             "name": "availability",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2852,7 +2852,7 @@
         "inputs": [
           {
             "name": "delivery_rule_status",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2864,7 +2864,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2898,7 +2898,7 @@
         "inputs": [
           {
             "name": "emirate",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2931,7 +2931,7 @@
           },
           {
             "name": "property_type",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2953,7 +2953,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -2989,7 +2989,7 @@
           },
           {
             "name": "contract",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3011,7 +3011,7 @@
           },
           {
             "name": "property_type",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3027,7 +3027,7 @@
           },
           {
             "name": "market",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3037,7 +3037,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3087,7 +3087,7 @@
           },
           {
             "name": "status",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3098,7 +3098,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3128,7 +3128,7 @@
           },
           {
             "name": "type",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3147,7 +3147,7 @@
       },
       {
         "name": "move_to_dubai",
-        "description": "home/Dubai net, taxes, FX, costs/savings; omit country: models. Not tax advice.",
+        "description": "home/Dubai net, taxes, FX, costs/savings; omit country: models. Not tax advice. Owner: household=business_owner + profit.",
         "inputs": [
           {
             "name": "country",
@@ -3169,7 +3169,7 @@
           },
           {
             "name": "household",
-            "type": "object | null",
+            "type": "any",
             "description": null,
             "required": false
           },
@@ -3187,7 +3187,7 @@
           },
           {
             "name": "property_type",
-            "type": "string | null",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3215,6 +3215,12 @@
             "required": false
           },
           {
+            "name": "profit",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
             "name": "iso2",
             "type": "string",
             "description": null,
@@ -3222,7 +3228,7 @@
           },
           {
             "name": "status",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3232,7 +3238,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3266,7 +3272,7 @@
           },
           {
             "name": "category",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3282,7 +3288,7 @@
           },
           {
             "name": "chain_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3304,7 +3310,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3332,7 +3338,7 @@
         "inputs": [
           {
             "name": "route_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3400,7 +3406,7 @@
           },
           {
             "name": "radius_km",
-            "type": "integer",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3413,7 +3419,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3473,7 +3479,7 @@
           },
           {
             "name": "sort",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3526,7 +3532,7 @@
           },
           {
             "name": "household",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3553,7 +3559,7 @@
           },
           {
             "name": "booking",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3578,7 +3584,7 @@
           },
           {
             "name": "emirate",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3593,7 +3599,7 @@
           },
           {
             "name": "operator_id",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": false,
             "enum": [
@@ -3609,7 +3615,7 @@
           },
           {
             "name": "mode",
-            "type": "string",
+            "type": "any",
             "description": null,
             "required": true,
             "enum": [
@@ -3650,7 +3656,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-22T11:47:50Z",
-      "pushedAt": "2026-09-28T14:21:29Z",
+      "pushedAt": "2026-10-05T15:10:26Z",
       "openIssues": 0,
       "license": null,
       "language": null
@@ -3748,7 +3754,7 @@
       }
     ],
     "readme": {
-      "markdown": "---\nlicense: cc-by-4.0\nlanguage:\n- en\npretty_name: Dubai Real Estate — DLD open data, cleaned and aggregated\ntags:\n- real-estate\n- dubai\n- uae\n- property-prices\n- rental-yield\n- housing\n- open-data\nsize_categories:\n- 10K<n<100K\nconfigs:\n- config_name: market_monthly\n  data_files: data/market_monthly.csv\n- config_name: market_yearly\n  data_files: data/market_yearly.csv\n- config_name: market_bedrooms\n  data_files: data/market_bedrooms.csv\n- config_name: communities\n  data_files: data/communities.csv\n- config_name: community_monthly\n  data_files: data/community_monthly.csv\n- config_name: community_yearly\n  data_files: data/community_yearly.csv\n- config_name: community_bedrooms\n  data_files: data/community_bedrooms.csv\n- config_name: rents_by_community\n  data_files: data/rents_by_community.csv\n- config_name: yields_by_community\n  data_files: data/yields_by_community.csv\n- config_name: areas\n  data_files: data/areas.csv\n- config_name: developers\n  data_files: data/developers.csv\n- config_name: projects\n  data_files: data/projects.csv\n---\n\n# Dubai Real Estate — DLD open data, cleaned and aggregated\n\nRegistered property sales, rent contracts and the project registry of the\n**Dubai Land Department (DLD)**, cleaned and aggregated by\n[Dubai Data](https://datadubai.ae) — the same numbers that are published on the portal,\nexported from its nightly build.\n\n- **Data through:** 2026-09-24 (DLD publishes with a lag of a few working days)\n- **Updated:** weekly from the portal's nightly build\n- **Methodology:** https://datadubai.ae/methodology/ — outlier trimming, minimum samples, how yields are computed\n- **Sources and row counts:** https://datadubai.ae/sources/\n- **Every row links back** to its page on the portal (`url` column) with charts, context and the latest figures.\n- **Mirrors:** [Hugging Face](https://huggingface.co/datasets/datadubai/dubai-real-estate-dld) ·\n  [GitHub](https://github.com/datadubai/dubai-real-estate-dld) — identical files.\n\n## Files\n\n| File | Rows | What it holds |\n|---|---:|---|\n| `data/market_monthly.csv` | 120 | Dubai-wide monthly medians: price per sqft (median, q1, q3), median price, number of registered sales. Built homes, outliers trimmed per the methodology. |\n| `data/market_yearly.csv` | 17 | Dubai-wide yearly totals since 2010: sales count, median price, median price per sqft, total registered value (AED). |\n| `data/market_bedrooms.csv` | 6 | Last 12 complete months by bedroom count: median price, price per sqft, size, annual rent and gross yield. |\n| `data/communities.csv` | 113 | 113 master communities, last 12 complete months: sales, median price and price per sqft, year-on-year change, off-plan share, data quality flag. |\n| `data/community_monthly.csv` | 5,888 | Monthly price-per-sqft medians and IQR for every community (5 years). |\n| `data/community_yearly.csv` | 1,426 | Yearly sales and medians for every community since 2010. |\n| `data/community_bedrooms.csv` | 422 | Community × bedroom count: median price, price per sqft, annual rent, gross yield. |\n| `data/rents_by_community.csv` | 102 | Ejari rent contracts, last 12 months: contracts and median annual rent (AED) per community. |\n| `data/yields_by_community.csv` | 77 | Gross rental yield per community, computed inside property-class × bedroom segments (never as the ratio of two community-wide medians). |\n| `data/areas.csv` | 98 | DLD land-registry areas: sales, medians, off-plan share. |\n| `data/developers.csv` | 378 | Developers active in the DLD project registry: projects, units, sales, medians. Company records only — no contact details. |\n| `data/projects.csv` | 798 | Registered projects: developer, status, construction completion %, completion date, units, escrow bank, and sales medians. Coordinates only where the registry has a real point. |\n\n## Notes on the numbers\n\n- Medians, not averages; price per sqft uses built homes only; outliers outside P1–P99 are removed.\n- A figure is published only when the sample is large enough; `quality` marks thin samples.\n- Gross yield = median annual rent / median price **within the same property class and bedroom count**,\n  then the median across segments for a place — dividing two place-wide medians would mix villas with studios.\n- Sales data: DLD transactions (2010 →). Rents: Ejari contracts (2023 →). Projects: DLD project registry.\n\n## License and attribution\n\nAggregates are released under **CC BY 4.0**. Please cite:\n\n> Dubai Data (datadubai.ae), Continental Club Property — based on Dubai Land Department open data, data through 2026-09-24.\n\nSource data © Dubai Land Department, published as open data. This dataset is not an official DLD product.",
+      "markdown": "---\nlicense: cc-by-4.0\nlanguage:\n- en\npretty_name: Dubai Real Estate — DLD open data, cleaned and aggregated\ntags:\n- real-estate\n- dubai\n- uae\n- property-prices\n- rental-yield\n- housing\n- open-data\nsize_categories:\n- 10K<n<100K\nconfigs:\n- config_name: market_monthly\n  data_files: data/market_monthly.csv\n- config_name: market_yearly\n  data_files: data/market_yearly.csv\n- config_name: market_bedrooms\n  data_files: data/market_bedrooms.csv\n- config_name: communities\n  data_files: data/communities.csv\n- config_name: community_monthly\n  data_files: data/community_monthly.csv\n- config_name: community_yearly\n  data_files: data/community_yearly.csv\n- config_name: community_bedrooms\n  data_files: data/community_bedrooms.csv\n- config_name: rents_by_community\n  data_files: data/rents_by_community.csv\n- config_name: yields_by_community\n  data_files: data/yields_by_community.csv\n- config_name: areas\n  data_files: data/areas.csv\n- config_name: developers\n  data_files: data/developers.csv\n- config_name: projects\n  data_files: data/projects.csv\n---\n\n# Dubai Real Estate — DLD open data, cleaned and aggregated\n\nRegistered property sales, rent contracts and the project registry of the\n**Dubai Land Department (DLD)**, cleaned and aggregated by\n[Dubai Data](https://datadubai.ae) — the same numbers that are published on the portal,\nexported from its nightly build.\n\n- **Data through:** 2026-10-02 (DLD publishes with a lag of a few working days)\n- **Updated:** weekly from the portal's nightly build\n- **Methodology:** https://datadubai.ae/methodology/ — outlier trimming, minimum samples, how yields are computed\n- **Sources and row counts:** https://datadubai.ae/sources/\n- **Every row links back** to its page on the portal (`url` column) with charts, context and the latest figures.\n- **Mirrors:** [Hugging Face](https://huggingface.co/datasets/datadubai/dubai-real-estate-dld) ·\n  [GitHub](https://github.com/datadubai/dubai-real-estate-dld) — identical files.\n\n## Files\n\n| File | Rows | What it holds |\n|---|---:|---|\n| `data/market_monthly.csv` | 120 | Dubai-wide monthly medians: price per sqft (median, q1, q3), median price, number of registered sales. Built homes, outliers trimmed per the methodology. |\n| `data/market_yearly.csv` | 17 | Dubai-wide yearly totals since 2010: sales count, median price, median price per sqft, total registered value (AED). |\n| `data/market_bedrooms.csv` | 6 | Last 12 complete months by bedroom count: median price, price per sqft, size, annual rent and gross yield. |\n| `data/communities.csv` | 111 | 113 master communities, last 12 complete months: sales, median price and price per sqft, year-on-year change, off-plan share, data quality flag. |\n| `data/community_monthly.csv` | 5,722 | Monthly price-per-sqft medians and IQR for every community (5 years). |\n| `data/community_yearly.csv` | 1,403 | Yearly sales and medians for every community since 2010. |\n| `data/community_bedrooms.csv` | 418 | Community × bedroom count: median price, price per sqft, annual rent, gross yield. |\n| `data/rents_by_community.csv` | 102 | Ejari rent contracts, last 12 months: contracts and median annual rent (AED) per community. |\n| `data/yields_by_community.csv` | 75 | Gross rental yield per community, computed inside property-class × bedroom segments (never as the ratio of two community-wide medians). |\n| `data/areas.csv` | 97 | DLD land-registry areas: sales, medians, off-plan share. |\n| `data/developers.csv` | 367 | Developers active in the DLD project registry: projects, units, sales, medians. Company records only — no contact details. |\n| `data/projects.csv` | 770 | Registered projects: developer, status, construction completion %, completion date, units, escrow bank, and sales medians. Coordinates only where the registry has a real point. |\n\n## Notes on the numbers\n\n- Medians, not averages; price per sqft uses built homes only; outliers outside P1–P99 are removed.\n- A figure is published only when the sample is large enough; `quality` marks thin samples.\n- Gross yield = median annual rent / median price **within the same property class and bedroom count**,\n  then the median across segments for a place — dividing two place-wide medians would mix villas with studios.\n- Sales data: DLD transactions (2010 →). Rents: Ejari contracts (2023 →). Projects: DLD project registry.\n\n## License and attribution\n\nAggregates are released under **CC BY 4.0**. Please cite:\n\n> Dubai Data (datadubai.ae), Continental Club Property — based on Dubai Land Department open data, data through 2026-10-02.\n\nSource data © Dubai Land Department, published as open data. This dataset is not an official DLD product.",
       "truncated": false,
       "url": "https://github.com/datadubai/dubai-real-estate-dld#readme"
     }
@@ -3772,7 +3778,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-02T03:01:23.583792Z",
+    "updatedAt": "2026-10-06T01:10:14.813856Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
@@ -3867,37 +3873,37 @@
           {
             "name": "ebitda",
             "type": "number",
-            "description": "Adjusted (tax) EBITDA, AED — used for the 30% interest cap",
+            "description": "Tax-EBITDA, AED, for the 30% interest cap. Leave out to have it calculated from taxable income + net interest + depreciation",
             "required": false
           },
           {
-            "name": "wht",
+            "name": "depreciation",
             "type": "number",
-            "description": "Withholding tax credit, AED",
+            "description": "Depreciation and amortisation, AED (used to calculate tax-EBITDA when ebitda is not given)",
             "required": false
           },
           {
-            "name": "ftc",
+            "name": "interestBF",
             "type": "number",
-            "description": "Foreign tax credit, AED",
+            "description": "Net interest disallowed in earlier periods and carried forward, AED (deducted within this period's cap)",
             "required": false
           },
           {
-            "name": "sbrElect",
-            "type": "boolean",
-            "description": "Elect Small Business Relief if eligible",
+            "name": "dividendsExpensed",
+            "type": "number",
+            "description": "Dividends or profit distributions booked as expenses, AED (always added back)",
             "required": false
           },
           {
-            "name": "revenueExceededBefore",
-            "type": "boolean",
-            "description": "Revenue exceeded AED 3m in an earlier CT period (blocks SBR permanently)",
+            "name": "foreignTaxExpensed",
+            "type": "number",
+            "description": "Foreign and withholding taxes booked as expenses, AED (added back)",
             "required": false
           },
           {
-            "name": "qfzp",
-            "type": "boolean",
-            "description": "Treat as a Qualifying Free Zone Person (simplified: 0% on qualifying income)",
+            "name": "ownerDrawings",
+            "type": "number",
+            "description": "Owner's drawings or salary booked as expenses, AED (added back only when naturalPerson is true)",
             "required": false
           }
         ]
@@ -4046,37 +4052,37 @@
           {
             "name": "ebitda",
             "type": "number",
-            "description": "Adjusted (tax) EBITDA, AED — used for the 30% interest cap",
+            "description": "Tax-EBITDA, AED, for the 30% interest cap. Leave out to have it calculated from taxable income + net interest + depreciation",
             "required": false
           },
           {
-            "name": "wht",
+            "name": "depreciation",
             "type": "number",
-            "description": "Withholding tax credit, AED",
+            "description": "Depreciation and amortisation, AED (used to calculate tax-EBITDA when ebitda is not given)",
             "required": false
           },
           {
-            "name": "ftc",
+            "name": "interestBF",
             "type": "number",
-            "description": "Foreign tax credit, AED",
+            "description": "Net interest disallowed in earlier periods and carried forward, AED (deducted within this period's cap)",
             "required": false
           },
           {
-            "name": "sbrElect",
-            "type": "boolean",
-            "description": "Elect Small Business Relief if eligible",
+            "name": "dividendsExpensed",
+            "type": "number",
+            "description": "Dividends or profit distributions booked as expenses, AED (always added back)",
             "required": false
           },
           {
-            "name": "revenueExceededBefore",
-            "type": "boolean",
-            "description": "Revenue exceeded AED 3m in an earlier CT period (blocks SBR permanently)",
+            "name": "foreignTaxExpensed",
+            "type": "number",
+            "description": "Foreign and withholding taxes booked as expenses, AED (added back)",
             "required": false
           },
           {
-            "name": "qfzp",
-            "type": "boolean",
-            "description": "Treat as a Qualifying Free Zone Person (simplified: 0% on qualifying income)",
+            "name": "ownerDrawings",
+            "type": "number",
+            "description": "Owner's drawings or salary booked as expenses, AED (added back only when naturalPerson is true)",
             "required": false
           }
         ]
@@ -5106,18 +5112,18 @@
         "headers": []
       }
     ],
-    "stars": 7316,
+    "stars": 7319,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7316,
-      "forks": 1021,
+      "stars": 7319,
+      "forks": 1022,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 129,
+      "pushedAt": "2026-10-06T07:28:19Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -5159,18 +5165,18 @@
         "headers": []
       }
     ],
-    "stars": 7316,
+    "stars": 7319,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7316,
-      "forks": 1021,
+      "stars": 7319,
+      "forks": 1022,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 129,
+      "pushedAt": "2026-10-06T07:28:19Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -5260,18 +5266,18 @@
         "headers": []
       }
     ],
-    "stars": 7316,
+    "stars": 7319,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7316,
-      "forks": 1021,
+      "stars": 7319,
+      "forks": 1022,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-09-30T23:35:30Z",
-      "openIssues": 129,
+      "pushedAt": "2026-10-06T07:28:19Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -5492,7 +5498,7 @@
           }
         ],
         "weeklyDownloads": 3580,
-        "lastPublished": "2026-09-30T07:51:36.664Z",
+        "lastPublished": "2026-10-05T19:05:53.613Z",
         "firstPublished": "2026-04-26T17:40:14.733Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -9264,7 +9270,7 @@
     "tools": [
       {
         "name": "search_products",
-        "description": "Search the AgentRoam travel-crypto catalog: gift cards (Airbnb, Uber, airlines, 500+ US brands), eSIM data plans (110+ destinations incl. Europe/Global region plans) and mobile top-ups (carriers in 100+ countries). Returns product handles for get_price/validate_order. Never creates an order.",
+        "description": "Search the AgentRoam travel-crypto catalog: gift cards (Airbnb, Uber, airlines, 500+ US brands), eSIM data plans (110+ destinations incl. Europe/Global region plans) and mobile top-ups (carriers in 100+ countries). Returns product handles (brandSlug + countryCode) used by the pricing and order tools. Creates no order.",
         "inputs": [
           {
             "name": "query",
@@ -9288,7 +9294,7 @@
       },
       {
         "name": "get_price",
-        "description": "Live crypto price for one product/denomination. Payment coins include USDT, USDC, BTC (incl. Lightning), ETH, SOL, DAI, PYUSD, LTC, TRX, TON, DOGE and SUI across many networks — call get_payment_methods for the current list. Never creates an order.",
+        "description": "Live crypto price for one product/denomination. Payment coins include USDT, USDC, BTC (incl. Lightning), ETH, SOL, DAI, PYUSD, LTC, TRX, TON, DOGE and SUI across many networks; get_payment_methods returns the current set. Creates no order.",
         "inputs": [
           {
             "name": "brand_slug",
@@ -9336,7 +9342,7 @@
       },
       {
         "name": "validate_order",
-        "description": "Dry-run an order and mint a one-time confirm_token (valid 10 minutes). Returns a human-readable summary that MUST be shown to the user for approval before calling create_order. Does NOT create the order or reserve funds.",
+        "description": "Dry-run an order and mint a one-time confirm_token (valid 10 minutes). Returns a human-readable purchase summary for the buyer to approve, plus the one-time token that create_order requires. Creates no order and reserves no funds.",
         "inputs": [
           {
             "name": "brand_slug",
@@ -9396,7 +9402,7 @@
       },
       {
         "name": "create_order",
-        "description": "Create the real order (requires confirm_token from validate_order, after user approval). Returns the payment wallet address, exact crypto amount, 30-minute expiry, and an order-status URL. The purchased code/QR is emailed by Cryptorefills to the buyer — it is never returned here.",
+        "description": "Creates the real order. Requires a confirm_token minted by validate_order. Returns the payment wallet address, exact crypto amount, 30-minute expiry, and an order-status URL. The purchased code/QR is emailed by Cryptorefills to the buyer — it is never returned here.",
         "inputs": [
           {
             "name": "confirm_token",
@@ -9414,7 +9420,7 @@
       },
       {
         "name": "list_esim_plans",
-        "description": "PREFERRED for any eSIM request: live eSIM data plans for a destination (110+ countries, plus \"eu\" Europe and \"ww\" Global multi-country plans) with USD prices and crypto amounts. Renders an interactive plan-picker widget where the user can complete the purchase directly. Never creates an order by itself.",
+        "description": "Live eSIM data plans for a destination (110+ countries, plus \"eu\" Europe and \"ww\" Global multi-country plans) with USD prices and crypto amounts. In clients that support widgets, the response also renders an interactive plan picker. Creates no order by itself.",
         "inputs": [
           {
             "name": "destination",
@@ -9450,7 +9456,7 @@
       },
       {
         "name": "list_brands",
-        "description": "Browse all available brands/carriers for a country: gift cards (500+ US brands) and mobile top-up carriers (100+ countries). Never creates an order.",
+        "description": "Browse all available brands/carriers for a country: gift cards (500+ US brands) and mobile top-up carriers (100+ countries). Creates no order.",
         "inputs": [
           {
             "name": "country_code",
@@ -9468,7 +9474,7 @@
       },
       {
         "name": "list_products",
-        "description": "List a brand's live products/denominations with prices in the chosen coin — exact labels to use with get_price/validate_order (for eSIM use list_esim_plans instead). Never creates an order.",
+        "description": "List a brand's live products/denominations with prices in the chosen coin — including the exact denomination labels the pricing and order tools expect (eSIM destinations are covered by list_esim_plans). Creates no order.",
         "inputs": [
           {
             "name": "brand_slug",
@@ -9497,12 +9503,12 @@
       },
       {
         "name": "get_payment_methods",
-        "description": "Full payment matrix: every supported coin × network combination currently available, with the exact network strings orders require. The response includes live totals — report those, never a memorized count.",
+        "description": "Full payment matrix: every supported coin × network combination currently available, with the exact network strings orders require. The response includes live totals for coins, networks and combinations.",
         "inputs": null
       },
       {
         "name": "purchase_wizard",
-        "description": "Text-only fallback purchase flow for clients WITHOUT widget support. In ChatGPT prefer list_esim_plans / list_products + validate_order + create_order instead. Stateful: call repeatedly with the same session_token, answering one question at a time, until status is \"complete\". First call: empty arguments. The final \"confirm\" answer creates a REAL order — get explicit user approval first.",
+        "description": "Stateful text-only purchase flow for clients without widget support. Called repeatedly with the same session_token, one question at a time, until status is \"complete\"; the first call takes empty arguments. The final \"confirm\" answer creates a real order.",
         "inputs": [
           {
             "name": "session_token",
@@ -11857,8 +11863,8 @@
         "headers": [
           {
             "name": "Authorization",
-            "description": "Bearer <api_key>. Free key: POST https://agents.alphaquantlabs.ai/v1/accounts; credits from A$29 (card or USDC).",
-            "required": true,
+            "description": "Optional for FREE property_coverage and A$1.39 x402 property_report_one_off. Credit/account tools require Bearer <api_key>; create one with POST /v1/accounts. property_report_card_checkout and property_report_card_get are also keyless for…",
+            "required": false,
             "secret": true,
             "format": null
           }
@@ -11867,7 +11873,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-01T01:33:04.821367Z",
+    "updatedAt": "2026-10-05T23:20:42.84193Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
@@ -11920,8 +11926,50 @@
           {
             "name": "address",
             "type": "string",
-            "description": "Optional: the resolved_address text returned by property_coverage. Used only to build the card-payment link for a human user when the caller cannot pay x402; it never changes the report or the charge.",
+            "description": "Optional: the resolved_address text returned by property_coverage. Used only to carry the human-readable property identity into the A$4.95 card continuation; coordinates remain the report identity.",
             "required": false
+          }
+        ]
+      },
+      {
+        "name": "property_report_card_checkout",
+        "description": "ONE-OFF A$4.95 CARD REPORT — NO ACCOUNT, NO API KEY. Use only after property_coverage returns supported=true and the human explicitly chooses card payment. This tool builds and freezes the complete JSON first, then creates Stripe Checkout. Calling the tool itself does not charge the human. Give the human checkout_url only; keep purchase_id and access_token inside the AI session. After payment call",
+        "inputs": [
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
+            "required": true
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
+            "required": true
+          },
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Optional resolved address from property_coverage. Coordinates remain the frozen report identity.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "property_report_card_get",
+        "description": "FREE POLL AND RETRIEVAL. Before verified Stripe payment it returns payment_pending and no report. After payment it returns the exact JSON frozen before checkout. It never charges again and performs no new provider lookup. Example: use the purchase_id and access_token returned by property_report_card_checkout.",
+        "inputs": [
+          {
+            "name": "purchase_id",
+            "type": "string",
+            "description": "Opaque purchase id returned by property_report_card_checkout.",
+            "required": true
+          },
+          {
+            "name": "access_token",
+            "type": "string",
+            "description": "Private retrieval token returned by property_report_card_checkout; keep it inside the AI session.",
+            "required": true
           }
         ]
       },
@@ -13000,12 +13048,12 @@
       }
     ],
     "remotes": [],
-    "stars": 505,
+    "stars": 506,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 505,
+      "stars": 506,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -13863,7 +13911,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-11T16:16:26Z",
-      "pushedAt": "2026-09-13T10:23:10Z",
+      "pushedAt": "2026-10-06T07:45:55Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -18499,6 +18547,182 @@
     "updatedAt": "2026-08-06T01:11:42.174388Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-benchgecko-benchgecko",
+    "name": "BenchGecko",
+    "qualifiedName": "ai.benchgecko/benchgecko",
+    "slug": "ai-benchgecko-benchgecko",
+    "description": "AI model prices per provider, benchmarks, own AI behavior tests and AI economy data, with sources.",
+    "category": "Other",
+    "repository": "https://github.com/BenchGecko/datasets",
+    "homepage": "https://benchgecko.ai/api-docs#mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://benchgecko.ai/api/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-05T15:47:57.62607Z",
+    "repoMeta": {
+      "slug": "BenchGecko/datasets",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-04T11:50:59Z",
+      "pushedAt": "2026-10-05T15:10:50Z",
+      "openIssues": 0,
+      "license": "NOASSERTION",
+      "language": "Shell"
+    },
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search_models",
+        "description": "Find AI models in the BenchGecko catalog by name, slug or lab. Returns slugs to use with get_model, cheapest_provider and compare_models, with BenchGecko score and list price.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Model name, slug or lab, e.g. \"claude opus\", \"gpt-5\", \"deepseek\"",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_model",
+        "description": "Core facts for one AI model: BenchGecko score and rank, list price, price at every provider, benchmark scores with their original sources, Gecko Tests grades and as-of dates.",
+        "inputs": [
+          {
+            "name": "model",
+            "type": "string",
+            "description": "Model slug (from search_models) or name, e.g. \"claude-opus-5-5\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "cheapest_provider",
+        "description": "Every provider serving a model, sorted by input price per 1M tokens (refreshed daily from provider endpoints), with output price, quantization and 1 day uptime.",
+        "inputs": [
+          {
+            "name": "model",
+            "type": "string",
+            "description": "Model slug or name",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "compare_models",
+        "description": "Side by side: BenchGecko score, list price, cheapest provider, context window, shared benchmark scores and Gecko Tests grades for two models.",
+        "inputs": [
+          {
+            "name": "a",
+            "type": "string",
+            "description": "First model slug or name",
+            "required": true
+          },
+          {
+            "name": "b",
+            "type": "string",
+            "description": "Second model slug or name",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_gecko_test",
+        "description": "Results of one of BenchGecko's own tests (own measurements, CC BY 4.0): who-are-you (Does the model know which lab made it?) world-map (How well does the model draw the world map from memory?) censorship-index (How often does the model refuse legitimate questions?) knowledge-horizon (Where does the model's knowledge of world events actually stop?) tokenizer-tax (How many more tokens does the same ",
+        "inputs": [
+          {
+            "name": "test",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "who-are-you",
+              "world-map",
+              "censorship-index",
+              "knowledge-horizon",
+              "tokenizer-tax",
+              "same-model-different-host",
+              "model-drift-index"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Rows in the text summary (structured result has all rows)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_scorecard",
+        "description": "BenchGecko Gecko Scorecard: every model across BenchGecko's own profile tests with a letter grade per test and an overall Gecko Score (behavior, not intelligence).",
+        "inputs": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "latest_findings",
+        "description": "Latest notable results detected in the Gecko Tests and price data (fixed rules, numbers and quotes from stored results).",
+        "inputs": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "description": "Search BenchGecko models and Gecko Tests. Returns ids for fetch.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Fetch the full record for an id returned by search (model:<slug>, gecko-test:<slug> or scorecard).",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "readme": {
+      "markdown": "# BenchGecko open datasets\n\nDaily snapshots of the data [BenchGecko](https://benchgecko.ai) collects and computes about the AI economy: model prices across providers, price changes, company figures with sources, developer attention (Mindshare), GPU rental prices and the results of BenchGecko's own model tests (Gecko Tests).\n\nFiles are refreshed every day by an automated job. Every day's version is in the git history, so the history of each file is a time series.\n\n## License\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to use, share and adapt, including commercially. Attribution required: **\"Source: BenchGecko\"** with a link to https://benchgecko.ai.\n\nCite as:\n\n> BenchGecko (2026). BenchGecko open datasets. https://github.com/BenchGecko/datasets · https://benchgecko.ai\n\n## Files\n\n| File | What it is | Source |\n|---|---|---|\n| `prices/price-history.csv` | Daily list price per model (USD per 1M tokens: input, output, cache read) since 2026-03-30 | OpenRouter catalog, recorded daily |\n| `prices/provider-offers.csv` | Every provider offer per model today: price, quantization, context, 1-day uptime | OpenRouter endpoints, daily |\n| `prices/price-changes.csv` | Dated events: new models, price changes that held (5%+), company updates | Computed by BenchGecko |\n| `companies/company-facts.csv` | Valuation, revenue, funding, headcount per AI company, each with as-of date and source URL when known | SEC filings, market close, press verified against the source page |\n| `mindshare/mindshare-daily.csv` | Daily attention per model, lab, agent, person and topic: Hacker News mentions, Wikipedia views, GitHub stars, 7-day share | Hacker News Algolia API, Wikimedia, GitHub |\n| `gpu/gpu-rental-daily.csv` | Median, 10th percentile and minimum on-demand rental price per GPU-hour for tracked AI chips | Vast.ai public marketplace |\n| `gecko-tests/world-map.csv` | World Map test: land or water answers on a 6° grid per model, scored against Natural Earth | BenchGecko test runs |\n| `gecko-tests/<test>.json` | Gecko Lab tests (who-are-you, tokenizer-tax, knowledge-horizon, same-model-different-host): questions, answer keys, every model answer and score | BenchGecko test runs |\n\nMethodology for each test: https://benchgecko.ai/gecko-tests\n\nBenchmark scores aggregated from third-party leaderboards are not redistributed here; see each leaderboard's own license.\n\n## Questions or corrections\n\nhello@benchgecko.ai",
+      "truncated": false,
+      "url": "https://github.com/BenchGecko/datasets#readme"
+    }
   },
   {
     "id": "mcp:ai-benroberts-b4-index",
