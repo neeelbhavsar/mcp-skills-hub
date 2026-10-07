@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T13:03:31.684Z",
+  "generatedAt": "2026-10-07T12:59:30.869Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,8 +13,16 @@
           "name": "vibe-prospecting",
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
-          "delta": 8,
-          "stars": 103
+          "delta": 9,
+          "stars": 112
+        },
+        {
+          "slug": "paypal",
+          "name": "paypal",
+          "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
+          "category": "Coding & Engineering",
+          "delta": 5,
+          "stars": 24
         }
       ],
       "counts": {
@@ -30,10 +38,40 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-benchgecko-benchgecko",
-          "name": "BenchGecko",
-          "description": "AI model prices per provider, benchmarks, own AI behavior tests and AI economy data, with sources.",
+          "slug": "ae-plantguide-dubai-gardening",
+          "name": "Plant Guide: Dubai gardening research",
+          "description": "What to plant in Dubai, indoor plants, plant care in the heat, garden styles and Garden Care prices.",
           "category": "Other"
+        },
+        {
+          "slug": "ai-aitopia-aitopia",
+          "name": "AITOPIA",
+          "description": "Generate and edit images, video and audio: 300+ AI models, video tools, voice cloning, transcripts.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-archome-archome",
+          "name": "Archome AI",
+          "description": "AI virtual staging and architectural rendering: stage rooms, render interiors, exteriors, sketches.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-attestari-attestari",
+          "name": "Attestari",
+          "description": "Attestari's verdict on an npm or PyPI package version, asked before an agent installs it.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-auten-mcp",
+          "name": "Auten",
+          "description": "Computer use for Claude Code, Codex, Cursor or any MCP client on Mac, Windows and Linux.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-beevr-beevr",
+          "name": "BeevR",
+          "description": "Read-only access to BeevR's services, fixed-price MVP packages, case studies and articles (EN/VI).",
+          "category": "Docs & Knowledge"
         }
       ],
       "removed": [],
@@ -41,12 +79,12 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 6,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 228,
-        "currentTotal": 229
+        "previousTotal": 229,
+        "currentTotal": 235
       }
     },
     "repos": {
