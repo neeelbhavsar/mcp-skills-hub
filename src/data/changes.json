@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T12:59:30.869Z",
+  "generatedAt": "2026-10-08T13:06:01.968Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,24 +7,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 9,
-          "stars": 112
-        },
-        {
-          "slug": "paypal",
-          "name": "paypal",
-          "description": "PayPal development plugin for Claude — integrate payments, subscriptions, invoices, disputes, and more using PayPal's APIs and MCP server",
-          "category": "Coding & Engineering",
-          "delta": 5,
-          "stars": 24
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -38,69 +21,137 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ae-plantguide-dubai-gardening",
-          "name": "Plant Guide: Dubai gardening research",
-          "description": "What to plant in Dubai, indoor plants, plant care in the heat, garden styles and Garden Care prices.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-aitopia-aitopia",
-          "name": "AITOPIA",
-          "description": "Generate and edit images, video and audio: 300+ AI models, video tools, voice cloning, transcripts.",
+          "slug": "ai-aquex-stage1",
+          "name": "stage1",
+          "description": "Stage1 Inspector — local website capture, evidence views and design comparison",
           "category": "Design & Media"
         },
         {
-          "slug": "ai-archome-archome",
-          "name": "Archome AI",
-          "description": "AI virtual staging and architectural rendering: stage rooms, render interiors, exteriors, sketches.",
+          "slug": "ai-audiomap-audiomap",
+          "name": "AudioMap",
+          "description": "Search, read and ask questions about your AudioMap transcripts, notes, speakers and clips.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-autoposter-autoposter",
+          "name": "AutoPoster AI",
+          "description": "Multi-platform social media post creation, scheduling, and publishing.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-baseray-baseray",
+          "name": "baseray",
+          "description": "Buildings in Romania and Czechia: address, size, solar potential, panels and registered businesses.",
           "category": "Other"
         },
         {
-          "slug": "ai-attestari-attestari",
-          "name": "Attestari",
-          "description": "Attestari's verdict on an npm or PyPI package version, asked before an agent installs it.",
+          "slug": "ai-bithuman-characters",
+          "name": "bitHuman",
+          "description": "Animated AI characters in your chat: short clips of a character saying your words, or a live talk.",
+          "category": "Other"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ai-bluenexus-universal-mcp",
+          "name": "BlueNexus Universal MCP",
+          "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-bodenrichtwert-mcp",
+          "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
+          "description": "German land values (Bodenrichtwerte) by address + land-use type. Coverage varies; not in SH/SN/BY.",
           "category": "AI & Memory"
         },
         {
-          "slug": "ai-auten-mcp",
-          "name": "Auten",
-          "description": "Computer use for Claude Code, Codex, Cursor or any MCP client on Mac, Windows and Linux.",
-          "category": "Dev Tools & Git"
+          "slug": "ai-bolthub-mcp",
+          "name": "bolthub",
+          "description": "The bolthub API marketplace, L402 gateways, and your other MCP servers, on one Lightning budget.",
+          "category": "Finance & Data"
         },
         {
-          "slug": "ai-beevr-beevr",
-          "name": "BeevR",
-          "description": "Read-only access to BeevR's services, fixed-price MVP packages, case studies and articles (EN/VI).",
-          "category": "Docs & Knowledge"
+          "slug": "ai-boolsai-directory",
+          "name": "Boolsai Directory",
+          "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "ai-boolsai-grep",
+          "name": "Boolsai Grep",
+          "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-boolsai-scan",
+          "name": "Boolsai Scan",
+          "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-boolsai-signals",
+          "name": "Boolsai Signals",
+          "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-borealhost-mcp",
+          "name": "BorealHost",
+          "description": "Agent-native web hosting — deploy sites, manage DNS, register domains, scale infrastructure",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-botinfo-robot-market-data",
+          "name": "BotInfo — Advanced Robot Market Data",
+          "description": "Checkout-verified prices, stock, US FCC status and buy routes for humanoid and quadruped robots",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-boundaryai-boundaryai",
+          "name": "boundaryai",
+          "description": "Deterministic runtime safety for AI agents: scan PII, gate tool actions, verify LLM output.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-bourdon-bourdon",
+          "name": "Bourdon",
+          "description": "Recognition-first cross-agent memory federation. One shared memory across all your agents.",
+          "category": "AI & Memory"
         }
       ],
-      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 6,
-        "removed": 0,
+        "added": 5,
+        "removed": 11,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 229,
-        "currentTotal": 235
+        "previousTotal": 235,
+        "currentTotal": 229
       }
     },
     "repos": {
       "baseline": true,
       "added": [],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "ruvnet-ruflo",
+          "name": "ruflo",
+          "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "category": "AI Agents"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 0,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 124,
-        "currentTotal": 124
+        "currentTotal": 123
       }
     }
   }
