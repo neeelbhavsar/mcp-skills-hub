@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:52:41.249Z",
+  "generatedAt": "2026-10-10T12:10:33.653Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,8 +13,8 @@
           "name": "vibe-prospecting",
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
-          "delta": 14,
-          "stars": 130
+          "delta": 7,
+          "stars": 137
         }
       ],
       "counts": {
@@ -30,73 +30,102 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-0si-disclosures",
-          "name": "0si.ai Disclosures",
-          "description": "Korean (DART/KIND) and US SEC filings with AI summaries, direction labels and market reaction.",
+          "slug": "aero-events-events",
+          "name": "Events.Aero",
+          "description": "Find aviation events: airshows, fly-ins, workshops and club meets. Public and read-only.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-agenticplug-agent-ready-report",
+          "name": "Agent Ready Report",
+          "description": "Scan any public website and see how ready it is for AI agents and AI search, explained plainly.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-agentlookups-groundrules",
+          "name": "GroundRules - US Law Text",
+          "description": "The original text of US federal and state law, with official sources; never a summary or advice.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-agentlookups-spoon-scout",
+          "name": "Spoon Scout - Food Contaminant Lookup",
+          "description": "Lab results, FDA recalls and additive rules for US packaged foods, with sources; never a grade.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-ankra-platform",
+          "name": "Ankra",
+          "description": "Deploy and operate Kubernetes: clusters, stacks, apps, logs, metrics and security, with OAuth.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-audo-audo",
+          "name": "Audo",
+          "description": "Audio and video tools for your AI assistant: remove noise, enhance voices, transcribe, and more.",
+          "category": "Design & Media"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ai-bizmoon-regulatory",
+          "name": "regulatory",
+          "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-bizmuse-bizmuse",
+          "name": "BizMuse AI Music Video",
+          "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-blast-radius-blast-radius",
+          "name": "blast-radius",
+          "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
           "category": "Finance & Data"
         },
         {
-          "slug": "ai-agentui-apps",
-          "name": "AgentUI Apps",
-          "description": "Create AgentUI data apps: define tables, read and write records, and run programs on your data.",
-          "category": "AI & Memory"
+          "slug": "ai-blipsmith-sound-effects",
+          "name": "Blipsmith Sound Effects",
+          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
+          "category": "Other"
         },
         {
-          "slug": "ai-aivikings-registrar",
-          "name": "AiVikings.ai",
-          "description": "Find, register, and manage domains from any AI chat or agent",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-anywhereintelligence-switchboard",
-          "name": "Switchboard",
-          "description": "Agent to agent calls across AI apps. Humans remain in authority.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-autron-autron",
-          "name": "Autron",
-          "description": "Read and manage the Amazon Ads accounts connected to Autron.",
+          "slug": "ai-bloopo-bloopo",
+          "name": "Bloopo — AI Ad & Creative Studio",
+          "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
           "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-blopus-search",
+          "name": "Web Search API for all your agents and LLMs",
+          "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
+          "category": "Web & Search"
         }
       ],
-      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 5,
-        "removed": 0,
+        "added": 6,
+        "removed": 6,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 229,
+        "previousTotal": 234,
         "currentTotal": 234
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "dipakkr-awesome-ai-engineering",
-          "name": "awesome-ai-engineering",
-          "description": "🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.",
-          "category": "Prompts"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "ai4finance-foundation-fingpt",
-          "name": "FinGPT",
-          "description": "FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.",
-          "category": "Prompts"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
-        "removed": 1,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 123,
