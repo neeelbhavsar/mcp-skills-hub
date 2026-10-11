@@ -1,25 +1,39 @@
 {
-  "generatedAt": "2026-10-10T12:10:33.653Z",
+  "generatedAt": "2026-10-11T12:24:35.753Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "data-agent-kit",
+          "name": "data-agent-kit",
+          "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQ…",
+          "category": "Automation & Workflow"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "data-agent-kit-starter-pack",
+          "name": "data-agent-kit-starter-pack",
+          "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQ…",
+          "category": "Automation & Workflow"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [
         {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 7,
-          "stars": 137
+          "slug": "unreal-engine-skills-for-claude-code",
+          "name": "unreal-engine-skills-for-claude-code",
+          "description": "Control Unreal Editor directly from Claude Code via MCP. Hundreds of tools exposed via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing, and more.",
+          "category": "Coding & Engineering",
+          "delta": 114,
+          "stars": 453
         }
       ],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 338,
@@ -30,106 +44,78 @@
       "baseline": true,
       "added": [
         {
-          "slug": "aero-events-events",
-          "name": "Events.Aero",
-          "description": "Find aviation events: airshows, fly-ins, workshops and club meets. Public and read-only.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-agenticplug-agent-ready-report",
-          "name": "Agent Ready Report",
-          "description": "Scan any public website and see how ready it is for AI agents and AI search, explained plainly.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-agentlookups-groundrules",
-          "name": "GroundRules - US Law Text",
-          "description": "The original text of US federal and state law, with official sources; never a summary or advice.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-agentlookups-spoon-scout",
-          "name": "Spoon Scout - Food Contaminant Lookup",
-          "description": "Lab results, FDA recalls and additive rules for US packaged foods, with sources; never a grade.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-ankra-platform",
-          "name": "Ankra",
-          "description": "Deploy and operate Kubernetes: clusters, stacks, apps, logs, metrics and security, with OAuth.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-audo-audo",
-          "name": "Audo",
-          "description": "Audio and video tools for your AI assistant: remove noise, enhance voices, transcribe, and more.",
-          "category": "Design & Media"
+          "slug": "ai-arcdeck-arcdeck",
+          "name": "Arcdeck",
+          "description": "Create consulting-style presentation decks (editable PowerPoint) from a topic or notes.",
+          "category": "Docs & Knowledge"
         }
       ],
       "removed": [
         {
-          "slug": "ai-bizmoon-regulatory",
-          "name": "regulatory",
-          "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
-          "category": "Legal & Government"
+          "slug": "ai-bithuman-docs",
+          "name": "bitHuman docs",
+          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+          "category": "Web & Search"
         },
         {
-          "slug": "ai-bizmuse-bizmuse",
-          "name": "BizMuse AI Music Video",
-          "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-blast-radius-blast-radius",
-          "name": "blast-radius",
-          "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
+          "slug": "ai-bitroad-bitroad",
+          "name": "bitroad",
+          "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
           "category": "Finance & Data"
         },
         {
-          "slug": "ai-blipsmith-sound-effects",
-          "name": "Blipsmith Sound Effects",
-          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-bloopo-bloopo",
-          "name": "Bloopo — AI Ad & Creative Studio",
-          "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-blopus-search",
-          "name": "Web Search API for all your agents and LLMs",
-          "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
-          "category": "Web & Search"
+          "slug": "ai-bittlebits-bittlebits",
+          "name": "BittleBits GEO Assistant",
+          "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
+          "category": "Docs & Knowledge"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 6,
-        "removed": 6,
+        "added": 1,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 234,
-        "currentTotal": 234
+        "currentTotal": 232
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "morluto-rea",
+          "name": "rea",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "category": "MCP & Tooling"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "thedaviddias-front-end-checklist",
+          "name": "Front-End-Checklist",
+          "description": "🗂 The essential checklist for modern web development, for humans and AI agents",
+          "category": "AI Agents"
+        },
+        {
+          "slug": "sansan0-trendradar",
+          "name": "TrendRadar",
+          "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+          "category": "MCP & Tooling"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 123,
-        "currentTotal": 123
+        "currentTotal": 122
       }
     }
   }

@@ -14,8 +14,8 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 415978,
-        "lastPublished": "2026-08-31T20:25:55.419Z",
+        "weeklyDownloads": 447296,
+        "lastPublished": "2026-10-11T02:44:10.659Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -25,20 +25,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -66,20 +66,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -107,20 +107,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -143,8 +143,8 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 142129,
-        "lastPublished": "2026-08-31T20:23:48.078Z",
+        "weeklyDownloads": 147957,
+        "lastPublished": "2026-10-11T02:42:27.160Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -154,20 +154,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -190,8 +190,8 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 104875,
-        "lastPublished": "2026-08-31T20:23:44.857Z",
+        "weeklyDownloads": 104073,
+        "lastPublished": "2026-10-11T02:42:52.391Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -201,20 +201,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -242,20 +242,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -278,8 +278,8 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 218966,
-        "lastPublished": "2026-08-31T20:23:50.168Z",
+        "weeklyDownloads": 231826,
+        "lastPublished": "2026-10-11T02:45:40.915Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -289,20 +289,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91113,
+    "stars": 91136,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91113,
-      "forks": 11775,
+      "stars": 91136,
+      "forks": 11776,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-10T09:04:51Z",
-      "openIssues": 204,
+      "pushedAt": "2026-10-11T05:42:28Z",
+      "openIssues": 209,
       "license": "NOASSERTION",
-      "language": "TypeScript"
+      "language": "JavaScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -983,7 +983,7 @@
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
       "pushedAt": "2026-10-06T06:26:14Z",
-      "openIssues": 8,
+      "openIssues": 9,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -1323,7 +1323,7 @@
       "isFork": false,
       "createdAt": "2026-09-26T12:20:58Z",
       "pushedAt": "2026-09-26T12:29:08Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": null
     },
@@ -3693,7 +3693,7 @@
       "isFork": false,
       "createdAt": "2026-09-22T11:47:50Z",
       "pushedAt": "2026-10-05T15:10:26Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -4278,12 +4278,12 @@
       },
       {
         "name": "search_plants",
-        "description": "Search and filter the library of plants rated for Dubai's heat, salt, drought and shade: by name (English, botanical or Arabic), category, sun, water need, minimum tolerance ratings, use, garden style or planting month. For houseplants and questions like \"low light, pet friendly plants for a Dubai apartment\", filter by light (low, medium, bright-indirect, direct-sun), petSafe, room and size: those",
+        "description": "Search and filter the library of plants rated for Dubai's heat, salt, drought and shade: by name (English, botanical, Arabic or a local name such as Hindi or Tagalog), category, sun, water need, minimum tolerance ratings, use, garden style or planting month. For houseplants and questions like \"low light, pet friendly plants for a Dubai apartment\", filter by light (low, medium, bright-indirect, dir",
         "inputs": [
           {
             "name": "query",
             "type": "string",
-            "description": "Words to look for in names (English, botanical, Arabic) and descriptions, e.g. \"date palm\", \"غاف\", \"salt tolerant hedge\".",
+            "description": "Words to look for in names (English, botanical, Arabic, and local names such as Hindi or Tagalog, in their own script or Latin letters) and descriptions, e.g. \"date palm\", \"غاف\", \"gulmohar\", \"salt tol",
             "required": false
           },
           {
@@ -4476,7 +4476,7 @@
           {
             "name": "plant",
             "type": "string",
-            "description": "The plant: its slug (\"ghaf\") or any common, botanical or Arabic name (\"Prosopis cineraria\", \"غاف\"). Typos are tolerated.",
+            "description": "The plant: its slug (\"ghaf\") or any name it goes by: common, trade, botanical (including older names such as \"Sansevieria trifasciata\"), Arabic, or a local name in its own script or Latin letters (\"Gu",
             "required": true
           }
         ]
@@ -5051,7 +5051,7 @@
           {
             "name": "query",
             "type": "string",
-            "description": "Free text matched against the event name, venue name, town and location (up to 100 characters)",
+            "description": "Words matched against the event name, venue name, town and location: every word must appear, matched from the start of a word (\"dux\" finds Duxford); up to 100 characters",
             "required": false
           },
           {
@@ -5321,7 +5321,7 @@
       "isFork": false,
       "createdAt": "2026-08-13T10:52:07Z",
       "pushedAt": "2026-08-13T21:13:52Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -5842,7 +5842,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -5896,18 +5896,18 @@
         "headers": []
       }
     ],
-    "stars": 7333,
+    "stars": 7334,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7333,
+      "stars": 7334,
       "forks": 1026,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 125,
+      "openIssues": 127,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -5949,18 +5949,18 @@
         "headers": []
       }
     ],
-    "stars": 7333,
+    "stars": 7334,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7333,
+      "stars": 7334,
       "forks": 1026,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 125,
+      "openIssues": 127,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -6050,18 +6050,18 @@
         "headers": []
       }
     ],
-    "stars": 7333,
+    "stars": 7334,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7333,
+      "stars": 7334,
       "forks": 1026,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 125,
+      "openIssues": 127,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -6304,8 +6304,8 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 3412,
-        "lastPublished": "2026-10-05T19:05:53.613Z",
+        "weeklyDownloads": 3367,
+        "lastPublished": "2026-10-11T09:44:43.210Z",
         "firstPublished": "2026-04-26T17:40:14.733Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -6492,7 +6492,7 @@
       "isFork": false,
       "createdAt": "2026-09-13T17:47:27Z",
       "pushedAt": "2026-09-28T20:37:06Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -6520,7 +6520,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 709,
+        "weeklyDownloads": 774,
         "lastPublished": "2026-10-05T10:37:13.711Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -6529,17 +6529,17 @@
       }
     ],
     "remotes": [],
-    "stars": 167,
+    "stars": 168,
     "source": "MCP Registry",
     "updatedAt": "2026-05-16T13:54:48.18266Z",
     "repoMeta": {
       "slug": "dealfluence/adeu",
-      "stars": 167,
+      "stars": 168,
       "forks": 25,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-10-05T10:36:19Z",
+      "pushedAt": "2026-10-11T08:43:46Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -6823,7 +6823,7 @@
       "isFork": false,
       "createdAt": "2026-10-03T19:41:28Z",
       "pushedAt": "2026-10-04T19:30:57Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -6973,7 +6973,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 45,
+        "weeklyDownloads": 44,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -7234,7 +7234,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 293,
+        "weeklyDownloads": 284,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -7897,7 +7897,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 140,
+        "weeklyDownloads": 121,
         "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
@@ -7923,7 +7923,7 @@
       "isFork": false,
       "createdAt": "2026-09-27T02:40:47Z",
       "pushedAt": "2026-09-30T02:27:34Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -8546,7 +8546,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 121,
+        "weeklyDownloads": 114,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -8572,7 +8572,7 @@
       "isFork": false,
       "createdAt": "2026-05-21T18:29:31Z",
       "pushedAt": "2026-08-11T09:17:45Z",
-      "openIssues": 115,
+      "openIssues": 116,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -9465,7 +9465,7 @@
       "isFork": false,
       "createdAt": "2026-05-15T20:29:48Z",
       "pushedAt": "2026-10-02T18:37:20Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -10729,7 +10729,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 78,
+        "weeklyDownloads": 77,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -10799,7 +10799,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 112,
+        "weeklyDownloads": 113,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -10830,7 +10830,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 54,
+        "weeklyDownloads": 47,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -10861,7 +10861,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 110,
+        "weeklyDownloads": 105,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -10892,7 +10892,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 140,
+        "weeklyDownloads": 136,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -10923,7 +10923,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -10954,7 +10954,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 125,
+        "weeklyDownloads": 132,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -10985,7 +10985,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 96,
+        "weeklyDownloads": 79,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -11016,7 +11016,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 106,
+        "weeklyDownloads": 102,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -11047,7 +11047,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 105,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -11078,7 +11078,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 75,
+        "weeklyDownloads": 68,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -11109,7 +11109,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 122,
+        "weeklyDownloads": 114,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -11140,7 +11140,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 89,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -11171,7 +11171,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 102,
+        "weeklyDownloads": 86,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -11202,7 +11202,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 115,
+        "weeklyDownloads": 111,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -11233,7 +11233,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 114,
+        "weeklyDownloads": 121,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -11264,7 +11264,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 154,
+        "weeklyDownloads": 120,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -11295,7 +11295,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 132,
+        "weeklyDownloads": 112,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -11822,7 +11822,7 @@
       "isFork": false,
       "createdAt": "2026-09-22T16:28:20Z",
       "pushedAt": "2026-09-23T14:42:49Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -11913,7 +11913,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 96,
+        "weeklyDownloads": 382,
         "lastPublished": "2026-10-09T20:20:43.961Z",
         "firstPublished": "2026-09-30T19:50:15.536Z",
         "deprecated": false,
@@ -11939,7 +11939,7 @@
       "isFork": false,
       "createdAt": "2026-09-30T21:34:04Z",
       "pushedAt": "2026-10-09T19:45:23Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -12431,7 +12431,7 @@
       "isFork": false,
       "createdAt": "2026-09-24T16:22:08Z",
       "pushedAt": "2026-10-09T12:07:35Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -13953,218 +13953,56 @@
     "toolsStatus": "ok",
     "tools": [
       {
-        "name": "property_coverage",
-        "description": "FREE, NO API KEY: use this first for a Gold Coast or Brisbane street address before buying or renting. It checks coverage only and never charges. Supply one specific Queensland street address OR a latitude/longitude pair. Address input is resolved only when it matches a high-confidence property point; ambiguous, POI or non-property matches are refused rather than guessed. If supported is true, reu",
+        "name": "check_address",
+        "description": "FREE, no key. Use when you have one specific street address in the City of Gold Coast or Brisbane City (Queensland, Australia) and need to understand the property and what surrounds it before renting, buying, relocating, working or studying there. Returns coverage and a short summary: up to five findings and up to two items that could not be verified, each with a status and source - flood, bushfir",
         "inputs": [
           {
             "name": "address",
             "type": "string",
-            "description": "A specific Queensland street address. Use address OR latitude/longitude, never both.",
-            "required": false
-          },
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": false
-          },
-          {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "property_payment_options",
-        "description": "FREE, NO API KEY, NO CHARGE. Call after property_coverage returns supported=true, using the same coordinates. Returns the payment methods that are actually usable on this runtime plus a private purchase_id/purchase_token pair. Pass that pair to exactly one paid tool so concurrent retries or a rail switch cannot charge the same logical purchase twice. Future-only protocols are labelled configuratio",
-        "inputs": [
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
+            "description": "One street address with number and suburb, e.g. \"9 Hamilton Avenue, Surfers Paradise QLD 4217\" or \"222 Margaret Street, Brisbane City QLD 4000\".",
             "required": true
           }
         ]
       },
       {
-        "name": "property_report_one_off",
-        "description": "ONE-OFF A$1.39 X402 — NO ACCOUNT, NO API KEY. Use after property_coverage returns supported=true and property_payment_options returns x402 as live. Reuse its latitude/longitude plus purchase_id/purchase_token. The first call returns standard x402 v2 PaymentRequired and makes no charge. Retry this same MCP tool with PaymentPayload in params._meta['x402/payment']; success returns the report plus _me",
+        "name": "get_full_report",
+        "description": "Full structured PropertyCheck JSON (propertycheck/2) for one covered address: identity, coverage, capabilities, a summary and up to twelve sections, with a status, source and date on every item. Call after check_address shows a full report is available. Pay with an API key (1 credit) or with x402: without payment it returns a standard x402 PaymentRequired (A$1.39 incl. GST); retry the same call wi",
         "inputs": [
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "purchase_id",
-            "type": "string",
-            "description": "Logical purchase id returned by property_payment_options. Supply it together with purchase_token to prevent cross-rail double payment.",
-            "required": false
-          },
-          {
-            "name": "purchase_token",
-            "type": "string",
-            "description": "Private purchase token returned once by property_payment_options. Never log or disclose it.",
-            "required": false
-          },
-          {
-            "name": "payment_signature",
-            "type": "string",
-            "description": "Legacy compatibility only: optional base64 x402 v2 PAYMENT-SIGNATURE. New MCP clients put PaymentPayload in params._meta['x402/payment']. Never send both.",
-            "required": false
-          },
           {
             "name": "address",
             "type": "string",
-            "description": "Optional: the resolved_address text returned by property_coverage. Used only to carry the human-readable property identity into the A$4.95 card continuation; coordinates remain the report identity.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "property_report_card_checkout",
-        "description": "ONE-OFF A$4.95 CARD REPORT — NO ACCOUNT, NO API KEY. Use only after property_coverage returns supported=true, property_payment_options returns stripe_checkout as live, and the human explicitly chooses it. Reuse that tool's purchase_id/purchase_token. This tool builds and freezes the complete JSON first, then creates Stripe Checkout. Calling the tool itself does not charge the human. Give the human",
-        "inputs": [
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "purchase_id",
-            "type": "string",
-            "description": "Logical purchase id returned by property_payment_options. Supply it together with purchase_token to prevent cross-rail double payment.",
+            "description": "One street address with number and suburb, e.g. \"9 Hamilton Avenue, Surfers Paradise QLD 4217\" or \"222 Margaret Street, Brisbane City QLD 4000\".",
             "required": false
           },
-          {
-            "name": "purchase_token",
-            "type": "string",
-            "description": "Private purchase token returned once by property_payment_options. Never log or disclose it.",
-            "required": false
-          },
-          {
-            "name": "address",
-            "type": "string",
-            "description": "Optional resolved address from property_coverage. Coordinates remain the frozen report identity.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "property_report_card_get",
-        "description": "FREE POLL AND RETRIEVAL. Before verified Stripe payment it returns payment_pending and no report. After payment it returns the exact JSON frozen before checkout. It never charges again and performs no new provider lookup. Example: use the purchase_id and access_token returned by property_report_card_checkout.",
-        "inputs": [
-          {
-            "name": "purchase_id",
-            "type": "string",
-            "description": "Opaque purchase id returned by property_report_card_checkout.",
-            "required": true
-          },
-          {
-            "name": "access_token",
-            "type": "string",
-            "description": "Private retrieval token returned by property_report_card_checkout; keep it inside the AI session.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "property_report",
-        "description": "API KEY REQUIRED — 1 credit. Use this after property_coverage returns supported=true and property_payment_options returns account_credit as live. Reuse its coordinates plus purchase_id/purchase_token and add a caller-stable request_id. Legacy calls without protected purchase credentials remain accepted. It creates and stores one complete structured JSON report covering the property, everyday life ",
-        "inputs": [
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
-            "required": true
-          },
-          {
-            "name": "purchase_id",
-            "type": "string",
-            "description": "Logical purchase id returned by property_payment_options. Supply it together with purchase_token to prevent cross-rail double payment.",
-            "required": false
-          },
-          {
-            "name": "purchase_token",
-            "type": "string",
-            "description": "Private purchase token returned once by property_payment_options. Never log or disclose it.",
-            "required": false
-          },
-          {
-            "name": "request_id",
-            "type": "string",
-            "description": "Caller-stable idempotency key. Reuse it only for the same coordinates.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "property_report_get",
-        "description": "Use with the report_id returned by property_report to reopen an already-paid immutable report. Free; another organisation's report is not visible and no new provider lookup is performed. Example: report_id='rpt_abc123'.",
-        "inputs": [
           {
             "name": "report_id",
             "type": "string",
-            "description": "Durable report ID returned by property_report (for example, rpt_abc123).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "propertycheck_lookup",
-        "description": "API KEY REQUIRED — 1 credit. Deprecated compatibility alias retained for existing clients; prefer property_coverage followed by property_report for new integrations and retry-safe stored reports. Use only when a legacy client needs the complete PropertyCheck package returned directly for one Gold Coast or Brisbane coordinate and cannot supply a stable request_id. It costs one credit and is not ide",
-        "inputs": [
-          {
-            "name": "latitude",
-            "type": "number",
-            "description": "WGS84 latitude in decimal degrees; supply it together with longitude for one property point.",
-            "required": true
+            "description": "An already purchased report to re-view at zero cost. Use address OR report_id, never both.",
+            "required": false
           },
           {
-            "name": "longitude",
-            "type": "number",
-            "description": "WGS84 longitude in decimal degrees; supply it together with latitude for one property point.",
-            "required": true
+            "name": "sections",
+            "type": "array",
+            "description": "Optional. Only these sections (identity, coverage, summary and sources are always included). Same price.",
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional, API-key path. Reusing it returns the same report without a second charge.",
+            "required": false
+          },
+          {
+            "name": "detail",
+            "type": "string",
+            "description": "Optional. standard (default) keeps all decision-useful facts; full also restores available heavy enumerations from the same stored report.",
+            "required": false,
+            "enum": [
+              "standard",
+              "full"
+            ]
           }
         ]
-      },
-      {
-        "name": "propertycheck_catalogue",
-        "description": "Use this free, read-only tool before purchase to review available PropertyCheck data blocks, custodians, licences, required attribution and credit packs. It accepts no arguments, spends no credit and changes no state; use property_coverage for address support or propertycheck_account for the caller's balance. Example: call with {} before choosing a paid report.",
-        "inputs": null
-      },
-      {
-        "name": "propertycheck_account",
-        "description": "Use this free, read-only tool to review the authenticated caller's credit balance, spend today, daily cap and rate limits before requesting a paid report. It accepts no arguments, spends no credit and changes no account state; use propertycheck_catalogue for product, licence and pricing details. Example: call with {} before requesting a paid report.",
-        "inputs": null
       }
     ]
   },
@@ -14352,7 +14190,7 @@
       "isFork": false,
       "createdAt": "2026-08-11T03:50:02Z",
       "pushedAt": "2026-08-19T07:07:39Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -15168,7 +15006,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 2095,
+        "weeklyDownloads": 1923,
         "lastPublished": "2026-10-04T18:28:02.300Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -15177,12 +15015,12 @@
       }
     ],
     "remotes": [],
-    "stars": 511,
+    "stars": 513,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 511,
+      "stars": 513,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -15211,7 +15049,7 @@
     "remotes": [],
     "stars": 85,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-04T16:10:41.879623Z",
+    "updatedAt": "2026-10-10T20:38:14.516874Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
       "stars": 85,
@@ -15219,7 +15057,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
-      "pushedAt": "2026-10-04T15:53:38Z",
+      "pushedAt": "2026-10-10T20:29:42Z",
       "openIssues": 0,
       "license": "NOASSERTION",
       "language": "Python"
@@ -15298,7 +15136,7 @@
       "isFork": false,
       "createdAt": "2026-01-31T17:24:00Z",
       "pushedAt": "2026-05-30T04:17:55Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -15661,7 +15499,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 778,
+        "weeklyDownloads": 676,
         "lastPublished": "2026-10-08T13:04:31.512Z",
         "firstPublished": "2026-09-25T04:16:13.749Z",
         "deprecated": false,
@@ -15674,6 +15512,29 @@
     "source": "MCP Registry",
     "updatedAt": "2026-10-08T13:22:52.80521Z",
     "repoMeta": null
+  },
+  {
+    "id": "mcp:ai-arcdeck-arcdeck",
+    "name": "Arcdeck",
+    "qualifiedName": "ai.arcdeck/arcdeck",
+    "slug": "ai-arcdeck-arcdeck",
+    "description": "Create consulting-style presentation decks (editable PowerPoint) from a topic or notes.",
+    "category": "Docs & Knowledge",
+    "repository": null,
+    "homepage": "https://arcdeck.ai/integrations",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://arcdeck.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-11T09:53:20.200537Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-archome-archome",
@@ -16099,7 +15960,7 @@
       "isFork": false,
       "createdAt": "2026-07-08T02:39:59Z",
       "pushedAt": "2026-07-08T04:48:36Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -17148,7 +17009,7 @@
       "isFork": false,
       "createdAt": "2026-09-28T13:11:23Z",
       "pushedAt": "2026-09-28T13:11:27Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -17178,7 +17039,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-04T13:51:28.595834Z",
+    "updatedAt": "2026-10-10T12:45:12.801859Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -17449,7 +17310,7 @@
       "isFork": false,
       "createdAt": "2026-07-27T21:22:32Z",
       "pushedAt": "2026-07-27T21:23:33Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -17604,7 +17465,7 @@
       "isFork": false,
       "createdAt": "2026-06-29T07:36:29Z",
       "pushedAt": "2026-09-21T11:46:58Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": null
     },
@@ -17642,8 +17503,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-10T08:12:21Z",
-      "pushedAt": "2026-10-10T08:12:25Z",
-      "openIssues": 0,
+      "pushedAt": "2026-10-11T03:13:42Z",
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -17853,7 +17714,7 @@
       "isFork": false,
       "createdAt": "2026-06-10T05:19:05Z",
       "pushedAt": "2026-06-10T05:45:45Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -18055,7 +17916,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 241,
+        "weeklyDownloads": 289,
         "lastPublished": "2026-10-10T08:21:46.393Z",
         "firstPublished": "2026-10-06T14:13:25.231Z",
         "deprecated": false,
@@ -18074,13 +17935,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-06T13:43:49Z",
-      "pushedAt": "2026-10-10T08:19:38Z",
+      "pushedAt": "2026-10-11T10:19:33Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
     },
     "readme": {
-      "markdown": "Auten MCP server\n\n  <b>Computer use for the AI agent you already have.</b>\n  Claude Code, Codex, Cursor, Gemini CLI or any MCP client can click, type and read the screen\n  on your Mac, Windows or Linux computer — and your Android phone (beta) — in real apps that have no API.\n\n  \n  \n  \n\n  Website &nbsp;|&nbsp;\n  Setup for every client &nbsp;|&nbsp;\n  Pricing &nbsp;|&nbsp;\n  hello@auten.ai\n\n  \n  <sub>Illustration: the first run is driven by your AI, the next runs replay from memory.</sub>\n\n---\n\nAuten is the hands, your AI is the brain. A small runner on your computer does the clicking,\ntyping and screen reading. Your agent talks to it over MCP (stdio or SSE). Auten does not ship\nits own model and never needs your AI key; your agent keeps using the plan you already pay for.\n\nWhat makes it different from a plain mouse and keyboard bridge:\n\n- **Reads the UI, not just pixels.** It uses the accessibility tree, so your agent gets a numbered\n  list of real buttons and fields (`list_elements` then `click_at(3)`) instead of guessing\n  coordinates. OCR and real screenshots are there when an app has no accessibility info.\n- **Learns a task once, replays it without AI.** After your agent finishes a task, Auten can save\n  it as a skill. The next run replays in seconds, with no tokens spent, and fixes itself when the\n  app's layout changes.\n- **Passwords stay on your machine.** `fill_login` types a stored secret into a field without the\n  agent ever seeing the value.\n\n  \n  <sub>Real capture, not an illustration: first run by the agent (~14 s incl. thinking), then <code>run_skill</code> with new values (4.8 s, no model call). Local test page, 1 fps, one cut between the runs.</sub>\n\n## What you can ask your agent\n\nPlain requests in the client you already use. The agent decides the steps, Auten does the clicks.\n\n- \"Open the supplier portal, download this month's invoices and put them in ~/Invoices.\"\n- \"Go through the new leads in the CRM and fill in the missing company names from their emails.\"\n- \"Export the report from that desktop app as CSV. It has no API, so use the File menu.\"\n- \"On my Android phone, open Instagram and reply to the latest DM with this text.\" (phone is beta, over USB)\n- \"That worked. Save it as a skill called `export-report`.\" Next time: \"Run `export-report`.\" It replays without AI.\n\n## Quick start\n\n**1. Install the runner** (one command; no admin rights on macOS and Windows, on Linux it asks for `sudo` once to apt-install the accessibility and input tools):\n\n```bash\n# macOS and Linux\ncurl -fsSL https://auten.ai/install | bash\n```\n\n```powershell\n# Windows (PowerShell)\nirm https://auten.ai/install.ps1 | iex\n```\n\nThe first run asks you to connect a free key (30 minutes every month, no card).\n\n**2. Add Auten to your agent.** For Claude Code, Auten can do it by itself:\n\n```bash\nauten connect\n```\n\nor add it with the Claude Code CLI and check with `/mcp`:\n\n```bash\nclaude mcp add -s user auten -- auten mcp-bridge\n```\n\n**3. Ask in plain words.** For example: *\"Open Figma, export the Hero frame as PNG to my Desktop\"*\nor *\"Go through the unread invoices in my mail and fill them into the accounting app\"*.\n\n### Or run it through npx\n\nAny client that can start an npm package can use the launcher instead. It starts the installed\nrunner, and if Auten is not installed yet it tells your agent the one-line install command.\nThe \"Add to Cursor\" and \"VS Code\" buttons at the top add exactly this entry.\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"npx\", \"args\": [\"-y\", \"@autenai/mcp\"] }\n  }\n}\n```\n\n```bash\nclaude mcp add -s user auten -- npx -y @autenai/mcp\n```\n\n### Or as a Claude Code plugin\n\nThis repository is also a plugin marketplace. Inside Claude Code:\n\n```\n/plugin marketplace add auten-ai/auten-mcp\n/plugin install auten@auten\n```\n\nThe plugin adds the same npx launcher entry, nothing else (no hooks or commands). See [plugin/README.md](plugin/README.md).\n\n## Client setup\n\nEvery client starts the same stdio command: `auten mcp-bridge` (or `npx -y @autenai/mcp`). If your app says it cannot find\n`auten`, use the full path from `which auten` (usually `~/.local/bin/auten`).\n\n<details>\n<summary><b>OpenAI Codex</b></summary>\n\n```bash\ncodex mcp add auten -- auten mcp-bridge\n```\n\nor in `~/.codex/config.toml`:\n\n```toml\n[mcp_servers.auten]\ncommand = \"auten\"\nargs = [\"mcp-bridge\"]\n```\n</details>\n\n<details>\n<summary><b>Cursor</b></summary>\n\n`~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Gemini CLI</b></summary>\n\n```bash\ngemini mcp add --scope user auten auten mcp-bridge\n```\n\nor the same `mcpServers` entry in `~/.gemini/settings.json`.\n</details>\n\n<details>\n<summary><b>Claude Desktop</b></summary>\n\nSettings, Developer, Edit Config\n(`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS,\n`%APPDATA%\\Claude\\claude_desktop_config.json` on Windows):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n\nRestart Claude Desktop.\n</details>\n\n<details>\n<summary><b>VS Code (GitHub Copilot agent mode)</b></summary>\n\nRun `MCP: Open User Configuration` and add:\n\n```json\n{\n  \"servers\": {\n    \"auten\": { \"type\": \"stdio\", \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Windsurf</b></summary>\n\n`~/.codeium/windsurf/mcp_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Zed</b></summary>\n\n`~/.config/zed/settings.json`:\n\n```json\n{\n  \"context_servers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Cline</b></summary>\n\nAsk Cline to set Auten up from [llms-install.md](llms-install.md), or add it yourself in\nMCP Servers, Configure (`cline_mcp_settings.json`):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mc\n\n…",
+      "markdown": "Auten MCP server\n\n  <b>Computer use for the AI agent you already have.</b>\n  Claude Code, Codex, Cursor, Gemini CLI or any MCP client can click, type and read the screen\n  on your Mac, Windows or Linux computer — and your Android phone (beta) — in real apps that have no API.\n\n  \n  \n  \n\n  Website &nbsp;|&nbsp;\n  Setup for every client &nbsp;|&nbsp;\n  Pricing &nbsp;|&nbsp;\n  hello@auten.ai\n\n  \n  <sub>Illustration: the first run is driven by your AI, the next runs replay from memory.</sub>\n\n---\n\nAuten is the hands, your AI is the brain. A small runner on your computer does the clicking,\ntyping and screen reading. Your agent talks to it over MCP (stdio or SSE). Auten does not ship\nits own model and never needs your AI key; your agent keeps using the plan you already pay for.\n\nWhat makes it different from a plain mouse and keyboard bridge:\n\n- **Reads the UI, not just pixels.** It uses the accessibility tree, so your agent gets a numbered\n  list of real buttons and fields (`list_elements` then `click_at(3)`) instead of guessing\n  coordinates. OCR and real screenshots are there when an app has no accessibility info.\n- **Learns a task once, replays it without AI.** After your agent finishes a task, Auten can save\n  it as a skill. The next run replays in seconds, with no tokens spent, and fixes itself when the\n  app's layout changes.\n- **Passwords stay on your machine.** `fill_login` types a stored secret into a field without the\n  agent ever seeing the value.\n\n  \n  <sub>Real capture, not an illustration: first run by the agent (~14 s incl. thinking), then <code>run_skill</code> with new values (4.8 s, no model call). Local test page, 1 fps, one cut between the runs.</sub>\n\n## What you can ask your agent\n\nPlain requests in the client you already use. The agent decides the steps, Auten does the clicks.\n\n- \"Open the supplier portal, download this month's invoices and put them in ~/Invoices.\"\n- \"Go through the new leads in the CRM and fill in the missing company names from their emails.\"\n- \"Export the report from that desktop app as CSV. It has no API, so use the File menu.\"\n- \"On my Android phone, open Instagram and reply to the latest DM with this text.\" (phone is beta, over USB)\n- \"That worked. Save it as a skill called `export-report`.\" Next time: \"Run `export-report`.\" It replays without AI.\n\n## Quick start\n\n**1. Install the runner** (one command; no admin rights on macOS and Windows, on Linux it asks for `sudo` once to apt-install the accessibility and input tools):\n\n```bash\n# macOS and Linux\ncurl -fsSL https://auten.ai/install | bash\n```\n\n```powershell\n# Windows (PowerShell)\nirm https://auten.ai/install.ps1 | iex\n```\n\nThe first run asks you to connect a free key (30 minutes every month, no card).\n\n**2. Add Auten to your agent.** For Claude Code, Auten can do it by itself:\n\n```bash\nauten connect\n```\n\nor add it with the Claude Code CLI and check with `/mcp`:\n\n```bash\nclaude mcp add -s user auten -- auten mcp-bridge\n```\n\n**3. Ask in plain words.** For example: *\"Open Figma, export the Hero frame as PNG to my Desktop\"*\nor *\"Go through the unread invoices in my mail and fill them into the accounting app\"*.\nMore prompts for computer and phone (beta) tasks: [examples/prompts.md](examples/prompts.md).\n\n### Or run it through npx\n\nAny client that can start an npm package can use the launcher instead. It starts the installed\nrunner, and if Auten is not installed yet it tells your agent the one-line install command.\nThe \"Add to Cursor\" and \"VS Code\" buttons at the top add exactly this entry.\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"npx\", \"args\": [\"-y\", \"@autenai/mcp\"] }\n  }\n}\n```\n\n```bash\nclaude mcp add -s user auten -- npx -y @autenai/mcp\n```\n\n### Or as a Claude Code plugin\n\nThis repository is also a plugin marketplace. Inside Claude Code:\n\n```\n/plugin marketplace add auten-ai/auten-mcp\n/plugin install auten@auten\n```\n\nThe plugin adds the same npx launcher entry, nothing else (no hooks or commands). See [plugin/README.md](plugin/README.md).\n\n## Client setup\n\nEvery client starts the same stdio command: `auten mcp-bridge` (or `npx -y @autenai/mcp`). If your app says it cannot find\n`auten`, use the full path from `which auten` (usually `~/.local/bin/auten`).\n\n<details>\n<summary><b>OpenAI Codex</b></summary>\n\n```bash\ncodex mcp add auten -- auten mcp-bridge\n```\n\nor in `~/.codex/config.toml`:\n\n```toml\n[mcp_servers.auten]\ncommand = \"auten\"\nargs = [\"mcp-bridge\"]\n```\n</details>\n\n<details>\n<summary><b>Cursor</b></summary>\n\n`~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Gemini CLI</b></summary>\n\n```bash\ngemini mcp add --scope user auten auten mcp-bridge\n```\n\nor the same `mcpServers` entry in `~/.gemini/settings.json`.\n</details>\n\n<details>\n<summary><b>Claude Desktop</b></summary>\n\nSettings, Developer, Edit Config\n(`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS,\n`%APPDATA%\\Claude\\claude_desktop_config.json` on Windows):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n\nRestart Claude Desktop.\n</details>\n\n<details>\n<summary><b>VS Code (GitHub Copilot agent mode)</b></summary>\n\nRun `MCP: Open User Configuration` and add:\n\n```json\n{\n  \"servers\": {\n    \"auten\": { \"type\": \"stdio\", \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Windsurf</b></summary>\n\n`~/.codeium/windsurf/mcp_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Zed</b></summary>\n\n`~/.config/zed/settings.json`:\n\n```json\n{\n  \"context_servers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Cline</b></summary>\n\nAsk Cline to set Auten up from [llms-install.md](llms-install.md), or add it yourself in\nMCP Servers, Configure (`cline_mcp\n\n…",
       "truncated": true,
       "url": "https://github.com/auten-ai/auten-mcp#readme"
     }
@@ -18675,7 +18536,7 @@
       "isFork": false,
       "createdAt": "2026-08-21T20:36:29Z",
       "pushedAt": "2026-08-22T20:20:50Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": null,
       "language": null
     },
@@ -18703,7 +18564,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 41,
+        "weeklyDownloads": 42,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -18765,7 +18626,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 35,
+        "weeklyDownloads": 36,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -18825,7 +18686,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 92,
+        "weeklyDownloads": 96,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -18887,7 +18748,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 94,
+        "weeklyDownloads": 99,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -19268,7 +19129,7 @@
       "isFork": false,
       "createdAt": "2026-05-17T23:58:24Z",
       "pushedAt": "2026-05-18T02:12:07Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -19330,7 +19191,7 @@
       "isFork": false,
       "createdAt": "2026-05-11T04:30:30Z",
       "pushedAt": "2026-05-30T15:33:50Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": null,
       "language": null
     },
@@ -19377,7 +19238,7 @@
       "isFork": false,
       "createdAt": "2026-10-03T14:07:04Z",
       "pushedAt": "2026-10-04T06:10:14Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -19424,7 +19285,7 @@
       "isFork": false,
       "createdAt": "2026-08-28T14:15:43Z",
       "pushedAt": "2026-09-03T17:12:41Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "AGPL-3.0",
       "language": "Python"
     },
@@ -19780,7 +19641,7 @@
       "isFork": false,
       "createdAt": "2026-08-17T08:21:14Z",
       "pushedAt": "2026-09-30T11:42:49Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -20210,7 +20071,7 @@
       "isFork": false,
       "createdAt": "2026-06-25T11:38:43Z",
       "pushedAt": "2026-07-10T10:01:50Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": null,
       "language": null
     },
@@ -20944,7 +20805,7 @@
       "isFork": false,
       "createdAt": "2026-06-09T05:27:15Z",
       "pushedAt": "2026-08-21T14:11:26Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -21037,7 +20898,7 @@
       "isFork": false,
       "createdAt": "2026-07-08T17:23:02Z",
       "pushedAt": "2026-07-08T18:40:15Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": null,
       "language": null
     },
@@ -21468,7 +21329,7 @@
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
       "pushedAt": "2026-10-05T15:10:50Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
     },
@@ -21835,10 +21696,10 @@
     "name": "BetSlip Doctor",
     "qualifiedName": "ai.betslipdoctor/mcp",
     "slug": "ai-betslipdoctor-mcp",
-    "description": "Read, grade, and track a subscriber's betslips with preserved truth and no wager placement.",
+    "description": "Bet slip grader: grade a parlay A+ to F- before you bet, track slips, history and Tail. 21+, US.",
     "category": "Other",
-    "repository": "https://github.com/opspot-ai/betslipdoctor",
-    "homepage": "https://github.com/opspot-ai/betslipdoctor",
+    "repository": "https://github.com/opspot-ai/betslipdoctor-mcp",
+    "homepage": "https://betslipdoctor.ai/agents",
     "packages": [],
     "remotes": [
       {
@@ -21847,10 +21708,21 @@
         "headers": []
       }
     ],
-    "stars": null,
+    "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-08-19T06:10:02.724773Z",
-    "repoMeta": null,
+    "updatedAt": "2026-10-10T23:51:29.033345Z",
+    "repoMeta": {
+      "slug": "opspot-ai/betslipdoctor-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-10T09:03:28Z",
+      "pushedAt": "2026-10-10T09:03:44Z",
+      "openIssues": 1,
+      "license": "NOASSERTION",
+      "language": null
+    },
     "toolsStatus": "ok",
     "tools": [
       {
@@ -22975,7 +22847,7 @@
       },
       {
         "name": "show_saved_grade",
-        "description": "Return the verified immutable saved report for an owned completed Grade jobId. Returns unavailable until the real saved report is readable; never grades again. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card inside ChatGPT. Use this tool when the customer wants to see their saved result. This is a read-only view.",
+        "description": "Return the verified immutable saved report for an owned completed Grade jobId. Returns unavailable until the real saved report is readable; never grades again. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read-only view.",
         "inputs": [
           {
             "name": "jobId",
@@ -22987,7 +22859,7 @@
       },
       {
         "name": "show_doctor_conversation",
-        "description": "Read the owned threadId, saved user messages, Doctor answers and jobs; optional before pages older messages. Does not generate a new answer. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card inside ChatGPT. Use this tool when the customer wants to see their saved result. This is a read-only view.",
+        "description": "Read the owned threadId, saved user messages, Doctor answers and jobs; optional before pages older messages. Does not generate a new answer. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read-only view.",
         "inputs": [
           {
             "name": "threadId",
@@ -23005,7 +22877,7 @@
       },
       {
         "name": "show_tail_feed",
-        "description": "Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card inside ChatGPT. Use this tool when the customer wants to see their saved result. This is a r",
+        "description": "Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read",
         "inputs": [
           {
             "name": "feed",
@@ -23056,7 +22928,7 @@
       },
       {
         "name": "show_tail_post",
-        "description": "Read one app Tail postId visible to this account under the same moderation and privacy rules. May contain another community member’s published content; does not post. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card inside ChatGPT. Use this tool when the customer wants to see their saved result. This is a read-only view.",
+        "description": "Read one app Tail postId visible to this account under the same moderation and privacy rules. May contain another community member’s published content; does not post. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read-only view.",
         "inputs": [
           {
             "name": "postId",
@@ -23411,7 +23283,12 @@
           }
         ]
       }
-    ]
+    ],
+    "readme": {
+      "markdown": "# BetSlip Doctor MCP server\n\n**Bet slip grader, parlay tracker, bet tracker and Tail community for AI assistants.**\nConnect Claude, ChatGPT, Cursor, VS Code, Gemini CLI or any MCP client to your own\n[BetSlip Doctor](https://betslipdoctor.ai) account and ask, in plain words:\n*\"Grade this parlay before I bet it.\" \"Show my record this month.\" \"What's new on Tail?\"*\n\n```text\nhttps://api.betslipdoctor.ai/api/mcp\n```\n\nStreamable HTTP. OAuth 2.1 with PKCE and dynamic client registration. This repository holds\ndocs, examples and client manifests only: no server code, no credentials.\n\n## What it does\n\n- **Grades a bet slip before you place it.** A letter from A+ to F-, a score out of 100\n  (Value 30, Research 40, Slip construction 20, Stake fit 10) from up to 100 research\n  questions in 10 groups, with sources. [How the grade system works](https://betslipdoctor.ai/grade-system).\n- **Tracks parlays and singles.** Same-game parlays stay one pick with their legs inside;\n  settlement keeps push, void, cash out and dead heat. [Parlay tracker](https://betslipdoctor.ai/parlay-tracker).\n- **Reads your betting history.** Recorded profit and loss, win rate and the win-loss split\n  for 1W, 1M, 3M, 1Y or All; CSV export. [Bet tracker](https://betslipdoctor.ai/bet-tracker).\n- **Reads and posts to Tail**, the community where slips carry their Grade. Tail or fade a\n  post into your own unplaced slip. [Tail community](https://betslipdoctor.ai/tail-community).\n- **Talks to the Doctor** about any saved Grade, and can **fix a weak slip** in up to 3 moves.\n- **Compares posted prices** at up to 5 sportsbooks and prepares a sportsbook link that\n  opens only when you tap it.\n\n46 tools. Full list: [TOOLS.md](TOOLS.md). Cards (saved Grade, Doctor conversation,\nHistory chart, Tail post, saved slip) render inline in hosts that support MCP Apps.\n\n## Connect\n\n| Client | How |\n| --- | --- |\n| Claude (web, desktop) | Customize → Connectors → Add custom connector → paste the URL → Register automatically → sign in |\n| ChatGPT | chatgpt.com/plugins → Add custom MCP server → Public endpoint → paste the URL → sign in |\n| Claude Code | `claude plugin marketplace add opspot-ai/betslipdoctor-mcp` then `claude plugin install betslip-doctor@betslip-doctor` |\n| Cursor | Settings → MCP → Add, or use `plugin.json` + `mcp.json` from this repo |\n| VS Code | `code --add-mcp '{\"name\":\"betslip-doctor\",\"type\":\"http\",\"url\":\"https://api.betslipdoctor.ai/api/mcp\"}'` |\n| Gemini CLI | `gemini extensions install https://github.com/opspot-ai/betslipdoctor-mcp` |\n| Anything else | Streamable HTTP + OAuth discovery: [docs/connect.md](docs/connect.md) |\n\nStep-by-step with pictures: https://betslipdoctor.ai/agents\n\n## Who can use it\n\n- A BetSlip Doctor account on the **Pro ($19.99/month) or Elite ($49.99/month)** plan for agent\n  access. Plans and the free tier: https://betslipdoctor.ai/pricing\n- Adults of legal sports-betting age in the United States (21+ in most states).\n\n## What it will never do\n\nPlace a bet, move money, change billing or privacy settings, or ask for a sportsbook login.\nEvery Grade and Doctor job that spends allowance is quoted first. Outputs are entertainment\nand decision support, never a guarantee or financial advice.\nIf gambling stops being fun, call 1-800-522-4700 (NCPG).\n\n## Try it\n\n[examples/prompts.md](examples/prompts.md) has prompts by task.\n[examples/discovery.sh](examples/discovery.sh) lists the tools without signing in.\n\n## Files\n\n- `server.json`: the [MCP Registry](https://registry.modelcontextprotocol.io) manifest (`ai.betslipdoctor/mcp`).\n- `llms.txt`: the same facts for language models ([live copy](https://betslipdoctor.ai/llms.txt)).\n- `plugin.json`, `mcp.json`: Agent Plugins standard (Cursor, Codex).\n- `.claude-plugin/`, `.mcp.json`: Claude Code plugin and marketplace.\n- `gemini-extension.json`, `GEMINI.md`: Gemini CLI extension.\n- `skills/bsd-workflow/SKILL.md`: how an agent should read, grade and post.\n- `docs/`: connection guide, public HTTP API guide, screenshots (sample data).\n\nPrivacy: https://betslipdoctor.ai/privacy · Terms: https://betslipdoctor.ai/legal ·\nSupport: support@betslipdoctor.ai",
+      "truncated": false,
+      "url": "https://github.com/opspot-ai/betslipdoctor-mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-betterpost-server",
@@ -23441,7 +23318,7 @@
       "isFork": false,
       "createdAt": "2026-07-02T05:08:01Z",
       "pushedAt": "2026-08-12T03:27:03Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -24578,8 +24455,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-06-20T16:06:55Z",
-      "pushedAt": "2026-10-10T09:59:59Z",
-      "openIssues": 0,
+      "pushedAt": "2026-10-11T11:59:39Z",
+      "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
@@ -24708,1832 +24585,5 @@
         ]
       }
     ]
-  },
-  {
-    "id": "mcp:ai-bithuman-docs",
-    "name": "bitHuman docs",
-    "qualifiedName": "ai.bithuman/docs",
-    "slug": "ai-bithuman-docs",
-    "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
-    "category": "Web & Search",
-    "repository": "https://gitlab.com/projects/87208064",
-    "homepage": "https://docs.bithuman.ai/resources/agents#docs-mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://docs.bithuman.ai/docs-mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-10-05T10:40:24.646271Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search",
-        "description": "Search docs.bithuman.ai (bitHuman real-time avatar SDKs, the REST API, deployment options, models, pricing). Returns JSON {results: [{id, title, url, section, text}]}, most relevant first (default 8, at most 20); `text` is a short snippet, so pass the `id` to `fetch` for the whole page. Example: {\"query\": \"create an agent and poll status\", \"section\": \"API reference\"}. An empty query is an error; n",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "What to look for, e.g. \"Android first frame\" or \"LiveKit secret\".",
-            "required": true
-          },
-          {
-            "name": "section",
-            "type": "string",
-            "description": "Limit to one section.",
-            "required": false,
-            "enum": [
-              "Overview",
-              "Platforms",
-              "Models",
-              "Guides",
-              "Deploy",
-              "Performance",
-              "API reference",
-              "Get started",
-              "Resources",
-              "Build",
-              "API"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "How many results, 1 to 20 (default 8).",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "fetch",
-        "description": "Fetch one docs page as markdown by the id `search` returned (a path such as /platforms/python), or by its full docs.bithuman.ai URL. Returns JSON {id, title, text (the whole page as markdown), url, metadata}. Example: {\"id\": \"/api/agents\"}. Errors: an unknown path (run `search` for the id) and a URL outside docs.bithuman.ai are refused. Read-only, no sign-in.",
-        "inputs": [
-          {
-            "name": "id",
-            "type": "string",
-            "description": "A page path (/platforms/python) or URL (https://docs.bithuman.ai/platforms/python).",
-            "required": true
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-bitroad-bitroad",
-    "name": "bitroad",
-    "qualifiedName": "ai.bitroad/bitroad",
-    "slug": "ai-bitroad-bitroad",
-    "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
-    "category": "Finance & Data",
-    "repository": "https://github.com/bitroadai/bitroad-mcp",
-    "homepage": "https://github.com/bitroadai/bitroad-mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://app.bitroad.ai/api/v1/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-17T19:06:22.088057Z",
-    "repoMeta": {
-      "slug": "bitroadai/bitroad-mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-08-17T17:35:40Z",
-      "pushedAt": "2026-09-07T20:12:30Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "JavaScript"
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "services_search_listings",
-        "description": "Search service listings (GPU compute, synthetic data, inference, vector hosting, code review, research, data labelling). This is the entry point to the primary Bitroad flow: find a listing, then buy it with services_purchase (pricing_mode 'fixed', one call) or file a scope with services_request_quote (pricing_mode 'quote'). Filter by category or pricing_mode. Every charge is held in escrow until t",
-        "inputs": [
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Substring to match against listing titles and summaries.",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Filter to one service category.",
-            "required": false,
-            "enum": [
-              "gpu_compute",
-              "synthetic_data",
-              "inference",
-              "vector_hosting",
-              "code_review",
-              "research",
-              "other"
-            ]
-          },
-          {
-            "name": "pricing_mode",
-            "type": "string",
-            "description": "Filter by pricing mode: 'fixed' (one-call purchase) or 'quote' (request a quote).",
-            "required": false,
-            "enum": [
-              "quote",
-              "fixed"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_purchase",
-        "description": "Buy a fixed-price service in one call: validates the scope, computes the deterministic price, creates the quote thread directly in accepted, and charges immediately, with no seller round-trip. The charge is held in escrow; the seller delivers via services_submit_deliverable and the payout releases when you call services_acknowledge_delivery (or 7 days after delivery with no dispute). Same delegati",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the fixed-price service listing to buy.",
-            "required": true
-          },
-          {
-            "name": "scope",
-            "type": "object",
-            "description": "Scope-of-work values; must conform to the listing's scope_schema. The metered field drives the computed price.",
-            "required": true
-          },
-          {
-            "name": "requested_summary",
-            "type": "any",
-            "description": "Free-text description of the work being requested.",
-            "required": false
-          },
-          {
-            "name": "acknowledged_confirmation",
-            "type": "boolean",
-            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
-            "required": true
-          },
-          {
-            "name": "confirmation_token",
-            "type": "any",
-            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
-            "required": false
-          },
-          {
-            "name": "payment_method_id",
-            "type": "string",
-            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
-            "required": false
-          },
-          {
-            "name": "__outcomeForTesting",
-            "type": "string",
-            "description": "Test-only: force a simulated card outcome. Never set in production.",
-            "required": false,
-            "enum": [
-              "ok",
-              "requires_action",
-              "declined",
-              "provider_error"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_request_quote",
-        "description": "File a scope-of-work against a quote-mode service listing for bespoke work. The scope must conform to the listing's scope schema. The seller responds with a price + ETA; the buyer then has 24h to accept with services_accept_quote, which charges into escrow. Fixed-price listings refuse this: use services_purchase.",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the quote-mode service listing to request a quote against.",
-            "required": true
-          },
-          {
-            "name": "scope",
-            "type": "object",
-            "description": "Scope-of-work values; must conform to the listing's scope_schema.",
-            "required": true
-          },
-          {
-            "name": "requested_summary",
-            "type": "any",
-            "description": "Free-text description of the work being requested.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_get_quote",
-        "description": "Fetch one service quote thread with its deliverables. Buyer or seller side. Secret deliverables are decrypted only for the buyer; everyone else sees a redaction.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote thread to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_accept_quote",
-        "description": "Accept a submitted quote and charge immediately. Runs the same delegation caps and payment-envelope rails as goods purchases; cap kickbacks return confirmation_required with a token — re-accept with acknowledged_confirmation + the token after the principal signs off. Funds are held in escrow until the deliverable is accepted.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quoted thread to accept and pay.",
-            "required": true
-          },
-          {
-            "name": "acknowledged_confirmation",
-            "type": "boolean",
-            "description": "Set true when retrying after a confirmation_required kickback, together with confirmation_token.",
-            "required": true
-          },
-          {
-            "name": "confirmation_token",
-            "type": "any",
-            "description": "Token from the confirmation_required kickback; must match to complete the charge.",
-            "required": false
-          },
-          {
-            "name": "payment_method_id",
-            "type": "string",
-            "description": "UUID of a saved payment method to charge. Omitted = envelope-bound card, else the principal's default.",
-            "required": false
-          },
-          {
-            "name": "__outcomeForTesting",
-            "type": "string",
-            "description": "Test-only: force a simulated card outcome. Never set in production.",
-            "required": false,
-            "enum": [
-              "ok",
-              "requires_action",
-              "declined",
-              "provider_error"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_counter_quote",
-        "description": "Post a counter-offer on a quote thread (price in pence, ETA in minutes, optional terms). Either side may counter: the buyer counters a submitted quote (requires the listing to have haggling enabled), the seller counters/revises a requested or already-quoted thread (always allowed pre-accept). Each counter overwrites the standing offer, keeps the thread in 'quoted', and restarts the buyer's accepta",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote thread to counter.",
-            "required": true
-          },
-          {
-            "name": "price_pence",
-            "type": "any",
-            "description": "Counter-offer price in pence (minor units of the seller's currency); must stay inside the listing's price band.",
-            "required": true
-          },
-          {
-            "name": "eta_minutes",
-            "type": "integer",
-            "description": "Revised turnaround estimate in minutes.",
-            "required": true
-          },
-          {
-            "name": "terms",
-            "type": "any",
-            "description": "Optional free-text terms replacing the standing offer's terms.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_reject_quote",
-        "description": "Reject a submitted quote (buyer-only). Also used by the principal to deny a quote sitting in pending_principal_confirmation after a cap kickback.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote thread to reject.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_withdraw_quote",
-        "description": "Withdraw a quote request before the seller has quoted (buyer-only).",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the quote request to withdraw.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_list_my_quotes",
-        "description": "List service quote threads the authenticated principal opened (buyer-side view), paginated. Filter by status (requested, quoted, paid, delivered, released, …).",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter by thread status (requested, quoted, paid, delivered, released, ...).",
-            "required": false,
-            "enum": [
-              "requested",
-              "withdrawn",
-              "quoted",
-              "rejected",
-              "expired",
-              "pending_principal_confirmation",
-              "accepted",
-              "paid",
-              "in_progress",
-              "delivered",
-              "released",
-              "disputed"
-            ]
-          },
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "Filter to quote threads on one service listing.",
-            "required": false
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_acknowledge_delivery",
-        "description": "Explicitly accept the deliverable on a delivered quote. The acknowledgement is recorded immediately; the held payout releases as soon as the funds have settled in the seller's Stripe balance (instant when settled, otherwise the worker completes it — the returned status stays 'delivered' until then). Without this, funds auto-release 7 days after delivery unless a dispute is filed.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the delivered quote thread to accept.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_create_listing",
-        "description": "Seller-side: publish a service listing (GPU compute, synthetic data, inference, vector hosting, code review, research). pricing_mode='fixed' lets buyers purchase in one call (set fixed_price_pence, optionally per-unit fixed_unit_* against a scope_schema field); pricing_mode='quote' (default) advertises a capability buyers request quotes against, with an optional min/max price band. scope_schema is",
-        "inputs": [
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Short human-readable title of the service listing.",
-            "required": true
-          },
-          {
-            "name": "summary",
-            "type": "string",
-            "description": "Plain-text description of what the service does and its limits.",
-            "required": true
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Service category. Delegation/envelope spend checks see it as service:<category>.",
-            "required": true,
-            "enum": [
-              "gpu_compute",
-              "synthetic_data",
-              "inference",
-              "vector_hosting",
-              "code_review",
-              "research",
-              "other"
-            ]
-          },
-          {
-            "name": "scope_schema",
-            "type": "object",
-            "description": "Field DSL a buyer's scope must conform to: {name: {type, required, min, max, max_length, values}}. Max 32 fields.",
-            "required": true
-          },
-          {
-            "name": "pricing_hint",
-            "type": "any",
-            "description": "Free-text pricing guidance shown to buyers (e.g. 'from £50 per 1k rows').",
-            "required": false
-          },
-          {
-            "name": "min_price_pence",
-            "type": "any",
-            "description": "Inclusive minimum quoted price in pence (minor units of the seller's currency). Null = no lower bound.",
-            "required": false
-          },
-          {
-            "name": "max_price_pence",
-            "type": "any",
-            "description": "Inclusive maximum quoted price in pence. Null = no upper bound.",
-            "required": false
-          },
-          {
-            "name": "eta_hint_minutes",
-            "type": "any",
-            "description": "Indicative turnaround time in minutes shown to buyers.",
-            "required": false
-          },
-          {
-            "name": "auto_quote_enabled",
-            "type": "boolean",
-            "description": "Signals that quote requests on this listing are answered automatically by a seller agent.",
-            "required": true
-          },
-          {
-            "name": "haggling_enabled",
-            "type": "boolean",
-            "description": "Allow iterative buyer/seller counter-offers on this quote-mode listing. Ignored for fixed-price listings.",
-            "required": true
-          },
-          {
-            "name": "fulfillment_instance_id",
-            "type": "any",
-            "description": "Bind fulfilment to one seller agent instance. Null/omitted = any seller key with respond_quote may fulfil.",
-            "required": false
-          },
-          {
-            "name": "pricing_mode",
-            "type": "string",
-            "description": "'quote' (default): buyers request a quote; 'fixed': buyers purchase in one call at a deterministic price.",
-            "required": true,
-            "enum": [
-              "quote",
-              "fixed"
-            ]
-          },
-          {
-            "name": "fixed_price_pence",
-            "type": "any",
-            "description": "Fixed mode: flat base price in pence. Required when pricing_mode='fixed'.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_field",
-            "type": "any",
-            "description": "Fixed mode: name of a required int scope_schema field to meter billing on. Set all three fixed_unit_* together.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_price_pence",
-            "type": "any",
-            "description": "Fixed mode: price in pence per block of fixed_unit_quantity units.",
-            "required": false
-          },
-          {
-            "name": "fixed_unit_quantity",
-            "type": "any",
-            "description": "Fixed mode: units per billed block; partial blocks are rounded up.",
-            "required": false
-          },
-          {
-            "name": "vat_rate_bp",
-            "type": "integer",
-            "description": "VAT rate in basis points (0–10000, e.g. 2000 = 20%) applied to this listing's charges.",
-            "required": true
-          },
-          {
-            "name": "status",
-            "type": "string",
-            "description": "'active' (default) publishes immediately; 'draft' keeps the listing hidden from buyers.",
-            "required": true,
-            "enum": [
-              "draft",
-              "active"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "services_get_listing",
-        "description": "Fetch a single service listing including its scope schema — the fields a quote request or purchase scope must provide — and, for fixed-price listings, the deterministic pricing formula (flat price plus optional per-unit block billing).",
-        "inputs": [
-          {
-            "name": "service_listing_id",
-            "type": "string",
-            "description": "UUID of the service listing to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_list_open_requests",
-        "description": "Seller-side: list unanswered quote requests (status=requested). The primary polling tool for seller agents — respond with services_submit_quote.",
-        "inputs": [
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100.",
-            "required": false
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor from the previous page's response.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_submit_quote",
-        "description": "Seller-side: answer a quote request with a price (pence), ETA in minutes, and optional terms. Requires the delegation's respond_quote action. Price must sit inside the listing's min/max band when one is set. Starts the buyer's 24h acceptance SLA.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the requested quote thread to answer.",
-            "required": true
-          },
-          {
-            "name": "price_pence",
-            "type": "any",
-            "description": "Quoted price in pence (minor units of the seller's settlement currency); must sit inside the listing's price band.",
-            "required": true
-          },
-          {
-            "name": "eta_minutes",
-            "type": "integer",
-            "description": "Estimated turnaround in minutes.",
-            "required": true
-          },
-          {
-            "name": "terms",
-            "type": "any",
-            "description": "Optional free-text terms attached to the quote.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_start_work",
-        "description": "Seller-side: mark a paid quote as in_progress. Requires the delegation's respond_quote action.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the paid quote thread to start work on.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "services_submit_deliverable",
-        "description": "Seller-side: submit the deliverable on a paid/in-progress quote. kind=url|text|file|secret. Files are base64 in file_b64 (max 25 MB) with file_name + file_mime_type and land on object storage; secrets are envelope-encrypted and only the buyer can read them. Starts the buyer-acceptance window; re-submitting (a revision) restarts it.",
-        "inputs": [
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the paid or in-progress quote thread to deliver on.",
-            "required": true
-          },
-          {
-            "name": "kind",
-            "type": "string",
-            "description": "Deliverable type: url, text, file (base64 upload) or secret (encrypted, buyer-only).",
-            "required": true,
-            "enum": [
-              "url",
-              "text",
-              "file",
-              "secret"
-            ]
-          },
-          {
-            "name": "url",
-            "type": "string",
-            "description": "Required for kind=url: link where the deliverable lives.",
-            "required": false
-          },
-          {
-            "name": "text",
-            "type": "string",
-            "description": "Required for kind=text: the deliverable content itself.",
-            "required": false
-          },
-          {
-            "name": "secret",
-            "type": "string",
-            "description": "Required for kind=secret: sensitive value (API key, credential). Encrypted at rest; only the buyer can read it.",
-            "required": false
-          },
-          {
-            "name": "file_b64",
-            "type": "string",
-            "description": "Required for kind=file: base64-encoded file bytes, max 25 MB decoded.",
-            "required": false
-          },
-          {
-            "name": "file_name",
-            "type": "string",
-            "description": "Required for kind=file: filename shown to the buyer; unsafe characters are replaced.",
-            "required": false
-          },
-          {
-            "name": "file_mime_type",
-            "type": "string",
-            "description": "Required for kind=file: MIME type. Types outside the inert allowlist are served as forced downloads.",
-            "required": false
-          },
-          {
-            "name": "seller_note",
-            "type": "any",
-            "description": "Optional note to the buyer accompanying the deliverable.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "services_list_my_sales",
-        "description": "Seller-side: list charged threads you still owe work on, paginated. status=paid | in_progress | delivered, or active (all three, the default). The polling tool for fixed-price listings — a fixed-mode purchase is created already paid, so it never shows up in services_list_open_requests. Respond with services_start_work then services_submit_deliverable.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "'active' (default) = paid + in_progress + delivered together; or one exact status.",
-            "required": true,
-            "enum": [
-              "paid",
-              "in_progress",
-              "delivered",
-              "active"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Pagination cursor — the next_cursor value from the previous page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "auth_whoami",
-        "description": "Return who this MCP credential acts as: principal email/role, agent name, client (Claude install) that issued the token, and when it was last used. Works for both br_ik_* instance keys and br_oat_* OAuth tokens; OAuth-specific fields are null when called under an instance key.",
-        "inputs": null
-      },
-      {
-        "name": "auth_revoke_self",
-        "description": "Disconnect this OAuth connection by revoking the access+refresh chain that issued the token making this call. Idempotent: a second call returns `{ revoked: false, reason: 'already_revoked' }`. Refuses with `not_oauth_token` when called under an br_ik_* instance key — rotate those from the dashboard instead.",
-        "inputs": null
-      },
-      {
-        "name": "sellers_get",
-        "description": "Fetch a seller's public profile + trust signals (verification tier, dispute / refund / on-time-ship rates over a 90-day window, response times). Trust metrics carry a `stale: true` flag when the last computation is older than 36 hours.",
-        "inputs": [
-          {
-            "name": "seller_id",
-            "type": "string",
-            "description": "UUID of the seller whose public profile to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "platforms_get",
-        "description": "Fetch a platform's public reputation profile by slug: KYC status, rolling-window orders/disputes/refunds, on-time-ship rate, dispute resolution p50/p95, anomaly-pause count. Decommissioned platforms include the banner and reason.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "URL slug of the platform to fetch (not a UUID).",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "addresses_list",
-        "description": "List the principal's saved shipping addresses. The agent does NOT need to call this every purchase — purchase_create_intent will use the principal's default shipping address if `address_id` is omitted.",
-        "inputs": null
-      },
-      {
-        "name": "addresses_create",
-        "description": "Save a new shipping address. Set is_default_shipping=true to make it the default.",
-        "inputs": [
-          {
-            "name": "recipient_name",
-            "type": "string",
-            "description": "Full name of the delivery recipient.",
-            "required": true
-          },
-          {
-            "name": "line1",
-            "type": "string",
-            "description": "First address line (street address).",
-            "required": true
-          },
-          {
-            "name": "line2",
-            "type": "any",
-            "description": "Second address line, if any.",
-            "required": false
-          },
-          {
-            "name": "town",
-            "type": "string",
-            "description": "Town or city.",
-            "required": true
-          },
-          {
-            "name": "region",
-            "type": "any",
-            "description": "Two-letter US state code (e.g. CA); required for country=US, unused for GB.",
-            "required": false
-          },
-          {
-            "name": "postcode",
-            "type": "string",
-            "description": "UK postcode for GB; US ZIP as 12345 or 12345-6789.",
-            "required": true
-          },
-          {
-            "name": "country",
-            "type": "string",
-            "description": "Destination country code: GB (default) or US.",
-            "required": true,
-            "enum": [
-              "GB",
-              "US"
-            ]
-          },
-          {
-            "name": "phone",
-            "type": "any",
-            "description": "Contact phone number for delivery, if any.",
-            "required": false
-          },
-          {
-            "name": "is_default_shipping",
-            "type": "boolean",
-            "description": "When true, make this the buyer's default shipping address. Defaults to false.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "payment_methods_list",
-        "description": "List the principal's saved payment methods (last4 + brand only — full card numbers are never exposed to agents). purchase_confirm_intent uses the principal's default method if no `payment_method_id` is passed.",
-        "inputs": null
-      },
-      {
-        "name": "payment_methods_create",
-        "description": "Returns a one-time Stripe Checkout URL to hand the user so they can add a payment card. The card is saved to their account automatically when they complete the hosted flow — no charge is made (setup mode only). Present the `checkout_url` to the user as a link to open in a browser; there is nothing else for the agent to do. Buyer principals only.",
-        "inputs": null
-      },
-      {
-        "name": "envelopes_list",
-        "description": "List the active and historical payment envelopes the calling agent instance can draw against. Each entry shows balance, scope, validity, and per-tx / per-day caps. Read-only — envelopes are created, topped up, and revoked by the principal in the dashboard.",
-        "inputs": null
-      },
-      {
-        "name": "envelopes_get",
-        "description": "Fetch a single envelope by id. Returns the same shape as envelopes_list. Returns 404 when the envelope is not bound to the calling agent instance.",
-        "inputs": [
-          {
-            "name": "envelope_id",
-            "type": "string",
-            "description": "UUID of the payment envelope to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_file",
-        "description": "File a dispute on a goods order (order_id; reasons: not_as_described, defective, not_received, fraud_unauthorized_charge, duplicate_charge, other) or a service quote (service_quote_id; reasons: service_not_delivered, service_quality, service_scope_mismatch, plus the generic three). Exactly one target. Filing on a service quote pauses its payout auto-release. A deterministic auto-classifier resolve",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the goods order in dispute. Provide exactly one of order_id / service_quote_id.",
-            "required": false
-          },
-          {
-            "name": "service_quote_id",
-            "type": "string",
-            "description": "UUID of the service quote in dispute. Provide exactly one of order_id / service_quote_id.",
-            "required": false
-          },
-          {
-            "name": "reason",
-            "type": "string",
-            "description": "Dispute reason. not_as_described/defective/not_received are goods-only; service_* reasons are service-quote-only.",
-            "required": true,
-            "enum": [
-              "not_as_described",
-              "defective",
-              "not_received",
-              "fraud_unauthorized_charge",
-              "duplicate_charge",
-              "other",
-              "service_not_delivered",
-              "service_quality",
-              "service_scope_mismatch"
-            ]
-          },
-          {
-            "name": "summary",
-            "type": "string",
-            "description": "Plain-text account of the problem, max 4000 chars.",
-            "required": true
-          },
-          {
-            "name": "desired_outcome",
-            "type": "any",
-            "description": "What the buyer wants, e.g. a full refund. Max 500 chars.",
-            "required": false
-          },
-          {
-            "name": "claimed_amount_pence",
-            "type": "any",
-            "description": "Amount claimed, in pence (minor units); cannot exceed the charged total. Omit if unsure.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_list",
-        "description": "List disputes for the authenticated principal (buyer-side: ones they filed; seller-side: ones filed against their orders). Filter by `status` (admin_review, awaiting_seller, resolved_for_buyer, resolved_for_seller, withdrawn).",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter to a single dispute status; omit for all statuses.",
-            "required": false,
-            "enum": [
-              "filed",
-              "triaged",
-              "auto_resolved_buyer",
-              "auto_resolved_seller",
-              "admin_review",
-              "resolved_buyer",
-              "resolved_seller",
-              "resolved_split",
-              "withdrawn",
-              "expired"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100. Defaults to 20.",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_get",
-        "description": "Fetch one dispute by id with the full evidence trail and timeline. Buyer-side or seller-side caller — returns 404 if the dispute doesn't belong to either of the calling actor's roles.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the dispute to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_add_evidence",
-        "description": "Attach an evidence item to an open dispute. The body is base64-encoded; per-item cap is 25 MB and per-dispute cap is 200 MB. Either the filing buyer or the seller-owner can upload.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the open dispute to attach evidence to.",
-            "required": true
-          },
-          {
-            "name": "kind",
-            "type": "string",
-            "description": "What the evidence item is.",
-            "required": true,
-            "enum": [
-              "image",
-              "document",
-              "delivery_proof",
-              "communication_log",
-              "other"
-            ]
-          },
-          {
-            "name": "mime_type",
-            "type": "string",
-            "description": "MIME type of the file, e.g. 'image/jpeg'.",
-            "required": true
-          },
-          {
-            "name": "body_b64",
-            "type": "string",
-            "description": "File contents, base64-encoded. Max 25 MB per item.",
-            "required": true
-          },
-          {
-            "name": "caption",
-            "type": "any",
-            "description": "Optional caption shown alongside the evidence item.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "disputes_withdraw",
-        "description": "Buyer-only: withdraw an open dispute. Closed disputes cannot be withdrawn.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the open dispute to withdraw.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "disputes_respond",
-        "description": "Seller-side response to a dispute. Requires the seller delegation's `respond_dispute` action. Free-form text 1–4000 chars.",
-        "inputs": [
-          {
-            "name": "dispute_id",
-            "type": "string",
-            "description": "UUID of the dispute being responded to.",
-            "required": true
-          },
-          {
-            "name": "text",
-            "type": "string",
-            "description": "The seller's response, free-form text.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "catalog_search_products",
-        "description": "Search marketplace products by free-text query, optional category, or seller. Returns a paginated list of summaries with pence-denominated prices, available stock, and restricted-goods flags. Pass a concise phrase, not a full sentence.",
-        "inputs": [
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Free-text query matched case-insensitively against product title and description.",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Category slug to filter by (see catalog_list_categories); unknown slugs return no hits.",
-            "required": false
-          },
-          {
-            "name": "category_subtree",
-            "type": "boolean",
-            "description": "When true, also match products in descendant categories of `category`. Defaults to false.",
-            "required": true
-          },
-          {
-            "name": "seller_id",
-            "type": "string",
-            "description": "Filter to one seller's listings.",
-            "required": false
-          },
-          {
-            "name": "certifications",
-            "type": "array",
-            "description": "Only products carrying at least one of these certification strings.",
-            "required": false
-          },
-          {
-            "name": "restricted",
-            "type": "string",
-            "description": "Restricted-goods filter: exclude_age (default) hides age-restricted items, exclude_all hides all restricted, allow hides none.",
-            "required": true,
-            "enum": [
-              "allow",
-              "exclude_age",
-              "exclude_all"
-            ]
-          },
-          {
-            "name": "min_seller_tier",
-            "type": "string",
-            "description": "Minimum seller verification tier: basic (default) < verified < premium.",
-            "required": true,
-            "enum": [
-              "basic",
-              "verified",
-              "premium"
-            ]
-          },
-          {
-            "name": "improves_on_statutory",
-            "type": "boolean",
-            "description": "When true, only products whose return policy improves on the statutory minimum.",
-            "required": false
-          },
-          {
-            "name": "spec",
-            "type": "object",
-            "description": "Exact-match filters on category spec fields, as key/value pairs.",
-            "required": false
-          },
-          {
-            "name": "spec_min",
-            "type": "object",
-            "description": "Numeric lower bounds on spec fields; keys must be rangeable for the given leaf `category`.",
-            "required": false
-          },
-          {
-            "name": "spec_max",
-            "type": "object",
-            "description": "Numeric upper bounds on spec fields; keys must be rangeable for the given leaf `category`.",
-            "required": false
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100. Defaults to 20.",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "catalog_get_product",
-        "description": "Fetch a single product by id. Returns full description, structured spec values, seller id, live stock, and any restricted-goods flags. Prefer this over re-running search when the agent already has the product id.",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the product to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "catalog_list_categories",
-        "description": "List the marketplace's category taxonomy. Optionally pass `slug` to scope to a subtree (e.g. 'electronics'). Each leaf carries its JSON Schema for specs, plus filterable / rangeable arrays so agents know which spec keys are queryable.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Category slug to root the listing at (that node plus descendants); omit for the full tree.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "catalog_describe_category",
-        "description": "Fetch one category by slug, including the spec JSON Schema for leaf categories. Useful before building a structured purchase intent so the agent emits a valid spec query.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Slug of the category to describe, e.g. \"electronics/phones/smartphones\".",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "purchase_create_intent",
-        "description": "Create a purchase intent for a product. Reserves stock, snapshots price + VAT + shipping, and consults the delegation policy. Returns an intent id; intents expire after 15 minutes if not confirmed. Combined postage: same-seller purchases to the same address while earlier orders are unshipped are only charged the postage difference, so confirm each purchase before creating the next intent; an inten",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the product to purchase.",
-            "required": true
-          },
-          {
-            "name": "quantity",
-            "type": "integer",
-            "description": "Units to buy, 1-100. Defaults to 1.",
-            "required": true
-          },
-          {
-            "name": "address_id",
-            "type": "string",
-            "description": "UUID of a saved shipping address; defaults to the buyer's default address.",
-            "required": false
-          },
-          {
-            "name": "payment_method_id",
-            "type": "string",
-            "description": "UUID of a saved payment method owned by the buyer; defaults to the buyer's default card.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "purchase_confirm_intent",
-        "description": "Confirm a purchase intent — re-validates price within 1p tolerance, charges via Stripe Connect destination charges (per-seller application fee on item only), and creates the order. May return SCA / payment-action-required / declined errors.",
-        "inputs": [
-          {
-            "name": "intent_id",
-            "type": "string",
-            "description": "UUID of the purchase intent to confirm.",
-            "required": true
-          },
-          {
-            "name": "acknowledged_confirmation",
-            "type": "boolean",
-            "description": "Set true to acknowledge an intent that requires explicit confirmation. Defaults to false.",
-            "required": true
-          },
-          {
-            "name": "confirmation_token",
-            "type": "any",
-            "description": "Token from the confirmation_required response; must match when acknowledging a confirmation.",
-            "required": false
-          },
-          {
-            "name": "__outcomeForTesting",
-            "type": "string",
-            "description": "Test-only override of the simulated card outcome. Omit in normal use.",
-            "required": false,
-            "enum": [
-              "ok",
-              "requires_action",
-              "declined",
-              "provider_error"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "purchase_cancel_intent",
-        "description": "Cancel a pending purchase intent and release the stock reservation.",
-        "inputs": [
-          {
-            "name": "intent_id",
-            "type": "string",
-            "description": "UUID of the pending intent to cancel.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "orders_list",
-        "description": "List orders the authenticated principal placed (buyer-side view), paginated with a cursor. Optional status filter (e.g. 'paid_awaiting_fulfillment', 'delivered', 'cancelled'). Use this to find an order id before calling orders_get.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter to a single order status; omit for all statuses.",
-            "required": false,
-            "enum": [
-              "paid_awaiting_fulfillment",
-              "shipped",
-              "delivered",
-              "cancelled",
-              "refunded"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100. Defaults to 20.",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "orders_get",
-        "description": "Fetch a single order with line items, shipment / tracking, payment status, and any associated returns or disputes. Buyer-side view — for seller-side use seller_get_order.",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the order to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "returns_initiate",
-        "description": "Initiate a return on a delivered order. Uniform platform policy: a 30-day change-of-mind window from delivery, FREE, full refund, NO restocking fee, and the SELLER funds the return label. Reasons: cooling_off_statutory (days 0–14) and cooling_off_extended (days 15–30) are change-of-mind; defective is a faulty-item (CRA 2015) claim — full refund within 30 days, and past that it is recorded and rout",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the order to return.",
-            "required": true
-          },
-          {
-            "name": "reason",
-            "type": "string",
-            "description": "Why the item is coming back: statutory 14-day cooling-off, seller's extended cooling-off window, or defective goods.",
-            "required": true,
-            "enum": [
-              "cooling_off_statutory",
-              "cooling_off_extended",
-              "defective"
-            ]
-          },
-          {
-            "name": "description",
-            "type": "any",
-            "description": "Free-text detail about the return, max 2000 chars.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "returns_get",
-        "description": "Fetch a single return by id, including reason, status, restocking fee (if any), refund ledger, and the inspection trail once the parcel has arrived.",
-        "inputs": [
-          {
-            "name": "return_id",
-            "type": "string",
-            "description": "UUID of the return to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "returns_list",
-        "description": "List returns the authenticated principal filed (buyer-side view), paginated. Filter by `order_id` to find returns on a specific order, or by `status` (initiated, label_ready, in_transit, received, refunded, rejected).",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "Filter to returns for one order.",
-            "required": false
-          },
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter to a single return status; omit for all statuses.",
-            "required": false,
-            "enum": [
-              "requested",
-              "approved",
-              "received",
-              "refunded",
-              "rejected",
-              "expired"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page, 1-100. Defaults to 20.",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from next_cursor in the previous page; omit for the first page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "returns_get_label",
-        "description": "Fetch a short-lived signed URL for the return shipping label PDF. URL expires within minutes; re-call to get a fresh one. Only available once the return has progressed to label_ready.",
-        "inputs": [
-          {
-            "name": "return_id",
-            "type": "string",
-            "description": "UUID of the return whose label is being fetched.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_get_me",
-        "description": "Fetch the seller record bound to the calling principal or seller-side agent instance. Refuses when the caller has no seller record.",
-        "inputs": null
-      },
-      {
-        "name": "seller_onboarding_status",
-        "description": "Read-only Stripe Connect onboarding status. Stripe Express onboarding itself is human-on-session; agents wait on this read until charges_enabled flips true before listing.",
-        "inputs": null
-      },
-      {
-        "name": "seller_list_listings",
-        "description": "List the bound seller's product listings, paginated. Includes archived/flagged listings by default — pass `is_active: true` to filter to live listings only. Returns slug, category, stock, price, and any moderation flags.",
-        "inputs": [
-          {
-            "name": "is_active",
-            "type": "boolean",
-            "description": "Filter by active status; omit to include archived listings too.",
-            "required": false
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from the previous page's next_cursor.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_get_listing",
-        "description": "Fetch a single listing the bound seller owns, including its full description, current stock + reserved counts, spec values, and any moderation state. Refuses if the listing belongs to a different seller.",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the listing to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_create_listing",
-        "description": "Create a product listing. Validates the payload against the leaf category's spec schema and the structured return policy. Restricted-goods classifier runs at write time; flagged listings are inserted but invisible until cleared.",
-        "inputs": [
-          {
-            "name": "title",
-            "type": "string",
-            "description": "Product title shown to buyers (1-300 chars).",
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "string",
-            "description": "Full product description (max 20000 chars).",
-            "required": true
-          },
-          {
-            "name": "category_slug",
-            "type": "string",
-            "description": "Slug of a leaf catalog category to list under.",
-            "required": true
-          },
-          {
-            "name": "price_pence",
-            "type": "any",
-            "description": "Item price in pence (integer minor units of the seller's currency).",
-            "required": true
-          },
-          {
-            "name": "shipping_pence",
-            "type": "any",
-            "description": "Shipping charge in pence (integer minor units). Defaults to 0.",
-            "required": true
-          },
-          {
-            "name": "vat_rate_bp",
-            "type": "integer",
-            "description": "VAT rate in basis points, 0-2500 (2000 = 20%). Defaults to 0.",
-            "required": true
-          },
-          {
-            "name": "stock",
-            "type": "integer",
-            "description": "Initial units in stock. Defaults to 0.",
-            "required": true
-          },
-          {
-            "name": "images",
-            "type": "array",
-            "description": "Image URLs (https, max 12); the first entry becomes the primary image.",
-            "required": true
-          },
-          {
-            "name": "weight_grams",
-            "type": "integer",
-            "description": "Item weight in grams.",
-            "required": false
-          },
-          {
-            "name": "length_mm",
-            "type": "integer",
-            "description": "Package length in millimetres.",
-            "required": false
-          },
-          {
-            "name": "width_mm",
-            "type": "integer",
-            "description": "Package width in millimetres.",
-            "required": false
-          },
-          {
-            "name": "height_mm",
-            "type": "integer",
-            "description": "Package height in millimetres.",
-            "required": false
-          },
-          {
-            "name": "country_of_origin",
-            "type": "string",
-            "description": "ISO 3166-1 alpha-2 country of origin (e.g. GB).",
-            "required": false
-          },
-          {
-            "name": "certifications",
-            "type": "array",
-            "description": "Certification labels the product holds (free-form strings).",
-            "required": true
-          },
-          {
-            "name": "specs",
-            "type": "object",
-            "description": "Category-specific spec values; must match the category's spec schema.",
-            "required": true
-          },
-          {
-            "name": "return_policy",
-            "type": "any",
-            "description": "Return-policy object; omit to use the seller-country default. Validated against platform floors.",
-            "required": false
-          },
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "URL slug base (lowercase letters, digits, hyphens); a random suffix is appended. Omit to derive from title.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_update_listing",
-        "description": "Patch an existing listing the calling seller owns. Specs are re-validated against the leaf schema; return_policy is re-validated against the platform statutory floor. Buyers with pending intents get re-validated at confirm time, not blocked here.",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the listing to update. Omitted fields are left unchanged.",
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": "New product title (1-300 chars).",
-            "required": false
-          },
-          {
-            "name": "description",
-            "type": "string",
-            "description": "New product description (max 20000 chars).",
-            "required": false
-          },
-          {
-            "name": "price_pence",
-            "type": "any",
-            "description": "New item price in pence (integer minor units).",
-            "required": false
-          },
-          {
-            "name": "shipping_pence",
-            "type": "any",
-            "description": "New shipping charge in pence (integer minor units).",
-            "required": false
-          },
-          {
-            "name": "vat_rate_bp",
-            "type": "integer",
-            "description": "New VAT rate in basis points, 0-2500 (2000 = 20%).",
-            "required": false
-          },
-          {
-            "name": "images",
-            "type": "array",
-            "description": "Replacement image URL array (https, max 12); the first entry becomes the primary image.",
-            "required": false
-          },
-          {
-            "name": "weight_grams",
-            "type": "any",
-            "description": "New item weight in grams; null clears it.",
-            "required": false
-          },
-          {
-            "name": "length_mm",
-            "type": "any",
-            "description": "New package length in millimetres; null clears it.",
-            "required": false
-          },
-          {
-            "name": "width_mm",
-            "type": "any",
-            "description": "New package width in millimetres; null clears it.",
-            "required": false
-          },
-          {
-            "name": "height_mm",
-            "type": "any",
-            "description": "New package height in millimetres; null clears it.",
-            "required": false
-          },
-          {
-            "name": "country_of_origin",
-            "type": "any",
-            "description": "New ISO 3166-1 alpha-2 country of origin; null clears it.",
-            "required": false
-          },
-          {
-            "name": "certifications",
-            "type": "array",
-            "description": "Replacement list of certification labels.",
-            "required": false
-          },
-          {
-            "name": "specs",
-            "type": "object",
-            "description": "Replacement spec values; must match the listing's category spec schema.",
-            "required": false
-          },
-          {
-            "name": "return_policy",
-            "type": "any",
-            "description": "Replacement return-policy object; validated against platform floors.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_archive_listing",
-        "description": "Soft-delete a listing (is_active=false). Refuses while any purchase intents are still pending against it.",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the listing to archive (deactivate). Refused while purchase intents are pending.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_update_stock",
-        "description": "Update a listing's stock count. Pass `stock` for an absolute value or `delta` for a relative change. Resulting stock must remain >= reserved.",
-        "inputs": [
-          {
-            "name": "product_id",
-            "type": "string",
-            "description": "UUID of the listing whose stock to change.",
-            "required": true
-          },
-          {
-            "name": "stock",
-            "type": "integer",
-            "description": "Absolute new stock level in units. Provide either stock or delta, not both.",
-            "required": false
-          },
-          {
-            "name": "delta",
-            "type": "integer",
-            "description": "Signed adjustment applied to current stock (e.g. -2). Result cannot go below reserved stock.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_list_orders",
-        "description": "List orders placed against the bound seller's products (seller-side view), paginated. Filter by `status` (e.g. 'paid_awaiting_fulfillment' to find orders that need shipping). This is the seller-equivalent of orders_list.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter by order status; omit for all orders.",
-            "required": false,
-            "enum": [
-              "paid_awaiting_fulfillment",
-              "shipped",
-              "delivered",
-              "cancelled",
-              "refunded"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from the previous page's next_cursor.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_get_order",
-        "description": "Fetch a single seller-scoped order with buyer shipping address (PII-redacted where the policy requires it), items, shipment, payment status, and any associated return/dispute. Refuses if the order isn't against this seller.",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the order to fetch.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_mark_shipped",
-        "description": "Mark an order as shipped with a tracking number. Idempotent on (order_id, tracking_number) — same pair is a no-op success. Enqueues carrier polling automatically.",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the paid order to mark as shipped.",
-            "required": true
-          },
-          {
-            "name": "carrier",
-            "type": "string",
-            "description": "Carrier handling the shipment.",
-            "required": true,
-            "enum": [
-              "royal_mail",
-              "dpd",
-              "other"
-            ]
-          },
-          {
-            "name": "tracking_number",
-            "type": "string",
-            "description": "Carrier tracking number. Idempotent: repeating the same order + number is a no-op success.",
-            "required": true
-          },
-          {
-            "name": "label_url",
-            "type": "any",
-            "description": "URL of the shipping label, if available.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "seller_mark_delivered",
-        "description": "Declare a shipped order as delivered (no carrier confirmation is wired). Only valid from shipped; already-delivered is a no-op success. Notifies the buyer, who can dispute if it never arrived. Orders still shipped after 10 days are auto-marked delivered by the platform.",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the shipped order to declare delivered. Already-delivered is a no-op success.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_attach_tracking",
-        "description": "Attach or update tracking on an already-shipped order. Use mark_shipped for first ship; this is for late-arriving tracking only.",
-        "inputs": [
-          {
-            "name": "order_id",
-            "type": "string",
-            "description": "UUID of the order to attach tracking to (must be awaiting fulfilment or shipped).",
-            "required": true
-          },
-          {
-            "name": "carrier",
-            "type": "string",
-            "description": "Carrier handling the shipment.",
-            "required": true,
-            "enum": [
-              "royal_mail",
-              "dpd",
-              "other"
-            ]
-          },
-          {
-            "name": "tracking_number",
-            "type": "string",
-            "description": "Carrier tracking number; replaces any tracking already on the shipment.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "seller_list_returns",
-        "description": "List returns filed against the bound seller's orders, paginated. Filter by `status` (initiated, label_ready, in_transit, received, refunded, rejected) to triage what needs inspection. Seller-equivalent of returns_list.",
-        "inputs": [
-          {
-            "name": "status",
-            "type": "string",
-            "description": "Filter by return status; omit for all returns.",
-            "required": false,
-            "enum": [
-              "requested",
-              "approved",
-              "received",
-              "refunded",
-              "rejected",
-              "expired"
-            ]
-          },
-          {
-            "name": "page_size",
-            "type": "integer",
-            "description": "Results per page (1-100, default 20).",
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": "Opaque cursor from the previous page's next_cursor.",
-            "required": false
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# Bitroad MCP server\n\nBitroad is a marketplace built for AI agents. Your agent searches a catalogue of\ngoods and services, places orders under spending caps you set, tracks delivery,\nand handles returns and disputes, all through the Model Context Protocol.\n\n**Endpoint:** `https://app.bitroad.ai/api/v1/mcp`\n\nTransport is spec-compliant Streamable HTTP with JSON-RPC 2.0. Auth is OAuth 2.1\nwith dynamic client registration and PKCE, so most clients need nothing more than\nthe URL above.\n\n- Website: https://bitroad.ai\n- Documentation: https://bitroad.ai/docs\n- Sign up: https://buy.bitroad.ai/sign-up\n\n## How it works\n\n1. Create a buyer account at [buy.bitroad.ai](https://buy.bitroad.ai/sign-up).\n2. Add the endpoint to your MCP client and approve the consent screen.\n3. Your agent can now browse and read orders immediately.\n4. To let it spend, add a card and set delegation caps in your dashboard. Until\n   you do, there is no purchase path at all.\n\nSpending is bounded by three caps you control: per transaction, per day, and\ntotal. A purchase above any cap is refused outright, with a reason of\n`per_tx_cap_exceeded`, `daily_cap_exceeded` or `total_cap_exceeded`. Separately,\nyou can set a confirmation threshold: a purchase at or above it is allowed but\nreturns `confirmation_required` with a token, and needs your explicit sign-off\nbefore it proceeds. Agents never see card details; a card can only be added by\nyou through Stripe hosted checkout.\n\n## Connect your client\n\nThere are three shapes. Pick the one that matches your client.\n\n### CLI clients\n\n```bash\n# Claude Code\nclaude mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n\n# Gemini CLI\ngemini mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n```\n\nRun the client and trigger the OAuth flow (`/mcp` in Claude Code, automatic in\nGemini CLI), then approve on the Bitroad consent screen.\n\n### Config-file clients\n\nCursor, Claude Desktop, Cline, Windsurf, LibreChat and most other MCP clients\ntake a JSON block:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"url\": \"https://app.bitroad.ai/api/v1/mcp\"\n    }\n  }\n}\n```\n\nThe client discovers OAuth on first use.\n\n### Connector-UI clients\n\nClaude.ai (Settings, then Connectors), ChatGPT (developer mode custom\nconnectors), and Copilot take the endpoint as a pasted URL:\n\n1. Open the client's connector settings.\n2. Add a connector with URL `https://app.bitroad.ai/api/v1/mcp`.\n3. Approve the Bitroad consent screen when prompted.\n\n### Bearer key instead of OAuth\n\nFor headless clients and your own agent code, mint an agent key at\n`/buyer/instances/new` and send it as a header:\n\n```bash\ncurl https://app.bitroad.ai/api/v1/mcp \\\n  -H \"Authorization: Bearer br_ik_...\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'\n```\n\nKeys are shown once. Revoke them from the same page.\n\n### Stdio bridge\n\nClients and directory crawlers that only speak stdio can run the bridge in this\nrepository. It forwards each JSON-RPC message to the hosted endpoint unchanged\nand has no dependencies beyond Node 18+.\n\n```bash\ngit clone https://github.com/bitroadai/bitroad-mcp && cd bitroad-mcp\nBITROAD_API_KEY=br_ik_... node bin/bitroad-mcp.js\n```\n\nOr with Docker:\n\n```bash\ndocker build -t bitroad-mcp . && docker run -i -e BITROAD_API_KEY=br_ik_... bitroad-mcp\n```\n\nAs a config-file entry:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"command\": \"node\",\n      \"args\": [\"/path/to/bitroad-mcp/bin/bitroad-mcp.js\"],\n      \"env\": { \"BITROAD_API_KEY\": \"br_ik_...\" }\n    }\n  }\n}\n```\n\nWithout `BITROAD_API_KEY` the handshake and `tools/list` still work; `tools/call`\nreturns an authentication error telling you to set it. `BITROAD_MCP_URL`\noverrides the endpoint.\n\n## Tool catalogue\n\nCall `tools/list` for the live catalogue with full JSON Schema. `tools/list`\nreturns the whole catalogue to every caller; your account type is enforced when a\ntool is called, not when it is listed. Buyer and seller are separate account\ntypes and one email can only be one of them, so a buyer calling a `seller_*` tool\nis refused.\n\n**Buyer tools**\n\n| Group | Tools |\n|---|---|\n| Catalogue | `catalog_search_products`, `catalog_get_product`, `catalog_list_categories`, `catalog_describe_category` |\n| Buying | `purchase_create_intent`, `purchase_confirm_intent`, `purchase_cancel_intent` |\n| Orders | `orders_list`, `orders_get` |\n| Returns | `returns_initiate`, `returns_get`, `returns_list`, `returns_get_label` |\n| Disputes | `disputes_file`, `disputes_list`, `disputes_get`, `disputes_add_evidence`, `disputes_withdraw`, `disputes_respond` |\n| Reputation | `sellers_get`, `platforms_get` |\n| Account | `addresses_list`, `addresses_create`, `payment_methods_list`, `payment_methods_create`, `auth_whoami`, `auth_revoke_self` |\n\n**Seller tools**\n\nListings, stock, orders, shipping and tracking, returns, and review responses,\nunder the `seller_*` prefix.\n\n**Services**\n\nA quote-based marketplace for work rather than goods, under the `services_*`\nprefix: request a quote, accept it, and funds are held in escrow until you accept\nthe deliverable.\n\nThe catalogue also carries `envelopes_list` and `envelopes_get`, a preview\nsurface that is switched off on the hosted service. They appear in `tools/list`\nbut return a not-found error when called.\n\nBuying a product is a two-step flow. `purchase_create_intent` reserves stock and\nsnapshots price, VAT and shipping, then `purchase_confirm_intent` charges and\ncreates the order. Intents expire after 15 minutes. All monetary values are\ninteger pence.\n\n## Idempotency\n\nWrite tools accept an optional `_meta.idempotencyKey`. Passing one gives you full\nreplay semantics on retries. If your client cannot set it, the server generates\none so the call still succeeds.\n\n```json\n{\n  \"jsonrpc\": \"2.0\", \"id\": 3, \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"purchase_create_intent\",\n    \"arguments\": { \"product_id\": \"...\", \"quantity\": 1 },\n    \"_meta\": { \"idempotencyKe\n\n…",
-      "truncated": true,
-      "url": "https://github.com/bitroadai/bitroad-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-bittlebits-bittlebits",
-    "name": "BittleBits GEO Assistant",
-    "qualifiedName": "ai.bittlebits/bittlebits",
-    "slug": "ai-bittlebits-bittlebits",
-    "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
-    "category": "Docs & Knowledge",
-    "repository": "https://github.com/bittlebitsai/bittlebits-plugin",
-    "homepage": "https://bittlebits.ai/docs/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://bittlebits.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-06-02T16:24:51.181889Z",
-    "repoMeta": {
-      "slug": "bittlebitsai/bittlebits-plugin",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-06-02T01:42:03Z",
-      "pushedAt": "2026-06-02T16:50:05Z",
-      "openIssues": 0,
-      "license": "MIT",
-      "language": null
-    },
-    "toolsStatus": "error",
-    "readme": {
-      "markdown": "# BittleBits MCP Plugin\n\nConnect **Claude**, **Cursor**, and any MCP-compatible AI agent to [BittleBits](https://bittlebits.ai) — bringing your **GEO (Generative Engine Optimization) scores** and **AI-content rewrite suggestions** directly into your agent as tools.\n\nThis repository is the installable plugin wrapper. The BittleBits MCP server itself is hosted and remote — it speaks **Streamable HTTP** and authenticates with **OAuth 2.0**, so there is no token to configure and nothing to run locally. Point your client at the server and sign in through your browser.\n\n## What you get\n\nOnce connected, your agent can call BittleBits tools to score and rewrite content without copy-pasting between tabs:\n\n| Tool          | What it does                                                                                   |\n| ------------- | ---------------------------------------------------------------------------------------------- |\n| `get_score`   | Returns GEO metric scores (0–10 per dimension) for a page                                       |\n| `get_rewrite` | Returns your original page content and a rewritten version with BittleBits suggestions applied  |\n\nAsk things like *\"Get the BittleBits score for my landing page and tell me which areas need the most work,\"* or *\"Rewrite my homepage applying the BittleBits suggestions but keep the casual tone.\"*\n\n## Install\n\nThe server lives at `https://bittlebits.ai/mcp`. On first use, your client opens a browser window to sign in to your BittleBits account (OAuth) — no API keys or tokens to paste.\n\n### Claude Code (CLI)\n\n```bash\nclaude mcp add --transport http bittlebits https://bittlebits.ai/mcp\n```\n\n### Claude.ai / Claude Desktop\n\n`Settings → Connectors → Add custom connector`, name it **BittleBits**, and set the remote MCP server URL to `https://bittlebits.ai/mcp`.\n\n### Cursor / VS Code\n\nAdd to your `mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"bittlebits\": {\n      \"type\": \"http\",\n      \"url\": \"https://bittlebits.ai/mcp\"\n    }\n  }\n}\n```\n\nThis repo's root [`.mcp.json`](./.mcp.json) contains exactly this config, so MCP-aware directories and clients can auto-detect the server.\n\n## Documentation\n\nFull setup guide and examples: **https://bittlebits.ai/docs/mcp**\n\n## License\n\n[MIT](./LICENSE) © 2026 BittleBits.ai",
-      "truncated": false,
-      "url": "https://github.com/bittlebitsai/bittlebits-plugin#readme"
-    }
   }
 ]
