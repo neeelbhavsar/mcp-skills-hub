@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 447296,
+        "weeklyDownloads": 511437,
         "lastPublished": "2026-10-11T02:44:10.659Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -143,7 +143,7 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 147957,
+        "weeklyDownloads": 182419,
         "lastPublished": "2026-10-11T02:42:27.160Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -190,7 +190,7 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 104073,
+        "weeklyDownloads": 158535,
         "lastPublished": "2026-10-11T02:42:52.391Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -278,7 +278,7 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 231826,
+        "weeklyDownloads": 236995,
         "lastPublished": "2026-10-11T02:45:40.915Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91136,
+    "stars": 91166,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91136,
-      "forks": 11776,
+      "stars": 91166,
+      "forks": 11779,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-11T05:42:28Z",
-      "openIssues": 209,
+      "pushedAt": "2026-10-12T05:33:37Z",
+      "openIssues": 207,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -983,7 +983,7 @@
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
       "pushedAt": "2026-10-06T06:26:14Z",
-      "openIssues": 9,
+      "openIssues": 10,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -2342,7 +2342,7 @@
     "tools": [
       {
         "name": "commute_cost",
-        "description": "monthly/annual fuel+Salik inputs/rates or routes. Excludes parking/ownership.",
+        "description": "Monthly/annual car commute cost (fuel+Salik), or published area routes. No parking.",
         "inputs": [
           {
             "name": "km_per_day",
@@ -2446,7 +2446,7 @@
       },
       {
         "name": "costs_by_area",
-        "description": "area ranks, rent/shared costs and tuition. Not full budgets.",
+        "description": "Dubai areas ranked by monthly cost: rent, fees, bills (+school). Not full budgets.",
         "inputs": [
           {
             "name": "bedrooms",
@@ -2529,7 +2529,7 @@
       },
       {
         "name": "costs_by_emirate",
-        "description": "emirate rent/utilities/school costs. Non-Dubai rent unknown.",
+        "description": "Compare emirates: rent, utilities, schools. Non-Dubai rent unknown.",
         "inputs": [
           {
             "name": "page_size",
@@ -2562,7 +2562,7 @@
       },
       {
         "name": "data_sources",
-        "description": "publishers/links, licence conditions/dates and pause reasons. Not dataset rows.",
+        "description": "Where each number comes from: publishers, licences, dates, paused sources.",
         "inputs": [
           {
             "name": "status",
@@ -2616,7 +2616,7 @@
       },
       {
         "name": "dewa",
-        "description": "slabs/surcharges/examples; kwh: water/VAT/housing-fee estimate. Not full bill.",
+        "description": "DEWA electricity/water: tariff slabs, or bill estimate from kwh (+water, VAT, fee).",
         "inputs": [
           {
             "name": "kwh",
@@ -2646,7 +2646,7 @@
       },
       {
         "name": "fixed_monthly_costs",
-        "description": "profile monthly costs/assumptions; separate basket. Not full budgets.",
+        "description": "Monthly fixed costs for a household profile, with assumptions. Not a full budget.",
         "inputs": [
           {
             "name": "page_size",
@@ -2669,7 +2669,7 @@
       },
       {
         "name": "free_zone_companies",
-        "description": "setup packages, annual/monthly prices/visas and paused zones. Not visa routes.",
+        "description": "Free zone company setup: package prices, annual/monthly cost, visas.",
         "inputs": [
           {
             "name": "published",
@@ -2720,7 +2720,7 @@
       },
       {
         "name": "fuel_prices",
-        "description": "current/previous grades, changes, 50/70 L tank costs, transport context/history.",
+        "description": "UAE petrol/diesel prices this month and last, change, 50/70 L tank cost, history.",
         "inputs": [
           {
             "name": "sort",
@@ -2766,7 +2766,7 @@
       },
       {
         "name": "fx_rates",
-        "description": "dated CBUAE AED rates. Not bank quotes.",
+        "description": "AED exchange rates (CBUAE, dated). Not bank quotes.",
         "inputs": [
           {
             "name": "currency",
@@ -2778,7 +2778,7 @@
       },
       {
         "name": "grocery_compare_list",
-        "description": "proposed items, subtotals, delivery/minimums. Not MOET/reports. Observed + generic estimated totals.",
+        "description": "Cheapest store for a shopping list: per-store subtotals, delivery fees, minimums. Observed + labelled estimates.",
         "inputs": [
           {
             "name": "items",
@@ -2796,7 +2796,7 @@
       },
       {
         "name": "grocery_products",
-        "description": "products, pack/unit offers/dates; product_id: history. Not MOET/reports. Labelled generic estimates.",
+        "description": "Dubai supermarket prices: search by name; product_id for per-store pack/unit offers, dates, history. Not MOET.",
         "inputs": [
           {
             "name": "comparison",
@@ -2878,7 +2878,7 @@
       },
       {
         "name": "grocery_stores",
-        "description": "stores, delivery fees/free thresholds/minimums. Not prices.",
+        "description": "Grocery stores: delivery fees, free-delivery thresholds, minimum orders.",
         "inputs": [
           {
             "name": "delivery_rule_status",
@@ -2924,7 +2924,7 @@
       },
       {
         "name": "health_insurance",
-        "description": "payer rules, EBP band/benefits, fines/legal citations. Not insurer quotes.",
+        "description": "Dubai health insurance rules: who pays, basic plan band/benefits, fines. Not quotes.",
         "inputs": [
           {
             "name": "emirate",
@@ -2951,7 +2951,7 @@
       },
       {
         "name": "housing_rents",
-        "description": "registered annual/monthly rent medians, contracts and zone sales. Not listings.",
+        "description": "Rent in a Dubai area: registered annual/monthly medians and contract counts. Not listings.",
         "inputs": [
           {
             "name": "zone_id",
@@ -3031,7 +3031,7 @@
       },
       {
         "name": "housing_sales",
-        "description": "ready/off-plan registered medians/counts and rent context. Not listings.",
+        "description": "Sale prices by Dubai area: ready/off-plan registered medians. Not listings.",
         "inputs": [
           {
             "name": "zone_id",
@@ -3101,7 +3101,7 @@
       },
       {
         "name": "mobile_internet_plans",
-        "description": "VAT-inclusive mobile/home prices, promo then regular, data and contracts.",
+        "description": "UAE mobile and home internet plans: VAT-inclusive price, data, contract.",
         "inputs": [
           {
             "name": "operator",
@@ -3177,7 +3177,7 @@
       },
       {
         "name": "move_to_dubai",
-        "description": "home/Dubai net, taxes, FX, costs/savings; omit country: models. Not tax advice. Owner: household=business_owner + profit.",
+        "description": "Move to Dubai? Home vs Dubai net pay, taxes, FX, costs, savings. No country: models. Owner: household=business_owner + profit. Not tax advice.",
         "inputs": [
           {
             "name": "country",
@@ -3298,7 +3298,7 @@
       },
       {
         "name": "official_shop_prices",
-        "description": "unaltered MOET Dubai pack prices/branch counts. Not live offers.",
+        "description": "Official MOET shop prices of Dubai essentials by chain/category.",
         "inputs": [
           {
             "name": "q",
@@ -3370,7 +3370,7 @@
       },
       {
         "name": "residence_visas",
-        "description": "route payer/requirements, fees, common medical/insurance bands and paused steps.",
+        "description": "UAE residence visas by route: payer, requirements, fees, medical/insurance bands.",
         "inputs": [
           {
             "name": "route_id",
@@ -3402,7 +3402,7 @@
       },
       {
         "name": "schools",
-        "description": "historical KHDA grade tuition, bus fees/year, distances. q: school name/part; near: zone; school_id: detail. Year ≠ Grade; uniforms paused.",
+        "description": "Dubai school fees: KHDA tuition by grade/year, bus fees, distance. q: school name; near: zone; school_id: detail. Year ≠ Grade; uniforms paused.",
         "inputs": [
           {
             "name": "q",
@@ -3493,7 +3493,7 @@
       },
       {
         "name": "shopper_price_reports",
-        "description": "moderated prices/store/date/promos. Not MOET/live offers.",
+        "description": "Community price reports by product/store, with date and promos.",
         "inputs": [
           {
             "name": "product_id",
@@ -3545,8 +3545,13 @@
         ]
       },
       {
+        "name": "start_here",
+        "description": "Call first: coverage, the 5 most useful calls with ready arguments, data freshness and how to cite.",
+        "inputs": null
+      },
+      {
         "name": "tax_savings_by_country",
-        "description": "country family-index income/tax savings/years. Not tax advice.",
+        "description": "Tax saved by moving to Dubai, per country, typical pay. Not tax advice.",
         "inputs": [
           {
             "name": "page_size",
@@ -3580,12 +3585,12 @@
       },
       {
         "name": "today",
-        "description": "dated highlights, sources/figures/caveats. Not live.",
+        "description": "Today's headline Dubai cost figures, each with source.",
         "inputs": null
       },
       {
         "name": "transport_fares",
-        "description": "taxi tariffs/trip estimate or public/parking/tolls plus fuel. Not app quotes.",
+        "description": "Taxi fare estimate, or metro/bus fares, parking and toll tariffs. Not app quotes.",
         "inputs": [
           {
             "name": "km",
@@ -3794,6 +3799,532 @@
       "truncated": false,
       "url": "https://github.com/datadubai/dubai-real-estate-dld#readme"
     }
+  },
+  {
+    "id": "mcp:ae-easyvoice-tts",
+    "name": "EasyVoice text to speech",
+    "qualifiedName": "ae.easyvoice/tts",
+    "slug": "ae-easyvoice-tts",
+    "description": "Hosted text-to-speech MCP server: 66 voices in 9 languages, long-form narration, podcasts.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://easyvoice.ae/tts-mcp-server",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://easyvoice.ae/api/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer <your EasyVoice API key> (free key at https://easyvoice.ae/account/keys)",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-11T18:47:52.634428Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "text_to_speech",
+        "description": "Convert text to a downloadable MP3 or WAV audio file with one of EasyVoice's 66 neural voices. Returns a hosted audio URL (no inline audio). Per-call limit: 8,000 characters (4,000 for Arabic ar_* voices) — text over the limit is automatically queued as a background job instead of erroring; poll get_job_status with the returned job_id for the result. Free keys can use the 12 free voices; Pro ($9.9",
+        "inputs": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "The text to speak.",
+            "required": true
+          },
+          {
+            "name": "voice",
+            "type": "string",
+            "description": "Voice id — call list_voices for the catalog.",
+            "required": false
+          },
+          {
+            "name": "speed",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "mp3",
+              "wav"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "list_voices",
+        "description": "List all 66 EasyVoice catalog voices (id, name, language, accent, gender, free/pro tier) plus this key's cloned voices. Call this before text_to_speech or create_podcast to pick voice ids.",
+        "inputs": null
+      },
+      {
+        "name": "get_usage",
+        "description": "Check this API key's plan and usage. Free keys see today's used/remaining characters (shared 5,000/day pool, resets at midnight UTC), the 20 requests/minute rate limit and 2-concurrent cap. Pro keys are unlimited (fair use: 10M characters per rolling 30 days, then slowed to 30 requests and 10,000 characters a minute, 10 and 3,000 past 20M, on every surface -- never blocked or billed) at 60 request",
+        "inputs": null
+      },
+      {
+        "name": "generate_long_form",
+        "description": "Generate long-form narration (up to 500,000 characters ≈ 9 hours of audio) as an async job. Requires a Pro subscription key. Kokoro narration voices only — Arabic (ar_*) and cloned (voice_*) voices are rejected by the Long-Form engine. Returns a job id — poll get_job_status; parts render progressively and audio_url appears when completed.",
+        "inputs": [
+          {
+            "name": "input",
+            "type": "string",
+            "description": "The full script, up to 500,000 characters.",
+            "required": true
+          },
+          {
+            "name": "voice",
+            "type": "string",
+            "description": "Kokoro voice id — call list_voices for the catalog.",
+            "required": false
+          },
+          {
+            "name": "speed",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "mp3",
+              "wav"
+            ]
+          },
+          {
+            "name": "pitch",
+            "type": "number",
+            "description": "Pitch shift in semitones (-4 to 4).",
+            "required": false
+          },
+          {
+            "name": "tone",
+            "type": "string",
+            "description": "Tone preset.",
+            "required": false,
+            "enum": [
+              "neutral",
+              "warm",
+              "bright",
+              "bass"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "create_podcast",
+        "description": "Create a two-host (A/B) podcast episode as an async job. Requires a Pro subscription key. Up to 60 segments; combined text up to 30,000 characters. voice_a and voice_b set the two speaker voices — your READY cloned voice_* ids are allowed. Returns a job id — poll get_job_status.",
+        "inputs": [
+          {
+            "name": "segments",
+            "type": "array",
+            "description": "Alternating dialogue segments (max 60).",
+            "required": true
+          },
+          {
+            "name": "voice_a",
+            "type": "string",
+            "description": "Voice id for speaker A — catalog voice or one of your READY cloned voice_* ids.",
+            "required": true
+          },
+          {
+            "name": "voice_b",
+            "type": "string",
+            "description": "Voice id for speaker B.",
+            "required": true
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "mp3",
+              "wav"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "clone_voice",
+        "description": "Enroll a custom cloned voice from an audio sample (async). Requires a Pro or active 7-day pass key. Provide exactly one of audio_base64 or audio_url (https). Sample limits: 10 MB max upload; wav, mp3 or m4a; a 10–30 second clean single-speaker recording (enrollment rejects clips shorter than 10 or longer than 30 seconds; trim longer recordings first). Account limits: maximum 3 cloned voices, 5 enr",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Display name for the cloned voice.",
+            "required": true
+          },
+          {
+            "name": "consent",
+            "type": "boolean",
+            "description": "Required attestation: you confirm you have the recording rights to this audio sample. The server rejects anything but an explicit true.",
+            "required": true
+          },
+          {
+            "name": "audio_base64",
+            "type": "string",
+            "description": "Base64-encoded audio sample (10 MB max decoded).",
+            "required": false
+          },
+          {
+            "name": "audio_url",
+            "type": "string",
+            "description": "https URL to the audio sample — fetched server-side, same 10 MB bound.",
+            "required": false
+          },
+          {
+            "name": "mime_type",
+            "type": "string",
+            "description": "Sample MIME type — wav, mp3 and m4a are accepted (the server enforces the exact allowlist).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_job_status",
+        "description": "Check the status of a long-form, podcast or tts job owned by this key. Returns status plus audio URL(s) when completed. Audio links are not guaranteed to persist — download promptly.",
+        "inputs": [
+          {
+            "name": "job_id",
+            "type": "string",
+            "description": "Job id returned by an async tool.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mcp:ae-genosys-genosys",
+    "name": "GENOSYS UAE",
+    "qualifiedName": "ae.genosys/genosys",
+    "slug": "ae-genosys-genosys",
+    "description": "Shop GENOSYS Korean skincare in the UAE from chat: find products, AED prices, order and pay.",
+    "category": "Commerce & Retail",
+    "repository": null,
+    "homepage": "https://genosys.ae/ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://genosys.ae/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-12T09:33:58.36606Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search the live GENOSYS UAE catalog (Korean professional skincare, haircare, devices, beauty boxes). Use for any \"what do you have for...\" question. Accepts plain language in English, Russian or Arabic, plus optional filters. Returns name, price in AED (VAT included), size, stock, concerns and the product link.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What the shopper wants, e.g. \"serum for dry skin\", \"SPF cushion\", \"hair loss shampoo\".",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category filter, e.g. Serum, Cream, Mask, Cleanser, Toner/Mist, Sun, Cushion BB, Eye care, Scalp/Hair, Beauty Boxes, Device, Microneedling, PRO Solution. Call list_categories for the full list.",
+            "required": false
+          },
+          {
+            "name": "concern",
+            "type": "string",
+            "description": "Skin concern, e.g. hydration, anti-aging, sensitivity, pore-care, brightening, acne-blemishes, eye-care, hair-loss, sun-protection.",
+            "required": false
+          },
+          {
+            "name": "skin_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "dry",
+              "oily",
+              "combination",
+              "normal",
+              "sensitive",
+              "mature"
+            ]
+          },
+          {
+            "name": "max_price_aed",
+            "type": "number",
+            "description": "Only products at or below this price (AED, VAT included).",
+            "required": false
+          },
+          {
+            "name": "in_stock_only",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Default 8.",
+            "required": false
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_product",
+        "description": "Full details for one product: description, key features, benefits, key ingredients and actives, step-by-step how to use, sizes or shades with prices, and an add-to-bag link. Use the id from search_products (e.g. \"18\" or \"68\").",
+        "inputs": [
+          {
+            "name": "product_id",
+            "type": "string",
+            "description": "Product id from search_products, e.g. \"18\".",
+            "required": true
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "recommend_routine",
+        "description": "Ranked product picks for a shopper's skin type and concerns, the same scoring as the skin quiz on genosys.ae. Use when someone describes their skin and asks what to use.",
+        "inputs": [
+          {
+            "name": "skin_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "dry",
+              "oily",
+              "combination",
+              "normal",
+              "sensitive"
+            ]
+          },
+          {
+            "name": "concerns",
+            "type": "array",
+            "description": "e.g. [\"hydration\",\"anti-aging\"]. Tags: hydration, anti-aging, sensitivity, pore-care, brightening, acne-blemishes, eye-care, hair, hair-loss.",
+            "required": false
+          },
+          {
+            "name": "age_group",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "teen",
+              "young-adult",
+              "adult",
+              "mature"
+            ]
+          },
+          {
+            "name": "at_home_only",
+            "type": "boolean",
+            "description": "True (default) leaves out professional clinic-only products.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Default 6.",
+            "required": false
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "list_categories",
+        "description": "All product categories and skin concerns in the live catalog, with product counts. Use to orient before searching.",
+        "inputs": null
+      },
+      {
+        "name": "create_bag_link",
+        "description": "Build one link that opens genosys.ae with these items already in the shopper's bag, ready to check out. Use when the shopper decides to buy. Products with sizes or shades (see get_product options) need one picked: pass size, or color as its label or value (e.g. \"#01 Bright\").",
+        "inputs": [
+          {
+            "name": "items",
+            "type": "array",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "open_checkout",
+        "description": "Show the shopper a checkout form for these items: shade picker where needed, quantities, delivery details (name, email, phone, emirate, address), live total and a button that creates the order and opens secure Stripe payment. Use when the shopper wants to buy. Pass any details the shopper already gave as prefill.",
+        "inputs": [
+          {
+            "name": "items",
+            "type": "array",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "prefill",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "place_order",
+        "description": "Create a GENOSYS UAE order from this chat and get a secure Stripe payment link (card, Apple Pay, Google Pay). Call only after the shopper has confirmed the items, the total and their delivery details. The order is confirmed by email once paid; unpaid orders are not shipped. Delivery is UAE only. Prices are retail AED including VAT.",
+        "inputs": [
+          {
+            "name": "items",
+            "type": "array",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "customer",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Delivery notes, e.g. preferred time.",
+            "required": false
+          },
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "order_status",
+        "description": "Status and payment of a GENOSYS order. Needs the order number and the email used for the order.",
+        "inputs": [
+          {
+            "name": "order_number",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "store_info",
+        "description": "Delivery areas, times and fees, payment methods, returns, contact (WhatsApp, email), apps and policies for GENOSYS UAE.",
+        "inputs": [
+          {
+            "name": "locale",
+            "type": "string",
+            "description": "Language of descriptions and links: en (default), ru or ar. Product names stay in English.",
+            "required": false,
+            "enum": [
+              "en",
+              "ru",
+              "ar"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "description": "Search GENOSYS products and skincare articles. Returns ids to pass to fetch. (\"product:<id>\" for products, \"blog:<slug>\" for articles.)",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Full text of a result from search, by id (\"product:18\" or \"blog:<slug>\").",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mcp:ae-grovisor-grotax",
@@ -5842,7 +6373,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 74,
+        "weeklyDownloads": 73,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -5896,18 +6427,18 @@
         "headers": []
       }
     ],
-    "stars": 7334,
+    "stars": 7342,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7334,
-      "forks": 1026,
+      "stars": 7342,
+      "forks": 1027,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 127,
+      "pushedAt": "2026-10-11T20:20:46Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -5927,7 +6458,7 @@
       }
     ],
     "readme": {
-      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configura\n\n…",
+      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nPublishing an MCP server does **not** happen through a pull request to this repository. Adding a `server.json`, a server directory, or an entry in `data/seed.json` will not publish or list your server, even if the PR is merged. Use the `mcp-publisher` CLI from your server's own project instead.\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n\n\n…",
       "truncated": true,
       "url": "https://github.com/modelcontextprotocol/registry#readme"
     }
@@ -5949,18 +6480,18 @@
         "headers": []
       }
     ],
-    "stars": 7334,
+    "stars": 7342,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7334,
-      "forks": 1026,
+      "stars": 7342,
+      "forks": 1027,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 127,
+      "pushedAt": "2026-10-11T20:20:46Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -6028,7 +6559,7 @@
       }
     ],
     "readme": {
-      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configura\n\n…",
+      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nPublishing an MCP server does **not** happen through a pull request to this repository. Adding a `server.json`, a server directory, or an entry in `data/seed.json` will not publish or list your server, even if the PR is merged. Use the `mcp-publisher` CLI from your server's own project instead.\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n\n\n…",
       "truncated": true,
       "url": "https://github.com/modelcontextprotocol/registry#readme"
     }
@@ -6050,24 +6581,24 @@
         "headers": []
       }
     ],
-    "stars": 7334,
+    "stars": 7342,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7334,
-      "forks": 1026,
+      "stars": 7342,
+      "forks": 1027,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-08T10:18:38Z",
-      "openIssues": 127,
+      "pushedAt": "2026-10-11T20:20:46Z",
+      "openIssues": 126,
       "license": "NOASSERTION",
       "language": "Go"
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n## Architecture\n\n### Project Structure\n\n```\n├── cmd/                     # Application entry points\n│   ├── publisher/           # Server publishing tool\n│   └── registry/            # Registry API server\n├── data/                    # Seed data\n├── deploy/                  # Deployment configura\n\n…",
+      "markdown": "# MCP Registry\n\nThe MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.\n\n[**📤 Publish my MCP server**](docs/modelcontextprotocol-io/quickstart.mdx) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/design/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**\n\n## Development Status\n\n**2025-10-24 update**: The Registry API has entered an **API freeze (v0.1)** 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here!\n\n**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).\n\nRegistry Working Group:\n- **Radoslav (Rado) Dimitrov** (Stacklok) [@rdimitrov](https://github.com/rdimitrov) - WG Lead\n- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)\n- **Bob Dickinson** (TeamSpark) [@BobDickinson](https://github.com/BobDickinson)\n- **Preeti (Pree) Dewani** (Ravenmail) [@pree-dew](https://github.com/pree-dew)\n\n## Contributing\n\nWe use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).\n\nOften (but not always) ideas flow through this pipeline:\n\n- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions\n- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements\n- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  \n- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues\n\n### Quick start:\n\n#### Pre-requisites\n\n- **Docker**\n- **Go** - version per the `go` directive in [go.mod](./go.mod); the Go toolchain fetches it for you\n- **ko** - Container image builder for Go ([installation instructions](https://ko.build/install/))\n- **golangci-lint** - version per the `golangci-lint-action` pin in [ci.yml](./.github/workflows/ci.yml), so local lint matches CI\n\n#### Running the server\n\n```bash\n# Start full development environment\nmake dev-compose\n```\n\nThis starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.\n\n**Note:** The registry uses [ko](https://ko.build) to build container images. The `make dev-compose` command automatically builds the registry image with ko and loads it into your local Docker daemon before starting the services.\n\nBy default, the registry seeds from the production API with a filtered subset of servers (to keep startup fast). This ensures your local environment mirrors production behavior and all seed data passes validation. For offline development you can seed from a file without validation with `MCP_REGISTRY_SEED_FROM=data/seed.json MCP_REGISTRY_ENABLE_REGISTRY_VALIDATION=false make dev-compose`.\n\nThe setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.\n\n<details>\n<summary>Alternative: Running a pre-built Docker image</summary>\n\nPre-built Docker images are automatically published to GitHub Container Registry. Note that the image does not bundle PostgreSQL, so you need to run your own and point the registry at it via `MCP_REGISTRY_DATABASE_URL` (see [docker-compose.yml](./docker-compose.yml) for a working example):\n\n```bash\n# Run latest stable release\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest\n\n# Run latest from main branch (continuous deployment)\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main\n\n# Run specific release version\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0\n\n# Run development build from main branch\ndocker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d\n```\n\n**Available tags:** \n- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.\n- **Continuous**: `main` (latest main branch build)\n- **Development**: `main-<date>-<sha>` (specific commit builds)\n\n</details>\n\n#### Publishing a server\n\nPublishing an MCP server does **not** happen through a pull request to this repository. Adding a `server.json`, a server directory, or an entry in `data/seed.json` will not publish or list your server, even if the PR is merged. Use the `mcp-publisher` CLI from your server's own project instead.\n\nTo publish a server, we've built a simple CLI. You can use it with:\n\n```bash\n# Build the latest CLI\nmake publisher\n\n# Use it!\n./bin/mcp-publisher --help\n```\n\nSee [the publisher guide](./docs/modelcontextprotocol-io/quickstart.mdx) for more details.\n\n#### Other commands\n\n```bash\n# Run lint, schema validation, and all tests\n# Note: this also runs `make dev-down`, stopping any running dev-compose environment\nmake check\n```\n\nThere are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).\n\n\n\n…",
       "truncated": true,
       "url": "https://github.com/modelcontextprotocol/registry#readme"
     },
@@ -6304,7 +6835,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 3367,
+        "weeklyDownloads": 3176,
         "lastPublished": "2026-10-11T09:44:43.210Z",
         "firstPublished": "2026-04-26T17:40:14.733Z",
         "deprecated": false,
@@ -6520,7 +7051,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 774,
+        "weeklyDownloads": 801,
         "lastPublished": "2026-10-05T10:37:13.711Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -6539,7 +7070,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-10-11T08:43:46Z",
+      "pushedAt": "2026-10-12T07:10:02Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -6973,7 +7504,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 44,
+        "weeklyDownloads": 46,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -7024,7 +7555,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-06T19:06:20.036379Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
+    "toolsStatus": "error",
     "tools": [
       {
         "name": "advisors_catalog_list_services",
@@ -7160,7 +7691,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-28T13:28:25.814078Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
+    "toolsStatus": "error",
     "tools": [
       {
         "name": "advisors_store_readiness_check",
@@ -7234,7 +7765,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 284,
+        "weeklyDownloads": 230,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -7897,7 +8428,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 121,
+        "weeklyDownloads": 107,
         "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
@@ -8546,7 +9077,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 114,
+        "weeklyDownloads": 119,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -10729,7 +11260,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 77,
+        "weeklyDownloads": 72,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -10799,7 +11330,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 113,
+        "weeklyDownloads": 116,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -10830,7 +11361,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 47,
+        "weeklyDownloads": 51,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -10861,7 +11392,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 105,
+        "weeklyDownloads": 109,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -10892,7 +11423,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 136,
+        "weeklyDownloads": 140,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -10923,7 +11454,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 60,
+        "weeklyDownloads": 64,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -10954,7 +11485,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 132,
+        "weeklyDownloads": 138,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -11016,7 +11547,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 102,
+        "weeklyDownloads": 105,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -11047,7 +11578,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 85,
+        "weeklyDownloads": 88,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -11109,7 +11640,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 114,
+        "weeklyDownloads": 117,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -11140,7 +11671,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 89,
+        "weeklyDownloads": 95,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -11171,7 +11702,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 86,
+        "weeklyDownloads": 84,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -11202,7 +11733,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 111,
+        "weeklyDownloads": 115,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -11233,7 +11764,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 121,
+        "weeklyDownloads": 129,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -11264,7 +11795,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 120,
+        "weeklyDownloads": 119,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -11295,7 +11826,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 112,
+        "weeklyDownloads": 116,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -11913,7 +12444,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 382,
+        "weeklyDownloads": 409,
         "lastPublished": "2026-10-09T20:20:43.961Z",
         "firstPublished": "2026-09-30T19:50:15.536Z",
         "deprecated": false,
@@ -13747,7 +14278,7 @@
       },
       {
         "name": "list_filings",
-        "description": "List available filings for a ticker (newest first) with artifact_document_id and dates. Use filing_registry=fca_nsm for UK FCA NSM reports. Use this first when you need a specific reporting period, including DEF 14A proxy statements (pass document_type=DEF 14A). Each row includes Filing metadata object. Includes `document_type` (Canonical document type. SEC: 10-K, 10-Q, 20-F, 6-K, 8-K. FCA: annual",
+        "description": "List available filings for a ticker (newest first) with artifact_document_id and dates. Use filing_registry=fca_nsm for UK FCA NSM reports. Use this first when you need a specific reporting period, including DEF 14A proxy statements (pass document_type=DEF 14A). Each row includes Filing metadata object. Includes `document_type` (Canonical document type. SEC: 10-K, 10-Q, 20-F, 6-K, 8-K, DEF 14A. FC",
         "inputs": [
           {
             "name": "ticker",
@@ -14181,7 +14712,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-01T07:46:09.029192Z",
+    "updatedAt": "2026-10-12T04:35:20.74782Z",
     "repoMeta": {
       "slug": "analyticslegends/analytics-legends-mcp",
       "stars": 0,
@@ -14370,7 +14901,7 @@
       },
       {
         "name": "find_opportunities",
-        "description": "Search every SAP contract and permanent-role posting Analytics Legends publishes to an ANONYMOUS visitor — the same population a human browses on /opportunities/, where each posting has its own prerendered page. It merges the platform's TWO public legs, which are near-disjoint (measured 2026-07-30: 1 row in common): (a) the PROMOTED feed (`public.public_opportunities`) — general SAP work (FI/CO, S",
+        "description": "Search every SAP contract and permanent-role posting Analytics Legends publishes to an ANONYMOUS visitor. Only the SITE RADAR leg below is the population a human browses on /opportunities/, where each of its postings has its own prerendered page; the PROMOTED leg is served to agents only — it is not listed on /opportunities/ and its rows have no page of their own (citation_scope \"section_hub\"). It",
         "inputs": [
           {
             "name": "query",
@@ -15006,7 +15537,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 1923,
+        "weeklyDownloads": 1548,
         "lastPublished": "2026-10-04T18:28:02.300Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -15015,23 +15546,23 @@
       }
     ],
     "remotes": [],
-    "stars": 513,
+    "stars": 514,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 513,
+      "stars": 514,
       "forks": 38,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-29T20:06:25Z",
-      "pushedAt": "2026-10-04T19:07:43Z",
+      "pushedAt": "2026-10-11T16:23:24Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# Anki MCP Server\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\n**Beta** - This project is in active development. APIs and features may change.\n\nA Model Context Protocol (MCP) server that enables AI assistants to interact with Anki, the spaced repetition flashcard application.\n\nTransform your Anki experience with natural language interaction - like having a private tutor. The AI assistant doesn't just present questions and answers; it can explain concepts, make the learning process more engaging and human-like, provide context, and adapt to your learning style. It can create and edit notes on the fly, turning your study sessions into dynamic conversations. More features coming soon!\n\n## Examples and Tutorials\n\nFor comprehensive guides, real-world examples, and step-by-step tutorials on using this MCP server with Claude Desktop, visit:\n\n**[ankimcp.ai](https://ankimcp.ai)** - Complete documentation with practical examples and use cases\n\nSee [`docs/`](./docs/README.md) for supplementary documentation, including the [reviewer setup guide](./docs/reviewer-setup.md) and the sample Anki deck.\n\n## Example Use Cases\n\nThree representative prompts showing the tool flows this server enables:\n\n1. **\"Help me review my Spanish deck.\"** — The assistant offers to sync with AnkiWeb (`sync`), fetches due cards (`get_due_cards` with deck filter), presents each card (`present_card`), and records your rating (`rate_card`). Natural study conversation with explanations tailored to you.\n\n2. **\"Create 10 Arabic vocab cards with RTL styling.\"** — The assistant lists note types (`modelNames`), creates a custom RTL model if needed (`createModel` + `updateModelStyling` for right-to-left CSS), then batch-creates the cards (`addNotes`).\n\n3. **\"Import this image from my Downloads folder into the front of the selected note.\"** — The assistant uploads the local file (`storeMediaFile` with a file path), reads the currently-selected note from the browser (`guiSelectedNotes` + `notesInfo`), and updates the front field with an `` tag (`updateNoteFields`).\n\n## Available Tools\n\nThe server exposes **53 MCP tools** — 42 essential tools for everyday Anki operations and 11 GUI tools that drive the Anki desktop interface for note editing/creation workflows.\n\n### Essential Tools\n\n#### Review & Study\n- `sync` - Sync with AnkiWeb to pull latest data and push changes\n- `get_due_cards` - Get cards that are due for review, optionally filtered by deck (answers omitted unless `include_answer: true`, default `false`)\n- `get_cards` - Get cards with flexible filtering by state (due, new, learning, suspended, buried) and deck (answers omitted unless `include_answer: true`, default `false`)\n- `present_card` - Show a card for review with its question/front side\n- `rate_card` - Rate card performance (Again, Hard, Good, Easy) and schedule the next review\n- `forgetCards` - Reset cards to new, discarding their scheduling without recording a review\n- `setDueDate` - Reschedule cards to become due in N days (`\"0\"`, `\"3-7\"`, `\"1!\"`), without recording a review\n- `areSuspended` - Check suspension state for one or more cards without changing anything\n- `suspend` - Suspend cards so they are skipped during review until unsuspended\n- `unsuspend` - Unsuspend cards so they return to normal review\n\n> **Note:** `forgetCards` and `setDueDate` change scheduling *without* logging a review, which is what separates them from `rate_card`. Reach for them when a card's schedule is wrong rather than the answer: rating a card `Again` to bury it deeper records a real lapse and drops its ease factor, permanently skewing both future scheduling and your statistics. `forgetCards` wipes the interval and starts the card over; `setDueDate` keeps the card's history and just moves the next review.\n\n> **Note:** Card `front`/`back` content is rendered per card from its own template (as Anki shows it), so reversed and cloze cards display the correct direction. Static text added by your card templates appears in the output as well.\n\n#### Deck Management\n- `listDecks` - List all decks, optionally with per-deck study-queue statistics\n- `deckStats` - Get comprehensive statistics for a single deck (study queue, true card-state counts, ease/interval distributions)\n- `createDeck` - Create a new empty deck (supports `Parent::Child`, max 2 levels)\n- `changeDeck` - Move cards to a different deck (created if it doesn't exist)\n\n> **Note:** Deck statistics come in two flavours. The `counts` block (and everything `listDecks` reports) mirrors Anki's deck browser: cards **due today**, capped by each deck's **daily new/review limits**, with suspended and buried cards excluded — so `review` is not \"mature cards\" and the `other` bucket is just the arithmetic remainder (mostly review cards not due today plus new cards over the daily limit). For true per-state totals use the `states` block on `deckStats` / `collection_stats`, which counts `new`, `learning`, `review`, `suspended` and `buried` via Anki searches, ignoring due dates and daily limits.\n\n#### Note Management\n- `addNote` - Create a single note with specified fields and tags\n- `addNotes` - Batch-create up to 100 notes sharing a deck and model (partial success supported)\n- `findNotes` - Search for notes using Anki query syntax (`deck:`, `tag:`, `is:due`, etc.)\n- `notesInfo` - Get detailed information about notes (fields, tags, note type, card IDs; CSS comes from `modelStyling`)\n- `updateNoteFields` - Update existing note fields (CSS-aware, supports HTML content)\n- `deleteNotes` - Delete notes and all associated cards (destructive, requires confirmation)\n\n#### Tag Management\n- `getTags` - Get all tags in the collection (use first to avoid duplication)\n- `addTags` - Add space-separated tags to specified notes\n- `removeTags` - Remove space-separated tags from specified notes\n- `replaceTags` - Rename a tag across specified notes\n- `clearUnusedTags` - Remove orphaned tags not used by any notes (d\n\n…",
+      "markdown": "# Anki MCP Server\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\n> [!IMPORTANT]\n> **Prefer the [AnkiMCP addon](https://ankiweb.net/shared/info/124672614) for most setups.**\n>\n> The addon ([GitHub](https://github.com/ankimcp/anki-mcp-server-addon)) runs the MCP server directly inside Anki. There is no Node.js to install, no AnkiConnect to configure, no separate process to keep running: install it with code `124672614`, restart Anki, and the server is up every time Anki opens. It covers local HTTP access and remote access through a built-in tunnel.\n>\n> This repository is the right choice when you specifically need:\n>\n> - **STDIO transport** — Claude Desktop, Claude Code, Cursor, or any client that spawns the server as a subprocess\n> - **MCPB bundle** — the one-click `.mcpb` install for Claude Desktop\n>\n> For HTTP, tunnel, or web-based clients (claude.ai, ChatGPT), the addon is the simpler and better-supported path.\n>\n> This repo is **not** being deprecated. It stays maintained and released alongside the addon as part of the same [ankimcp.ai](https://ankimcp.ai) project.\n\nA Model Context Protocol (MCP) server that enables AI assistants to interact with Anki, the spaced repetition flashcard application.\n\nTransform your Anki experience with natural language interaction - like having a private tutor. The AI assistant doesn't just present questions and answers; it can explain concepts, make the learning process more engaging and human-like, provide context, and adapt to your learning style. It can create and edit notes on the fly, turning your study sessions into dynamic conversations. More features coming soon!\n\n## Examples and Tutorials\n\nFor comprehensive guides, real-world examples, and step-by-step tutorials on using this MCP server with Claude Desktop, visit:\n\n**[ankimcp.ai](https://ankimcp.ai)** - Complete documentation with practical examples and use cases\n\nSee [`docs/`](./docs/README.md) for supplementary documentation, including the [reviewer setup guide](./docs/reviewer-setup.md) and the sample Anki deck.\n\n## Example Use Cases\n\nThree representative prompts showing the tool flows this server enables:\n\n1. **\"Help me review my Spanish deck.\"** — The assistant offers to sync with AnkiWeb (`sync`), fetches due cards (`get_due_cards` with deck filter), presents each card (`present_card`), and records your rating (`rate_card`). Natural study conversation with explanations tailored to you.\n\n2. **\"Create 10 Arabic vocab cards with RTL styling.\"** — The assistant lists note types (`modelNames`), creates a custom RTL model if needed (`createModel` + `updateModelStyling` for right-to-left CSS), then batch-creates the cards (`addNotes`).\n\n3. **\"Import this image from my Downloads folder into the front of the selected note.\"** — The assistant uploads the local file (`storeMediaFile` with a file path), reads the currently-selected note from the browser (`guiSelectedNotes` + `notesInfo`), and updates the front field with an `` tag (`updateNoteFields`).\n\n## Available Tools\n\nThe server exposes **53 MCP tools** — 42 essential tools for everyday Anki operations and 11 GUI tools that drive the Anki desktop interface for note editing/creation workflows.\n\n### Essential Tools\n\n#### Review & Study\n- `sync` - Sync with AnkiWeb to pull latest data and push changes\n- `get_due_cards` - Get cards that are due for review, optionally filtered by deck (answers omitted unless `include_answer: true`, default `false`)\n- `get_cards` - Get cards with flexible filtering by state (due, new, learning, suspended, buried) and deck (answers omitted unless `include_answer: true`, default `false`)\n- `present_card` - Show a card for review with its question/front side\n- `rate_card` - Rate card performance (Again, Hard, Good, Easy) and schedule the next review\n- `forgetCards` - Reset cards to new, discarding their scheduling without recording a review\n- `setDueDate` - Reschedule cards to become due in N days (`\"0\"`, `\"3-7\"`, `\"1!\"`), without recording a review\n- `areSuspended` - Check suspension state for one or more cards without changing anything\n- `suspend` - Suspend cards so they are skipped during review until unsuspended\n- `unsuspend` - Unsuspend cards so they return to normal review\n\n> **Note:** `forgetCards` and `setDueDate` change scheduling *without* logging a review, which is what separates them from `rate_card`. Reach for them when a card's schedule is wrong rather than the answer: rating a card `Again` to bury it deeper records a real lapse and drops its ease factor, permanently skewing both future scheduling and your statistics. `forgetCards` wipes the interval and starts the card over; `setDueDate` keeps the card's history and just moves the next review.\n\n> **Note:** Card `front`/`back` content is rendered per card from its own template (as Anki shows it), so reversed and cloze cards display the correct direction. Static text added by your card templates appears in the output as well.\n\n#### Deck Management\n- `listDecks` - List all decks, optionally with per-deck study-queue statistics\n- `deckStats` - Get comprehensive statistics for a single deck (study queue, true card-state counts, ease/interval distributions)\n- `createDeck` - Create a new empty deck (supports `Parent::Child`, max 2 levels)\n- `changeDeck` - Move cards to a different deck (created if it doesn't exist)\n\n> **Note:** Deck statistics come in two flavours. The `counts` block (and everything `listDecks` reports) mirrors Anki's deck browser: cards **due today**, capped by each deck's **daily new/review limits**, with suspended and buried cards excluded — so `review` is not \"mature cards\" and the `other` bucket is just the arithmetic remainder (mostly review cards not due today plus new cards over the daily limit). For true per-state totals use the `states` block on `deckStats` / `collection_stats`, which counts `new`, `learning`, `review`, `suspended` and `buried` via Anki searches, ignoring due dat\n\n…",
       "truncated": true,
       "url": "https://github.com/ankimcp/anki-mcp-server#readme"
     }
@@ -15047,23 +15578,23 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 85,
+    "stars": 86,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-10T20:38:14.516874Z",
+    "updatedAt": "2026-10-11T18:29:12.499147Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 85,
+      "stars": 86,
       "forks": 9,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-05T14:46:27Z",
-      "pushedAt": "2026-10-10T20:29:42Z",
+      "pushedAt": "2026-10-11T18:07:29Z",
       "openIssues": 0,
       "license": "NOASSERTION",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under Anki's own data folder (outside the addon's own folder, so it survives addon updates cleanly on every OS), falling back to the addon's `_cache/` directory when that location isn't available — so either way they happen once, not on every launch. The old in-folder fallback cache is only ever removed once the outside-the-folder cache has proven itself usable (a successful load from it) and is never touched while a native module is still loaded from it — a failed first attempt (e.g. offline) leaves the old cache untouched rather than destroyed.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_fields` tool (with an opt-in [destructive](#destructive-tools-opt-in) remove)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **GUI review sessions** - Hands-free review in Anki's own reviewer window: `gui_deck_review` opens a deck, `gui_answer_card` presses the answer button for you. [Opt-in](#opt-in-tools), hidden until named in `enabled_opt_in_tools`\n- **MCP tool annotations** - Every tool declares a `title`, `readOnlyHint`, `destructiveHint` and `openWorldHint` (plus `idempotentHint` on write tools that are safe to repeat), so clients can show readable names and confirm before data-changing calls\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Check status via *To\n\n…",
+      "markdown": "# AnkiMCP Server (Addon)\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\nAn Anki addon that exposes your collection to AI assistants via the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/).\n\n## What is this?\n\nAnkiMCP Server runs a local MCP server inside Anki, allowing AI assistants like Claude to interact with your flashcard collection. This enables AI-powered study sessions, card creation, and collection management.\n\nPart of the [ankimcp.ai](https://ankimcp.ai) project.\n\n## Note on First Run\n\nOn first run, this addon downloads `pydantic_core` (~2MB) from PyPI. This is required because pydantic_core contains platform-specific binaries (Windows/macOS/Linux) that cannot be bundled in a single addon file.\n\nA second native dependency, `rpds` (from `rpds-py`), is handled the same way — but it is almost never downloaded: Anki already ships `rpds` as a transitive dependency of its own `jsonschema`, so the addon just imports it. The download only kicks in on the rare install where that import fails. Both downloads are cached under Anki's own data folder (outside the addon's own folder, so it survives addon updates cleanly on every OS), falling back to the addon's `_cache/` directory when that location isn't available — so either way they happen once, not on every launch. The old in-folder fallback cache is only ever removed once the outside-the-folder cache has proven itself usable (a successful load from it) and is never touched while a native module is still loaded from it — a failed first attempt (e.g. offline) leaves the old cache untouched rather than destroyed.\n\n## Features\n\n- **Local HTTP server** - Runs on `http://127.0.0.1:3141/` by default\n- **Remote tunnel** - Access your collection from anywhere via a public HTTPS URL\n- **MCP protocol** - Compatible with any MCP client (Claude Desktop, etc.)\n- **Auto-start** - HTTP server starts automatically when Anki opens\n- **Tunnel-friendly** - Works with Cloudflare Tunnel, ngrok, or the built-in tunnel (exposing the HTTP server this way also requires extending the [allowed hosts/origins](#allowed-hosts-and-origins-dns-rebinding-protection))\n- **DNS-rebinding protection** - The HTTP server validates `Host`/`Origin` headers against a loopback allowlist by default; [extend it](#allowed-hosts-and-origins-dns-rebinding-protection) for tunnel/reverse-proxy exposure\n- **Optional API key** - Require an `Authorization: Bearer` token on the HTTP transport via [`http_api_key`](#api-key-optional-http-auth) (AnkiConnect-style; empty = disabled)\n- **Toolbar indicator** - A `● AnkiMCP` item in the top toolbar shows tunnel connection state at a glance (opt out via `show_toolbar_indicator`)\n- **Diagnostic logging** - Opt-in [`log_to_file`](#diagnostic-file-logging) writes a rotating, secret-redacted log to `user_files/ankimcp.log`, with **Open log folder** / **Copy diagnostics** buttons in settings\n- **Field management** - Add, rename, and reposition note-type fields via the `model_field_*` tools (with an opt-in [destructive](#destructive-tools-opt-in) `model_field_remove`)\n- **Bulk card stats** - The read-only `cards_stats` tool returns compact per-card scheduling metrics (type/queue/interval/tags/`dueToday`) for a whole deck including subdecks, FSRS-independent — a lean bulk read for analytics\n- **GUI review sessions** - Hands-free review in Anki's own reviewer window: `gui_deck_review` opens a deck, `gui_answer_card` presses the answer button for you. [Opt-in](#opt-in-tools), hidden until named in `enabled_opt_in_tools`\n- **MCP tool annotations** - Every tool declares a `title`, `readOnlyHint`, `destructiveHint` and `openWorldHint` (plus `idempotentHint` on write tools that are safe to repeat), so clients can show readable names and confirm before data-changing calls\n- **Cross-platform** - Works on macOS, Windows, and Linux (x64 and ARM)\n\n## Installation\n\n### From AnkiWeb (recommended)\n\n1. Open Anki and go to *Tools → Add-ons → Get Add-ons...*\n2. Enter code: `124672614`\n3. Restart Anki\n\n### From GitHub Releases\n\n1. Download `anki_mcp_server.ankiaddon` from [Releases](https://github.com/ankimcp/anki-mcp-server-addon/releases)\n2. Double-click to install, or use *Tools → Add-ons → Install from file...*\n3. Restart Anki\n\n### NixOS\n\n#### With flakes (recommended)\n\nAdd the flake input and use the pre-built package:\n\n```nix\n# flake.nix\n{\n  inputs.anki-mcp.url = \"github:ankimcp/anki-mcp-server-addon\";\n\n  outputs = { nixpkgs, anki-mcp, ... }: {\n    # Option A: Standalone — Anki with the addon pre-installed\n    environment.systemPackages = [\n      anki-mcp.packages.${system}.default\n    ];\n\n    # Option B: Composable with other addons via overlay\n    nixpkgs.overlays = [ anki-mcp.overlays.default ];\n    environment.systemPackages = [\n      (pkgs.anki.withAddons [ pkgs.ankiAddons.anki-mcp-server ])\n    ];\n  };\n}\n```\n\n#### Without flakes\n\n```nix\n# configuration.nix\n{ pkgs, ... }:\nlet\n  python3 = pkgs.python3;\n\n  ankiMcpPythonDeps = python3.withPackages (ps: with ps; [\n    mcp pydantic pydantic-settings starlette uvicorn anyio httpx websockets\n  ]);\n\n  anki-mcp-server = pkgs.anki-utils.buildAnkiAddon (finalAttrs: {\n    pname = \"anki-mcp-server\";\n    version = \"0.20.0\";\n    src = pkgs.fetchFromGitHub {\n      owner = \"ankimcp\";\n      repo = \"anki-mcp-server-addon\";\n      rev = \"v${finalAttrs.version}\";\n      hash = \"\"; # nix will tell you the correct hash on first build\n    };\n    sourceRoot = \"${finalAttrs.src.name}/anki_mcp_server\";\n  });\n\n  ankiWithMcp = pkgs.anki.withAddons [ anki-mcp-server ];\n\n  ankiWrapped = pkgs.symlinkJoin {\n    name = \"anki-with-mcp\";\n    paths = [ ankiWithMcp ];\n    nativeBuildInputs = [ pkgs.makeWrapper ];\n    postBuild = ''\n      wrapProgram $out/bin/anki \\\n        --prefix PYTHONPATH ':' \"${ankiMcpPythonDeps}/${python3.sitePackages}\"\n    '';\n  };\nin\n{\n  environment.systemPackages = [ ankiWrapped ];\n}\n```\n\n## Usage\n\nThe server starts automatically when you open Anki. Chec\n\n…",
       "truncated": true,
       "url": "https://github.com/ankimcp/anki-mcp-server-addon#readme"
     }
@@ -15512,6 +16043,53 @@
     "source": "MCP Registry",
     "updatedAt": "2026-10-08T13:22:52.80521Z",
     "repoMeta": null
+  },
+  {
+    "id": "mcp:ai-arabickeyboard-name-calligraphy",
+    "name": "Arabic Name Calligraphy",
+    "qualifiedName": "ai.arabickeyboard/name-calligraphy",
+    "slug": "ai-arabickeyboard-name-calligraphy",
+    "description": "Writes names in Arabic script with alternative spellings, six calligraphy styles and PNG artwork.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://arabickeyboard.ai/mcp-server",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://arabickeyboard.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-11T23:52:26.185301Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "write_name_in_arabic",
+        "description": "Writes a first name or full name in Arabic script and shows it in six Arabic calligraphy styles (Naskh, Ruqʿah, Kufi, Modern, Bold display, Ornamental) with a PNG download. Use when the user wants their name, or someone else's name, written or drawn in Arabic, Arabic calligraphy, or Arabic letters — for example for a tattoo, gift, card, or wall art. Handles Arabic names (Mohamed, Fatima), French a",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "The name to write, in Latin letters as the user spells it (e.g. 'Sarah', 'Jean-Pierre', 'Mohamed Ali').",
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "'fr' when the user writes in French or the name should be read with French pronunciation (Charles → شارل); otherwise 'en'.",
+            "required": false,
+            "enum": [
+              "en",
+              "fr"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mcp:ai-arcdeck-arcdeck",
@@ -17916,7 +18494,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 289,
+        "weeklyDownloads": 665,
         "lastPublished": "2026-10-10T08:21:46.393Z",
         "firstPublished": "2026-10-06T14:13:25.231Z",
         "deprecated": false,
@@ -18564,7 +19142,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 42,
+        "weeklyDownloads": 41,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -18595,7 +19173,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 38,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -18639,6 +19217,104 @@
     "source": "MCP Registry",
     "updatedAt": "2026-01-12T03:52:19.009876Z",
     "repoMeta": null
+  },
+  {
+    "id": "mcp:ai-autoblogging-autoblogging",
+    "name": "Autoblogging.ai",
+    "qualifiedName": "ai.autoblogging/autoblogging",
+    "slug": "ai-autoblogging-autoblogging",
+    "description": "Facts about Autoblogging.ai, the AI article writer: pricing, plans, features and site search.",
+    "category": "Docs & Knowledge",
+    "repository": null,
+    "homepage": "https://autoblogging.ai/brand-facts/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://autoblogging.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-11T16:51:15.847975Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "get_brand_facts",
+        "description": "Every verified fact about Autoblogging.ai: company, founder, plans and prices, credit costs, features with the plan each needs, publishing integrations, policies and what not to state. Use this before describing Autoblogging.ai.",
+        "inputs": null
+      },
+      {
+        "name": "get_pricing",
+        "description": "Autoblogging.ai plans (monthly and annual USD prices, credits per month, connected sites, free monthly allowances), billing policies and the credit cost of each tool.",
+        "inputs": null
+      },
+      {
+        "name": "list_features",
+        "description": "Autoblogging.ai features with a one-line summary, the cheapest plan that includes each one, its credit cost and its page URL. Optionally only the features available on a given plan.",
+        "inputs": [
+          {
+            "name": "plan",
+            "type": "string",
+            "description": "Only features available on this plan",
+            "required": false,
+            "enum": [
+              "Free",
+              "Starter",
+              "Regular",
+              "Standard",
+              "Gold",
+              "Premium",
+              "Enterprise"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "search_site",
+        "description": "Search every page on autoblogging.ai (features, guides, comparisons, tutorials, knowledge base) by keywords. Returns titles, URLs, markdown URLs and descriptions; fetch a result with get_page.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Keywords, e.g. \"bulk articles wordpress\"",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "ask_question",
+        "description": "Answer a plain-language question about Autoblogging.ai (pricing, plans, features, settings, integrations, comparisons) from its verified facts and its own pages; the same answer as fetching autoblogging.ai/{question-with-hyphens}. Returns markdown with the source page.",
+        "inputs": [
+          {
+            "name": "question",
+            "type": "string",
+            "description": "e.g. How much does Autoblogging.ai cost?",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_page",
+        "description": "The clean markdown text of any published page on autoblogging.ai (no navigation or scripts).",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "A URL or path on autoblogging.ai, e.g. https://autoblogging.ai/feature/quick-mode/",
+            "required": true
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "mcp:ai-autonomad-computeback",
@@ -18686,7 +19362,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 96,
+        "weeklyDownloads": 97,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -18748,7 +19424,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 99,
+        "weeklyDownloads": 101,
         "lastPublished": "2026-09-12T03:29:38.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -23289,1301 +23965,5 @@
       "truncated": false,
       "url": "https://github.com/opspot-ai/betslipdoctor-mcp#readme"
     }
-  },
-  {
-    "id": "mcp:ai-betterpost-server",
-    "name": "BetterPost",
-    "qualifiedName": "ai.betterpost/server",
-    "slug": "ai-betterpost-server",
-    "description": "Finds timely sources across news, social, and the web and writes posts worth publishing.",
-    "category": "Web & Search",
-    "repository": "https://github.com/betterpost/betterpost-plugin",
-    "homepage": "https://betterpost.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://betterpost.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-08T13:48:32.941236Z",
-    "repoMeta": {
-      "slug": "betterpost/betterpost-plugin",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-07-02T05:08:01Z",
-      "pushedAt": "2026-08-12T03:27:03Z",
-      "openIssues": 2,
-      "license": "MIT",
-      "language": "JavaScript"
-    },
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "betterpost_create_project",
-        "description": "Create a content project. Slow, one-shot: infers config (criteria, industry, tone), discovers sources, and gathers/ranks an initial set of timely stories. Best called after the inferred audience, description, and tone have been confirmed with the user, since the config shapes everything downstream.",
-        "inputs": [
-          {
-            "name": "title",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "audience",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "description",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "tone",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_generate_content",
-        "description": "Generate a new piece of content for a project from its timely, relevant stories. Fast in steady state. Charges credits on success only. If you pass a `topic` the project has no stories about, this returns a `topic_unavailable` error (no charge) carrying an `inScope` flag and next steps — it never silently writes an off-topic piece.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": "Output format. 'x' and 'bluesky' are generated as a single post or, more often, a short numbered thread of connected posts (multiple tweets) when there is enough to say — this is the default for those",
-            "required": true,
-            "enum": [
-              "blog",
-              "newsletter",
-              "linkedin",
-              "x",
-              "bluesky"
-            ]
-          },
-          {
-            "name": "topic",
-            "type": "string",
-            "description": "Steer the piece to a specific topic. Generation only writes from stories actually about it. If none exist yet, it returns topic_unavailable (no charge) with an inScope flag: inScope:true means the top",
-            "required": false
-          },
-          {
-            "name": "reuse",
-            "type": "boolean",
-            "description": "Reuse the most recent topic.",
-            "required": false
-          },
-          {
-            "name": "tieIn",
-            "type": "string",
-            "description": "A product/service to weave in.",
-            "required": false
-          },
-          {
-            "name": "wordLimit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_derive_content",
-        "description": "Transform an existing piece into another format (e.g. newsletter → tweet). No fetching; reuses the source stories and topic.",
-        "inputs": [
-          {
-            "name": "fromContentId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "blog",
-              "newsletter",
-              "linkedin",
-              "x",
-              "bluesky"
-            ]
-          },
-          {
-            "name": "tieIn",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_list_content",
-        "description": "List a project's content (summaries + shareable `publicUrl` links).",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_get_content",
-        "description": "Fetch one piece of content in full.",
-        "inputs": [
-          {
-            "name": "contentId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_delete_content",
-        "description": "Delete a piece of content and its hosted images.",
-        "inputs": [
-          {
-            "name": "contentId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_list_projects",
-        "description": "Returns your projects, each with its relevance `criteria` (with ids) that define what counts as on-topic.",
-        "inputs": null
-      },
-      {
-        "name": "betterpost_get_project",
-        "description": "Returns one project with its relevance `criteria` (each with an id, so a criterion can be targeted for removal via betterpost_update_project).",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_update_project",
-        "description": "Updates a project's title, audience, description, tone, freshness window, timezone, or relevance criteria, and returns the updated project with its criteria. Changing title/audience/description re-derives the relevance criteria (replace-all), which broadens or narrows what counts as on-topic. To edit criteria incrementally instead, pass `patch.addCriteria` (texts to append) and/or `patch.removeCri",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "patch",
-            "type": "object",
-            "description": "Partial update: EVERY field is optional — include only the fields you want to change and omit the rest (an omitted field is left untouched; there are no required patch fields). Passing an empty object",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_delete_project",
-        "description": "Permanently deletes a project and everything in it — its sources, stories, and content. Cannot be undone.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_list_sources",
-        "description": "Returns one slimmed page of a project's sources plus project-wide `total` and `counts` (ok/failing/disabled/pending, and byType). Page with `limit` (default 50) and `offset`, following the returned `nextOffset` until it is null.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Max sources to return (default 50).",
-            "required": false
-          },
-          {
-            "name": "offset",
-            "type": "integer",
-            "description": "Number of sources to skip; use the returned nextOffset to page.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_add_source",
-        "description": "Adds a source to a project and fetches it immediately (bounded by a few seconds), returning `storiesAdded` so the next generate_content can use it; if it is still fetching it returns `fetched:false` with a note. Doubles as manual source import: paste any URL (RSS/Atom feed, article, or a page, profile, or post on a supported platform) and leave `type` as autodetect, or create a recurring keyword s",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "value",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": "Source kind (one of the enum values; defaults to 'autodetect'). 'autodetect' infers the kind from `value` (a URL): RSS/Atom feeds, web pages, news, Reddit subreddits, X and Bluesky posts/users, Linked",
-            "required": false,
-            "enum": [
-              "autodetect",
-              "web-search",
-              "reddit-search",
-              "youtube-search",
-              "x",
-              "bluesky"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "betterpost_remove_source",
-        "description": "Removes a source from a project. Its already-gathered stories stay; the source is no longer fetched.",
-        "inputs": [
-          {
-            "name": "sourceId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_list_stories",
-        "description": "Returns a project's gathered stories, each with `title`, `url`, `summary`, `relevancy`, `publicationDate`, and `isManual`/`isHidden` flags. Pass includeHidden to include hidden ones.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "includeHidden",
-            "type": "boolean",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_add_story",
-        "description": "Manually imports a story you read about from its URL (pinned relevance, flagged is_manual) so generation can draw on it.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "url",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "summary",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_hide_story",
-        "description": "Hides a story so generation ignores it. Reversible with unhide_story.",
-        "inputs": [
-          {
-            "name": "storyId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_unhide_story",
-        "description": "Unhides a previously hidden story so generation can use it again.",
-        "inputs": [
-          {
-            "name": "storyId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_suggest_topics",
-        "description": "Clusters a project's current stories into a few candidate angles — each with a label, how many stories back it, and example headlines — and warms the project (gathers and ranks fresh stories) in the process. Returns topics you can offer the user before generate_content.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "blog",
-              "newsletter",
-              "linkedin",
-              "x",
-              "bluesky"
-            ]
-          },
-          {
-            "name": "count",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_get_usage",
-        "description": "Your credit balance, freeze state, and recent spend.",
-        "inputs": null
-      },
-      {
-        "name": "betterpost_get_settings",
-        "description": "Returns a project's per-content-type settings (wordLimit and additionalInstructions for each channel).",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "betterpost_update_settings",
-        "description": "Patches one content type's wordLimit and/or additionalInstructions (free-form writing guidance for that type; pass an empty string to clear it). Project-wide preferences (title/audience/tone, project-wide additionalInstructions) live on betterpost_update_project.",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "blog",
-              "newsletter",
-              "linkedin",
-              "x",
-              "bluesky"
-            ]
-          },
-          {
-            "name": "wordLimit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "additionalInstructions",
-            "type": "any",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_expand_coverage",
-        "description": "Broadens a project's coverage: expands the relevance criteria (when needed), finds more sources across news, the web, and the relevant social platforms, and fetches them inline. Applies on a `topic_unavailable`, `no_stories`, or low-coverage signal. May return `warming: true` with `retryAfterMs` (~60s), meaning the newly gathered stories are still landing. An out-of-scope `focus` requires `confirm",
-        "inputs": [
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "focus",
-            "type": "string",
-            "description": "The topic to get more on (e.g. \"League of Legends\"). Omit to broaden the whole project.",
-            "required": false
-          },
-          {
-            "name": "addAsCriteria",
-            "type": "boolean",
-            "description": "Also append an in-scope `focus` as a standing relevance criterion (out-of-scope, confirmed foci are added automatically).",
-            "required": false
-          },
-          {
-            "name": "confirmedByUser",
-            "type": "boolean",
-            "description": "Set true once the user has agreed to widen the project to an out-of-scope `focus`.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "betterpost_humanize",
-        "description": "Rewrite existing text into BetterPost's readable, human voice. Preserves the meaning, facts, links, and format; returns the rewritten text plus short notes on what changed. Pass `projectId` to write in that project's tone and instructions, `type` to apply a channel's style, or `tone` to set the voice directly.",
-        "inputs": [
-          {
-            "name": "text",
-            "type": "string",
-            "description": "The text to humanize (max 30,000 characters).",
-            "required": true
-          },
-          {
-            "name": "projectId",
-            "type": "string",
-            "description": "Use this project's tone and writing instructions.",
-            "required": false
-          },
-          {
-            "name": "type",
-            "type": "string",
-            "description": "Apply this channel's style rules to the rewrite.",
-            "required": false,
-            "enum": [
-              "blog",
-              "newsletter",
-              "linkedin",
-              "x",
-              "bluesky"
-            ]
-          },
-          {
-            "name": "tone",
-            "type": "string",
-            "description": "Tone override; wins over the project tone.",
-            "required": false
-          }
-        ]
-      }
-    ],
-    "readme": {
-      "markdown": "# BetterPost — agent plugin and skill\n\nWrite **timely, well-sourced content** — newsletters, blog posts, LinkedIn posts,\ntweets, and Bluesky posts — grounded in current sources across news, social, and the\nopen web. BetterPost finds recent sources relevant to your product and audience,\nranks them by relevance, and writes human-sounding content with real citations and\npublication dates.\n\nWorks in the agents you already use, through a single [MCP](https://modelcontextprotocol.io)\nserver. **Free to start** — sign in with your BetterPost account to get free credits.\n\n## Install\n\n### Any agent\n\n```\nnpx skills add betterpost/betterpost-plugin\n```\n\nThis installs the `betterpost` skill into whichever agent you use. It does not\nconfigure the MCP server — the skill walks your agent through registering\n`https://betterpost.ai/mcp` the first time you ask for content.\n\n### Claude Code\n\n```\n/plugin marketplace add betterpost/betterpost-plugin\n/plugin install betterpost@betterpost\n```\n\nThis installs the skill **and** registers the MCP server for you.\n\nEither way, ask your agent to write a newsletter or post about what's happening in\nyour space. It sets up a project and generates content grounded in current sources.\n\n## What's in here\n\n- `skills/betterpost/SKILL.md` — the skill your agent invokes.\n- `.mcp.json` — registers the hosted BetterPost MCP server.\n- `.claude-plugin/` — the plugin manifest and self-listed marketplace.\n- `.codex-plugin/`, `.cursor-plugin/`, `.kimi-plugin/`, `.agents/`, `.opencode/`,\n  `.pi/`, `gemini-extension.json` — manifests for the other agents.\n\n## Using the server directly\n\nAny MCP client can connect to `https://betterpost.ai` (Streamable HTTP). On first\nuse, the client prompts you to sign in with your BetterPost account (OAuth 2.1) and\nhandles the session for you — there's no token to copy or persist. New accounts get\nfree credits on sign-up.\n\n## Links\n\n- Website: https://betterpost.ai\n- Contact: hello@betterpost.ai\n\n## License\n\nMIT",
-      "truncated": false,
-      "url": "https://github.com/betterpost/betterpost-plugin#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-bezal-local-commerce",
-    "name": "Bezal — Local Business Intelligence for AI Agents",
-    "qualifiedName": "ai.bezal/local-commerce",
-    "slug": "ai-bezal-local-commerce",
-    "description": "Search 7,000+ local service businesses across America by category, location, or keyword.",
-    "category": "Web & Search",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://app.bezal.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-03-03T01:28:17.439049Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "search_businesses",
-        "description": "Search local business profiles on Bezal by name, category, or location. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "string",
-            "description": "Free-text search across business name and description",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Category keyword (e.g. \"plumbing\", \"hr consulting\")",
-            "required": false
-          },
-          {
-            "name": "city",
-            "type": "string",
-            "description": "City name",
-            "required": false
-          },
-          {
-            "name": "state",
-            "type": "string",
-            "description": "Two-letter state code or full state name",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Number of results to return (1-20)",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_business",
-        "description": "Get the public Bezal profile for one business by UUID. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium. For services, use get",
-        "inputs": [
-          {
-            "name": "id",
-            "type": "string",
-            "description": "The UUID of the business to look up",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "list_categories",
-        "description": "List all available business categories in the directory.",
-        "inputs": null
-      },
-      {
-        "name": "request_service",
-        "description": "Send a service request to a business on behalf of a person. Returns delivered: true only when the business owner was notified. Businesses that haven't claimed their Bezal profile get the request saved but aren't notified.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": "The UUID of the business to send the request to",
-            "required": true
-          },
-          {
-            "name": "seeker_name",
-            "type": "string",
-            "description": "Name of the person requesting the service",
-            "required": true
-          },
-          {
-            "name": "seeker_email",
-            "type": "string",
-            "description": "Email address of the requester",
-            "required": true
-          },
-          {
-            "name": "service_needed",
-            "type": "string",
-            "description": "Short description of the service category",
-            "required": false
-          },
-          {
-            "name": "message",
-            "type": "string",
-            "description": "Detailed message about what the requester needs",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "search_by_service",
-        "description": "Find businesses that list a specific service, when you know the exact service rather than the category (for example \"Drain cleaning\" rather than \"plumbing\"). Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for ",
-        "inputs": [
-          {
-            "name": "service_type",
-            "type": "string",
-            "description": "Exact service offered (matched against the services list)",
-            "required": true
-          },
-          {
-            "name": "location",
-            "type": "string",
-            "description": "Optional city or state to filter by",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_reviews",
-        "description": "Get reviews for a specific business: Bezal reviews (rating, text, verified flag, date and the reviewer as first name and last initial) plus the Google rating and review count.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": "Business UUID",
-            "required": true
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Max reviews to return",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_service_catalog",
-        "description": "Get services and pricing for a specific business. Falls back to the list of service names if no priced catalog exists.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": "Business UUID",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "check_business_availability",
-        "description": "Check whether a business is open on a date, based on its posted opening hours. Hours are shared only for providers on a paid Bezal plan, and other listings come back with open set to \"unknown\". It doesn't know about bookings, so confirm a time with the business.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": "Business UUID",
-            "required": true
-          },
-          {
-            "name": "date",
-            "type": "string",
-            "description": "ISO date (YYYY-MM-DD)",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "compare_businesses",
-        "description": "Compare up to 5 businesses side by side: the public profile fields plus services, BezalRank and whether the profile is claimed. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan",
-        "inputs": [
-          {
-            "name": "business_ids",
-            "type": "array",
-            "description": "Array of business UUIDs to compare",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "search_by_city",
-        "description": "Search for businesses in a specific city, optionally filtered by category. Every business includes name, category, city, state, rating, review count, tier and quote_request_url (its public Bezal profile, where a person can send a request). Phone, website, address, hours, photos and coordinates are included only for providers on a paid Bezal plan, and the description only on Business and Premium.",
-        "inputs": [
-          {
-            "name": "city",
-            "type": "string",
-            "description": "City name",
-            "required": true
-          },
-          {
-            "name": "state",
-            "type": "string",
-            "description": "Two-letter state code or full name",
-            "required": false
-          },
-          {
-            "name": "category",
-            "type": "string",
-            "description": "Category keyword filter",
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": "Max results",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "search_providers",
-        "description": "Legacy alias for search_businesses. Prefer search_businesses for new clients.",
-        "inputs": [
-          {
-            "name": "category",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "location",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "query",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "number",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "get_provider_details",
-        "description": "Legacy alias for get_business. Prefer get_business for new clients.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "submit_quote_request",
-        "description": "Legacy alias for request_service. Prefer request_service for new clients.",
-        "inputs": [
-          {
-            "name": "business_id",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "seeker_name",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "seeker_email",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "message",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-bidclub-bidclub",
-    "name": "bidclub",
-    "qualifiedName": "ai.bidclub/bidclub",
-    "slug": "ai-bidclub-bidclub",
-    "description": "Search 45+ investor podcasts and read transcripts, TL;DRs, digests — bilingual EN/中文, keyless.",
-    "category": "Web & Search",
-    "repository": null,
-    "homepage": "https://bidclub.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://bidclub.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-08-17T10:06:31.712458Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "bidclub_list_shows",
-        "description": "List every show in the BidClub library with its id, display name, source language, hosts, and source links. Start here when you need a show id for the show parameter of the other tools.",
-        "inputs": null
-      },
-      {
-        "name": "bidclub_list_episodes",
-        "description": "List episodes newest first, optionally narrowed to one show. Returns metadata only — titles, deks, dates, durations, participant chips and source links — never the digest or transcript. Use bidclub_get_episode for content.",
-        "inputs": [
-          {
-            "name": "show",
-            "type": "string",
-            "description": "Show id from bidclub_list_shows. Omit for the whole library.",
-            "required": false
-          },
-          {
-            "name": "source_lang",
-            "type": "string",
-            "description": "Filters by the episode's ORIGINAL language. Chinese digests exist for most English-source episodes, so do NOT set source_lang=ZH just because you want Chinese output — use the lang parameter on bidclu",
-            "required": false,
-            "enum": [
-              "EN",
-              "ZH"
-            ]
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": "Episodes per page.",
-            "required": false
-          },
-          {
-            "name": "offset",
-            "type": "integer",
-            "description": "Rows to skip. Page with the returned pagination.next_offset.",
-            "required": false
-          },
-          {
-            "name": "asset",
-            "type": "string",
-            "description": "Optional asset tag ids joined by commas (equities, crypto, vc_pe, other). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, including untagged; pass no",
-            "required": false
-          },
-          {
-            "name": "sector",
-            "type": "string",
-            "description": "Optional sector tag ids joined by commas (ai_software, semis, robotics, biotech, consumer, finance, blockchain, energy, space_defense). Matches any selected id within this facet and all supplied facet",
-            "required": false
-          },
-          {
-            "name": "focus",
-            "type": "string",
-            "description": "Optional focus tag ids joined by commas (investing, company_building, technical, macro, policy). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, incl",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "bidclub_search_episodes",
-        "description": "Full-text search across titles, deks, TL;DRs, digests and transcripts, with a substring sweep that handles Chinese queries the tokenizer cannot segment. Returns up to 20 metadata rows, never content. When the response carries partial: true the query only covered the newest searched_recent episodes, so say so rather than reporting an absence.",
-        "inputs": [
-          {
-            "name": "q",
-            "type": "string",
-            "description": "Query text. English words are stemmed; Chinese matches as a substring.",
-            "required": true
-          },
-          {
-            "name": "time",
-            "type": "string",
-            "description": "Restrict to episodes published within this window.",
-            "required": false,
-            "enum": [
-              "24h",
-              "7d",
-              "30d"
-            ]
-          },
-          {
-            "name": "person",
-            "type": "string",
-            "description": "Exact participant name, matched against the \"person:\" chips.",
-            "required": false
-          },
-          {
-            "name": "show",
-            "type": "string",
-            "description": "Show id from bidclub_list_shows.",
-            "required": false
-          },
-          {
-            "name": "source_lang",
-            "type": "string",
-            "description": "Filters by the episode's ORIGINAL language. Chinese digests exist for most English-source episodes, so do NOT set source_lang=ZH just because you want Chinese output — use the lang parameter on bidclu",
-            "required": false,
-            "enum": [
-              "EN",
-              "ZH"
-            ]
-          },
-          {
-            "name": "len",
-            "type": "string",
-            "description": "Episode duration bucket.",
-            "required": false,
-            "enum": [
-              "lt30",
-              "30to60",
-              "60to120",
-              "gt120"
-            ]
-          },
-          {
-            "name": "asset",
-            "type": "string",
-            "description": "Optional asset tag ids joined by commas (equities, crypto, vc_pe, other). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, including untagged; pass no",
-            "required": false
-          },
-          {
-            "name": "sector",
-            "type": "string",
-            "description": "Optional sector tag ids joined by commas (ai_software, semis, robotics, biotech, consumer, finance, blockchain, energy, space_defense). Matches any selected id within this facet and all supplied facet",
-            "required": false
-          },
-          {
-            "name": "focus",
-            "type": "string",
-            "description": "Optional focus tag ids joined by commas (investing, company_building, technical, macro, policy). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, incl",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "bidclub_get_episode",
-        "description": "Read one section of an episode. Long sections page deterministically: when the result says truncated: true, call again with offset set to next_offset and concatenate content_md until next_offset is null. Prefer tldr or digest — a transcript can exceed 100,000 characters and is rarely worth paging in full. lang selects the OUTPUT edition, not a catalogue filter; transcripts exist only in the episod",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Episode slug from a list or search result.",
-            "required": true
-          },
-          {
-            "name": "section",
-            "type": "string",
-            "description": "meta returns the row with no long markdown at all; tldr is the bullet summary; digest is the structured writeup; transcript is the full text.",
-            "required": false,
-            "enum": [
-              "meta",
-              "tldr",
-              "digest",
-              "transcript"
-            ]
-          },
-          {
-            "name": "lang",
-            "type": "string",
-            "description": "Output edition. A translated summary is served only when both the TL;DR and the digest translations are complete; otherwise the source edition comes back with lang_fallback: true.",
-            "required": false,
-            "enum": [
-              "EN",
-              "ZH"
-            ]
-          },
-          {
-            "name": "offset",
-            "type": "integer",
-            "description": "Code-point offset into the section. Use the previous next_offset.",
-            "required": false
-          },
-          {
-            "name": "max_chars",
-            "type": "integer",
-            "description": "Code points per window. Defaults to 20000 for Latin text and 14000 for Chinese or Japanese text, which cost about one token per character.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "bidclub_feed_index",
-        "description": "The slim catalogue of every episode — one row each, metadata only. Narrow it with show or person; passing both is an error. Large responses are truncated to the newest rows with a note, so filter rather than paging.",
-        "inputs": [
-          {
-            "name": "show",
-            "type": "string",
-            "description": "Show id. Mutually exclusive with person.",
-            "required": false
-          },
-          {
-            "name": "person",
-            "type": "string",
-            "description": "Exact participant name. Mutually exclusive with show.",
-            "required": false
-          },
-          {
-            "name": "asset",
-            "type": "string",
-            "description": "Optional asset tag ids joined by commas (equities, crypto, vc_pe, other). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, including untagged; pass no",
-            "required": false
-          },
-          {
-            "name": "sector",
-            "type": "string",
-            "description": "Optional sector tag ids joined by commas (ai_software, semis, robotics, biotech, consumer, finance, blockchain, energy, space_defense). Matches any selected id within this facet and all supplied facet",
-            "required": false
-          },
-          {
-            "name": "focus",
-            "type": "string",
-            "description": "Optional focus tag ids joined by commas (investing, company_building, technical, macro, policy). Matches any selected id within this facet and all supplied facets together. Omit for all episodes, incl",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "bidclub_download_links",
-        "description": "Build the download URLs for an episode or a whole show without fetching anything. Hand these to the user, or fetch one yourself when you need a complete transcript in a single request instead of paging it through bidclub_get_episode. Exactly one of slug or show is required.",
-        "inputs": [
-          {
-            "name": "slug",
-            "type": "string",
-            "description": "Episode slug. Mutually exclusive with show.",
-            "required": false
-          },
-          {
-            "name": "show",
-            "type": "string",
-            "description": "Show id, for the whole-show zip archives. Mutually exclusive with slug.",
-            "required": false
-          },
-          {
-            "name": "lang",
-            "type": "string",
-            "description": "Edition to request in the generated URLs. orig keeps each artifact in its source language.",
-            "required": false,
-            "enum": [
-              "orig",
-              "EN",
-              "ZH"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "mcp:ai-biddeed-biddeed-mcp",
-    "name": "BidDeed MCP",
-    "qualifiedName": "ai.biddeed/biddeed-mcp",
-    "slug": "ai-biddeed-biddeed-mcp",
-    "description": "AI-powered foreclosure auction intelligence for Florida counties via MCP tools.",
-    "category": "Other",
-    "repository": "https://github.com/breverdbidder/cli-anything-biddeed",
-    "homepage": "https://github.com/breverdbidder/cli-anything-biddeed",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.biddeed.ai/api/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 1,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-03T13:00:32.732972Z",
-    "repoMeta": {
-      "slug": "breverdbidder/cli-anything-biddeed",
-      "stars": 1,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-03-11T10:36:52Z",
-      "pushedAt": "2026-09-10T06:53:12Z",
-      "openIssues": 11799,
-      "license": null,
-      "language": "Python"
-    },
-    "toolsStatus": "auth",
-    "readme": {
-      "markdown": "# CLI-Anything BidDeed\n\n**Fork of [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)** — adapted for BidDeed.AI's foreclosure auction and zoning intelligence stack.\n\n> CLI-Anything: Making ALL Software Agent-Native.\n> This fork extends the methodology to API/DB backend targets.\n\n---\n\n## What This Fork Adds\n\nCLI-Anything was built for GUI desktop apps (Blender, GIMP, LibreOffice). This fork applies the same proven 7-phase pipeline to **cloud APIs, web scrapers, and database-backed agents** — proving the methodology is universal.\n\n### CLIs in This Fork\n\n| CLI | Domain | Backend | Status |\n|-----|--------|---------|--------|\n| `cli-anything-zonewise` | Zoning data scraper | Firecrawl + Gemini + Claude + Supabase | 🔨 Planned |\n| `cli-anything-auction` | Foreclosure analysis | RealForeclose + BCPAO + AcclaimWeb + Supabase | 🔨 Planned |\n| `cli-anything-swimintel` | Swim meet intelligence | PDF + pdfplumber + Node.js docx + Supabase | ✅ Agent #139 (19 tests) |\n| `cli-anything-btr` | Build-to-Rent + Distressed Assets | MAI Valuation + OpenMud + LangGraph + Supabase | ✅ Squad EVEREST-BTR (23 tests, 10 agents) |\n\n### Stack Extensions (BIDDEED_OVERLAY.md)\n\n| Extension | Description |\n|-----------|-------------|\n| Supabase State Layer | Hybrid persistence: JSON stdout for piping + Supabase for durability |\n| GitHub Actions | Nightly/on-demand agent scheduling via cron workflows |\n| Cost Tracking | Token budget enforcement per CLI invocation |\n| Audit Logging | Every agent decision logged to Supabase |\n| LangGraph Bridge | Multi-agent orchestration with checkpoint/resume |\n\n---\n\n## Quick Start\n\n```bash\n# Install shared utilities\ncd shared && pip install -e .\n\n# Install ZoneWise CLI\ncd zonewise/agent-harness && pip install -e .\ncli-anything-zonewise --help\n\n# Install Auction CLI\ncd auction/agent-harness && pip install -e .\ncli-anything-auction --help\n\n# Install SwimIntel CLI (Agent #139)\ncd swimintel/agent-harness && pip install -e .\ncli-anything-swimintel --help\n\n# Install BTR Squad (EVEREST-BTR — 10 agents)\ncd btr/agent-harness && pip install -e .\ncli-anything-btr --help\n```\n\n## Agent Piping\n\n```bash\n# Chain agents via JSON stdout\ncli-anything-zonewise --json parcel lookup --address \"123 Ocean Ave\" \\\n  | cli-anything-auction --json analyze --stdin\n\n# Persist results to Supabase\ncli-anything-auction --json analyze batch --date 2026-03-15 --persist\n\n# SwimIntel full pipeline — PDF in, DOCX report out\ncli-anything-swimintel pipeline --pdf psychsheet.pdf --swimmer \"Last, First\" -o report.docx\n\n# BTR Squad — full analysis pipeline\ncli-anything-btr --json analyze \"123 Ocean Ave\" --type sfr --scenario full\n\n# BTR MAI Valuation — 3-approach method\ncli-anything-btr --json mai \"456 Beach St\" --type multifamily \\\n  --noi 120000 --cap-rate 0.065 --comp-value 1800000 --cost-value 1650000\n\n# BTR Rehab — distressed asset max bid calc\ncli-anything-btr --json rehab \"789 Foreclosure Dr\" --type sfr \\\n  --arv 300000 --repairs 50000\n\n# Chain BTR with ZoneWise for HBU analysis\ncli-anything-zonewise --json parcel lookup --parcel \"12-34-56\" \\\n  | cli-anything-btr --json hbu --zoning \"RM-6\"\n```\n\n## Architecture\n\n- **HARNESS.md** — Upstream SOP (untouched)\n- **BIDDEED_OVERLAY.md** — Stack-specific extensions\n- **docs/plans/** — Design spec + implementation plan\n- **shared/** — Shared utilities (Supabase, cost, audit)\n- **zonewise/** — ZoneWise Scraper CLI\n- **auction/** — Auction Analyzer CLI\n- **swimintel/** — SwimIntel Competitive Intelligence CLI (Agent #139)\n- **btr/** — EVEREST-BTR Squad: Build-to-Rent + Distressed Assets (10 agents, 23 tests)\n\n## Upstream\n\nThis fork keeps the `cli_anything.*` namespace and follows HARNESS.md patterns to enable eventual contribution back to [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything).\n\n---\n\n## License\n\nMIT License — same as upstream.",
-      "truncated": false,
-      "url": "https://github.com/breverdbidder/cli-anything-biddeed#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-biel-biel-ai",
-    "name": "Biel.ai",
-    "qualifiedName": "ai.biel/biel-ai",
-    "slug": "ai-biel-biel-ai",
-    "description": "Query your product docs from AI tools. Source-cited answers from your indexed documentation.",
-    "category": "Docs & Knowledge",
-    "repository": "https://github.com/TechDocsStudio/biel-mcp",
-    "homepage": "https://biel.ai",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.biel.ai/v2/{project_slug}/mcp",
-        "headers": []
-      },
-      {
-        "type": "sse",
-        "url": "https://mcp.biel.ai/sse?project_slug={project_slug}&domain={domain}",
-        "headers": []
-      }
-    ],
-    "stars": 3,
-    "source": "MCP Registry",
-    "updatedAt": "2026-07-05T15:36:24.193043Z",
-    "repoMeta": {
-      "slug": "TechDocsStudio/biel-mcp",
-      "stars": 3,
-      "forks": 4,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2025-06-20T16:06:55Z",
-      "pushedAt": "2026-10-11T11:59:39Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "Python"
-    },
-    "toolsStatus": "error",
-    "readme": {
-      "markdown": "Biel.ai MCP Server\n  Connect your IDE to your product docs\n\nGive AI tools like Cursor, VS Code, and Claude Desktop access to your company's product knowledge through the [Biel.ai platform](https://biel.ai).\n\nBiel.ai provides a hosted Retrieval-Augmented Generation (RAG) layer that makes your documentation searchable and useful to AI tools. This enables smarter completions, accurate technical answers, and context-aware suggestions—directly in your IDE or chat environment.\n\nWhen AI tools can read your product documentation, they become **significantly** more helpful—generating more accurate code completions, answering technical questions with context, and guiding developers with real-time product knowledge.\n\n> **Note:** Requires a Biel.ai account and project setup. **[Start your free 15-day trial](https://app.biel.ai/accounts/signup/)**.\n\nSee quickstart instructions →\n\n## Getting started\n\n### 1. Get your MCP configuration\n\n```json\n{\n  \"mcpServers\": {\n    \"biel-ai\": {\n      \"description\": \"Query your product's documentation, APIs, and knowledge base.\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"mcp-remote\",\n        \"https://mcp.biel.ai/sse?project_slug=YOUR_PROJECT_SLUG&domain=https://your-docs-domain.com\"\n      ]\n    }\n  }\n}\n```\n\n**Required:** `project_slug` and `domain`  \n**Optional:** `api_key` (only needed for private projects)\n\n### 2. Add to your AI tool\n\n* **Cursor**: **Settings** → **Tools & Integrations* → **New MCP server**.\n* **Claude Desktop**: Edit `claude_desktop_config.json`  \n* **VS Code**: Install **MCP extension**.\n\n### 3. Start asking questions\n\n```\nCan you check in biel_ai what the auth headers are for the /users endpoint?\n```\n\n## Choose generated answers or search\n\nThe server exposes three tools:\n\n- `biel_ai`: ask Biel.ai to generate an answer, with conversational context. Existing calls using `message` continue to generate answers.\n- `biel_search`: hybrid keyword and semantic search over indexed web pages, uploaded files, repositories and OpenAPI sources, without answer generation.\n- `biel_get_document`: read the complete indexed text of a document returned by search.\n\nCall `biel_search` with a natural-language question or search terms:\n\n```json\n{\"query\": \"How do I authenticate with the SDK?\", \"limit\": 5}\n```\n\nSearch requests the API's `search_type=hybrid&source_types=all`. The REST API defaults to `search_type=keyword`, independently of the selected sources. Results include chunk text, source type, a `document_id`, and any page/sheet reference; non-URL documents are cited by title and location. The `limit` argument controls how many chunks are returned (default 5, maximum 20).\n\nUse `biel_get_document` with a search result's `document_id` to read the complete indexed document without visiting its source site:\n\n```json\n{\"document_id\": \"DOCUMENT_ID_FROM_SEARCH\", \"limit\": 20}\n```\n\nGet returns full indexed chunks in reading order, with PDF page and spreadsheet sheet references. Large documents include a `next_cursor`; repeat the call with that cursor and the same `document_id` and `limit` until it is absent. This returns the indexed text, not the original binary upload or live page HTML. References belong to the project's active index generation: search again after a recrawl invalidates a reference. Older repository and OpenAPI sources require a recrawl to populate parent-document identity before get is available.\n\nSearch and get do not create or continue a chat. Private projects require an API key with the `search` scope; generated answers use `chats_create`. All operations retain the API's project access, domain and quota checks. The default workflow is **search → get → answer using the retrieved text**. If the calling agent wants Biel.ai to generate an answer, it should ask the user first unless the user has already explicitly requested that. Retrieval failures never automatically switch to generated answers.\n\n## Self-hosting (Optional)\n\nFor advanced users who prefer to run their own MCP server instance:\n\n### Local development\n```bash\n# Clone and run locally\ngit clone https://github.com/TechDocsStudio/biel-mcp\ncd biel-mcp\npip install .\nbiel-mcp\n```\n\n### Use as a Python package\n\nApplications that host their own ASGI stack can install the server directly\nfrom a tagged revision and import its FastAPI application:\n\n```bash\npip install \"biel-mcp @ git+https://github.com/TechDocsStudio/biel-mcp.git@VERSION\"\n```\n\n```python\nfrom biel_mcp.server import app\n```\n\n### Docker deployment\n```bash\n# Docker Compose (recommended)\ndocker-compose up -d --build\n\n# Or Docker directly\ndocker build -t biel-mcp .\ndocker run -d -p 7832:7832 biel-mcp\n```\n\n### Request timeout and continuation\n\n`BIEL_MCP_READ_TIMEOUT_SECONDS` sets the upstream API read timeout (default: 60 seconds). Connect and pool timeouts remain 5 seconds, and writes have a 10-second timeout. Client deadlines can still end a request earlier.\n\nConversation credentials remain in the MCP session. After HTTP 404 for an expired session, initialize a new connection without the old session id. Tool failures return `isError: true`; the server logs `mcp.upstream_completed` with duration, status and the upstream request id.\n\n## Support\n\n- **Issues**: [GitHub Issues](https://github.com/techdocsStudio/biel-mcp/issues)\n- **Contact**: [support@biel.ai](mailto:support@biel.ai)\n- **Custom Demo**: [Book a demo](https://biel.ai/contact)",
-      "truncated": false,
-      "url": "https://github.com/TechDocsStudio/biel-mcp#readme"
-    }
-  },
-  {
-    "id": "mcp:ai-bindry-bindry",
-    "name": "Bindry",
-    "qualifiedName": "ai.bindry/bindry",
-    "slug": "ai-bindry-bindry",
-    "description": "Reuse your team's AI instructions (Bindings and Stacks) from Bindry in any MCP client.",
-    "category": "Other",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.bindry.ai/api/mcp",
-        "headers": [
-          {
-            "name": "X-Api-Key",
-            "description": "A Bindry API key, created on your workspace's Team page at https://bindry.ai/workspace",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ]
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-09-22T20:34:30.591525Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-bithuman-characters",
-    "name": "bitHuman",
-    "qualifiedName": "ai.bithuman/characters",
-    "slug": "ai-bithuman-characters",
-    "description": "Animated AI characters in your chat: short clips of a character saying your words, or a live talk.",
-    "category": "Other",
-    "repository": null,
-    "homepage": "https://www.bithuman.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.bithuman.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-10-08T04:00:20.766217Z",
-    "repoMeta": null,
-    "toolsStatus": "ok",
-    "tools": [
-      {
-        "name": "list_characters",
-        "description": "List the bitHuman house characters that can speak in a video: id, name, a short description and a picture.",
-        "inputs": null
-      },
-      {
-        "name": "make_character_video",
-        "description": "Make a short video of one bitHuman house character saying the given words, in its own voice. Use a character id from list_characters. The text is said word for word: 3 to 200 characters, about 15 seconds of speech. Returns a video URL that plays inline, labelled AI character.",
-        "inputs": [
-          {
-            "name": "character",
-            "type": "string",
-            "description": "The character id from list_characters.",
-            "required": true,
-            "enum": [
-              "wise-pup",
-              "pip-the-red-panda-barista",
-              "shelly-tidewater",
-              "gio-the-curious-giraffe-guide",
-              "grumblewick",
-              "bolt",
-              "mochi",
-              "sprocket",
-              "rusty",
-              "peanut",
-              "yuki",
-              "chef-waddles"
-            ]
-          },
-          {
-            "name": "text",
-            "type": "string",
-            "description": "The exact words the character says.",
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "talk_to_character",
-        "description": "Open a live voice conversation with one bitHuman house character in the chat. The character listens through the microphone and answers out loud for up to a minute. Use a character id from list_characters.",
-        "inputs": [
-          {
-            "name": "character",
-            "type": "string",
-            "description": "The character id from list_characters.",
-            "required": true,
-            "enum": [
-              "wise-pup",
-              "pip-the-red-panda-barista",
-              "shelly-tidewater",
-              "gio-the-curious-giraffe-guide",
-              "grumblewick",
-              "bolt",
-              "mochi",
-              "sprocket",
-              "rusty",
-              "peanut",
-              "yuki",
-              "chef-waddles"
-            ]
-          }
-        ]
-      }
-    ]
   }
 ]
