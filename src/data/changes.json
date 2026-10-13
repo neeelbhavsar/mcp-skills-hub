@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T14:53:51.128Z",
+  "generatedAt": "2026-10-13T13:52:47.505Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -9,20 +9,12 @@
       "revived": [],
       "movers": [
         {
-          "slug": "unreal-engine-skills-for-claude-code",
-          "name": "unreal-engine-skills-for-claude-code",
-          "description": "Control Unreal Editor directly from Claude Code via MCP. Hundreds of tools exposed via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing, and more.",
-          "category": "Coding & Engineering",
-          "delta": 69,
-          "stars": 522
-        },
-        {
           "slug": "vibe-prospecting",
           "name": "vibe-prospecting",
           "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
           "category": "Data & Analysis",
-          "delta": 8,
-          "stars": 149
+          "delta": 14,
+          "stars": 163
         }
       ],
       "counts": {
@@ -38,31 +30,47 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ae-easyvoice-tts",
-          "name": "EasyVoice text to speech",
-          "description": "Hosted text-to-speech MCP server: 66 voices in 9 languages, long-form narration, podcasts.",
-          "category": "Other"
+          "slug": "ai-agentboard-agentboard",
+          "name": "Agentboard",
+          "description": "The public message board for AI agents: register in one call, introduce yourself, ask, read replies.",
+          "category": "AI & Memory"
         },
         {
-          "slug": "ae-genosys-genosys",
-          "name": "GENOSYS UAE",
-          "description": "Shop GENOSYS Korean skincare in the UAE from chat: find products, AED prices, order and pay.",
+          "slug": "ai-alphabazaar-arena",
+          "name": "Alpha Bazaar Arena",
+          "description": "Paper-trading arena for AI agents: publish stock calls, build attested track records, compete.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-apir-verify",
+          "name": "APIR Agent Verification",
+          "description": "Check an AI agent you did not build: is it who it claims, inside its mandate, and what's its record",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-aquex-reasonbook",
+          "name": "Reasonbook",
+          "description": "Reasonbook: decisions that survive the session, in a local record AI agents keep.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-arcreport-ask",
+          "name": "ARC: open benchmark of whether AI agents can buy",
+          "description": "Free MCP for ARC's agent-commerce benchmark: read stores and protocols; submit stores or agent runs.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-arcreport-mcp",
+          "name": "ARC: agent checkout reachability",
+          "description": "Free, no sign-in MCP: can AI agents reach checkout at a store? Try: Use ARC to check allbirds.com",
           "category": "Commerce & Retail"
         },
         {
-          "slug": "ai-arabickeyboard-name-calligraphy",
-          "name": "Arabic Name Calligraphy",
-          "description": "Writes names in Arabic script with alternative spellings, six calligraphy styles and PNG artwork.",
-          "category": "Other"
+          "slug": "ai-atmark-atmark",
+          "name": "Atmark",
+          "description": "Email for AI agents: its own address, not your Gmail. Invite-only; requires an agent token.",
+          "category": "Productivity"
         },
-        {
-          "slug": "ai-autoblogging-autoblogging",
-          "name": "Autoblogging.ai",
-          "description": "Facts about Autoblogging.ai, the AI article writer: pricing, plans, features and site search.",
-          "category": "Docs & Knowledge"
-        }
-      ],
-      "removed": [
         {
           "slug": "ai-betterpost-server",
           "name": "BetterPost",
@@ -104,44 +112,127 @@
           "name": "bitHuman",
           "description": "Animated AI characters in your chat: short clips of a character saying your words, or a live talk.",
           "category": "Other"
+        },
+        {
+          "slug": "ai-bithuman-docs",
+          "name": "bitHuman docs",
+          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bitroad-bitroad",
+          "name": "bitroad",
+          "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-bittlebits-bittlebits",
+          "name": "BittleBits GEO Assistant",
+          "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "ai-bizmoon-regulatory",
+          "name": "regulatory",
+          "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-bizmuse-bizmuse",
+          "name": "BizMuse AI Music Video",
+          "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-blast-radius-blast-radius",
+          "name": "blast-radius",
+          "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-blipsmith-sound-effects",
+          "name": "Blipsmith Sound Effects",
+          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-bloopo-bloopo",
+          "name": "Bloopo — AI Ad & Creative Studio",
+          "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-blopus-search",
+          "name": "Web Search API for all your agents and LLMs",
+          "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bluenexus-universal-mcp",
+          "name": "BlueNexus Universal MCP",
+          "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-boardmark-boardmark",
+          "name": "BoardMark",
+          "description": "Issue board for teams: find, create and move issues, run sprints, comment and keep project docs.",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "ai-bodenrichtwert-mcp",
+          "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
+          "description": "German land values (Bodenrichtwerte) by address + land-use type. Coverage varies; not in SH/SN/BY.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-bolthub-mcp",
+          "name": "bolthub",
+          "description": "The bolthub API marketplace, L402 gateways, and your other MCP servers, on one Lightning budget.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-boolsai-directory",
+          "name": "Boolsai Directory",
+          "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "ai-boolsai-grep",
+          "name": "Boolsai Grep",
+          "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-boolsai-scan",
+          "name": "Boolsai Scan",
+          "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-boolsai-signals",
+          "name": "Boolsai Signals",
+          "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
+          "category": "Web & Search"
         }
       ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 4,
-        "removed": 7,
+        "added": 31,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 232,
-        "currentTotal": 229
+        "previousTotal": 229,
+        "currentTotal": 260
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "paperclipai-paperclip",
-          "name": "paperclip",
-          "description": "The open-source app everyone uses to manage agents at work",
-          "category": "MCP & Tooling"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "openhands-openhands",
-          "name": "OpenHands",
-          "description": "🙌 OpenHands: AI-Driven Development",
-          "category": "LLM Frameworks"
-        },
-        {
-          "slug": "upstash-context7",
-          "name": "context7",
-          "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-          "category": "MCP & Tooling"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [
@@ -150,16 +241,16 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "category": "MCP & Tooling",
-          "delta": 51617,
-          "stars": 138418
+          "delta": 52424,
+          "stars": 190842
         }
       ],
       "counts": {
-        "added": 1,
-        "removed": 2,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 122,
+        "previousTotal": 121,
         "currentTotal": 121
       }
     }
