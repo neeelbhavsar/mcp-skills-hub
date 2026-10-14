@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:52:47.505Z",
+  "generatedAt": "2026-10-14T11:29:43.066Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,16 +7,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 14,
-          "stars": 163
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -30,46 +21,72 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-agentboard-agentboard",
-          "name": "Agentboard",
-          "description": "The public message board for AI agents: register in one call, introduce yourself, ask, read replies.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-alphabazaar-arena",
-          "name": "Alpha Bazaar Arena",
-          "description": "Paper-trading arena for AI agents: publish stock calls, build attested track records, compete.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-apir-verify",
-          "name": "APIR Agent Verification",
-          "description": "Check an AI agent you did not build: is it who it claims, inside its mandate, and what's its record",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-aquex-reasonbook",
-          "name": "Reasonbook",
-          "description": "Reasonbook: decisions that survive the session, in a local record AI agents keep.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-arcreport-ask",
-          "name": "ARC: open benchmark of whether AI agents can buy",
-          "description": "Free MCP for ARC's agent-commerce benchmark: read stores and protocols; submit stores or agent runs.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-arcreport-mcp",
-          "name": "ARC: agent checkout reachability",
-          "description": "Free, no sign-in MCP: can AI agents reach checkout at a store? Try: Use ARC to check allbirds.com",
+          "slug": "ai-agenlify-catalog",
+          "name": "Agenlify AI Agent Directory",
+          "description": "Find AI tools by task, with pricing context, setup steps, limitations and official sources.",
           "category": "Commerce & Retail"
         },
         {
-          "slug": "ai-atmark-atmark",
-          "name": "Atmark",
-          "description": "Email for AI agents: its own address, not your Gmail. Invite-only; requires an agent token.",
-          "category": "Productivity"
+          "slug": "ai-agentese-lifeclaw-lifeclaw",
+          "name": "LifeClaw",
+          "description": "Call you, a person, or a business; find places, book or inquire by phone, and return the answer.",
+          "category": "AI & Memory"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ai-bassethound-bassethound",
+          "name": "bassethound",
+          "description": "Company intelligence for AI agents: a five-layer domain dossier in one sniff_domain call.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-bcited-bcited",
+          "name": "b/cited",
+          "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-beatbandit-beatbandit",
+          "name": "BeatBandit MCP",
+          "description": "AI story development, screenplay editing, review, media, and export tools for BeatBandit projects.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-beatra-beatra",
+          "name": "Beatra",
+          "description": "Images, video, music, speech, and public social data for AI agents.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-beevr-beevr",
+          "name": "BeevR",
+          "description": "Read-only access to BeevR's services, fixed-price MVP packages, case studies and articles (EN/VI).",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "ai-beket-audit",
+          "name": "audit",
+          "description": "See how AI assistants answer about your brand",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-benchgecko-benchgecko",
+          "name": "BenchGecko",
+          "description": "AI model prices per provider, benchmarks, own AI behavior tests and AI economy data, with sources.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-benroberts-b4-index",
+          "name": "B4 Index",
+          "description": "Independent build-vs-buy index: score software categories BUILD/BUY/BRIDGE/BEWARE.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-betslipdoctor-mcp",
+          "name": "BetSlip Doctor",
+          "description": "Bet slip grader: grade a parlay A+ to F- before you bet, track slips, history and Tail. 21+, US.",
+          "category": "Other"
         },
         {
           "slug": "ai-betterpost-server",
@@ -216,22 +233,28 @@
           "category": "Web & Search"
         }
       ],
-      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 31,
-        "removed": 0,
+        "added": 2,
+        "removed": 33,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 229,
-        "currentTotal": 260
+        "previousTotal": 260,
+        "currentTotal": 229
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "leonxlnx-taste-skill",
+          "name": "taste-skill",
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+          "category": "AI Agents"
+        }
+      ],
       "removed": [],
       "deprecated": [],
       "revived": [],
@@ -241,17 +264,17 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "category": "MCP & Tooling",
-          "delta": 52424,
-          "stars": 190842
+          "delta": 34800,
+          "stars": 225642
         }
       ],
       "counts": {
-        "added": 0,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 121,
-        "currentTotal": 121
+        "currentTotal": 122
       }
     }
   }
