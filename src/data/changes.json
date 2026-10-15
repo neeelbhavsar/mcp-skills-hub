@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T11:29:43.066Z",
+  "generatedAt": "2026-10-15T11:06:51.400Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,7 +7,24 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "superdesign",
+          "name": "superdesign",
+          "description": "Design or redesign frontend UI and marketing graphics on the Superdesign infinite canvas. Reads your codebase for context, sets up a design system, and generates branchable design drafts you refine.",
+          "category": "Design & Creative",
+          "delta": 49,
+          "stars": 736
+        },
+        {
+          "slug": "vibe-prospecting",
+          "name": "vibe-prospecting",
+          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
+          "category": "Data & Analysis",
+          "delta": 10,
+          "stars": 181
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -21,19 +38,11 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-agenlify-catalog",
-          "name": "Agenlify AI Agent Directory",
-          "description": "Find AI tools by task, with pricing context, setup steps, limitations and official sources.",
-          "category": "Commerce & Retail"
+          "slug": "ai-audiopod-audiopod-core",
+          "name": "AudioPod AI (core)",
+          "description": "Transcribe with speaker labels, split stems, remove noise, separate speakers, convert audio to MIDI.",
+          "category": "Design & Media"
         },
-        {
-          "slug": "ai-agentese-lifeclaw-lifeclaw",
-          "name": "LifeClaw",
-          "description": "Call you, a person, or a business; find places, book or inquire by phone, and return the answer.",
-          "category": "AI & Memory"
-        }
-      ],
-      "removed": [
         {
           "slug": "ai-bassethound-bassethound",
           "name": "bassethound",
@@ -213,49 +222,45 @@
           "name": "Boolsai Directory",
           "description": "Indexed ecommerce site directory — vendor lookups, brands by city/market/founder. 10 tools.",
           "category": "Commerce & Retail"
-        },
-        {
-          "slug": "ai-boolsai-grep",
-          "name": "Boolsai Grep",
-          "description": "Parallel regex across all Boolsai scans — discover new vendor patterns, niche signals. 4 tools.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-boolsai-scan",
-          "name": "Boolsai Scan",
-          "description": "Live tech-stack scan of any public site — vendors, account IDs, scripts, JSON-LD. 2 tools.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-boolsai-signals",
-          "name": "Boolsai Signals",
-          "description": "Quant-research MCP — tradeable signals from public-company website stack changes. 7 tools.",
-          "category": "Web & Search"
         }
       ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 33,
+        "added": 31,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 260,
-        "currentTotal": 229
+        "previousTotal": 229,
+        "currentTotal": 260
       }
     },
     "repos": {
       "baseline": true,
       "added": [
         {
-          "slug": "leonxlnx-taste-skill",
-          "name": "taste-skill",
-          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-          "category": "AI Agents"
+          "slug": "pathwaycom-serviette",
+          "name": "serviette",
+          "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+          "category": "RAG & Retrieval"
         }
       ],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "rohitg00-ai-engineering-from-scratch",
+          "name": "ai-engineering-from-scratch",
+          "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "pathwaycom-llm-app",
+          "name": "llm-app",
+          "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+          "category": "RAG & Retrieval"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [
@@ -264,17 +269,17 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "category": "MCP & Tooling",
-          "delta": 34800,
-          "stars": 225642
+          "delta": 31367,
+          "stars": 257009
         }
       ],
       "counts": {
         "added": 1,
-        "removed": 0,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 121,
-        "currentTotal": 122
+        "previousTotal": 122,
+        "currentTotal": 121
       }
     }
   }
