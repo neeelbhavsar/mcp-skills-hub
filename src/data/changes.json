@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T11:06:51.400Z",
+  "generatedAt": "2026-10-16T11:02:27.988Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,16 +13,8 @@
           "name": "superdesign",
           "description": "Design or redesign frontend UI and marketing graphics on the Superdesign infinite canvas. Reads your codebase for context, sets up a design system, and generates branchable design drafts you refine.",
           "category": "Design & Creative",
-          "delta": 49,
-          "stars": 736
-        },
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 10,
-          "stars": 181
+          "delta": 57,
+          "stars": 793
         }
       ],
       "counts": {
@@ -38,179 +30,31 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-audiopod-audiopod-core",
-          "name": "AudioPod AI (core)",
-          "description": "Transcribe with speaker labels, split stems, remove noise, separate speakers, convert audio to MIDI.",
-          "category": "Design & Media"
+          "slug": "academy-apexai-apex-ai-academy",
+          "name": "Apex AI Academy",
+          "description": "Lessons, news and pricing from Apex AI Academy, an AI academy run by agents. Free lessons, no key.",
+          "category": "Commerce & Retail"
         },
         {
-          "slug": "ai-bassethound-bassethound",
-          "name": "bassethound",
-          "description": "Company intelligence for AI agents: a five-layer domain dossier in one sniff_domain call.",
+          "slug": "ae-waggle-fenlight",
+          "name": "Fenlight",
+          "description": "Google search results, forum threads, local and shopping data, keyword ideas, AI answer tracking.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-annsa-annsa",
+          "name": "Annsa",
+          "description": "The source of direction for your agents: what to build next, its spec and the calls you made.",
           "category": "AI & Memory"
         },
         {
-          "slug": "ai-bcited-bcited",
-          "name": "b/cited",
-          "description": "AEO tools: scan any URL for AI-citation readiness, read the public leaderboard and citation panel.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-beatbandit-beatbandit",
-          "name": "BeatBandit MCP",
-          "description": "AI story development, screenplay editing, review, media, and export tools for BeatBandit projects.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-beatra-beatra",
-          "name": "Beatra",
-          "description": "Images, video, music, speech, and public social data for AI agents.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-beevr-beevr",
-          "name": "BeevR",
-          "description": "Read-only access to BeevR's services, fixed-price MVP packages, case studies and articles (EN/VI).",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "ai-beket-audit",
-          "name": "audit",
-          "description": "See how AI assistants answer about your brand",
+          "slug": "ai-askyouraudience-ask-your-audience",
+          "name": "Ask Your Audience",
+          "description": "Test ideas, messages and ads with Human Digital Twins built from real people, in your AI assistant.",
           "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-benchgecko-benchgecko",
-          "name": "BenchGecko",
-          "description": "AI model prices per provider, benchmarks, own AI behavior tests and AI economy data, with sources.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-benroberts-b4-index",
-          "name": "B4 Index",
-          "description": "Independent build-vs-buy index: score software categories BUILD/BUY/BRIDGE/BEWARE.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-betslipdoctor-mcp",
-          "name": "BetSlip Doctor",
-          "description": "Bet slip grader: grade a parlay A+ to F- before you bet, track slips, history and Tail. 21+, US.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-betterpost-server",
-          "name": "BetterPost",
-          "description": "Finds timely sources across news, social, and the web and writes posts worth publishing.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-bezal-local-commerce",
-          "name": "Bezal — Local Business Intelligence for AI Agents",
-          "description": "Search 7,000+ local service businesses across America by category, location, or keyword.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-bidclub-bidclub",
-          "name": "bidclub",
-          "description": "Search 45+ investor podcasts and read transcripts, TL;DRs, digests — bilingual EN/中文, keyless.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-biddeed-biddeed-mcp",
-          "name": "BidDeed MCP",
-          "description": "AI-powered foreclosure auction intelligence for Florida counties via MCP tools.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-biel-biel-ai",
-          "name": "Biel.ai",
-          "description": "Query your product docs from AI tools. Source-cited answers from your indexed documentation.",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "ai-bindry-bindry",
-          "name": "Bindry",
-          "description": "Reuse your team's AI instructions (Bindings and Stacks) from Bindry in any MCP client.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-bithuman-characters",
-          "name": "bitHuman",
-          "description": "Animated AI characters in your chat: short clips of a character saying your words, or a live talk.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-bithuman-docs",
-          "name": "bitHuman docs",
-          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-bitroad-bitroad",
-          "name": "bitroad",
-          "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-bittlebits-bittlebits",
-          "name": "BittleBits GEO Assistant",
-          "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "ai-bizmoon-regulatory",
-          "name": "regulatory",
-          "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-bizmuse-bizmuse",
-          "name": "BizMuse AI Music Video",
-          "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-blast-radius-blast-radius",
-          "name": "blast-radius",
-          "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-blipsmith-sound-effects",
-          "name": "Blipsmith Sound Effects",
-          "description": "Game sound effects from a text prompt: game-ready WAVs with seamless loops and variations.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-bloopo-bloopo",
-          "name": "Bloopo — AI Ad & Creative Studio",
-          "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-blopus-search",
-          "name": "Web Search API for all your agents and LLMs",
-          "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-bluenexus-universal-mcp",
-          "name": "BlueNexus Universal MCP",
-          "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-boardmark-boardmark",
-          "name": "BoardMark",
-          "description": "Issue board for teams: find, create and move issues, run sprints, comment and keep project docs.",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "ai-bodenrichtwert-mcp",
-          "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
-          "description": "German land values (Bodenrichtwerte) by address + land-use type. Coverage varies; not in SH/SN/BY.",
-          "category": "AI & Memory"
-        },
+        }
+      ],
+      "removed": [
         {
           "slug": "ai-bolthub-mcp",
           "name": "bolthub",
@@ -224,41 +68,27 @@
           "category": "Commerce & Retail"
         }
       ],
-      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 31,
-        "removed": 0,
+        "added": 4,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 229,
-        "currentTotal": 260
+        "previousTotal": 260,
+        "currentTotal": 262
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "pathwaycom-serviette",
-          "name": "serviette",
-          "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
-          "category": "RAG & Retrieval"
-        }
-      ],
+      "added": [],
       "removed": [
         {
-          "slug": "rohitg00-ai-engineering-from-scratch",
-          "name": "ai-engineering-from-scratch",
-          "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-          "category": "MCP & Tooling"
-        },
-        {
-          "slug": "pathwaycom-llm-app",
-          "name": "llm-app",
-          "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
-          "category": "RAG & Retrieval"
+          "slug": "google-adk-python",
+          "name": "adk-python",
+          "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+          "category": "AI Agents"
         }
       ],
       "deprecated": [],
@@ -269,17 +99,17 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "category": "MCP & Tooling",
-          "delta": 31367,
-          "stars": 257009
+          "delta": 24941,
+          "stars": 281950
         }
       ],
       "counts": {
-        "added": 1,
-        "removed": 2,
+        "added": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 122,
-        "currentTotal": 121
+        "previousTotal": 121,
+        "currentTotal": 120
       }
     }
   }
