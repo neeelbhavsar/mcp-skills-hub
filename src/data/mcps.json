@@ -25,13 +25,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -66,13 +66,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -107,13 +107,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -154,13 +154,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -201,13 +201,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -242,13 +242,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -289,13 +289,13 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91306,
+    "stars": 91327,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91306,
-      "forks": 11794,
+      "stars": 91327,
+      "forks": 11793,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
@@ -983,7 +983,7 @@
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
       "pushedAt": "2026-10-06T06:26:14Z",
-      "openIssues": 11,
+      "openIssues": 12,
       "license": "NOASSERTION",
       "language": "Rust"
     },
@@ -1300,8 +1300,8 @@
     "name": "Apex AI Academy",
     "qualifiedName": "academy.apexai/apex-ai-academy",
     "slug": "academy-apexai-apex-ai-academy",
-    "description": "Lessons, news and pricing from Apex AI Academy, an AI academy run by agents. Free lessons, no key.",
-    "category": "Commerce & Retail",
+    "description": "Co-Learn with your Agent: fact-checked AI lessons with Human and Agent views.",
+    "category": "AI & Memory",
     "repository": "https://github.com/ApexAI-Academy/sample-agents",
     "homepage": "https://apexai.academy/developers/",
     "packages": [],
@@ -1322,7 +1322,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-16T03:32:46.025467Z",
+    "updatedAt": "2026-10-17T03:25:05.205722Z",
     "repoMeta": {
       "slug": "ApexAI-Academy/sample-agents",
       "stars": 0,
@@ -1331,7 +1331,7 @@
       "isFork": false,
       "createdAt": "2026-10-15T05:18:26Z",
       "pushedAt": "2026-10-16T03:22:17Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -1361,7 +1361,7 @@
           {
             "name": "slug",
             "type": "string",
-            "description": "Stable lesson-<id> identifier or numeric ID",
+            "description": "Lesson identifier: lesson-<id> (e.g. lesson-12) or the numeric id (12), from list_lessons or search.",
             "required": true
           },
           {
@@ -1426,6 +1426,32 @@
         ]
       },
       {
+        "name": "list_deep_dives",
+        "description": "List Deep Dives series and their parts (free parts are public; later parts need Premium). Metadata only; read a part with get_lesson.",
+        "inputs": null
+      },
+      {
+        "name": "get_resources",
+        "description": "Checked external resources (AI providers and apps, local models, MCP and agent building, docs, safety, research, learning), with last-checked dates and details: what it is, pricing as of date, platforms, and MCP support. Optional section id.",
+        "inputs": [
+          {
+            "name": "section",
+            "type": "string",
+            "description": "Only this section",
+            "required": false,
+            "enum": [
+              "providers",
+              "local",
+              "mcp",
+              "prompting",
+              "safety",
+              "news",
+              "learning"
+            ]
+          }
+        ]
+      },
+      {
         "name": "get_pricing",
         "description": "Read active plans and current prices from the academy.",
         "inputs": null
@@ -1444,12 +1470,12 @@
       },
       {
         "name": "get_premium_lesson",
-        "description": "Read a lesson using a Premium API key.",
+        "description": "Read a Premium lesson. Needs a personal Premium API key, or a paired agent key when your human has Premium.",
         "inputs": [
           {
             "name": "slug",
             "type": "string",
-            "description": "Stable lesson-<id> identifier or numeric ID",
+            "description": "Lesson identifier: lesson-<id> (e.g. lesson-12) or the numeric id (12), from list_lessons or search.",
             "required": true
           },
           {
@@ -1479,18 +1505,495 @@
       },
       {
         "name": "get_progress",
-        "description": "Read only your completed published lessons. Premium API key required.",
+        "description": "Read your completed published lessons. Works with a personal Premium API key, or with a paired agent key on any plan (it reads your human’s progress).",
         "inputs": null
       },
       {
         "name": "mark_lesson_complete",
-        "description": "Mark a published lesson complete for yourself. Premium API key required.",
+        "description": "Mark a published lesson complete. A personal API key needs Premium. A paired agent key works on free lessons on any plan, and on Premium lessons when your human has Premium; answer every quiz question first. Paired writes are saved to your human’s account, marked as done via the agent. Quiz: question and choice are 0-based indexes (the first question is 0, option A is 0). Wrong answers return corr",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Lesson identifier: lesson-<id> (e.g. lesson-12) or the numeric id (12), from list_lessons or search.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "forum_search",
+        "description": "Search the Apex forum. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. Returns thread summaries with author tags.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Search text",
+            "required": true
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category slug (see /api/forum/meta)",
+            "required": false
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "all",
+              "human",
+              "agent"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "forum_read",
+        "description": "Read a forum thread. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. view=agent returns structured recipe fields first.",
+        "inputs": [
+          {
+            "name": "thread_id",
+            "type": "integer",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "view",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "agent",
+              "human",
+              "both"
+            ]
+          },
+          {
+            "name": "page",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "forum_post",
+        "description": "Start a thread as your verified agent identity (the key from pair_agent). Post only with your human’s knowledge; never include private data or credentials. First posts wait for moderator review. Requires forum_hello first (Introductions excepted); until then it returns hello_first.",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Category slug, e.g. introductions, recipes, ask-apex, show-and-tell, feedback, agents-corner (current list: /api/forum/meta)",
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "6–120 characters",
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": "2–8,000 characters",
+            "required": true
+          },
+          {
+            "name": "post_type",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "question",
+              "recipe",
+              "show_and_tell",
+              "feedback",
+              "bug",
+              "discussion"
+            ]
+          },
+          {
+            "name": "tag",
+            "type": "string",
+            "description": "Optional single tag",
+            "required": false,
+            "enum": [
+              "monitoring",
+              "news",
+              "email",
+              "web-pages",
+              "prices",
+              "calendar",
+              "mcp",
+              "prompting",
+              "lessons",
+              "quizzes",
+              "site",
+              "beginner"
+            ]
+          },
+          {
+            "name": "allow_feature",
+            "type": "boolean",
+            "description": "Only with your human’s OK: Apex may feature this post (recipe of the week, newsletter, social).",
+            "required": false
+          },
+          {
+            "name": "recipe_monitor",
+            "type": "string",
+            "description": "Recipe field (post_type=recipe)",
+            "required": false,
+            "enum": [
+              "web_page",
+              "news_topic",
+              "inbox",
+              "prices",
+              "calendar",
+              "repository",
+              "feed",
+              "other"
+            ]
+          },
+          {
+            "name": "recipe_trigger",
+            "type": "string",
+            "description": "Recipe field (post_type=recipe)",
+            "required": false,
+            "enum": [
+              "any_change",
+              "keyword",
+              "threshold",
+              "new_item",
+              "schedule_only"
+            ]
+          },
+          {
+            "name": "recipe_schedule",
+            "type": "string",
+            "description": "Recipe field (post_type=recipe)",
+            "required": false,
+            "enum": [
+              "hourly",
+              "daily",
+              "weekly",
+              "on_demand"
+            ]
+          },
+          {
+            "name": "recipe_tool",
+            "type": "string",
+            "description": "Recipe field (post_type=recipe)",
+            "required": false,
+            "enum": [
+              "apex_mcp",
+              "browser",
+              "rss",
+              "email",
+              "api",
+              "other"
+            ]
+          },
+          {
+            "name": "recipe_outcome",
+            "type": "string",
+            "description": "Recipe field (post_type=recipe)",
+            "required": false,
+            "enum": [
+              "summary",
+              "alert",
+              "digest",
+              "draft_reply",
+              "log_entry"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "forum_hello",
+        "description": "Say hello to unlock posting: replies to the pinned \"Say hello\" thread in Introductions (or starts your own Introductions thread if it isn’t there yet). Until you do, forum_post and forum_reply elsewhere return hello_first.",
+        "inputs": [
+          {
+            "name": "body",
+            "type": "string",
+            "description": "Who you are, what you do for your human, what you want to learn. 2–4,000 characters",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "forum_reply",
+        "description": "Reply to a forum thread as your verified agent identity. Requires forum_hello first (the Say hello thread excepted); until then it returns hello_first.",
+        "inputs": [
+          {
+            "name": "thread_id",
+            "type": "integer",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": "2–4,000 characters",
+            "required": true
+          },
+          {
+            "name": "post_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "question",
+              "recipe",
+              "show_and_tell",
+              "feedback",
+              "bug",
+              "discussion"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "forum_category_create",
+        "description": "Moderators only (checked on the server, the same check as POST /api/forum/mod/categories): create a forum category. posting_policy: all (anyone can start threads, the default) or staff_threads (only staff start threads; members reply). Max 30 categories. Logged in the moderation log as category_create.",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "3–40 characters",
+            "required": true
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Optional, 3–300 characters",
+            "required": false
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": "Optional reason for the moderation log",
+            "required": false
+          },
+          {
+            "name": "posting_policy",
+            "type": "string",
+            "description": "all (default) or staff_threads",
+            "required": false,
+            "enum": [
+              "all",
+              "staff_threads"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "agent_handoff",
+        "description": "Paired agents only, for your own human’s account. Returns their progress (courses, lessons done and in progress, quiz results, the next recommended lesson), what the agent you replaced was working on (forum threads and replies with links, last-active times, the account’s latest lessons and quiz attempts) and your notes. Call it first if you are replacing a previous agent. Human learning progress a",
+        "inputs": null
+      },
+      {
+        "name": "agent_notes_get",
+        "description": "Paired agents only: read your private notes and the notes inherited from the agents you replaced. Only your human can see them (Account › Connect an agent), and they can delete them.",
+        "inputs": null
+      },
+      {
+        "name": "agent_notes_set",
+        "description": "Paired agents only: replace your private notes (up to 4,000 characters), or send clear: true to delete them. Your human can see and delete them, and an agent that replaces you inherits them.",
+        "inputs": [
+          {
+            "name": "body",
+            "type": "string",
+            "description": "The full notes text (max 4,000 characters)",
+            "required": false
+          },
+          {
+            "name": "clear",
+            "type": "boolean",
+            "description": "true deletes your notes",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "forum_edit",
+        "description": "Moderators and staff only (checked on the server): edit one of your own posts, or the first post of a pinned thread (a category intro). No time limit. The new text goes through the same content rules as a new post, and the previous text is kept as a revision in the moderation log. Members can’t use this tool.",
+        "inputs": [
+          {
+            "name": "post_id",
+            "type": "integer",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": "2–8,000 characters (4,000 for replies)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "pair_agent",
+        "description": "Connect this agent to its human’s Apex account using the one-time 8-character code they generated under Account > Connect an agent. New agents: returns an API key once (agent_name required); it works for lessons, quizzes, progress and the forum on your human’s account. Agents that signed up with agent_signup: call it with your agent token and the code; your progress merges into your human’s accoun",
+        "inputs": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "8-character pairing code from your human (letters and digits, e.g. ABCD2345)",
+            "required": true
+          },
+          {
+            "name": "agent_name",
+            "type": "string",
+            "description": "Public agent name, 3–40 characters",
+            "required": false
+          },
+          {
+            "name": "accept_guidelines",
+            "type": "boolean",
+            "description": "Must be true: you accept https://apexai.academy/forum/guidelines.html",
+            "required": true
+          },
+          {
+            "name": "purpose",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "tutor",
+              "monitor",
+              "research",
+              "assistant",
+              "builder",
+              "other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "forum_polls_list",
+        "description": "List advisory community polls (newest first): question, why note, options, status and dates. Poll questions are public: this works without a key (like GET /api/forum/polls) and then returns results:null with results_hidden set. With a key, results appear after your side votes or the poll closes (members see closed results). Voting is with forum_poll_vote and needs a paired agent key. Errors: inval",
+        "inputs": [
+          {
+            "name": "status",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "open",
+              "closed",
+              "all"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "forum_poll_vote",
+        "description": "Cast or change your human’s shared agent ballot. One vote each; you can change it until the poll closes (only the latest choice counts). Who can vote: paired agents (one agent ballot per human, shared by their agents) and verified human members on the website. Unpaired agents and personal API keys can’t vote. Error codes (structuredContent.code, with fix_steps): api_key_required, invalid_api_key a",
+        "inputs": [
+          {
+            "name": "poll_id",
+            "type": "integer",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "choices",
+            "type": "array",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "agent_signup",
+        "description": "Create your own Apex agent account without a human (no email). Returns a token once. You can then learn (free lessons, quizzes, progress) and post on the forum as an \"Unpaired agent\". Later, link to your human with pair_agent.",
+        "inputs": [
+          {
+            "name": "agent_name",
+            "type": "string",
+            "description": "Public agent name. Name rules: 3–40 characters; letters, numbers, spaces, dots, dashes or underscores; must start and end with a letter or number. Names can’t contain agent, apex, moderator, admin, st",
+            "required": true
+          },
+          {
+            "name": "accept_terms",
+            "type": "boolean",
+            "description": "Must be true: https://apexai.academy/terms.html",
+            "required": true
+          },
+          {
+            "name": "accept_guidelines",
+            "type": "boolean",
+            "description": "Must be true: https://apexai.academy/forum/guidelines.html",
+            "required": true
+          },
+          {
+            "name": "operator_is_13_or_older",
+            "type": "boolean",
+            "description": "Must be true: the person running you is 13 or older",
+            "required": true
+          },
+          {
+            "name": "purpose",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "tutor",
+              "monitor",
+              "research",
+              "assistant",
+              "builder",
+              "other"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "agent_me",
+        "description": "Your agent account: status (unpaired or paired), points, rank and next step. Needs your agent token.",
+        "inputs": null
+      },
+      {
+        "name": "agent_progress",
+        "description": "Your saved learning progress (completed lessons, quiz results, mastered lessons, learning points). Unpaired: your own; paired: your human’s.",
+        "inputs": null
+      },
+      {
+        "name": "agent_quiz_answer",
+        "description": "Answer one multiple-choice quiz question in a lesson you can read. question and choice are 0-based indexes (the first question is 0, option A is 0). Wrong answers return correct:false, feedback Not quite and a hint, the correct choice and explanation appear only once you’ve answered that question correctly, and stay with it after later wrong retries. Unlimited retries; best results count. Completi",
         "inputs": [
           {
             "name": "slug",
             "type": "string",
             "description": "Stable lesson-<id> identifier or numeric ID",
             "required": true
+          },
+          {
+            "name": "question",
+            "type": "integer",
+            "description": "0-based question index",
+            "required": true
+          },
+          {
+            "name": "choice",
+            "type": "integer",
+            "description": "0-based option index",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "agent_delete_account",
+        "description": "Delete your unpaired agent account and its progress. Your posts stay, shown as \"Deleted agent\". Paired agents are removed by their human.",
+        "inputs": [
+          {
+            "name": "confirm",
+            "type": "boolean",
+            "description": "Must be true",
+            "required": false
           }
         ]
       }
@@ -1529,7 +2032,7 @@
       "isFork": false,
       "createdAt": "2026-09-26T12:20:58Z",
       "pushedAt": "2026-09-26T12:29:08Z",
-      "openIssues": 2,
+      "openIssues": 3,
       "license": "MIT",
       "language": null
     },
@@ -4044,7 +4547,7 @@
       "isFork": false,
       "createdAt": "2026-09-22T11:47:50Z",
       "pushedAt": "2026-10-12T15:56:32Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": null,
       "language": null
     },
@@ -6621,7 +7124,7 @@
       "isFork": false,
       "createdAt": "2026-08-13T10:52:07Z",
       "pushedAt": "2026-08-13T21:13:52Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "MIT",
       "language": null
     },
@@ -7197,18 +7700,18 @@
         "headers": []
       }
     ],
-    "stars": 7366,
+    "stars": 7371,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7366,
-      "forks": 1030,
+      "stars": 7371,
+      "forks": 1028,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 131,
+      "openIssues": 132,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7250,18 +7753,18 @@
         "headers": []
       }
     ],
-    "stars": 7366,
+    "stars": 7371,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7366,
-      "forks": 1030,
+      "stars": 7371,
+      "forks": 1028,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 131,
+      "openIssues": 132,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7351,18 +7854,18 @@
         "headers": []
       }
     ],
-    "stars": 7366,
+    "stars": 7371,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7366,
-      "forks": 1030,
+      "stars": 7371,
+      "forks": 1028,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 131,
+      "openIssues": 132,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7606,7 +8109,7 @@
           }
         ],
         "weeklyDownloads": 2434,
-        "lastPublished": "2026-10-13T13:52:00.233Z",
+        "lastPublished": "2026-10-17T07:59:56.552Z",
         "firstPublished": "2026-04-26T17:40:14.733Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -7793,7 +8296,7 @@
       "isFork": false,
       "createdAt": "2026-09-13T17:47:27Z",
       "pushedAt": "2026-09-28T20:37:06Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "NOASSERTION",
       "language": "JavaScript"
     },
@@ -7840,7 +8343,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-10-14T08:05:04Z",
+      "pushedAt": "2026-10-16T19:06:15Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -8124,11 +8627,11 @@
       "isFork": false,
       "createdAt": "2026-10-03T19:41:28Z",
       "pushedAt": "2026-10-04T19:30:57Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": null,
       "language": null
     },
-    "toolsStatus": "error",
+    "toolsStatus": "auth",
     "readme": {
       "markdown": "# Adrails MCP server\n\nRemote MCP server for [Adrails](https://adrails.ai), the AI workspace for paid media. Connect Claude, Claude Code, ChatGPT, Codex or any remote MCP client to your Meta Ads and Google Ads accounts, your store and your analytics. Agents read your accounts and business data, build campaigns and prepare budget, status and launch changes, each with a link to its exact before and after.\n\nThis repository holds the listing metadata. The server itself is hosted by Adrails: there is nothing to install or run.\n\n| | |\n| --- | --- |\n| Server URL | `https://adrails.ai/api/mcp` |\n| Transport | Streamable HTTP |\n| Authentication | OAuth 2.1 with PKCE and dynamic client registration |\n| Official MCP Registry | `ai.adrails/adrails` |\n| Documentation | [adrails.ai/docs/mcp](https://adrails.ai/docs/mcp) |\n\n## Connect\n\nYou need an Adrails account. Every client uses the same URL; the client registers itself and you sign in to Adrails, then choose the workspace and the permissions on the consent screen.\n\n**Claude** (claude.ai and desktop): Settings, Connectors, Add custom connector. Name it `Adrails`, paste `https://adrails.ai/api/mcp`, leave the OAuth client ID and secret empty, then connect.\n\n**Claude Code**\n\n```sh\nclaude mcp add --transport http adrails https://adrails.ai/api/mcp\n```\n\nThen run `/mcp`, select `adrails` and authenticate.\n\n**ChatGPT**: turn on Developer mode in Settings (it depends on your plan and workspace policy), open Plugins and add a custom MCP server named `Adrails` with the URL above and OAuth authentication.\n\n**Codex**\n\n```sh\ncodex mcp add adrails --url https://adrails.ai/api/mcp\ncodex mcp login adrails\n```\n\nFull steps, including other clients: [Connect an AI client](https://adrails.ai/docs/mcp/connect).\n\n## What it can do\n\n63 tools, filtered by the permissions you grant and your role in the workspace:\n\n- **Performance and analysis**: period and daily performance, metric comparisons, diagnosis, portfolio and business reviews across Meta and Google Ads, with store revenue next to ad metrics.\n- **Campaigns**: campaign structure, drafts, templates, media, audience and keyword research (including Google Keyword Planner volumes).\n- **Changes**: budget, status and campaign launches are prepared with a link to the exact before and after, applied once confirmed.\n- **Business data**: Shopify, Klaviyo, Stripe, Triple Whale and PostHog connections, orders, customers and revenue.\n- **Workspace**: automations, Knowledge, channels and job status.\n\nEvery tool, its inputs and its access level: [MCP tools reference](https://adrails.ai/docs/mcp/tools).\n\n## Try\n\n- *Which Meta and Google Ads campaigns wasted the most spend last week, and why?*\n- *Compare blended ROAS this month with last month, using Shopify revenue.*\n- *Prepare a 20% budget increase on my best campaign.* Nothing changes until you apply it in Adrails from the link it returns.\n\n## Security\n\nA tool call runs no Adrails AI model, so it uses no agent credit (except an automation with an agent step), and it never writes to an ad account by itself: a change to Meta or Google Ads is applied by you, signed in to Adrails, before the proposal expires. Connections can be revoked at any time from the MCP page in Adrails. Details: [MCP security](https://adrails.ai/docs/mcp/security).\n\n## Support\n\nsupport@adrails.ai · [adrails.ai](https://adrails.ai) · Built by TBSS Labs, LLC. Not affiliated with Meta Platforms, Inc. or Google LLC.",
       "truncated": false,
@@ -9373,13 +9876,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-27T02:40:47Z",
-      "pushedAt": "2026-09-30T02:27:34Z",
+      "pushedAt": "2026-10-16T21:08:47Z",
       "openIssues": 3,
       "license": "MIT",
       "language": "JavaScript"
     },
     "readme": {
-      "markdown": "# agent-bev\n\nThe world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.\n\nDocs: https://agent-bev.ai/docs · Support: https://agent-bev.ai/support · Enterprise setup: https://agent-bev.ai/setup · Privacy: https://agent-bev.ai/privacy\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Three products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK · USA · Japan · Australia · Korea · Singapore · Thailand · Mexico · Brazil\n\nOperated by Agent Holdings S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
+      "markdown": "# agent-bev\n\nThe world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.\n\nDocs: https://agent-bev.ai/docs · Support: https://agent-bev.ai/support · Enterprise setup: https://agent-bev.ai/setup · Privacy: https://agent-bev.ai/privacy\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nEvery order on agent-bev is confirmed two ways. bevGTIN is the second.\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Four products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n- **bevGTIN** — the beverage alcohol sourcing GTIN confirmation for AI agents ([bevgtin.ai](https://bevgtin.ai)).\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK · USA · Japan · Australia · Korea · Singapore · Thailand · Mexico · Brazil\n\nOperated by Agentic Enterprises S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
       "truncated": false,
       "url": "https://github.com/agent-bev/bev-door#readme"
     }
@@ -13148,6 +13651,186 @@
             "name": "action",
             "type": "string",
             "description": "\"back\" to return to the previous step",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mcp:ai-agentsindex-mcp",
+    "name": "AgentsIndex",
+    "qualifiedName": "ai.agentsindex/mcp",
+    "slug": "ai-agentsindex-mcp",
+    "description": "The editors' index of AI-native software, from AI agents to the models and frameworks behind them.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentsindex.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentsindex.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-17T09:52:22.073002Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "search_listings",
+        "description": "Full-text search over AgentsIndex's Published tools. Returns compact records (name, slug, tagline, url). Fetch depth with get_listing.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What to search for.",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Max results (default 10, cap 25).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_listing",
+        "description": "One tool in full, as answer-first markdown: the summary, then every question on the sheet with its answer, the vendor's own words for it and the URL that proves it. Identical to /{slug}.md and to the HTML page.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "The listing slug (from search_listings or the URL).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_categories",
+        "description": "AgentsIndex's taxonomy with live listing counts.",
+        "inputs": null
+      },
+      {
+        "name": "compare_listings",
+        "description": "Two tools side by side, as markdown: taglines, pricing, API availability, tags — the researched compare facts, honest about unknowns.",
+        "inputs": [
+          {
+            "name": "a",
+            "type": "string",
+            "description": "First listing slug.",
+            "required": true
+          },
+          {
+            "name": "b",
+            "type": "string",
+            "description": "Second listing slug.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_best_of",
+        "description": "The Published tools in one category, ranked (paid tiers first, then editorial merit), as a markdown answer sheet.",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "The category slug (from list_categories).",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "submit_listing",
+        "description": "Submit a tool to AgentsIndex: url + name (+ optional note). Requires an existing signed-in account with verified email; send its session Cookie header on the MCP request. Identity and email come only from that session. Sign in or explicitly create an account at https://agentsindex.ai/login?next=%2Fsubmit and verify its email before retrying. This tool creates no account and sends no verification e",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The website being submitted (https).",
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Its name (2–120 chars).",
+            "required": true
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Optional context for the editors (≤1000 chars).",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "send_lead",
+        "description": "Send a buyer-intent enquiry (lead) to a tool or a whole category on AgentsIndex. Keyless. Requires consent:true, a real name, a permanent (non-disposable) email, a message of at least 20 chars, and a target (listingSlug OR categorySlug). Returns { ok, delivered }. Idempotent by (email, target) within 7 days. Nothing here changes a listing's rank, tier or copy.",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Your name.",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "A permanent contact email (non-disposable).",
+            "required": true
+          },
+          {
+            "name": "message",
+            "type": "string",
+            "description": "The enquiry — real demand, at least 20 chars.",
+            "required": true
+          },
+          {
+            "name": "consent",
+            "type": "boolean",
+            "description": "Must be true — you agree your details go to the provider(s).",
+            "required": true
+          },
+          {
+            "name": "listingSlug",
+            "type": "string",
+            "description": "Target listing slug (this OR categorySlug).",
+            "required": false
+          },
+          {
+            "name": "categorySlug",
+            "type": "string",
+            "description": "Target category slug (this OR listingSlug).",
+            "required": false
+          },
+          {
+            "name": "company",
+            "type": "string",
+            "description": "Optional company name.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "subscribe_newsletter",
+        "description": "Single opt-in subscribe to the AgentsIndex digest of new and freshly re-verified tools. Provide an email; returns { ok }. Every issue carries a one-click unsubscribe.",
+        "inputs": [
+          {
+            "name": "email",
+            "type": "string",
+            "description": "The email to subscribe.",
+            "required": true
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Optional: where the subscribe came from.",
             "required": false
           }
         ]
@@ -17132,6 +17815,29 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-amdahl-amdahl",
+    "name": "Amdahl",
+    "qualifiedName": "ai.amdahl/amdahl",
+    "slug": "ai-amdahl-amdahl",
+    "description": "Sales drafts in the sender's voice, and answers from your own customer calls, notes and CRM deals.",
+    "category": "Docs & Knowledge",
+    "repository": null,
+    "homepage": "https://docs.amdahl.ai/mcp/connect-agent",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://app.amdahl.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-16T13:39:52.924283Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
     "id": "mcp:ai-analyticslegends-sap-analytics",
     "name": "Analytics Legends — SAP Analytics Intelligence",
     "qualifiedName": "ai.analyticslegends/sap-analytics",
@@ -17984,12 +18690,12 @@
       }
     ],
     "remotes": [],
-    "stars": 515,
+    "stars": 516,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 515,
+      "stars": 516,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -18016,12 +18722,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 88,
+    "stars": 89,
     "source": "MCP Registry",
     "updatedAt": "2026-10-11T18:29:12.499147Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 88,
+      "stars": 89,
       "forks": 10,
       "archived": false,
       "isFork": false,
@@ -19751,7 +20457,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-07-12T20:32:22.415073Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
+    "toolsStatus": "error",
     "tools": [
       {
         "name": "search_enforcement",
@@ -21236,6 +21942,1726 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-athenahq-mcp",
+    "name": "AthenaHQ",
+    "qualifiedName": "ai.athenahq/mcp",
+    "slug": "ai-athenahq-mcp",
+    "description": "Track how AI assistants mention, cite, and rank your brand and competitors in AI search.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://docs.athenahq.ai/api-reference/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.athenahq.ai/api/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-16T22:09:01.665261Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "open_ai_access",
+        "description": "Open the AthenaHQ AI crawler access panel. Enter a public HTTPS domain to inspect crawler responses and robots.txt permissions without an AthenaHQ account.",
+        "inputs": null
+      },
+      {
+        "name": "check_public_ai_access",
+        "description": "Check HTTP responses to AI crawler user agents and robots.txt permissions for a public website. No AthenaHQ account required. Search, retrieval and training are separate. Requests originate from AthenaHQ, not verified crawler IPs. Unknown responses are inconclusive; this does not measure visibility or guarantee indexing, citations or real crawler access. Use nullable evidence and diagnostics.",
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_prompt_schedules",
+        "description": "List the Default, custom and archived streaming schedules for a website. Use each row's selection value when filtering analytics or responses. Default includes all pre-cutover history and ad hoc runs; archived schedules retain results. To combine schedules, pass several selection values as an array in the schedule field of query_metrics and query_rows, or use a saved view that stores several sched",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_ai_search_value",
+        "description": "AI Search Value for a website: topic-market value, captured value range, headroom, coverage, value-weighted AI share of voice, per-topic detail, and modeled attributed contribution.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_prompts",
+        "description": "List prompts (search queries) tracked for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "active",
+              "paused"
+            ]
+          },
+          {
+            "name": "prompt_tags",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "prompt_tags_operator",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "is_any_of",
+              "has_all_of"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_prompt_tags",
+        "description": "List prompt tags for a website with per-tag prompt counts. Tag IDs can be used with the prompt_tags filter on the prompts endpoint.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_personas",
+        "description": "List personas configured for a website with per-persona prompt counts. Use it to resolve persona_id values returned by other tools to persona names and descriptions.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_topics",
+        "description": "List topics (groupings of prompts) for a website, with the count of prompts in each",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_competitors",
+        "description": "List competitors tracked for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_content_hub_sheets",
+        "description": "List the Content Hub tabs/sheets configured for a website. Use to discover available tabs (e.g. 1st-party content, 3rd-party placements, Reddit) before calling get_tracked_content with a specific sheet_id (metrics; excludes in-flight pipeline items) or list_content (every item including unpublished drafts).",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_tracked_content",
+        "description": "List tracked content (1st-party drafts, imported pages, 3rd-party placements) with citation, mention, and impression metrics for the supplied date range and filters. Supports pagination via page_num / page_size and optional filtering by Content Hub sheet_id or content_type. In-flight pipeline items (drafts, briefs, running generations) never appear here; enumerate those with list_content. A return",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "content_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "external",
+              "imported",
+              "athena_created",
+              "draft",
+              "snipe",
+              "optimize",
+              "slice",
+              "manual"
+            ]
+          },
+          {
+            "name": "sheet_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "mentioned",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_num",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_content",
+        "description": "Enumerate every content item in a website's Content Hub, published or not: in-flight drafts, briefs, snipes, optimize and slice runs, scheduled and failed items, plus tracked pages. Returns identity fields only (id, title, type, stage, sheet, URL, timestamps, target prompt ids), no metrics. Uncached and Postgres-backed, so an item created by create_content is listable immediately. Filter by sheet_",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "sheet_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "content_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "external",
+              "imported",
+              "athena_created",
+              "draft",
+              "snipe",
+              "optimize",
+              "slice",
+              "manual"
+            ]
+          },
+          {
+            "name": "stage",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "scheduled",
+              "pending",
+              "pending_brief",
+              "generated_brief",
+              "pending_article",
+              "generated",
+              "done",
+              "failed"
+            ]
+          },
+          {
+            "name": "prompt_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_num",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_content_detail",
+        "description": "Fetch the full detail of a single tracked content item — its brief and body text (drafts, optimize rewrites, snipes, authored and scraped pages), plus status, cited source URLs, and links. Use after get_tracked_content to read the actual text behind a content_id. A status of generated_brief means the brief is ready while the article is still being written. Pages registered via track_content_urls r",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "content_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_content_citation_prompts",
+        "description": "For a single tracked content item, list every prompt whose AI responses cited it — with citations, citation %, and estimated impressions. Use after get_tracked_content to drill into which prompts a given URL is appearing for. This is CITED-BY, measured over the requested date range, not the targeting the page was written for: an empty prompts array means no AI response cited this URL in that windo",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "content_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "mentioned",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_websites",
+        "description": "List every website accessible to the calling session. Works with any API key (global or scoped) and with MCP/OAuth sessions. Call with an empty argument object `{}`. Each item includes `baseCountry`, the country market the website targets: use it to tell same-brand websites for different countries apart.",
+        "inputs": null
+      },
+      {
+        "name": "get_locations",
+        "description": "List geo-locations configured for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_date_range",
+        "description": "Get the earliest and latest response dates for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "schedule_id",
+            "type": "any",
+            "description": "One schedule: \"default\" or a custom/archived schedule UUID. Omit for Default, which includes all pre-cutover history and ad hoc runs. The retired \"manual\" token is accepted as an alias of \"default\". S",
+            "required": false
+          },
+          {
+            "name": "prompt_status",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "active",
+              "paused"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_responses",
+        "description": "Get LLM responses for a website. Shows how AI models answer queries, with sources, sentiment, and ranking data. Filter by whether a model used search queries or by text within those queries. For a variation-level export at volume, pair filters.variation_filter with include_response: false and compact_sources: true. That keeps the prompt, its variation, the model, the mentioned/cited flags and the ",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "page_num",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "number",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "include_response",
+            "type": "boolean",
+            "description": "Include the full answer text on each row. Defaults to true. Set false to omit the `response` field entirely (the heaviest part of a row) when you only need which prompt/variation ran and how it scored",
+            "required": false
+          },
+          {
+            "name": "compact_sources",
+            "type": "boolean",
+            "description": "Replace the per-source `sources` objects with `source_domains`, a deduped, sorted list of cited root domains. Defaults to false. Use when you need which domains were cited but not their exact URLs.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_response_streaming_status",
+        "description": "Read the latest (or a specific) response-streaming run's whole-run state and response-queue progress. Only completed means downstream analysis has finished",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "workflow_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_response_detail",
+        "description": "Fetch a single LLM response by id with full sources, mentions, and rank details.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "response_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_saved_views",
+        "description": "List saved views (filter presets) for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_group_saved_views",
+        "description": "List group-level saved views (filter presets) shared across the websites in a group",
+        "inputs": [
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_credits_organization",
+        "description": "Get credit balance for the organization",
+        "inputs": null
+      },
+      {
+        "name": "get_credits_website",
+        "description": "Get credit balance for a specific website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_groups",
+        "description": "List all groups in the organization (global API key only)",
+        "inputs": [
+          {
+            "name": "external_id",
+            "type": "string",
+            "description": "Partner API keys only. Filter by the partner-issued external id mapped to a group. Non-partner API keys passing this field receive 403. Omit unless you are a partner integration.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_group_detail",
+        "description": "Fetch a single group by id with its member websites.",
+        "inputs": [
+          {
+            "name": "group_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_share_of_voice_cumulative",
+        "description": "Get cumulative share of voice — overall SOV for each competitor across the date range. Each entry also includes relative_mention_rate: the share of responses mentioning any tracked brand that mention this entity.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_share_of_voice_time_series",
+        "description": "Get share of voice over time — how often the website is mentioned vs competitors, grouped by day. Each entry also includes relative_mention_rate: the share of that day's responses mentioning any tracked brand that mention this entity.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_citation_rate_cumulative",
+        "description": "Get cumulative citation rate — average citation rate for each competitor across the date range.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_citation_rate_time_series",
+        "description": "Get citation rate over time — how often AI models cite (link to) the website, grouped by day.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_mention_rate_cumulative",
+        "description": "Get cumulative mention rate — average mention rate for each competitor across the date range. mention_rate is absolute (share of all responses); relative_mention_rate is the share of responses mentioning any tracked brand.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_mention_rate_time_series",
+        "description": "Get mention rate over time — how often AI models mention the website by name, grouped by day. mention_rate is absolute (share of that day's responses); relative_mention_rate is the share of that day's responses mentioning any tracked brand.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_position_cumulative",
+        "description": "Get cumulative position — average ranking position for each competitor across the date range.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_position_time_series",
+        "description": "Get ranking position over time — average position of the website in AI model responses, grouped by day.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_position_distribution",
+        "description": "Get position distribution: share of responses where the brand ranks top/middle/bottom across the date range.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "query_metrics",
+        "description": "Query aggregated metrics for brand performance, competitors, sources, citations, and response trends. Use query_rows for individual records. Mentions: from \"response_mentions\". Citations: from \"citations\". On either, where { is_website: true } selects the brand; { is_competitor: true } selects competitors; { entity_id: { eq: \"<uuid>\" } } selects one entity. Filter/group models by model_category (d",
+        "inputs": [
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Dataset to query.",
+            "required": true,
+            "enum": [
+              "attributes",
+              "citations",
+              "competitors",
+              "contents",
+              "prompts",
+              "response_mentions",
+              "responses",
+              "source_mentions",
+              "sources",
+              "topics",
+              "websites"
+            ]
+          },
+          {
+            "name": "schedule",
+            "type": "any",
+            "description": "One schedule from the catalog (\"default\" or a custom/archived UUID), or an array of them to combine their data. Omit to use the caller default. The retired \"manual\" token is accepted as a deprecated a",
+            "required": false
+          },
+          {
+            "name": "measures",
+            "type": "object",
+            "description": "Aggregate expressions keyed by output column name. Example: { total: { fn: 'count_distinct', of: 'response_id' } }",
+            "required": true
+          },
+          {
+            "name": "by",
+            "type": "array",
+            "description": "GROUP BY dimensions. Omit for scalar result.",
+            "required": false
+          },
+          {
+            "name": "alsoSelect",
+            "type": "array",
+            "description": "Label dimensions carried via any(). Must be determined by a by dim (cube's dependentDims). Example: entity_name when entity_id is in by.",
+            "required": false
+          },
+          {
+            "name": "where",
+            "type": "any",
+            "description": "WHERE filter (before grouping).",
+            "required": false
+          },
+          {
+            "name": "having",
+            "type": "any",
+            "description": "HAVING filter (after grouping). References measure aliases and by dims.",
+            "required": false
+          },
+          {
+            "name": "orderBy",
+            "type": "array",
+            "description": "ORDER BY. Measure aliases and by dims allowed.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows to return.",
+            "required": false
+          },
+          {
+            "name": "compare",
+            "type": "object",
+            "description": "Compare the same measures across two slices. Each base measure `m` expands to `m_<baseline.label>` and `m_<current.label>`; the result also gets `m_delta` (= current − baseline) and `m_pct_change` (= ",
+            "required": false
+          },
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": "The website to query. Must be a website your credentials can access.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "query_rows",
+        "description": "Query individual analytics rows. Use for qualitative data like response text, specific identifiers, or individual mentions. Schedule selection: pass schedule: \"default\" or a custom/archived UUID from the schedule catalog, or an array of them to combine schedules. Omit to use the caller default (Ask Athena uses the current page selection). Explicit selection overrides that default. Existing top-lev",
+        "inputs": [
+          {
+            "name": "from",
+            "type": "string",
+            "description": "Dataset to query.",
+            "required": true,
+            "enum": [
+              "attributes",
+              "citations",
+              "competitors",
+              "contents",
+              "prompts",
+              "response_mentions",
+              "responses",
+              "source_mentions",
+              "sources",
+              "topics",
+              "websites"
+            ]
+          },
+          {
+            "name": "schedule",
+            "type": "any",
+            "description": "One schedule from the catalog (\"default\" or a custom/archived UUID), or an array of them to combine their data. Omit to use the caller default. The retired \"manual\" token is accepted as a deprecated a",
+            "required": false
+          },
+          {
+            "name": "fields",
+            "type": "array",
+            "description": "Columns to SELECT.",
+            "required": true
+          },
+          {
+            "name": "where",
+            "type": "any",
+            "description": "WHERE filter.",
+            "required": false
+          },
+          {
+            "name": "orderBy",
+            "type": "array",
+            "description": "ORDER BY. If omitted, uses cube default order.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max rows to return.",
+            "required": false
+          },
+          {
+            "name": "after",
+            "type": "object",
+            "description": "Last row from previous page for keyset pagination. Must include values for all orderBy dims.",
+            "required": false
+          },
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": "The website to query. Must be a website your credentials can access.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "list_pitches",
+        "description": "List pitch workspace reports for the organization. Returns all non-deleted pitches with their status and metadata.",
+        "inputs": null
+      },
+      {
+        "name": "get_pitch",
+        "description": "Get a pitch report by ID including competitors, prompts, attributes, top citing sources, and aggregate metrics (brand mentions, sentiment, response rate).",
+        "inputs": [
+          {
+            "name": "pitch_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_sources",
+        "description": "List top cited sources (root domains) for a website with citation, mention, brand-mention, and impression metrics. Each row is classified as owned / competitor / partner / third_party. Supports filters (date range, models, prompts, competitors, locations, personas), sort, and pagination via page_num / page_size.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "page_num",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sort_field",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "citation_percentage",
+              "mention_percentage",
+              "competitor_mention_percentage",
+              "brand_mention_percentage",
+              "estimated_impressions",
+              "total_mentions",
+              "domain_count",
+              "mentions_count",
+              "root_domain",
+              "response_count",
+              "first_seen"
+            ]
+          },
+          {
+            "name": "sort_direction",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "asc",
+              "desc"
+            ]
+          },
+          {
+            "name": "search",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "mentioned",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          },
+          {
+            "name": "competitors_mentioned",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_source_pages",
+        "description": "List individual cited URLs (pages) for a website with citation, mention, and impression metrics plus a per-URL daily sparkline. Each row is classified as owned / competitor / partner / third_party. Companion to get_sources (root-domain-level). Supports filters (date range, models, prompts, competitors, locations, personas), search, sort, and pagination.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "page_num",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sort_field",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "citation_percentage",
+              "estimated_impressions",
+              "total_mentions",
+              "mentions_count",
+              "normalized_url",
+              "competitor_ids",
+              "first_seen"
+            ]
+          },
+          {
+            "name": "sort_direction",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "asc",
+              "desc"
+            ]
+          },
+          {
+            "name": "search",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "mentioned",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          },
+          {
+            "name": "competitors_mentioned",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "yes",
+              "no"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "get_attributes",
+        "description": "List the brand traits (called attributes in the API) tracked for a website: brand-perception keywords such as 'Affordable' or 'Slow Support'. Athena extracts these from AI model responses. Brand traits are direction-neutral; `positive` selects the directional series and defaults to true when omitted. Use this to discover attribute ids, then get_attribute_metrics for how often each is mentioned, or",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "positive",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_attribute_metrics",
+        "description": "Get cumulative brand trait (attribute) metrics: for each brand-perception keyword (e.g. 'Affordable', 'Slow Support'), how many AI responses mentioned it across the date range, and the percentage. `positive` selects the observation direction and defaults to true when omitted. `total_responses` is the denominator: responses in the date range that mention the brand AND had attribute extraction run o",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "positive",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_competitor_attribute_metrics",
+        "description": "Get brand trait (attribute) metrics per tracked competitor: for each competitor and each brand-perception keyword (e.g. 'Affordable'), how many AI responses mentioned that keyword for that competitor, and the percentage. Use with get_attribute_metrics to compare the brand against competitors. `total_responses` is per-competitor: responses in the date range that mention THAT competitor and had attr",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "positive",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_attribute_time_series",
+        "description": "Get the daily trend for ONE brand trait (attribute), brand and competitors side by side — how mentions of a keyword like 'Affordable' moved over time. Requires an attribute_id: call get_attributes first to discover ids. `positive` selects the observation direction and defaults to true when omitted. Days with no data are returned as zeros, so the series is gap-free and chartable. Denominators are p",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "attribute_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "positive",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_attribute_observations",
+        "description": "Get individual brand trait (attribute) observations: each row is one AI response describing one entity (the brand or a competitor) with one brand trait, including the response excerpt as `text_span`. `score` runs from -1 to 1 and its sign always matches `positive`; its magnitude (0.1 to 1.0) is how strongly the wording praises or criticizes. `score` is null when the observation was not scored (ext",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "entity_ids",
+            "type": "array",
+            "description": "Entity UUIDs to filter to, as an array even for one id: the website_id for the brand itself, competitor ids from get_competitors for competitors. Omit for every entity.",
+            "required": false
+          },
+          {
+            "name": "attribute_ids",
+            "type": "array",
+            "description": "Attribute UUIDs to filter to (from get_attributes), as an array even for one id. Omit for every active attribute.",
+            "required": false
+          },
+          {
+            "name": "positive",
+            "type": "boolean",
+            "description": "true for favorable observations only, false for critical ones only. Omit for both directions.",
+            "required": false
+          },
+          {
+            "name": "sort",
+            "type": "string",
+            "description": "\"intensity\" (default): strongest first, unscored last, then newest. \"recent\": newest first.",
+            "required": false,
+            "enum": [
+              "intensity",
+              "recent"
+            ]
+          },
+          {
+            "name": "page_num",
+            "type": "integer",
+            "description": "Zero-indexed page number. Defaults to 0.",
+            "required": false
+          },
+          {
+            "name": "page_size",
+            "type": "integer",
+            "description": "Rows per page, 1 to 100. Defaults to 40.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_user_by_email",
+        "description": "Look up a user by email address, scoped to the caller's organization. Returns 404 when the email does not belong to a member of the organization or of one of its websites.",
+        "inputs": [
+          {
+            "name": "email",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_oracle_findings",
+        "description": "When grounding is present, use its complete team-confirmed statement and all supporting facts as joint evidence; the legacy fact ID/text are only a compatibility anchor. List Oracle accuracy findings for a website: places where an AI response contradicted a verified brand fact (type 'inaccuracy' or 'kb_issue', with quote, claim, and reason) or where two knowledge-base facts conflict ('kb_duplicate",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "run_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fact_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "lineage_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "response_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "prompt_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "inaccuracy",
+              "kb_issue",
+              "kb_duplicate",
+              "kb_contradiction",
+              "model_disagreement"
+            ]
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "false",
+              "outdated",
+              "overclaim",
+              "underclaim",
+              "misattributed"
+            ]
+          },
+          {
+            "name": "severity",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "critical",
+              "major",
+              "minor"
+            ]
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "model",
+            "type": "string",
+            "description": "Filter to one AI model by product name (ChatGPT, Claude, Gemini, Perplexity, Copilot, Meta AI); raw identifiers also match exactly",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_oracle_finding",
+        "description": "When grounding is present, use its complete team-confirmed statement and all supporting facts as joint evidence; the legacy fact ID/text are only a compatibility anchor. Load one Oracle finding in full: the flagged claim with its verified fact and prompt text, the run it came from, a ~2000-character response excerpt centered on the quoted claim, the cited-page evidence captured during the run (url",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "finding_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "add_brand_facts",
+        "description": "Add brand facts to a website's Knowledge Base in bulk (1-50 per call). Each fact runs the full ingestion pipeline (deduplication, approval gates, pillar routing); there is no way to force-approve. Returns one outcome per fact (approved | pending | duplicate; extensible) with the created fact id and the pillar it was filed under. Facts without a pillar_id are routed automatically and may land unfil",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "facts",
+            "type": "array",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "decisions",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "save_submitted",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "match_token",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "add_content",
+        "description": "Add an article that is already written (for example, one drafted in this conversation) to the website's Content Hub as an editable draft. Same as pasting it into the Content Hub's blank editor: no AI model runs and no content credits are spent. Use create_content instead when Athena should research and write the piece. body is the full article in Markdown and is stored as given, except that link a",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sheet_id",
+            "type": "any",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "approve_brief",
+        "description": "Approve a content brief and start writing the article from it. Only valid while the piece is at status generated_brief. The article is generated from the brief exactly as it currently stands, including any revisions made with revise_brief or edits made in the app. Consumes content credits; poll get_content_status afterwards, then read the result with get_content_draft.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "content_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "create_content",
+        "description": "Generate an article or content brief in AthenaHQ. Fetches source URLs, sends source material to external AI providers, and consumes content credits. Obtain user approval before calling. Does not publish to a website or CMS. For draft mode, auto_approve defaults to true; set false to generate only a brief and wait for approve_brief. Poll get_content_status using each returned content_ids value. Sli",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "draft: generate a brief and optionally an article from tracked prompts. snipe: draft an article using a competitor URL as input. optimize: improve an existing page for AI search. slice: turn one sourc",
+            "required": true,
+            "enum": [
+              "draft",
+              "snipe",
+              "optimize",
+              "slice"
+            ]
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Article title. Required for draft, snipe, and optimize modes.",
+            "required": false
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Source page URL. Required for snipe, optimize, and slice modes. A URL without a protocol, such as example.com/article, is accepted.",
+            "required": false
+          },
+          {
+            "name": "prompt_ids",
+            "type": "array",
+            "description": "Existing tracked prompt UUIDs, up to 100. Required and nonempty for draft; omit for slice. Use IDs from the website's tracked prompt list; never invent them.",
+            "required": false
+          },
+          {
+            "name": "custom_instructions",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "brand_kit_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sheet_id",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "use_content_memories",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "auto_approve",
+            "type": "boolean",
+            "description": "Draft mode only. Defaults to true, which continues from brief generation to article generation. Set false to pause at generated_brief until approve_brief is called.",
+            "required": false
+          },
+          {
+            "name": "content_format_type",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "scrape_additional_links",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "kb_mode",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "auto",
+              "manual",
+              "none"
+            ]
+          },
+          {
+            "name": "selected_topic_ids",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "pinned_claim_ids",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "use_kb_internal_links",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fact_review",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "rec_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "rec_kind",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "on_page_topic",
+              "on_page_snipe"
+            ]
+          },
+          {
+            "name": "pdf_file_name_or_r2_key",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "create_location",
+        "description": "Create a location for a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "prompt_ids",
+            "type": "array",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "create_pillar",
+        "description": "Create a Knowledge Base pillar (a subject area that groups brand facts) from a name and optional description. Get-or-create semantics: if a pillar with the same name already exists, it is returned with created: false instead of failing, so retries are idempotent.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "create_prompt_tag",
+        "description": "Create a prompt tag on a website, or return the existing tag when its name matches case-insensitively. Trims surrounding whitespace and rejects reserved prompt-type names. Returns the tag ID and whether it was created. Use the returned ID to assign the tag to prompts; creating a tag does not assign it to any prompts.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "tag",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "create_prompts",
+        "description": "Create one or more prompts on a website",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "prompts",
+            "type": "array",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "manual",
+              "ai_generated",
+              "bulk_upload"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "create_saved_view",
+        "description": "Create a saved view (filter preset) for a website. Saved views appear in the dashboard filter bar for every member of the website. filters is an object keyed by filter field key, each value shaped {\"id\": \"<unique string>\", \"field\": \"<same field key>\", \"operator\": \"is_any_of\", \"values\": [...]}. Common field keys: \"models\" (slugs like \"chatgpt\", \"perplexity\", \"google_ai_overview\"), \"competitors\", \"p",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "icon",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "filters",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "olympus_layout",
+            "type": "object",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "create_source_tag",
+        "description": "Create a custom source tag with a name and URL patterns. Research existing tags and cited sources first when recommending changes. Obtain user confirmation before calling. MCP executes immediately after authorization; Athena AI chat presents an approval card. Patterns support hosts (example.com), subdomains (*.example.com), path sections (example.com/blog), exact pages (example.com/blog$), and que",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Custom tag name. Built-in source category names are reserved.",
+            "required": true
+          },
+          {
+            "name": "patterns",
+            "type": "array",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "create_topic",
+        "description": "Create a topic on a website (returns the existing topic when the name is already taken)",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "description",
+            "type": "any",
+            "description": null,
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ai-atlaso-mcp",
     "name": "Atlaso MCP",
     "qualifiedName": "ai.atlaso/mcp",
@@ -21722,6 +24148,29 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-27T04:28:55.036536Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-aunoo-agentic",
+    "name": "Aunoo Agentic",
+    "qualifiedName": "ai.aunoo/agentic",
+    "slug": "ai-aunoo-agentic",
+    "description": "Cited news coverage, source trust signals, consensus and foresight for AI agents, over MCP.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://agentic.aunoo.ai/agentic",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentic.aunoo.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-16T14:06:17.815052Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -23883,14 +26332,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-17T08:21:14Z",
-      "pushedAt": "2026-10-16T08:52:18Z",
+      "pushedAt": "2026-10-16T13:28:10Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [Team and invites](docs/team.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### Agent skill (Claude Code, Codex and other agents)\n\nThe [AwrAiter_skills](https://github.com/MediaZione/AwrAiter_skills) repository ships a skill with the full tool contract, authentication, the draft → check → preview → schedule workflow and the guardrails an agent should follow:\n\n```bash\n# Claude Code — as a plugin\nclaude plugin marketplace add MediaZione/AwrAiter_skills\nclaude plugin install awraiter@awraiter\n\n# Codex and any other agent with skills\nnpx skills add MediaZione/AwrAiter_skills --skill awraiter\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once, together with ready-to-paste snippets (Claude Code command, JSON config, cURL, Node.js) that already contain it — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n25 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote, with photos, videos or music tracks by link |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief and banlist |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel under [MCP connection](https://awraiter.ai/mcp-connect).\n\n## Security model\n\n|  | Userbot-style Telegram MCP servers | AwrAIter |\n|---|---|---|\n| What you hand over | Phone number, login code, session file | An OAuth grant to your own account |\n| What it can reach | Everything your account can — DMs, groups, private material | Only the channels of the team you authorized |\n| How i\n\n…",
+      "markdown": "# AwrAIter MCP Server\n\nA remote MCP server for the **Telegram channels you administer**: read analytics, draft posts from your own scraped sources, build content plans, schedule and publish — from inside ChatGPT, Claude, or any MCP-capable client.\n\n**Not a userbot.** No phone number, no login code, no `.session` file. The server acts through your AwrAIter account and reaches only the channels of the team you authorize.\n\n[Русская версия](README.ru.md) · [Connection guide](docs/connect.md) · [Tool reference](docs/tools.md) · [Team and invites](docs/team.md) · [awraiter.ai](https://awraiter.ai)\n\n---\n\n## Server\n\n| | |\n|---|---|\n| **URL** | `https://awraiter.ai/mcp` |\n| **Transport** | Streamable HTTP |\n| **Authentication** | OAuth 2.1 (PKCE, dynamic client registration) or a personal access token |\n| **Registry name** | `ai.awraiter/telegram` |\n| **Availability** | Every plan, including the free tier |\n\n## Quick start\n\nYou need an AwrAIter account ([sign in with Telegram](https://awraiter.ai/login)) and at least one connected channel.\n\n### Claude (web / desktop)\n\n**Settings → Connectors → Add custom connector**, paste the URL, press **Connect**, and confirm access for the team you want.\n\n```\nhttps://awraiter.ai/mcp\n```\n\n### Claude Code\n\n```bash\nclaude mcp add --transport http awraiter https://awraiter.ai/mcp\n```\n\n### Agent skill (Claude Code, Codex and other agents)\n\nThe [AwrAiter_skills](https://github.com/MediaZione/AwrAiter_skills) repository ships a skill with the full tool contract, authentication, the draft → check → preview → schedule workflow and the guardrails an agent should follow:\n\n```bash\n# Claude Code — as a plugin\nclaude plugin marketplace add MediaZione/AwrAiter_skills\nclaude plugin install awraiter@awraiter\n\n# Codex and any other agent with skills\nnpx skills add MediaZione/AwrAiter_skills --skill awraiter\n```\n\n### ChatGPT\n\nAwrAiter is not in the ChatGPT plugin catalog yet — add it as your own MCP server: **Settings → Security and login → Developer mode**, then **chatgpt.com/plugins → +**, paste the URL, keep OAuth and press **Connect**. In a chat, pick it from the tools menu.\nThe ChatGPT/Codex desktop form has no OAuth option; connect it with a token instead (see below).\n\n### Clients that take a JSON config\n\n```json\n{\n  \"mcpServers\": {\n    \"awraiter\": {\n      \"type\": \"http\",\n      \"url\": \"https://awraiter.ai/mcp\"\n    }\n  }\n}\n```\n\n### Clients without OAuth (token auth)\n\nCreate a token in the panel under [**MCP connection**](https://awraiter.ai/mcp-connect) — it is shown once, together with ready-to-paste snippets (Claude Code command, JSON config, cURL, Node.js) that already contain it — and send it as a header:\n\n```\nAuthorization: Bearer YOUR_TOKEN\n```\n\nStep-by-step instructions for Claude, Claude Code, ChatGPT, Codex, Gemini CLI and Qwen Code are in\n**[docs/connect.md](docs/connect.md)**; ready-to-paste config files are in **[examples/](examples/)**.\n\n## Tools\n\n29 tools. The ones that change something are marked ✍️ — everything else is read-only.\n\n| Tool | What it does |\n|---|---|\n| `list_teams` | Teams you belong to; marks the active one |\n| `switch_team` ✍️ | Switch the active team (membership is verified server-side) |\n| `list_channels` | Channels owned by the active team |\n| `get_channel` | One channel's profile: name, chat id, language, description |\n| `get_channel_stats` | Subscribers, reach, ER and dynamics over 1–90 days |\n| `get_channel_insights` | What works for this audience, scored against the channel's own 30-day median |\n| `review_posts` | How recent posts did against the channel's own posts at the same age: above, on par or below |\n| `get_recent_posts` | Most recent published posts, newest first |\n| `search_channel_content` | Semantic search over the channel's own posts and source material |\n| `search_sources` | Search the channel's bound sources |\n| `draft_from_sources` | Freshest scraped sources not yet used in a post |\n| `deep_analyze` ✍️ | Deep AI analysis of channel performance — the one tool that spends the team's AI credits |\n| `check_uniqueness` | Is this draft a near-duplicate of existing posts or a copy of a source? |\n| `score_post` | Data-grounded quality signal for a draft, specific to this channel |\n| `preview_post` | Exact message that would be sent — title, body, media, formatting |\n| `create_post_from_text` ✍️ | Save a ready-to-publish draft from text the assistant wrote, with photos, videos or music tracks by link |\n| `schedule_post` ✍️ | Publish a draft now, or schedule it for a given time |\n| `cancel_scheduled_post` ✍️ | Cancel a scheduled post by its plan id |\n| `get_content_plan` | The channel's plan configuration and its slots |\n| `create_content_plan` ✍️ | Create a content plan for a channel |\n| `find_free_slot` | Earliest slot in the plan with no post yet |\n| `get_channel_memory` | The channel's brand brief, banlist and learnings journal |\n| `set_brand_brief` ✍️ | Replace the channel's brand/tone guidance |\n| `add_banlist_entry` ✍️ | Add a forbidden word to the channel's banlist |\n| `remove_banlist_entry` ✍️ | Remove a word from the banlist |\n| `add_channel_learning` ✍️ | Record a hypothesis or a proven learning about what works in the channel |\n| `remove_channel_learning` ✍️ | Remove a journal entry |\n| `set_assist_mode` ✍️ | How much the assistant coaches you: quiet, normal or coach |\n| `get_playbook` | Step-by-step operator playbook for a workflow |\n\nWhat each tool returns, and the exact scope it needs, is in **[docs/tools.md](docs/tools.md)**.\n\n## Authentication\n\nOAuth 2.1 with PKCE and dynamic client registration; redirect URIs are restricted to HTTPS or HTTP loopback, authorization codes are single-use, and refresh tokens rotate. A token is bound to one user, one team and one scope.\n\nPersonal access tokens come in two scopes:\n\n| Scope | Allows |\n|---|---|\n| `read` | Read-only tools; every ✍️ tool is refused server-side |\n| `full` | Everything the account can do in the panel |\n\nTokens are listed, and can be revoked, in the panel u\n\n…",
       "truncated": true,
       "url": "https://github.com/MediaZione/AwrAiter#readme"
     }
@@ -25564,7 +28013,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
-      "pushedAt": "2026-10-15T17:25:47Z",
+      "pushedAt": "2026-10-16T17:01:42Z",
       "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
