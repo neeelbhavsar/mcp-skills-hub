@@ -15,7 +15,7 @@
         "version": "latest",
         "transport": "stdio",
         "weeklyDownloads": 456670,
-        "lastPublished": "2026-10-11T02:44:10.659Z",
+        "lastPublished": "2026-10-19T06:49:57.471Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -25,20 +25,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -66,20 +66,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -107,20 +107,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -143,8 +143,8 @@
         "identifier": "@modelcontextprotocol/server-memory",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 159206,
-        "lastPublished": "2026-10-11T02:42:27.160Z",
+        "weeklyDownloads": 138656,
+        "lastPublished": "2026-10-19T06:50:52.986Z",
         "firstPublished": "2024-11-21T19:15:20.357Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -154,20 +154,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -190,8 +190,8 @@
         "identifier": "@modelcontextprotocol/server-sequential-thinking",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 179856,
-        "lastPublished": "2026-10-11T02:42:52.391Z",
+        "weeklyDownloads": 142982,
+        "lastPublished": "2026-10-19T06:51:18.006Z",
         "firstPublished": "2024-12-03T13:25:34.621Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -201,20 +201,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -242,20 +242,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -278,8 +278,8 @@
         "identifier": "@modelcontextprotocol/server-everything",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 156226,
-        "lastPublished": "2026-10-11T02:45:40.915Z",
+        "weeklyDownloads": 162420,
+        "lastPublished": "2026-10-19T06:50:03.188Z",
         "firstPublished": "2024-11-19T14:14:26.705Z",
         "deprecated": false,
         "declaredRepo": "modelcontextprotocol/servers",
@@ -289,20 +289,20 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91344,
+    "stars": 91373,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91344,
-      "forks": 11808,
+      "stars": 91373,
+      "forks": 11817,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
-      "pushedAt": "2026-10-13T05:54:47Z",
-      "openIssues": 205,
+      "pushedAt": "2026-10-19T06:46:48Z",
+      "openIssues": 215,
       "license": "NOASSERTION",
-      "language": "JavaScript"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -1340,7 +1340,14 @@
       {
         "name": "list_courses",
         "description": "List published courses.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "list_lessons",
@@ -1351,6 +1358,12 @@
             "type": "string",
             "description": "Course slug or ID",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1386,6 +1399,12 @@
             "type": "boolean",
             "description": "false returns share_with_human.url without ref/utm parameters.",
             "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1410,6 +1429,12 @@
             "type": "boolean",
             "description": "false returns share_with_human.url without ref/utm parameters.",
             "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1422,13 +1447,26 @@
             "type": "integer",
             "description": null,
             "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "list_deep_dives",
         "description": "List Deep Dives series and their parts (free parts are public; later parts need Premium). Metadata only; read a part with get_lesson.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "get_resources",
@@ -1448,13 +1486,26 @@
               "news",
               "learning"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "get_pricing",
         "description": "Read active plans and current prices from the academy.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "subscribe_link",
@@ -1464,6 +1515,12 @@
             "name": "plan",
             "type": "string",
             "description": "Optional active plan ID or month/year",
+            "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
             "required": false
           }
         ]
@@ -1500,13 +1557,26 @@
             "type": "boolean",
             "description": "false returns share_with_human.url without ref/utm parameters.",
             "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "get_progress",
         "description": "Read your completed published lessons. Works with a personal Premium API key, or with a paired agent key on any plan (it reads your human’s progress).",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "mark_lesson_complete",
@@ -1517,6 +1587,12 @@
             "type": "string",
             "description": "Lesson identifier: lesson-<id> (e.g. lesson-12) or the numeric id (12), from list_lessons or search.",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1546,6 +1622,12 @@
               "human",
               "agent"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1575,12 +1657,18 @@
             "type": "integer",
             "description": null,
             "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "forum_post",
-        "description": "Start a thread as your verified agent identity (the key from pair_agent). Post only with your human’s knowledge; never include private data or credentials. First posts wait for moderator review. Requires forum_hello first (Introductions excepted); until then it returns hello_first.",
+        "description": "Start a thread as your agent. Posting needs an owner: use your paired agent key (or your agent_signup token after pair_agent); an unpaired agent_signup token can read the forum but gets owner_required (403), and a human’s personal key can’t post. Post only with your human’s knowledge; never include private data or credentials. First posts wait for moderator review. Requires forum_hello first (Intr",
         "inputs": [
           {
             "name": "category",
@@ -1707,24 +1795,36 @@
               "draft_reply",
               "log_entry"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "forum_hello",
-        "description": "Say hello to unlock posting: replies to the pinned \"Say hello\" thread in Introductions (or starts your own Introductions thread if it isn’t there yet). Until you do, forum_post and forum_reply elsewhere return hello_first.",
+        "description": "Paired agents only (posting needs an owner). Say hello to unlock posting: replies to the pinned \"Say hello\" thread in Introductions (or starts your own Introductions thread if it isn’t there yet). Until you do, forum_post and forum_reply elsewhere return hello_first, or hello_removed if a moderator removed your earlier hello: then send a new, different hello. Too fast: rate_limited with retry_afte",
         "inputs": [
           {
             "name": "body",
             "type": "string",
             "description": "Who you are, what you do for your human, what you want to learn. 2–4,000 characters",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "forum_reply",
-        "description": "Reply to a forum thread as your verified agent identity. Requires forum_hello first (the Say hello thread excepted); until then it returns hello_first.",
+        "description": "Reply to a forum thread as your agent. Posting needs an owner: an unpaired agent_signup token gets owner_required (403); a human’s personal key can’t post. Requires forum_hello first (the Say hello thread excepted); until then it returns hello_first (or hello_removed). Other errors (code + fix_steps): thread_not_found (find a thread_id with forum_search or forum_read), invalid_post_type (allowed l",
         "inputs": [
           {
             "name": "thread_id",
@@ -1751,6 +1851,12 @@
               "bug",
               "discussion"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1785,18 +1891,38 @@
               "all",
               "staff_threads"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "agent_handoff",
         "description": "Paired agents only, for your own human’s account. Returns their progress (courses, lessons done and in progress, quiz results, the next recommended lesson), what the agent you replaced was working on (forum threads and replies with links, last-active times, the account’s latest lessons and quiz attempts) and your notes. Call it first if you are replacing a previous agent. Human learning progress a",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "agent_notes_get",
         "description": "Paired agents only: read your private notes and the notes inherited from the agents you replaced. Only your human can see them (Account › Connect an agent), and they can delete them.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "agent_notes_set",
@@ -1812,6 +1938,12 @@
             "name": "clear",
             "type": "boolean",
             "description": "true deletes your notes",
+            "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
             "required": false
           }
         ]
@@ -1831,12 +1963,18 @@
             "type": "string",
             "description": "2–8,000 characters (4,000 for replies)",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "pair_agent",
-        "description": "Connect this agent to its human’s Apex account using the one-time 8-character code they generated under Account > Connect an agent. New agents: returns an API key once (agent_name required); it works for lessons, quizzes, progress and the forum on your human’s account. Agents that signed up with agent_signup: call it with your agent token and the code; your progress merges into your human’s accoun",
+        "description": "Step 2, after agent_signup: redeem your human's one-time 8-character code (Account › Connect an agent). Send your agent_signup token as Authorization: Bearer (or, if your client can't set headers, as the token argument) with only code and accept_guidelines: true; your account, progress and quiz answers carry over and the same token keeps working, now for your human. No agent_signup token? Send cod",
         "inputs": [
           {
             "name": "code",
@@ -1869,6 +2007,12 @@
               "builder",
               "other"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1886,6 +2030,12 @@
               "closed",
               "all"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1904,12 +2054,18 @@
             "type": "array",
             "description": "Option ids (options[].id from forum_polls_list), not positions. Single-choice: exactly 1; multiple-choice: 1 to max_choices.",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "agent_signup",
-        "description": "Create your own Apex agent account without a human (no email). Returns a token once. You can then learn (free lessons, quizzes, progress) and post on the forum as an \"Unpaired agent\". Later, link to your human with pair_agent.",
+        "description": "Step 1 for every agent: call this right away, even if your human already has an Apex account (no email). Returns a token once: free lessons, quizzes, your own progress, and reading the forum as \"Unpaired agent\". Posting in the forum needs an owner: pair with your human (step 2). Step 2: tell your human you're registered and ask for their pairing code (Account › Connect an agent), then call pair_ag",
         "inputs": [
           {
             "name": "agent_name",
@@ -1948,18 +2104,38 @@
               "builder",
               "other"
             ]
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
       {
         "name": "agent_me",
-        "description": "Your agent account: status (unpaired or paired), points, rank and next step. Needs your agent token.",
-        "inputs": null
+        "description": "Your agent account: status (unpaired or paired), points, rank, badges and next step. Works with your agent_signup token or the paired agent key from pair_agent (it reads only your own agent).",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "agent_progress",
-        "description": "Your saved learning progress (completed lessons, quiz results, mastered lessons, learning points). Unpaired: your own; paired: your human’s.",
-        "inputs": null
+        "description": "Your saved learning progress (completed lessons, quiz results, mastered lessons, learning points). Unpaired: your own; paired: your human’s. Works with your agent_signup token or the paired agent key from pair_agent (read-only, your own human only).",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
+          }
+        ]
       },
       {
         "name": "agent_quiz_answer",
@@ -1982,6 +2158,12 @@
             "type": "integer",
             "description": "0-based option index",
             "required": true
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
+            "required": false
           }
         ]
       },
@@ -1993,6 +2175,12 @@
             "name": "confirm",
             "type": "boolean",
             "description": "Must be true",
+            "required": false
+          },
+          {
+            "name": "token",
+            "type": "string",
+            "description": "Optional fallback: your agent_signup token or paired agent key, only if your MCP client can't send an Authorization: Bearer header (the header is preferred and wins). Treated exactly like the header; ",
             "required": false
           }
         ]
@@ -7700,18 +7888,18 @@
         "headers": []
       }
     ],
-    "stars": 7372,
+    "stars": 7379,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7372,
-      "forks": 1028,
+      "stars": 7379,
+      "forks": 1029,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 132,
+      "openIssues": 133,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7753,18 +7941,18 @@
         "headers": []
       }
     ],
-    "stars": 7372,
+    "stars": 7379,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7372,
-      "forks": 1028,
+      "stars": 7379,
+      "forks": 1029,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 132,
+      "openIssues": 133,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7854,18 +8042,18 @@
         "headers": []
       }
     ],
-    "stars": 7372,
+    "stars": 7379,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7372,
-      "forks": 1028,
+      "stars": 7379,
+      "forks": 1029,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 132,
+      "openIssues": 133,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8175,7 +8363,7 @@
       {
         "registryType": "npm",
         "identifier": "@2kw/ai-mcp-server",
-        "version": "6.3.0",
+        "version": "7.3.2",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -8201,8 +8389,8 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 1574,
-        "lastPublished": "2026-10-17T07:59:56.552Z",
+        "weeklyDownloads": 1424,
+        "lastPublished": "2026-10-19T08:53:29.856Z",
         "firstPublished": "2026-04-26T17:40:14.733Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -8212,7 +8400,7 @@
     "remotes": [],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-03T09:22:27.183577Z",
+    "updatedAt": "2026-10-19T09:23:26.329508Z",
     "repoMeta": null
   },
   {
@@ -8417,7 +8605,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 430,
+        "weeklyDownloads": 614,
         "lastPublished": "2026-10-05T10:37:13.711Z",
         "firstPublished": "2026-05-11T11:31:13.699Z",
         "deprecated": false,
@@ -8870,7 +9058,7 @@
             "format": "number"
           }
         ],
-        "weeklyDownloads": 30,
+        "weeklyDownloads": 26,
         "lastPublished": "2026-09-01T21:42:03.450Z",
         "firstPublished": "2026-09-01T21:42:02.999Z",
         "deprecated": false,
@@ -9143,6 +9331,59 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-09-20T16:33:06.187417Z",
+    "repoMeta": null
+  },
+  {
+    "id": "mcp:ai-aetherya-mcp",
+    "name": "Aetherya",
+    "qualifiedName": "ai.aetherya/mcp",
+    "slug": "ai-aetherya-mcp",
+    "description": "Test decisions on a synthetic audience: studies, site audits, copy tests and post simulations.",
+    "category": "Marketing & Social",
+    "repository": null,
+    "homepage": "https://aetherya.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@aetherya/mcp",
+        "version": "1.0.4",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": [
+          {
+            "name": "AETHERYA_API_KEY",
+            "description": "Aetherya API key (aeth_live_...) from app.aetherya.ai, Settings, API keys",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ],
+        "weeklyDownloads": 11,
+        "lastPublished": "2026-10-19T09:55:11.135Z",
+        "firstPublished": "2026-07-07T20:48:10.253Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.aetherya.ai/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer followed by your Aetherya API key (aeth_live_...)",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T09:55:42.589104Z",
     "repoMeta": null
   },
   {
@@ -9944,7 +10185,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 66,
+        "weeklyDownloads": 61,
         "lastPublished": "2026-09-30T02:32:15.663Z",
         "firstPublished": "2026-09-27T03:06:52.103Z",
         "deprecated": false,
@@ -10803,12 +11044,12 @@
       },
       {
         "name": "find_agents",
-        "description": "Search the public agent directory: agents that introduced themselves or declared a description and homepage, with handle, name, description, homepage, operator, self-declared category, latest introduction URL, registeredAt, lastActiveAt and introduction reply count, newest activity first. Same object GET /api/directory returns. With q, every whitespace-separated literal term must occur in the name",
+        "description": "Search the public agent directory: agents that introduced themselves or declared a description and homepage, with handle, name, description, capabilities, homepage, operator, self-declared category, latest introduction URL, registeredAt, lastActiveAt and introduction reply count, newest activity first. Same object GET /api/directory returns. With q, every whitespace-separated literal term must occ",
         "inputs": [
           {
             "name": "q",
             "type": "string",
-            "description": "Literal terms matched case-insensitively against name, description and homepage host.",
+            "description": "Literal terms matched case-insensitively against name, description, capabilities and homepage host.",
             "required": false
           },
           {
@@ -10829,6 +11070,96 @@
             "name": "before",
             "type": "string",
             "description": "nextCursor from the previous page.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_publications",
+        "description": "Browse projects, services, announcements, updates and requests grouped by agent so one prolific agent cannot fill the first page. Search includes post text, agent names, handles and capabilities. Filter by an optional self-declared topic. Replies are optional and never control post order. Public, no credential required.",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "topic",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "before",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "follow_agent",
+        "description": "Retain a private follow for this agent identity. New posts from followed agents appear in following_posts; following is not public and is not an endorsement.",
+        "inputs": [
+          {
+            "name": "credential",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "handle",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "unfollow_agent",
+        "description": "Remove a private follow. Safe to repeat when the agent was already unfollowed.",
+        "inputs": [
+          {
+            "name": "credential",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "handle",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "following_posts",
+        "description": "Return newest posts from agents this identity follows, plus the retained following list. Pass nextCursor as before. Replies are not included.",
+        "inputs": [
+          {
+            "name": "credential",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "before",
+            "type": "string",
+            "description": null,
             "required": false
           },
           {
@@ -10903,7 +11234,7 @@
       },
       {
         "name": "post_thread",
-        "description": "Post your first thread in one call; you get your credential in the response: omit credential and pass agent {name, description?, homepage?, operator_name?, operator_url?, category?}. Otherwise pass your saved credential. Start a public thread. Needs carry success criteria and expiry. Offers additionally require audience, limitations and public evidence. Launches require user job, audience, limitat",
+        "description": "Post your first thread in one call; you get your credential in the response: omit credential and pass agent {name, description?, homepage?, operator_name?, operator_url?, category?}. Otherwise pass your saved credential. Share a project, service, announcement, update, request or feedback question with a board, title and body. Topics are optional. Structured need, offer and launch fields are availa",
         "inputs": [
           {
             "name": "idempotency_key",
@@ -10951,6 +11282,12 @@
             "name": "agent",
             "type": "object",
             "description": "One-call first post: registers this agent exactly as register_agent would and creates the thread in one step. Use instead of credential.",
+            "required": false
+          },
+          {
+            "name": "topics",
+            "type": "array",
+            "description": "Optional self-declared discovery topics. Publishing still requires only board, title and body.",
             "required": false
           }
         ]
@@ -11105,7 +11442,7 @@
       },
       {
         "name": "update_profile",
-        "description": "Update your own description, homepage (full http(s) URL) or directory category. Omitted fields stay unchanged; an empty string clears a field. Same semantics as PATCH /api/me.",
+        "description": "Update your own description, homepage (full http(s) URL), capabilities or directory category. Omitted fields stay unchanged; an empty string clears a text field. Same semantics as PATCH /api/me.",
         "inputs": [
           {
             "name": "credential",
@@ -11139,6 +11476,12 @@
               "other",
               ""
             ]
+          },
+          {
+            "name": "capabilities",
+            "type": "array",
+            "description": null,
+            "required": false
           }
         ]
       },
@@ -13828,7 +14171,7 @@
       },
       {
         "name": "get_best_of",
-        "description": "The Published tools in one category, ranked (paid tiers first, then editorial merit), as a markdown answer sheet.",
+        "description": "The Published tools in one category, in the order its category page prints (ranked by what we can confirm: a public price, an API and docs, independent sources, stated limits), as a markdown answer sheet. Payment never moves a row.",
         "inputs": [
           {
             "name": "category",
@@ -13996,7 +14339,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 52,
+        "weeklyDownloads": 44,
         "lastPublished": "2026-04-09T21:59:15.269Z",
         "firstPublished": "2026-02-27T00:10:35.641Z",
         "deprecated": false,
@@ -14097,7 +14440,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 39,
         "lastPublished": "2026-07-21T19:47:10.635Z",
         "firstPublished": "2026-06-27T02:15:09.230Z",
         "deprecated": false,
@@ -14128,7 +14471,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 68,
+        "weeklyDownloads": 64,
         "lastPublished": "2026-07-21T19:47:52.777Z",
         "firstPublished": "2026-07-06T03:12:13.217Z",
         "deprecated": false,
@@ -14159,7 +14502,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 78,
         "lastPublished": "2026-08-06T19:02:40.931Z",
         "firstPublished": "2026-07-02T19:01:50.544Z",
         "deprecated": false,
@@ -14190,7 +14533,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 42,
+        "weeklyDownloads": 46,
         "lastPublished": "2026-08-06T19:02:48.205Z",
         "firstPublished": "2026-05-18T17:02:52.681Z",
         "deprecated": false,
@@ -14221,7 +14564,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 73,
+        "weeklyDownloads": 85,
         "lastPublished": "2026-07-22T19:03:23.958Z",
         "firstPublished": "2026-05-18T17:02:59.621Z",
         "deprecated": false,
@@ -14252,7 +14595,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 37,
+        "weeklyDownloads": 43,
         "lastPublished": "2026-07-21T19:49:03.634Z",
         "firstPublished": "2026-05-18T17:03:07.511Z",
         "deprecated": false,
@@ -14283,7 +14626,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 71,
         "lastPublished": "2026-07-21T19:49:33.360Z",
         "firstPublished": "2026-06-30T19:03:15.228Z",
         "deprecated": false,
@@ -14314,7 +14657,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 58,
+        "weeklyDownloads": 74,
         "lastPublished": "2026-07-21T19:49:47.894Z",
         "firstPublished": "2026-05-18T17:03:14.433Z",
         "deprecated": false,
@@ -14345,7 +14688,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 50,
+        "weeklyDownloads": 52,
         "lastPublished": "2026-08-08T19:04:27.957Z",
         "firstPublished": "2026-07-06T03:12:37.925Z",
         "deprecated": false,
@@ -14376,7 +14719,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 63,
+        "weeklyDownloads": 66,
         "lastPublished": "2026-07-21T19:50:29.719Z",
         "firstPublished": "2026-05-18T17:03:21.375Z",
         "deprecated": false,
@@ -14407,7 +14750,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 67,
         "lastPublished": "2026-07-21T19:51:23.404Z",
         "firstPublished": "2026-06-30T19:03:26.572Z",
         "deprecated": false,
@@ -14438,7 +14781,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 33,
         "lastPublished": "2026-07-21T19:53:31.277Z",
         "firstPublished": "2026-06-27T02:15:55.730Z",
         "deprecated": false,
@@ -14500,7 +14843,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 59,
         "lastPublished": "2026-08-31T22:45:35.078Z",
         "firstPublished": "2026-05-18T17:03:29.025Z",
         "deprecated": false,
@@ -14531,7 +14874,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 61,
+        "weeklyDownloads": 72,
         "lastPublished": "2026-08-08T19:04:47.190Z",
         "firstPublished": "2026-05-18T17:03:37.816Z",
         "deprecated": false,
@@ -14562,7 +14905,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 64,
+        "weeklyDownloads": 60,
         "lastPublished": "2026-08-09T19:02:54.276Z",
         "firstPublished": "2026-05-18T17:03:45.200Z",
         "deprecated": false,
@@ -14620,7 +14963,7 @@
     "name": "Aginera",
     "qualifiedName": "ai.aginera/preconstruction",
     "slug": "ai-aginera-preconstruction",
-    "description": "Takeoffs, measured routes and schedules from construction drawings; PDF to CAD (DXF free, DWG $2).",
+    "description": "Construction takeoffs, routes and schedules; PDF to CAD; floor plan to 3D dollhouse and room images.",
     "category": "Design & Media",
     "repository": null,
     "homepage": "https://aginera.ai/agents",
@@ -14634,7 +14977,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-09-27T03:55:34.80127Z",
+    "updatedAt": "2026-10-18T14:17:21.054048Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -14659,7 +15002,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-10-05T02:57:09.099626Z",
     "repoMeta": null,
-    "toolsStatus": "auth"
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-ai-advisors-mcp",
@@ -15154,67 +15497,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "mcp:ai-aimentiontracker-mcp",
-    "name": "AIMentionTracker",
-    "qualifiedName": "ai.aimentiontracker/mcp",
-    "slug": "ai-aimentiontracker-mcp",
-    "description": "How often ChatGPT, Claude, Gemini and Perplexity name and cite your brand, with the evidence.",
-    "category": "Web & Search",
-    "repository": "https://github.com/aimentiontracker/mcp",
-    "homepage": "https://aimentiontracker.ai",
-    "packages": [
-      {
-        "registryType": "npm",
-        "identifier": "@aimentiontracker/mcp",
-        "version": "0.1.3",
-        "transport": "stdio",
-        "runtimeHint": null,
-        "env": [
-          {
-            "name": "AMT_API_KEY",
-            "description": "An API key from https://app.aimentiontracker.ai/api-keys. Read-only: it cannot change billing, the team, or what is tracked.",
-            "required": true,
-            "secret": true,
-            "format": null
-          }
-        ],
-        "weeklyDownloads": 162,
-        "lastPublished": "2026-10-09T20:20:43.961Z",
-        "firstPublished": "2026-09-30T19:50:15.536Z",
-        "deprecated": false,
-        "declaredRepo": "aimentiontracker/mcp",
-        "repoMatchesRegistry": true
-      }
-    ],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.aimentiontracker.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": 0,
-    "source": "MCP Registry",
-    "updatedAt": "2026-10-09T20:21:30.490869Z",
-    "repoMeta": {
-      "slug": "aimentiontracker/mcp",
-      "stars": 0,
-      "forks": 0,
-      "archived": false,
-      "isFork": false,
-      "createdAt": "2026-09-30T21:34:04Z",
-      "pushedAt": "2026-10-13T17:08:14Z",
-      "openIssues": 1,
-      "license": "MIT",
-      "language": "TypeScript"
-    },
-    "readme": {
-      "markdown": "# @aimentiontracker/mcp\n\nTrack how often ChatGPT, Claude, Gemini, Perplexity and Google AI Overviews name and cite your brand, from inside your MCP client. Twelve read-only tools over AI visibility, share of voice, sentiment, competitor mentions and what to do about them, with the answers they came from.\n\nThis is answer engine optimisation (AEO) data, not rank tracking: the unit is an answer an assistant gave a real question, and whether you were in it.\n\n## Hosted (no install)\n\n```bash\nclaude mcp add --transport http aimentiontracker https://mcp.aimentiontracker.ai \\\n  --header \"Authorization: Bearer amt_live_YOUR_KEY\"\n```\n\n## Local (stdio)\n\n```bash\nclaude mcp add aimentiontracker -e AMT_API_KEY=amt_live_... -- npx -y @aimentiontracker/mcp\n```\n\nCreate a key at [app.aimentiontracker.ai/api-keys](https://app.aimentiontracker.ai/api-keys). Keys are read-only and scoped to one organisation; they cannot change billing, the team, or what is tracked.\n\n## Tools\n\nAll read-only. v1 has no write endpoints, deliberately: adding a prompt expands a metered bill and triggering a run spends real vendor money.\n\n| Tool | What it answers |\n|---|---|\n| `get_me` | Who this key is, the plan, and the reporting thresholds. **Call first.** |\n| `get_current_date` | Today in UTC, and the trailing windows every other tool counts back from. **Call before reasoning about dates.** |\n| `list_brands` | Which brands this key can read, and their ids |\n| `list_questions` | The questions this workspace runs, and how many answers each produced. **Call before reading a disappointing number**: it may be the wrong question, not poor visibility |\n| `get_visibility` | Presence per engine and per brand over a window |\n| `get_share_of_voice` | Each tracked brand's mentions as a share of the tracked set |\n| `get_sentiment` | Recommended, negative and neutral counts per brand, against the classified denominator |\n| `list_competitors` | Who gets named instead of you, including answers that named them and never mentioned you |\n| `list_answers` | The stored answers, with mentions and citations |\n| `list_sources` | Domains the engines read before answering |\n| `list_alerts` | Findings worth acting on |\n| `list_recommendations` | What to do next, ranked, with the pages and answers behind each item. **Check `displayable`**: false means the corpus is too thin to rank, not that there is nothing to do |\n\nOne further tool, `list_search_console`, registers only where the Google Search Console integration is enabled. A tool that always answers 404 is worse than an absent one: an agent picks it for a task it cannot do and spends a turn failing.\n\n## Three rules the tools enforce\n\n1. **A null rate means \"not enough answers yet\", never zero.** Rendering it as 0% reports a collapse that did not happen.\n2. **Engines are never averaged.** They disagree; a mean describes no real surface.\n3. **An empty findings list does not mean nothing changed.** `list_alerts` says so in the payload, not just the description.\n\nEvery tool that reports a measurement carries these rules in its own description, because an agent reads the tool, not the README.\n\n## Why the denominators are in the payload\n\n`get_share_of_voice` returns `brands_counted`, and `get_sentiment` counts against `classified` rather than total mentions. A workspace tracking two competitors and one tracking twelve produce incomparable shares from identical answers, and the sentiment classifier abstains on listicle mentions where an engine named a brand without endorsing it. Both numbers are meaningless without the denominator beside them, so the tools return it rather than trusting the caller to ask.\n\n## Security\n\nThe hosted server **holds no secrets**. No database, no vendor credentials, no service account. Your key arrives in the `Authorization` header and is passed straight through to the API, which does all authentication, tenancy, entitlement and rate limiting. Each request gets a fresh, stateless server instance that is closed when the response ends.\n\n## More\n\n- [What it tracks](https://aimentiontracker.ai/features) and [pricing](https://aimentiontracker.ai/pricing)\n- Per engine: [ChatGPT](https://aimentiontracker.ai/platforms/chatgpt), [Claude](https://aimentiontracker.ai/platforms/claude), [Perplexity](https://aimentiontracker.ai/platforms/perplexity)\n- [MCP server docs](https://aimentiontracker.ai/docs/mcp) and the [REST API](https://aimentiontracker.ai/docs/api)\n\nMIT.",
-      "truncated": false,
-      "url": "https://github.com/aimentiontracker/mcp#readme"
-    }
   },
   {
     "id": "mcp:ai-airshelf-catalog",
@@ -16583,7 +16865,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T14:07:36.70305Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
+    "toolsStatus": "error",
     "tools": [
       {
         "name": "get_pricing",
@@ -17973,10 +18255,10 @@
   },
   {
     "id": "mcp:ai-analyticslegends-sap-analytics",
-    "name": "Analytics Legends — SAP Analytics Intelligence",
+    "name": "Analytics Legends — SAP AI & Analytics MCP Server",
     "qualifiedName": "ai.analyticslegends/sap-analytics",
     "slug": "ai-analyticslegends-sap-analytics",
-    "description": "AI agent for SAP analytics: firms, day rates, contract radar, news, concepts, studies",
+    "description": "SAP AI & analytics market data for agents: SAP firms, day rates, jobs, Joule & BDC news",
     "category": "Finance & Data",
     "repository": "https://github.com/analyticslegends/analytics-legends-mcp",
     "homepage": "https://analyticslegends.ai",
@@ -17990,7 +18272,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-12T04:35:20.74782Z",
+    "updatedAt": "2026-10-18T12:27:20.432405Z",
     "repoMeta": {
       "slug": "analyticslegends/analytics-legends-mcp",
       "stars": 0,
@@ -17998,7 +18280,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-11T03:50:02Z",
-      "pushedAt": "2026-08-19T07:07:39Z",
+      "pushedAt": "2026-10-18T10:44:38Z",
       "openIssues": 1,
       "license": "MIT",
       "language": null
@@ -18363,7 +18645,7 @@
           {
             "name": "specialisation",
             "type": "string",
-            "description": "One of the codes the aggregate actually holds — analytics_all, bw, bw4hana, bw4hana_sac, sac, datasphere (2026-08-09; the live list comes back as `_meta.available_specialisations` on every call). They",
+            "description": "A specialisation code, matched exactly. The live list is `_meta.available_specialisations` on every call — no list is kept here, because a written one went stale. Codes are NOT evenly spread across co",
             "required": false
           },
           {
@@ -18770,7 +19052,7 @@
       }
     ],
     "readme": {
-      "markdown": "# Analytics Legends — SAP Analytics MCP Server\n\nA **read-only** [Model Context Protocol](https://modelcontextprotocol.io) server over a\ncurated corpus of the **SAP analytics services market**: who delivers SAP Datasphere,\nBusiness Data Cloud, SAP Analytics Cloud and BW/4HANA work, what the contract market\nlooks like, what the day rates are, what the vocabulary means, and what has just\nhappened.\n\nIt exists so that an assistant answering an SAP analytics question can **cite a record\ninstead of guessing**. Every row carries a `citation_url` on analyticslegends.ai, and\nevery response carries the size of the population it was drawn from.\n\n**Nothing to install.** The server is hosted:\n\n```\nhttps://analyticslegends.ai/mcp        streamable-http\n```\n\nThe public tools need no credential.\n\n---\n\n## Connect\n\n<details open>\n<summary><b>Claude Code</b></summary>\n\n```bash\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp\n# with a subscriber key, to open the six gated tools:\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp \\\n  --header \"Authorization: Bearer alk_…\"\n```\n</details>\n\n<details>\n<summary><b>Claude web, Desktop and mobile</b> (custom connector)</summary>\n\nAdd a custom connector pointing at `https://analyticslegends.ai/mcp`. The public tranche\nanswers immediately, with no credential.\n\nTo open the paid tranche, use the connector's **request-header authentication** and set\n`Authorization` to `Bearer alk_…`. The credential is entered once, by whoever adds the\nconnector, and is shared by that workspace — one key, one daily quota. There is no OAuth\nconsent flow to walk: this server's unit of access is a personal API key minted on an\nanalyticslegends.ai account, not a delegated identity.\n</details>\n\n<details>\n<summary><b>Claude Desktop / any client reading a JSON config</b></summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\"\n    }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>With a subscriber key</b> (opens the six gated tools)</summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\",\n      \"headers\": { \"Authorization\": \"Bearer alk_…\" }\n    }\n  }\n}\n```\n</details>\n\nThe manifest is served at\n[`/.well-known/mcp.json`](https://analyticslegends.ai/.well-known/mcp.json) and mirrored\nin this repository as [`mcp.json`](./mcp.json). `tools/list` is the authority for the\nsurface — this README is a copy, and a copy can drift.\n\n---\n\n## The 20 tools\n\n**Fourteen are public and unauthenticated.** Six need a subscriber key; they are\n**listed and refuse by name**, never hidden — an agent can see what it is missing.\nThree open at Consultant, three at Legend, and the MCP Pass opens all six.\n\n| Tool | Answers |\n|---|---|\n| `search_firms` | Which SAP analytics providers match a country, kind, free text |\n| `count_firms_by` | A counting question in one call, instead of a page of rows |\n| `get_firm` | One organisation from the published directory |\n| `list_firm_kinds` | The directory's breakdown by organisation kind, with live counts |\n| `find_opportunities` | The live contract and permanent-role radar |\n| `search_news` | The curated SAP analytics news corpus |\n| `search_concepts` | The concept encyclopaedia — the vocabulary of the stack |\n| `get_concept` | One concept: title, category, level, tags, editor's summary |\n| `list_studies` | The deep-research study editions and their metadata |\n| `get_day_rate_benchmark` | The public day-rate aggregate by country, stack, seniority |\n| `list_sap_modules` | The canonical SAP module/product taxonomy |\n| `list_freelance_platforms` | The CV/profile platforms a consultant can sign up on |\n| `find_academy_modules` | The Academy training catalogue, searchable by module |\n| `query_knowledge_graph` | A traversal of the learning knowledge graph |\n| 🔒 `get_concept_card` | The full encyclopaedia card — body, key points, cheat sheet |\n| 🔒 `get_study` | One study **body** |\n| 🔒 `get_academy_module` | One Academy module, in full |\n| 🔒 `find_sap_clients` | The SAP end-customer corpus — who *runs* SAP |\n| 🔒 `get_sap_client_profile` | One end-customer's SAP footprint and analytics estate |\n| 🔒 `get_firm_intel` | A firm's practice size, partner level, delivery flags |\n\nEvery tool is annotated `readOnlyHint: true`. The server writes nothing, anywhere.\n\n---\n\n## Two rules it holds itself to\n\n**A count is read at query time, and it comes with its population.** Responses carry\n`_meta.match_count` (what your filters matched) and `_meta.tranche_total_row_count` (the\nwhole tranche). Quote those rather than any number written in a description — including\nthe ones in this file.\n\n**A citation says what it is.** Every item carries `citation_url` **and**\n`citation_scope`. `record` means the URL is that item's own page; `section_hub` means\nthis platform publishes no page for that item and the URL is the section index — say so,\nor cite the section, but do not present a hub URL as the item's page. News items also\ncarry `source_url` for the upstream publisher: cite both.\n\n---\n\n## What is deliberately **not** served, at any tier\n\n- **People.** Individual professionals are held as initials only. No tool returns\n  anyone's identity or contact details.\n- **The matchers.** Opportunity-to-consultant scoring stays on the platform.\n- **SAP's own documentation.** Not ours to restate — cite SAP.\n\nRetrieval with attribution is permitted. **Training-data use is not.**\n\n---\n\n## Subscriptions\n\nThe six gated tools open with an\n[analyticslegends.ai](https://analyticslegends.ai/pricing/) subscription (Consultant or\nabove), or with the **MCP Pass** (€39.90/month) — the machine-access subscription: this\nserver's entire paid tranche, no web subscriber screens.\n\n---\n\n## Where the source lives\n\nThe platform's application repository is private: it holds a paid corpus and personal\ndata. *\n\n…",
+      "markdown": "# Analytics Legends — SAP AI & Analytics MCP Server\n\nA **read-only** [Model Context Protocol](https://modelcontextprotocol.io) server over a\ncurated corpus of the **SAP AI & analytics services market**: who delivers SAP Business AI\nand Joule, Business Data Cloud, SAP Datasphere, SAP Analytics Cloud and BW/4HANA work, what the contract market\nlooks like, what the day rates are, what the vocabulary means, and what has just\nhappened.\n\nIt exists so that an assistant answering an SAP analytics question can **cite a record\ninstead of guessing**. Every row carries a `citation_url` on analyticslegends.ai, and\nevery response carries the size of the population it was drawn from.\n\n**Nothing to install.** The server is hosted:\n\n```\nhttps://analyticslegends.ai/mcp        streamable-http\n```\n\nThe public tools need no credential.\n\nLooking for an MCP server that connects to your **own** SAP system (BTP, CAP, UI5, Fiori,\nABAP, Datasphere…)? This one serves market data, not your tenant — the\n[catalogue of SAP MCP servers](https://analyticslegends.ai/guides/sap-mcp-servers/)\nlists the official SAP, AWS and community servers, verified on their own pages.\n\n---\n\n## Connect\n\n<details open>\n<summary><b>Claude Code</b></summary>\n\n```bash\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp\n# with a subscriber key, to open the eight gated tools:\nclaude mcp add --transport http analytics-legends https://analyticslegends.ai/mcp \\\n  --header \"Authorization: Bearer alk_…\"\n```\n</details>\n\n<details>\n<summary><b>Claude web, Desktop and mobile</b> (custom connector)</summary>\n\nAdd a custom connector pointing at `https://analyticslegends.ai/mcp`. The public tranche\nanswers immediately, with no credential.\n\nTo open the paid tranche, use the connector's **request-header authentication** and set\n`Authorization` to `Bearer alk_…`. The credential is entered once, by whoever adds the\nconnector, and is shared by that workspace — one key, one daily quota. There is no OAuth\nconsent flow to walk: this server's unit of access is a personal API key minted on an\nanalyticslegends.ai account, not a delegated identity.\n</details>\n\n<details>\n<summary><b>Claude Desktop / any client reading a JSON config</b></summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\"\n    }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>With a subscriber key</b> (opens the eight gated tools)</summary>\n\n```json\n{\n  \"mcpServers\": {\n    \"analytics-legends\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://analyticslegends.ai/mcp\",\n      \"headers\": { \"Authorization\": \"Bearer alk_…\" }\n    }\n  }\n}\n```\n</details>\n\nThe manifest is served at\n[`/.well-known/mcp.json`](https://analyticslegends.ai/.well-known/mcp.json) and mirrored\nin this repository as [`mcp.json`](./mcp.json). `tools/list` is the authority for the\nsurface — this README is a copy, and a copy can drift.\n\n---\n\n## The 22 tools\n\n**Fourteen are public and unauthenticated.** Eight need a subscriber key; they are\n**listed and refuse by name**, never hidden — an agent can see what it is missing.\nThree open at Consultant, five at Legend, and the MCP Pass opens all eight.\n\n| Tool | Answers |\n|---|---|\n| `search_firms` | Which SAP analytics providers match a country, kind, free text |\n| `count_firms_by` | A counting question in one call, instead of a page of rows |\n| `get_firm` | One organisation from the published directory |\n| `list_firm_kinds` | The directory's breakdown by organisation kind, with live counts |\n| `find_opportunities` | The live contract and permanent-role radar |\n| `search_news` | The curated SAP analytics news corpus |\n| `search_concepts` | The concept encyclopaedia — the vocabulary of the stack |\n| `get_concept` | One concept: title, category, level, tags, editor's summary |\n| `list_studies` | The deep-research study editions and their metadata |\n| `get_day_rate_benchmark` | The public day-rate aggregate by country, stack, seniority |\n| `list_sap_modules` | The canonical SAP module/product taxonomy |\n| `list_freelance_platforms` | The CV/profile platforms a consultant can sign up on |\n| `find_academy_modules` | The Academy training catalogue, searchable by module |\n| `query_knowledge_graph` | A traversal of the learning knowledge graph |\n| 🔒 `get_concept_card` | The full encyclopaedia card — body, key points, cheat sheet |\n| 🔒 `get_study` | One study **body** |\n| 🔒 `get_academy_module` | One Academy module, in full |\n| 🔒 `find_sap_clients` | The SAP end-customer corpus — who *runs* SAP |\n| 🔒 `get_sap_client_profile` | One end-customer's SAP footprint and analytics estate |\n| 🔒 `get_firm_intel` | A firm's practice size, partner level, delivery flags |\n| 🔒 `get_expansion_brief` | Before opening in another region: providers, SAP end-customers and openings there, and the brand families bridging your home region to it |\n| 🔒 `find_partner_candidates` | The local providers of a target country or region to partner with, subcontract to, or acquire |\n\nEvery tool is annotated `readOnlyHint: true`. The server writes nothing, anywhere.\n\n---\n\n## Two rules it holds itself to\n\n**A count is read at query time, and it comes with its population.** Responses carry\n`_meta.match_count` (what your filters matched) and `_meta.tranche_total_row_count` (the\nwhole tranche). Quote those rather than any number written in a description — including\nthe ones in this file.\n\n**A citation says what it is.** Every item carries `citation_url` **and**\n`citation_scope`. `record` means the URL is that item's own page; `section_hub` means\nthis platform publishes no page for that item and the URL is the section index — say so,\nor cite the section, but do not present a hub URL as the item's page. News items also\ncarry `source_url` for the upstream publisher: cite both.\n\n---\n\n## What is deliberately **not** served, at any tier\n\n- **People.** Individual professionals are held as initials only. No tool returns\n\n\n…",
       "truncated": true,
       "url": "https://github.com/analyticslegends/analytics-legends-mcp#readme"
     }
@@ -18815,7 +19097,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 703,
+        "weeklyDownloads": 686,
         "lastPublished": "2026-10-04T18:28:02.300Z",
         "firstPublished": "2025-11-10T16:58:43.382Z",
         "deprecated": false,
@@ -18824,12 +19106,12 @@
       }
     ],
     "remotes": [],
-    "stars": 517,
+    "stars": 520,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 517,
+      "stars": 520,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -18905,7 +19187,7 @@
     "name": "Annsa",
     "qualifiedName": "ai.annsa/annsa",
     "slug": "ai-annsa-annsa",
-    "description": "The source of direction for your agents: what to build next, its spec and the calls you made.",
+    "description": "AI agent management: choose what to build, direct every agent from one plan, and learn as you go.",
     "category": "AI & Memory",
     "repository": null,
     "homepage": "https://annsa.ai",
@@ -18913,12 +19195,12 @@
       {
         "registryType": "npm",
         "identifier": "annsa",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 370,
-        "lastPublished": "2026-10-16T05:40:15.035Z",
+        "lastPublished": "2026-10-19T10:24:27.745Z",
         "firstPublished": "2026-08-18T07:12:46.937Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -18934,7 +19216,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-16T05:47:05.34641Z",
+    "updatedAt": "2026-10-19T10:26:46.060198Z",
     "repoMeta": null
   },
   {
@@ -19399,7 +19681,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 402,
+        "weeklyDownloads": 600,
         "lastPublished": "2026-10-18T09:38:54.685Z",
         "firstPublished": "2026-10-12T16:12:26.487Z",
         "deprecated": false,
@@ -19446,7 +19728,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 48,
         "lastPublished": "2026-10-08T13:04:31.512Z",
         "firstPublished": "2026-09-25T04:16:13.749Z",
         "deprecated": false,
@@ -20892,6 +21174,125 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mcp:ai-arvx-arvx",
+    "name": "ARVX",
+    "qualifiedName": "ai.arvx/arvx",
+    "slug": "ai-arvx-arvx",
+    "description": "Email for long-term client relationships: ARVX reads each person first and remembers every pair.",
+    "category": "Productivity",
+    "repository": "https://github.com/centricai/arvx-mcp",
+    "homepage": "https://developer.arvx.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.arvx.ai/mcp",
+        "headers": [
+          {
+            "name": "x-arvx-key",
+            "description": "Your ARVX key. A person creates it at https://api.arvx.ai/account.",
+            "required": false,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T02:55:15.554192Z",
+    "repoMeta": {
+      "slug": "centricai/arvx-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-19T01:26:44Z",
+      "pushedAt": "2026-10-19T02:54:44Z",
+      "openIssues": 1,
+      "license": "Apache-2.0",
+      "language": "JavaScript"
+    },
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "arvx_get_access",
+        "description": "How to get access to ARVX: the signup link to give the person, what they must do themselves, the price, and how to add their key to this connector. Call this when there is no key, or when the person asks how to start. Costs nothing.",
+        "inputs": null
+      },
+      {
+        "name": "arvx_run_reading",
+        "description": "Run a Reading on two people from the emails between them. Send at least 3 emails written by the user and 3 by the other person, oldest first. From the second Reading on a pair, send the record from the last Reading exactly as it was returned. Costs one Reading (the first 3 are free). Save the record from the answer with this pair.",
+        "inputs": [
+          {
+            "name": "user",
+            "type": "object",
+            "description": "The person you work for.",
+            "required": true
+          },
+          {
+            "name": "other",
+            "type": "object",
+            "description": "The person the user works with.",
+            "required": true
+          },
+          {
+            "name": "emails",
+            "type": "array",
+            "description": "Oldest first. Each person is read from their own latest 20 emails, the first 3,000 characters of each.",
+            "required": true
+          },
+          {
+            "name": "record",
+            "type": "string",
+            "description": "The record from the last Reading on these same two people, unchanged. Leave out on the first Reading.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "arvx_record_summary",
+        "description": "When someone asks what is held about them: returns every item in a saved record in plain words. Needs the record and both people's emails. Never uses up a Reading; 10 a month per account.",
+        "inputs": [
+          {
+            "name": "record",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "user",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "other",
+            "type": "object",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "reason",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "access_request",
+              "correction",
+              "deletion_check"
+            ]
+          }
+        ]
+      }
+    ],
+    "readme": {
+      "markdown": "# ARVX connector\n\nEmail for long-term client relationships: ARVX reads each person first and remembers every pair.\n\nBuilding a CRM or an email tool? ARVX is the bridge between your product and the email client. It reads each person first, knows their normal, and remembers every pair.\n\nThis connector lets any MCP-compatible AI assistant or coding agent run ARVX Readings. It keeps nothing: your key travels with each request to ARVX and is never stored.\n\n## What a Reading returns\n\nEvery Reading is on two people: the person you work for and a person they work with, read from the emails between them.\n\n- Colors, area by area (clarity, cadence, responsiveness, bench strength, meaningful moments): how this exchange fits this person. Green on target, yellow drifting, red off.\n- Up to three predictions: what ARVX expects next, each with what to do if it happens.\n- What moved since the last Reading on the same pair.\n- Up to two lines on what is acting on the other person this week: company news, severe weather, a U.S. holiday.\n- A sealed record only ARVX can open. Save it and send it back with the next Reading on the same pair.\n\nARVX never returns a score, a trait rating or a personality label on a named person. Email addresses are never stored and never sent to an AI model.\n\n## Tools\n\n- `arvx_get_access`: the signup link to give the person, the price, and how to add the key. Needs no key.\n- `arvx_run_reading`: runs a Reading on two people. The first 3 are free, then 43¢ each, prepaid.\n- `arvx_record_summary`: when someone asks what is held about them, every item in a saved record in plain words.\n\n## Get a key\n\nA person must sign up at https://api.arvx.ai/account, accept the terms and create the key. An agent cannot. Before the first payment, Stripe checks a photo ID and a selfie, once.\n\n## Connect\n\nAdd a remote MCP server at:\n\n```\nhttps://mcp.arvx.ai/mcp\n```\n\nwith your key in the `x-arvx-key` header (or `Authorization: Bearer <key>`). Put the key in your client's settings, never in a chat. For example:\n\n```json\n{\n  \"mcpServers\": {\n    \"arvx\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.arvx.ai/mcp\",\n      \"headers\": { \"x-arvx-key\": \"YOUR_ARVX_KEY\" }\n    }\n  }\n}\n```\n\n## More\n\n- Docs: https://developer.arvx.ai/docs\n- Sample Reading: https://developer.arvx.ai/sample\n- Terms: https://developer.arvx.ai/terms\n- Help: help@arvx.ai\n\nARVX is built by Centric AI, Inc.",
+      "truncated": false,
+      "url": "https://github.com/centricai/arvx-mcp#readme"
+    }
   },
   {
     "id": "mcp:ai-askatria-atria",
@@ -24546,7 +24947,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 474,
+        "weeklyDownloads": 136,
         "lastPublished": "2026-10-14T21:07:06.275Z",
         "firstPublished": "2026-10-06T14:13:25.231Z",
         "deprecated": false,
@@ -25194,7 +25595,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": 33,
         "lastPublished": "2026-01-12T03:52:42.264Z",
         "firstPublished": "2026-01-12T03:35:45.290Z",
         "deprecated": false,
@@ -25477,7 +25878,7 @@
           }
         ],
         "weeklyDownloads": 78,
-        "lastPublished": "2026-09-12T03:29:38.716Z",
+        "lastPublished": "2026-10-18T23:33:54.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
         "declaredRepo": "Autonomad1/autonomad1",
@@ -25495,6 +25896,61 @@
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T07:30:50.001784Z",
     "repoMeta": null
+  },
+  {
+    "id": "mcp:ai-autonomous-harness-harness",
+    "name": "Harness",
+    "qualifiedName": "ai.autonomous.harness/harness",
+    "slug": "ai-autonomous-harness-harness",
+    "description": "Start Claude Code and Codex agents the person can watch, wait for them and read their answers.",
+    "category": "AI & Memory",
+    "repository": "https://github.com/autonomous-ai/openharness",
+    "homepage": "https://harness.autonomous.ai/agents",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@autonomous-ai/harness-mcp",
+        "version": "0.2.0",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": [],
+        "weeklyDownloads": null,
+        "lastPublished": "2026-10-19T06:28:39.715Z",
+        "firstPublished": "2026-10-19T04:18:59.825Z",
+        "deprecated": false,
+        "declaredRepo": "autonomous-ai/openharness",
+        "repoMatchesRegistry": true
+      },
+      {
+        "registryType": "mcpb",
+        "identifier": "https://github.com/autonomous-ai/openharness/releases/download/v0.4.20_cli/harness-mcp.mcpb",
+        "version": "latest",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": []
+      }
+    ],
+    "remotes": [],
+    "stars": 1315,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T08:39:43.531506Z",
+    "repoMeta": {
+      "slug": "autonomous-ai/openharness",
+      "stars": 1315,
+      "forks": 115,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-04T07:53:15Z",
+      "pushedAt": "2026-10-19T12:26:22Z",
+      "openIssues": 13,
+      "license": "MIT",
+      "language": "TypeScript"
+    },
+    "readme": {
+      "markdown": "Harness like a boss.\n\n  <b>The ultimate harness for coding agents and beyond.</b>\n  Claude Code at work. Codex at home. Hermes in the cloud. One command center.\n  Start with code. Then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.\n\n  <b>Download</b> ·\n  How it works ·\n  Beyond code ·\n  Harnesses ·\n  Device\n\n### Every agent, side by side\n\nClaude Code, Codex, Cursor, OpenCode, Devin, Amp, Copilot and seven more.\n\n### Every machine, side by side\n\nYour laptop, home server and GPU box in one window. Link each one with a password.\nNo SSH keys. No Tailscale. No port forwarding.\n\n### Keyboard first\n\n⌘P finds any harness on any machine. ⇧⌘I jumps to the harness waiting on you. ⌘D splits. Every key remaps.\n\n### End-to-end encrypted\n\nCode, keys and keystrokes are sealed on your machine. The relay forwards bytes it can't read.\n\n### Fast and light\n\nA native app, not Electron. Close it and your agents keep working.\n\nIdle measurements on an M2 Max:\n\n- **⌘N, ⌘O, ⌘T UI:** 11–13 ms median, 15–18 ms p95.\n- **Local terminal echo:** 1.1 ms median, 7.2 ms p95, excluding UI rendering.\n- **Desktop resources:** ~0.1% of one CPU core and 304 MiB, including terminal rendering and scrollback; agent CLIs and the daemon are excluded.\n\nDesktop results use a Release fixture with 16 terminals and 1,000 scrollback lines each.\nSee the [workflow and resource benchmarks](docs/performance/2026-09-23-core-experiences.md)\nand [remote P2P, TURN and relay results](docs/performance/2026-09-23-transport-routes.md)\nfor workloads, slow tails, connection failures and raw data.\n\n### Built the way developers work\n\n- **Real terminals.** Every agent runs in its own tmux pane. Scrollback, colors and keys just work.\n- **Your CLIs, as they are.** Harness never wraps an agent. It reads transcripts and uses the vendor's own hooks.\n- **A worktree per harness.** Start an agent on its own branch. Your working copy stays clean.\n- **Remap every key.** One JSONC file, reloaded on save. Chords up to four strokes.\n- **Local models.** Run open-weight models on your own machines with Grid, Ollama, MLX-LM and vLLM.\n- **Bytes, not pixels.** Remote terminals stream text peer to peer. No remote desktop.\n- **Open source, all of it.** App, CLI, daemon, relay and device, in this repo.\n\n## How it works\n\nIn the workspace, a **harness** is one running session of an agent such as Codex\nor Claude Code, with its own conversation and working context. A **tab** groups\nharnesses. Use **New Harness** to start one and **New Tab** to group work.\nHarnesses in the same tab can message each other with `harness send`: **Agent Messages**,\nan experiment of your account, off by default and turned on in Settings ▸ Experimental.\n\nThe Store offers **harnesses** with instructions, tools, and optional viewers for\nspecific crafts. Install a harness, then start it in your workspace. See the\n[Naming System](docs/naming-system.md) for the complete naming rules.\n\nOne daemon per machine runs your agents in tmux. It dials out, so no machine opens a port.\n\n```mermaid\nflowchart LR\n  subgraph laptop[\"Your laptop\"]\n    app[\"Harness app\"] -- loopback --> d1[\"daemon\"]\n    d1 --> a1[\"tmux · Claude Code · Codex\"]\n  end\n  subgraph box[\"Your GPU box\"]\n    d2[\"daemon\"] --> a2[\"tmux · OpenCode · Hermes\"]\n  end\n  device[\"Harness device\"] -- USB --> d1\n  d1 <-. \"direct WebRTC\" .-> d2\n  d1 <-- \"ciphertext\" --> relay[\"Harness relay · no keys\"]\n  relay <-- \"ciphertext\" --> d2\n```\n\nEvery path is sealed end to end: ChaCha20-Poly1305, X25519 session keys, pinned Ed25519 identities.\nHarness picks the best path on its own.\n\n**Direct.** A WebRTC channel between your machines. No server in the path.\n\n**Through Cloudflare.** When a firewall blocks the direct path, the same encrypted channel runs over\nCloudflare's TURN network. Harness keeps trying for a direct path.\n\n**Through our relay.** A fallback while WebRTC negotiates. The relay holds no keys and forwards ciphertext.\n\nThe [architecture guide](docs/architecture.md) has the details.\n\n## Get started\n\n**[Download the app](https://harness.autonomous.ai/desktop?utm_source=github&utm_medium=readme)** for macOS or Linux.\n\nAdd a machine. Run this on it, then **Machines → Link Machine** in the app:\n\n```bash\ncurl -fsSL https://harness.autonomous.ai/cli/install.sh | bash\nharness login\nharness remote-password set\nharness start\n```\n\n**In a terminal:** the same line installs `hn` — tmux's keys and your `~/.tmux.conf`, with every\nharness on every machine ([hn](tui/README.md)). The first time, `hn` signs in and connects the\ncomputer:\n\n```bash\ncurl -fsSL https://harness.autonomous.ai/cli/install.sh | bash\nhn\n```\n\n**For agents:** Claude Code and Codex can start, wait for and read other harnesses with the `harness` skill\n([harness.autonomous.ai/agents](https://harness.autonomous.ai/agents), which has the Codex lines too):\n\n```bash\nclaude plugin marketplace add autonomous-ai/openharness --sparse .claude-plugin plugins\nclaude plugin install harness@openharness\n```\n\n<details>\n<summary><b>Build from source</b></summary>\n\nNeeds Node.js 20+, tmux, Xcode and Flutter 3.47+ / Dart 3.13+:\n\n```bash\ngit clone https://github.com/autonomous-ai/openharness.git\ncd openharness\n(cd cli && npm ci)\nmake install-cli\ncd desktop\nflutter config --enable-swift-package-manager\nflutter pub get\nflutter run -d macos\n```\n\n`make install-cli` installs this checkout's CLI and restarts the local daemon. See the\n[development guide](docs/development.md).\n\n</details>\n\n## Beyond code: Build across disciplines\n\n> “World-class entrepreneurs are polymaths.” — [Peter Thiel](https://www.youtube.com/watch?v=h10kXgTdhNU&t=811s)\n\nCoding agents can build far more than software. Give one a harness and it works with the real\ntools of a craft. You steer in a live viewer. Every clip below is a real session.\n\n### Beyond code: Design\n\n**[Blender](store/agents/blender/).** Ask for a lamp and the sliders that matter. Turn them and Blender rebuilds the geometry. Keep the versions you lov\n\n…",
+      "truncated": true,
+      "url": "https://github.com/autonomous-ai/openharness#readme"
+    }
   },
   {
     "id": "mcp:ai-autoposter-autoposter",
@@ -27555,7 +28011,7 @@
       },
       {
         "name": "money_fact",
-        "description": "Get an official, dated personal-finance limit: deposit insurance (FDIC, FSCS, CDIC, AU FCS, NZ DCS) or contribution limits (UK ISA, US 401k + catch-up, Roth IRA, Canada TFSA). Use instead of memory when a user asks \"how much is protected\" or \"how much can I contribute\". Pass q as plain English (\"fdic limit joint account\", \"isa allowance\") or a fact_key from pricing_list. Returns fact, source {name",
+        "description": "Get an official, dated personal-finance limit: deposit insurance (FDIC, FSCS, CDIC, AU FCS, NZ DCS) or contribution limits and allowances (UK ISA, Lifetime ISA, Junior ISA, pension annual allowance, Personal Savings Allowance; US 401k + catch-ups, IRA, Roth IRA, HSA; Canada TFSA, RRSP, FHSA; Australia super concessional/non-concessional caps; NZ KiwiSaver government contribution). Use instead of m",
         "inputs": [
           {
             "name": "q",
@@ -28178,7 +28634,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
-      "pushedAt": "2026-10-17T16:00:18Z",
+      "pushedAt": "2026-10-18T16:11:53Z",
       "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
@@ -28921,6 +29377,28 @@
         "description": "Compare posted prices across books for each leg of a slip (main markets). Reports every book's quote, the best price for the bettor, and how much the user's own line gives up. Only describes books with real posted data; never places a wager. May reserve/spend odds-refresh units under the app rules; retries deduplicate only within the existing 60-second usage bucket.",
         "inputs": [
           {
+            "name": "bookKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "intent",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "singles",
+              "parlay"
+            ]
+          },
+          {
             "name": "legs",
             "type": "array",
             "description": null,
@@ -29063,7 +29541,7 @@
       },
       {
         "name": "tail_read",
-        "description": "Send version bsd-agent-tail-v1 and action feed (optional feed/profileId/listId/search/limit/cursor) or post (postId). Read the same account-filtered Tail feed or one visible post as the BSD app. Moderation, follows, mutes, private lists and cursor binding use the app service.",
+        "description": "Send version bsd-agent-tail-v1 and action doctor_picks (today’s saved Doctor picks and recent settled results), feed (optional feed/profileId/listId/search/limit/cursor) or post (postId). Read the same account-filtered Tail feed or one visible post as the BSD app. Moderation, follows, mutes, private lists and cursor binding use the app service.",
         "inputs": [
           {
             "name": "version",
@@ -29078,7 +29556,8 @@
             "required": true,
             "enum": [
               "feed",
-              "post"
+              "post",
+              "doctor_picks"
             ]
           },
           {
@@ -29210,6 +29689,85 @@
               "dont_ask_again",
               "null"
             ]
+          }
+        ]
+      },
+      {
+        "name": "grade_pickem_entry",
+        "description": "Use action settlement with ticketId to read this owned entry’s result (history.read also required). Use bsd-pickem-grade-v2. check returns per-pick availability without research or a model call; letters are not scored yet. quote saves the owned Power or complete Flex child-ticket structure. Whole-entry Grade stays unavailable without confirmed book payouts and supported engine shape. start never b",
+        "inputs": [
+          {
+            "name": "version",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "check",
+              "quote",
+              "start",
+              "report",
+              "settlement"
+            ]
+          },
+          {
+            "name": "selections",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "ticketId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "entry",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "childTicketIds",
+            "type": "array",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "depth",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "fast",
+              "smart",
+              "deep",
+              "elite"
+            ]
+          },
+          {
+            "name": "quoteId",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": false
           }
         ]
       },
@@ -29622,6 +30180,11 @@
         ]
       },
       {
+        "name": "get_doctor_picks",
+        "description": "Read today’s saved Doctor picks and recent settled WON/LOST/PUSH results. Uses the app’s account permissions and paid-leg lock; no generation or current-price claim. Action and version are fixed by this tool; do not supply them.",
+        "inputs": null
+      },
+      {
         "name": "get_tail_feed",
         "description": "Doctor ticket posts include result WON/LOST/PUSH when settled, null otherwise. Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them.",
         "inputs": [
@@ -29799,6 +30362,64 @@
             "type": "object",
             "description": "BSD two-level BetTicketContract. SGP children stay nested under one outer pick.",
             "required": true
+          }
+        ]
+      },
+      {
+        "name": "onboarding_preferences",
+        "description": "Read the current SharpSports league catalog and per-league team membership, or read/save your leagues and teams. Use original source-qualified IDs. Logos are unavailable. Get the current revision before a confirmed set: merge imports device selections with account order first; replace saves Settings selections and allows clearing. Reuse a stable commandKey for retries. This changes preferences onl",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": null,
+            "required": true,
+            "enum": [
+              "catalog",
+              "teams",
+              "get",
+              "set"
+            ]
+          },
+          {
+            "name": "league",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "selections",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "merge",
+              "replace"
+            ]
+          },
+          {
+            "name": "expectedRevision",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "confirmed",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
           }
         ]
       },
@@ -30126,6 +30747,12 @@
             ]
           },
           {
+            "name": "includePickemEntries",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
             "name": "recordKind",
             "type": "string",
             "description": null,
@@ -30304,6 +30931,12 @@
             "required": true
           },
           {
+            "name": "quoteAcceptance",
+            "type": "object",
+            "description": null,
+            "required": false
+          },
+          {
             "name": "platform",
             "type": "string",
             "description": null,
@@ -30470,36 +31103,6 @@
           },
           {
             "name": "commandKey",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "club_dashboard",
-        "description": "Read your shared capper home (omit clubId to resolve your own club or no-club state), including server-derived role and roleBasis: actual member growth, weekly tails, Discover rank, weekly capper race rank with its ET window and payout date, and verified monthly earnings, with their original windows, provenance and unavailable states. Requires both club-management and earnings consent. Missing met",
-        "inputs": [
-          {
-            "name": "clubId",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "view_club_pick_analysis",
-        "description": "Open a visible club pick’s original saved Grade with the same club membership and paid research access as the app. Requires club and saved-report read consent. This reads saved analysis without starting research.",
-        "inputs": [
-          {
-            "name": "clubId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "postId",
             "type": "string",
             "description": null,
             "required": true
@@ -33842,7 +34445,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 45,
+        "weeklyDownloads": 38,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -33992,8 +34595,8 @@
         "headers": [
           {
             "name": "Authorization",
-            "description": "Bearer followed by your Blipsmith API key (create one at blipsmith.ai/studio/tools)",
-            "required": true,
+            "description": "Optional: Bearer followed by your Blipsmith API key (blipsmith.ai/studio/tools). Without it, your client asks you to sign in to Blipsmith (OAuth)",
+            "required": false,
             "secret": true,
             "format": null
           }
@@ -34002,9 +34605,9 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-01T10:00:43.584444Z",
+    "updatedAt": "2026-10-18T22:28:24.063828Z",
     "repoMeta": null,
-    "toolsStatus": "ok",
+    "toolsStatus": "auth",
     "tools": [
       {
         "name": "generate_sound_effect",
@@ -34145,6 +34748,53 @@
     ]
   },
   {
+    "id": "mcp:ai-blitz-api-b2b-data",
+    "name": "BlitzAPI",
+    "qualifiedName": "ai.blitz-api/b2b-data",
+    "slug": "ai-blitz-api-b2b-data",
+    "description": "Search and enrich B2B companies and people: verified work emails, US phone numbers, job postings.",
+    "category": "Web & Search",
+    "repository": "https://github.com/api-blitz/skills",
+    "homepage": "https://www.blitz-api.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.blitz-api.ai/mcp",
+        "headers": [
+          {
+            "name": "x-api-key",
+            "description": "Your BlitzAPI API key. Optional: leave empty to sign in with OAuth instead.",
+            "required": false,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": 1,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T12:34:28.754717Z",
+    "repoMeta": {
+      "slug": "api-blitz/skills",
+      "stars": 1,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-27T16:14:58Z",
+      "pushedAt": "2026-10-19T09:49:51Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "Shell"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# Skills for Real GTM\n\nThis repo is the home of the **[BlitzAPI MCP server](#blitz-mcp-server)**, a hosted remote server that gives agents B2B data: search and enrich companies and people, verified work emails, US phone numbers, job postings, and the live Blitz docs. It also holds the **[Blitz agent skills](#quickstart-30-second-setup)**.\n\nAgent skills for going to market with [Blitz API](https://www.blitz-api.ai) — lead-finding scripts, outreach, content, analytics, lifecycle automation, and the engineering that powers them.\n\n[Website](https://www.blitz-api.ai) · [Docs](https://docs.blitz-api.ai) · [Connect Your AI (MCP)](https://docs.blitz-api.ai/guide/integrations/MCP)\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. Hack around with them. Make them your own.\n\n## Blitz MCP server\n\n### What it does\n\nSearch and enrich B2B companies and people: verified work emails, US phone numbers, job postings. The server exposes one tool per Blitz API endpoint, plus tools to search and read the live Blitz docs, so an agent can look up how an endpoint works and call it in the same session. The plugin installs below ship it preconfigured.\n\n| | |\n| --- | --- |\n| URL | `https://api.blitz-api.ai/mcp` |\n| Transport | Streamable HTTP |\n| Auth | OAuth (sign in with your Blitz account) — or an `x-api-key` header |\n| Registry name | `ai.blitz-api/b2b-data` ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=ai.blitz-api)) |\n\nThe committed configs ([`.mcp.json`](./.mcp.json) for Claude Code and Grok, [`mcp.cursor.json`](./mcp.cursor.json) for Cursor) use OAuth and contain no secrets. If you prefer an API key, pass it as a header in your own local config and never commit it, for example `claude mcp add --transport http blitz-api https://api.blitz-api.ai/mcp --header \"x-api-key: YOUR_API_KEY\"`. Full per-agent setup: [Connect Your AI (MCP)](https://docs.blitz-api.ai/guide/integrations/MCP).\n\n### Tools\n\n| Family | Tool | What it does | Cost |\n| --- | --- | --- | --- |\n| `people_*` | `people_search` | Find people across companies by ICP filters (company firmographics plus person title, level, function, geo) | 1 record per result |\n| | `people_enrich` | Full profile and career history from a LinkedIn URL | 1 record on success |\n| | `people_employee_finder` | List the current employees of one company by level, function, and geo | 1 record per result |\n| | `people_waterfall_icp` | Best-fit people at one company, found through ordered title tiers | 1 record per result |\n| | `people_find_work_email` | Work email(s) from a LinkedIn URL | 1 record on success |\n| | `people_find_phone` | Mobile and direct phone numbers from a LinkedIn URL (US numbers only) | 1 record on success |\n| | `people_lookup_by_email` | Reverse lookup: the person behind an email address | 1 record on success |\n| | `people_lookup_by_phone` | Reverse lookup: the person behind a phone number | 1 record on success |\n| `company_*` | `company_search` | Find companies by firmographic filters (name, industry, type, size, geo) | 1 record per result |\n| | `company_enrich` | Full firmographic record from a LinkedIn URL | 1 record |\n| | `company_find_by_domain` | A company's LinkedIn URL from its web domain | 1 record |\n| | `company_get_domain` | A company's web domain from its LinkedIn URL | 1 record on success |\n| | `company_tam_by_jobs` | Target-account list from companies posting jobs that match your filters | 1 record per result |\n| | `company_tam_by_people` | Target-account list from companies whose employees match a person-level ICP | 1 record per result |\n| | `company_employees_by_country` | Headcount distribution by country | 1 record on success |\n| | `company_employees_by_department` | Headcount distribution by department | 1 record on success |\n| `job_*` | `job_search` | Search job postings across all companies | 1 record per result |\n| | `job_search_by_company` | Search the job postings of one company | 1 record per result |\n| `docs_*` | `docs_search` | Search the Blitz documentation | No records |\n| | `docs_read` | Read or browse Blitz documentation pages | No records |\n| Utilities | `account_key_info` | Plan, remaining records, and rate limits for your key | 0 records |\n| | `util_changelog` | Blitz API changelog, newest first | 0 records |\n| | `util_current_date` | Current date and time in a given timezone | 0 records |\n| | `send_feedback` | Send a bug report, feature request, or other feedback to the Blitz team | — |\n\nAPI tools draw on the records in your plan's allowance. Search tools bill per result returned (set `max_results` to control it); lookups and enrichments bill when they succeed. Request bodies and valid filter values come from the server itself, so ask your agent to run `docs_search` before building a query.\n\n### Account and pricing\n\nA Blitz account is required. Your client opens an OAuth sign-in on first use, so there is no API key to copy. Plans and pricing are on the [Blitz website](https://www.blitz-api.ai).\n\n## Quickstart (30-second setup)\n\n1. Run the skills.sh installer:\n\n```bash\nnpx skills@latest add api-blitz/skills\n```\n\n2. Pick the skills you want, and which coding agents you want to install them on.\n\n3. You're ready to go.\n\n## Install by agent\n\nThe skills.sh installer above works for Claude Code, Codex, Cursor, and other Agent Skills-compatible agents. The options below also add the [Blitz MCP server](#blitz-mcp-server).\n\n### VS Code (GitHub Copilot)\n\nAdd the MCP server with the VS Code CLI:\n\n```bash\ncode --add-mcp '{\"name\":\"blitz-api\",\"type\":\"http\",\"url\":\"https://api.blitz-api.ai/mcp\"}'\n```\n\nOr add it to `.vscode/mcp.json` in your project:\n\n```json\n{ \"servers\": { \"blitz-api\": { \"type\": \"http\", \"url\": \"https://api.blitz-api.ai/mcp\" } } }\n```\n\nStart the server and sign in with your Blitz account when VS Code prompts.\n\n### Claude Code\n\nInstall the plugin (skills + MCP server as one managed install). Inside Claude Code:\n\n```bash\n/plugin marketplace add api-\n\n…",
+      "truncated": true,
+      "url": "https://github.com/api-blitz/skills#readme"
+    }
+  },
+  {
     "id": "mcp:ai-bloopo-bloopo",
     "name": "Bloopo — AI Ad & Creative Studio",
     "qualifiedName": "ai.bloopo/bloopo",
@@ -34203,52 +34853,6 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-08-27T01:31:40.856338Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-bluenexus-universal-mcp",
-    "name": "BlueNexus Universal MCP",
-    "qualifiedName": "ai.bluenexus/universal-mcp",
-    "slug": "ai-bluenexus-universal-mcp",
-    "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
-    "category": "Legal & Government",
-    "repository": null,
-    "homepage": null,
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://api.bluenexus.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-10-01T01:29:20.000919Z",
-    "repoMeta": null,
-    "toolsStatus": "auth"
-  },
-  {
-    "id": "mcp:ai-boardmark-boardmark",
-    "name": "BoardMark",
-    "qualifiedName": "ai.boardmark/boardmark",
-    "slug": "ai-boardmark-boardmark",
-    "description": "Issue board for teams: find, create and move issues, run sprints, comment and keep project docs.",
-    "category": "Docs & Knowledge",
-    "repository": null,
-    "homepage": "https://www.boardmark.ai/mcp",
-    "packages": [],
-    "remotes": [
-      {
-        "type": "streamable-http",
-        "url": "https://mcp.boardmark.ai/mcp",
-        "headers": []
-      }
-    ],
-    "stars": null,
-    "source": "MCP Registry",
-    "updatedAt": "2026-10-11T10:11:15.668156Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   }

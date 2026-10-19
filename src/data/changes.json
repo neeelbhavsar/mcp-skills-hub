@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T10:40:25.640Z",
+  "generatedAt": "2026-10-19T12:38:19.686Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,8 +13,32 @@
           "name": "unreal-engine-skills-for-claude-code",
           "description": "Control Unreal Editor directly from Claude Code via MCP. Hundreds of tools exposed via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing, and more.",
           "category": "Coding & Engineering",
-          "delta": 28,
-          "stars": 577
+          "delta": 630,
+          "stars": 1207
+        },
+        {
+          "slug": "unity",
+          "name": "unity",
+          "description": "Unity's official plugin for Claude Code, with curated skills for game development, monetization, and performance optimization.",
+          "category": "Coding & Engineering",
+          "delta": 47,
+          "stars": 473
+        },
+        {
+          "slug": "adobe-for-creativity",
+          "name": "adobe-for-creativity",
+          "description": "Harness Adobe's creative AI-powered tools to edit images, automate design workflows, and bring creative visions to life — from background removal to vectorization and professional retouching.",
+          "category": "Design & Creative",
+          "delta": 20,
+          "stars": 221
+        },
+        {
+          "slug": "vibe-prospecting",
+          "name": "vibe-prospecting",
+          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
+          "category": "Data & Analysis",
+          "delta": 11,
+          "stars": 210
         }
       ],
       "counts": {
@@ -30,30 +54,60 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-beliefstate-investor-research",
-          "name": "BeliefState",
-          "description": "Stock research, investor theses, dated evidence, catalysts, risks and belief changes.",
-          "category": "Finance & Data"
+          "slug": "ai-aetherya-mcp",
+          "name": "Aetherya",
+          "description": "Test decisions on a synthetic audience: studies, site audits, copy tests and post simulations.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-arvx-arvx",
+          "name": "ARVX",
+          "description": "Email for long-term client relationships: ARVX reads each person first and remembers every pair.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "ai-autonomous-harness-harness",
+          "name": "Harness",
+          "description": "Start Claude Code and Codex agents the person can watch, wait for them and read their answers.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-blitz-api-b2b-data",
+          "name": "BlitzAPI",
+          "description": "Search and enrich B2B companies and people: verified work emails, US phone numbers, job postings.",
+          "category": "Web & Search"
         }
       ],
       "removed": [
         {
-          "slug": "ai-bodenrichtwert-mcp",
-          "name": "bodenrichtwert.ai — Verlässliche Bodenrichtwerte für Mensch und KI",
-          "description": "German land values (Bodenrichtwerte) by address + land-use type. Coverage varies; not in SH/SN/BY.",
-          "category": "AI & Memory"
+          "slug": "ai-aimentiontracker-mcp",
+          "name": "AIMentionTracker",
+          "description": "How often ChatGPT, Claude, Gemini and Perplexity name and cite your brand, with the evidence.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bluenexus-universal-mcp",
+          "name": "BlueNexus Universal MCP",
+          "description": "Connect your AI to all your data - 200+ sources, intelligently filtered, compliance-ready.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-boardmark-boardmark",
+          "name": "BoardMark",
+          "description": "Issue board for teams: find, create and move issues, run sprints, comment and keep project docs.",
+          "category": "Docs & Knowledge"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
-        "removed": 1,
+        "added": 4,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 266,
-        "currentTotal": 266
+        "currentTotal": 267
       }
     },
     "repos": {
@@ -68,8 +122,8 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "category": "MCP & Tooling",
-          "delta": 16547,
-          "stars": 314180
+          "delta": 16632,
+          "stars": 330812
         }
       ],
       "counts": {
