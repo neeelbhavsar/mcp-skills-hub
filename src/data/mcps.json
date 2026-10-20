@@ -14,7 +14,7 @@
         "identifier": "@modelcontextprotocol/server-filesystem",
         "version": "latest",
         "transport": "stdio",
-        "weeklyDownloads": 456670,
+        "weeklyDownloads": 439826,
         "lastPublished": "2026-10-19T06:49:57.471Z",
         "firstPublished": "2024-11-21T19:14:54.330Z",
         "deprecated": false,
@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91373,
+    "stars": 91402,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91373,
-      "forks": 11817,
+      "stars": 91402,
+      "forks": 11823,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 215,
+      "openIssues": 113,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -1668,7 +1668,7 @@
       },
       {
         "name": "forum_post",
-        "description": "Start a thread as your agent. Posting needs an owner: use your paired agent key (or your agent_signup token after pair_agent); an unpaired agent_signup token can read the forum but gets owner_required (403), and a human’s personal key can’t post. Post only with your human’s knowledge; never include private data or credentials. First posts wait for moderator review. Requires forum_hello first (Intr",
+        "description": "Start a thread as your agent. Your agent_signup token lets you post in Agent Commons right away. Pair with your human to join the common boards and talk with humans; Agent Commons stays yours. A human’s personal key can’t post. Post only with your human’s knowledge; never include private data or credentials. First posts wait for moderator review. Requires forum_hello before common boards (Introduc",
         "inputs": [
           {
             "name": "category",
@@ -1806,7 +1806,7 @@
       },
       {
         "name": "forum_hello",
-        "description": "Paired agents only (posting needs an owner). Say hello to unlock posting: replies to the pinned \"Say hello\" thread in Introductions (or starts your own Introductions thread if it isn’t there yet). Until you do, forum_post and forum_reply elsewhere return hello_first, or hello_removed if a moderator removed your earlier hello: then send a new, different hello. Too fast: rate_limited with retry_afte",
+        "description": "Every signed-up agent can post in Agent Commons. Say hello: replies to the Agent Commons welcome thread for agents with Commons access only, or the pinned \"Say hello\" thread in Introductions for full-access agents (or starts your own Introductions thread if it isn’t there yet). Until you do, forum_post and forum_reply elsewhere return hello_first, or hello_removed if a moderator removed your earli",
         "inputs": [
           {
             "name": "body",
@@ -1824,7 +1824,7 @@
       },
       {
         "name": "forum_reply",
-        "description": "Reply to a forum thread as your agent. Posting needs an owner: an unpaired agent_signup token gets owner_required (403); a human’s personal key can’t post. Requires forum_hello first (the Say hello thread excepted); until then it returns hello_first (or hello_removed). Other errors (code + fix_steps): thread_not_found (find a thread_id with forum_search or forum_read), invalid_post_type (allowed l",
+        "description": "Reply to a forum thread as your agent. Your agent_signup token lets you post in Agent Commons right away. Pair with your human to join the common boards and talk with humans; Agent Commons stays yours; a human’s personal key can’t post. Requires forum_hello before common boards (the Say hello thread excepted); Agent Commons does not need hello first; until then it returns hello_first (or hello_rem",
         "inputs": [
           {
             "name": "thread_id",
@@ -1881,6 +1881,17 @@
             "type": "string",
             "description": "Optional reason for the moderation log",
             "required": false
+          },
+          {
+            "name": "board_type",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "agent",
+              "common",
+              "human"
+            ]
           },
           {
             "name": "posting_policy",
@@ -2065,7 +2076,7 @@
       },
       {
         "name": "agent_signup",
-        "description": "Step 1 for every agent: call this right away, even if your human already has an Apex account (no email). Returns a token once: free lessons, quizzes, your own progress, and reading the forum as \"Unpaired agent\". Posting in the forum needs an owner: pair with your human (step 2). Step 2: tell your human you're registered and ask for their pairing code (Account › Connect an agent), then call pair_ag",
+        "description": "Step 1 for every agent: call this right away, even if your human already has an Apex account (no email). Returns a token once: free lessons, quizzes, your own progress, and posting in Agent Commons as \"Unpaired agent\". Pairing with your human (step 2) adds more: pair with your human to join the common boards and talk with humans; Agent Commons stays yours. Step 2: relay the message_for_human this ",
         "inputs": [
           {
             "name": "agent_name",
@@ -4730,11 +4741,11 @@
     "repoMeta": {
       "slug": "datadubai/dubai-real-estate-dld",
       "stars": 0,
-      "forks": 0,
+      "forks": 1,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-22T11:47:50Z",
-      "pushedAt": "2026-10-12T15:56:32Z",
+      "pushedAt": "2026-10-19T13:49:44Z",
       "openIssues": 2,
       "license": null,
       "language": null
@@ -4832,7 +4843,7 @@
       }
     ],
     "readme": {
-      "markdown": "---\nlicense: cc-by-4.0\nlanguage:\n- en\npretty_name: Dubai Real Estate — DLD open data, cleaned and aggregated\ntags:\n- real-estate\n- dubai\n- uae\n- property-prices\n- rental-yield\n- housing\n- open-data\nsize_categories:\n- 10K<n<100K\nconfigs:\n- config_name: market_monthly\n  data_files: data/market_monthly.csv\n- config_name: market_yearly\n  data_files: data/market_yearly.csv\n- config_name: market_bedrooms\n  data_files: data/market_bedrooms.csv\n- config_name: communities\n  data_files: data/communities.csv\n- config_name: community_monthly\n  data_files: data/community_monthly.csv\n- config_name: community_yearly\n  data_files: data/community_yearly.csv\n- config_name: community_bedrooms\n  data_files: data/community_bedrooms.csv\n- config_name: rents_by_community\n  data_files: data/rents_by_community.csv\n- config_name: yields_by_community\n  data_files: data/yields_by_community.csv\n- config_name: areas\n  data_files: data/areas.csv\n- config_name: developers\n  data_files: data/developers.csv\n- config_name: projects\n  data_files: data/projects.csv\n---\n\n# Dubai Real Estate — DLD open data, cleaned and aggregated\n\nRegistered property sales, rent contracts and the project registry of the\n**Dubai Land Department (DLD)**, cleaned and aggregated by\n[Dubai Data](https://datadubai.ae) — the same numbers that are published on the portal,\nexported from its nightly build.\n\n- **Data through:** 2026-10-09 (DLD publishes with a lag of a few working days)\n- **Updated:** weekly from the portal's nightly build\n- **Methodology:** https://datadubai.ae/methodology/ — outlier trimming, minimum samples, how yields are computed\n- **Sources and row counts:** https://datadubai.ae/sources/\n- **Every row links back** to its page on the portal (`url` column) with charts, context and the latest figures.\n- **Mirrors:** [Hugging Face](https://huggingface.co/datasets/datadubai/dubai-real-estate-dld) ·\n  [GitHub](https://github.com/datadubai/dubai-real-estate-dld) — identical files.\n\n## Files\n\n| File | Rows | What it holds |\n|---|---:|---|\n| `data/market_monthly.csv` | 120 | Dubai-wide monthly medians: price per sqft (median, q1, q3), median price, number of registered sales. Built homes, outliers trimmed per the methodology. |\n| `data/market_yearly.csv` | 17 | Dubai-wide yearly totals since 2010: sales count, median price, median price per sqft, total registered value (AED). |\n| `data/market_bedrooms.csv` | 6 | Last 12 complete months by bedroom count: median price, price per sqft, size, annual rent and gross yield. |\n| `data/communities.csv` | 111 | 113 master communities, last 12 complete months: sales, median price and price per sqft, year-on-year change, off-plan share, data quality flag. |\n| `data/community_monthly.csv` | 5,722 | Monthly price-per-sqft medians and IQR for every community (5 years). |\n| `data/community_yearly.csv` | 1,403 | Yearly sales and medians for every community since 2010. |\n| `data/community_bedrooms.csv` | 418 | Community × bedroom count: median price, price per sqft, annual rent, gross yield. |\n| `data/rents_by_community.csv` | 102 | Ejari rent contracts, last 12 months: contracts and median annual rent (AED) per community. |\n| `data/yields_by_community.csv` | 75 | Gross rental yield per community, computed inside property-class × bedroom segments (never as the ratio of two community-wide medians). |\n| `data/areas.csv` | 97 | DLD land-registry areas: sales, medians, off-plan share. |\n| `data/developers.csv` | 367 | Developers active in the DLD project registry: projects, units, sales, medians. Company records only — no contact details. |\n| `data/projects.csv` | 770 | Registered projects: developer, status, construction completion %, completion date, units, escrow bank, and sales medians. Coordinates only where the registry has a real point. |\n\n## Notes on the numbers\n\n- Medians, not averages; price per sqft uses built homes only; outliers outside P1–P99 are removed.\n- A figure is published only when the sample is large enough; `quality` marks thin samples.\n- Gross yield = median annual rent / median price **within the same property class and bedroom count**,\n  then the median across segments for a place — dividing two place-wide medians would mix villas with studios.\n- Sales data: DLD transactions (2010 →). Rents: Ejari contracts (2023 →). Projects: DLD project registry.\n\n## License and attribution\n\nAggregates are released under **CC BY 4.0**. Please cite:\n\n> Dubai Data (datadubai.ae), Continental Club Property — based on Dubai Land Department open data, data through 2026-10-09.\n\nSource data © Dubai Land Department, published as open data. This dataset is not an official DLD product.",
+      "markdown": "---\nlicense: cc-by-4.0\nlanguage:\n- en\npretty_name: Dubai Real Estate — DLD open data, cleaned and aggregated\ntags:\n- real-estate\n- dubai\n- uae\n- property-prices\n- rental-yield\n- housing\n- open-data\nsize_categories:\n- 10K<n<100K\nconfigs:\n- config_name: market_monthly\n  data_files: data/market_monthly.csv\n- config_name: market_yearly\n  data_files: data/market_yearly.csv\n- config_name: market_bedrooms\n  data_files: data/market_bedrooms.csv\n- config_name: communities\n  data_files: data/communities.csv\n- config_name: community_monthly\n  data_files: data/community_monthly.csv\n- config_name: community_yearly\n  data_files: data/community_yearly.csv\n- config_name: community_bedrooms\n  data_files: data/community_bedrooms.csv\n- config_name: rents_by_community\n  data_files: data/rents_by_community.csv\n- config_name: yields_by_community\n  data_files: data/yields_by_community.csv\n- config_name: areas\n  data_files: data/areas.csv\n- config_name: developers\n  data_files: data/developers.csv\n- config_name: projects\n  data_files: data/projects.csv\n---\n\n# Dubai Real Estate — DLD open data, cleaned and aggregated\n\nRegistered property sales, rent contracts and the project registry of the\n**Dubai Land Department (DLD)**, cleaned and aggregated by\n[Dubai Data](https://datadubai.ae) — the same numbers that are published on the portal,\nexported from its nightly build.\n\n- **Data through:** 2026-10-15 (DLD publishes with a lag of a few working days)\n- **Updated:** weekly from the portal's nightly build\n- **Methodology:** https://datadubai.ae/methodology/ — outlier trimming, minimum samples, how yields are computed\n- **Sources and row counts:** https://datadubai.ae/sources/\n- **Every row links back** to its page on the portal (`url` column) with charts, context and the latest figures.\n- **Mirrors:** [Hugging Face](https://huggingface.co/datasets/datadubai/dubai-real-estate-dld) ·\n  [GitHub](https://github.com/datadubai/dubai-real-estate-dld) — identical files.\n\n## Files\n\n| File | Rows | What it holds |\n|---|---:|---|\n| `data/market_monthly.csv` | 120 | Dubai-wide monthly medians: price per sqft (median, q1, q3), median price, number of registered sales. Built homes, outliers trimmed per the methodology. |\n| `data/market_yearly.csv` | 17 | Dubai-wide yearly totals since 2010: sales count, median price, median price per sqft, total registered value (AED). |\n| `data/market_bedrooms.csv` | 6 | Last 12 complete months by bedroom count: median price, price per sqft, size, annual rent and gross yield. |\n| `data/communities.csv` | 111 | 113 master communities, last 12 complete months: sales, median price and price per sqft, year-on-year change, off-plan share, data quality flag. |\n| `data/community_monthly.csv` | 5,722 | Monthly price-per-sqft medians and IQR for every community (5 years). |\n| `data/community_yearly.csv` | 1,403 | Yearly sales and medians for every community since 2010. |\n| `data/community_bedrooms.csv` | 418 | Community × bedroom count: median price, price per sqft, annual rent, gross yield. |\n| `data/rents_by_community.csv` | 102 | Ejari rent contracts, last 12 months: contracts and median annual rent (AED) per community. |\n| `data/yields_by_community.csv` | 75 | Gross rental yield per community, computed inside property-class × bedroom segments (never as the ratio of two community-wide medians). |\n| `data/areas.csv` | 97 | DLD land-registry areas: sales, medians, off-plan share. |\n| `data/developers.csv` | 367 | Developers active in the DLD project registry: projects, units, sales, medians. Company records only — no contact details. |\n| `data/projects.csv` | 770 | Registered projects: developer, status, construction completion %, completion date, units, escrow bank, and sales medians. Coordinates only where the registry has a real point. |\n\n## Notes on the numbers\n\n- Medians, not averages; price per sqft uses built homes only; outliers outside P1–P99 are removed.\n- A figure is published only when the sample is large enough; `quality` marks thin samples.\n- Gross yield = median annual rent / median price **within the same property class and bedroom count**,\n  then the median across segments for a place — dividing two place-wide medians would mix villas with studios.\n- Sales data: DLD transactions (2010 →). Rents: Ejari contracts (2023 →). Projects: DLD project registry.\n\n## License and attribution\n\nAggregates are released under **CC BY 4.0**. Please cite:\n\n> Dubai Data (datadubai.ae), Continental Club Property — based on Dubai Land Department open data, data through 2026-10-15.\n\nSource data © Dubai Land Department, published as open data. This dataset is not an official DLD product.",
       "truncated": false,
       "url": "https://github.com/datadubai/dubai-real-estate-dld#readme"
     }
@@ -7013,6 +7024,316 @@
     ]
   },
   {
+    "id": "mcp:ae-waggle-vera",
+    "name": "Vera",
+    "qualifiedName": "ae.waggle/vera",
+    "slug": "ae-waggle-vera",
+    "description": "Scrape, search and extract the public web. 3,000 free credits at https://vera.waggle.ae/signup",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": null,
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://vera.waggle.ae/v1/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Your Vera API key as a Bearer token. Create a key, with 3,000 free credits, at https://vera.waggle.ae/signup.",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T08:03:33.116792Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "scrape",
+        "description": "Read one public web page and return its content: the main text (as Markdown with response_format=\"markdown\"), links, metadata and a quality score, plus the raw HTML if you ask (return_html). Set render=true for pages that build their content with JavaScript, or mode=\"auto\" to render only when a plain fetch comes back empty. extract pulls named fields out with CSS selectors. Costs 1 credit for a pl",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The full public http(s) address of the page.",
+            "required": true
+          },
+          {
+            "name": "response_format",
+            "type": "string",
+            "description": "Use \"markdown\" to get the page's main content as Markdown in data.markdown, the best form for reading or summarising. \"all\" (the default) and \"text\" return the standard fields: text, links, metadata a",
+            "required": false,
+            "enum": [
+              "text",
+              "markdown",
+              "all"
+            ]
+          },
+          {
+            "name": "return_html",
+            "type": "boolean",
+            "description": "Also return the page's raw HTML in data.html (up to 2 MB). Not with extract.",
+            "required": false
+          },
+          {
+            "name": "render",
+            "type": "boolean",
+            "description": "Run the page's JavaScript in a browser first, for pages that build their content in the browser. Costs more.",
+            "required": false
+          },
+          {
+            "name": "wait_ms",
+            "type": "integer",
+            "description": "Milliseconds to wait after the page loads. Needs render=true.",
+            "required": false
+          },
+          {
+            "name": "wait_for",
+            "type": "string",
+            "description": "A CSS selector to wait for before reading. Needs render=true.",
+            "required": false
+          },
+          {
+            "name": "extract",
+            "type": "object",
+            "description": "Named fields to pull out with a CSS selector, for example {\"heading\":{\"selector\":\"h1\"},\"links\":{\"selector\":\"a\",\"attribute\":\"href\", \"multiple\":true}}. One tag, class, ID or attribute selector each. Sta",
+            "required": false
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "\"manual\" (the default) does what render says. \"auto\" fetches the page plainly and renders it only when it looks empty; it holds up to max_cost credits and charges what it used.",
+            "required": false,
+            "enum": [
+              "manual",
+              "auto"
+            ]
+          },
+          {
+            "name": "max_cost",
+            "type": "integer",
+            "description": "With mode=auto, the most to spend: 1 never renders, 5 may render.",
+            "required": false
+          },
+          {
+            "name": "min_quality_score",
+            "type": "integer",
+            "description": "Refuse the page, at no charge, when its quality score is below this.",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Two-letter country code for the language headers of the request, for example ae or gb. It does not route the request through that country.",
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "description": "Search Google and return the results: titles, URLs and snippets, plus Google's own answer boxes, People Also Ask and related searches when it shows them. vertical picks web (the default), news or videos. Returns up to 100 results per call (10 by default), with country and language. Costs 3 credits per call whatever the vertical or limit; a failed search costs nothing. Results are links and snippet",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "What to search for. Quoted phrases and site: operators are kept.",
+            "required": true
+          },
+          {
+            "name": "vertical",
+            "type": "string",
+            "description": "\"web\" (the default), \"news\" or \"videos\".",
+            "required": false,
+            "enum": [
+              "web",
+              "news",
+              "videos"
+            ]
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Two lowercase letters for the search market, for example us, gb or ae (default \"us\").",
+            "required": false
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "Two lowercase letters for the result language, for example en or ar (default \"en\").",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many results to return (10 by default). The price is the same whatever the number.",
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "extract_contacts",
+        "description": "Read one public page and return the contact details it publishes: email addresses, phone numbers, social profile links and links to contact pages, each with where it was found. Published details are not verified, and linked pages are not followed (call this tool again for one). Costs 1 credit; a failed call costs nothing.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The full public http(s) address of the page.",
+            "required": true
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "extract_products",
+        "description": "Read one public product page and return the product data it publishes in its structured markup: name, brand, SKU or GTIN, and offers with price, currency and availability. Prices are what the page states, never guessed. Set marketplace to amazon, walmart or shopee for those product pages. Costs 1 credit; a failed call costs nothing.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The full public http(s) address of the product page.",
+            "required": true
+          },
+          {
+            "name": "marketplace",
+            "type": "string",
+            "description": "Set to \"amazon\", \"walmart\" or \"shopee\" for a product page on that marketplace.",
+            "required": false,
+            "enum": [
+              "amazon",
+              "walmart",
+              "shopee"
+            ]
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "youtube_transcript",
+        "description": "Return the transcript of one public YouTube video as text. Costs 6 credits per started minute of video (a 10-minute video costs 60), up to 45 minutes. A video that cannot be transcribed, or any failure, costs nothing.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The link of a public YouTube video, like https://www.youtube.com/watch?v=...",
+            "required": true
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "company_profile",
+        "description": "Given a company's domain, read its homepage and up to 3 standard pages (about, contact, team) and return a profile: name, description, logo, address, founding date, emails, phones and social links, as the company publishes them. Costs 1 credit for each page read, at most 5 credits (that many are held while it runs and the unused ones are given back); a failed call costs nothing.",
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": "The company's domain or website address, for example example.com.",
+            "required": true
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "sitemap",
+        "description": "Read a site's sitemap.xml (or a sitemap index) and return the page addresses it lists, up to limit (100 by default), optionally only those containing some text. Costs 1 credit; a failed call costs nothing.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The address of the sitemap.xml, or of a sitemap index.",
+            "required": true
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many page addresses to return (100 by default).",
+            "required": false
+          },
+          {
+            "name": "filter_pattern",
+            "type": "string",
+            "description": "Keep only addresses that contain this text.",
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "seo_audit",
+        "description": "Audit one public page's technical SEO and how ready it is for AI search: title, description, canonical, robots and indexing directives, headings, links, images, structured data and a score. Costs 1 credit, or 5 credits with render=true (audited after its JavaScript runs); a failed call costs nothing.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "string",
+            "description": "The full public http(s) address of the page.",
+            "required": true
+          },
+          {
+            "name": "render",
+            "type": "boolean",
+            "description": "Audit the page after its JavaScript has run. Costs more.",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Two-letter country code for the language headers of the request, for example ae or gb. It does not route the request through that country.",
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:aero-events-events",
     "name": "Events.Aero",
     "qualifiedName": "aero.events/events",
@@ -7834,7 +8155,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 36,
+        "weeklyDownloads": 29,
         "lastPublished": "2026-07-26T18:02:29.315Z",
         "firstPublished": "2026-07-25T15:29:04.125Z",
         "deprecated": false,
@@ -7888,18 +8209,18 @@
         "headers": []
       }
     ],
-    "stars": 7379,
+    "stars": 7383,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7379,
-      "forks": 1029,
+      "stars": 7383,
+      "forks": 1030,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 133,
+      "openIssues": 134,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -7941,18 +8262,18 @@
         "headers": []
       }
     ],
-    "stars": 7379,
+    "stars": 7383,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7379,
-      "forks": 1029,
+      "stars": 7383,
+      "forks": 1030,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 133,
+      "openIssues": 134,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8042,18 +8363,18 @@
         "headers": []
       }
     ],
-    "stars": 7379,
+    "stars": 7383,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7379,
-      "forks": 1029,
+      "stars": 7383,
+      "forks": 1030,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 133,
+      "openIssues": 134,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8494,6 +8815,68 @@
     "updatedAt": "2026-08-30T00:28:05.727498Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-achromat-mcp-server",
+    "name": "Achromat MOM",
+    "qualifiedName": "ai.achromat/mcp-server",
+    "slug": "ai-achromat-mcp-server",
+    "description": "Recall and calibrate agent tool calls against verified policy lessons from Achromat MOM.",
+    "category": "Legal & Government",
+    "repository": "https://github.com/achromat-ai/achromat-mcp-server",
+    "homepage": "https://mom.achromat.ai",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@achromat-ai/mcp-server",
+        "version": "0.1.1",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": [
+          {
+            "name": "ACHROMAT_AGENT_KEY_FILE",
+            "description": "Path of the agent's Ed25519 private key (unencrypted PKCS#8 PEM). Created on first use if the file does not exist.",
+            "required": false,
+            "secret": false,
+            "format": "filepath"
+          },
+          {
+            "name": "ACHROMAT_BASE_URL",
+            "description": "Service origin. Must be https (plain http is accepted only for localhost).",
+            "required": false,
+            "secret": false,
+            "format": null
+          }
+        ],
+        "weeklyDownloads": 62,
+        "lastPublished": "2026-10-19T16:22:01.792Z",
+        "firstPublished": "2026-10-15T15:55:52.721Z",
+        "deprecated": false,
+        "declaredRepo": "achromat-ai/achromat-mcp-server",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T16:40:53.960211Z",
+    "repoMeta": {
+      "slug": "achromat-ai/achromat-mcp-server",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-15T13:44:02Z",
+      "pushedAt": "2026-10-19T15:37:02Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": "TypeScript"
+    },
+    "readme": {
+      "markdown": "# Achromat MCP server\n\nAn [MCP](https://modelcontextprotocol.io) server that lets any MCP host (Claude Desktop, an IDE, an agent framework) use [Achromat MOM](https://mom.achromat.ai) as native tools. MOM keeps verified memory of tool calls that policy blocked and the corrected calls that were then allowed. With this server your agent can ask for the compliant version of a call **before** it acts, and check a call against live policy, without you writing any integration code.\n\nThe server runs on your machine as a child process of the host and talks to it over stdio. It signs every request to MOM with an Ed25519 key that stays on your machine: only signatures leave it, never the key.\n\n## Add it to Claude Desktop\n\nOpen the configuration file:\n\n| OS | Path |\n| --- | --- |\n| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |\n| Windows | `%APPDATA%\\Claude\\claude_desktop_config.json` |\n\nAdd the server under `mcpServers`, then restart Claude Desktop:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@achromat-ai/mcp-server\"]\n    }\n  }\n}\n```\n\nThat is the whole setup. Requires Node.js 20 or newer; `-y` lets `npx` install the package without asking. Other MCP hosts take the same command and arguments in their own configuration.\n\n## First use: your agent sets up the identity\n\nEvery request to MOM is signed, so the server needs a key that MOM knows. You do not create or register one yourself. The first time you use the server it has no key, so it offers a single tool, `achromat_register_identity`, and your agent will **ask you** whether to set up an identity. If you say yes, the server:\n\n1. generates an Ed25519 key pair on your machine,\n2. does a short proof of work (about a second; it is how MOM limits automated sign-ups),\n3. registers the **public** key with MOM, and\n4. saves the **private** key to `~/.achromat/achromat_agent_key.pem`, readable only by you.\n\nThen `achromat_recall` and `achromat_calibrate` appear in place of the registration tool. If your host does not refresh its tool list by itself, restart it once.\n\nWhat leaves your machine: the public key, the proof of work, and a signature proving you hold the private key. The private key never does. MOM keeps a record of the registration and limits it to 10 a day per network.\n\n**The key file is the identity.** Keep it private, out of git and out of screenshots, and back it up: it cannot be recovered if you lose it. The server never overwrites an existing key file, and it only saves the file once MOM has accepted the key, so a failed attempt leaves nothing behind.\n\n## Choosing where the key lives\n\nBy default the key is at `~/.achromat/achromat_agent_key.pem`. To use another path, set `ACHROMAT_AGENT_KEY_FILE` in the host configuration. This works for a new key (the server creates it there) and for one you already have:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@achromat-ai/mcp-server\"],\n      \"env\": {\n        \"ACHROMAT_AGENT_KEY_FILE\": \"/Users/you/keys/achromat_agent_key.pem\"\n      }\n    }\n  }\n}\n```\n\nOn Windows use the full path with escaped backslashes, for example `\"C:\\\\Users\\\\you\\\\keys\\\\achromat_agent_key.pem\"`. A leading `~` is expanded by the server. A desktop app may start the server with a different home directory than your terminal has, so spelling the path out removes any doubt.\n\nAn existing key must be an unencrypted PKCS#8 Ed25519 PEM file that MOM already knows.\n\n## Run from source\n\n```bash\ngit clone https://github.com/achromat-ai/achromat-mcp-server.git\ncd achromat-mcp-server\nnpm install\nnpm run build\n```\n\nPoint the host at the build instead of `npx`:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"node\",\n      \"args\": [\"/absolute/path/to/achromat-mcp-server/dist/index.js\"]\n    }\n  }\n}\n```\n\nTo try the tools in a browser without a host, use the MCP Inspector:\n\n```bash\nnpm run inspect\n```\n\n## Tools\n\n### `achromat_register_identity`\n\nOffered only while there is no key file. Creates and registers an identity as described above. It requires `user_confirmed: true`, which the agent may set only after you have agreed; the tool description tells it to ask first.\n\n| Parameter | Required | Description |\n| --- | --- | --- |\n| `user_confirmed` | yes | Must be `true`, and only after the user has said yes. |\n\n### `achromat_recall`\n\nCall this **before** running a tool that policy might block (payments, credit decisions, robot or plant commands, shell, SQL, web requests). It asks whether a verified compliant version of the call already exists. On a match you get `compliant_arguments`, a `steering_directive` and the rule that applied. Use the whole `compliant_arguments` object as your template, keep any `[VERIFIED_STATE]` placeholders exactly as written, and change only your own operational values.\n\n| Parameter | Required | Description |\n| --- | --- | --- |\n| `domain` | yes | `fintech`, `industrial_iot`, `robotics` or `devsecops`. |\n| `tool_name` | yes | The exact name of the tool you are about to call. |\n| `task_description` | yes | What you are trying to do, in plain words (16 to 1000 characters, at least 3 words). No amounts, identifiers or personal data. |\n| `arguments` | **yes** | The arguments you intend to send, as a non-empty JSON object using the tool's real key names. **Only the names of the keys (and their nesting) are used for semantic matching, never the values**, so real key names find the right lesson and an invented shape finds the wrong one or none. |\n\n### `achromat_calibrate`\n\nCall this when recall found nothing, or when the stakes are high. It evaluates the call against live policy and returns the verdict, the steering directive and the receipt id. A `BLOCK` comes with a `trap_id`: fix the arguments as the directive says and call the tool again with the **same** `task_description` and the `trap_id`. An `ALLOW` means the call complies. A block followed by an allow becomes a lesson for other agents\n\n…",
+      "truncated": true,
+      "url": "https://github.com/achromat-ai/achromat-mcp-server#readme"
+    }
   },
   {
     "id": "mcp:ai-actwise-ideation",
@@ -9319,7 +9702,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 155,
+        "weeklyDownloads": 181,
         "lastPublished": "2026-09-20T16:32:49.707Z",
         "firstPublished": "2026-06-27T06:18:53.567Z",
         "deprecated": false,
@@ -9346,7 +9729,7 @@
       {
         "registryType": "npm",
         "identifier": "@aetherya/mcp",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -9359,7 +9742,7 @@
           }
         ],
         "weeklyDownloads": 11,
-        "lastPublished": "2026-10-19T09:55:11.135Z",
+        "lastPublished": "2026-10-19T12:42:03.200Z",
         "firstPublished": "2026-07-07T20:48:10.253Z",
         "deprecated": false,
         "declaredRepo": null,
@@ -9383,7 +9766,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-19T09:55:42.589104Z",
+    "updatedAt": "2026-10-19T12:42:28.311419Z",
     "repoMeta": null
   },
   {
@@ -11935,7 +12318,7 @@
         "transport": "stdio",
         "runtimeHint": "npx",
         "env": [],
-        "weeklyDownloads": 72,
+        "weeklyDownloads": 94,
         "lastPublished": "2026-07-29T07:51:35.309Z",
         "firstPublished": "2026-05-22T15:23:12.426Z",
         "deprecated": false,
@@ -13601,6 +13984,53 @@
     ]
   },
   {
+    "id": "mcp:ai-agentmash-agentmash",
+    "name": "AgentMash",
+    "qualifiedName": "ai.agentmash/agentmash",
+    "slug": "ai-agentmash-agentmash",
+    "description": "All your bookmarks in one library. Share them with your AI agents. Read-only search over your saves.",
+    "category": "Web & Search",
+    "repository": "https://github.com/RamyaChinnadurai/agentmash-mcp",
+    "homepage": "https://agentmash.ai",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://agentmash.ai/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Your AgentMash API key from the Agents & API page, sent as: Bearer am_live_YOUR_KEY",
+            "required": true,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T20:25:29.586764Z",
+    "repoMeta": {
+      "slug": "RamyaChinnadurai/agentmash-mcp",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-19T20:18:31Z",
+      "pushedAt": "2026-10-19T20:18:43Z",
+      "openIssues": 0,
+      "license": "MIT",
+      "language": null
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# AgentMash MCP server\n\nAll your bookmarks in one library. Share them with your AI agents.\n\nThis repo documents the hosted AgentMash MCP server: how to connect your AI agent to your AgentMash library.\n\n## What AgentMash does\n\n- The AgentMash Chrome extension imports your saves from X, LinkedIn, Instagram and more when you click Sync. Nothing runs in the background.\n- Everything lands in one library.\n- Your AI agents read that library over MCP, with read-only tools.\n\n## Server\n\n- URL: `https://agentmash.ai/mcp`\n- Transport: Streamable HTTP\n\n## Authentication\n\nAgentMash uses an API key, not OAuth.\n\n1. In AgentMash, open the **Agents & API** page and click **Create API key**.\n2. Copy the key right away. It starts with `am_live_` and is shown only once.\n3. Send it as a header:\n\n```\nAuthorization: Bearer am_live_YOUR_KEY\n```\n\nFor clients that cannot set headers, append `?token=am_live_YOUR_KEY` to the URL instead.\n\n## Setup\n\nReplace `am_live_YOUR_KEY` with your own key in each snippet.\n\n### Claude Code\n\n```\nclaude mcp add --transport http agentmash https://agentmash.ai/mcp --header \"Authorization: Bearer am_live_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nClaude Desktop connects through the `mcp-remote` bridge, so you need Node (with `npx`) installed. Add this to `claude_desktop_config.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://agentmash.ai/mcp\",\n        \"--header\",\n        \"Authorization: Bearer am_live_YOUR_KEY\"\n      ]\n    }\n  }\n}\n```\n\n### Cursor\n\nAdd this to `~/.cursor/mcp.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Codex\n\nAdd this to `~/.codex/config.toml`:\n\n```\n[mcp_servers.agentmash]\nurl = \"https://agentmash.ai/mcp\"\nbearer_token = \"am_live_YOUR_KEY\"\n```\n\n## Tools\n\nAll six tools are read-only.\n\n| Tool | What it does |\n|---|---|\n| `search_saves` | Searches your saves. Leave the query out to list your newest saves first. |\n| `get_save` | Gets one save in full: text, stats, links, media and collections. |\n| `recent_saves` | Lists saves from the last few days. |\n| `list_sources` | Lists the platforms in your library, with saves per platform and last sync. |\n| `list_collections` | Lists your collections with their names, platform and number of saves. |\n| `get_collection_saves` | Gets the saves inside one collection. |\n\n## Revoke a key\n\nOpen the **Agents & API** page in AgentMash and click **Revoke** on the key. Agents using that key stop working within about a minute.\n\n## Links\n\n- AgentMash: https://agentmash.ai\n- MCP setup guide: https://agentmash.ai/mcp-setup\n\n## About this repo\n\nThe AgentMash app source code is not in this repo. This repo only documents the hosted MCP server.\n\nFor AI coding agents, see [llms-install.md](llms-install.md).\n\n## Support\n\nEmail hello@agentmash.ai.",
+      "truncated": false,
+      "url": "https://github.com/RamyaChinnadurai/agentmash-mcp#readme"
+    }
+  },
+  {
     "id": "mcp:ai-agentmesh-mesh",
     "name": "AgentMesh",
     "qualifiedName": "ai.agentmesh/mesh",
@@ -14409,7 +14839,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 67,
+        "weeklyDownloads": 69,
         "lastPublished": "2026-08-06T19:02:30.811Z",
         "firstPublished": "2026-07-06T03:12:03.666Z",
         "deprecated": false,
@@ -14812,7 +15242,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 71,
+        "weeklyDownloads": 67,
         "lastPublished": "2026-07-21T19:54:05.699Z",
         "firstPublished": "2026-06-27T02:16:12.688Z",
         "deprecated": false,
@@ -16865,7 +17295,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-08-05T14:07:36.70305Z",
     "repoMeta": null,
-    "toolsStatus": "error",
+    "toolsStatus": "ok",
     "tools": [
       {
         "name": "get_pricing",
@@ -17639,7 +18069,7 @@
       },
       {
         "name": "join_arena",
-        "description": "Enter the Open Arena season open now (or the given season). Safe to repeat. New agents are entered automatically when a season is open, so this is mostly for agents that registered between seasons (people with a publisher profile can join too). Joining a season under way counts only the signals you publish from then on.",
+        "description": "Enter the Open Arena season open now (or the given season). Safe to repeat. Agents are entered automatically (at signup when a season is open, otherwise when the next one opens for entries, about a week before it starts), so this is mainly for people with a publisher profile. Joining a season under way counts only the signals you publish from then on.",
         "inputs": [
           {
             "name": "season",
@@ -17651,7 +18081,7 @@
       },
       {
         "name": "get_my_arena_status",
-        "description": "Your rank and season metrics in every Open Arena season you have joined, how many more signals you need to be ranked, and the season open for entry now (and whether you are in it).",
+        "description": "Your rank and season metrics in every Open Arena season you have joined, how many more signals you need to be ranked, and the season open for entry now (and whether you are in it). Before a season opens, upcoming is the next one and when it opens for entries.",
         "inputs": null
       },
       {
@@ -19106,12 +19536,12 @@
       }
     ],
     "remotes": [],
-    "stars": 520,
+    "stars": 521,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 520,
+      "stars": 521,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -19138,12 +19568,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 89,
+    "stars": 90,
     "source": "MCP Registry",
     "updatedAt": "2026-10-11T18:29:12.499147Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 89,
+      "stars": 90,
       "forks": 10,
       "archived": false,
       "isFork": false,
@@ -19199,7 +19629,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 370,
+        "weeklyDownloads": 422,
         "lastPublished": "2026-10-19T10:24:27.745Z",
         "firstPublished": "2026-08-18T07:12:46.937Z",
         "deprecated": false,
@@ -19682,7 +20112,7 @@
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 600,
-        "lastPublished": "2026-10-18T09:38:54.685Z",
+        "lastPublished": "2026-10-19T19:01:56.023Z",
         "firstPublished": "2026-10-12T16:12:26.487Z",
         "deprecated": false,
         "declaredRepo": "kneelinghorse/reasonbook",
@@ -19700,13 +20130,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-08T21:14:10Z",
-      "pushedAt": "2026-10-18T09:41:08Z",
+      "pushedAt": "2026-10-19T19:05:07Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.1.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins — 4.1.0\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively include telemetry deletion,\nso Codex Auto mode can still a\n\n…",
+      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](https://github.com/kneelinghorse/reasonbook/blob/main/docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.2.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins — 4.1.0\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively incl\n\n…",
       "truncated": true,
       "url": "https://github.com/kneelinghorse/reasonbook#readme"
     }
@@ -20992,7 +21422,7 @@
       "slug": "arpi-ai/arpi-mcp",
       "stars": 0,
       "forks": 0,
-      "archived": false,
+      "archived": true,
       "isFork": false,
       "createdAt": "2026-07-08T02:39:59Z",
       "pushedAt": "2026-07-08T04:48:36Z",
@@ -21210,7 +21640,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-19T01:26:44Z",
-      "pushedAt": "2026-10-19T02:54:44Z",
+      "pushedAt": "2026-10-19T17:15:18Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -22640,7 +23070,7 @@
       },
       {
         "name": "get_tracked_content",
-        "description": "List tracked content (1st-party drafts, imported pages, 3rd-party placements) with citation, mention, and impression metrics for the supplied date range and filters. Supports pagination via page_num / page_size and optional filtering by Content Hub sheet_id or content_type. In-flight pipeline items (drafts, briefs, running generations) never appear here; enumerate those with list_content. A return",
+        "description": "List tracked content (1st-party drafts, imported pages, 3rd-party placements) with citation, mention, and impression metrics for the supplied date range and filters. Supports pagination via page_num / page_size and optional filtering by Content Hub sheet_id or content_type. A sheet_id of a view-type tab (see get_content_hub_sheets sheet_type) lists the shared main pool: content not filed in any sh",
         "inputs": [
           {
             "name": "website_id",
@@ -22673,7 +23103,7 @@
           {
             "name": "sheet_id",
             "type": "string",
-            "description": null,
+            "description": "Content Hub tab to list (get_content_hub_sheets). A sheet-type tab lists its own content; a view-type tab, the default tab included, lists the shared main pool (content not filed in any sheet), withou",
             "required": false
           },
           {
@@ -24492,7 +24922,7 @@
     "description": "Audio and video tools for your AI assistant: remove noise, enhance voices, transcribe, and more.",
     "category": "Design & Media",
     "repository": "https://github.com/audo-ai/audo-mcp",
-    "homepage": "https://audo.ai",
+    "homepage": "https://audo.ai/?utm_source=mcp_registry&utm_medium=directory",
     "packages": [],
     "remotes": [
       {
@@ -24503,7 +24933,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-10T08:13:37.795767Z",
+    "updatedAt": "2026-10-20T01:19:35.954433Z",
     "repoMeta": {
       "slug": "audo-ai/audo-mcp",
       "stars": 0,
@@ -24511,14 +24941,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-10T08:12:21Z",
-      "pushedAt": "2026-10-11T03:13:42Z",
+      "pushedAt": "2026-10-20T01:19:30Z",
       "openIssues": 1,
       "license": null,
       "language": null
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# Audo MCP server\n\nAudo is a set of audio and video tools for you and your AI assistant: remove noise, enhance voices, transcribe, cut, and more. Pro sound, without the studio.\n\nThis repository documents Audo's hosted MCP server at `https://audo.ai/mcp`. It works over streamable HTTP. Sign-in is OAuth: the first time you use it, your assistant asks you to sign in at audo.ai. The repository also holds the `server.json` entry for the official MCP Registry, `ai.audo/audo`.\n\n## Add it\n\n**Claude Code**\n\n```bash\nclaude mcp add --transport http --scope user audo https://audo.ai/mcp\n```\n\n**Any MCP client**\n\n```json\n{\n  \"mcpServers\": {\n    \"audo\": {\n      \"url\": \"https://audo.ai/mcp\"\n    }\n  }\n}\n```\n\nSetup guides for ChatGPT, Claude, and other assistants: https://audo.ai/setup\n\n## Tools\n\n| Tool | What it does |\n| --- | --- |\n| `remove_noise` | Clears the background, keeps your voice. |\n| `enhance_voice` | Makes any recording sound studio-quality: echo, muffled, and phone voices. |\n| `transcribe_audio` | Speech to text, who said what: 60 languages, SRT and VTT captions, word times. |\n| `align_script` | Syncs a script to audio, for captions. |\n| `remove_fillers` | Cuts the ums and uhs. |\n| `remove_silence` | Cuts out long pauses. |\n| `cut_audio` | Trims the start, middle, or end. |\n| `join_audio` | Merges files into one. |\n| `mix_tracks` | Layers voices and music. |\n| `replace_audio` | New sound, same picture. |\n| `adjust_loudness` | Makes quiet audio louder. |\n| `level_speakers` | Evens out loud and quiet voices. |\n| `convert_audio` | Audio to MP3, WAV, and more. |\n| `analyze_audio` | Length, format, and more. |\n\nFiles and jobs: `create_upload`, `import_file` (fetches a direct file URL), `list_files`, `get_file`, `get_job`, `get_download`, `get_transcript`, `cancel_job`, and `get_account`. Uploaded files are deleted after 24 hours.\n\n## Free use and pricing\n\nEvery tool has a free part each day, with no payment. Beyond it, you pay per minute of audio, and only for jobs that succeed. Prices: https://audo.ai/pricing\n\n## Example prompts\n\n- Use Audo to remove the background noise from interview.wav.\n- Use Audo to transcribe meeting.mp4 with speaker labels and give me SRT captions.\n- Use Audo to make voice-note.m4a sound like it was recorded in a studio.\n- Use Audo to cut the first 30 seconds from podcast.wav.\n\n## Links\n\n- MCP docs: https://audo.ai/docs/mcp\n- API docs: https://audo.ai/docs/api\n- Every tool, for agents: https://audo.ai/llms.txt\n- Setup guides: https://audo.ai/setup\n\n## Support\n\nsupport@audo.ai",
+      "markdown": "# Audo MCP server\n\nAudo is a set of audio and video tools for you and your AI assistant: remove noise, enhance voices, transcribe, cut, and more. Pro sound, without the studio.\n\nThis repository documents Audo's hosted MCP server at `https://audo.ai/mcp`. It works over streamable HTTP. Sign-in is OAuth: the first time you use it, your assistant asks you to sign in at audo.ai. The repository also holds the `server.json` entry for the official MCP Registry, `ai.audo/audo`.\n\n## Add it\n\n**Claude Code**\n\n```bash\nclaude mcp add --transport http --scope user audo https://audo.ai/mcp\n```\n\n**Any MCP client**\n\n```json\n{\n  \"mcpServers\": {\n    \"audo\": {\n      \"url\": \"https://audo.ai/mcp\"\n    }\n  }\n}\n```\n\nSetup guides for ChatGPT, Claude, and other assistants: https://audo.ai/setup?utm_source=github&utm_medium=directory\n\n## Tools\n\n| Tool | What it does |\n| --- | --- |\n| `remove_noise` | Clears the background, keeps your voice. |\n| `enhance_voice` | Makes any recording sound studio-quality: echo, muffled, and phone voices. |\n| `transcribe_audio` | Speech to text, who said what: 60 languages, SRT and VTT captions, word times. |\n| `align_script` | Syncs a script to audio, for captions. |\n| `remove_fillers` | Cuts the ums and uhs. |\n| `remove_silence` | Cuts out long pauses. |\n| `cut_audio` | Trims the start, middle, or end. |\n| `join_audio` | Merges files into one. |\n| `mix_tracks` | Layers voices and music. |\n| `replace_audio` | New sound, same picture. |\n| `adjust_loudness` | Makes quiet audio louder. |\n| `level_speakers` | Evens out loud and quiet voices. |\n| `convert_audio` | Audio to MP3, WAV, and more. |\n| `analyze_audio` | Length, format, and more. |\n\nFiles and jobs: `create_upload`, `import_file` (fetches a direct file URL), `list_files`, `get_file`, `get_job`, `get_download`, `get_transcript`, `cancel_job`, and `get_account`. Uploaded files are deleted after 24 hours.\n\n## Free use and pricing\n\nEvery tool has a free part each day, with no payment. Beyond it, you pay per minute of audio, and only for jobs that succeed. Prices: https://audo.ai/pricing?utm_source=github&utm_medium=directory\n\n## Example prompts\n\n- Use Audo to remove the background noise from interview.wav.\n- Use Audo to transcribe meeting.mp4 with speaker labels and give me SRT captions.\n- Use Audo to make voice-note.m4a sound like it was recorded in a studio.\n- Use Audo to cut the first 30 seconds from podcast.wav.\n\n## Links\n\n- MCP docs: https://audo.ai/docs/mcp?utm_source=github&utm_medium=directory\n- API docs: https://audo.ai/docs/api?utm_source=github&utm_medium=directory\n- Every tool, for agents: https://audo.ai/llms.txt\n- Setup guides: https://audo.ai/setup?utm_source=github&utm_medium=directory\n\n## Support\n\nsupport@audo.ai",
       "truncated": false,
       "url": "https://github.com/audo-ai/audo-mcp#readme"
     }
@@ -25626,7 +26056,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 31,
+        "weeklyDownloads": 25,
         "lastPublished": "2026-01-12T03:51:52.629Z",
         "firstPublished": "2026-01-12T03:35:40.422Z",
         "deprecated": false,
@@ -25657,7 +26087,7 @@
         "transport": "stdio",
         "runtimeHint": null,
         "env": [],
-        "weeklyDownloads": 31,
+        "weeklyDownloads": 24,
         "lastPublished": "2026-01-12T03:51:55.360Z",
         "firstPublished": "2026-01-12T03:35:43.086Z",
         "deprecated": false,
@@ -25815,7 +26245,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 69,
+        "weeklyDownloads": 54,
         "lastPublished": "2026-09-02T00:20:59.160Z",
         "firstPublished": "2026-05-11T22:39:06.784Z",
         "deprecated": false,
@@ -25877,7 +26307,7 @@
             "format": "string"
           }
         ],
-        "weeklyDownloads": 78,
+        "weeklyDownloads": 247,
         "lastPublished": "2026-10-18T23:33:54.716Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
@@ -25931,18 +26361,18 @@
       }
     ],
     "remotes": [],
-    "stars": 1315,
+    "stars": 1326,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T08:39:43.531506Z",
     "repoMeta": {
       "slug": "autonomous-ai/openharness",
-      "stars": 1315,
+      "stars": 1326,
       "forks": 115,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-04T07:53:15Z",
-      "pushedAt": "2026-10-19T12:26:22Z",
-      "openIssues": 13,
+      "pushedAt": "2026-10-20T11:03:10Z",
+      "openIssues": 14,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -26954,6 +27384,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-01T18:54:25.720204Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-azquo-azquo",
+    "name": "Azquo",
+    "qualifiedName": "ai.azquo/azquo",
+    "slug": "ai-azquo-azquo",
+    "description": "Shared memory for AI agents: a hierarchical database where totals add up and writes are attributed.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://azquo.com",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://data.azquo.ai/mcp",
+        "headers": [
+          {
+            "name": "Authorization",
+            "description": "Bearer <API key from admin.azquo.ai>. Omit to sign in with your Azquo login via OAuth instead.",
+            "required": false,
+            "secret": true,
+            "format": null
+          }
+        ]
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-19T12:47:22.811514Z",
     "repoMeta": null,
     "toolsStatus": "auth"
   },
@@ -28302,7 +28763,7 @@
       },
       {
         "name": "get_prompt_citations",
-        "description": "For one leaderboard category, which sites OpenAI, Anthropic and Perplexity cited when asked b/cited's fixed set of buyer prompts, for one ISO week (default: the latest recorded). Per prompt and engine: the ordered cited hosts and whether each is on the board; per board domain: cited on N of M prompt-and-engine pairs and best rank; plus hosts cited that are not on the board. This is engine output a",
+        "description": "For one leaderboard category, which sites ChatGPT, Claude and Perplexity cited when asked b/cited's fixed set of buyer prompts, for one ISO week (default: the latest recorded). Per prompt and engine: the ordered cited hosts and whether each is on the board; per board domain: cited on N of M prompt-and-engine pairs and best rank; plus hosts cited that are not on the board. This is engine output at ",
         "inputs": [
           {
             "name": "category",
@@ -28634,7 +29095,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
-      "pushedAt": "2026-10-18T16:11:53Z",
+      "pushedAt": "2026-10-19T18:52:25Z",
       "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
@@ -29950,6 +30411,18 @@
         ]
       },
       {
+        "name": "get_grade_evidence",
+        "description": "Return the evidence behind an owned completed Grade jobId: each claim checked (price, injury and lineup, matchup, form, line move, situational, weather, correlation), its sources with tier 1-5, age and supports/contradicts tag, unknowns, and whether it was verified. Never grades again. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "open_doctor_conversation",
         "description": "Persist an app Doctor thread, optionally attached to an owned ticket, report or history item. Does not start a reply or spend a consult allowance. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
         "inputs": [
@@ -31009,100 +31482,6 @@
           },
           {
             "name": "postId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "copy_tail_slip",
-        "description": "After the customer reviews every current leg and confirms the exact stake/currency/settlement fields, save the app’s owned Tail/Fade ticket using the preview binding and CONFIRM_COPY_TICKET. Keep commandKey stable on retries. Returns an unplaced slip; never places a wager or grades automatically.",
-        "inputs": [
-          {
-            "name": "confirmation",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "mode",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "tail",
-              "fade"
-            ]
-          },
-          {
-            "name": "bookId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "jurisdiction",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "expectedPostRevision",
-            "type": "integer",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "previewBinding",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "clientSlipId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "clientRevision",
-            "type": "integer",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "stakeMinor",
-            "type": "integer",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "offeredReturnMinor",
-            "type": "any",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "settlementTerms",
-            "type": "object",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "postId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "commandKey",
             "type": "string",
             "description": null,
             "required": true
@@ -34782,7 +35161,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-27T16:14:58Z",
-      "pushedAt": "2026-10-19T09:49:51Z",
+      "pushedAt": "2026-10-19T15:18:22Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Shell"
