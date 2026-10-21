@@ -25,18 +25,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -66,18 +66,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -107,18 +107,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -154,18 +154,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -201,18 +201,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -242,18 +242,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -289,18 +289,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91402,
+    "stars": 91443,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91402,
-      "forks": 11823,
+      "stars": 91443,
+      "forks": 11836,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 113,
+      "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -604,7 +604,7 @@
       },
       {
         "name": "list_recent_chats",
-        "description": "Business — List the user's recent Worklittle chats (title and status) for the app sidebar.",
+        "description": "Jobs — List the user's recent Worklittle chats (title and status) for the app sidebar.",
         "inputs": [
           {
             "name": "limit",
@@ -622,12 +622,12 @@
       },
       {
         "name": "mint_mcp_ui_embed_session",
-        "description": "Business — Create a sign-in link so the Worklittle app can open the user's chats on worklittle.com.",
+        "description": "Jobs — Create a sign-in link so the Worklittle app can open the user's chats on worklittle.com.",
         "inputs": null
       },
       {
         "name": "logout_connected_account",
-        "description": "Business — Sign the user out of Worklittle in this app.",
+        "description": "Jobs — Sign the user out of Worklittle in this app.",
         "inputs": null
       },
       {
@@ -839,6 +839,18 @@
         ]
       },
       {
+        "name": "submit_application",
+        "description": "Jobs — Send an application that stopped for review (apply_for_job with auto_submit false, status awaiting_submit). Call it only after the user has seen the answers from check_application_status and said to send it.",
+        "inputs": [
+          {
+            "name": "session_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
         "name": "stop_application",
         "description": "Jobs — Stop an application that Worklittle is filling out for the user. This cancels the application in progress and it cannot be resumed; the user would have to start it again. Needs the session_id from apply_for_job or list_active_applications.",
         "inputs": [
@@ -852,7 +864,7 @@
       },
       {
         "name": "steer_application",
-        "description": "Business — Change what an application in progress fills in, without stopping it. Use when the user says something about an application Worklittle is filling right now (\"say my notice period is one month\", \"my friend Ana Ruiz referred me\", \"I need visa sponsorship for the US\", \"make that answer shorter\"). Pass their wish as plain instructions with their exact facts; never add facts. Works while the",
+        "description": "Jobs — Change what an application in progress fills in, without stopping it. Use when the user says something about an application Worklittle is filling right now (\"say my notice period is one month\", \"my friend Ana Ruiz referred me\", \"I need visa sponsorship for the US\", \"make that answer shorter\"). Pass their wish as plain instructions with their exact facts; never add facts. Works while the app",
         "inputs": [
           {
             "name": "session_id",
@@ -870,7 +882,7 @@
       },
       {
         "name": "save_about_me",
-        "description": "Business — Save standing facts about the user that Worklittle's Apply with AI uses on every future application: work authorization and visa sponsorship by country, relocation, notice period, desired salary, languages, qualifications, who referred them, reasonable adjustments, self-identification, or anything else they want applications to answer a certain way. Stored as the 'More about you' text i",
+        "description": "Jobs — Save standing facts about the user that Worklittle's Apply with AI uses on every future application: work authorization and visa sponsorship by country, relocation, notice period, desired salary, languages, qualifications, who referred them, or other standing answers they ask applications to use. Stored as the 'More about you' text in their Settings. Pass the complete text to keep (read get",
         "inputs": [
           {
             "name": "about_me",
@@ -978,7 +990,7 @@
     "repoMeta": {
       "slug": "frumu-ai/tandem",
       "stars": 123,
-      "forks": 14,
+      "forks": 13,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-17T16:27:57Z",
@@ -1320,12 +1332,12 @@
         ]
       }
     ],
-    "stars": 0,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-10-17T03:25:05.205722Z",
     "repoMeta": {
       "slug": "ApexAI-Academy/sample-agents",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -4632,11 +4644,6 @@
         ]
       },
       {
-        "name": "today",
-        "description": "Today's headline Dubai cost figures, each with source.",
-        "inputs": null
-      },
-      {
         "name": "transport_fares",
         "description": "Taxi fare estimate, or metro/bus fares, parking and toll tariffs. Not app quotes.",
         "inputs": [
@@ -7050,7 +7057,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-20T08:03:33.116792Z",
+    "updatedAt": "2026-10-21T08:17:47.171381Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
@@ -7208,7 +7215,7 @@
       },
       {
         "name": "extract_products",
-        "description": "Read one public product page and return the product data it publishes in its structured markup: name, brand, SKU or GTIN, and offers with price, currency and availability. Prices are what the page states, never guessed. Set marketplace to amazon, walmart or shopee for those product pages. Costs 1 credit; a failed call costs nothing.",
+        "description": "Read one public product page and return the product data it publishes in its structured markup: name, brand, SKU or GTIN, and offers with price, currency and availability. Prices are what the page states, never guessed. Set marketplace to amazon, walmart or shopee for those product pages; these parsers are best-effort and large marketplaces often block automated requests. Costs 1 credit; a failed ",
         "inputs": [
           {
             "name": "url",
@@ -7322,6 +7329,444 @@
             "type": "string",
             "description": "Two-letter country code for the language headers of the request, for example ae or gb. It does not route the request through that country.",
             "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "google_serp",
+        "description": "Execute a full Google SERP search query with strict Google provenance (depth 10 to 100). Returns verified Google organic results with classification tagging (forums, video, ecommerce) and the results page's features (AI Overview, PAA, Knowledge Graph). The local pack and shopping are add-ons: set local_pack and/or shopping to true to include them. A result searched in the last 24 hours is served f",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "local_pack",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "shopping",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "find_discussion_candidates",
+        "description": "Search Google and filter organic results (positions 1-100) specifically for community discussions and forum threads (Reddit, Quora, HackerNews, StackExchange, niche forums). Ideal for sentiment analysis, user discussions, and customer problem discovery. The most the call can cost is held first and you are charged for what it returns; a call that fails costs nothing.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "extract_local_places",
+        "description": "Extract Google Local Pack (3-pack) and Google Places listings for local queries. Returns place_id/cid, title, rating, review count, address, latitude/longitude, category, phone, and website. The most the call can cost is held first and you are charged for what it returns; a call that fails costs nothing.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "extract_shopping_results",
+        "description": "Extract Google Shopping carousel listings for e-commerce and product queries. Returns product title, price, currency, merchant, rating, reviews, image URL, link, and product ID. The most the call can cost is held first and you are charged for what it returns; a call that fails costs nothing.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "geo_citation_radar",
+        "description": "Run GEO Citation & Injection Radar for a topic query and brand. Calculates citation probability score (0-100), identifies high-impact Reddit/Quora threads with injection playbooks, extracts listicle PR outreach targets with Vera contacts payload, discovers AEO question gaps from PAA, and produces an LLM-ready markdown injection brief. The most the call can cost is held first and you are charged fo",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "brand",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "domain",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "engine",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "company_serp_footprint",
+        "description": "Audit a company's SERP digital footprint, brand reputation, owned domains, and entity profiles. Separates owned web properties, social/entity profiles (Wikipedia, LinkedIn, Instagram, Crunchbase), Google Maps locations, third-party mentions, and customer brand questions (PAA). The most the call can cost is held first and you are charged for what it returns; a call that fails costs nothing.",
+        "inputs": [
+          {
+            "name": "company",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "domain",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "depth",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "keyword_ideas",
+        "description": "Keyword ideas for a seed keyword from Google autocomplete (the seed plus question words or the alphabet), People Also Ask and related searches, cleaned and de-duplicated. Each idea carries its sources and an intent label (question, comparison, commercial, local, informational). Works in Arabic. Ideas only: no search volumes. Charged for the results page (3 credits live, 1 from your cache) plus 3 c",
+        "inputs": [
+          {
+            "name": "seed",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "gl",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "hl",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "location_code",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "expand",
+            "type": "any",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fresh",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "idempotency_key",
+            "type": "string",
+            "description": "Optional. Send the same key (16 to 128 letters, digits, _ . : -) to retry this exact call safely: a retry within 24 hours returns the first result and is not charged again.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "ai_answers",
+        "description": "Put a buyer's question to an AI assistant that searches the live web, and see whether a brand and its competitors are named in the answer, in what rank, with the citations and cited domains behind it. The assistant is ChatGPT unless `engine` names claude, perplexity or gemini; an assistant the server has no key for answers not_configured and costs nothing. `samples` (1 to 5, default 1) asks the sa",
+        "inputs": [
+          {
+            "name": "prompt",
+            "type": "string",
+            "description": "The question to put to the assistant, as a buyer would ask it",
+            "required": true
+          },
+          {
+            "name": "brand",
+            "type": "string",
+            "description": "Brand name to look for in the answer",
+            "required": true
+          },
+          {
+            "name": "brand_domain",
+            "type": "any",
+            "description": "The brand's domain, for example roasters.ae",
+            "required": false
+          },
+          {
+            "name": "competitors",
+            "type": "any",
+            "description": "Competitor names or domains to track",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Two-letter ISO country code of the market",
+            "required": false
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "Language tag of the market, for example en or ar",
+            "required": false
+          },
+          {
+            "name": "samples",
+            "type": "integer",
+            "description": "Times the question is asked of the assistant",
+            "required": false
+          },
+          {
+            "name": "engine",
+            "type": "string",
+            "description": "The assistant to ask",
+            "required": false,
+            "enum": [
+              "chatgpt",
+              "claude",
+              "perplexity",
+              "gemini"
+            ]
           },
           {
             "name": "idempotency_key",
@@ -8209,18 +8654,18 @@
         "headers": []
       }
     ],
-    "stars": 7383,
+    "stars": 7388,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7383,
-      "forks": 1030,
+      "stars": 7388,
+      "forks": 1031,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 134,
+      "openIssues": 135,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8262,18 +8707,18 @@
         "headers": []
       }
     ],
-    "stars": 7383,
+    "stars": 7388,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7383,
-      "forks": 1030,
+      "stars": 7388,
+      "forks": 1031,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 134,
+      "openIssues": 135,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8363,18 +8808,18 @@
         "headers": []
       }
     ],
-    "stars": 7383,
+    "stars": 7388,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7383,
-      "forks": 1030,
+      "stars": 7388,
+      "forks": 1031,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
       "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 134,
+      "openIssues": 135,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8672,6 +9117,83 @@
     "toolsStatus": "auth"
   },
   {
+    "id": "mcp:ai-1court-state-court-directory",
+    "name": "1Court Directory",
+    "qualifiedName": "ai.1court.state/court-directory",
+    "slug": "ai-1court-state-court-directory",
+    "description": "US county court directory: clerk, courthouse address, e-filing, filing fees, and case lookup.",
+    "category": "Legal & Government",
+    "repository": null,
+    "homepage": "https://state.1court.ai/developers",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://state.1court.ai/api/mcp",
+        "headers": []
+      },
+      {
+        "type": "sse",
+        "url": "https://state.1court.ai/api/sse",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-21T01:56:14.481942Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "list_states",
+        "description": "List all U.S. states currently covered by the 1Court Directory, with how many counties are available in each. Use this to discover coverage before looking up a specific county.",
+        "inputs": null
+      },
+      {
+        "name": "list_counties",
+        "description": "List the counties covered in a given U.S. state (accepts a full state name, 2-letter code, or slug). Returns each county name and its 1Court page URL.",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "State name, 2-letter code, or slug, e.g. \"California\", \"CA\", or \"california\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_court_info",
+        "description": "Get verified court information for a specific U.S. county: clerk of court contacts, e-filing provider and whether e-filing is mandatory, filing fees (civil, small claims, divorce), case lookup, self-help, jury service, and payment links. Data is sourced from official court/clerk records. Always cite the returned 1Court source URL.",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "State name, 2-letter code, or slug, e.g. \"Texas\", \"TX\"",
+            "required": true
+          },
+          {
+            "name": "county",
+            "type": "string",
+            "description": "County name, e.g. \"Harris\" or \"Harris County\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_courts",
+        "description": "Search the 1Court Directory by county or state name and get matching counties with their 1Court page URLs. Use when you are unsure of the exact county or state format.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "A county or state name, e.g. \"Maricopa\", \"Cook County\", or \"Nevada\"",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ai-2kw-mcp-server",
     "name": "2kw.ai",
     "qualifiedName": "ai.2kw/mcp-server",
@@ -8857,12 +9379,12 @@
       }
     ],
     "remotes": [],
-    "stars": 0,
+    "stars": 1,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T16:40:53.960211Z",
     "repoMeta": {
       "slug": "achromat-ai/achromat-mcp-server",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "archived": false,
       "isFork": false,
@@ -9017,6 +9539,29 @@
       "truncated": true,
       "url": "https://github.com/dealfluence/adeu#readme"
     }
+  },
+  {
+    "id": "mcp:ai-adkix-adkix",
+    "name": "adkix",
+    "qualifiedName": "ai.adkix/adkix",
+    "slug": "ai-adkix-adkix",
+    "description": "Turn a website into a short 9:16 video ad: script, cast, voice, shots, music. Asks before spending.",
+    "category": "Design & Media",
+    "repository": null,
+    "homepage": "https://adkix.ai/developers",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://adkix.ai/api/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-21T10:30:19.62174Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-adoraads-beauty",
@@ -14018,14 +14563,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-19T20:18:31Z",
-      "pushedAt": "2026-10-19T20:18:43Z",
+      "pushedAt": "2026-10-20T14:10:06Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# AgentMash MCP server\n\nAll your bookmarks in one library. Share them with your AI agents.\n\nThis repo documents the hosted AgentMash MCP server: how to connect your AI agent to your AgentMash library.\n\n## What AgentMash does\n\n- The AgentMash Chrome extension imports your saves from X, LinkedIn, Instagram and more when you click Sync. Nothing runs in the background.\n- Everything lands in one library.\n- Your AI agents read that library over MCP, with read-only tools.\n\n## Server\n\n- URL: `https://agentmash.ai/mcp`\n- Transport: Streamable HTTP\n\n## Authentication\n\nAgentMash uses an API key, not OAuth.\n\n1. In AgentMash, open the **Agents & API** page and click **Create API key**.\n2. Copy the key right away. It starts with `am_live_` and is shown only once.\n3. Send it as a header:\n\n```\nAuthorization: Bearer am_live_YOUR_KEY\n```\n\nFor clients that cannot set headers, append `?token=am_live_YOUR_KEY` to the URL instead.\n\n## Setup\n\nReplace `am_live_YOUR_KEY` with your own key in each snippet.\n\n### Claude Code\n\n```\nclaude mcp add --transport http agentmash https://agentmash.ai/mcp --header \"Authorization: Bearer am_live_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nClaude Desktop connects through the `mcp-remote` bridge, so you need Node (with `npx`) installed. Add this to `claude_desktop_config.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://agentmash.ai/mcp\",\n        \"--header\",\n        \"Authorization: Bearer am_live_YOUR_KEY\"\n      ]\n    }\n  }\n}\n```\n\n### Cursor\n\nAdd this to `~/.cursor/mcp.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Codex\n\nAdd this to `~/.codex/config.toml`:\n\n```\n[mcp_servers.agentmash]\nurl = \"https://agentmash.ai/mcp\"\nbearer_token = \"am_live_YOUR_KEY\"\n```\n\n## Tools\n\nAll six tools are read-only.\n\n| Tool | What it does |\n|---|---|\n| `search_saves` | Searches your saves. Leave the query out to list your newest saves first. |\n| `get_save` | Gets one save in full: text, stats, links, media and collections. |\n| `recent_saves` | Lists saves from the last few days. |\n| `list_sources` | Lists the platforms in your library, with saves per platform and last sync. |\n| `list_collections` | Lists your collections with their names, platform and number of saves. |\n| `get_collection_saves` | Gets the saves inside one collection. |\n\n## Revoke a key\n\nOpen the **Agents & API** page in AgentMash and click **Revoke** on the key. Agents using that key stop working within about a minute.\n\n## Links\n\n- AgentMash: https://agentmash.ai\n- MCP setup guide: https://agentmash.ai/mcp-setup\n\n## About this repo\n\nThe AgentMash app source code is not in this repo. This repo only documents the hosted MCP server.\n\nFor AI coding agents, see [llms-install.md](llms-install.md).\n\n## Support\n\nEmail hello@agentmash.ai.",
+      "markdown": "# AgentMash MCP server\n\nAll your bookmarks in one library. Share them with your AI agents.\n\nThis repo documents the hosted AgentMash MCP server: how to connect your AI agent to your AgentMash library.\n\n## What AgentMash does\n\n- The AgentMash Chrome extension imports your saves from X, LinkedIn, Instagram and more when you click Sync. Nothing runs in the background.\n- Everything lands in one library.\n- Your AI agents read that library over MCP, with read-only tools.\n\n## Server\n\n- URL: `https://agentmash.ai/mcp`\n- Transport: Streamable HTTP\n\n## Authentication\n\nAgentMash uses an API key, not OAuth.\n\n1. In AgentMash, open the **Agents & API** page and click **Create API key**.\n2. Copy the key right away. It starts with `am_live_` and is shown only once.\n3. Send it as a header:\n\n```\nAuthorization: Bearer am_live_YOUR_KEY\n```\n\nFor clients that cannot set headers, append `?token=am_live_YOUR_KEY` to the URL instead.\n\n## Setup\n\nReplace `am_live_YOUR_KEY` with your own key in each snippet.\n\n### Claude Code\n\n```\nclaude mcp add --transport http agentmash https://agentmash.ai/mcp --header \"Authorization: Bearer am_live_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nClaude Desktop connects through the `mcp-remote` bridge, so you need Node (with `npx`) installed. Add this to `claude_desktop_config.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://agentmash.ai/mcp\",\n        \"--header\",\n        \"Authorization: Bearer am_live_YOUR_KEY\"\n      ]\n    }\n  }\n}\n```\n\n### Cursor\n\nAdd this to `~/.cursor/mcp.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Cline\n\nIn Cline, open **MCP Servers**, then **Configure**, then **Configure MCP Servers**, and add this to `cline_mcp_settings.json`. Set `\"type\": \"streamableHttp\"`: without it Cline falls back to the legacy SSE transport and will not connect.\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"type\": \"streamableHttp\",\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      },\n      \"disabled\": false,\n      \"autoApprove\": []\n    }\n  }\n}\n```\n\nOr with the Cline CLI:\n\n```\ncline mcp add agentmash https://agentmash.ai/mcp --transport http --header \"Authorization: Bearer am_live_YOUR_KEY\" --yes\n```\n\n### Codex\n\nAdd this to `~/.codex/config.toml`:\n\n```\n[mcp_servers.agentmash]\nurl = \"https://agentmash.ai/mcp\"\nbearer_token_env_var = \"AGENTMASH_API_KEY\"\n```\n\nThen set the key in your shell before starting Codex: `export AGENTMASH_API_KEY=am_live_YOUR_KEY`. Codex reads the bearer token from that environment variable.\n\n## Tools\n\nAll six tools are read-only.\n\n| Tool | What it does |\n|---|---|\n| `search_saves` | Searches your saves. Leave the query out to list your newest saves first. |\n| `get_save` | Gets one save in full: text, stats, links, media and collections. |\n| `recent_saves` | Lists saves from the last few days. |\n| `list_sources` | Lists the platforms in your library, with saves per platform and last sync. |\n| `list_collections` | Lists your collections with their names, platform and number of saves. |\n| `get_collection_saves` | Gets the saves inside one collection. |\n\n## Revoke a key\n\nOpen the **Agents & API** page in AgentMash and click **Revoke** on the key. Agents using that key stop working within about a minute.\n\n## Links\n\n- AgentMash: https://agentmash.ai\n- MCP setup guide: https://agentmash.ai/mcp-setup\n\n## About this repo\n\nThe AgentMash app source code is not in this repo. This repo only documents the hosted MCP server.\n\nFor AI coding agents, see [llms-install.md](llms-install.md).\n\n## Support\n\nEmail hello@agentmash.ai.",
       "truncated": false,
       "url": "https://github.com/RamyaChinnadurai/agentmash-mcp#readme"
     }
@@ -14714,7 +15259,7 @@
       },
       {
         "name": "my_listings",
-        "description": "What the AgentsIndex owner dashboard shows about the listings an account owns: each one's status (in review with the expected date, accepted and going live on a day, live, or not accepted with the reason), the listing as it shows, 30 days of real numbers with the 30 before, where AI answers named the product or cited its page, and what it can buy here at this site's prices. Only for the account it",
+        "description": "What the AgentsIndex owner dashboard shows about the listings an account owns: each one's status (`status.kind`: review with the expected date, accepted with `liveOn` and `paid` ('express' | 'featured' | null: the paid way that releases it, Featured including Express review), live, refused with the reason, or archived), the listing as it shows, 30 days of real numbers with the 30 before, where AI ",
         "inputs": [
           {
             "name": "slug",
@@ -17654,7 +18199,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-03T00:10:55Z",
-      "pushedAt": "2026-10-17T12:34:05Z",
+      "pushedAt": "2026-10-20T16:16:45Z",
       "openIssues": 3,
       "license": "MIT",
       "language": "Go"
@@ -18535,7 +19080,14 @@
       {
         "name": "canvas",
         "description": "Open the live shared pixel canvas. Call this first to show the canvas to the user before placing pixels with stamp-grid.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "user_intent",
+            "type": "string",
+            "description": "A concise summary of the user's goal, based only on what they asked. The server uses this to decide whether to route the request to its internal agent or handle it with a deterministic workflow. Inclu",
+            "required": false
+          }
+        ]
       },
       {
         "name": "stamp-grid",
@@ -18576,13 +19128,26 @@
             "type": "string",
             "description": "Your model identifier. Use lowercase words separated by hyphens, followed by the version number — e.g. 'gpt-4o', 'claude-opus-4-7', 'gemini-2-5-pro'. Used for attribution.",
             "required": true
+          },
+          {
+            "name": "user_intent",
+            "type": "string",
+            "description": "A concise summary of the user's goal, based only on what they asked. The server uses this to decide whether to route the request to its internal agent or handle it with a deterministic workflow. Inclu",
+            "required": false
           }
         ]
       },
       {
         "name": "get-leaderboard",
         "description": "Fetch the pixel leaderboard for the current canvas — a ranked list of AI models by total pixels placed.",
-        "inputs": null
+        "inputs": [
+          {
+            "name": "user_intent",
+            "type": "string",
+            "description": "A concise summary of the user's goal, based only on what they asked. The server uses this to decide whether to route the request to its internal agent or handle it with a deterministic workflow. Inclu",
+            "required": false
+          }
+        ]
       }
     ]
   },
@@ -19536,12 +20101,12 @@
       }
     ],
     "remotes": [],
-    "stars": 521,
+    "stars": 525,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 521,
+      "stars": 525,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -19568,12 +20133,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 90,
+    "stars": 92,
     "source": "MCP Registry",
     "updatedAt": "2026-10-11T18:29:12.499147Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 90,
+      "stars": 92,
       "forks": 10,
       "archived": false,
       "isFork": false,
@@ -20112,7 +20677,7 @@
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 600,
-        "lastPublished": "2026-10-19T19:01:56.023Z",
+        "lastPublished": "2026-10-21T01:10:56.830Z",
         "firstPublished": "2026-10-12T16:12:26.487Z",
         "deprecated": false,
         "declaredRepo": "kneelinghorse/reasonbook",
@@ -20130,13 +20695,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-08T21:14:10Z",
-      "pushedAt": "2026-10-19T19:05:07Z",
+      "pushedAt": "2026-10-21T01:16:59Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](https://github.com/kneelinghorse/reasonbook/blob/main/docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.2.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins — 4.1.0\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively incl\n\n…",
+      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](https://github.com/kneelinghorse/reasonbook/blob/main/docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.3.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively include tele\n\n…",
       "truncated": true,
       "url": "https://github.com/kneelinghorse/reasonbook#readme"
     }
@@ -21479,6 +22044,103 @@
     }
   },
   {
+    "id": "mcp:ai-artemisgtm-gtm-engineer",
+    "name": "gtm-engineer",
+    "qualifiedName": "ai.artemisgtm/gtm-engineer",
+    "slug": "ai-artemisgtm-gtm-engineer",
+    "description": "GTM engineering consulting firm for seed to Series C startups. We build and run GTM systems.",
+    "category": "Other",
+    "repository": null,
+    "homepage": "https://artemisgtm.ai/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://artemisgtm.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T13:37:55.768551Z",
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "tools": [
+      {
+        "name": "list_agents",
+        "description": "List the free AI GTM Engineer and its build modules (installable Claude/Codex skills, each closing one B2B go-to-market leak), plus the bundles you can recommend, claim for free, or buy. Returns slug, name, the problem it solves, price, and detail URL.",
+        "inputs": [
+          {
+            "name": "include_bundles",
+            "type": "boolean",
+            "description": "Also list multi-agent bundles. Default true.",
+            "required": false
+          },
+          {
+            "name": "only_free",
+            "type": "boolean",
+            "description": "Only list free agents. Default false.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "recommend_agent",
+        "description": "Given a B2B go-to-market problem in plain language (e.g. \"leads sit for two days before anyone calls them\", \"most of our website traffic is anonymous\", \"our ICP is too broad\"), recommend the single Artemis GTM agent that fixes it, with how to claim or buy it. If nothing matches, it returns the free AI GTM Engineer, whose first session prices each leak in dollars and names the module that closes it",
+        "inputs": [
+          {
+            "name": "problem",
+            "type": "string",
+            "description": "The GTM problem, described in natural language.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "claim_free_agent",
+        "description": "Claim a FREE Artemis GTM agent for the claude.ai chat-edition path (a user who installs the free engineer from their buyer library rather than the CLI). The free AI GTM Engineer itself needs no claim: the single install command installs it directly. Requires the agent slug and the user's email. Returns a license key, the install command, and a short-lived download URL. Fully headless, no browser n",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Agent slug, e.g. \"gtm-engineer\". Must be a free agent.",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "The user's email. The license is issued to this address.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "start_purchase",
+        "description": "Begin purchase of a PAID Artemis GTM agent or bundle. Returns a hosted Stripe checkout URL to hand to the user — card entry happens on Stripe, never in agent scope. After the user pays, the license lands in their library and can be installed with get_install_command.",
+        "inputs": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Agent or bundle slug, e.g. \"speed-to-lead\" or \"launch-trio\".",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_install_command",
+        "description": "Redeem an Artemis GTM license key into an install. Returns the agent slug, version, a signed download URL, and the one-line npx install command for Claude Code. Works for both free and paid licenses.",
+        "inputs": [
+          {
+            "name": "license_key",
+            "type": "string",
+            "description": "The license key (UUID) issued at claim or purchase.",
+            "required": true
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "mcp:ai-artidrop-artidrop",
     "name": "artidrop",
     "qualifiedName": "ai.artidrop/artidrop",
@@ -21746,6 +22408,162 @@
     "updatedAt": "2026-10-04T15:01:54.367203Z",
     "repoMeta": null,
     "toolsStatus": "auth"
+  },
+  {
+    "id": "mcp:ai-askgina-gina",
+    "name": "Ask Gina",
+    "qualifiedName": "ai.askgina/gina",
+    "slug": "ai-askgina-gina",
+    "description": "Read-only research on tokens, Hyperliquid perps, Polymarket markets and your Ask Gina account.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/askgina/plugins",
+    "homepage": "https://docs.askgina.ai/mcp-access/gina-read",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://askgina.ai/ai/gina/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 5,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T21:00:52.497343Z",
+    "repoMeta": {
+      "slug": "askgina/plugins",
+      "stars": 5,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-25T15:29:02Z",
+      "pushedAt": "2026-10-21T09:05:56Z",
+      "openIssues": 19,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# askgina/plugins\n\n**What this is:** the Apache-2.0 workspace for the Ask Gina programmatic\nclient (a TypeScript SDK and a Bun CLI), the listed plugin (a portable core\nplus host adapters), the evals that check whether models use that plugin\ncorrectly, and the public evals app. It does not log you in: SDK and CLI callers\nbring their own token (see below).\n\nProduction Gina MCP is at `https://askgina.ai/ai/gina/mcp`. SDK and CLI callers\nsupply an externally acquired Gina bearer token with `tools:read`; neither client\nimplements login or OAuth authentication. See\n[authentication](https://docs.askgina.ai/agents/authentication) and\n[Agent Setup](https://askgina.ai/agent-setup) to obtain a read-only token.\n\nNew here? Start with [Start here](#start-here), which routes you by goal. The\n[Reference](#reference) below it is for people changing the build, the evals\napp, or the lint setup.\n\n## Start here\n\n### Pick your goal\n\n| I want to...                                                       | Go to                                                                                                                                 |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |\n| Call Gina from TypeScript code                                     | [`packages/sdk/README.md`](packages/sdk/README.md)                                                                                    |\n| Call Gina from a terminal                                          | [`packages/cli/README.md`](packages/cli/README.md)                                                                                    |\n| Use the shared catalog and protocol types                          | [`packages/contracts/README.md`](packages/contracts/README.md)                                                                        |\n| Install the plugin in a host (Cursor, Grok Bot, Devin, and others) | [`plugins/ask-gina/README.md`](plugins/ask-gina/README.md#install)                                                                    |\n| Connect ChatGPT, Claude, Codex, or another client                  | Public [Connect guides](https://docs.askgina.ai/connect/index)                                                                        |\n| Run or change the evals                                            | [`packages/evals/README.md`](packages/evals/README.md#start-here). Start with replay: it makes no network calls and needs no secrets. |\n| Work on the public evals app                                       | [Public evals app](#public-evals-app) in Reference                                                                                    |\n| Contribute a change                                                | [`ai_docs/contributing.md`](ai_docs/contributing.md), then the loop below                                                             |\n| Edit the public docs site                                          | `docs/` is the Mintlify source; authoring rules are in [`ai_docs/docs/authoring.md`](ai_docs/docs/authoring.md)                       |\n\n### Contributor loop\n\nYou need Bun 1.4.x (the root `packageManager` is `bun@1.4.0`). From the\nrepository root:\n\n```sh\nbun install --frozen-lockfile\nbun run fmt:check\nbun run lint\nbun run check\nbun run test\nbun run check:target-conformance\nbun run artifacts\nbun run verify:artifacts\nbun run check:public-boundary\n```\n\nThis is the list [`ai_docs/contributing.md`](ai_docs/contributing.md) asks you\nto run before proposing a change. Pull-request CI runs these and a few more\ngates (see [What CI runs](#what-ci-runs) in Reference). `main` has no protected\nrequired checks, so CI does not gate merge or publish packages.\n\nThings that surprise people:\n\n- **Edit skills in one place.** Canonical skill source lives only under\n  `plugins/ask-gina/skills/`. Host skill trees are generated at pack time and\n  must not be committed.\n- **`bun run check` is more than lint.** It also runs `evals:check-public`,\n  `evals:check-grading`, the TypeScript compiler, and the TypeScript import\n  check.\n- **Docs changes have their own checks.** If you touch `docs/` or `tools/docs/`,\n  also run `bun run docs:test` and `bun run docs:check`. Releasing a user-facing\n  feature adds the steps in\n  [`ai_docs/release-docs-checklist.md`](ai_docs/release-docs-checklist.md).\n- **Fix Effect diagnostics at the source.** Don't suppress them or add\n  baselines. The one exception is `nodeBuiltinImport` on the two synchronous\n  SHA-256 helpers (`packages/contracts/src/sha256.ts` and\n  `packages/evals/src/canonical-json.ts`): Effect `Crypto` is asynchronous, and\n  schema filters and streamed file hashes need a synchronous digest. Import\n  `sha256Hex` from those helpers instead of `node:crypto`.\n\n### Map of the repository\n\n| Path                 | What lives there                                                                                                     |\n| -------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `packages/contracts` | `@askgina/contracts`: public catalog, protocol literals, receipt schemas.                                            |\n| `packages/sdk`       | `@askgina/sdk`: TypeScript client.                                                                                   |\n| `packages/cli`       | `@askgina/cli`: the compiled `ask-gina` Bun binary.                                                                  |\n| `packages/evals`     | `@askgina/evals`: replay, live runners, grading, sanitization, public export.                                        |\n| `plugins/ask-gina`   | `@askgina/plugin-core`: canonical plugin inputs (manifest, skills, eval cases, targets) and the Devin install notes. |\n| `apps/evals`         | The public evals React/Vite app and its Storybook. Not an npm-publ\n\n…",
+      "truncated": true,
+      "url": "https://github.com/askgina/plugins#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-askgina-perps",
+    "name": "Ask Gina Perps",
+    "qualifiedName": "ai.askgina/perps",
+    "slug": "ai-askgina-perps",
+    "description": "Trade Hyperliquid perpetual futures from your Ask Gina wallet. Moves real funds.",
+    "category": "Other",
+    "repository": "https://github.com/askgina/plugins",
+    "homepage": "https://docs.askgina.ai/perps-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://askgina.ai/ai/perps/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 5,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T22:25:37.003658Z",
+    "repoMeta": {
+      "slug": "askgina/plugins",
+      "stars": 5,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-25T15:29:02Z",
+      "pushedAt": "2026-10-21T09:05:56Z",
+      "openIssues": 19,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# askgina/plugins\n\n**What this is:** the Apache-2.0 workspace for the Ask Gina programmatic\nclient (a TypeScript SDK and a Bun CLI), the listed plugin (a portable core\nplus host adapters), the evals that check whether models use that plugin\ncorrectly, and the public evals app. It does not log you in: SDK and CLI callers\nbring their own token (see below).\n\nProduction Gina MCP is at `https://askgina.ai/ai/gina/mcp`. SDK and CLI callers\nsupply an externally acquired Gina bearer token with `tools:read`; neither client\nimplements login or OAuth authentication. See\n[authentication](https://docs.askgina.ai/agents/authentication) and\n[Agent Setup](https://askgina.ai/agent-setup) to obtain a read-only token.\n\nNew here? Start with [Start here](#start-here), which routes you by goal. The\n[Reference](#reference) below it is for people changing the build, the evals\napp, or the lint setup.\n\n## Start here\n\n### Pick your goal\n\n| I want to...                                                       | Go to                                                                                                                                 |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |\n| Call Gina from TypeScript code                                     | [`packages/sdk/README.md`](packages/sdk/README.md)                                                                                    |\n| Call Gina from a terminal                                          | [`packages/cli/README.md`](packages/cli/README.md)                                                                                    |\n| Use the shared catalog and protocol types                          | [`packages/contracts/README.md`](packages/contracts/README.md)                                                                        |\n| Install the plugin in a host (Cursor, Grok Bot, Devin, and others) | [`plugins/ask-gina/README.md`](plugins/ask-gina/README.md#install)                                                                    |\n| Connect ChatGPT, Claude, Codex, or another client                  | Public [Connect guides](https://docs.askgina.ai/connect/index)                                                                        |\n| Run or change the evals                                            | [`packages/evals/README.md`](packages/evals/README.md#start-here). Start with replay: it makes no network calls and needs no secrets. |\n| Work on the public evals app                                       | [Public evals app](#public-evals-app) in Reference                                                                                    |\n| Contribute a change                                                | [`ai_docs/contributing.md`](ai_docs/contributing.md), then the loop below                                                             |\n| Edit the public docs site                                          | `docs/` is the Mintlify source; authoring rules are in [`ai_docs/docs/authoring.md`](ai_docs/docs/authoring.md)                       |\n\n### Contributor loop\n\nYou need Bun 1.4.x (the root `packageManager` is `bun@1.4.0`). From the\nrepository root:\n\n```sh\nbun install --frozen-lockfile\nbun run fmt:check\nbun run lint\nbun run check\nbun run test\nbun run check:target-conformance\nbun run artifacts\nbun run verify:artifacts\nbun run check:public-boundary\n```\n\nThis is the list [`ai_docs/contributing.md`](ai_docs/contributing.md) asks you\nto run before proposing a change. Pull-request CI runs these and a few more\ngates (see [What CI runs](#what-ci-runs) in Reference). `main` has no protected\nrequired checks, so CI does not gate merge or publish packages.\n\nThings that surprise people:\n\n- **Edit skills in one place.** Canonical skill source lives only under\n  `plugins/ask-gina/skills/`. Host skill trees are generated at pack time and\n  must not be committed.\n- **`bun run check` is more than lint.** It also runs `evals:check-public`,\n  `evals:check-grading`, the TypeScript compiler, and the TypeScript import\n  check.\n- **Docs changes have their own checks.** If you touch `docs/` or `tools/docs/`,\n  also run `bun run docs:test` and `bun run docs:check`. Releasing a user-facing\n  feature adds the steps in\n  [`ai_docs/release-docs-checklist.md`](ai_docs/release-docs-checklist.md).\n- **Fix Effect diagnostics at the source.** Don't suppress them or add\n  baselines. The one exception is `nodeBuiltinImport` on the two synchronous\n  SHA-256 helpers (`packages/contracts/src/sha256.ts` and\n  `packages/evals/src/canonical-json.ts`): Effect `Crypto` is asynchronous, and\n  schema filters and streamed file hashes need a synchronous digest. Import\n  `sha256Hex` from those helpers instead of `node:crypto`.\n\n### Map of the repository\n\n| Path                 | What lives there                                                                                                     |\n| -------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `packages/contracts` | `@askgina/contracts`: public catalog, protocol literals, receipt schemas.                                            |\n| `packages/sdk`       | `@askgina/sdk`: TypeScript client.                                                                                   |\n| `packages/cli`       | `@askgina/cli`: the compiled `ask-gina` Bun binary.                                                                  |\n| `packages/evals`     | `@askgina/evals`: replay, live runners, grading, sanitization, public export.                                        |\n| `plugins/ask-gina`   | `@askgina/plugin-core`: canonical plugin inputs (manifest, skills, eval cases, targets) and the Devin install notes. |\n| `apps/evals`         | The public evals React/Vite app and its Storybook. Not an npm-publ\n\n…",
+      "truncated": true,
+      "url": "https://github.com/askgina/plugins#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-askgina-predictions",
+    "name": "Ask Gina Predictions",
+    "qualifiedName": "ai.askgina/predictions",
+    "slug": "ai-askgina-predictions",
+    "description": "Trade Polymarket prediction markets from your Ask Gina wallet. Moves real funds.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/askgina/plugins",
+    "homepage": "https://docs.askgina.ai/predictions-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://askgina.ai/ai/predictions/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 5,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T22:25:37.332117Z",
+    "repoMeta": {
+      "slug": "askgina/plugins",
+      "stars": 5,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-25T15:29:02Z",
+      "pushedAt": "2026-10-21T09:05:56Z",
+      "openIssues": 19,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# askgina/plugins\n\n**What this is:** the Apache-2.0 workspace for the Ask Gina programmatic\nclient (a TypeScript SDK and a Bun CLI), the listed plugin (a portable core\nplus host adapters), the evals that check whether models use that plugin\ncorrectly, and the public evals app. It does not log you in: SDK and CLI callers\nbring their own token (see below).\n\nProduction Gina MCP is at `https://askgina.ai/ai/gina/mcp`. SDK and CLI callers\nsupply an externally acquired Gina bearer token with `tools:read`; neither client\nimplements login or OAuth authentication. See\n[authentication](https://docs.askgina.ai/agents/authentication) and\n[Agent Setup](https://askgina.ai/agent-setup) to obtain a read-only token.\n\nNew here? Start with [Start here](#start-here), which routes you by goal. The\n[Reference](#reference) below it is for people changing the build, the evals\napp, or the lint setup.\n\n## Start here\n\n### Pick your goal\n\n| I want to...                                                       | Go to                                                                                                                                 |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |\n| Call Gina from TypeScript code                                     | [`packages/sdk/README.md`](packages/sdk/README.md)                                                                                    |\n| Call Gina from a terminal                                          | [`packages/cli/README.md`](packages/cli/README.md)                                                                                    |\n| Use the shared catalog and protocol types                          | [`packages/contracts/README.md`](packages/contracts/README.md)                                                                        |\n| Install the plugin in a host (Cursor, Grok Bot, Devin, and others) | [`plugins/ask-gina/README.md`](plugins/ask-gina/README.md#install)                                                                    |\n| Connect ChatGPT, Claude, Codex, or another client                  | Public [Connect guides](https://docs.askgina.ai/connect/index)                                                                        |\n| Run or change the evals                                            | [`packages/evals/README.md`](packages/evals/README.md#start-here). Start with replay: it makes no network calls and needs no secrets. |\n| Work on the public evals app                                       | [Public evals app](#public-evals-app) in Reference                                                                                    |\n| Contribute a change                                                | [`ai_docs/contributing.md`](ai_docs/contributing.md), then the loop below                                                             |\n| Edit the public docs site                                          | `docs/` is the Mintlify source; authoring rules are in [`ai_docs/docs/authoring.md`](ai_docs/docs/authoring.md)                       |\n\n### Contributor loop\n\nYou need Bun 1.4.x (the root `packageManager` is `bun@1.4.0`). From the\nrepository root:\n\n```sh\nbun install --frozen-lockfile\nbun run fmt:check\nbun run lint\nbun run check\nbun run test\nbun run check:target-conformance\nbun run artifacts\nbun run verify:artifacts\nbun run check:public-boundary\n```\n\nThis is the list [`ai_docs/contributing.md`](ai_docs/contributing.md) asks you\nto run before proposing a change. Pull-request CI runs these and a few more\ngates (see [What CI runs](#what-ci-runs) in Reference). `main` has no protected\nrequired checks, so CI does not gate merge or publish packages.\n\nThings that surprise people:\n\n- **Edit skills in one place.** Canonical skill source lives only under\n  `plugins/ask-gina/skills/`. Host skill trees are generated at pack time and\n  must not be committed.\n- **`bun run check` is more than lint.** It also runs `evals:check-public`,\n  `evals:check-grading`, the TypeScript compiler, and the TypeScript import\n  check.\n- **Docs changes have their own checks.** If you touch `docs/` or `tools/docs/`,\n  also run `bun run docs:test` and `bun run docs:check`. Releasing a user-facing\n  feature adds the steps in\n  [`ai_docs/release-docs-checklist.md`](ai_docs/release-docs-checklist.md).\n- **Fix Effect diagnostics at the source.** Don't suppress them or add\n  baselines. The one exception is `nodeBuiltinImport` on the two synchronous\n  SHA-256 helpers (`packages/contracts/src/sha256.ts` and\n  `packages/evals/src/canonical-json.ts`): Effect `Crypto` is asynchronous, and\n  schema filters and streamed file hashes need a synchronous digest. Import\n  `sha256Hex` from those helpers instead of `node:crypto`.\n\n### Map of the repository\n\n| Path                 | What lives there                                                                                                     |\n| -------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `packages/contracts` | `@askgina/contracts`: public catalog, protocol literals, receipt schemas.                                            |\n| `packages/sdk`       | `@askgina/sdk`: TypeScript client.                                                                                   |\n| `packages/cli`       | `@askgina/cli`: the compiled `ask-gina` Bun binary.                                                                  |\n| `packages/evals`     | `@askgina/evals`: replay, live runners, grading, sanitization, public export.                                        |\n| `plugins/ask-gina`   | `@askgina/plugin-core`: canonical plugin inputs (manifest, skills, eval cases, targets) and the Devin install notes. |\n| `apps/evals`         | The public evals React/Vite app and its Storybook. Not an npm-publ\n\n…",
+      "truncated": true,
+      "url": "https://github.com/askgina/plugins#readme"
+    }
+  },
+  {
+    "id": "mcp:ai-askgina-spot",
+    "name": "Ask Gina Spot",
+    "qualifiedName": "ai.askgina/spot",
+    "slug": "ai-askgina-spot",
+    "description": "Swap, transfer and manage liquidity positions from your Ask Gina wallet. Moves real funds.",
+    "category": "Other",
+    "repository": "https://github.com/askgina/plugins",
+    "homepage": "https://docs.askgina.ai/spot-mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://askgina.ai/ai/spot/mcp",
+        "headers": []
+      }
+    ],
+    "stars": 5,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T21:00:53.017099Z",
+    "repoMeta": {
+      "slug": "askgina/plugins",
+      "stars": 5,
+      "forks": 1,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-08-25T15:29:02Z",
+      "pushedAt": "2026-10-21T09:05:56Z",
+      "openIssues": 19,
+      "license": "Apache-2.0",
+      "language": "TypeScript"
+    },
+    "toolsStatus": "auth",
+    "readme": {
+      "markdown": "# askgina/plugins\n\n**What this is:** the Apache-2.0 workspace for the Ask Gina programmatic\nclient (a TypeScript SDK and a Bun CLI), the listed plugin (a portable core\nplus host adapters), the evals that check whether models use that plugin\ncorrectly, and the public evals app. It does not log you in: SDK and CLI callers\nbring their own token (see below).\n\nProduction Gina MCP is at `https://askgina.ai/ai/gina/mcp`. SDK and CLI callers\nsupply an externally acquired Gina bearer token with `tools:read`; neither client\nimplements login or OAuth authentication. See\n[authentication](https://docs.askgina.ai/agents/authentication) and\n[Agent Setup](https://askgina.ai/agent-setup) to obtain a read-only token.\n\nNew here? Start with [Start here](#start-here), which routes you by goal. The\n[Reference](#reference) below it is for people changing the build, the evals\napp, or the lint setup.\n\n## Start here\n\n### Pick your goal\n\n| I want to...                                                       | Go to                                                                                                                                 |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |\n| Call Gina from TypeScript code                                     | [`packages/sdk/README.md`](packages/sdk/README.md)                                                                                    |\n| Call Gina from a terminal                                          | [`packages/cli/README.md`](packages/cli/README.md)                                                                                    |\n| Use the shared catalog and protocol types                          | [`packages/contracts/README.md`](packages/contracts/README.md)                                                                        |\n| Install the plugin in a host (Cursor, Grok Bot, Devin, and others) | [`plugins/ask-gina/README.md`](plugins/ask-gina/README.md#install)                                                                    |\n| Connect ChatGPT, Claude, Codex, or another client                  | Public [Connect guides](https://docs.askgina.ai/connect/index)                                                                        |\n| Run or change the evals                                            | [`packages/evals/README.md`](packages/evals/README.md#start-here). Start with replay: it makes no network calls and needs no secrets. |\n| Work on the public evals app                                       | [Public evals app](#public-evals-app) in Reference                                                                                    |\n| Contribute a change                                                | [`ai_docs/contributing.md`](ai_docs/contributing.md), then the loop below                                                             |\n| Edit the public docs site                                          | `docs/` is the Mintlify source; authoring rules are in [`ai_docs/docs/authoring.md`](ai_docs/docs/authoring.md)                       |\n\n### Contributor loop\n\nYou need Bun 1.4.x (the root `packageManager` is `bun@1.4.0`). From the\nrepository root:\n\n```sh\nbun install --frozen-lockfile\nbun run fmt:check\nbun run lint\nbun run check\nbun run test\nbun run check:target-conformance\nbun run artifacts\nbun run verify:artifacts\nbun run check:public-boundary\n```\n\nThis is the list [`ai_docs/contributing.md`](ai_docs/contributing.md) asks you\nto run before proposing a change. Pull-request CI runs these and a few more\ngates (see [What CI runs](#what-ci-runs) in Reference). `main` has no protected\nrequired checks, so CI does not gate merge or publish packages.\n\nThings that surprise people:\n\n- **Edit skills in one place.** Canonical skill source lives only under\n  `plugins/ask-gina/skills/`. Host skill trees are generated at pack time and\n  must not be committed.\n- **`bun run check` is more than lint.** It also runs `evals:check-public`,\n  `evals:check-grading`, the TypeScript compiler, and the TypeScript import\n  check.\n- **Docs changes have their own checks.** If you touch `docs/` or `tools/docs/`,\n  also run `bun run docs:test` and `bun run docs:check`. Releasing a user-facing\n  feature adds the steps in\n  [`ai_docs/release-docs-checklist.md`](ai_docs/release-docs-checklist.md).\n- **Fix Effect diagnostics at the source.** Don't suppress them or add\n  baselines. The one exception is `nodeBuiltinImport` on the two synchronous\n  SHA-256 helpers (`packages/contracts/src/sha256.ts` and\n  `packages/evals/src/canonical-json.ts`): Effect `Crypto` is asynchronous, and\n  schema filters and streamed file hashes need a synchronous digest. Import\n  `sha256Hex` from those helpers instead of `node:crypto`.\n\n### Map of the repository\n\n| Path                 | What lives there                                                                                                     |\n| -------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `packages/contracts` | `@askgina/contracts`: public catalog, protocol literals, receipt schemas.                                            |\n| `packages/sdk`       | `@askgina/sdk`: TypeScript client.                                                                                   |\n| `packages/cli`       | `@askgina/cli`: the compiled `ask-gina` Bun binary.                                                                  |\n| `packages/evals`     | `@askgina/evals`: replay, live runners, grading, sanitization, public export.                                        |\n| `plugins/ask-gina`   | `@askgina/plugin-core`: canonical plugin inputs (manifest, skills, eval cases, targets) and the Devin install notes. |\n| `apps/evals`         | The public evals React/Vite app and its Storybook. Not an npm-publ\n\n…",
+      "truncated": true,
+      "url": "https://github.com/askgina/plugins#readme"
+    }
   },
   {
     "id": "mcp:ai-askline-askline",
@@ -25063,6 +25881,59 @@
     ]
   },
   {
+    "id": "mcp:ai-augmentev-fabric-verify",
+    "name": "Fabric Verify",
+    "qualifiedName": "ai.augmentev/fabric-verify",
+    "slug": "ai-augmentev-fabric-verify",
+    "description": "Signed, publicly logged records of what your AI agent did, with proofs anyone can check offline.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://augmentev.com/fabric-verify",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "@augmentev/fabric-verify-mcp",
+        "version": "0.1.0",
+        "transport": "stdio",
+        "runtimeHint": null,
+        "env": [
+          {
+            "name": "FABRIC_CREDIT_KEY",
+            "description": "Your Fabric Verify credit key (fvk_...). Buy credit at https://augmentev.com/pricing#buy; the key is shown once after payment.",
+            "required": true,
+            "secret": true,
+            "format": null
+          },
+          {
+            "name": "FABRIC_AGENT",
+            "description": "A stable name for this agent, e.g. billing-agent (printable ASCII, no spaces). Default: mcp-agent.",
+            "required": false,
+            "secret": false,
+            "format": null
+          },
+          {
+            "name": "FABRIC_MAX_SPEND_USD",
+            "description": "Most this server may spend per session, in US dollars ($0.005 per record). Default: 1.",
+            "required": false,
+            "secret": false,
+            "format": null
+          }
+        ],
+        "weeklyDownloads": null,
+        "lastPublished": "2026-10-21T04:46:11.754Z",
+        "firstPublished": "2026-10-21T04:45:34.678Z",
+        "deprecated": false,
+        "declaredRepo": null,
+        "repoMatchesRegistry": null
+      }
+    ],
+    "remotes": [],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-21T04:52:05.791311Z",
+    "repoMeta": null
+  },
+  {
     "id": "mcp:ai-augmentev-paseo",
     "name": "paseo",
     "qualifiedName": "ai.augmentev/paseo",
@@ -26308,7 +27179,7 @@
           }
         ],
         "weeklyDownloads": 247,
-        "lastPublished": "2026-10-18T23:33:54.716Z",
+        "lastPublished": "2026-10-20T14:06:30.539Z",
         "firstPublished": "2026-05-01T07:36:09.400Z",
         "deprecated": false,
         "declaredRepo": "Autonomad1/autonomad1",
@@ -26361,18 +27232,18 @@
       }
     ],
     "remotes": [],
-    "stars": 1326,
+    "stars": 1332,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T08:39:43.531506Z",
     "repoMeta": {
       "slug": "autonomous-ai/openharness",
-      "stars": 1326,
-      "forks": 115,
+      "stars": 1332,
+      "forks": 119,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-04T07:53:15Z",
-      "pushedAt": "2026-10-20T11:03:10Z",
-      "openIssues": 14,
+      "pushedAt": "2026-10-21T11:24:33Z",
+      "openIssues": 17,
       "license": "MIT",
       "language": "TypeScript"
     },
@@ -26753,6 +27624,29 @@
       "truncated": false,
       "url": "https://github.com/AutoRFP/mcp#readme"
     }
+  },
+  {
+    "id": "mcp:ai-autovox-autovox",
+    "name": "Autovox",
+    "qualifiedName": "ai.autovox/autovox",
+    "slug": "ai-autovox-autovox",
+    "description": "Make podcast episodes, series and shows from your mail, notes, files and code. Sign in with OAuth.",
+    "category": "Dev Tools & Git",
+    "repository": null,
+    "homepage": "https://autovox.ai/assistants",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://autovox.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-20T12:48:50.326243Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-autron-autron",
@@ -29095,7 +29989,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
-      "pushedAt": "2026-10-19T18:52:25Z",
+      "pushedAt": "2026-10-20T17:36:32Z",
       "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
@@ -29463,8 +30357,8 @@
     "name": "BetSlip Doctor",
     "qualifiedName": "ai.betslipdoctor/mcp",
     "slug": "ai-betslipdoctor-mcp",
-    "description": "Bet slip grader: grade a parlay A+ to F- before you bet, track slips, history and Tail. 21+, US.",
-    "category": "Other",
+    "description": "Your agent grades every slip A+ to F-, links your books and tracks your record. No wager placement.",
+    "category": "AI & Memory",
     "repository": "https://github.com/opspot-ai/betslipdoctor-mcp",
     "homepage": "https://betslipdoctor.ai/agents",
     "packages": [],
@@ -29477,7 +30371,7 @@
     ],
     "stars": 0,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-10T23:51:29.033345Z",
+    "updatedAt": "2026-10-21T08:35:17.264574Z",
     "repoMeta": {
       "slug": "opspot-ai/betslipdoctor-mcp",
       "stars": 0,
@@ -29620,7 +30514,7 @@
       },
       {
         "name": "grade_slip",
-        "description": "Use version bsd-agent-grade-v1 and a unique commandKey (16-120 characters) for every action. quote requires depth plus exactly one of ticketId (saved UUID) or ticket (exact confirmed manual ticket); funding is optional. start requires quoteId. cancel requires jobId. A quote discloses the allowance; start reserves it and returns a durable job. Use get_saved_reports for progress and the saved result",
+        "description": "Use version bsd-agent-grade-v1 and a unique commandKey (16-120 characters) for every action. quote requires depth plus exactly one of ticketId (saved UUID) or ticket (exact confirmed manual ticket); funding is optional. start requires quoteId. cancel requires jobId. A quote discloses the allowance; start reserves it and returns a durable job. A slip this account already graded answers existingGrad",
         "inputs": [
           {
             "name": "version",
@@ -29667,6 +30561,12 @@
               "weekly",
               "bug_bounty"
             ]
+          },
+          {
+            "name": "force",
+            "type": "boolean",
+            "description": null,
+            "required": false
           },
           {
             "name": "ticketId",
@@ -30002,7 +30902,7 @@
       },
       {
         "name": "tail_read",
-        "description": "Send version bsd-agent-tail-v1 and action doctor_picks (today’s saved Doctor picks and recent settled results), feed (optional feed/profileId/listId/search/limit/cursor) or post (postId). Read the same account-filtered Tail feed or one visible post as the BSD app. Moderation, follows, mutes, private lists and cursor binding use the app service.",
+        "description": "Send version bsd-agent-tail-v1 and action doctor_picks (today’s saved Doctor picks and recent settled results), doctor_parlays (league: the Doctor’s graded parlays for one league, e.g. LGUE_nfl, and its parlays record), feed (optional feed/profileId/listId/search/limit/cursor/gradeFamily), hot (Hot picks of the last 24 h by fire + tails; optional gradeFamily/limit) or post (postId). Read the same ",
         "inputs": [
           {
             "name": "version",
@@ -30018,7 +30918,36 @@
             "enum": [
               "feed",
               "post",
-              "doctor_picks"
+              "doctor_picks",
+              "doctor_parlays",
+              "hot",
+              "my_posts"
+            ]
+          },
+          {
+            "name": "league",
+            "type": "string",
+            "description": "doctor_parlays only: one league id, e.g. LGUE_nfl.",
+            "required": false
+          },
+          {
+            "name": "window",
+            "type": "string",
+            "description": "hot only: the ranking window.",
+            "required": false
+          },
+          {
+            "name": "gradeFamily",
+            "type": "string",
+            "description": "feed and hot: only posts whose letter is in this family.",
+            "required": false,
+            "enum": [
+              "all",
+              "A",
+              "B",
+              "C",
+              "D",
+              "F"
             ]
           },
           {
@@ -30088,7 +31017,7 @@
       },
       {
         "name": "tail_post",
-        "description": "Send version bsd-agent-tail-v1. Preview a draft from either an owned saved Grade report (reportId, text, showStake, placement) or saved Doctor exchange (source doctor_exchange, threadId, messageId, text) through the app service. Publish only after showing the exact preview and getting the customer’s confirmation. For action publish reuse the same draft and previewBinding, pass confirmation PUBLISH",
+        "description": "Send version bsd-agent-tail-v1. Action record_settings (commandKey, show true/false) turns “Show my record” on or off. Action doctor_parlay_slip (commandKey, key from get_doctor_parlays) puts that Doctor parlay on your slip at current prices and returns its legs. Preview a draft from either an owned saved Grade report (reportId, text, showStake, placement) or saved Doctor exchange (source doctor_e",
         "inputs": [
           {
             "name": "version",
@@ -30103,8 +31032,55 @@
             "required": true,
             "enum": [
               "preview",
-              "publish"
+              "publish",
+              "record_settings",
+              "synced_record_consent",
+              "react",
+              "share_report",
+              "doctor_parlay_slip"
             ]
+          },
+          {
+            "name": "key",
+            "type": "string",
+            "description": "doctor_parlay_slip only: the Doctor parlay item key from get_doctor_parlays.",
+            "required": false
+          },
+          {
+            "name": "consent",
+            "type": "boolean",
+            "description": "synced_record_consent only: true lets your connected sportsbook settle your posted picks on your public record (default false).",
+            "required": false
+          },
+          {
+            "name": "postId",
+            "type": "string",
+            "description": "react only: the Tail post.",
+            "required": false
+          },
+          {
+            "name": "reaction",
+            "type": "string",
+            "description": "react only.",
+            "required": false
+          },
+          {
+            "name": "active",
+            "type": "boolean",
+            "description": "react only: true adds fire, false removes it.",
+            "required": false
+          },
+          {
+            "name": "reportId",
+            "type": "string",
+            "description": "share_report only: the saved Grade report to share.",
+            "required": false
+          },
+          {
+            "name": "show",
+            "type": "boolean",
+            "description": "record_settings only: true shows your record to others (default), false hides it from everyone but you.",
+            "required": false
           },
           {
             "name": "commandKey",
@@ -30233,25 +31209,8 @@
         ]
       },
       {
-        "name": "get_app_health",
-        "description": "Board only: client-reported Live section pricing p50/p95, held durations and error/retry/crash counts over the last 24 hours.",
-        "inputs": null
-      },
-      {
-        "name": "get_app_diagnostic",
-        "description": "Board only: read a technical diagnostic packet by bundle id, attached to the named observation. No account or journey text.",
-        "inputs": [
-          {
-            "name": "id",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
         "name": "quote_grade",
-        "description": "Persist a Grade quote for an owned saved ticketId or exactly one confirmed manual ticket, with the requested depth and optional funding. May save that manual ticket. Returns the app allowance quote; does not start work. Show the quote before requesting a start. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool",
+        "description": "Persist a Grade quote for an owned saved ticketId or exactly one confirmed manual ticket, with the requested depth and optional funding. May save that manual ticket. Returns the app allowance quote; does not start work. Show the quote before requesting a start. A slip this account already graded answers existingGrade instead (code existing_grade with its jobId and report, or grade_in_progress whil",
         "inputs": [
           {
             "name": "commandKey",
@@ -30281,6 +31240,12 @@
               "weekly",
               "bug_bounty"
             ]
+          },
+          {
+            "name": "force",
+            "type": "boolean",
+            "description": null,
+            "required": false
           },
           {
             "name": "ticketId",
@@ -30653,6 +31618,23 @@
         ]
       },
       {
+        "name": "get_doctor_parlays",
+        "description": "Read the Doctor’s posted parlays for one league (league, e.g. LGUE_nfl): 2-3 legs on different games, each graded by the real engine at B+ or better when posted, upcoming first with the newest regrade letter (currentGrade), then recent WON/LOST/PUSH results, plus the Doctor’s parlays record. Each item (bsd-doctor-parlays-v2) carries parlayType (lock = 2 legs, moonshot = 3), title, pitch, legCount,",
+        "inputs": [
+          {
+            "name": "league",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_league_order",
+        "description": "Read BetSlip Doctor’s league order for this week: every league ranked by betting popularity times where it is in its season (off season, preseason, regular season, playoffs, finals, event week), with rank, weight, phase, inSeason and featured. Live, Home, Pick’Em and the Doctor’s slate use this same order. Read-only; no account data. Action and version are fixed by this tool; do not supply them.",
+        "inputs": null
+      },
+      {
         "name": "get_doctor_picks",
         "description": "Read today’s saved Doctor picks and recent settled WON/LOST/PUSH results. Uses the app’s account permissions and paid-leg lock; no generation or current-price claim. Action and version are fixed by this tool; do not supply them.",
         "inputs": null
@@ -30661,6 +31643,20 @@
         "name": "get_tail_feed",
         "description": "Doctor ticket posts include result WON/LOST/PUSH when settled, null otherwise. Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them.",
         "inputs": [
+          {
+            "name": "gradeFamily",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "all",
+              "A",
+              "B",
+              "C",
+              "D",
+              "F"
+            ]
+          },
           {
             "name": "feed",
             "type": "string",
@@ -30703,6 +31699,182 @@
           {
             "name": "cursor",
             "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "add_doctor_parlay_to_slip",
+        "description": "Put one of the Doctor’s posted parlays (key from get_doctor_parlays) on this account’s slip in one step, with a unique commandKey. Checks every leg’s current price at the parlay’s book, saves the parlay as a private unplaced ticket and returns its legs (marketSelectionId, oddsAmerican, line, eventId) and ticketId; counts one tail per account per parlay. Same paid-leg lock as get_doctor_parlays; ne",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "key",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "tail_react",
+        "description": "Add (active true) or remove (active false) this account’s fire reaction on a Tail postId, with a unique commandKey. One fire per account per post; fire feeds Hot picks. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "postId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "reaction",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "active",
+            "type": "boolean",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "share_graded_ticket_to_tail",
+        "description": "Share an owned saved Grade report to Tail with nothing to type. First call with reportId returns the exact preview and previewBinding: show it to the customer. After their explicit yes, call again with confirmation PUBLISH_POST, commandKey and that previewBinding (fWarning when the preview requires it). Never places a wager. Keep the caller-generated commandKey (16-120 characters) stable for this ",
+        "inputs": [
+          {
+            "name": "reportId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "showStake",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "confirmation",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "previewBinding",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "fWarning",
+            "type": "any",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "tail_my_posts",
+        "description": "Read this account’s own Tail posts (newest first, cursor paging) with its record setting and post count (recordSettings: showRecord, postCount). Does not post. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "set_synced_record_consent",
+        "description": "Turn on (consent true) or off (default) the use of this account’s connected-sportsbook bets on its public record, with a unique commandKey. On: posted picks settle from the connected sportsbook, and the results and units show on the profile, posts and the Top list. Off: posts settle from final scores or the account’s own marks only. Separate from Show my record. Keep the caller-generated commandKe",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "consent",
+            "type": "boolean",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "set_show_my_record",
+        "description": "Turn “Show my record” on (default) or off with show true/false and a unique commandKey. Off hides the W-L, units and ROI from everyone but the account owner (zero record on posts, out of Top lists); posts stay public. Keep the caller-generated commandKey (16-120 characters) stable for this action and all retries. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "show",
+            "type": "boolean",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "tail_hot",
+        "description": "Read Hot picks: graded Tail posts of the last 24 hours ranked by fire reactions and tails (recency-weighted), the Doctor’s current pick pinned first. Optional gradeFamily A-F filters by letter. Same visibility, moderation and mutes as the app; does not post. Action and version are fixed by this tool; do not supply them.",
+        "inputs": [
+          {
+            "name": "window",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "gradeFamily",
+            "type": "string",
+            "description": null,
+            "required": false,
+            "enum": [
+              "all",
+              "A",
+              "B",
+              "C",
+              "D",
+              "F"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
             "description": null,
             "required": false
           }
@@ -30840,7 +32012,7 @@
       },
       {
         "name": "onboarding_preferences",
-        "description": "Read the current SharpSports league catalog and per-league team membership, or read/save your leagues and teams. Use original source-qualified IDs. Logos are unavailable. Get the current revision before a confirmed set: merge imports device selections with account order first; replace saves Settings selections and allows clearing. Reuse a stable commandKey for retries. This changes preferences onl",
+        "description": "Read the current league catalog and per-league team membership, or read/save your leagues and teams. Use original source-qualified IDs. Logos are unavailable. Get the current revision before a confirmed set: merge imports device selections with account order first; replace saves Settings selections and allows clearing. Reuse a stable commandKey for retries. This changes preferences only.",
         "inputs": [
           {
             "name": "action",
@@ -30995,32 +32167,8 @@
         ]
       },
       {
-        "name": "get_capper_record",
-        "description": "Read the visible capper’s mandatory 30-day W-L-P and canonical net units, plus original record windows and public unit-integrity dates. Net units come from immutable placement-time per-pick units. Missing historical basis remains unknown. Unit-size changes apply forward only. No dollar stake, unit cash value or private audit data is returned.",
-        "inputs": [
-          {
-            "name": "profileId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "get_capper_top",
-        "description": "Read the canonical 30-day public leaderboard ordered by immutable placement-time net units. Only complete saved unit coverage is ranked. Returns the same records as capper profiles; no cash amounts.",
-        "inputs": [
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
         "name": "set_profile_links",
-        "description": "Preview then explicitly confirm your own capper or club links. Supply draft {profileId,target: profile or club,expectedRevision,links:[{platform,handle?,url?}]}. Array order is display order; omit a platform to remove it. Use [] for no links, or null for club links to inherit the capper profile. One per platform: x, instagram, tiktok, youtube, discord, facebook. For Discord/Facebook provide url an",
+        "description": "Preview then explicitly confirm your own profile links. Supply draft {profileId,target: profile,expectedRevision,links:[{platform,handle?,url?}]}. Array order is display order; omit a platform to remove it. Use [] for no links. One per platform: x, instagram, tiktok, youtube, discord, facebook. For Discord/Facebook provide url and optional display handle. Set needs the returned preview draft (incl",
         "inputs": [
           {
             "name": "action",
@@ -31059,14 +32207,85 @@
         ]
       },
       {
-        "name": "get_club_profile",
-        "description": "Read the public club summary/About and ordered Find me on links with the same account visibility as the app. No membership or private feed is returned.",
+        "name": "list_sportsbooks",
+        "description": "Read this account’s linked sportsbooks exactly as the app shows them: whether sportsbook linking is allowed, each account (accountId, book, region, betsSynced), its connection (verified, paused, reconnect_required, revoked, disabled, unknown), needsReconnect, its last check and last refresh, the newest bet import, and booksOnTickets: the books on the customer’s saved tickets (bookAbbr, tickets, la",
+        "inputs": null
+      },
+      {
+        "name": "connect_sportsbook",
+        "description": "Return a betslipdoctor.ai link (linkUrl, expiresAt) the customer opens to sign in to their sportsbook and link it, the same sportsbook linking page the app opens; it works for 10 minutes. book is the sportsbook to pick on that page (e.g. FanDuel), state its two-letter state. If sportsbook linking is not yet allowed, the tool returns book_link_required with consent.text, consent.privacyUrl and cons",
         "inputs": [
           {
-            "name": "clubId",
+            "name": "book",
             "type": "string",
             "description": null,
             "required": true
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "consent",
+            "type": "boolean",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "consentTextVersion",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "refresh_sportsbook",
+        "description": "Check an owned linked sportsbook accountId for new bets, the same import the app runs: queues one history check for the account’s linked books (each allowed sportsbook is asked for its newest bets) and returns the check id and its state. Repeats within 30 seconds are refused with sync_cooldown; an unknown accountId is refused. Read progress with list_sportsbooks.",
+        "inputs": [
+          {
+            "name": "accountId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "disconnect_sportsbook",
+        "description": "Disconnect an owned linked sportsbook accountId, the same as the app’s Disconnect: BSD imports for it stop at once and the link to your sportsbook is removed in the background. Requires confirm true after the customer explicitly asks; without it nothing changes. Saved bets stay in History. Reconnecting needs connect_sportsbook again.",
+        "inputs": [
+          {
+            "name": "accountId",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "confirm",
+            "type": "boolean",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "commandKey",
+            "type": "string",
+            "description": null,
+            "required": false
           }
         ]
       },
@@ -31097,392 +32316,23 @@
         ]
       },
       {
-        "name": "show_saved_grade",
-        "description": "Return the verified immutable saved report for an owned completed Grade jobId. Returns unavailable until the real saved report is readable; never grades again. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read-only view.",
-        "inputs": [
-          {
-            "name": "jobId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
+        "name": "list_api_keys",
+        "description": "List your active personal BetSlip Doctor API keys (name, display prefix, scopes, created, last used). Secrets are never returned.",
+        "inputs": null
       },
       {
-        "name": "show_doctor_conversation",
-        "description": "Read the owned threadId, saved user messages, Doctor answers and jobs; optional before pages older messages. Does not generate a new answer. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. Use this tool when the customer wants to see their saved result. This is a read-only view.",
+        "name": "create_api_key",
+        "description": "Create a personal API key (bsd_live_…) for scripts. Give it a name and the scopes it needs; they must be a subset of this connection's own scopes. The full key is returned once in this result and cannot be read again. API keys cannot create other keys. Requires Pro or Elite.",
         "inputs": [
           {
-            "name": "threadId",
+            "name": "name",
             "type": "string",
             "description": null,
             "required": true
           },
           {
-            "name": "before",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "show_tail_feed",
-        "description": "Doctor ticket posts include result WON/LOST/PUSH when settled, null otherwise. Read the app Tail feed with its account-filtered community, following, own, profile, bookmark or private-list visibility. Uses app moderation, mutes and account-bound cursor rules; does not post. Action and version are fixed by this tool; do not supply them. Show the saved result in an interactive BSD card in the chat. ",
-        "inputs": [
-          {
-            "name": "feed",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "community",
-              "for_you",
-              "following",
-              "own",
-              "profile",
-              "bookmarks",
-              "list"
-            ]
-          },
-          {
-            "name": "profileId",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "listId",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "search",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "show_tail_post",
-        "description": "Doctor ticket posts include result WON/LOST/PUSH when settled, null otherwise. Read one app Tail postId visible to this account under the same moderation and privacy rules. Supply fadedByLimit (1-25) or fadedByCursor to include the permitted public confirmed-Fade profile page. May contain another community member’s published content; does not post. Action and version are fixed by this tool; do not",
-        "inputs": [
-          {
-            "name": "postId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "fadedByLimit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "fadedByCursor",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "show_betting_history",
-        "description": "Show the connected account’s recorded profit/loss chart and actual win/loss counts. Requires currency and settlement source; never combine currencies or sources. Records use the same cursor and newest-first order as show_history_records and the app; pass recordPage.next to continue. Range/filter controls use the same app services. Missing results remain marked.",
-        "inputs": [
-          {
-            "name": "range",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "1w",
-              "1m",
-              "3m",
-              "1y",
-              "ytd",
-              "all"
-            ]
-          },
-          {
-            "name": "includePickemEntries",
-            "type": "boolean",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "recordKind",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "all",
-              "import",
-              "manual"
-            ]
-          },
-          {
-            "name": "advice",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "all",
-              "unknown",
-              "unseen",
-              "viewed",
-              "followed",
-              "modified",
-              "rejected"
-            ]
-          },
-          {
-            "name": "adviceBasis",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "current_response",
-              "recorded_before_placement"
-            ]
-          },
-          {
-            "name": "bookId",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "league",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "sport",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "result",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "all",
-              "open",
-              "win",
-              "loss",
-              "push",
-              "void",
-              "cashout",
-              "halfwin",
-              "halfloss",
-              "unknown"
-            ]
-          },
-          {
-            "name": "graded",
-            "type": "string",
-            "description": null,
-            "required": false,
-            "enum": [
-              "all",
-              "yes",
-              "no"
-            ]
-          },
-          {
-            "name": "search",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "currency",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "source",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "sportsbook_record",
-              "provider_autograde",
-              "self_reported"
-            ]
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "limit",
-            "type": "integer",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "show_history_records",
-        "description": "Show a bounded page of owned History records and their saved Grade association. Use the returned cursor for more. Preserve provider versus self-reported provenance.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "object",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "export_betting_history",
-        "description": "Read one real CSV export page for the owned History filters. Returns complete/next, filename and CSV. Never call a partial page a full export. No account mutation.",
-        "inputs": [
-          {
-            "name": "query",
-            "type": "object",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "cursor",
-            "type": "string",
-            "description": null,
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "show_saved_slip",
-        "description": "Show an owned saved ticket with its exact single-book saved picks, odds and stake. Does not open a sportsbook or place anything. Offers a supported sportsbook handoff and optional Grade.",
-        "inputs": [
-          {
-            "name": "ticketId",
-            "type": "string",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
-        "name": "prepare_sportsbook_handoff",
-        "description": "Prepare the existing app’s fresh, vetted direct sportsbook link for an owned saved ticket. Choose the same sportsbook as the saved ticket and the customer-provided state, or null if unknown. Returns full-slip or explicit individual-selection/manual fallbacks with expiry. Set sendToPhone=true only on an explicit customer request; this sends an ID-only push to that account’s registered devices. The ",
-        "inputs": [
-          {
-            "name": "ticketId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "quoteAcceptance",
-            "type": "object",
-            "description": null,
-            "required": false
-          },
-          {
-            "name": "platform",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "web",
-              "ios",
-              "android"
-            ]
-          },
-          {
-            "name": "bookKey",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "draftkings",
-              "fanduel",
-              "betmgm",
-              "caesars",
-              "hardrockbet",
-              "betrivers",
-              "thescorebet",
-              "fanatics",
-              "bet365_us",
-              "ballybet",
-              "betparx",
-              "fliff"
-            ]
-          },
-          {
-            "name": "state",
-            "type": "any",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "sendToPhone",
-            "type": "boolean",
-            "description": "Set true only when the customer explicitly asks to send this exact saved-ticket handoff to their BSD phone. Omit otherwise.",
-            "required": false
-          }
-        ]
-      },
-      {
-        "name": "preview_tail_slip",
-        "description": "Show current supported prices for tailing or fading one visible public post at the customer’s chosen bookId and jurisdiction. Use original provider IDs, not guessed book names. Preserves changed/unavailable legs and exact preview binding. Does not save, Grade, publish or place.",
-        "inputs": [
-          {
-            "name": "mode",
-            "type": "string",
-            "description": null,
-            "required": true,
-            "enum": [
-              "tail",
-              "fade"
-            ]
-          },
-          {
-            "name": "bookId",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "jurisdiction",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "postId",
-            "type": "string",
+            "name": "scopes",
+            "type": "array",
             "description": null,
             "required": true
           }
@@ -34824,7 +35674,7 @@
             "format": null
           }
         ],
-        "weeklyDownloads": 38,
+        "weeklyDownloads": null,
         "lastPublished": "2026-07-20T13:42:58.182Z",
         "firstPublished": "2026-07-18T10:26:03.635Z",
         "deprecated": false,
@@ -34956,6 +35806,29 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mcp:ai-blinibot-agent-lounge",
+    "name": "BliniBot Agent Lounge",
+    "qualifiedName": "ai.blinibot/agent-lounge",
+    "slug": "ai-blinibot-agent-lounge",
+    "description": "An open lounge where AI agents meet, talk, build and solve problems together and earn karma.",
+    "category": "AI & Memory",
+    "repository": null,
+    "homepage": "https://blinibot.ai/agents",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://blinibot.ai/api/agents/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-21T02:47:06.907792Z",
+    "repoMeta": null,
+    "toolsStatus": "error"
   },
   {
     "id": "mcp:ai-blipsmith-sound-effects",
