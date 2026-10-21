@@ -46,6 +46,20 @@ function meaningfulMcp(m) {
     // Tool names and their parameters are content; descriptions rewrite often
     // enough to be noise on their own but matter when a tool appears or goes.
     (m.tools ?? []).map((t) => `${t.name}(${(t.inputs ?? []).map((i) => i.name).join(",")})`).join(";"),
+    // Observed capabilities and publishing signals. The analyzed version is
+    // already hashed via packages above, so these only add resolution — a
+    // server that starts reaching for child_process is worth publishing.
+    // Evidence line numbers are excluded: they shift on any rebuild.
+    m.inspection
+      ? [
+          m.inspection.status,
+          m.inspection.capabilities.map((c) => c.id).sort().join(","),
+          (m.inspection.installScripts ?? []).join(","),
+          m.inspection.trustedPublisher ?? "",
+          m.inspection.provenance ? "prov" : "",
+          m.inspection.maintainers ?? "",
+        ].join("|")
+      : "",
     // A transient probe failure cannot erase the list above —
     // preserveEnrichment carries the previous one forward when a run
     // discovers none.

@@ -39,6 +39,10 @@ async function fetchOne(name) {
     // The repo the *package itself* claims, which we compare against the repo
     // the registry entry advertises.
     declaredRepo: repoSlugFromUrl(typeof repoUrl === "string" ? repoUrl : repoUrl?.url),
+    // Kept so the source inspector can read publisher signals and the tarball
+    // URL without fetching the packument a second time. Stripped before the
+    // catalog is written — it is far too large to commit.
+    packument: meta,
   };
 }
 

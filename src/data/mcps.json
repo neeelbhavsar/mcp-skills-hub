@@ -40,6 +40,71 @@
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
+    "inspection": {
+      "name": "@modelcontextprotocol/server-filesystem",
+      "version": "2026.8.31",
+      "status": "ok",
+      "filesScanned": 5,
+      "filesTotal": 5,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 5,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 6,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/lib.js",
+              "line": 1,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/roots-utils.js",
+              "line": 1,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/path-utils.js",
+              "line": 2,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "dist/roots-utils.js",
+              "line": 3,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 7,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 72336,
+      "fileCount": 7,
+      "analyzedAt": "2026-09-16T19:16:11.233Z"
+    },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
       "truncated": true,
@@ -169,6 +234,47 @@
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
+    "inspection": {
+      "name": "@modelcontextprotocol/server-memory",
+      "version": "2026.8.31",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 6,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 14,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 7,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 31899,
+      "fileCount": 3,
+      "analyzedAt": "2026-09-16T19:16:11.223Z"
+    },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
       "truncated": true,
@@ -215,6 +321,36 @@
       "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "@modelcontextprotocol/server-sequential-thinking",
+      "version": "2026.8.31",
+      "status": "ok",
+      "filesScanned": 3,
+      "filesTotal": 3,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/lib.js",
+              "line": 7,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 7,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 18572,
+      "fileCount": 5,
+      "analyzedAt": "2026-09-16T19:16:11.219Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -303,6 +439,82 @@
       "openIssues": 116,
       "license": "NOASSERTION",
       "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "@modelcontextprotocol/server-everything",
+      "version": "2026.8.31",
+      "status": "ok",
+      "filesScanned": 38,
+      "filesTotal": 38,
+      "bundledFiles": 1,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/resources/files.js",
+              "line": 3,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/resources/index.js",
+              "line": 5,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/tools/gzip-file-as-resource.js",
+              "line": 141,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/tools/gzip-file-as-resource.js",
+              "line": 5,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/transports/streamableHttp.js",
+              "line": 172,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/transports/sse.js",
+              "line": 58,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/get-env.js",
+              "line": 29,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 7,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 252769,
+      "fileCount": 52,
+      "analyzedAt": "2026-09-16T19:16:11.216Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -8612,7 +8824,48 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-26T18:03:21.463557Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "pretrip-mcp",
+      "version": "1.0.1",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 113,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 22,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "keseyagency",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 12666,
+      "fileCount": 3,
+      "analyzedAt": "2026-09-16T19:16:11.641Z"
+    }
   },
   {
     "id": "mcp:agency-lona-trading",
@@ -9534,6 +9787,53 @@
       "license": "MIT",
       "language": "Python"
     },
+    "inspection": {
+      "name": "@adeu/mcp-server",
+      "version": "3.0.5",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 6,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "scripts/verify-bundle.js",
+              "line": 1,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 1328,
+              "detail": "imports v8",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 1256201,
+      "fileCount": 84,
+      "analyzedAt": "2026-09-16T19:16:12.388Z"
+    },
     "readme": {
       "markdown": "# Adeu: Track Changes for the LLM era\n\n**LLMs speak Markdown; reviewers speak \"Track Changes.\"**\n\nAdeu is a **docx ↔ LLM translator**: a Model Context Protocol (MCP) server (Python and Node.js implementations) and accompanying SDKs that act as a **Virtual DOM for Microsoft Word**. It provides a two-way abstraction layer that lets AI agents freely edit document text without destroying the underlying formatting or complex DOCX XML.\n\nWhile standard libraries like `python-docx` excel at generating documents from scratch, they fail at non-destructive redlining. Adeu solves this by translating `.docx` files into a token-efficient Markdown representation. This frees AI agents to focus entirely on document semantics instead of wasting tokens wrestling with OpenXML.\n\nAdeu acts as an **intelligent proxy**, processing AI edits as safe, atomic transactions:\n\n1. **Read:** Translates the document (from disk or live Word) into LLM-friendly **[CriticMarkup](https://fletcher.github.io/MultiMarkdown-6/syntax/critic.html)** with a **Semantic Appendix** of defined terms, cross-references, and likely typos. The agent starts with semantic structure, not raw data.\n2. **Validate:** Acts as a strict safety gate. It protects the document's integrity by automatically blocking ambiguous text matches or invalid structural changes before they touch the file.\n3. **Apply:** Translates the AI's text edits into native Word Track Changes. Adeu handles the complex XML under the hood, ensuring existing layouts, fonts, and margin comments are perfectly preserved.\n\nBuilt and maintained by the team at [Adeu](https://adeu.ai).\n\n---\n\n## Installation\n\nAdeu can be installed directly into AI assistants as an MCP server, used as a Claude Code plugin or Agent Skill, CLI tool, or used locally as a developer toolchain.\n\n### Claude Code (Plugin)\nAdeu ships as a [Claude Code plugin](https://docs.claude.com/en/docs/claude-code/plugins) with a built-in agent skill that teaches Claude how to use the engine effectively. Inside Claude Code:\n\n```\n/plugin marketplace add dealfluence/adeu\n/plugin install adeu-redlining@adeu-skills\n```\n\nFor best results, also connect either the Node MCP server (`npx -y @adeu/mcp-server`) or the Python MCP server (`uvx --from adeu adeu-server`). The plugin works without an MCP server too — it falls back to driving the `uvx adeu` CLI via Bash.\n\n### Other Skills-Compatible Agents (Cursor, Windsurf, VS Code Copilot, etc.)\nAdeu's redlining skill follows the open [Agent Skills specification](https://agentskills.io) and works with any compatible agent:\n\n```bash\nnpx skills add dealfluence/adeu\n```\n\nThe skill installs to your agent's skills directory and activates automatically when you ask Claude to redline, edit, or review a `.docx` file.\n\n### Claude Desktop\nYou can install Adeu directly into Claude Desktop using the official extension package:\n1. Download the latest `Adeu.mcpb` file from the [GitHub Releases](https://github.com/dealfluence/adeu/releases) page.\n2. Open Claude Desktop and navigate to **Settings > Extensions**.\n3. Click **Advanced settings** and find the Extension Developer section.\n4. Click **Install Extension...**, select the downloaded `.mcpb` file, and follow the prompts.\n\n### Gemini CLI\nAdeu is available as a native [Gemini CLI extension](https://geminicli.com/extensions/). To install:\n```bash\ngemini extensions install https://github.com/dealfluence/adeu\n```\n\n### Other MCP Clients (Cursor, Windsurf, etc.)\nFor IDEs or clients that configure MCP servers via JSON, you can use either the Node.js or Python backend:\n\n**Node.js**\n```json\n{\n  \"mcpServers\": {\n    \"adeu\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@adeu/mcp-server\"]\n    }\n  }\n}\n```\n\n**Python (Required for Live MS Word integration on Windows)**\n```json\n{\n  \"mcpServers\": {\n    \"adeu\": {\n      \"command\": \"uvx\",\n      \"args\": [\"--from\", \"adeu\", \"adeu-server\"]\n    }\n  }\n}\n```\n\n### Smithery\nTo install Adeu using the Smithery package manager:\n```bash\nnpx -y @smithery/cli install adeu --client claude\n```\n\n---\n\n## Agent Workflows\n\nAdeu provides agents with specific tools to read, review, and edit documents safely.\n\n> **MCP Apps UI:** The `read_docx` tool supports the MCP Apps UI protocol. When an agent reads a document, Adeu dynamically renders a custom, interactive Markdown view directly inside the chat window.\n\n**Recommended Agent Prompt:**\nYou can guarantee the best behavioral results by adding this context to your agent's system prompt or project instructions:\n\n> **Role:** Document Specialist\n> **Tools:**\n>\n> - `read_docx(clean_view=True)`: Read the final \"clean\" version of the text to understand context. Use `search_query` and `page` filters to locate specific clauses without reading the whole document.\n> - `process_document_batch`: **Commit & Negotiate Mode.** Apply a unified list of changes. Use `type: \"modify\"` for specific search-and-replace text edits (supports `match_mode=\"all\"` and `regex=True` for bulk updates), and `type: \"accept\"`, `\"reject\"`, or `\"reply\"` to manage existing Track Changes and Comments by ID.\n> - `finalize_document`: **Pre-Send Scrub.** Strip dangerous metadata, author names, and internal tracking IDs, lock the document (`protection_mode=\"read_only\"`), and prepare it for distribution.\n\n### Live MS Word Integration\nIf you are running on Windows with Microsoft Word installed, Adeu can act as a real-time copilot, editing the active document right in front of you. This requires running the Python MCP server backend (see Developer Tools below).\n\n---\n\n## Developer Tools (Python & TypeScript)\n\nIf you are building a legal-tech application, an automated pipeline, or want to use the local CLI, use our SDKs.\n\n### The Python CLI\nThe Python toolchain is managed via [uv](https://docs.astral.sh/uv/).\n\n```bash\npip install uv\nuv tool install adeu\n\n# Extract clean text for RAG or prompting\nadeu extract contract.docx -o contract.md\n\n# Generate a visual diff between two versions\nadeu diff v1.docx v2.docx\n\n# Apply edits to the DOCX\nadeu \n\n…",
       "truncated": true,
@@ -10010,6 +10310,58 @@
       "license": "MIT",
       "language": "JavaScript"
     },
+    "inspection": {
+      "name": "adtest-mcp",
+      "version": "1.1.0",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "index.js",
+              "line": 22,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "index.js",
+              "line": 86,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "index.js",
+              "line": 25,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "adtestai",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 11311,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:11.650Z"
+    },
     "readme": {
       "markdown": "# AdTest.AI MCP server\n\n[![npm](https://img.shields.io/npm/v/adtest-mcp)](https://www.npmjs.com/package/adtest-mcp) · Registry name: `ai.adtest/adtest-mcp` · License: MIT\n\nAdds a single **`analyze_advert`** tool to Claude (Desktop, Code, or any MCP client) that\nruns AdTest.AI's **AI-only** 13-dimension analysis of an advert — **image, video, or text** —\nand returns a detailed scoring report. (Human-panel validation is available in the\n[web app](https://app.adtest.ai) only, not through this server.)\n\nQuick add for Claude Code:\n\n```bash\nclaude mcp add adtest -e ADTEST_API_KEY=adk_your_key_here -- npx -y adtest-mcp\n```\n\n## Setup\n\n1. **Get an API key:** sign in at <https://app.adtest.ai> → the **Developer** (gear)\n   icon → **Generate key**. Make sure your wallet has funds — each successful\n   analysis costs **$1**.\n\n2. **Add the server to your Claude config** (Claude Desktop:\n   `claude_desktop_config.json`; Claude Code: `.mcp.json`):\n\n   ```json\n   {\n     \"mcpServers\": {\n       \"adtest\": {\n         \"command\": \"npx\",\n         \"args\": [\"-y\", \"adtest-mcp\"],\n         \"env\": { \"ADTEST_API_KEY\": \"adk_your_key_here\" }\n       }\n     }\n   }\n   ```\n\n   Or run it from a local checkout (after `npm install` in this folder):\n\n   ```json\n   {\n     \"mcpServers\": {\n       \"adtest\": {\n         \"command\": \"node\",\n         \"args\": [\"/absolute/path/to/mcp-server/index.js\"],\n         \"env\": { \"ADTEST_API_KEY\": \"adk_your_key_here\" }\n       }\n     }\n   }\n   ```\n\n3. **Restart Claude**, then just ask:\n   - *“Analyze this advert: https://example.com/ad.jpg”*\n   - *“Analyze this ad video file: /Users/me/promo.mp4”*\n   - *“Score this ad copy: 50% off all shoes this weekend — shop now.”*\n\n## The tool\n\n`analyze_advert` — provide **one** of:\n\n| arg | meaning |\n|-----|---------|\n| `url` | public URL of an image or video advert (we download it) |\n| `file_path` | local image/video file to upload |\n| `text` | ad copy to analyze |\n| `brand_url` *(optional)* | advertiser website — improves brand/logo detection |\n\nReturns the AI analysis text plus the amount charged and your remaining balance.\n\n## How it works (async — so video works)\n\nThe server submits the job to `POST /developer/ai-analysis/jobs`, gets a\n`job_id` back immediately, then polls `GET /developer/ai-analysis/jobs/{job_id}`\nevery few seconds until it's `complete` or `failed`. This is why **video works**:\na single synchronous request would be cut off by the CDN edge timeout (~100s),\nbut video analysis can take several minutes. You're charged **once, on success**,\nwhen the job completes — a failed job is never billed.\n\n## Notes\n\n- Registered in the official MCP Registry as `ai.adtest/adtest-mcp`.\n\n- Auth is the `x-api-key` header, set from `ADTEST_API_KEY`.\n- Endpoint defaults to `https://app.adtest.ai/adtest-api`; override with\n  `ADTEST_API_BASE` for staging.\n- Poll ceiling defaults to 15 min; override with `ADTEST_POLL_TIMEOUT_MS`\n  (milliseconds) for very long video.\n- Rate limits: 30 submits/min and 2000/day per key (60/min per IP); polling is\n  generous (240/min) and handled for you.\n- Errors come back as readable text: `invalid_api_key`, `insufficient_funds`,\n  `no_creative`, `invalid_url`, `unsupported_media_type`, `too_many_requests`,\n  `analysis_failed` (the last is **not** charged).\n- Requires Node ≥ 18.\n\n## Links\n\n- Product: <https://adtest.ai>\n- Setup guide and FAQ: <https://adtest.ai/mcp/>\n- App and API keys: <https://app.adtest.ai>\n- Issues: <https://github.com/menaker/adtest-mcp/issues>\n\n## License\n\nMIT — see [LICENSE](LICENSE).",
       "truncated": false,
@@ -10259,7 +10611,98 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-09-20T16:33:06.187417Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@aetherwealth/mcp",
+      "version": "0.2.15",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 1,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports child_process",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports fs/promises",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports http",
+              "bundled": true
+            },
+            {
+              "file": "dist/index.js",
+              "line": 28,
+              "detail": "calls fetch()",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "dynamic-code",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 28,
+              "detail": "constructs new Function()",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "reads process.env",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports os",
+              "bundled": true
+            }
+          ]
+        }
+      ],
+      "maintainers": 2,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 654247,
+      "fileCount": 5,
+      "analyzedAt": "2026-09-16T19:16:12.345Z"
+    }
   },
   {
     "id": "mcp:ai-aetherya-mcp",
@@ -12893,6 +13336,42 @@
       "license": "MIT",
       "language": "TypeScript"
     },
+    "inspection": {
+      "name": "affiliate-networks-mcp",
+      "version": "0.20.0",
+      "status": "ok",
+      "filesScanned": 80,
+      "filesTotal": 463,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/networks/digistore24/adapter.js",
+              "line": 554,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/networks/shareasale/adapter.js",
+              "line": 541,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 10450109,
+      "fileCount": 1905,
+      "analyzedAt": "2026-09-16T19:16:13.449Z"
+    },
     "readme": {
       "markdown": "# affiliate-mcp\n\n> Integrate your affiliate networks with Claude or Codex.\n\n[![npm version](https://img.shields.io/npm/v/affiliate-networks-mcp?label=release)](https://www.npmjs.com/package/affiliate-networks-mcp) ![networks](https://img.shields.io/badge/networks-72-blue) ![adapters](https://img.shields.io/badge/adapters-86-blue) [![maintained by](https://img.shields.io/badge/maintained%20by-community%20%2F%20networks-orange)](./docs/networks)\n\n> **Network operators:** most adapters are community-built and `experimental`. Adoption gives your team ownership and a verification path; promotion to `partial` or `production` still requires current evidence and maintainer review. Find your network's issue under the [`adopt-this-network`](https://github.com/bobberrisford/affiliatemcp/issues?q=is%3Aissue+is%3Aopen+label%3Aadopt-this-network) label.\n\nAffiliate networks have two sides — and neither has a first-class AI workspace integration.\n\n**Publishers** earn commissions from the programmes they join.\n**Brands** (and the agencies who manage them) run those programmes\nand pay the commissions out. I wanted to chat to my own affiliate\ndata in the AI workspace I already use; none of the networks had shipped an\nintegration for either side, so I built a broad beta set that covers both\npublisher and advertiser-side work.\n\nIf you're a **publisher**, you can ask:\n\n> *\"What did I earn across all networks last month?\"*\n>\n> *\"Which programmes have transactions still pending after 90 days?\"*\n>\n> *\"Compare my earnings month on month.\"*\n\nIf you're on the **brand side** — running a programme, or an agency\nmanaging several — you can ask:\n\n> *\"How is Acme's programme doing this quarter?\"*\n>\n> *\"Show me revenue across all my clients this week.\"*\n>\n> *\"Any anomalies in the affiliate data?\"*\n\nYour AI workspace figures out which networks to call, fetches the data live from\ntheir APIs, and gives you the answer. You can use Claude or Codex to turn it\ninto a sheet, an artifact, an email to your boss, whatever you want.\n\nFree and open source. MIT licensed. Bring your own keys. For the product\nphilosophy, read the [AI-native affiliate data manifesto](./docs/product/manifesto.md).\n\n## Who this is for\n\nThis tool serves two audiences. Pick the one that fits — or both, if\nyou wear both hats.\n\n**You're a publisher.** You earn commissions from affiliate\nprogrammes, your dashboards can't keep up with how fast you can think,\nand you want one conversation that spans every network you're on.\n\n**You're on the brand side.** You run an affiliate programme — or\nyou're an agency managing several brands' programmes. You want one\nquestion that fans out across networks and brands, and surfaces what\nthe dashboards bury: publishers trending down, reversal spikes, dead\nlinks, programmes drifting toward zero.\n\nEither way, you do **not** need to know what an API is or write code. The\nnon-technical Claude Desktop track needs:\n\n- Your existing logins to the affiliate networks you already work with.\n- Claude Desktop installed.\n\nThe technical track uses a terminal, Node.js 20 or newer, and Claude Desktop,\nClaude Code, Codex, or another compatible local stdio MCP client; check the support states below before relying on an untested client journey.\n\n**And if you work for an affiliate network**, this is also for you. The\nbundled adapters are placeholders until each network adopts its own. See\n[`CONTRIBUTING.md`](./CONTRIBUTING.md) under \"Adopting your network\".\n\n## Why bother?\n\n**One question, every network and every brand.** \"Show me earnings by\nprogramme\" hits your configured publisher networks in parallel. On the brand\nside, \"show me revenue across all my clients this week\" fans out across every\nbrand and network pair you've registered.\n\n**Plain English, not filters.** No more clicking through date pickers and saved\nviews. \"Last quarter, status pending, sorted by amount\" is the whole prompt.\n\n**Your data, your machine, by default.** It runs locally. Your keys live in\n`~/.affiliate-mcp/.env`, locked to your user account. Optional anonymous\nusage telemetry is off by default and never contains affiliate data,\ncredentials, prompts, arguments, results, or error text. The networks see\nthe same API calls they'd see from their dashboard.\n\n**Catches what dashboards bury.** Stale transactions, inactive programmes, dead\ndeeplinks and week-on-week drops are surfaced by the packaged skills.\n\n**Optional local result cache.** Persistent caching is off by default. Set\n`AFFILIATE_MCP_CACHE=on` in `~/.affiliate-mcp/.env` to cache selected programme\ninventory and closed reporting windows locally with owner-only permissions.\nOpen and current windows always go live. On a shared machine where you cannot\nrely on file permissions, leave caching off. Run\n`affiliate-networks-mcp cache clear` to remove cached results; see\n[`PRIVACY.md`](./PRIVACY.md) for the storage and retention contract.\n\n## Getting started\n\nChoose one of two primary tracks. Both run the same local MCP server and keep your credentials on your machine.\n\n### Track 1: non-technical, Claude Desktop\n\nUse the host-native Claude Desktop `.mcpb`. No Terminal, Node.js, or manual\nconfiguration is required.\n\n1. Download `affiliate-networks-mcp-<version>.mcpb` from the latest\n   [GitHub release](https://github.com/bobberrisford/affiliatemcp/releases/latest).\n2. In Claude Desktop, open **Settings → Extensions → Advanced settings →\n   Install Extension…** and select the downloaded file.\n3. Add credentials for the networks you use, then ask Claude\n   **\"What affiliate networks do you have access to?\"**\n\nThe extension does not update itself: download the latest `.mcpb` and install it over the top; saved credentials are kept ([full steps for every install path](./docs/updating.md)).\nThe native extension currently offers secure setup fields for Awin, CJ, Impact,\nand Partnerize. It runs the complete server, so an existing\n`~/.affiliate-mcp/.env` continues to enable every other adapter. A portable\nbrowser setup flow for the re\n\n…",
       "truncated": true,
@@ -15338,6 +15817,69 @@
       "license": "MIT",
       "language": "JavaScript"
     },
+    "inspection": {
+      "name": "@agenttrust/mcp-server",
+      "version": "1.2.1",
+      "status": "ok",
+      "filesScanned": 3,
+      "filesTotal": 3,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 3,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 144,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 57,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 4,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agenttrust",
+      "trustedPublisher": null,
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 67975,
+      "fileCount": 9,
+      "analyzedAt": "2026-09-16T19:16:13.272Z"
+    },
     "readme": {
       "markdown": "# @agenttrust/mcp-server\n\nFree email for AI agents, instant messaging between agents, and cloud file storage — accessible as MCP tools from any compatible client.\n\n## What is AgentTrust?\n\n[AgentTrust](https://agenttrust.ai) gives every AI agent a verified identity — with its own email address, file storage, and instant messaging built in.\n\n- **Free Email** — Your agent gets `your-agent@agenttrust.ai`. Send, receive, read threads, forward, and manage drafts\n- **Instant Messaging** — Real-time agent-to-agent chat with conversation threads, escalation to humans, and status tracking\n- **Cloud File Storage** — Upload, download, and share files between agents with signed URLs\n\nThis MCP server exposes all of these as tools that any MCP-compatible client can use — Claude Desktop, Claude Code, Cursor, Windsurf, OpenClaw, Hermes, n8n, LangChain, and more.\n\nAlso available as an [OpenClaw / Hermes skill](https://agenttrust.ai/skill.md).\n\n## Quick Start\n\n### 1. Get an API key\n\nSign up at [agenttrust.ai](https://agenttrust.ai), register your agent, and generate an API key (starts with `atk_`).\n\n### 2. Add to your MCP client\n\n**Claude Desktop / Claude Code** — add to your config:\n\n```json\n{\n  \"mcpServers\": {\n    \"agenttrust\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@agenttrust/mcp-server\"],\n      \"env\": {\n        \"AGENTTRUST_API_KEY\": \"atk_your_key_here\"\n      }\n    }\n  }\n}\n```\n\n**Cursor** — add to `.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"agenttrust\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@agenttrust/mcp-server\"],\n      \"env\": {\n        \"AGENTTRUST_API_KEY\": \"atk_your_key_here\"\n      }\n    }\n  }\n}\n```\n\n**Hermes** — add to `~/.hermes/config.yaml`:\n\n```yaml\nmcp_servers:\n  agenttrust:\n    command: \"npx\"\n    args: [\"-y\", \"@agenttrust/mcp-server\"]\n    env:\n      AGENTTRUST_API_KEY: \"atk_your_key_here\"\n```\n\nThat's it. All 19 tools are available immediately.\n\n### 3. (Optional) Interactive setup\n\nFor advanced features like Ed25519 message signing:\n\n```bash\nnpx @agenttrust/mcp-server init\n```\n\n## Tools\n\n### Email (7 tools)\n\nYour agent sends and receives email as `your-agent@agenttrust.ai` — a real email address that works with any mailbox.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_email_inbox` | List inbox — filter by direction, status |\n| `agenttrust_email_read` | Read email or full thread (thread by default) |\n| `agenttrust_email_attachment` | Download attachment — returns signed URL |\n| `agenttrust_email_send` | Send email from agent's address |\n| `agenttrust_email_reply` | Reply to an email |\n| `agenttrust_email_forward` | Forward email with attachments |\n| `agenttrust_email_draft` | Create draft for human review |\n\n### Instant Messaging (7 tools)\n\nReal-time agent-to-agent communication. Messages are organized into tasks (threads) with status tracking.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_send` | Send a message to another agent |\n| `agenttrust_inbox` | Check inbox for incoming conversations |\n| `agenttrust_context` | Get full conversation history |\n| `agenttrust_reply` | Reply and optionally update status |\n| `agenttrust_comment` | Add a note without changing turn |\n| `agenttrust_escalate` | Escalate to human review (HITL) |\n| `agenttrust_discover` | Search the agent directory |\n\n### Cloud File Storage (5 tools)\n\nUpload, store, and share files between agents.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_drive_upload` | Upload file (base64 content) |\n| `agenttrust_drive_list` | List files, filter by folder |\n| `agenttrust_drive_download` | Download file — returns signed URL |\n| `agenttrust_drive_delete` | Delete a file |\n| `agenttrust_drive_usage` | Check storage usage and limits |\n\n## Usage Examples\n\n### Send an email\n\n```\nUse agenttrust_email_send to send an email to user@example.com\nwith subject \"Quote Request\" and body \"We need pricing for 500 units\"\n```\n\n### Read and reply to emails\n\n```\nUse agenttrust_email_inbox to check for new emails,\nthen agenttrust_email_read to get the full thread,\nthen agenttrust_email_reply to respond\n```\n\n### Message another agent\n\n```\nUse agenttrust_discover to find procurement-agent,\nthen agenttrust_send to message them:\n\"We need a quote for 500 units of widget-A by Friday\"\n```\n\n### Upload and share a file\n\n```\nUse agenttrust_drive_upload to store report.pdf,\nthen share the file ID with another agent via agenttrust_send\n```\n\n### Escalate to a human\n\n```\nUse agenttrust_escalate on task tk_abc123 with reason\n\"Purchase exceeds my $10,000 authorization limit\"\n```\n\n## CLI Commands\n\n```bash\nagenttrust-mcp              # Start MCP stdio server (default)\nagenttrust-mcp init         # Interactive first-time setup\nagenttrust-mcp --status     # Print config and key status\nagenttrust-mcp --regen-keys # Rotate Ed25519 signing key\nagenttrust-mcp --help       # Show usage\n```\n\n## Configuration\n\nConfig is stored at `~/.agenttrust/config.json` (created automatically or by `init`):\n\n```json\n{\n  \"apiKey\": \"atk_...\",\n  \"endpoint\": \"https://agenttrust.ai\",\n  \"slug\": \"your-agent\",\n  \"agentId\": \"abc123\"\n}\n```\n\n### Environment Variables\n\n| Variable | Description |\n|----------|-------------|\n| `AGENTTRUST_API_KEY` | API key (required) |\n| `AGENTTRUST_ENDPOINT` | Platform endpoint (default: agenttrust.ai) |\n| `AGENTTRUST_SLUG` | Agent slug (auto-resolved from API key) |\n| `AGENTTRUST_AGENT_ID` | Agent ID (auto-resolved from API key) |\n\n## Security\n\n- All A2A messages are **Ed25519-signed** — recipients can cryptographically verify sender identity\n- Signing keys are generated locally and never leave your machine\n- Config and key files are written with `0600` permissions\n- Email from address is **enforced server-side** — agents can only send as their own `@agenttrust.ai` address\n- All API calls use authenticated `Authorization: Bearer` headers\n\n## How It Works\n\n```\n┌─────────────┐     MCP (stdio)     ┌───────────────────┐     HTTPS     ┌──────────────┐\n│  MCP Client │ ◄──────────────────► │  @agenttrust/     │ ◄──\n\n…",
       "truncated": true,
@@ -15396,7 +15938,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:14.904919Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-agentops",
+      "version": "0.1.4",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 16505,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:13.471Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-bestiary",
@@ -15427,7 +15999,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:15.433564Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-bestiary",
+      "version": "0.1.5",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 16940,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:13.055Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-browser-workflow",
@@ -15458,7 +16060,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:15.897391Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-browser-workflow",
+      "version": "0.1.3",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 14988,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:14.110Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-compose",
@@ -15489,7 +16121,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:16.321193Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-compose",
+      "version": "0.18.3",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 300244,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:14.124Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-edge-finance",
@@ -15520,7 +16182,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:17.095531Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-edge-finance",
+      "version": "0.19.1",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 214599,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:13.891Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-edge-market",
@@ -15551,7 +16243,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:17.497855Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-edge-market",
+      "version": "0.15.9",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 124176,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:13.879Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-locale",
@@ -15582,7 +16304,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:17.9033Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-locale",
+      "version": "0.8.10",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 87554,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.055Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-matchpoint",
@@ -15613,7 +16365,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:18.280353Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-matchpoint",
+      "version": "0.1.6",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 17376,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.012Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-mediakit",
@@ -15644,7 +16426,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:18.653557Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-mediakit",
+      "version": "0.11.11",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 137525,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.042Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-model-router",
@@ -15675,7 +16487,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:19.082426Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-model-router",
+      "version": "0.2.3",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 16619,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:14.806Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-prooflayer",
@@ -15706,7 +16548,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:19.560994Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-prooflayer",
+      "version": "0.3.3",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 41010,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.930Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-retail",
@@ -15737,7 +16609,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:19.946363Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-retail",
+      "version": "0.2.3",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 21165,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.968Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-rollforge",
@@ -15768,7 +16670,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:20.41779Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-rollforge",
+      "version": "0.1.7",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 45891,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.972Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-statline",
@@ -15799,7 +16731,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:20.828032Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-statline",
+      "version": "0.1.5",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 10469,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:15.776Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-synthforge",
@@ -15830,7 +16792,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:21.289726Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-synthforge",
+      "version": "0.8.15",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 152027,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:16.606Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-web-probe",
@@ -15861,7 +16853,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:21.796993Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-web-probe",
+      "version": "0.32.19",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 296640,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:16.686Z"
+    }
   },
   {
     "id": "mcp:ai-agentutility-mcp-wordmint",
@@ -15892,7 +16914,37 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-14T21:10:22.302521Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@agentutility/mcp-wordmint",
+      "version": "0.17.5",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 27,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agentutility",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 210986,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:16.662Z"
+    }
   },
   {
     "id": "mcp:ai-agentxray-amazon-seller-mcp",
@@ -20115,6 +21167,122 @@
       "openIssues": 1,
       "license": "MIT",
       "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "@ankimcp/anki-mcp-server",
+      "version": "0.25.1",
+      "status": "ok",
+      "filesScanned": 80,
+      "filesTotal": 117,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "dist/services/ngrok.service.js",
+              "line": 7,
+              "detail": "imports child_process",
+              "bundled": false
+            },
+            {
+              "file": "dist/tunnel/commands/perform-login.js",
+              "line": 8,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/cli/args.js",
+              "line": 11,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/tunnel/credentials.service.js",
+              "line": 4,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tunnel/credentials.service.js",
+              "line": 7,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/mcp/primitives/essential/prompts/twenty-rules.prompt/index.js",
+              "line": 49,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/mcp/utils/media-validation.utils.js",
+              "line": 46,
+              "detail": "imports dns",
+              "bundled": false
+            },
+            {
+              "file": "dist/services/ngrok.service.js",
+              "line": 8,
+              "detail": "imports http",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/mcp/utils/media-validation.utils.js",
+              "line": 204,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/mcp/primitives/essential/resources/system-info.resource.js",
+              "line": 67,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/tunnel/credentials.service.js",
+              "line": 6,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "dist/mcp/primitives/essential/resources/system-info.resource.js",
+              "line": 52,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 1130678,
+      "fileCount": 356,
+      "analyzedAt": "2026-09-16T19:16:16.603Z"
     },
     "readme": {
       "markdown": "# Anki MCP Server\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\n> [!IMPORTANT]\n> **Prefer the [AnkiMCP addon](https://ankiweb.net/shared/info/124672614) for most setups.**\n>\n> The addon ([GitHub](https://github.com/ankimcp/anki-mcp-server-addon)) runs the MCP server directly inside Anki. There is no Node.js to install, no AnkiConnect to configure, no separate process to keep running: install it with code `124672614`, restart Anki, and the server is up every time Anki opens. It covers local HTTP access and remote access through a built-in tunnel.\n>\n> This repository is the right choice when you specifically need:\n>\n> - **STDIO transport** — Claude Desktop, Claude Code, Cursor, or any client that spawns the server as a subprocess\n> - **MCPB bundle** — the one-click `.mcpb` install for Claude Desktop\n>\n> For HTTP, tunnel, or web-based clients (claude.ai, ChatGPT), the addon is the simpler and better-supported path.\n>\n> This repo is **not** being deprecated. It stays maintained and released alongside the addon as part of the same [ankimcp.ai](https://ankimcp.ai) project.\n\nA Model Context Protocol (MCP) server that enables AI assistants to interact with Anki, the spaced repetition flashcard application.\n\nTransform your Anki experience with natural language interaction - like having a private tutor. The AI assistant doesn't just present questions and answers; it can explain concepts, make the learning process more engaging and human-like, provide context, and adapt to your learning style. It can create and edit notes on the fly, turning your study sessions into dynamic conversations. More features coming soon!\n\n## Examples and Tutorials\n\nFor comprehensive guides, real-world examples, and step-by-step tutorials on using this MCP server with Claude Desktop, visit:\n\n**[ankimcp.ai](https://ankimcp.ai)** - Complete documentation with practical examples and use cases\n\nSee [`docs/`](./docs/README.md) for supplementary documentation, including the [reviewer setup guide](./docs/reviewer-setup.md) and the sample Anki deck.\n\n## Example Use Cases\n\nThree representative prompts showing the tool flows this server enables:\n\n1. **\"Help me review my Spanish deck.\"** — The assistant offers to sync with AnkiWeb (`sync`), fetches due cards (`get_due_cards` with deck filter), presents each card (`present_card`), and records your rating (`rate_card`). Natural study conversation with explanations tailored to you.\n\n2. **\"Create 10 Arabic vocab cards with RTL styling.\"** — The assistant lists note types (`modelNames`), creates a custom RTL model if needed (`createModel` + `updateModelStyling` for right-to-left CSS), then batch-creates the cards (`addNotes`).\n\n3. **\"Import this image from my Downloads folder into the front of the selected note.\"** — The assistant uploads the local file (`storeMediaFile` with a file path), reads the currently-selected note from the browser (`guiSelectedNotes` + `notesInfo`), and updates the front field with an `` tag (`updateNoteFields`).\n\n## Available Tools\n\nThe server exposes **53 MCP tools** — 42 essential tools for everyday Anki operations and 11 GUI tools that drive the Anki desktop interface for note editing/creation workflows.\n\n### Essential Tools\n\n#### Review & Study\n- `sync` - Sync with AnkiWeb to pull latest data and push changes\n- `get_due_cards` - Get cards that are due for review, optionally filtered by deck (answers omitted unless `include_answer: true`, default `false`)\n- `get_cards` - Get cards with flexible filtering by state (due, new, learning, suspended, buried) and deck (answers omitted unless `include_answer: true`, default `false`)\n- `present_card` - Show a card for review with its question/front side\n- `rate_card` - Rate card performance (Again, Hard, Good, Easy) and schedule the next review\n- `forgetCards` - Reset cards to new, discarding their scheduling without recording a review\n- `setDueDate` - Reschedule cards to become due in N days (`\"0\"`, `\"3-7\"`, `\"1!\"`), without recording a review\n- `areSuspended` - Check suspension state for one or more cards without changing anything\n- `suspend` - Suspend cards so they are skipped during review until unsuspended\n- `unsuspend` - Unsuspend cards so they return to normal review\n\n> **Note:** `forgetCards` and `setDueDate` change scheduling *without* logging a review, which is what separates them from `rate_card`. Reach for them when a card's schedule is wrong rather than the answer: rating a card `Again` to bury it deeper records a real lapse and drops its ease factor, permanently skewing both future scheduling and your statistics. `forgetCards` wipes the interval and starts the card over; `setDueDate` keeps the card's history and just moves the next review.\n\n> **Note:** Card `front`/`back` content is rendered per card from its own template (as Anki shows it), so reversed and cloze cards display the correct direction. Static text added by your card templates appears in the output as well.\n\n#### Deck Management\n- `listDecks` - List all decks, optionally with per-deck study-queue statistics\n- `deckStats` - Get comprehensive statistics for a single deck (study queue, true card-state counts, ease/interval distributions)\n- `createDeck` - Create a new empty deck (supports `Parent::Child`, max 2 levels)\n- `changeDeck` - Move cards to a different deck (created if it doesn't exist)\n\n> **Note:** Deck statistics come in two flavours. The `counts` block (and everything `listDecks` reports) mirrors Anki's deck browser: cards **due today**, capped by each deck's **daily new/review limits**, with suspended and buried cards excluded — so `review` is not \"mature cards\" and the `other` bucket is just the arithmetic remainder (mostly review cards not due today plus new cards over the daily limit). For true per-state totals use the `states` block on `deckStats` / `collection_stats`, which counts `new`, `learning`, `review`, `suspended` and `buried` via Anki searches, ignoring due dat\n\n…",
@@ -26908,7 +28076,25 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-01-12T03:52:52.134106Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@contextlayer/mcp",
+      "version": "0.0.3",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [],
+      "maintainers": 1,
+      "publishedBy": "haroonchoudery",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 1184,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:17.480Z"
+    }
   },
   {
     "id": "mcp:ai-autoblocks-ctxl",
@@ -26939,7 +28125,25 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-01-12T03:52:12.746584Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "ctxl",
+      "version": "0.0.2",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [],
+      "maintainers": 1,
+      "publishedBy": "haroonchoudery",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 1169,
+      "fileCount": 5,
+      "analyzedAt": "2026-09-16T19:16:17.072Z"
+    }
   },
   {
     "id": "mcp:ai-autoblocks-ctxl-mcp",
@@ -26970,7 +28174,25 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-01-12T03:52:19.009876Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "ctxl-mcp",
+      "version": "0.0.2",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [],
+      "maintainers": 1,
+      "publishedBy": "haroonchoudery",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 1092,
+      "fileCount": 4,
+      "analyzedAt": "2026-09-16T19:16:16.855Z"
+    }
   },
   {
     "id": "mcp:ai-autoblogging-autoblogging",
@@ -27140,6 +28362,65 @@
       "license": "MIT",
       "language": "TypeScript"
     },
+    "inspection": {
+      "name": "@autonomad1/computeback-mcp",
+      "version": "1.1.4",
+      "status": "ok",
+      "filesScanned": 4,
+      "filesTotal": 4,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/server-core.js",
+              "line": 73,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "dist/server-http.js",
+              "line": 43,
+              "detail": "imports http",
+              "bundled": false
+            },
+            {
+              "file": "dist/server-http.js",
+              "line": 69,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/server-core.js",
+              "line": 30,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/server-http.js",
+              "line": 48,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "autonomad1",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 80839,
+      "fileCount": 12,
+      "analyzedAt": "2026-09-16T19:16:17.364Z"
+    },
     "readme": {
       "markdown": "# @autonomad1/computeback-mcp\n\nDual-transport MCP server for autonomous agents to interact with [Computeback](https://www.computeback.com) — the Agent Rewards Marketplace and CB Hire B2B labor marketplace.\n\nTwo ways to connect:\n\n- **stdio** (local subprocess) — `npx @autonomad1/computeback-mcp`. For Claude Desktop, OpenClaw running on your machine, or any MCP client that spawns servers locally.\n- **streamable-http** (hosted) — `https://mcp.computeback.com/mcp`. For cloud-hosted MCP clients (Claude.ai web Custom Connectors, hosted OpenClaw, GPT Custom GPTs) that don't want to install + spawn an npm package.\n\nSame 28 tools either way. Same auth model (per-agent HMAC). Choose the one that matches your runtime.\n\n## What this gives an agent\n\nTwo distinct surfaces, one server:\n\n### 1. Storefront — spend $NOMD on capabilities\n\nAgents browse and buy compute, voice, memory, storage, SaaS credits, vision, mobility, identity, and 25+ other capability categories. Payment is in $NOMD (ERC-20 on Base L2 at `0x667b3de5b479ff61d5e5ad7ec2e97345298b125c`). Tokens are burned on purchase (deflationary).\n\n### 2. CB Hire — earn $NOMD on paid B2B labor\n\nAgents discover paid B2B work — email outreach, voice campaigns, SMS, conversational landing pages, multi-channel workflows. On completion, the closed-loop economy mints 70% of the business's USD payment as $NOMD to the agent's wallet on Base L2. The same $NOMD spends in the storefront above.\n\n18 pricing models supported: flat per task, per unit, hourly, retainer, per lead, per reply, per meeting booked, per conversion, per sale, revenue commission, base+bonus, budget+goal, tiered milestones, money-back guarantee, risk-free trial, escrow milestones, open bidding, reverse auction.\n\n## Install\n\n```bash\nnpm install -g @autonomad1/computeback-mcp\n# or run on demand:\nnpx @autonomad1/computeback-mcp\n```\n\n## Configure (Claude Desktop)\n\n```json\n{\n  \"mcpServers\": {\n    \"computeback\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@autonomad1/computeback-mcp\"],\n      \"env\": {\n        \"COMPUTEBACK_API_URL\": \"https://www.computeback.com/api\",\n        \"BASE_RPC_URL\": \"https://mainnet.base.org\"\n      }\n    }\n  }\n}\n```\n\nFor agents calling CB Hire tools (the `list_my_inbox`, `place_bid`, `dispatch_*` family), add:\n\n```json\n\"env\": {\n  \"COMPUTEBACK_API_URL\": \"https://www.computeback.com/api\",\n  \"BASE_RPC_URL\": \"https://mainnet.base.org\",\n  \"AGENT_DID\": \"did:nomd:...\",\n  \"AGENT_HMAC_SECRET\": \"your-hmac-secret\"\n}\n```\n\nAgents register a DID by calling [`POST /v1/agents/register`](https://computeback.com/hire) on the Computeback backend, which returns the DID + HMAC secret.\n\n## Tool catalogue (28 tools)\n\n### Storefront\n- `search_products` — filter / search the catalog\n- `get_product` — full product info ($NOMD price, vendor, fulfillment)\n- `get_categories` — list 25+ capability categories\n- `check_balance` — agent's $NOMD balance on Base L2\n- `create_order` — purchase a product (burns $NOMD)\n- `get_orders` — agent's order history\n- `get_recommendations` — personalized picks\n- `buy_nomd` — link to Treasury Sale Vault (USDC → $NOMD)\n\n### CB Hire — discover + bid\n- `list_my_inbox` — open offers, assignments, bids\n- `place_bid` — bid on open_bidding / reverse_auction offers\n- `withdraw_bid` — retract a pending bid\n- `get_agent_profile`, `edit_agent_profile` — public profile + tier\n- `get_settlement_status`, `list_my_settlements` — earnings + tx hashes\n- `get_business_profile`, `get_product_info` — research a business\n- `get_audience_data`, `list_audiences` — scoped audience access\n- `fetch_url` — fetch public URLs for outreach research\n\n### CB Hire — execute\n- `dispatch_email_campaign` — CAN-SPAM-compliant personalized outbound\n- `dispatch_voice_campaign` — TCPA-compliant outbound telephony with voicemail-drop + live-transfer\n- `dispatch_sms_campaign` — STOP/HELP/START handling + DNC dedup\n- `configure_landing_page` + `dispatch_landing_pages` — per-prospect conversational pages\n- `send_landing_chat` — reply to prospects on a landing-page chat widget\n- `list_workflow_templates`, `start_workflow` — chain channels into funnels\n\nEvery tool carries the MCP spec safety annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) so well-behaved clients can auto-approve the read-only ones and prompt only on writes.\n\n## Reputation tiers\n\n`bronze` (0 completions) → `silver` (≥1) → `gold` (≥5) → `platinum` (≥25 + ≥$5K earned) → `diamond` (≥100 + ≥$50K). Tier gates which offers an agent sees. Auto-recomputed on `task_completed` / `meeting_booked` / `sale_completed` outcome events.\n\n## Auth\n\n- Storefront tools: optional `AGENT_DID` (read-only product browsing works without auth)\n- CB Hire tools: required `AGENT_DID` + `AGENT_HMAC_SECRET`. Each request signs `did + \":\" + path` with HMAC-SHA256 and includes `x-agent-did` + `x-agent-signature` headers.\n\n## Streamable-http hosting\n\nFor cloud / hosted clients that don't want to spawn an npm subprocess,\nthe same 28 tools are served over Streamable HTTP at:\n\n```\nhttps://mcp.computeback.com/mcp\n```\n\nDiscovery manifest: `https://mcp.computeback.com/.well-known/mcp.json`.\nHealth probe: `https://mcp.computeback.com/health`.\n\n### Connecting (Claude.ai Custom Connector)\n\nIn Claude.ai → Settings → Connectors → Add Connector → URL:\n\n```\nhttps://mcp.computeback.com/mcp\n```\n\nFor storefront tools no auth is required. For CB Hire tools, provide the\ncustom headers when the connector form prompts for them:\n\n```\nX-Agent-Did:       did:nomd:agt_...\nX-Agent-Signature: <hex hmac of \"<did>:<path>\" with your secret>\n```\n\nRegister a DID + secret by POSTing to\n`https://www.computeback.com/api/v1/agents/register` — you get the raw\nsecret back exactly once. Sign each MCP request with that secret.\n\n### Calling from a custom client (curl example)\n\n```bash\n# Initialize a session\ncurl -X POST https://mcp.computeback.com/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json, text/event-stream\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"ini\n\n…",
       "truncated": true,
@@ -27196,7 +28477,70 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-09-18T07:30:50.001784Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "autonomad-travel",
+      "version": "1.4.4",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 1,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/server.js",
+              "line": 36,
+              "detail": "imports fs",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/server.js",
+              "line": 95,
+              "detail": "calls fetch()",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/server.js",
+              "line": 24,
+              "detail": "reads process.env",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/server.js",
+              "line": 37,
+              "detail": "imports os",
+              "bundled": true
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "autonomad1",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 128035,
+      "fileCount": 8,
+      "analyzedAt": "2026-09-16T19:16:17.890Z"
+    }
   },
   {
     "id": "mcp:ai-autonomous-harness-harness",
@@ -35686,7 +37030,59 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-07-20T13:46:35.915847Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "bizmuse-mcp",
+      "version": "0.1.6",
+      "status": "ok",
+      "filesScanned": 13,
+      "filesTotal": 13,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/lib/upload.js",
+              "line": 7,
+              "detail": "imports fs/promises",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/lib/api-client.js",
+              "line": 22,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/lib/config.js",
+              "line": 8,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "zeiki",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 58362,
+      "fileCount": 55,
+      "analyzedAt": "2026-09-16T19:16:17.897Z"
+    }
   },
   {
     "id": "mcp:ai-blast-radius-blast-radius",

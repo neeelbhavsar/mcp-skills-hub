@@ -53,13 +53,22 @@ straight from any server's page.
 An MCP server runs with your credentials, and a stdio one executes code on your machine.
 Every server page states, plainly:
 
+- **What the code can actually do** — the published package is downloaded and parsed (never run),
+  and every capability it reaches for is listed with the file and line: *"this server can run other
+  programs on your machine"*
+- **How it was published** — npm trusted-publisher identity, provenance attestation, maintainer
+  count, and whether anything runs on install
 - **What it can reach** — local execution with your permissions, or data sent to a named third-party host
 - **Whether it's maintained** — last commit, archived, fork, license, stars
 - **Whether anyone uses it** — npm weekly downloads, publish recency, deprecation
 - **Whether it is what it claims** — the package's declared repo vs. the registry's
 
 These are *signals*, not a safety score. None proves a server is safe or malicious — the page
-says what it knows and lets you decide.
+says what it knows, cites where it saw it, and lets you decide. Source analysis is descriptive
+rather than judgmental: a filesystem server reading files is the product working. Its limits are
+printed next to the findings, not in a footnote — dependencies aren't analyzed, bundled code
+can't be attributed to the author, and nothing assembled at runtime is visible. Maintainers can
+[submit a correction](https://mcp-skills-hub.vercel.app/submit).
 
 ## 🧰 Set up ten servers at once
 

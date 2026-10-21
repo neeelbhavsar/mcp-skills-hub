@@ -46,6 +46,24 @@ export function GET() {
         };
       })(),
       readmeUrl: m.readme?.url ?? null,
+      // Static analysis of the published package: what the shipped code reaches
+      // for, with file:line evidence, plus how it was published. npm packages
+      // only; null for remote servers and other registries.
+      inspection: m.inspection
+        ? {
+            version: m.inspection.version,
+            status: m.inspection.status,
+            bundled: (m.inspection.bundledFiles ?? 0) > 0,
+            capabilities: m.inspection.capabilities.map((c) => ({
+              id: c.id,
+              evidence: c.evidence,
+            })),
+            maintainers: m.inspection.maintainers,
+            trustedPublisher: m.inspection.trustedPublisher,
+            provenance: m.inspection.provenance,
+            installScripts: m.inspection.installScripts,
+          }
+        : null,
     })),
   };
 
