@@ -146,6 +146,11 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  /* Third-party text (READMEs, descriptions) carries long URLs and paths that
+     would otherwise push narrow screens into horizontal scroll. */
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 /* Ambient dot-grid backdrop for the whole app. */
@@ -197,6 +202,14 @@ body::before {
     background-clip: text;
     color: transparent;
     animation: var(--animate-shimmer);
+  }
+  /* Horizontal swipe strips (chip rows on phones) without a visible bar. */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
   }
   .ring-focus:focus-visible {
     outline: 2px solid var(--brand-2);

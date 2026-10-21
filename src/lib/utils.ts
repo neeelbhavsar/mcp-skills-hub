@@ -22,3 +22,18 @@ export function timeAgo(iso: string | null | undefined): string {
   if (days < 365) return `${Math.floor(days / 30)}mo ago`;
   return `${Math.floor(days / 365)}y ago`;
 }
+
+/**
+ * URL-safe form of an MCP tool name.
+ *
+ * Lives here rather than in lib/data so client components can link to a tool
+ * page without importing the catalog JSON — data.ts pulls in every server,
+ * skill and repo, which would be megabytes in the browser bundle.
+ */
+export function toolSlug(name: string) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80);
+}

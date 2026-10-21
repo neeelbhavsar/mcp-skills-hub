@@ -82,6 +82,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
           {entries.length >= 2 && (
             <Link
               href={`/compare?servers=${entries.slice(0, 4).map((e) => e.slug).join(",")}`}
+              rel="nofollow"
               className="ring-focus inline-flex items-center gap-1.5 rounded-lg border border-border px-2.5 py-1.5 text-xs text-muted transition-colors hover:text-foreground"
             >
               <Scale className="h-3.5 w-3.5" /> Compare

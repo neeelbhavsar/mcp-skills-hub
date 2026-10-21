@@ -3,6 +3,7 @@
 
 import { getJSON, getText, slugify, clean, categorize, log } from "./lib/util.mjs";
 import { attachRepoMeta } from "./lib/github.mjs";
+import { attachReadmes } from "./lib/readme.mjs";
 
 const SKILL_CATEGORIES = [
   { name: "Coding & Engineering", keys: ["code", "debug", "review", "refactor", "test", "lint", "typescript", "python", "api", "backend", "frontend", "git", "commit"] },
@@ -14,6 +15,37 @@ const SKILL_CATEGORIES = [
 ];
 
 const catOf = (text) => categorize(text, SKILL_CATEGORIES);
+
+/**
+ * Resolve where a plugin's code actually lives.
+ *
+ * The manifest declares a per-plugin `source`, which we were discarding — so
+ * all 297 plugins in the official marketplace were attributed to
+ * anthropics/claude-plugins-official, inherited its 36,397 stars, and linked
+ * there instead of to their own repo. Every one of those pages was stating
+ * something false and reading as a near-duplicate of the other 296.
+ *
+ * Three shapes appear in the wild:
+ *   "./plugins/foo"                          — a subdirectory of the marketplace
+ *   { source: "url", url }                   — its own repository
+ *   { source: "git-subdir", url, path, ref } — a subdirectory of another repo
+ */
+function resolveSource(plugin, marketplaceRepo) {
+  const raw = plugin.source;
+
+  if (typeof raw === "string") {
+    const subdir = raw.replace(/^\.\//, "").replace(/\/+$/, "");
+    return { repo: marketplaceRepo, subdir: subdir || null };
+  }
+
+  const url = raw?.url;
+  const match = typeof url === "string" ? url.match(/github\.com\/([^/]+)\/([^/.]+)/i) : null;
+  if (!match) return { repo: marketplaceRepo, subdir: null };
+
+  const repo = `${match[1]}/${match[2]}`;
+  const subdir = raw.source === "git-subdir" && raw.path ? String(raw.path).replace(/\/+$/, "") : null;
+  return { repo, subdir, ref: raw.ref || null };
+}
 
 const MANIFESTS = [
   { url: "https://raw.githubusercontent.com/anthropics/skills/main/.claude-plugin/marketplace.json", source: "Anthropic Skills", repo: "anthropics/skills" },
@@ -28,17 +60,27 @@ async function fromManifest({ url, source, repo }) {
     for (const p of plugins) {
       const desc = clean(p.description || "");
       const skillList = Array.isArray(p.skills) ? p.skills : [];
+      const origin = resolveSource(p, repo);
+      const sourceUrl = origin.subdir
+        ? `https://github.com/${origin.repo}/tree/${origin.ref || "main"}/${origin.subdir}`
+        : `https://github.com/${origin.repo}`;
+
       out.push({
         id: `skill:${slugify(repo + "-" + p.name)}`,
         name: p.name,
         slug: slugify(p.name),
         description: desc,
         category: catOf(`${p.name} ${desc}`),
-        author: data.owner?.name || repo.split("/")[0],
+        // The publisher, not whoever hosts the marketplace listing it.
+        author: origin.repo.split("/")[0],
         skills: skillList.map((s) => (typeof s === "string" ? s : s.name)).filter(Boolean),
         source,
-        repo,
-        sourceUrl: `https://github.com/${repo}`,
+        repo: origin.repo,
+        subdir: origin.subdir,
+        homepage: p.homepage || null,
+        // Points at the plugin itself, including the subdirectory when it is
+        // one folder inside a larger repository.
+        sourceUrl,
         target: "claude",
         stars: null,
       });
@@ -114,7 +156,19 @@ export async function fetchSkills() {
   const all = [...bySlug.values()].filter((s) => s.name && s.description);
   // Skills inherit the star count of the repo they ship in — it is the only
   // popularity signal available, and without it "Popular" cannot sort.
-  await attachRepoMeta(all, (s) => s.sourceUrl || `https://github.com/${s.repo}`);
+  // Each skill's OWN repo, so stars and maintenance reflect the plugin rather
+  // than whichever marketplace happens to list it.
+  await attachRepoMeta(all, (s) => `https://github.com/${s.repo}`);
+
+  // The skill's own documentation. This is the only substantial unique text on
+  // a skill page: without it they ran ~185 words at 86% word overlap with each
+  // other, which is why Google crawled them and declined to index.
+  await attachReadmes(
+    all,
+    (s) => s.repo,
+    (s) => s.subdir ?? null,
+  );
+
   log(`Skills total after dedupe: ${all.length}`);
   return all;
 }

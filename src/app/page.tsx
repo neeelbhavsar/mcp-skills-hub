@@ -76,7 +76,10 @@ export default function Home() {
         title="Just published this"
         highlight="week"
         description="The newest MCP servers to land in the official registry — updated daily. Subscribe via RSS to follow along."
-        href="/mcps?sort=recent"
+        // Not /mcps?sort=recent: that URL canonicalises to /mcps, so linking it
+        // from here made Google crawl it only to report "Alternate page with
+        // proper canonical tag". /whats-new is the purpose-built page anyway.
+        href="/whats-new"
         cta="See what's new"
         icon={<RefreshCw className="h-3.5 w-3.5" />}
         items={recentMcps.map(mcpToCard)}

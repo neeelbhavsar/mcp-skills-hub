@@ -56,7 +56,7 @@ export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
           }}
           placeholder="create_issue, search, query, screenshot…"
           aria-label="Search tools"
-          className="ring-focus h-12 w-full rounded-xl border border-border bg-surface pl-10 pr-10 font-mono text-sm text-foreground placeholder:font-sans placeholder:text-muted-2 focus:border-brand/50"
+          className="ring-focus h-12 w-full rounded-xl border border-border bg-surface pl-10 pr-10 font-mono text-base text-foreground sm:text-sm placeholder:font-sans placeholder:text-muted-2 focus:border-brand/50"
         />
         {query && (
           <button

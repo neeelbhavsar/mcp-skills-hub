@@ -64,8 +64,15 @@ export default async function StackPage({ params }: { params: Promise<{ slug: st
       <PageHeader eyebrow="Starter pack" title={stack.name} highlight="" subtitle={stack.rationale} />
 
       <section className="mx-auto max-w-3xl px-4 pb-2 sm:px-6">
+        {/*
+          nofollow because ?servers= canonicalises to /setup: crawling it gains
+          nothing and shows up in Search Console as "Alternate page with proper
+          canonical tag". The parameter is load-bearing for people, so the link
+          itself stays.
+        */}
         <Link
           href={setupHref}
+          rel="nofollow"
           className="ring-focus group inline-flex items-center gap-2 rounded-xl brand-gradient px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/30 transition-transform hover:scale-[1.02] active:scale-95"
         >
           <Layers className="h-4 w-4" />

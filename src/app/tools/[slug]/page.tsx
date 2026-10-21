@@ -8,6 +8,7 @@ import { healthOf } from "@/lib/health";
 import { HealthPill } from "@/components/catalog/health-badge";
 import { PageHeader } from "@/components/layout/page-header";
 import { absoluteUrl, breadcrumbJsonLd, resourcePath, OG_IMAGE } from "@/lib/seo";
+import { isIndexableTool } from "@/lib/tool-index";
 
 export const dynamicParams = false;
 
@@ -40,6 +41,12 @@ export async function generateMetadata({
     description,
     alternates: { canonical: path },
     openGraph: { type: "article", url: path, title: `${title} — AI Library`, description, images: [OG_IMAGE] },
+    // A one-word tool exposed by a single server restates a row of that
+    // server's page. The page stays live and linked; it just stops competing
+    // for crawl budget with pages that can actually earn a visit.
+    ...(isIndexableTool(page.name, page.providers.length)
+      ? {}
+      : { robots: { index: false, follow: true } }),
   };
 }
 

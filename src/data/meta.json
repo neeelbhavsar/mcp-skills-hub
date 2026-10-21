@@ -1,42 +1,42 @@
 {
-  "updatedAt": "2026-09-16T19:15:47.456Z",
+  "updatedAt": "2026-10-20T11:11:43Z",
   "counts": {
-    "skills": 328,
-    "mcps": 233,
-    "repos": 127
+    "skills": 338,
+    "mcps": 281,
+    "repos": 119
   },
   "categories": {
     "skills": {
       "Documents & Office": 22,
       "Design & Creative": 41,
       "Other": 21,
-      "Coding & Engineering": 98,
-      "Automation & Workflow": 87,
-      "Writing & Content": 10,
-      "Data & Analysis": 49
+      "Coding & Engineering": 102,
+      "Automation & Workflow": 90,
+      "Writing & Content": 9,
+      "Data & Analysis": 53
     },
     "mcps": {
-      "Dev Tools & Git": 5,
-      "Web & Search": 22,
-      "AI & Memory": 60,
-      "Productivity": 10,
-      "Design & Media": 11,
-      "Marketing & Social": 18,
-      "Finance & Data": 22,
-      "Commerce & Retail": 9,
+      "Dev Tools & Git": 7,
+      "Web & Search": 31,
+      "AI & Memory": 73,
+      "Productivity": 7,
+      "Design & Media": 18,
+      "Marketing & Social": 23,
+      "Other": 53,
+      "Commerce & Retail": 11,
+      "Health & Science": 2,
+      "Finance & Data": 26,
       "Legal & Government": 12,
-      "Other": 41,
       "Databases & Storage": 4,
-      "Cloud & DevOps": 5,
-      "Docs & Knowledge": 9,
-      "Health & Science": 5
+      "Cloud & DevOps": 2,
+      "Docs & Knowledge": 12
     },
     "repos": {
       "MCP & Tooling": 20,
-      "AI Agents": 32,
-      "LLM Frameworks": 11,
+      "AI Agents": 27,
+      "LLM Frameworks": 9,
       "Coding Assistants": 18,
-      "RAG & Retrieval": 13,
+      "RAG & Retrieval": 12,
       "Prompts": 15,
       "Awesome Lists": 18
     }

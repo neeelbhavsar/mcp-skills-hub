@@ -10,6 +10,10 @@ export interface Skill {
   repo: string;
   sourceUrl: string;
   target: "claude" | "multi";
+  /** Folder within `repo` when the skill is one plugin in a larger monorepo. */
+  subdir?: string | null;
+  homepage?: string | null;
+  readme?: Readme | null;
   stars: number | null;
   repoMeta?: RepoMeta | null;
 }

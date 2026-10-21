@@ -8,6 +8,7 @@ import { attachRepoMeta } from "./lib/github.mjs";
 import { resolveNpmPackages } from "./lib/npm.mjs";
 import { attachInspections } from "./lib/inspect-package.mjs";
 import { fetchReferenceMCPs } from "./fetch-reference-mcps.mjs";
+import { fetchCuratedMCPs } from "./curated-mcps.mjs";
 import { attachTools } from "./lib/mcp-probe.mjs";
 import { attachReadmes } from "./lib/readme.mjs";
 import { repoSlugFromUrl } from "./lib/github.mjs";
@@ -180,15 +181,17 @@ async function fromGlama(max = 180) {
 }
 
 export async function fetchMCPs() {
-  const [reference, official, glama] = await Promise.all([
+  const [reference, curated, official, glama] = await Promise.all([
     fetchReferenceMCPs(),
+    fetchCuratedMCPs(),
     fromOfficialRegistry(),
     fromGlama(),
   ]);
   // Dedupe by slug. Reference servers come first: they are the canonical
-  // implementations and the ones people search for by name.
+  // implementations and the ones people search for by name. Curated entries
+  // follow, since they exist precisely to correct what the registry omits.
   const bySlug = new Map();
-  for (const item of [...reference, ...official, ...glama]) {
+  for (const item of [...reference, ...curated, ...official, ...glama]) {
     const key = item.slug;
     if (!bySlug.has(key)) bySlug.set(key, item);
     else {
