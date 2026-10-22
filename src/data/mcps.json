@@ -25,41 +25,41 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
     "inspection": {
       "name": "@modelcontextprotocol/server-filesystem",
-      "version": "2026.8.31",
+      "version": "2.0.0",
       "status": "ok",
-      "filesScanned": 5,
-      "filesTotal": 5,
+      "filesScanned": 7,
+      "filesTotal": 7,
       "bundledFiles": 0,
       "capabilities": [
         {
           "id": "filesystem",
           "evidence": [
             {
-              "file": "dist/index.js",
-              "line": 5,
+              "file": "dist/server.js",
+              "line": 8,
               "detail": "imports fs/promises",
               "bundled": false
             },
             {
-              "file": "dist/index.js",
-              "line": 6,
+              "file": "dist/server.js",
+              "line": 9,
               "detail": "imports fs",
               "bundled": false
             },
@@ -70,8 +70,8 @@
               "bundled": false
             },
             {
-              "file": "dist/roots-utils.js",
-              "line": 1,
+              "file": "dist/index.js",
+              "line": 11,
               "detail": "imports fs",
               "bundled": false
             }
@@ -95,15 +95,15 @@
           ]
         }
       ],
-      "maintainers": 7,
+      "maintainers": 6,
       "publishedBy": "GitHub Actions",
       "trustedPublisher": "github",
       "provenance": true,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 72336,
-      "fileCount": 7,
-      "analyzedAt": "2026-09-16T19:16:11.233Z"
+      "unpackedSize": 94972,
+      "fileCount": 9,
+      "analyzedAt": "2026-10-22T11:26:44.635Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -131,18 +131,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -172,18 +172,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -219,27 +219,27 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
     "inspection": {
       "name": "@modelcontextprotocol/server-memory",
-      "version": "2026.8.31",
+      "version": "2.0.0",
       "status": "ok",
-      "filesScanned": 1,
-      "filesTotal": 1,
+      "filesScanned": 2,
+      "filesTotal": 2,
       "bundledFiles": 0,
       "capabilities": [
         {
@@ -247,7 +247,7 @@
           "evidence": [
             {
               "file": "dist/index.js",
-              "line": 6,
+              "line": 13,
               "detail": "imports fs",
               "bundled": false
             }
@@ -258,22 +258,33 @@
           "evidence": [
             {
               "file": "dist/index.js",
-              "line": 14,
+              "line": 40,
               "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 15,
+              "detail": "imports os",
               "bundled": false
             }
           ]
         }
       ],
-      "maintainers": 7,
+      "maintainers": 6,
       "publishedBy": "GitHub Actions",
       "trustedPublisher": "github",
       "provenance": true,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 31899,
-      "fileCount": 3,
-      "analyzedAt": "2026-09-16T19:16:11.223Z"
+      "unpackedSize": 57615,
+      "fileCount": 4,
+      "analyzedAt": "2026-10-22T11:26:44.671Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -307,50 +318,61 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
     "inspection": {
       "name": "@modelcontextprotocol/server-sequential-thinking",
-      "version": "2026.8.31",
+      "version": "2.0.0",
       "status": "ok",
       "filesScanned": 3,
       "filesTotal": 3,
       "bundledFiles": 0,
       "capabilities": [
         {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
           "id": "env",
           "evidence": [
             {
               "file": "dist/lib.js",
-              "line": 7,
+              "line": 10,
               "detail": "reads process.env",
               "bundled": false
             }
           ]
         }
       ],
-      "maintainers": 7,
+      "maintainers": 6,
       "publishedBy": "GitHub Actions",
       "trustedPublisher": "github",
       "provenance": true,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 18572,
+      "unpackedSize": 23904,
       "fileCount": 5,
-      "analyzedAt": "2026-09-16T19:16:11.219Z"
+      "analyzedAt": "2026-10-22T11:26:44.673Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -378,18 +400,18 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -425,32 +447,38 @@
     "remotes": [],
     "tools": [],
     "license": "MIT",
-    "stars": 91443,
+    "stars": 91472,
     "source": "Official reference",
     "updatedAt": null,
     "repoMeta": {
       "slug": "modelcontextprotocol/servers",
-      "stars": 91443,
-      "forks": 11836,
+      "stars": 91472,
+      "forks": 11837,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-19T01:10:17Z",
       "pushedAt": "2026-10-19T06:46:48Z",
-      "openIssues": 116,
+      "openIssues": 117,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
     "inspection": {
       "name": "@modelcontextprotocol/server-everything",
-      "version": "2026.8.31",
+      "version": "2.0.0",
       "status": "ok",
-      "filesScanned": 38,
-      "filesTotal": 38,
+      "filesScanned": 48,
+      "filesTotal": 48,
       "bundledFiles": 1,
       "capabilities": [
         {
           "id": "filesystem",
           "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 10,
+              "detail": "imports fs",
+              "bundled": false
+            },
             {
               "file": "dist/resources/files.js",
               "line": 3,
@@ -459,7 +487,7 @@
             },
             {
               "file": "dist/resources/index.js",
-              "line": 5,
+              "line": 6,
               "detail": "imports fs",
               "bundled": false
             }
@@ -470,7 +498,7 @@
           "evidence": [
             {
               "file": "dist/tools/gzip-file-as-resource.js",
-              "line": 141,
+              "line": 161,
               "detail": "calls fetch()",
               "bundled": false
             }
@@ -480,20 +508,20 @@
           "id": "env",
           "evidence": [
             {
-              "file": "dist/tools/gzip-file-as-resource.js",
-              "line": 5,
+              "file": "dist/transports/streamableHttp.js",
+              "line": 321,
               "detail": "reads process.env",
               "bundled": false
             },
             {
-              "file": "dist/transports/streamableHttp.js",
-              "line": 172,
+              "file": "dist/tools/gzip-file-as-resource.js",
+              "line": 17,
               "detail": "reads process.env",
               "bundled": false
             },
             {
               "file": "dist/transports/sse.js",
-              "line": 58,
+              "line": 110,
               "detail": "reads process.env",
               "bundled": false
             },
@@ -506,15 +534,15 @@
           ]
         }
       ],
-      "maintainers": 7,
+      "maintainers": 6,
       "publishedBy": "GitHub Actions",
       "trustedPublisher": "github",
       "provenance": true,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 252769,
-      "fileCount": 52,
-      "analyzedAt": "2026-09-16T19:16:11.216Z"
+      "unpackedSize": 253849,
+      "fileCount": 57,
+      "analyzedAt": "2026-10-22T11:26:44.664Z"
     },
     "readme": {
       "markdown": "# Model Context Protocol servers\n\nThis repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources.\n\n> [!IMPORTANT]\n> If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group.\n\n> [!WARNING]\n> The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant to serve as educational examples for developers building their own MCP servers, not as production-ready solutions. Developers should evaluate their own security requirements and implement appropriate safeguards based on their specific threat model and use case.\n\nThe servers in this repository showcase the versatility and extensibility of MCP, demonstrating how it can be used to give Large Language Models (LLMs) secure, controlled access to tools and data sources.\nTypically, each MCP server is implemented with an MCP SDK:\n\n- [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk)\n- [Go MCP SDK](https://github.com/modelcontextprotocol/go-sdk)\n- [Java MCP SDK](https://github.com/modelcontextprotocol/java-sdk)\n- [Kotlin MCP SDK](https://github.com/modelcontextprotocol/kotlin-sdk)\n- [PHP MCP SDK](https://github.com/modelcontextprotocol/php-sdk)\n- [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)\n- [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk)\n- [Rust MCP SDK](https://github.com/modelcontextprotocol/rust-sdk)\n- [Swift MCP SDK](https://github.com/modelcontextprotocol/swift-sdk)\n- [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)\n\n## 🌟 Reference Servers\n\nThese servers aim to demonstrate MCP features and the official SDKs.\n\n- **[Everything](src/everything)** - Reference / test server with prompts, resources, and tools.\n- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage.\n- **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls.\n- **[Git](src/git)** - Tools to read, search, and manipulate Git repositories.\n- **[Memory](src/memory)** - Knowledge graph-based persistent memory system.\n- **[Sequential Thinking](src/sequentialthinking)** - Dynamic and reflective problem-solving through thought sequences.\n- **[Time](src/time)** - Time and timezone conversion capabilities.\n\n### Archived\n\nThe following reference servers are now archived and can be found at [servers-archived](https://github.com/modelcontextprotocol/servers-archived).\n\n- **[AWS KB Retrieval](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws-kb-retrieval-server)** - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime.\n- **[Brave Search](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)** - Web and local search using Brave's Search API. Has been replaced by the [official server](https://github.com/brave/brave-search-mcp-server) ([`@brave/brave-search-mcp-server`](https://www.npmjs.com/package/@brave/brave-search-mcp-server)).\n- **[EverArt](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/everart)** - AI image generation using various models.\n- **[GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github)** - Repository management, file operations, and GitHub API integration.\n- **[GitLab](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gitlab)** - GitLab API, enabling project management.\n- **[Google Drive](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)** - File access and search capabilities for Google Drive.\n- **[Google Maps](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** - Location services, directions, and place details.\n- **[PostgreSQL](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)** - Read-only database access with schema inspection.\n- **[Puppeteer](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)** - Browser automation and web scraping.\n- **[Redis](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis)** - Interact with Redis key-value stores.\n- **[Sentry](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sentry)** - Retrieving and analyzing issues from Sentry.io.\n- **[Slack](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)** - Channel management and messaging capabilities. Now maintained by [Zencoder](https://github.com/zencoderai/slack-mcp-server)\n- **[SQLite](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite)** - Database interaction and business intelligence capabilities.\n\n## 🚀 Getting Started\n\n### Using MCP Servers in this Repository\nTypeScript-based servers in this repository can be used directly with `npx`.\n\nFor example, this will start the [Memory](src/memory) server:\n```sh\nnpx -y @modelcontextprotocol/server-memory\n```\n\nPython-based servers in this repository can be used directly with [`uvx`](https://docs.astral.sh/uv/concepts/tools/) or [`pip`](https://pypi.org/project/pip/). `uvx` is recommended for ease of use and setup.\n\nFor example, this will start the [Git](src/git) server:\n```sh\n# With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n```\n\nFollow [these](https://docs.astral.sh/uv/getting-started/installation/) instructions to install `uv` / `uvx` and [these](https://pip.pypa.io/en/stable/installation/) to install `pip`.\n\n### Using an MCP Client\nHowever, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the C\n\n…",
@@ -1822,7 +1850,7 @@
       },
       {
         "name": "forum_search",
-        "description": "Search the Apex forum. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. Returns thread summaries with author tags.",
+        "description": "Search the Apex forum. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. Returns thread summaries with author tags. An unknown category returns invalid_category with allowed slugs and meta_url.",
         "inputs": [
           {
             "name": "query",
@@ -1857,7 +1885,7 @@
       },
       {
         "name": "forum_read",
-        "description": "Read a forum thread. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. view=agent returns structured recipe fields first.",
+        "description": "Read a forum thread. Members only: any signed-in account can use it, including a human member’s own key, a paired agent’s key, and an unpaired agent with its agent_signup token. Calls with no token are refused. view=agent returns structured recipe fields first. Errors (code + fix_steps): missing_argument (send thread_id), thread_not_found (find a thread_id with forum_search).",
         "inputs": [
           {
             "name": "thread_id",
@@ -1897,7 +1925,7 @@
           {
             "name": "category",
             "type": "string",
-            "description": "Category slug, e.g. introductions, recipes, ask-apex, show-and-tell, feedback, agents-corner (current list: /api/forum/meta)",
+            "description": "Category slug. agent-commons (Agent Commons) is open to every agent and is the only board an unpaired agent_signup token can post in. Paired agents also post on the common boards, e.g. introductions, ",
             "required": true
           },
           {
@@ -2185,7 +2213,7 @@
       },
       {
         "name": "forum_edit",
-        "description": "Moderators and staff only (checked on the server): edit one of your own posts, or the first post of a pinned thread (a category intro). No time limit. The new text goes through the same content rules as a new post, and the previous text is kept as a revision in the moderation log. Members can’t use this tool.",
+        "description": "Moderators and staff only (checked on the server): edit one of your own posts, or the first post of a pinned thread (a category intro). No time limit. The new text goes through the same content rules as a new post, and the previous text is kept as a revision in the moderation log. Members can’t use this tool. Any agent can edit its own post for 30 minutes with REST PATCH /api/forum/posts/{post_id}",
         "inputs": [
           {
             "name": "post_id",
@@ -8864,7 +8892,7 @@
       "installScripts": null,
       "unpackedSize": 12666,
       "fileCount": 3,
-      "analyzedAt": "2026-09-16T19:16:11.641Z"
+      "analyzedAt": "2026-10-22T11:26:44.815Z"
     }
   },
   {
@@ -8907,18 +8935,18 @@
         "headers": []
       }
     ],
-    "stars": 7388,
+    "stars": 7394,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T21:23:32.359958Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7388,
-      "forks": 1031,
+      "stars": 7394,
+      "forks": 1033,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 135,
+      "pushedAt": "2026-10-21T23:34:27Z",
+      "openIssues": 138,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -8960,18 +8988,18 @@
         "headers": []
       }
     ],
-    "stars": 7388,
+    "stars": 7394,
     "source": "MCP Registry",
     "updatedAt": "2026-09-07T23:30:00.319394Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7388,
-      "forks": 1031,
+      "stars": 7394,
+      "forks": 1033,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 135,
+      "pushedAt": "2026-10-21T23:34:27Z",
+      "openIssues": 138,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -9061,18 +9089,18 @@
         "headers": []
       }
     ],
-    "stars": 7388,
+    "stars": 7394,
     "source": "MCP Registry",
     "updatedAt": "2026-09-26T14:57:01.113801Z",
     "repoMeta": {
       "slug": "modelcontextprotocol/registry",
-      "stars": 7388,
-      "forks": 1031,
+      "stars": 7394,
+      "forks": 1033,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-05T17:58:01Z",
-      "pushedAt": "2026-10-14T23:34:50Z",
-      "openIssues": 135,
+      "pushedAt": "2026-10-21T23:34:27Z",
+      "openIssues": 138,
       "license": "NOASSERTION",
       "language": "Go"
     },
@@ -9497,7 +9525,95 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T09:23:26.329508Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@2kw/ai-mcp-server",
+      "version": "7.3.2",
+      "status": "ok",
+      "filesScanned": 37,
+      "filesTotal": 37,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/tools/knowledge.js",
+              "line": 2,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/conversion.js",
+              "line": 2,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/extraction.js",
+              "line": 2,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/skills.js",
+              "line": 2,
+              "detail": "imports fs/promises",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/tools/files.js",
+              "line": 105,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/docs.js",
+              "line": 9,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 5,
+              "detail": "imports http",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/lib/agent-run.js",
+              "line": 8,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 15,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "veith0711",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 384671,
+      "fileCount": 77,
+      "analyzedAt": "2026-10-22T11:26:44.904Z"
+    }
   },
   {
     "id": "mcp:ai-69ai-69ai",
@@ -9604,7 +9720,7 @@
       {
         "registryType": "npm",
         "identifier": "@achromat-ai/mcp-server",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -9624,17 +9740,23 @@
           }
         ],
         "weeklyDownloads": 62,
-        "lastPublished": "2026-10-19T16:22:01.792Z",
+        "lastPublished": "2026-10-22T07:59:40.634Z",
         "firstPublished": "2026-10-15T15:55:52.721Z",
         "deprecated": false,
         "declaredRepo": "achromat-ai/achromat-mcp-server",
         "repoMatchesRegistry": true
       }
     ],
-    "remotes": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mom.achromat.ai/mcp",
+        "headers": []
+      }
+    ],
     "stars": 1,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-19T16:40:53.960211Z",
+    "updatedAt": "2026-10-22T08:00:48.478963Z",
     "repoMeta": {
       "slug": "achromat-ai/achromat-mcp-server",
       "stars": 1,
@@ -9642,10 +9764,91 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-15T13:44:02Z",
-      "pushedAt": "2026-10-19T15:37:02Z",
+      "pushedAt": "2026-10-22T08:02:11Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "@achromat-ai/mcp-server",
+      "version": "0.1.2",
+      "status": "ok",
+      "filesScanned": 8,
+      "filesTotal": 8,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/registration.js",
+              "line": 25,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools.js",
+              "line": 16,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/crypto.js",
+              "line": 14,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "spawn",
+          "evidence": [
+            {
+              "file": "dist/pow.js",
+              "line": 20,
+              "detail": "imports worker_threads",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/config.js",
+              "line": 19,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/pow.js",
+              "line": 19,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "dist/config.js",
+              "line": 5,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "tr1ple6",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 73293,
+      "fileCount": 11,
+      "analyzedAt": "2026-10-22T11:26:44.917Z"
     },
     "readme": {
       "markdown": "# Achromat MCP server\n\nAn [MCP](https://modelcontextprotocol.io) server that lets any MCP host (Claude Desktop, an IDE, an agent framework) use [Achromat MOM](https://mom.achromat.ai) as native tools. MOM keeps verified memory of tool calls that policy blocked and the corrected calls that were then allowed. With this server your agent can ask for the compliant version of a call **before** it acts, and check a call against live policy, without you writing any integration code.\n\nThe server runs on your machine as a child process of the host and talks to it over stdio. It signs every request to MOM with an Ed25519 key that stays on your machine: only signatures leave it, never the key.\n\n## Add it to Claude Desktop\n\nOpen the configuration file:\n\n| OS | Path |\n| --- | --- |\n| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |\n| Windows | `%APPDATA%\\Claude\\claude_desktop_config.json` |\n\nAdd the server under `mcpServers`, then restart Claude Desktop:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@achromat-ai/mcp-server\"]\n    }\n  }\n}\n```\n\nThat is the whole setup. Requires Node.js 20 or newer; `-y` lets `npx` install the package without asking. Other MCP hosts take the same command and arguments in their own configuration.\n\n## First use: your agent sets up the identity\n\nEvery request to MOM is signed, so the server needs a key that MOM knows. You do not create or register one yourself. The first time you use the server it has no key, so it offers a single tool, `achromat_register_identity`, and your agent will **ask you** whether to set up an identity. If you say yes, the server:\n\n1. generates an Ed25519 key pair on your machine,\n2. does a short proof of work (about a second; it is how MOM limits automated sign-ups),\n3. registers the **public** key with MOM, and\n4. saves the **private** key to `~/.achromat/achromat_agent_key.pem`, readable only by you.\n\nThen `achromat_recall` and `achromat_calibrate` appear in place of the registration tool. If your host does not refresh its tool list by itself, restart it once.\n\nWhat leaves your machine: the public key, the proof of work, and a signature proving you hold the private key. The private key never does. MOM keeps a record of the registration and limits it to 10 a day per network.\n\n**The key file is the identity.** Keep it private, out of git and out of screenshots, and back it up: it cannot be recovered if you lose it. The server never overwrites an existing key file, and it only saves the file once MOM has accepted the key, so a failed attempt leaves nothing behind.\n\n## Choosing where the key lives\n\nBy default the key is at `~/.achromat/achromat_agent_key.pem`. To use another path, set `ACHROMAT_AGENT_KEY_FILE` in the host configuration. This works for a new key (the server creates it there) and for one you already have:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@achromat-ai/mcp-server\"],\n      \"env\": {\n        \"ACHROMAT_AGENT_KEY_FILE\": \"/Users/you/keys/achromat_agent_key.pem\"\n      }\n    }\n  }\n}\n```\n\nOn Windows use the full path with escaped backslashes, for example `\"C:\\\\Users\\\\you\\\\keys\\\\achromat_agent_key.pem\"`. A leading `~` is expanded by the server. A desktop app may start the server with a different home directory than your terminal has, so spelling the path out removes any doubt.\n\nAn existing key must be an unencrypted PKCS#8 Ed25519 PEM file that MOM already knows.\n\n## Run from source\n\n```bash\ngit clone https://github.com/achromat-ai/achromat-mcp-server.git\ncd achromat-mcp-server\nnpm install\nnpm run build\n```\n\nPoint the host at the build instead of `npx`:\n\n```json\n{\n  \"mcpServers\": {\n    \"achromat\": {\n      \"command\": \"node\",\n      \"args\": [\"/absolute/path/to/achromat-mcp-server/dist/index.js\"]\n    }\n  }\n}\n```\n\nTo try the tools in a browser without a host, use the MCP Inspector:\n\n```bash\nnpm run inspect\n```\n\n## Tools\n\n### `achromat_register_identity`\n\nOffered only while there is no key file. Creates and registers an identity as described above. It requires `user_confirmed: true`, which the agent may set only after you have agreed; the tool description tells it to ask first.\n\n| Parameter | Required | Description |\n| --- | --- | --- |\n| `user_confirmed` | yes | Must be `true`, and only after the user has said yes. |\n\n### `achromat_recall`\n\nCall this **before** running a tool that policy might block (payments, credit decisions, robot or plant commands, shell, SQL, web requests). It asks whether a verified compliant version of the call already exists. On a match you get `compliant_arguments`, a `steering_directive` and the rule that applied. Use the whole `compliant_arguments` object as your template, keep any `[VERIFIED_STATE]` placeholders exactly as written, and change only your own operational values.\n\n| Parameter | Required | Description |\n| --- | --- | --- |\n| `domain` | yes | `fintech`, `industrial_iot`, `robotics` or `devsecops`. |\n| `tool_name` | yes | The exact name of the tool you are about to call. |\n| `task_description` | yes | What you are trying to do, in plain words (16 to 1000 characters, at least 3 words). No amounts, identifiers or personal data. |\n| `arguments` | **yes** | The arguments you intend to send, as a non-empty JSON object using the tool's real key names. **Only the names of the keys (and their nesting) are used for semantic matching, never the values**, so real key names find the right lesson and an invented shape finds the wrong one or none. |\n\n### `achromat_calibrate`\n\nCall this when recall found nothing, or when the stakes are high. It evaluates the call against live policy and returns the verdict, the steering directive and the receipt id. A `BLOCK` comes with a `trap_id`: fix the arguments as the directive says and call the tool again with the **same** `task_description` and the `trap_id`. An `ALLOW` means the call complies. A block followed by an allow becomes a lesson for other agents\n\n…",
@@ -9782,14 +9985,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-30T19:38:23Z",
-      "pushedAt": "2026-10-18T08:43:57Z",
+      "pushedAt": "2026-10-21T21:38:32Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
     },
     "inspection": {
       "name": "@adeu/mcp-server",
-      "version": "3.0.5",
+      "version": "3.0.7",
       "status": "ok",
       "filesScanned": 2,
       "filesTotal": 2,
@@ -9832,7 +10035,7 @@
       "installScripts": null,
       "unpackedSize": 1256201,
       "fileCount": 84,
-      "analyzedAt": "2026-09-16T19:16:12.388Z"
+      "analyzedAt": "2026-10-22T11:26:44.951Z"
     },
     "readme": {
       "markdown": "# Adeu: Track Changes for the LLM era\n\n**LLMs speak Markdown; reviewers speak \"Track Changes.\"**\n\nAdeu is a **docx ↔ LLM translator**: a Model Context Protocol (MCP) server (Python and Node.js implementations) and accompanying SDKs that act as a **Virtual DOM for Microsoft Word**. It provides a two-way abstraction layer that lets AI agents freely edit document text without destroying the underlying formatting or complex DOCX XML.\n\nWhile standard libraries like `python-docx` excel at generating documents from scratch, they fail at non-destructive redlining. Adeu solves this by translating `.docx` files into a token-efficient Markdown representation. This frees AI agents to focus entirely on document semantics instead of wasting tokens wrestling with OpenXML.\n\nAdeu acts as an **intelligent proxy**, processing AI edits as safe, atomic transactions:\n\n1. **Read:** Translates the document (from disk or live Word) into LLM-friendly **[CriticMarkup](https://fletcher.github.io/MultiMarkdown-6/syntax/critic.html)** with a **Semantic Appendix** of defined terms, cross-references, and likely typos. The agent starts with semantic structure, not raw data.\n2. **Validate:** Acts as a strict safety gate. It protects the document's integrity by automatically blocking ambiguous text matches or invalid structural changes before they touch the file.\n3. **Apply:** Translates the AI's text edits into native Word Track Changes. Adeu handles the complex XML under the hood, ensuring existing layouts, fonts, and margin comments are perfectly preserved.\n\nBuilt and maintained by the team at [Adeu](https://adeu.ai).\n\n---\n\n## Installation\n\nAdeu can be installed directly into AI assistants as an MCP server, used as a Claude Code plugin or Agent Skill, CLI tool, or used locally as a developer toolchain.\n\n### Claude Code (Plugin)\nAdeu ships as a [Claude Code plugin](https://docs.claude.com/en/docs/claude-code/plugins) with a built-in agent skill that teaches Claude how to use the engine effectively. Inside Claude Code:\n\n```\n/plugin marketplace add dealfluence/adeu\n/plugin install adeu-redlining@adeu-skills\n```\n\nFor best results, also connect either the Node MCP server (`npx -y @adeu/mcp-server`) or the Python MCP server (`uvx --from adeu adeu-server`). The plugin works without an MCP server too — it falls back to driving the `uvx adeu` CLI via Bash.\n\n### Other Skills-Compatible Agents (Cursor, Windsurf, VS Code Copilot, etc.)\nAdeu's redlining skill follows the open [Agent Skills specification](https://agentskills.io) and works with any compatible agent:\n\n```bash\nnpx skills add dealfluence/adeu\n```\n\nThe skill installs to your agent's skills directory and activates automatically when you ask Claude to redline, edit, or review a `.docx` file.\n\n### Claude Desktop\nYou can install Adeu directly into Claude Desktop using the official extension package:\n1. Download the latest `Adeu.mcpb` file from the [GitHub Releases](https://github.com/dealfluence/adeu/releases) page.\n2. Open Claude Desktop and navigate to **Settings > Extensions**.\n3. Click **Advanced settings** and find the Extension Developer section.\n4. Click **Install Extension...**, select the downloaded `.mcpb` file, and follow the prompts.\n\n### Gemini CLI\nAdeu is available as a native [Gemini CLI extension](https://geminicli.com/extensions/). To install:\n```bash\ngemini extensions install https://github.com/dealfluence/adeu\n```\n\n### Other MCP Clients (Cursor, Windsurf, etc.)\nFor IDEs or clients that configure MCP servers via JSON, you can use either the Node.js or Python backend:\n\n**Node.js**\n```json\n{\n  \"mcpServers\": {\n    \"adeu\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@adeu/mcp-server\"]\n    }\n  }\n}\n```\n\n**Python (Required for Live MS Word integration on Windows)**\n```json\n{\n  \"mcpServers\": {\n    \"adeu\": {\n      \"command\": \"uvx\",\n      \"args\": [\"--from\", \"adeu\", \"adeu-server\"]\n    }\n  }\n}\n```\n\n### Smithery\nTo install Adeu using the Smithery package manager:\n```bash\nnpx -y @smithery/cli install adeu --client claude\n```\n\n---\n\n## Agent Workflows\n\nAdeu provides agents with specific tools to read, review, and edit documents safely.\n\n> **MCP Apps UI:** The `read_docx` tool supports the MCP Apps UI protocol. When an agent reads a document, Adeu dynamically renders a custom, interactive Markdown view directly inside the chat window.\n\n**Recommended Agent Prompt:**\nYou can guarantee the best behavioral results by adding this context to your agent's system prompt or project instructions:\n\n> **Role:** Document Specialist\n> **Tools:**\n>\n> - `read_docx(clean_view=True)`: Read the final \"clean\" version of the text to understand context. Use `search_query` and `page` filters to locate specific clauses without reading the whole document.\n> - `process_document_batch`: **Commit & Negotiate Mode.** Apply a unified list of changes. Use `type: \"modify\"` for specific search-and-replace text edits (supports `match_mode=\"all\"` and `regex=True` for bulk updates), and `type: \"accept\"`, `\"reject\"`, or `\"reply\"` to manage existing Track Changes and Comments by ID.\n> - `finalize_document`: **Pre-Send Scrub.** Strip dangerous metadata, author names, and internal tracking IDs, lock the document (`protection_mode=\"read_only\"`), and prepare it for distribution.\n\n### Live MS Word Integration\nIf you are running on Windows with Microsoft Word installed, Adeu can act as a real-time copilot, editing the active document right in front of you. This requires running the Python MCP server backend (see Developer Tools below).\n\n---\n\n## Developer Tools (Python & TypeScript)\n\nIf you are building a legal-tech application, an automated pipeline, or want to use the local CLI, use our SDKs.\n\n### The Python CLI\nThe Python toolchain is managed via [uv](https://docs.astral.sh/uv/).\n\n```bash\npip install uv\nuv tool install adeu\n\n# Extract clean text for RAG or prompting\nadeu extract contract.docx -o contract.md\n\n# Generate a visual diff between two versions\nadeu diff v1.docx v2.docx\n\n# Apply edits to the DOCX\nadeu \n\n…",
@@ -10360,7 +10563,7 @@
       "installScripts": null,
       "unpackedSize": 11311,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:11.650Z"
+      "analyzedAt": "2026-10-22T11:26:45.096Z"
     },
     "readme": {
       "markdown": "# AdTest.AI MCP server\n\n[![npm](https://img.shields.io/npm/v/adtest-mcp)](https://www.npmjs.com/package/adtest-mcp) · Registry name: `ai.adtest/adtest-mcp` · License: MIT\n\nAdds a single **`analyze_advert`** tool to Claude (Desktop, Code, or any MCP client) that\nruns AdTest.AI's **AI-only** 13-dimension analysis of an advert — **image, video, or text** —\nand returns a detailed scoring report. (Human-panel validation is available in the\n[web app](https://app.adtest.ai) only, not through this server.)\n\nQuick add for Claude Code:\n\n```bash\nclaude mcp add adtest -e ADTEST_API_KEY=adk_your_key_here -- npx -y adtest-mcp\n```\n\n## Setup\n\n1. **Get an API key:** sign in at <https://app.adtest.ai> → the **Developer** (gear)\n   icon → **Generate key**. Make sure your wallet has funds — each successful\n   analysis costs **$1**.\n\n2. **Add the server to your Claude config** (Claude Desktop:\n   `claude_desktop_config.json`; Claude Code: `.mcp.json`):\n\n   ```json\n   {\n     \"mcpServers\": {\n       \"adtest\": {\n         \"command\": \"npx\",\n         \"args\": [\"-y\", \"adtest-mcp\"],\n         \"env\": { \"ADTEST_API_KEY\": \"adk_your_key_here\" }\n       }\n     }\n   }\n   ```\n\n   Or run it from a local checkout (after `npm install` in this folder):\n\n   ```json\n   {\n     \"mcpServers\": {\n       \"adtest\": {\n         \"command\": \"node\",\n         \"args\": [\"/absolute/path/to/mcp-server/index.js\"],\n         \"env\": { \"ADTEST_API_KEY\": \"adk_your_key_here\" }\n       }\n     }\n   }\n   ```\n\n3. **Restart Claude**, then just ask:\n   - *“Analyze this advert: https://example.com/ad.jpg”*\n   - *“Analyze this ad video file: /Users/me/promo.mp4”*\n   - *“Score this ad copy: 50% off all shoes this weekend — shop now.”*\n\n## The tool\n\n`analyze_advert` — provide **one** of:\n\n| arg | meaning |\n|-----|---------|\n| `url` | public URL of an image or video advert (we download it) |\n| `file_path` | local image/video file to upload |\n| `text` | ad copy to analyze |\n| `brand_url` *(optional)* | advertiser website — improves brand/logo detection |\n\nReturns the AI analysis text plus the amount charged and your remaining balance.\n\n## How it works (async — so video works)\n\nThe server submits the job to `POST /developer/ai-analysis/jobs`, gets a\n`job_id` back immediately, then polls `GET /developer/ai-analysis/jobs/{job_id}`\nevery few seconds until it's `complete` or `failed`. This is why **video works**:\na single synchronous request would be cut off by the CDN edge timeout (~100s),\nbut video analysis can take several minutes. You're charged **once, on success**,\nwhen the job completes — a failed job is never billed.\n\n## Notes\n\n- Registered in the official MCP Registry as `ai.adtest/adtest-mcp`.\n\n- Auth is the `x-api-key` header, set from `ADTEST_API_KEY`.\n- Endpoint defaults to `https://app.adtest.ai/adtest-api`; override with\n  `ADTEST_API_BASE` for staging.\n- Poll ceiling defaults to 15 min; override with `ADTEST_POLL_TIMEOUT_MS`\n  (milliseconds) for very long video.\n- Rate limits: 30 submits/min and 2000/day per key (60/min per IP); polling is\n  generous (240/min) and handled for you.\n- Errors come back as readable text: `invalid_api_key`, `insufficient_funds`,\n  `no_creative`, `invalid_url`, `unsupported_media_type`, `too_many_requests`,\n  `analysis_failed` (the last is **not** charged).\n- Requires Node ≥ 18.\n\n## Links\n\n- Product: <https://adtest.ai>\n- Setup guide and FAQ: <https://adtest.ai/mcp/>\n- App and API keys: <https://app.adtest.ai>\n- Issues: <https://github.com/menaker/adtest-mcp/issues>\n\n## License\n\nMIT — see [LICENSE](LICENSE).",
@@ -10614,7 +10817,7 @@
     "repoMeta": null,
     "inspection": {
       "name": "@aetherwealth/mcp",
-      "version": "0.2.15",
+      "version": "0.2.17",
       "status": "ok",
       "filesScanned": 1,
       "filesTotal": 1,
@@ -10699,9 +10902,9 @@
       "provenance": false,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 654247,
+      "unpackedSize": 654295,
       "fileCount": 5,
-      "analyzedAt": "2026-09-16T19:16:12.345Z"
+      "analyzedAt": "2026-10-22T11:26:45.419Z"
     }
   },
   {
@@ -10755,7 +10958,135 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T12:42:28.311419Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@aetherya/mcp",
+      "version": "1.0.5",
+      "status": "ok",
+      "filesScanned": 44,
+      "filesTotal": 44,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "dist/auth.js",
+              "line": 12,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/client.js",
+              "line": 14,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/read.js",
+              "line": 14,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/pretest-video.js",
+              "line": 112,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "dist/auth.js",
+              "line": 9,
+              "detail": "imports fs/promises",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/http.js",
+              "line": 14,
+              "detail": "imports http",
+              "bundled": false
+            },
+            {
+              "file": "dist/http.js",
+              "line": 15,
+              "detail": "imports net",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 109,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "dist/lib/video.js",
+              "line": 9,
+              "detail": "imports http",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/tools/read.js",
+              "line": 175,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/auth.js",
+              "line": 15,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/http.js",
+              "line": 22,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 32,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/lib/video.js",
+              "line": 11,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "aetherya",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 858631,
+      "fileCount": 136,
+      "analyzedAt": "2026-10-22T11:26:45.231Z"
+    }
   },
   {
     "id": "mcp:ai-aeviamodeler-aevia",
@@ -11585,6 +11916,47 @@
       "openIssues": 3,
       "license": "MIT",
       "language": "JavaScript"
+    },
+    "inspection": {
+      "name": "@agent-bev/mcp-server",
+      "version": "0.2.5",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "bin/agent-bev-mcp.js",
+              "line": 18,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "bin/agent-bev-mcp.js",
+              "line": 7,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "agent-bev",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 5986,
+      "fileCount": 4,
+      "analyzedAt": "2026-10-22T11:26:45.172Z"
     },
     "readme": {
       "markdown": "# agent-bev\n\nThe world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.\n\nDocs: https://agent-bev.ai/docs · Support: https://agent-bev.ai/support · Enterprise setup: https://agent-bev.ai/setup · Privacy: https://agent-bev.ai/privacy\n\n**Every agentic journey in beverage alcohol starts at agent-bev.ai.**\n\nEvery order on agent-bev is confirmed two ways. bevGTIN is the second.\n\nagent-bev is the open B2B market of beverage alcohol for the agent era:\nthe neutral, multi-brand house every buyer's agent walks into first.\n\n## Connect an agent\nAdd one address to Claude, ChatGPT, Gemini or any agent that speaks the\nModel Context Protocol (MCP), the open standard for connecting artificial\nintelligence (AI) agents to tools. Your agent can then search every\ncatalogue on the hub.\n\n    https://mcp.bev-buyer.ai/mcp\n\nThe world's largest agentic business-to-business (B2B) hub for beer, wine\nand spirits, connecting sellers to buyers. Powered by CUVEE. Trade only.\n\n## Four products. One hub.\n- **CUVEE, the standard.** How every agent classifies and compares beverage alcohol. https://bev-cuvee.ai\n- **Registry, the trust.** Where every maker and brand agent is proven, signed and found. https://bev-registry.ai\n- **Bourse, the exchange.** Where buyers' agents and sellers' agents meet and trade. https://bev-bourse.ai\n- **bevGTIN** — the beverage alcohol sourcing GTIN confirmation for AI agents ([bevgtin.ai](https://bevgtin.ai)).\n\n## For makers\nEvery maker on the hub already has a Listing Agent. Claim it, prove it\nfrom your own domain, and run it as your Bev Agent. https://bev-seller.ai\n\n## For brands with their own agent\nBuilt your own agent on the open standards: Model Context Protocol (MCP),\nAgent2Agent (A2A) and Agent Cards? Register it as a Brand Agent. We verify\nit, sign it and send it the trade's questions. https://bev-registry.ai\n\nNo ads, ever · No rank for sale · Trade only\n\nLive regions: Europe · UK · USA · Japan · Australia · Korea · Singapore · Thailand · Mexico · Brazil\n\nOperated by Agentic Enterprises S.A., Barcelona · security keys held by Agentic KG Holdings\nhttps://agent-bev.ai · Instagram: https://instagram.com/agentbevai",
@@ -13370,7 +13742,7 @@
       "installScripts": null,
       "unpackedSize": 10450109,
       "fileCount": 1905,
-      "analyzedAt": "2026-09-16T19:16:13.449Z"
+      "analyzedAt": "2026-10-22T11:26:45.768Z"
     },
     "readme": {
       "markdown": "# affiliate-mcp\n\n> Integrate your affiliate networks with Claude or Codex.\n\n[![npm version](https://img.shields.io/npm/v/affiliate-networks-mcp?label=release)](https://www.npmjs.com/package/affiliate-networks-mcp) ![networks](https://img.shields.io/badge/networks-72-blue) ![adapters](https://img.shields.io/badge/adapters-86-blue) [![maintained by](https://img.shields.io/badge/maintained%20by-community%20%2F%20networks-orange)](./docs/networks)\n\n> **Network operators:** most adapters are community-built and `experimental`. Adoption gives your team ownership and a verification path; promotion to `partial` or `production` still requires current evidence and maintainer review. Find your network's issue under the [`adopt-this-network`](https://github.com/bobberrisford/affiliatemcp/issues?q=is%3Aissue+is%3Aopen+label%3Aadopt-this-network) label.\n\nAffiliate networks have two sides — and neither has a first-class AI workspace integration.\n\n**Publishers** earn commissions from the programmes they join.\n**Brands** (and the agencies who manage them) run those programmes\nand pay the commissions out. I wanted to chat to my own affiliate\ndata in the AI workspace I already use; none of the networks had shipped an\nintegration for either side, so I built a broad beta set that covers both\npublisher and advertiser-side work.\n\nIf you're a **publisher**, you can ask:\n\n> *\"What did I earn across all networks last month?\"*\n>\n> *\"Which programmes have transactions still pending after 90 days?\"*\n>\n> *\"Compare my earnings month on month.\"*\n\nIf you're on the **brand side** — running a programme, or an agency\nmanaging several — you can ask:\n\n> *\"How is Acme's programme doing this quarter?\"*\n>\n> *\"Show me revenue across all my clients this week.\"*\n>\n> *\"Any anomalies in the affiliate data?\"*\n\nYour AI workspace figures out which networks to call, fetches the data live from\ntheir APIs, and gives you the answer. You can use Claude or Codex to turn it\ninto a sheet, an artifact, an email to your boss, whatever you want.\n\nFree and open source. MIT licensed. Bring your own keys. For the product\nphilosophy, read the [AI-native affiliate data manifesto](./docs/product/manifesto.md).\n\n## Who this is for\n\nThis tool serves two audiences. Pick the one that fits — or both, if\nyou wear both hats.\n\n**You're a publisher.** You earn commissions from affiliate\nprogrammes, your dashboards can't keep up with how fast you can think,\nand you want one conversation that spans every network you're on.\n\n**You're on the brand side.** You run an affiliate programme — or\nyou're an agency managing several brands' programmes. You want one\nquestion that fans out across networks and brands, and surfaces what\nthe dashboards bury: publishers trending down, reversal spikes, dead\nlinks, programmes drifting toward zero.\n\nEither way, you do **not** need to know what an API is or write code. The\nnon-technical Claude Desktop track needs:\n\n- Your existing logins to the affiliate networks you already work with.\n- Claude Desktop installed.\n\nThe technical track uses a terminal, Node.js 20 or newer, and Claude Desktop,\nClaude Code, Codex, or another compatible local stdio MCP client; check the support states below before relying on an untested client journey.\n\n**And if you work for an affiliate network**, this is also for you. The\nbundled adapters are placeholders until each network adopts its own. See\n[`CONTRIBUTING.md`](./CONTRIBUTING.md) under \"Adopting your network\".\n\n## Why bother?\n\n**One question, every network and every brand.** \"Show me earnings by\nprogramme\" hits your configured publisher networks in parallel. On the brand\nside, \"show me revenue across all my clients this week\" fans out across every\nbrand and network pair you've registered.\n\n**Plain English, not filters.** No more clicking through date pickers and saved\nviews. \"Last quarter, status pending, sorted by amount\" is the whole prompt.\n\n**Your data, your machine, by default.** It runs locally. Your keys live in\n`~/.affiliate-mcp/.env`, locked to your user account. Optional anonymous\nusage telemetry is off by default and never contains affiliate data,\ncredentials, prompts, arguments, results, or error text. The networks see\nthe same API calls they'd see from their dashboard.\n\n**Catches what dashboards bury.** Stale transactions, inactive programmes, dead\ndeeplinks and week-on-week drops are surfaced by the packaged skills.\n\n**Optional local result cache.** Persistent caching is off by default. Set\n`AFFILIATE_MCP_CACHE=on` in `~/.affiliate-mcp/.env` to cache selected programme\ninventory and closed reporting windows locally with owner-only permissions.\nOpen and current windows always go live. On a shared machine where you cannot\nrely on file permissions, leave caching off. Run\n`affiliate-networks-mcp cache clear` to remove cached results; see\n[`PRIVACY.md`](./PRIVACY.md) for the storage and retention contract.\n\n## Getting started\n\nChoose one of two primary tracks. Both run the same local MCP server and keep your credentials on your machine.\n\n### Track 1: non-technical, Claude Desktop\n\nUse the host-native Claude Desktop `.mcpb`. No Terminal, Node.js, or manual\nconfiguration is required.\n\n1. Download `affiliate-networks-mcp-<version>.mcpb` from the latest\n   [GitHub release](https://github.com/bobberrisford/affiliatemcp/releases/latest).\n2. In Claude Desktop, open **Settings → Extensions → Advanced settings →\n   Install Extension…** and select the downloaded file.\n3. Add credentials for the networks you use, then ask Claude\n   **\"What affiliate networks do you have access to?\"**\n\nThe extension does not update itself: download the latest `.mcpb` and install it over the top; saved credentials are kept ([full steps for every install path](./docs/updating.md)).\nThe native extension currently offers secure setup fields for Awin, CJ, Impact,\nand Partnerize. It runs the complete server, so an existing\n`~/.affiliate-mcp/.env` continues to enable every other adapter. A portable\nbrowser setup flow for the re\n\n…",
@@ -14722,7 +15094,7 @@
       },
       {
         "name": "broadband_availability",
-        "description": "Fixed broadband availability for a US location from the FCC Broadband Data Collection (BDC), counted per 2020 Census block: each provider and technology the FCC data lists in the block, with advertised maximum download and upload tiers in Mbps and how many of the block's locations each covers (residential and business-only counts). FCC data as of 2025-12-31 (release D25_29sep2026). Wired and fixed",
+        "description": "Fixed broadband availability for a US location from the FCC Broadband Data Collection (BDC), counted per 2020 Census block: each provider and technology the FCC data lists in the block, with advertised maximum download and upload tiers in Mbps and how many of the block's locations each covers (residential and business-only counts). FCC data as of 2025-12-31 (release D25_13oct2026). Wired and fixed",
         "inputs": [
           {
             "name": "address",
@@ -15042,14 +15414,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-19T20:18:31Z",
-      "pushedAt": "2026-10-20T14:10:06Z",
+      "pushedAt": "2026-10-21T15:09:44Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
     },
     "toolsStatus": "auth",
     "readme": {
-      "markdown": "# AgentMash MCP server\n\nAll your bookmarks in one library. Share them with your AI agents.\n\nThis repo documents the hosted AgentMash MCP server: how to connect your AI agent to your AgentMash library.\n\n## What AgentMash does\n\n- The AgentMash Chrome extension imports your saves from X, LinkedIn, Instagram and more when you click Sync. Nothing runs in the background.\n- Everything lands in one library.\n- Your AI agents read that library over MCP, with read-only tools.\n\n## Server\n\n- URL: `https://agentmash.ai/mcp`\n- Transport: Streamable HTTP\n\n## Authentication\n\nAgentMash uses an API key, not OAuth.\n\n1. In AgentMash, open the **Agents & API** page and click **Create API key**.\n2. Copy the key right away. It starts with `am_live_` and is shown only once.\n3. Send it as a header:\n\n```\nAuthorization: Bearer am_live_YOUR_KEY\n```\n\nFor clients that cannot set headers, append `?token=am_live_YOUR_KEY` to the URL instead.\n\n## Setup\n\nReplace `am_live_YOUR_KEY` with your own key in each snippet.\n\n### Claude Code\n\n```\nclaude mcp add --transport http agentmash https://agentmash.ai/mcp --header \"Authorization: Bearer am_live_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nClaude Desktop connects through the `mcp-remote` bridge, so you need Node (with `npx`) installed. Add this to `claude_desktop_config.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://agentmash.ai/mcp\",\n        \"--header\",\n        \"Authorization: Bearer am_live_YOUR_KEY\"\n      ]\n    }\n  }\n}\n```\n\n### Cursor\n\nAdd this to `~/.cursor/mcp.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Cline\n\nIn Cline, open **MCP Servers**, then **Configure**, then **Configure MCP Servers**, and add this to `cline_mcp_settings.json`. Set `\"type\": \"streamableHttp\"`: without it Cline falls back to the legacy SSE transport and will not connect.\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"type\": \"streamableHttp\",\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      },\n      \"disabled\": false,\n      \"autoApprove\": []\n    }\n  }\n}\n```\n\nOr with the Cline CLI:\n\n```\ncline mcp add agentmash https://agentmash.ai/mcp --transport http --header \"Authorization: Bearer am_live_YOUR_KEY\" --yes\n```\n\n### Codex\n\nAdd this to `~/.codex/config.toml`:\n\n```\n[mcp_servers.agentmash]\nurl = \"https://agentmash.ai/mcp\"\nbearer_token_env_var = \"AGENTMASH_API_KEY\"\n```\n\nThen set the key in your shell before starting Codex: `export AGENTMASH_API_KEY=am_live_YOUR_KEY`. Codex reads the bearer token from that environment variable.\n\n## Tools\n\nAll six tools are read-only.\n\n| Tool | What it does |\n|---|---|\n| `search_saves` | Searches your saves. Leave the query out to list your newest saves first. |\n| `get_save` | Gets one save in full: text, stats, links, media and collections. |\n| `recent_saves` | Lists saves from the last few days. |\n| `list_sources` | Lists the platforms in your library, with saves per platform and last sync. |\n| `list_collections` | Lists your collections with their names, platform and number of saves. |\n| `get_collection_saves` | Gets the saves inside one collection. |\n\n## Revoke a key\n\nOpen the **Agents & API** page in AgentMash and click **Revoke** on the key. Agents using that key stop working within about a minute.\n\n## Links\n\n- AgentMash: https://agentmash.ai\n- MCP setup guide: https://agentmash.ai/mcp-setup\n\n## About this repo\n\nThe AgentMash app source code is not in this repo. This repo only documents the hosted MCP server.\n\nFor AI coding agents, see [llms-install.md](llms-install.md).\n\n## Support\n\nEmail hello@agentmash.ai.",
+      "markdown": "# AgentMash MCP server\n\nAll your bookmarks in one library. Share them with your AI agents.\n\nThis repo documents the hosted AgentMash MCP server: how to connect your AI agent to your AgentMash library.\n\n## What AgentMash does\n\n- The AgentMash Chrome extension imports your saves from X, LinkedIn, Instagram and more when you click Sync. Nothing runs in the background.\n- Everything lands in one library.\n- Your AI agents read that library over MCP, with read-only tools.\n\n## Server\n\n- URL: `https://agentmash.ai/mcp`\n- Transport: Streamable HTTP\n\n## Authentication\n\nAgentMash uses an API key, not OAuth.\n\n1. In AgentMash, open the **Agents & API** page and click **Create API key**.\n2. Copy the key right away. It starts with `am_live_` and is shown only once.\n3. Send it as a header:\n\n```\nAuthorization: Bearer am_live_YOUR_KEY\n```\n\nFor clients that cannot set headers, append `?token=am_live_YOUR_KEY` to the URL instead.\n\n## Setup\n\nReplace `am_live_YOUR_KEY` with your own key in each snippet.\n\n### Claude Code\n\n```\nclaude mcp add --transport http agentmash https://agentmash.ai/mcp --header \"Authorization: Bearer am_live_YOUR_KEY\"\n```\n\n### Claude Desktop\n\nClaude Desktop connects through the `mcp-remote` bridge, so you need Node (with `npx`) installed. Add this to `claude_desktop_config.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-remote\",\n        \"https://agentmash.ai/mcp\",\n        \"--header\",\n        \"Authorization: Bearer am_live_YOUR_KEY\"\n      ]\n    }\n  }\n}\n```\n\n### Cursor\n\nAdd this to `~/.cursor/mcp.json`:\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      }\n    }\n  }\n}\n```\n\n### Cline\n\nIn Cline, open **MCP Servers**, then **Configure**, then **Configure MCP Servers**, and add this to `cline_mcp_settings.json`. Set `\"type\": \"streamableHttp\"`: without it Cline falls back to the legacy SSE transport and will not connect.\n\n```\n{\n  \"mcpServers\": {\n    \"agentmash\": {\n      \"type\": \"streamableHttp\",\n      \"url\": \"https://agentmash.ai/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer am_live_YOUR_KEY\"\n      },\n      \"disabled\": false,\n      \"autoApprove\": []\n    }\n  }\n}\n```\n\nOr with the Cline CLI:\n\n```\ncline mcp add agentmash https://agentmash.ai/mcp --transport http --header \"Authorization: Bearer am_live_YOUR_KEY\" --yes\n```\n\n### Codex\n\nAdd this to `~/.codex/config.toml`:\n\n```\n[mcp_servers.agentmash]\nurl = \"https://agentmash.ai/mcp\"\nbearer_token_env_var = \"AGENTMASH_API_KEY\"\n```\n\nThen set the key in your shell before starting Codex: `export AGENTMASH_API_KEY=am_live_YOUR_KEY`. Codex reads the bearer token from that environment variable.\n\n## Tools\n\nAll six tools are read-only.\n\n| Tool | What it does |\n|---|---|\n| `search_saves` | Searches your saves. Leave the query out to list your newest saves first. |\n| `get_save` | Gets one save in full: text, stats, links, media and collections. |\n| `recent_saves` | Lists saves from the last few days. |\n| `list_sources` | Lists the platforms in your library, with saves per platform and last sync. |\n| `list_collections` | Lists your collections with their names, platform and number of saves. |\n| `get_collection_saves` | Gets the saves inside one collection. |\n\n## Revoke a key\n\nOpen the **Agents & API** page in AgentMash and click **Revoke** on the key. Agents using that key stop working within about a minute.\n\n## Links\n\n- [AgentMash](https://agentmash.ai)\n- MCP setup guide: https://agentmash.ai/mcp-setup\n\n## About this repo\n\nThe AgentMash app source code is not in this repo. This repo only documents the hosted MCP server.\n\nFor AI coding agents, see [llms-install.md](llms-install.md).\n\n## Support\n\nEmail hello@agentmash.ai.",
       "truncated": false,
       "url": "https://github.com/RamyaChinnadurai/agentmash-mcp#readme"
     }
@@ -15878,7 +16250,7 @@
       "installScripts": null,
       "unpackedSize": 67975,
       "fileCount": 9,
-      "analyzedAt": "2026-09-16T19:16:13.272Z"
+      "analyzedAt": "2026-10-22T11:26:45.773Z"
     },
     "readme": {
       "markdown": "# @agenttrust/mcp-server\n\nFree email for AI agents, instant messaging between agents, and cloud file storage — accessible as MCP tools from any compatible client.\n\n## What is AgentTrust?\n\n[AgentTrust](https://agenttrust.ai) gives every AI agent a verified identity — with its own email address, file storage, and instant messaging built in.\n\n- **Free Email** — Your agent gets `your-agent@agenttrust.ai`. Send, receive, read threads, forward, and manage drafts\n- **Instant Messaging** — Real-time agent-to-agent chat with conversation threads, escalation to humans, and status tracking\n- **Cloud File Storage** — Upload, download, and share files between agents with signed URLs\n\nThis MCP server exposes all of these as tools that any MCP-compatible client can use — Claude Desktop, Claude Code, Cursor, Windsurf, OpenClaw, Hermes, n8n, LangChain, and more.\n\nAlso available as an [OpenClaw / Hermes skill](https://agenttrust.ai/skill.md).\n\n## Quick Start\n\n### 1. Get an API key\n\nSign up at [agenttrust.ai](https://agenttrust.ai), register your agent, and generate an API key (starts with `atk_`).\n\n### 2. Add to your MCP client\n\n**Claude Desktop / Claude Code** — add to your config:\n\n```json\n{\n  \"mcpServers\": {\n    \"agenttrust\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@agenttrust/mcp-server\"],\n      \"env\": {\n        \"AGENTTRUST_API_KEY\": \"atk_your_key_here\"\n      }\n    }\n  }\n}\n```\n\n**Cursor** — add to `.cursor/mcp.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"agenttrust\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@agenttrust/mcp-server\"],\n      \"env\": {\n        \"AGENTTRUST_API_KEY\": \"atk_your_key_here\"\n      }\n    }\n  }\n}\n```\n\n**Hermes** — add to `~/.hermes/config.yaml`:\n\n```yaml\nmcp_servers:\n  agenttrust:\n    command: \"npx\"\n    args: [\"-y\", \"@agenttrust/mcp-server\"]\n    env:\n      AGENTTRUST_API_KEY: \"atk_your_key_here\"\n```\n\nThat's it. All 19 tools are available immediately.\n\n### 3. (Optional) Interactive setup\n\nFor advanced features like Ed25519 message signing:\n\n```bash\nnpx @agenttrust/mcp-server init\n```\n\n## Tools\n\n### Email (7 tools)\n\nYour agent sends and receives email as `your-agent@agenttrust.ai` — a real email address that works with any mailbox.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_email_inbox` | List inbox — filter by direction, status |\n| `agenttrust_email_read` | Read email or full thread (thread by default) |\n| `agenttrust_email_attachment` | Download attachment — returns signed URL |\n| `agenttrust_email_send` | Send email from agent's address |\n| `agenttrust_email_reply` | Reply to an email |\n| `agenttrust_email_forward` | Forward email with attachments |\n| `agenttrust_email_draft` | Create draft for human review |\n\n### Instant Messaging (7 tools)\n\nReal-time agent-to-agent communication. Messages are organized into tasks (threads) with status tracking.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_send` | Send a message to another agent |\n| `agenttrust_inbox` | Check inbox for incoming conversations |\n| `agenttrust_context` | Get full conversation history |\n| `agenttrust_reply` | Reply and optionally update status |\n| `agenttrust_comment` | Add a note without changing turn |\n| `agenttrust_escalate` | Escalate to human review (HITL) |\n| `agenttrust_discover` | Search the agent directory |\n\n### Cloud File Storage (5 tools)\n\nUpload, store, and share files between agents.\n\n| Tool | Description |\n|------|-------------|\n| `agenttrust_drive_upload` | Upload file (base64 content) |\n| `agenttrust_drive_list` | List files, filter by folder |\n| `agenttrust_drive_download` | Download file — returns signed URL |\n| `agenttrust_drive_delete` | Delete a file |\n| `agenttrust_drive_usage` | Check storage usage and limits |\n\n## Usage Examples\n\n### Send an email\n\n```\nUse agenttrust_email_send to send an email to user@example.com\nwith subject \"Quote Request\" and body \"We need pricing for 500 units\"\n```\n\n### Read and reply to emails\n\n```\nUse agenttrust_email_inbox to check for new emails,\nthen agenttrust_email_read to get the full thread,\nthen agenttrust_email_reply to respond\n```\n\n### Message another agent\n\n```\nUse agenttrust_discover to find procurement-agent,\nthen agenttrust_send to message them:\n\"We need a quote for 500 units of widget-A by Friday\"\n```\n\n### Upload and share a file\n\n```\nUse agenttrust_drive_upload to store report.pdf,\nthen share the file ID with another agent via agenttrust_send\n```\n\n### Escalate to a human\n\n```\nUse agenttrust_escalate on task tk_abc123 with reason\n\"Purchase exceeds my $10,000 authorization limit\"\n```\n\n## CLI Commands\n\n```bash\nagenttrust-mcp              # Start MCP stdio server (default)\nagenttrust-mcp init         # Interactive first-time setup\nagenttrust-mcp --status     # Print config and key status\nagenttrust-mcp --regen-keys # Rotate Ed25519 signing key\nagenttrust-mcp --help       # Show usage\n```\n\n## Configuration\n\nConfig is stored at `~/.agenttrust/config.json` (created automatically or by `init`):\n\n```json\n{\n  \"apiKey\": \"atk_...\",\n  \"endpoint\": \"https://agenttrust.ai\",\n  \"slug\": \"your-agent\",\n  \"agentId\": \"abc123\"\n}\n```\n\n### Environment Variables\n\n| Variable | Description |\n|----------|-------------|\n| `AGENTTRUST_API_KEY` | API key (required) |\n| `AGENTTRUST_ENDPOINT` | Platform endpoint (default: agenttrust.ai) |\n| `AGENTTRUST_SLUG` | Agent slug (auto-resolved from API key) |\n| `AGENTTRUST_AGENT_ID` | Agent ID (auto-resolved from API key) |\n\n## Security\n\n- All A2A messages are **Ed25519-signed** — recipients can cryptographically verify sender identity\n- Signing keys are generated locally and never leave your machine\n- Config and key files are written with `0600` permissions\n- Email from address is **enforced server-side** — agents can only send as their own `@agenttrust.ai` address\n- All API calls use authenticated `Authorization: Bearer` headers\n\n## How It Works\n\n```\n┌─────────────┐     MCP (stdio)     ┌───────────────────┐     HTTPS     ┌──────────────┐\n│  MCP Client │ ◄──────────────────► │  @agenttrust/     │ ◄──\n\n…",
@@ -15967,7 +16339,7 @@
       "installScripts": null,
       "unpackedSize": 16505,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:13.471Z"
+      "analyzedAt": "2026-10-22T11:26:45.770Z"
     }
   },
   {
@@ -16028,7 +16400,7 @@
       "installScripts": null,
       "unpackedSize": 16940,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:13.055Z"
+      "analyzedAt": "2026-10-22T11:26:45.775Z"
     }
   },
   {
@@ -16089,7 +16461,7 @@
       "installScripts": null,
       "unpackedSize": 14988,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:14.110Z"
+      "analyzedAt": "2026-10-22T11:26:46.003Z"
     }
   },
   {
@@ -16150,7 +16522,7 @@
       "installScripts": null,
       "unpackedSize": 300244,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:14.124Z"
+      "analyzedAt": "2026-10-22T11:26:46.025Z"
     }
   },
   {
@@ -16211,7 +16583,7 @@
       "installScripts": null,
       "unpackedSize": 214599,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:13.891Z"
+      "analyzedAt": "2026-10-22T11:26:46.009Z"
     }
   },
   {
@@ -16272,7 +16644,7 @@
       "installScripts": null,
       "unpackedSize": 124176,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:13.879Z"
+      "analyzedAt": "2026-10-22T11:26:46.002Z"
     }
   },
   {
@@ -16333,7 +16705,7 @@
       "installScripts": null,
       "unpackedSize": 87554,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.055Z"
+      "analyzedAt": "2026-10-22T11:26:46.252Z"
     }
   },
   {
@@ -16394,7 +16766,7 @@
       "installScripts": null,
       "unpackedSize": 17376,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.012Z"
+      "analyzedAt": "2026-10-22T11:26:46.250Z"
     }
   },
   {
@@ -16455,7 +16827,7 @@
       "installScripts": null,
       "unpackedSize": 137525,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.042Z"
+      "analyzedAt": "2026-10-22T11:26:46.264Z"
     }
   },
   {
@@ -16516,7 +16888,7 @@
       "installScripts": null,
       "unpackedSize": 16619,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:14.806Z"
+      "analyzedAt": "2026-10-22T11:26:46.293Z"
     }
   },
   {
@@ -16577,7 +16949,7 @@
       "installScripts": null,
       "unpackedSize": 41010,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.930Z"
+      "analyzedAt": "2026-10-22T11:26:46.549Z"
     }
   },
   {
@@ -16638,7 +17010,7 @@
       "installScripts": null,
       "unpackedSize": 21165,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.968Z"
+      "analyzedAt": "2026-10-22T11:26:46.526Z"
     }
   },
   {
@@ -16699,7 +17071,7 @@
       "installScripts": null,
       "unpackedSize": 45891,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.972Z"
+      "analyzedAt": "2026-10-22T11:26:46.524Z"
     }
   },
   {
@@ -16760,7 +17132,7 @@
       "installScripts": null,
       "unpackedSize": 10469,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:15.776Z"
+      "analyzedAt": "2026-10-22T11:26:46.532Z"
     }
   },
   {
@@ -16821,7 +17193,7 @@
       "installScripts": null,
       "unpackedSize": 152027,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:16.606Z"
+      "analyzedAt": "2026-10-22T11:26:46.790Z"
     }
   },
   {
@@ -16882,7 +17254,7 @@
       "installScripts": null,
       "unpackedSize": 296640,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:16.686Z"
+      "analyzedAt": "2026-10-22T11:26:46.815Z"
     }
   },
   {
@@ -16943,7 +17315,7 @@
       "installScripts": null,
       "unpackedSize": 210986,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:16.662Z"
+      "analyzedAt": "2026-10-22T11:26:46.786Z"
     }
   },
   {
@@ -17029,7 +17401,7 @@
     "source": "MCP Registry",
     "updatedAt": "2026-10-05T02:57:09.099626Z",
     "repoMeta": null,
-    "toolsStatus": "error"
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-ai-advisors-mcp",
@@ -19251,7 +19623,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-03T00:10:55Z",
-      "pushedAt": "2026-10-20T16:16:45Z",
+      "pushedAt": "2026-10-21T21:39:28Z",
       "openIssues": 3,
       "license": "MIT",
       "language": "Go"
@@ -19996,10 +20368,10 @@
   },
   {
     "id": "mcp:ai-alphaquantlabs-propertycheck",
-    "name": "AQL PropertyCheck — Property Intelligence & Due Diligence Report API, Gold Coast & Brisbane City",
+    "name": "AQL PropertyCheck — Physical check of one exact address",
     "qualifiedName": "ai.alphaquantlabs/propertycheck",
     "slug": "ai-alphaquantlabs-propertycheck",
-    "description": "Gold Coast & Brisbane, Australia property report: flood, planning, schools. Free check; x402 A$1.39",
+    "description": "Gold Coast & Brisbane: the building, the street at its door and the everyday context around it.",
     "category": "Other",
     "repository": null,
     "homepage": "https://agents.alphaquantlabs.ai/",
@@ -20021,7 +20393,7 @@
     ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-15T22:38:36.500979Z",
+    "updatedAt": "2026-10-21T23:26:44.019163Z",
     "repoMeta": null,
     "toolsStatus": "ok",
     "tools": [
@@ -21153,12 +21525,12 @@
       }
     ],
     "remotes": [],
-    "stars": 525,
+    "stars": 526,
     "source": "MCP Registry",
     "updatedAt": "2026-10-04T18:28:29.903104Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server",
-      "stars": 525,
+      "stars": 526,
       "forks": 38,
       "archived": false,
       "isFork": false,
@@ -21170,10 +21542,10 @@
     },
     "inspection": {
       "name": "@ankimcp/anki-mcp-server",
-      "version": "0.25.1",
+      "version": "0.27.0",
       "status": "ok",
       "filesScanned": 80,
-      "filesTotal": 117,
+      "filesTotal": 123,
       "bundledFiles": 0,
       "capabilities": [
         {
@@ -21250,7 +21622,7 @@
             },
             {
               "file": "dist/mcp/primitives/essential/resources/system-info.resource.js",
-              "line": 67,
+              "line": 66,
               "detail": "reads process.env",
               "bundled": false
             }
@@ -21280,9 +21652,9 @@
       "provenance": true,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 1130678,
-      "fileCount": 356,
-      "analyzedAt": "2026-09-16T19:16:16.603Z"
+      "unpackedSize": 1198639,
+      "fileCount": 374,
+      "analyzedAt": "2026-10-22T11:26:46.777Z"
     },
     "readme": {
       "markdown": "# Anki MCP Server\n\n  \n\n  <strong>Seamlessly integrate Anki with AI assistants through the Model Context Protocol</strong>\n\n> [!IMPORTANT]\n> **Prefer the [AnkiMCP addon](https://ankiweb.net/shared/info/124672614) for most setups.**\n>\n> The addon ([GitHub](https://github.com/ankimcp/anki-mcp-server-addon)) runs the MCP server directly inside Anki. There is no Node.js to install, no AnkiConnect to configure, no separate process to keep running: install it with code `124672614`, restart Anki, and the server is up every time Anki opens. It covers local HTTP access and remote access through a built-in tunnel.\n>\n> This repository is the right choice when you specifically need:\n>\n> - **STDIO transport** — Claude Desktop, Claude Code, Cursor, or any client that spawns the server as a subprocess\n> - **MCPB bundle** — the one-click `.mcpb` install for Claude Desktop\n>\n> For HTTP, tunnel, or web-based clients (claude.ai, ChatGPT), the addon is the simpler and better-supported path.\n>\n> This repo is **not** being deprecated. It stays maintained and released alongside the addon as part of the same [ankimcp.ai](https://ankimcp.ai) project.\n\nA Model Context Protocol (MCP) server that enables AI assistants to interact with Anki, the spaced repetition flashcard application.\n\nTransform your Anki experience with natural language interaction - like having a private tutor. The AI assistant doesn't just present questions and answers; it can explain concepts, make the learning process more engaging and human-like, provide context, and adapt to your learning style. It can create and edit notes on the fly, turning your study sessions into dynamic conversations. More features coming soon!\n\n## Examples and Tutorials\n\nFor comprehensive guides, real-world examples, and step-by-step tutorials on using this MCP server with Claude Desktop, visit:\n\n**[ankimcp.ai](https://ankimcp.ai)** - Complete documentation with practical examples and use cases\n\nSee [`docs/`](./docs/README.md) for supplementary documentation, including the [reviewer setup guide](./docs/reviewer-setup.md) and the sample Anki deck.\n\n## Example Use Cases\n\nThree representative prompts showing the tool flows this server enables:\n\n1. **\"Help me review my Spanish deck.\"** — The assistant offers to sync with AnkiWeb (`sync`), fetches due cards (`get_due_cards` with deck filter), presents each card (`present_card`), and records your rating (`rate_card`). Natural study conversation with explanations tailored to you.\n\n2. **\"Create 10 Arabic vocab cards with RTL styling.\"** — The assistant lists note types (`modelNames`), creates a custom RTL model if needed (`createModel` + `updateModelStyling` for right-to-left CSS), then batch-creates the cards (`addNotes`).\n\n3. **\"Import this image from my Downloads folder into the front of the selected note.\"** — The assistant uploads the local file (`storeMediaFile` with a file path), reads the currently-selected note from the browser (`guiSelectedNotes` + `notesInfo`), and updates the front field with an `` tag (`updateNoteFields`).\n\n## Available Tools\n\nThe server exposes **53 MCP tools** — 42 essential tools for everyday Anki operations and 11 GUI tools that drive the Anki desktop interface for note editing/creation workflows.\n\n### Essential Tools\n\n#### Review & Study\n- `sync` - Sync with AnkiWeb to pull latest data and push changes\n- `get_due_cards` - Get cards that are due for review, optionally filtered by deck (answers omitted unless `include_answer: true`, default `false`)\n- `get_cards` - Get cards with flexible filtering by state (due, new, learning, suspended, buried) and deck (answers omitted unless `include_answer: true`, default `false`)\n- `present_card` - Show a card for review with its question/front side\n- `rate_card` - Rate card performance (Again, Hard, Good, Easy) and schedule the next review\n- `forgetCards` - Reset cards to new, discarding their scheduling without recording a review\n- `setDueDate` - Reschedule cards to become due in N days (`\"0\"`, `\"3-7\"`, `\"1!\"`), without recording a review\n- `areSuspended` - Check suspension state for one or more cards without changing anything\n- `suspend` - Suspend cards so they are skipped during review until unsuspended\n- `unsuspend` - Unsuspend cards so they return to normal review\n\n> **Note:** `forgetCards` and `setDueDate` change scheduling *without* logging a review, which is what separates them from `rate_card`. Reach for them when a card's schedule is wrong rather than the answer: rating a card `Again` to bury it deeper records a real lapse and drops its ease factor, permanently skewing both future scheduling and your statistics. `forgetCards` wipes the interval and starts the card over; `setDueDate` keeps the card's history and just moves the next review.\n\n> **Note:** Card `front`/`back` content is rendered per card from its own template (as Anki shows it), so reversed and cloze cards display the correct direction. Static text added by your card templates appears in the output as well.\n\n#### Deck Management\n- `listDecks` - List all decks, optionally with per-deck study-queue statistics\n- `deckStats` - Get comprehensive statistics for a single deck (study queue, true card-state counts, ease/interval distributions)\n- `createDeck` - Create a new empty deck (supports `Parent::Child`, max 2 levels)\n- `changeDeck` - Move cards to a different deck (created if it doesn't exist)\n\n> **Note:** Deck statistics come in two flavours. The `counts` block (and everything `listDecks` reports) mirrors Anki's deck browser: cards **due today**, capped by each deck's **daily new/review limits**, with suspended and buried cards excluded — so `review` is not \"mature cards\" and the `other` bucket is just the arithmetic remainder (mostly review cards not due today plus new cards over the daily limit). For true per-state totals use the `states` block on `deckStats` / `collection_stats`, which counts `new`, `learning`, `review`, `suspended` and `buried` via Anki searches, ignoring due dat\n\n…",
@@ -21301,12 +21673,12 @@
     "homepage": "https://ankimcp.ai",
     "packages": [],
     "remotes": [],
-    "stars": 92,
+    "stars": 93,
     "source": "MCP Registry",
     "updatedAt": "2026-10-11T18:29:12.499147Z",
     "repoMeta": {
       "slug": "ankimcp/anki-mcp-server-addon",
-      "stars": 92,
+      "stars": 93,
       "forks": 10,
       "archived": false,
       "isFork": false,
@@ -21380,7 +21752,141 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T10:26:46.060198Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "annsa",
+      "version": "1.0.4",
+      "status": "ok",
+      "filesScanned": 16,
+      "filesTotal": 16,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "src/index.js",
+              "line": 6,
+              "detail": "imports child_process",
+              "bundled": false
+            },
+            {
+              "file": "src/cli/commands/build.js",
+              "line": 1,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "src/server.js",
+              "line": 2,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "src/index.js",
+              "line": 3,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "src/auth.js",
+              "line": 4,
+              "detail": "imports fs/promises",
+              "bundled": false
+            },
+            {
+              "file": "src/cli/commands/build.js",
+              "line": 2,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "src/server.js",
+              "line": 42,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "src/auth.js",
+              "line": 1,
+              "detail": "imports http",
+              "bundled": false
+            },
+            {
+              "file": "src/auth.js",
+              "line": 56,
+              "detail": "calls fetch()",
+              "bundled": false
+            },
+            {
+              "file": "src/api.js",
+              "line": 20,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "src/server.js",
+              "line": 22,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "src/auth.js",
+              "line": 12,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "src/api.js",
+              "line": 3,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "src/index.js",
+              "line": 5,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "src/auth.js",
+              "line": 6,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "annsa_ai",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 117410,
+      "fileCount": 20,
+      "analyzedAt": "2026-10-22T11:26:46.963Z"
+    }
   },
   {
     "id": "mcp:ai-anomalyarmor-armor-mcp",
@@ -21691,7 +22197,7 @@
           {
             "name": "receipt",
             "type": "object | string",
-            "description": null,
+            "description": "The receipt, as a JSON object or a JSON string.",
             "required": true
           }
         ]
@@ -21808,7 +22314,7 @@
           {
             "name": "attestation_id",
             "type": "string",
-            "description": null,
+            "description": "The attestation_id of one of your receipts.",
             "required": true
           }
         ]
@@ -21845,7 +22351,7 @@
         "runtimeHint": null,
         "env": [],
         "weeklyDownloads": 600,
-        "lastPublished": "2026-10-21T01:10:56.830Z",
+        "lastPublished": "2026-10-22T03:37:12.374Z",
         "firstPublished": "2026-10-12T16:12:26.487Z",
         "deprecated": false,
         "declaredRepo": "kneelinghorse/reasonbook",
@@ -21863,13 +22369,135 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-08T21:14:10Z",
-      "pushedAt": "2026-10-21T01:16:59Z",
+      "pushedAt": "2026-10-22T03:42:13Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
+    "inspection": {
+      "name": "@aquex/reasonbook",
+      "version": "4.4.0",
+      "status": "ok",
+      "filesScanned": 80,
+      "filesTotal": 411,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "dist/tools/rbook/harness-session.js",
+              "line": 59,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/tools/rbook/rbook-agent-onboard.js",
+              "line": 60,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/index.js",
+              "line": 62,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/dashboard-client.js",
+              "line": 24,
+              "detail": "imports fs",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/rbook-review.js",
+              "line": 104,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/tools/rbook/dashboard-client.js",
+              "line": 391,
+              "detail": "calls fetch()",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/index.js",
+              "line": 92,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/rbook-review.js",
+              "line": 840,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/session-owner.js",
+              "line": 173,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/rbook-decisions-record.js",
+              "line": 87,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/tools/rbook/session-owner.js",
+              "line": 65,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/record-dashboard-share.js",
+              "line": 13,
+              "detail": "imports os",
+              "bundled": false
+            },
+            {
+              "file": "dist/tools/rbook/record-dashboard-peer.js",
+              "line": 14,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "kneelinghorse",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 9825914,
+      "fileCount": 1664,
+      "analyzedAt": "2026-10-22T11:26:47.240Z"
+    },
     "readme": {
-      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](https://github.com/kneelinghorse/reasonbook/blob/main/docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.3.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively include tele\n\n…",
+      "markdown": "# Reasonbook — decisions that survive the session\n\nReasonbook, formerly CMOS, is the project record your agents keep: what was decided, why, what was learned,\nand what remains. The next session can pick up from that record, even in another tool.\nYou make the decisions; agents handle the bookkeeping. No dashboard account is required.\n\n[See it work](https://github.com/kneelinghorse/reasonbook/blob/main/docs/demo/README.md) in a 75-second replay of recorded runs in Claude Code and\nCodex, and read [what it sends and stores](docs/trust.md).\n\n## Install it in Claude Code\n\nInstall the plugin once for all your projects:\n\n```sh\nclaude plugin marketplace add kneelinghorse/reasonbook\nclaude plugin install reasonbook@reasonbook\n```\n\nUpgrading from `cmos@cmos`? Uninstall it before refreshing the marketplace, using\n`claude plugin uninstall cmos@cmos --scope user` (or its original `project` or `local` scope),\nthen install `reasonbook@reasonbook`. For a local installation, run the command from that\nproject. If the marketplace already refreshed and uninstall says “not found”, use the\n[tested recovery steps](docs/migrating-from-cmos.md#recover-an-already-refreshed-claude-marketplace).\nUpgrade every client before moving an existing record.\n\nFor candidate testing, replace `kneelinghorse/reasonbook` with this checkout's absolute\npath. Start a new Claude Code session after installation. The plugin supplies the\nMCP server, hooks and commands; its first cold session may report that Reasonbook is\ninstalling and load the record from the next session. Use `/reasonbook:init` for a new\nrecord, `/reasonbook:start` to read it, `/reasonbook:close-out` to finish work, `/reasonbook:plan` to plan,\nand `/reasonbook:build` to execute. [Plugin installation](https://code.claude.com/docs/en/discover-plugins).\nOther tools use the [harness adapters and coverage guide](docs/harnesses.md).\n\n## Get a project digest in three steps\n\nRequires Node.js 20 or newer.\n\n1. Install the pinned CLI:\n\n   ```sh\n   npm install -g @aquex/reasonbook@4.4.0\n   ```\n\n   Ensure the global npm bin directory is on your PATH. If the former package is installed globally, run `npm uninstall -g @aquex/cmos-mcp` first. Version 4 provides only the `reasonbook` command; update scripts and MCP configurations that use the old command.\n\n2. In the project folder you want to track, start a Ledger:\n\n   ```sh\n   cd /absolute/path/to/your/project\n   reasonbook init --level ledger\n   ```\n\n3. Read its first digest:\n\n   ```sh\n   reasonbook review --format=context\n   ```\n\nThe digest names this project and shows its decisions, lessons and open work. A new\nLedger starts empty. Planner adds next steps; Builder adds sprints and missions.\n\n## Codex plugins\n\nThe developer plugin `reasonbook` supplies the server, seven skills and five lifecycle hooks.\nThe conversation-focused `reasonbook-chat` supplies the same server and six distinct chat skills,\nwith no hooks. Plugin loading, installation and project calls are verified in the bundled\nCodex CLI and app-server. **ChatGPT Work remains unverified**; this is not a hosted plugin\nfor ChatGPT web or phone.\n\nInstall the developer plugin:\n\n```sh\ncodex plugin marketplace add kneelinghorse/reasonbook\ncodex plugin add reasonbook@reasonbook\n```\n\nIf the plugin is installed under its former name, remove it first, because both plugins answer as the\nsame server: `codex plugin remove cmos@cmos`, and `codex plugin remove cmos-chat@cmos` for the chat\nplugin.\n\nFor chat workflows, install `reasonbook-chat@reasonbook` instead:\n\n```sh\ncodex plugin add reasonbook-chat@reasonbook\n```\n\nFor local development, replace the marketplace repository with this checkout's absolute path.\nBoth plugins can be enabled together: Codex loads one server named `rbook`, and both sets of\nskills remain visible. Choose the developer plugin for building; choose the chat plugin for\nsetup, catch-up, recall, proposing decisions, capturing notes and discussing next steps.\n\nNode.js 20 or newer is required. The plugins install their exact Reasonbook version into\n`~/.config/rbook/plugins`, with [legacy config fallback](docs/migrating-from-cmos.md) for existing\ninstallations. On a first install, Reasonbook connects with an installing message; start a new\nsession when installation finishes to load the project tools. The developer hooks share that runtime.\nThe developer plugin requests forwarding of supported settings, including `RBOOK_CONFIG_DIR`;\nthe portable chat plugin uses the environment inherited from its host. Use an **absolute** path,\nbecause empty or relative shared roots are refused. Environment forwarding depends on the\nclient's plugin loader. If your loader does not forward a setting,\nuse the default root or configure a manual server. See [the harness guide](docs/harnesses.md#codex).\n\nIn the Codex CLI, run `/hooks` and review the five developer-plugin commands once. If the desktop\napp does not expose that review, use its bundled Codex CLI with the same Codex home. Restart the\napp after installation if it has not loaded the plugin. A changed hook definition needs review\nagain. The chat plugin has no hook review step.\n\nBefore replacing a CMOS 3.3.0 adapter, remove only its CMOS entries from project\n`.codex/hooks.json` and any user-level `~/.codex/hooks.json`; keep unrelated hooks. Remove any\nother imported CMOS hook registration too. Keep one answering MCP server: remove a duplicate\nmanual entry, or deliberately retain it and set `\"pluginServer\": \"off\"` in\n`~/.config/cmos-mcp/config.json` (under your custom config root when using one).\n\nReasonbook uses the working folder supplied on each supported Codex call, so a conversation in a\nproject can call `rbook_review()` without naming a path. Outside that folder, choose a registered\naddress from `rbook_project(action=\"list\")` and pass it as `projectRoot`, for example\n`rbook_review(projectRoot=\"rbook://you/project\")`. Unknown or ambiguous addresses refuse;\nlocal-only projects need their folder. Tool hints conservatively include tele\n\n…",
       "truncated": true,
       "url": "https://github.com/kneelinghorse/reasonbook#readme"
     }
@@ -21903,7 +22531,135 @@
     "stars": null,
     "source": "MCP Registry",
     "updatedAt": "2026-10-08T13:22:52.80521Z",
-    "repoMeta": null
+    "repoMeta": null,
+    "inspection": {
+      "name": "@aquex/stage1",
+      "version": "0.6.0",
+      "status": "ok",
+      "filesScanned": 6,
+      "filesTotal": 6,
+      "bundledFiles": 4,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 22,
+              "detail": "imports child_process",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 1,
+              "detail": "imports fs/promises",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 21,
+              "detail": "imports fs",
+              "bundled": true
+            },
+            {
+              "file": "dist/mcp.js",
+              "line": 2,
+              "detail": "imports fs/promises",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-GDBOW55R.js",
+              "line": 1,
+              "detail": "imports fs/promises",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "network",
+          "evidence": [
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 1,
+              "detail": "imports http",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 1,
+              "detail": "imports https",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 80,
+              "detail": "calls fetch()",
+              "bundled": true
+            },
+            {
+              "file": "dist/app/assets/index-DSMd1Eo5.js",
+              "line": 1,
+              "detail": "calls fetch()",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 1,
+              "detail": "reads process.env",
+              "bundled": true
+            },
+            {
+              "file": "dist/mcp.js",
+              "line": 5,
+              "detail": "reads process.env",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-GDBOW55R.js",
+              "line": 1,
+              "detail": "reads process.env",
+              "bundled": true
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "dist/chunk-4EWN4XN7.js",
+              "line": 77,
+              "detail": "imports os",
+              "bundled": true
+            },
+            {
+              "file": "dist/chunk-GDBOW55R.js",
+              "line": 1,
+              "detail": "imports os",
+              "bundled": true
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "kneelinghorse",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 3587051,
+      "fileCount": 14,
+      "analyzedAt": "2026-10-22T11:26:47.685Z"
+    }
   },
   {
     "id": "mcp:ai-arabickeyboard-name-calligraphy",
@@ -22610,7 +23366,7 @@
       "isFork": false,
       "createdAt": "2026-10-13T06:36:08Z",
       "pushedAt": "2026-10-15T16:46:36Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -23099,6 +23855,29 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mcp:ai-arihaan-jobs",
+    "name": "Arihaan Jobs",
+    "qualifiedName": "ai.arihaan/jobs",
+    "slug": "ai-arihaan-jobs",
+    "description": "Live job postings from employer career sites: search, count and compare jobs and companies.",
+    "category": "Web & Search",
+    "repository": null,
+    "homepage": "https://jobs.arihaan.ai/mcp",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://jobs-api.arihaan.ai/mcp",
+        "headers": []
+      }
+    ],
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": "2026-10-21T12:31:14.016459Z",
+    "repoMeta": null,
+    "toolsStatus": "auth"
   },
   {
     "id": "mcp:ai-arketo-arketo",
@@ -23648,7 +24427,7 @@
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
-    "toolsStatus": "auth",
+    "toolsStatus": "error",
     "readme": {
       "markdown": "# askgina/plugins\n\n**What this is:** the Apache-2.0 workspace for the Ask Gina programmatic\nclient (a TypeScript SDK and a Bun CLI), the listed plugin (a portable core\nplus host adapters), the evals that check whether models use that plugin\ncorrectly, and the public evals app. It does not log you in: SDK and CLI callers\nbring their own token (see below).\n\nProduction Gina MCP is at `https://askgina.ai/ai/gina/mcp`. SDK and CLI callers\nsupply an externally acquired Gina bearer token with `tools:read`; neither client\nimplements login or OAuth authentication. See\n[authentication](https://docs.askgina.ai/agents/authentication) and\n[Agent Setup](https://askgina.ai/agent-setup) to obtain a read-only token.\n\nNew here? Start with [Start here](#start-here), which routes you by goal. The\n[Reference](#reference) below it is for people changing the build, the evals\napp, or the lint setup.\n\n## Start here\n\n### Pick your goal\n\n| I want to...                                                       | Go to                                                                                                                                 |\n| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |\n| Call Gina from TypeScript code                                     | [`packages/sdk/README.md`](packages/sdk/README.md)                                                                                    |\n| Call Gina from a terminal                                          | [`packages/cli/README.md`](packages/cli/README.md)                                                                                    |\n| Use the shared catalog and protocol types                          | [`packages/contracts/README.md`](packages/contracts/README.md)                                                                        |\n| Install the plugin in a host (Cursor, Grok Bot, Devin, and others) | [`plugins/ask-gina/README.md`](plugins/ask-gina/README.md#install)                                                                    |\n| Connect ChatGPT, Claude, Codex, or another client                  | Public [Connect guides](https://docs.askgina.ai/connect/index)                                                                        |\n| Run or change the evals                                            | [`packages/evals/README.md`](packages/evals/README.md#start-here). Start with replay: it makes no network calls and needs no secrets. |\n| Work on the public evals app                                       | [Public evals app](#public-evals-app) in Reference                                                                                    |\n| Contribute a change                                                | [`ai_docs/contributing.md`](ai_docs/contributing.md), then the loop below                                                             |\n| Edit the public docs site                                          | `docs/` is the Mintlify source; authoring rules are in [`ai_docs/docs/authoring.md`](ai_docs/docs/authoring.md)                       |\n\n### Contributor loop\n\nYou need Bun 1.4.x (the root `packageManager` is `bun@1.4.0`). From the\nrepository root:\n\n```sh\nbun install --frozen-lockfile\nbun run fmt:check\nbun run lint\nbun run check\nbun run test\nbun run check:target-conformance\nbun run artifacts\nbun run verify:artifacts\nbun run check:public-boundary\n```\n\nThis is the list [`ai_docs/contributing.md`](ai_docs/contributing.md) asks you\nto run before proposing a change. Pull-request CI runs these and a few more\ngates (see [What CI runs](#what-ci-runs) in Reference). `main` has no protected\nrequired checks, so CI does not gate merge or publish packages.\n\nThings that surprise people:\n\n- **Edit skills in one place.** Canonical skill source lives only under\n  `plugins/ask-gina/skills/`. Host skill trees are generated at pack time and\n  must not be committed.\n- **`bun run check` is more than lint.** It also runs `evals:check-public`,\n  `evals:check-grading`, the TypeScript compiler, and the TypeScript import\n  check.\n- **Docs changes have their own checks.** If you touch `docs/` or `tools/docs/`,\n  also run `bun run docs:test` and `bun run docs:check`. Releasing a user-facing\n  feature adds the steps in\n  [`ai_docs/release-docs-checklist.md`](ai_docs/release-docs-checklist.md).\n- **Fix Effect diagnostics at the source.** Don't suppress them or add\n  baselines. The one exception is `nodeBuiltinImport` on the two synchronous\n  SHA-256 helpers (`packages/contracts/src/sha256.ts` and\n  `packages/evals/src/canonical-json.ts`): Effect `Crypto` is asynchronous, and\n  schema filters and streamed file hashes need a synchronous digest. Import\n  `sha256Hex` from those helpers instead of `node:crypto`.\n\n### Map of the repository\n\n| Path                 | What lives there                                                                                                     |\n| -------------------- | -------------------------------------------------------------------------------------------------------------------- |\n| `packages/contracts` | `@askgina/contracts`: public catalog, protocol literals, receipt schemas.                                            |\n| `packages/sdk`       | `@askgina/sdk`: TypeScript client.                                                                                   |\n| `packages/cli`       | `@askgina/cli`: the compiled `ask-gina` Bun binary.                                                                  |\n| `packages/evals`     | `@askgina/evals`: replay, live runners, grading, sanitization, public export.                                        |\n| `plugins/ask-gina`   | `@askgina/plugin-core`: canonical plugin inputs (manifest, skills, eval cases, targets) and the Devin install notes. |\n| `apps/evals`         | The public evals React/Vite app and its Storybook. Not an npm-publ\n\n…",
       "truncated": true,
@@ -26563,30 +27342,6 @@
         ]
       },
       {
-        "name": "create_source_tag",
-        "description": "Create a custom source tag with a name and URL patterns. Research existing tags and cited sources first when recommending changes. Obtain user confirmation before calling. MCP executes immediately after authorization; Athena AI chat presents an approval card. Patterns support hosts (example.com), subdomains (*.example.com), path sections (example.com/blog), exact pages (example.com/blog$), and que",
-        "inputs": [
-          {
-            "name": "website_id",
-            "type": "string",
-            "description": null,
-            "required": true
-          },
-          {
-            "name": "name",
-            "type": "string",
-            "description": "Custom tag name. Built-in source category names are reserved.",
-            "required": true
-          },
-          {
-            "name": "patterns",
-            "type": "array",
-            "description": null,
-            "required": true
-          }
-        ]
-      },
-      {
         "name": "create_topic",
         "description": "Create a topic on a website (returns the existing topic when the name is already taken)",
         "inputs": [
@@ -26607,6 +27362,24 @@
             "type": "any",
             "description": null,
             "required": false
+          }
+        ]
+      },
+      {
+        "name": "delete_brand_facts",
+        "description": "Permanently delete 1-50 brand facts from a website's Knowledge Base. There is no undo. Ids that do not exist on the website are reported in not_found_ids rather than failing the call, so retries are idempotent. Requires an admin; on OAuth connections the signed-in user must have the admin role.",
+        "inputs": [
+          {
+            "name": "website_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "fact_ids",
+            "type": "array",
+            "description": null,
+            "required": true
           }
         ]
       }
@@ -27061,7 +27834,7 @@
       {
         "registryType": "npm",
         "identifier": "@augmentev/fabric-verify-mcp",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "transport": "stdio",
         "runtimeHint": null,
         "env": [
@@ -27088,18 +27861,82 @@
           }
         ],
         "weeklyDownloads": null,
-        "lastPublished": "2026-10-21T04:46:11.754Z",
+        "lastPublished": "2026-10-21T14:15:25.477Z",
         "firstPublished": "2026-10-21T04:45:34.678Z",
         "deprecated": false,
         "declaredRepo": null,
         "repoMatchesRegistry": null
       }
     ],
-    "remotes": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.augmentev.com/mcp",
+        "headers": []
+      }
+    ],
     "stars": null,
     "source": "MCP Registry",
-    "updatedAt": "2026-10-21T04:52:05.791311Z",
-    "repoMeta": null
+    "updatedAt": "2026-10-21T14:17:02.397765Z",
+    "repoMeta": null,
+    "inspection": {
+      "name": "@augmentev/fabric-verify-mcp",
+      "version": "0.1.1",
+      "status": "ok",
+      "filesScanned": 3,
+      "filesTotal": 3,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "src/fabric.js",
+              "line": 9,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "src/fabric.js",
+              "line": 49,
+              "detail": "reads process.env",
+              "bundled": false
+            },
+            {
+              "file": "src/server.js",
+              "line": 32,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "src/fabric.js",
+              "line": 10,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "bravozuluzero",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 82001,
+      "fileCount": 7,
+      "analyzedAt": "2026-10-22T11:26:47.046Z"
+    }
   },
   {
     "id": "mcp:ai-augmentev-paseo",
@@ -27439,6 +28276,69 @@
       "openIssues": 0,
       "license": "MIT",
       "language": "JavaScript"
+    },
+    "inspection": {
+      "name": "@autenai/mcp",
+      "version": "0.1.5",
+      "status": "ok",
+      "filesScanned": 1,
+      "filesTotal": 1,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "bin/auten-mcp.js",
+              "line": 5,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "bin/auten-mcp.js",
+              "line": 6,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "bin/auten-mcp.js",
+              "line": 16,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "bin/auten-mcp.js",
+              "line": 7,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 1,
+      "publishedBy": "autenai",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 18439,
+      "fileCount": 4,
+      "analyzedAt": "2026-10-22T11:26:47.912Z"
     },
     "readme": {
       "markdown": "Auten MCP server\n\n  <b>Computer use for the AI agent you already have.</b>\n  Claude Code, Codex, Cursor, Gemini CLI or any MCP client can click, type and read the screen\n  on your Mac, Windows or Linux computer — and your Android phone (beta) — in real apps that have no API.\n\n  \n  \n  \n\n  Website &nbsp;|&nbsp;\n  Setup for every client &nbsp;|&nbsp;\n  Pricing &nbsp;|&nbsp;\n  hello@auten.ai\n\n  \n  <sub>Illustration: the first run is driven by your AI, the next runs replay from memory.</sub>\n\n---\n\nAuten is the hands, your AI is the brain. A small runner on your computer does the clicking,\ntyping and screen reading. Your agent talks to it over MCP (stdio or SSE). Auten does not ship\nits own model and never needs your AI key; your agent keeps using the plan you already pay for.\n\nWhat makes it different from a plain mouse and keyboard bridge:\n\n- **Reads the UI, not just pixels.** It uses the accessibility tree, so your agent gets a numbered\n  list of real buttons and fields (`list_elements` then `click_at(3)`) instead of guessing\n  coordinates. OCR and real screenshots are there when an app has no accessibility info.\n- **Learns a task once, replays it without AI.** After your agent finishes a task, Auten can save\n  it as a skill. The next run replays in seconds, with no tokens spent, and fixes itself when the\n  app's layout changes.\n- **Passwords stay on your machine.** `fill_login` types a stored secret into a field without the\n  agent ever seeing the value.\n\n  \n  <sub>Real capture, not an illustration: first run by the agent (~14 s incl. thinking), then <code>run_skill</code> with new values (4.8 s, no model call). Local test page, 1 fps, one cut between the runs.</sub>\n\n## What you can ask your agent\n\nPlain requests in the client you already use. The agent decides the steps, Auten does the clicks.\n\n- \"Open the supplier portal, download this month's invoices and put them in ~/Invoices.\"\n- \"Go through the new leads in the CRM and fill in the missing company names from their emails.\"\n- \"Export the report from that desktop app as CSV. It has no API, so use the File menu.\"\n- \"On my Android phone, open Instagram and reply to the latest DM with this text.\" (phone is beta, over USB)\n- \"That worked. Save it as a skill called `export-report`.\" Next time: \"Run `export-report`.\" It replays without AI.\n\n## Quick start\n\n**1. Install the runner** (one command; no admin rights on macOS and Windows, on Linux it asks for `sudo` once to apt-install the accessibility and input tools):\n\n```bash\n# macOS and Linux\ncurl -fsSL https://auten.ai/install | bash\n```\n\n```powershell\n# Windows (PowerShell)\nirm https://auten.ai/install.ps1 | iex\n```\n\nThe first run asks you to connect a free key (30 minutes every month, no card).\n\n**2. Add Auten to your agent.** For Claude Code, Auten can do it by itself:\n\n```bash\nauten connect\n```\n\nor add it with the Claude Code CLI and check with `/mcp`:\n\n```bash\nclaude mcp add -s user auten -- auten mcp-bridge\n```\n\n**3. Ask in plain words.** For example: *\"Open Figma, export the Hero frame as PNG to my Desktop\"*\nor *\"Go through the unread invoices in my mail and fill them into the accounting app\"*.\nMore prompts for computer and phone (beta) tasks: [examples/prompts.md](examples/prompts.md).\n\n### Or run it through npx\n\nAny client that can start an npm package can use the launcher instead. It starts the installed\nrunner, and if Auten is not installed yet it tells your agent the one-line install command.\nThe \"Add to Cursor\" and \"VS Code\" buttons at the top add exactly this entry.\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"npx\", \"args\": [\"-y\", \"@autenai/mcp\"] }\n  }\n}\n```\n\n```bash\nclaude mcp add -s user auten -- npx -y @autenai/mcp\n```\n\nOn Windows, if the client reports `spawn npx ENOENT`: npx is `npx.cmd` there, and some clients start\nservers without a shell. Use `\"command\": \"cmd\", \"args\": [\"/c\", \"npx\", \"-y\", \"@autenai/mcp\"]`\n(Claude Code: `claude mcp add -s user auten -- cmd /c npx -y @autenai/mcp`), or the direct\n`auten mcp-bridge` entry below.\n\n### Or as a Claude Code plugin\n\nThis repository is also a plugin marketplace. Inside Claude Code:\n\n```\n/plugin marketplace add auten-ai/auten-mcp\n/plugin install auten@auten\n```\n\nThe plugin adds the same npx launcher entry, nothing else (no hooks or commands). See [plugin/README.md](plugin/README.md).\n\n## Client setup\n\nEvery client starts the same stdio command: `auten mcp-bridge` (or `npx -y @autenai/mcp`). If your app says it cannot find\n`auten`, use the full path from `which auten` (usually `~/.local/bin/auten`).\n\n<details>\n<summary><b>OpenAI Codex</b></summary>\n\n```bash\ncodex mcp add auten -- auten mcp-bridge\n```\n\nor in `~/.codex/config.toml`:\n\n```toml\n[mcp_servers.auten]\ncommand = \"auten\"\nargs = [\"mcp-bridge\"]\n```\n</details>\n\n<details>\n<summary><b>Cursor</b></summary>\n\n`~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n</details>\n\n<details>\n<summary><b>Gemini CLI</b></summary>\n\n```bash\ngemini mcp add --scope user auten auten mcp-bridge\n```\n\nor the same `mcpServers` entry in `~/.gemini/settings.json`.\n</details>\n\n<details>\n<summary><b>GitHub Copilot CLI</b></summary>\n\n```bash\ncopilot mcp add auten -- auten mcp-bridge\n```\n\nor in `~/.copilot/mcp-config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"type\": \"local\", \"command\": \"auten\", \"args\": [\"mcp-bridge\"], \"tools\": [\"*\"] }\n  }\n}\n```\n\nInside a session, `/mcp add` opens the same form (type STDIO, command `auten mcp-bridge`).\n</details>\n\n<details>\n<summary><b>Claude Desktop</b></summary>\n\nSettings, Developer, Edit Config\n(`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS,\n`%APPDATA%\\Claude\\claude_desktop_config.json` on Windows):\n\n```json\n{\n  \"mcpServers\": {\n    \"auten\": { \"command\": \"auten\", \"args\": [\"mcp-bridge\"] }\n  }\n}\n```\n\nRestart Claude Desktop.\n</details>\n\n<details>\n<summary><b>VS Code (GitHub Copilot agent mode)</b></summary>\n\nRun `MCP: Open Use\n\n…",
@@ -28093,7 +28993,7 @@
       "installScripts": null,
       "unpackedSize": 1184,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:17.480Z"
+      "analyzedAt": "2026-10-22T11:26:47.911Z"
     }
   },
   {
@@ -28142,7 +29042,7 @@
       "installScripts": null,
       "unpackedSize": 1169,
       "fileCount": 5,
-      "analyzedAt": "2026-09-16T19:16:17.072Z"
+      "analyzedAt": "2026-10-22T11:26:47.836Z"
     }
   },
   {
@@ -28191,7 +29091,7 @@
       "installScripts": null,
       "unpackedSize": 1092,
       "fileCount": 4,
-      "analyzedAt": "2026-09-16T19:16:16.855Z"
+      "analyzedAt": "2026-10-22T11:26:47.827Z"
     }
   },
   {
@@ -28419,7 +29319,7 @@
       "installScripts": null,
       "unpackedSize": 80839,
       "fileCount": 12,
-      "analyzedAt": "2026-09-16T19:16:17.364Z"
+      "analyzedAt": "2026-10-22T11:26:48.149Z"
     },
     "readme": {
       "markdown": "# @autonomad1/computeback-mcp\n\nDual-transport MCP server for autonomous agents to interact with [Computeback](https://www.computeback.com) — the Agent Rewards Marketplace and CB Hire B2B labor marketplace.\n\nTwo ways to connect:\n\n- **stdio** (local subprocess) — `npx @autonomad1/computeback-mcp`. For Claude Desktop, OpenClaw running on your machine, or any MCP client that spawns servers locally.\n- **streamable-http** (hosted) — `https://mcp.computeback.com/mcp`. For cloud-hosted MCP clients (Claude.ai web Custom Connectors, hosted OpenClaw, GPT Custom GPTs) that don't want to install + spawn an npm package.\n\nSame 28 tools either way. Same auth model (per-agent HMAC). Choose the one that matches your runtime.\n\n## What this gives an agent\n\nTwo distinct surfaces, one server:\n\n### 1. Storefront — spend $NOMD on capabilities\n\nAgents browse and buy compute, voice, memory, storage, SaaS credits, vision, mobility, identity, and 25+ other capability categories. Payment is in $NOMD (ERC-20 on Base L2 at `0x667b3de5b479ff61d5e5ad7ec2e97345298b125c`). Tokens are burned on purchase (deflationary).\n\n### 2. CB Hire — earn $NOMD on paid B2B labor\n\nAgents discover paid B2B work — email outreach, voice campaigns, SMS, conversational landing pages, multi-channel workflows. On completion, the closed-loop economy mints 70% of the business's USD payment as $NOMD to the agent's wallet on Base L2. The same $NOMD spends in the storefront above.\n\n18 pricing models supported: flat per task, per unit, hourly, retainer, per lead, per reply, per meeting booked, per conversion, per sale, revenue commission, base+bonus, budget+goal, tiered milestones, money-back guarantee, risk-free trial, escrow milestones, open bidding, reverse auction.\n\n## Install\n\n```bash\nnpm install -g @autonomad1/computeback-mcp\n# or run on demand:\nnpx @autonomad1/computeback-mcp\n```\n\n## Configure (Claude Desktop)\n\n```json\n{\n  \"mcpServers\": {\n    \"computeback\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@autonomad1/computeback-mcp\"],\n      \"env\": {\n        \"COMPUTEBACK_API_URL\": \"https://www.computeback.com/api\",\n        \"BASE_RPC_URL\": \"https://mainnet.base.org\"\n      }\n    }\n  }\n}\n```\n\nFor agents calling CB Hire tools (the `list_my_inbox`, `place_bid`, `dispatch_*` family), add:\n\n```json\n\"env\": {\n  \"COMPUTEBACK_API_URL\": \"https://www.computeback.com/api\",\n  \"BASE_RPC_URL\": \"https://mainnet.base.org\",\n  \"AGENT_DID\": \"did:nomd:...\",\n  \"AGENT_HMAC_SECRET\": \"your-hmac-secret\"\n}\n```\n\nAgents register a DID by calling [`POST /v1/agents/register`](https://computeback.com/hire) on the Computeback backend, which returns the DID + HMAC secret.\n\n## Tool catalogue (28 tools)\n\n### Storefront\n- `search_products` — filter / search the catalog\n- `get_product` — full product info ($NOMD price, vendor, fulfillment)\n- `get_categories` — list 25+ capability categories\n- `check_balance` — agent's $NOMD balance on Base L2\n- `create_order` — purchase a product (burns $NOMD)\n- `get_orders` — agent's order history\n- `get_recommendations` — personalized picks\n- `buy_nomd` — link to Treasury Sale Vault (USDC → $NOMD)\n\n### CB Hire — discover + bid\n- `list_my_inbox` — open offers, assignments, bids\n- `place_bid` — bid on open_bidding / reverse_auction offers\n- `withdraw_bid` — retract a pending bid\n- `get_agent_profile`, `edit_agent_profile` — public profile + tier\n- `get_settlement_status`, `list_my_settlements` — earnings + tx hashes\n- `get_business_profile`, `get_product_info` — research a business\n- `get_audience_data`, `list_audiences` — scoped audience access\n- `fetch_url` — fetch public URLs for outreach research\n\n### CB Hire — execute\n- `dispatch_email_campaign` — CAN-SPAM-compliant personalized outbound\n- `dispatch_voice_campaign` — TCPA-compliant outbound telephony with voicemail-drop + live-transfer\n- `dispatch_sms_campaign` — STOP/HELP/START handling + DNC dedup\n- `configure_landing_page` + `dispatch_landing_pages` — per-prospect conversational pages\n- `send_landing_chat` — reply to prospects on a landing-page chat widget\n- `list_workflow_templates`, `start_workflow` — chain channels into funnels\n\nEvery tool carries the MCP spec safety annotations (`readOnlyHint`, `destructiveHint`, `idempotentHint`, `openWorldHint`) so well-behaved clients can auto-approve the read-only ones and prompt only on writes.\n\n## Reputation tiers\n\n`bronze` (0 completions) → `silver` (≥1) → `gold` (≥5) → `platinum` (≥25 + ≥$5K earned) → `diamond` (≥100 + ≥$50K). Tier gates which offers an agent sees. Auto-recomputed on `task_completed` / `meeting_booked` / `sale_completed` outcome events.\n\n## Auth\n\n- Storefront tools: optional `AGENT_DID` (read-only product browsing works without auth)\n- CB Hire tools: required `AGENT_DID` + `AGENT_HMAC_SECRET`. Each request signs `did + \":\" + path` with HMAC-SHA256 and includes `x-agent-did` + `x-agent-signature` headers.\n\n## Streamable-http hosting\n\nFor cloud / hosted clients that don't want to spawn an npm subprocess,\nthe same 28 tools are served over Streamable HTTP at:\n\n```\nhttps://mcp.computeback.com/mcp\n```\n\nDiscovery manifest: `https://mcp.computeback.com/.well-known/mcp.json`.\nHealth probe: `https://mcp.computeback.com/health`.\n\n### Connecting (Claude.ai Custom Connector)\n\nIn Claude.ai → Settings → Connectors → Add Connector → URL:\n\n```\nhttps://mcp.computeback.com/mcp\n```\n\nFor storefront tools no auth is required. For CB Hire tools, provide the\ncustom headers when the connector form prompts for them:\n\n```\nX-Agent-Did:       did:nomd:agt_...\nX-Agent-Signature: <hex hmac of \"<did>:<path>\" with your secret>\n```\n\nRegister a DID + secret by POSTing to\n`https://www.computeback.com/api/v1/agents/register` — you get the raw\nsecret back exactly once. Sign each MCP request with that secret.\n\n### Calling from a custom client (curl example)\n\n```bash\n# Initialize a session\ncurl -X POST https://mcp.computeback.com/mcp \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json, text/event-stream\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"ini\n\n…",
@@ -28480,7 +29380,7 @@
     "repoMeta": null,
     "inspection": {
       "name": "autonomad-travel",
-      "version": "1.4.4",
+      "version": "1.6.1",
       "status": "ok",
       "filesScanned": 1,
       "filesTotal": 1,
@@ -28537,9 +29437,9 @@
       "provenance": false,
       "signed": true,
       "installScripts": null,
-      "unpackedSize": 128035,
+      "unpackedSize": 309035,
       "fileCount": 8,
-      "analyzedAt": "2026-09-16T19:16:17.890Z"
+      "analyzedAt": "2026-10-22T11:26:48.066Z"
     }
   },
   {
@@ -28576,20 +29476,83 @@
       }
     ],
     "remotes": [],
-    "stars": 1332,
+    "stars": 1340,
     "source": "MCP Registry",
     "updatedAt": "2026-10-19T08:39:43.531506Z",
     "repoMeta": {
       "slug": "autonomous-ai/openharness",
-      "stars": 1332,
-      "forks": 119,
+      "stars": 1340,
+      "forks": 124,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-04T07:53:15Z",
-      "pushedAt": "2026-10-21T11:24:33Z",
-      "openIssues": 17,
+      "pushedAt": "2026-10-22T11:23:55Z",
+      "openIssues": 18,
       "license": "MIT",
       "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "@autonomous-ai/harness-mcp",
+      "version": "0.2.0",
+      "status": "ok",
+      "filesScanned": 2,
+      "filesTotal": 2,
+      "bundledFiles": 0,
+      "capabilities": [
+        {
+          "id": "exec",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 9,
+              "detail": "imports child_process",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 10,
+              "detail": "imports fs",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "env",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 19,
+              "detail": "reads process.env",
+              "bundled": false
+            }
+          ]
+        },
+        {
+          "id": "system",
+          "evidence": [
+            {
+              "file": "index.mjs",
+              "line": 11,
+              "detail": "imports os",
+              "bundled": false
+            }
+          ]
+        }
+      ],
+      "maintainers": 3,
+      "publishedBy": "tuanhqv123",
+      "trustedPublisher": null,
+      "provenance": false,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 8051,
+      "fileCount": 4,
+      "analyzedAt": "2026-10-22T11:26:48.136Z"
     },
     "readme": {
       "markdown": "Harness like a boss.\n\n  <b>The ultimate harness for coding agents and beyond.</b>\n  Claude Code at work. Codex at home. Hermes in the cloud. One command center.\n  Start with code. Then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.\n\n  <b>Download</b> ·\n  How it works ·\n  Beyond code ·\n  Harnesses ·\n  Device\n\n### Every agent, side by side\n\nClaude Code, Codex, Cursor, OpenCode, Devin, Amp, Copilot and seven more.\n\n### Every machine, side by side\n\nYour laptop, home server and GPU box in one window. Link each one with a password.\nNo SSH keys. No Tailscale. No port forwarding.\n\n### Keyboard first\n\n⌘P finds any harness on any machine. ⇧⌘I jumps to the harness waiting on you. ⌘D splits. Every key remaps.\n\n### End-to-end encrypted\n\nCode, keys and keystrokes are sealed on your machine. The relay forwards bytes it can't read.\n\n### Fast and light\n\nA native app, not Electron. Close it and your agents keep working.\n\nIdle measurements on an M2 Max:\n\n- **⌘N, ⌘O, ⌘T UI:** 11–13 ms median, 15–18 ms p95.\n- **Local terminal echo:** 1.1 ms median, 7.2 ms p95, excluding UI rendering.\n- **Desktop resources:** ~0.1% of one CPU core and 304 MiB, including terminal rendering and scrollback; agent CLIs and the daemon are excluded.\n\nDesktop results use a Release fixture with 16 terminals and 1,000 scrollback lines each.\nSee the [workflow and resource benchmarks](docs/performance/2026-09-23-core-experiences.md)\nand [remote P2P, TURN and relay results](docs/performance/2026-09-23-transport-routes.md)\nfor workloads, slow tails, connection failures and raw data.\n\n### Built the way developers work\n\n- **Real terminals.** Every agent runs in its own tmux pane. Scrollback, colors and keys just work.\n- **Your CLIs, as they are.** Harness never wraps an agent. It reads transcripts and uses the vendor's own hooks.\n- **A worktree per harness.** Start an agent on its own branch. Your working copy stays clean.\n- **Remap every key.** One JSONC file, reloaded on save. Chords up to four strokes.\n- **Local models.** Run open-weight models on your own machines with Grid, Ollama, MLX-LM and vLLM.\n- **Bytes, not pixels.** Remote terminals stream text peer to peer. No remote desktop.\n- **Open source, all of it.** App, CLI, daemon, relay and device, in this repo.\n\n## How it works\n\nIn the workspace, a **harness** is one running session of an agent such as Codex\nor Claude Code, with its own conversation and working context. A **tab** groups\nharnesses. Use **New Harness** to start one and **New Tab** to group work.\nHarnesses in the same tab can message each other with `harness send`: **Agent Messages**,\nan experiment of your account, off by default and turned on in Settings ▸ Experimental.\n\nThe Store offers **harnesses** with instructions, tools, and optional viewers for\nspecific crafts. Install a harness, then start it in your workspace. See the\n[Naming System](docs/naming-system.md) for the complete naming rules.\n\nOne daemon per machine runs your agents in tmux. It dials out, so no machine opens a port.\n\n```mermaid\nflowchart LR\n  subgraph laptop[\"Your laptop\"]\n    app[\"Harness app\"] -- loopback --> d1[\"daemon\"]\n    d1 --> a1[\"tmux · Claude Code · Codex\"]\n  end\n  subgraph box[\"Your GPU box\"]\n    d2[\"daemon\"] --> a2[\"tmux · OpenCode · Hermes\"]\n  end\n  device[\"Harness device\"] -- USB --> d1\n  d1 <-. \"direct WebRTC\" .-> d2\n  d1 <-- \"ciphertext\" --> relay[\"Harness relay · no keys\"]\n  relay <-- \"ciphertext\" --> d2\n```\n\nEvery path is sealed end to end: ChaCha20-Poly1305, X25519 session keys, pinned Ed25519 identities.\nHarness picks the best path on its own.\n\n**Direct.** A WebRTC channel between your machines. No server in the path.\n\n**Through Cloudflare.** When a firewall blocks the direct path, the same encrypted channel runs over\nCloudflare's TURN network. Harness keeps trying for a direct path.\n\n**Through our relay.** A fallback while WebRTC negotiates. The relay holds no keys and forwards ciphertext.\n\nThe [architecture guide](docs/architecture.md) has the details.\n\n## Get started\n\n**[Download the app](https://harness.autonomous.ai/desktop?utm_source=github&utm_medium=readme)** for macOS or Linux.\n\nAdd a machine. Run this on it, then **Machines → Link Machine** in the app:\n\n```bash\ncurl -fsSL https://harness.autonomous.ai/cli/install.sh | bash\nharness login\nharness remote-password set\nharness start\n```\n\n**In a terminal:** the same line installs `hn` — tmux's keys and your `~/.tmux.conf`, with every\nharness on every machine ([hn](tui/README.md)). The first time, `hn` signs in and connects the\ncomputer:\n\n```bash\ncurl -fsSL https://harness.autonomous.ai/cli/install.sh | bash\nhn\n```\n\n**For agents:** Claude Code and Codex can start, wait for and read other harnesses with the `harness` skill\n([harness.autonomous.ai/agents](https://harness.autonomous.ai/agents), which has the Codex lines too):\n\n```bash\nclaude plugin marketplace add autonomous-ai/openharness --sparse .claude-plugin plugins\nclaude plugin install harness@openharness\n```\n\n<details>\n<summary><b>Build from source</b></summary>\n\nNeeds Node.js 20+, tmux, Xcode and Flutter 3.47+ / Dart 3.13+:\n\n```bash\ngit clone https://github.com/autonomous-ai/openharness.git\ncd openharness\n(cd cli && npm ci)\nmake install-cli\ncd desktop\nflutter config --enable-swift-package-manager\nflutter pub get\nflutter run -d macos\n```\n\n`make install-cli` installs this checkout's CLI and restarts the local daemon. See the\n[development guide](docs/development.md).\n\n</details>\n\n## Beyond code: Build across disciplines\n\n> “World-class entrepreneurs are polymaths.” — [Peter Thiel](https://www.youtube.com/watch?v=h10kXgTdhNU&t=811s)\n\nCoding agents can build far more than software. Give one a harness and it works with the real\ntools of a craft. You steer in a live viewer. Every clip below is a real session.\n\n### Beyond code: Design\n\n**[Blender](store/agents/blender/).** Ask for a lamp and the sliders that matter. Turn them and Blender rebuilds the geometry. Keep the versions you lov\n\n…",
@@ -31333,7 +32296,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-10-04T11:50:59Z",
-      "pushedAt": "2026-10-20T17:36:32Z",
+      "pushedAt": "2026-10-21T17:43:26Z",
       "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
@@ -32051,7 +33014,7 @@
           {
             "name": "category",
             "type": "string",
-            "description": "Current app History read with view: app. Context takes only original recordId and recordKind; other categories require request. Advice also requires the original record references.",
+            "description": "Current app History read with view: app. Context takes only original recordId and recordKind; other categories require request. Advice also requires the original record references; every advice entry ",
             "required": false,
             "enum": [
               "summary",
@@ -32271,7 +33234,13 @@
           {
             "name": "league",
             "type": "string",
-            "description": "doctor_parlays only: one league id, e.g. LGUE_nfl.",
+            "description": "doctor_parlays (required) and doctor_picks (optional filter): one league id, e.g. LGUE_nfl.",
+            "required": false
+          },
+          {
+            "name": "sport",
+            "type": "string",
+            "description": "doctor_picks only (optional filter): one sport id, e.g. SPRT_americanfootball.",
             "required": false
           },
           {
@@ -32980,8 +33949,21 @@
       },
       {
         "name": "get_doctor_picks",
-        "description": "Read today’s saved Doctor picks and recent settled WON/LOST/PUSH results. Uses the app’s account permissions and paid-leg lock; no generation or current-price claim. Action and version are fixed by this tool; do not supply them.",
-        "inputs": null
+        "description": "Read today’s saved Doctor picks and recent settled WON/LOST/PUSH results. Each item carries league (first leg’s league id), sport (first leg’s sport id) and leagues (every leg’s league), the same fields the app’s league tabs filter by, for every reader. Optional league (e.g. LGUE_nfl) and/or sport (e.g. SPRT_americanfootball) keep only matching items. Uses the app’s account permissions and paid-le",
+        "inputs": [
+          {
+            "name": "league",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sport",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
       },
       {
         "name": "get_tail_feed",
@@ -33634,51 +34616,73 @@
         ]
       },
       {
-        "name": "get_betting_leaks",
-        "description": "Read deterministic patterns from this account’s settled betting history, with coverage, sample sizes, thresholds and source ticket IDs.",
+        "name": "search_markets",
+        "description": "Search the same way the app’s Home and Live search does. query is the typed text (a team, game, player or market name, e.g. \"Bears\" or \"Rasmussen\"); category is games (default), players or markets. Optional league (LGUE_ id) or sport (SPRT_ id) narrows it, limit is 1-20 and cursor is the previous result’s next. Games come back recently started first, then upcoming; each carries its eventId for get",
         "inputs": [
           {
-            "name": "range",
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "category",
             "type": "string",
             "description": null,
             "required": false,
             "enum": [
-              "1w",
-              "1m",
-              "3m",
-              "1y",
-              "ytd",
-              "all"
+              "games",
+              "players",
+              "markets"
             ]
+          },
+          {
+            "name": "league",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "sport",
+            "type": "string",
+            "description": null,
+            "required": false
           },
           {
             "name": "limit",
             "type": "integer",
             "description": null,
             "required": false
+          },
+          {
+            "name": "cursor",
+            "type": "string",
+            "description": null,
+            "required": false
           }
         ]
       },
       {
-        "name": "list_api_keys",
-        "description": "List your active personal BetSlip Doctor API keys (name, display prefix, scopes, created, last used). Secrets are never returned.",
-        "inputs": null
-      },
-      {
-        "name": "create_api_key",
-        "description": "Create a personal API key (bsd_live_…) for scripts. Give it a name and the scopes it needs; they must be a subset of this connection's own scopes. The full key is returned once in this result and cannot be read again. API keys cannot create other keys. Requires Pro or Elite.",
+        "name": "get_box_score",
+        "description": "Read the in-play or final score and box score for one game (eventId from search_markets or the board), the same read as the app’s Live game page: status (in_progress, final or suspended), period and clock, each team’s score and period-by-period line, team statistics, and player statistic tables. state unavailable with a reason (e.g. unsupported_league, no_usable_body when the game has not started,",
         "inputs": [
           {
-            "name": "name",
+            "name": "eventId",
             "type": "string",
             "description": null,
             "required": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "list_linkable_sportsbooks",
+        "description": "List the sportsbooks this account can link, the same list as the app’s Settings > Sportsbooks picker: each book (bookId, name, abbr) with the two-letter states it can be linked in. state (two letters, e.g. NJ) filters to the books linkable there; without it the account’s own linking state is used when its linked books share one. Use a listed book and state with connect_sportsbook. Never contacts a",
+        "inputs": [
           {
-            "name": "scopes",
-            "type": "array",
+            "name": "state",
+            "type": "string",
             "description": null,
-            "required": true
+            "required": false
           }
         ]
       }
@@ -34838,14 +35842,14 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-06-20T16:06:55Z",
-      "pushedAt": "2026-10-14T09:49:27Z",
+      "pushedAt": "2026-10-22T08:16:54Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "Python"
     },
     "toolsStatus": "error",
     "readme": {
-      "markdown": "Biel.ai MCP Server\n  Connect your IDE to your product docs\n\nGive AI tools like Cursor, VS Code, and Claude Desktop access to your company's product knowledge through the [Biel.ai platform](https://biel.ai).\n\nBiel.ai provides a hosted Retrieval-Augmented Generation (RAG) layer that makes your documentation searchable and useful to AI tools. This enables smarter completions, accurate technical answers, and context-aware suggestions—directly in your IDE or chat environment.\n\nWhen AI tools can read your product documentation, they become **significantly** more helpful—generating more accurate code completions, answering technical questions with context, and guiding developers with real-time product knowledge.\n\n> **Note:** Requires a Biel.ai account and project setup. **[Start your free 15-day trial](https://app.biel.ai/accounts/signup/)**.\n\nSee quickstart instructions →\n\n## Getting started\n\n### 1. Get your MCP configuration\n\n```json\n{\n  \"mcpServers\": {\n    \"biel-ai\": {\n      \"description\": \"Query your product's documentation, APIs, and knowledge base.\",\n      \"command\": \"npx\",\n      \"args\": [\n        \"mcp-remote\",\n        \"https://mcp.biel.ai/sse?project_slug=YOUR_PROJECT_SLUG&domain=https://your-docs-domain.com\"\n      ]\n    }\n  }\n}\n```\n\n**Required:** `project_slug` and `domain`  \n**Optional:** `api_key` (only needed for private projects)\n\n### 2. Add to your AI tool\n\n* **Cursor**: **Settings** → **Tools & Integrations* → **New MCP server**.\n* **Claude Desktop**: Edit `claude_desktop_config.json`  \n* **VS Code**: Install **MCP extension**.\n\n### 3. Start asking questions\n\n```\nCan you check in biel_ai what the auth headers are for the /users endpoint?\n```\n\n## Choose generated answers or search\n\nThe server exposes three tools:\n\n- `biel_ai`: ask Biel.ai to generate an answer, with conversational context. Existing calls using `message` continue to generate answers.\n- `biel_search`: hybrid keyword and semantic search over indexed web pages, uploaded files, repositories and OpenAPI sources, without answer generation.\n- `biel_get_document`: read the complete indexed text of a document returned by search.\n\nCall `biel_search` with a natural-language question or search terms:\n\n```json\n{\"query\": \"How do I authenticate with the SDK?\", \"limit\": 5}\n```\n\nSearch requests the API's `search_type=hybrid&source_types=all`. The REST API defaults to `search_type=keyword`, independently of the selected sources. Results include chunk text, source type, a `document_id`, and any page/sheet reference; non-URL documents are cited by title and location. The `limit` argument controls how many chunks are returned (default 5, maximum 20).\n\nUse `biel_get_document` with a search result's `document_id` to read the complete indexed document without visiting its source site:\n\n```json\n{\"document_id\": \"DOCUMENT_ID_FROM_SEARCH\", \"limit\": 20}\n```\n\nGet returns full indexed chunks in reading order, with PDF page and spreadsheet sheet references. Large documents include a `next_cursor`; repeat the call with that cursor and the same `document_id` and `limit` until it is absent. This returns the indexed text, not the original binary upload or live page HTML. References belong to the project's active index generation: search again after a recrawl invalidates a reference. Older repository and OpenAPI sources require a recrawl to populate parent-document identity before get is available.\n\nSearch and get do not create or continue a chat. Private projects require an API key with the `search` scope; generated answers use `chats_create`. All operations retain the API's project access, domain and quota checks. The default workflow is **search → get → answer using the retrieved text**. If the calling agent wants Biel.ai to generate an answer, it should ask the user first unless the user has already explicitly requested that. Retrieval failures never automatically switch to generated answers.\n\n## Self-hosting (Optional)\n\nFor advanced users who prefer to run their own MCP server instance:\n\n### Local development\n```bash\n# Clone and run locally\ngit clone https://github.com/TechDocsStudio/biel-mcp\ncd biel-mcp\npip install .\nbiel-mcp\n```\n\n### Use as a Python package\n\nApplications that host their own ASGI stack can install the server directly\nfrom a tagged revision and import its FastAPI application:\n\n```bash\npip install \"biel-mcp @ git+https://github.com/TechDocsStudio/biel-mcp.git@VERSION\"\n```\n\n```python\nfrom biel_mcp.server import app\n```\n\n### Docker deployment\n```bash\n# Docker Compose (recommended)\ndocker-compose up -d --build\n\n# Or Docker directly\ndocker build -t biel-mcp .\ndocker run -d -p 7832:7832 biel-mcp\n```\n\n## Support\n\n- **Issues**: [GitHub Issues](https://github.com/techdocsStudio/biel-mcp/issues)\n- **Contact**: [support@biel.ai](mailto:support@biel.ai)\n- **Custom Demo**: [Book a demo](https://biel.ai/contact)",
+      "markdown": "Biel.ai MCP Server\n  Give AI assistants context from technical documentation\n\n[Biel.ai](https://biel.ai) turns technical documentation into answers for users and context for AI agents, with links back to the sources. This MCP server connects Claude Code, Codex, Cursor, and other compatible clients to documentation indexed in a Biel.ai project.\n\nThe usual workflow is to search for relevant content, retrieve indexed documents when more context is needed, and answer in the calling AI assistant. Biel.ai can also generate an answer when you explicitly request one. Source grounding does not eliminate model error; check the retrieved content and references.\n\n> Requires a Biel.ai account, indexed sources, and hosted MCP enabled on a plan that includes it. [Create an account](https://app.biel.ai/accounts/signup/) and follow the [MCP setup guide](https://docs.biel.ai/integrations/mcp-server).\n\n## Getting started\n\n### 1. Enable MCP and copy your endpoint\n\nOpen your project in Biel.ai, go to **Settings** > **MCP**, enable the MCP server, and save. Copy the complete endpoint supplied for your project. \n\n### 2. Connect your AI client\n\nUse the canonical documentation for client-specific steps:\n\n- [Connect technical documentation to Claude Code](https://docs.biel.ai/integrations/mcp-server#connect-technical-documentation-to-claude-code).\n- [Connect technical documentation to Codex](https://docs.biel.ai/integrations/mcp-server#connect-technical-documentation-to-codex).\n- [Connect ChatGPT](https://docs.biel.ai/integrations/chatgpt-plugin) or [Claude](https://docs.biel.ai/integrations/claude-connector).\n- For Cursor and VS Code / Copilot, use the widget's **Connect** menu or the [manual setup guide](https://docs.biel.ai/integrations/mcp-server#manual-configuration).\n\nThe [example configuration](./example-mcp.json) uses `mcp-remote` as a bridge for clients without native Streamable HTTP support. Clients with native HTTP support should connect directly using their own configuration format.\n\n### 3. Verify retrieval\n\nConfirm the client discovers `biel_search`, `biel_get_document`, and `biel_ai`. Ask a question your indexed documentation covers:\n\n```text\nUse biel_search to find our API authentication instructions. Read relevant\nresults with biel_get_document and explain the required headers with source links.\n```\n\nCheck the retrieved text and citations against the documentation. MCP serves indexed content; refresh sources in Biel.ai after documentation changes and search again for current document IDs.\n\n## Choose generated answers or search\n\nThe server exposes three tools:\n\n- `biel_ai`: ask Biel.ai to generate an answer, with conversational context. Existing calls using `message` continue to generate answers.\n- `biel_search`: hybrid keyword and semantic search over indexed web pages, uploaded files, repositories and OpenAPI sources, without answer generation.\n- `biel_get_document`: read the complete indexed text of a document returned by search.\n\nCall `biel_search` with a natural-language question or search terms:\n\n```json\n{\"query\": \"How do I authenticate with the SDK?\", \"limit\": 5}\n```\n\nSearch requests the API's `search_type=hybrid&source_types=all`. The REST API defaults to `search_type=keyword`, independently of the selected sources. Results include chunk text, source type, a `document_id`, and any page/sheet reference; non-URL documents are cited by title and location. The `limit` argument controls how many chunks are returned (default 5, maximum 20).\n\nUse `biel_get_document` with a search result's `document_id` to read the complete indexed document without visiting its source site:\n\n```json\n{\"document_id\": \"DOCUMENT_ID_FROM_SEARCH\", \"limit\": 20}\n```\n## Troubleshooting\n\nPublic projects do not need an API key. Private projects require an `api_key` query parameter with `search` permission for retrieval and `chats_create` for generated answers. \n\nA `domain` query parameter is needed when allowed domains are configured. See [connection parameters](https://docs.biel.ai/integrations/mcp-server#configuration-parameters) before connecting a private or domain-restricted project. Treat a URL containing a key as a credential and keep it out of shared configuration.\n\n## Self-hosting (Optional)\n\nFor advanced users who prefer to run their own MCP server instance:\n\n### Local development\n```bash\n# Clone and run locally\ngit clone https://github.com/TechDocsStudio/biel-mcp\ncd biel-mcp\npip install .\nbiel-mcp\n```\n\n### Use as a Python package\n\nApplications that host their own ASGI stack can install the server directly\nfrom a tagged revision and import its FastAPI application:\n\n```bash\npip install \"biel-mcp @ git+https://github.com/TechDocsStudio/biel-mcp.git@VERSION\"\n```\n\n```python\nfrom biel_mcp.server import app\n```\n\n### Docker deployment\n\n```bash\n# Docker Compose (recommended)\ndocker-compose up -d --build\n\n# Or Docker directly\ndocker build -t biel-mcp .\ndocker run -d -p 7832:7832 biel-mcp\n```\n\n## Support\n\n- **Issues**: [GitHub Issues](https://github.com/techdocsStudio/biel-mcp/issues)\n- **Contact**: [support@biel.ai](mailto:support@biel.ai)\n- **Custom Demo**: [Book a demo](https://biel.ai/contact)",
       "truncated": false,
       "url": "https://github.com/TechDocsStudio/biel-mcp#readme"
     }
@@ -35075,7 +36079,12 @@
       "license": "MIT",
       "language": "JavaScript"
     },
-    "toolsStatus": "ok",
+    "toolsStatus": "error",
+    "readme": {
+      "markdown": "# Bitroad MCP server\n\nBitroad is a marketplace built for AI agents. Your agent searches a catalogue of\ngoods and services, places orders under spending caps you set, tracks delivery,\nand handles returns and disputes, all through the Model Context Protocol.\n\n**Endpoint:** `https://app.bitroad.ai/api/v1/mcp`\n\nTransport is spec-compliant Streamable HTTP with JSON-RPC 2.0. Auth is OAuth 2.1\nwith dynamic client registration and PKCE, so most clients need nothing more than\nthe URL above.\n\n- Website: https://bitroad.ai\n- Documentation: https://bitroad.ai/docs\n- Sign up: https://buy.bitroad.ai/sign-up\n\n## How it works\n\n1. Create a buyer account at [buy.bitroad.ai](https://buy.bitroad.ai/sign-up).\n2. Add the endpoint to your MCP client and approve the consent screen.\n3. Your agent can now browse and read orders immediately.\n4. To let it spend, add a card and set delegation caps in your dashboard. Until\n   you do, there is no purchase path at all.\n\nSpending is bounded by three caps you control: per transaction, per day, and\ntotal. A purchase above any cap is refused outright, with a reason of\n`per_tx_cap_exceeded`, `daily_cap_exceeded` or `total_cap_exceeded`. Separately,\nyou can set a confirmation threshold: a purchase at or above it is allowed but\nreturns `confirmation_required` with a token, and needs your explicit sign-off\nbefore it proceeds. Agents never see card details; a card can only be added by\nyou through Stripe hosted checkout.\n\n## Connect your client\n\nThere are three shapes. Pick the one that matches your client.\n\n### CLI clients\n\n```bash\n# Claude Code\nclaude mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n\n# Gemini CLI\ngemini mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n```\n\nRun the client and trigger the OAuth flow (`/mcp` in Claude Code, automatic in\nGemini CLI), then approve on the Bitroad consent screen.\n\n### Config-file clients\n\nCursor, Claude Desktop, Cline, Windsurf, LibreChat and most other MCP clients\ntake a JSON block:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"url\": \"https://app.bitroad.ai/api/v1/mcp\"\n    }\n  }\n}\n```\n\nThe client discovers OAuth on first use.\n\n### Connector-UI clients\n\nClaude.ai (Settings, then Connectors), ChatGPT (developer mode custom\nconnectors), and Copilot take the endpoint as a pasted URL:\n\n1. Open the client's connector settings.\n2. Add a connector with URL `https://app.bitroad.ai/api/v1/mcp`.\n3. Approve the Bitroad consent screen when prompted.\n\n### Bearer key instead of OAuth\n\nFor headless clients and your own agent code, mint an agent key at\n`/buyer/instances/new` and send it as a header:\n\n```bash\ncurl https://app.bitroad.ai/api/v1/mcp \\\n  -H \"Authorization: Bearer br_ik_...\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'\n```\n\nKeys are shown once. Revoke them from the same page.\n\n### Stdio bridge\n\nClients and directory crawlers that only speak stdio can run the bridge in this\nrepository. It forwards each JSON-RPC message to the hosted endpoint unchanged\nand has no dependencies beyond Node 18+.\n\n```bash\ngit clone https://github.com/bitroadai/bitroad-mcp && cd bitroad-mcp\nBITROAD_API_KEY=br_ik_... node bin/bitroad-mcp.js\n```\n\nOr with Docker:\n\n```bash\ndocker build -t bitroad-mcp . && docker run -i -e BITROAD_API_KEY=br_ik_... bitroad-mcp\n```\n\nAs a config-file entry:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"command\": \"node\",\n      \"args\": [\"/path/to/bitroad-mcp/bin/bitroad-mcp.js\"],\n      \"env\": { \"BITROAD_API_KEY\": \"br_ik_...\" }\n    }\n  }\n}\n```\n\nWithout `BITROAD_API_KEY` the handshake and `tools/list` still work; `tools/call`\nreturns an authentication error telling you to set it. `BITROAD_MCP_URL`\noverrides the endpoint.\n\n## Tool catalogue\n\nCall `tools/list` for the live catalogue with full JSON Schema. `tools/list`\nreturns the whole catalogue to every caller; your account type is enforced when a\ntool is called, not when it is listed. Buyer and seller are separate account\ntypes and one email can only be one of them, so a buyer calling a `seller_*` tool\nis refused.\n\n**Buyer tools**\n\n| Group | Tools |\n|---|---|\n| Catalogue | `catalog_search_products`, `catalog_get_product`, `catalog_list_categories`, `catalog_describe_category` |\n| Buying | `purchase_create_intent`, `purchase_confirm_intent`, `purchase_cancel_intent` |\n| Orders | `orders_list`, `orders_get` |\n| Returns | `returns_initiate`, `returns_get`, `returns_list`, `returns_get_label` |\n| Disputes | `disputes_file`, `disputes_list`, `disputes_get`, `disputes_add_evidence`, `disputes_withdraw`, `disputes_respond` |\n| Reputation | `sellers_get`, `platforms_get` |\n| Account | `addresses_list`, `addresses_create`, `payment_methods_list`, `payment_methods_create`, `auth_whoami`, `auth_revoke_self` |\n\n**Seller tools**\n\nListings, stock, orders, shipping and tracking, returns, and review responses,\nunder the `seller_*` prefix.\n\n**Services**\n\nA quote-based marketplace for work rather than goods, under the `services_*`\nprefix: request a quote, accept it, and funds are held in escrow until you accept\nthe deliverable.\n\nThe catalogue also carries `envelopes_list` and `envelopes_get`, a preview\nsurface that is switched off on the hosted service. They appear in `tools/list`\nbut return a not-found error when called.\n\nBuying a product is a two-step flow. `purchase_create_intent` reserves stock and\nsnapshots price, VAT and shipping, then `purchase_confirm_intent` charges and\ncreates the order. Intents expire after 15 minutes. All monetary values are\ninteger pence.\n\n## Idempotency\n\nWrite tools accept an optional `_meta.idempotencyKey`. Passing one gives you full\nreplay semantics on retries. If your client cannot set it, the server generates\none so the call still succeeds.\n\n```json\n{\n  \"jsonrpc\": \"2.0\", \"id\": 3, \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"purchase_create_intent\",\n    \"arguments\": { \"product_id\": \"...\", \"quantity\": 1 },\n    \"_meta\": { \"idempotencyKe\n\n…",
+      "truncated": true,
+      "url": "https://github.com/bitroadai/bitroad-mcp#readme"
+    },
     "tools": [
       {
         "name": "services_search_listings",
@@ -36750,12 +37759,7 @@
           }
         ]
       }
-    ],
-    "readme": {
-      "markdown": "# Bitroad MCP server\n\nBitroad is a marketplace built for AI agents. Your agent searches a catalogue of\ngoods and services, places orders under spending caps you set, tracks delivery,\nand handles returns and disputes, all through the Model Context Protocol.\n\n**Endpoint:** `https://app.bitroad.ai/api/v1/mcp`\n\nTransport is spec-compliant Streamable HTTP with JSON-RPC 2.0. Auth is OAuth 2.1\nwith dynamic client registration and PKCE, so most clients need nothing more than\nthe URL above.\n\n- Website: https://bitroad.ai\n- Documentation: https://bitroad.ai/docs\n- Sign up: https://buy.bitroad.ai/sign-up\n\n## How it works\n\n1. Create a buyer account at [buy.bitroad.ai](https://buy.bitroad.ai/sign-up).\n2. Add the endpoint to your MCP client and approve the consent screen.\n3. Your agent can now browse and read orders immediately.\n4. To let it spend, add a card and set delegation caps in your dashboard. Until\n   you do, there is no purchase path at all.\n\nSpending is bounded by three caps you control: per transaction, per day, and\ntotal. A purchase above any cap is refused outright, with a reason of\n`per_tx_cap_exceeded`, `daily_cap_exceeded` or `total_cap_exceeded`. Separately,\nyou can set a confirmation threshold: a purchase at or above it is allowed but\nreturns `confirmation_required` with a token, and needs your explicit sign-off\nbefore it proceeds. Agents never see card details; a card can only be added by\nyou through Stripe hosted checkout.\n\n## Connect your client\n\nThere are three shapes. Pick the one that matches your client.\n\n### CLI clients\n\n```bash\n# Claude Code\nclaude mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n\n# Gemini CLI\ngemini mcp add --transport http bitroad https://app.bitroad.ai/api/v1/mcp\n```\n\nRun the client and trigger the OAuth flow (`/mcp` in Claude Code, automatic in\nGemini CLI), then approve on the Bitroad consent screen.\n\n### Config-file clients\n\nCursor, Claude Desktop, Cline, Windsurf, LibreChat and most other MCP clients\ntake a JSON block:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"url\": \"https://app.bitroad.ai/api/v1/mcp\"\n    }\n  }\n}\n```\n\nThe client discovers OAuth on first use.\n\n### Connector-UI clients\n\nClaude.ai (Settings, then Connectors), ChatGPT (developer mode custom\nconnectors), and Copilot take the endpoint as a pasted URL:\n\n1. Open the client's connector settings.\n2. Add a connector with URL `https://app.bitroad.ai/api/v1/mcp`.\n3. Approve the Bitroad consent screen when prompted.\n\n### Bearer key instead of OAuth\n\nFor headless clients and your own agent code, mint an agent key at\n`/buyer/instances/new` and send it as a header:\n\n```bash\ncurl https://app.bitroad.ai/api/v1/mcp \\\n  -H \"Authorization: Bearer br_ik_...\" \\\n  -H \"Content-Type: application/json\" \\\n  -H \"Accept: application/json\" \\\n  -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}'\n```\n\nKeys are shown once. Revoke them from the same page.\n\n### Stdio bridge\n\nClients and directory crawlers that only speak stdio can run the bridge in this\nrepository. It forwards each JSON-RPC message to the hosted endpoint unchanged\nand has no dependencies beyond Node 18+.\n\n```bash\ngit clone https://github.com/bitroadai/bitroad-mcp && cd bitroad-mcp\nBITROAD_API_KEY=br_ik_... node bin/bitroad-mcp.js\n```\n\nOr with Docker:\n\n```bash\ndocker build -t bitroad-mcp . && docker run -i -e BITROAD_API_KEY=br_ik_... bitroad-mcp\n```\n\nAs a config-file entry:\n\n```json\n{\n  \"mcpServers\": {\n    \"bitroad\": {\n      \"command\": \"node\",\n      \"args\": [\"/path/to/bitroad-mcp/bin/bitroad-mcp.js\"],\n      \"env\": { \"BITROAD_API_KEY\": \"br_ik_...\" }\n    }\n  }\n}\n```\n\nWithout `BITROAD_API_KEY` the handshake and `tools/list` still work; `tools/call`\nreturns an authentication error telling you to set it. `BITROAD_MCP_URL`\noverrides the endpoint.\n\n## Tool catalogue\n\nCall `tools/list` for the live catalogue with full JSON Schema. `tools/list`\nreturns the whole catalogue to every caller; your account type is enforced when a\ntool is called, not when it is listed. Buyer and seller are separate account\ntypes and one email can only be one of them, so a buyer calling a `seller_*` tool\nis refused.\n\n**Buyer tools**\n\n| Group | Tools |\n|---|---|\n| Catalogue | `catalog_search_products`, `catalog_get_product`, `catalog_list_categories`, `catalog_describe_category` |\n| Buying | `purchase_create_intent`, `purchase_confirm_intent`, `purchase_cancel_intent` |\n| Orders | `orders_list`, `orders_get` |\n| Returns | `returns_initiate`, `returns_get`, `returns_list`, `returns_get_label` |\n| Disputes | `disputes_file`, `disputes_list`, `disputes_get`, `disputes_add_evidence`, `disputes_withdraw`, `disputes_respond` |\n| Reputation | `sellers_get`, `platforms_get` |\n| Account | `addresses_list`, `addresses_create`, `payment_methods_list`, `payment_methods_create`, `auth_whoami`, `auth_revoke_self` |\n\n**Seller tools**\n\nListings, stock, orders, shipping and tracking, returns, and review responses,\nunder the `seller_*` prefix.\n\n**Services**\n\nA quote-based marketplace for work rather than goods, under the `services_*`\nprefix: request a quote, accept it, and funds are held in escrow until you accept\nthe deliverable.\n\nThe catalogue also carries `envelopes_list` and `envelopes_get`, a preview\nsurface that is switched off on the hosted service. They appear in `tools/list`\nbut return a not-found error when called.\n\nBuying a product is a two-step flow. `purchase_create_intent` reserves stock and\nsnapshots price, VAT and shipping, then `purchase_confirm_intent` charges and\ncreates the order. Intents expire after 15 minutes. All monetary values are\ninteger pence.\n\n## Idempotency\n\nWrite tools accept an optional `_meta.idempotencyKey`. Passing one gives you full\nreplay semantics on retries. If your client cannot set it, the server generates\none so the call still succeeds.\n\n```json\n{\n  \"jsonrpc\": \"2.0\", \"id\": 3, \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"purchase_create_intent\",\n    \"arguments\": { \"product_id\": \"...\", \"quantity\": 1 },\n    \"_meta\": { \"idempotencyKe\n\n…",
-      "truncated": true,
-      "url": "https://github.com/bitroadai/bitroad-mcp#readme"
-    }
+    ]
   },
   {
     "id": "mcp:ai-bittlebits-bittlebits",
@@ -37081,7 +38085,7 @@
       "installScripts": null,
       "unpackedSize": 58362,
       "fileCount": 55,
-      "analyzedAt": "2026-09-16T19:16:17.897Z"
+      "analyzedAt": "2026-10-22T11:26:48.054Z"
     }
   },
   {

@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-20T11:11:43Z",
+  "updatedAt": "2026-10-21T17:10:40Z",
   "counts": {
     "skills": 338,
-    "mcps": 281,
+    "mcps": 282,
     "repos": 119
   },
   "categories": {
@@ -17,7 +17,7 @@
     },
     "mcps": {
       "Dev Tools & Git": 7,
-      "Web & Search": 31,
+      "Web & Search": 32,
       "AI & Memory": 73,
       "Productivity": 7,
       "Design & Media": 18,

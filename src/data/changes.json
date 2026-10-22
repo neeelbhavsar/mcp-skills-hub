@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T11:26:55.476Z",
+  "generatedAt": "2026-10-22T11:28:07.689Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,40 +7,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "unreal-engine-skills-for-claude-code",
-          "name": "unreal-engine-skills-for-claude-code",
-          "description": "Control Unreal Editor directly from Claude Code via MCP. Hundreds of tools exposed via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing, and more.",
-          "category": "Coding & Engineering",
-          "delta": 164,
-          "stars": 1531
-        },
-        {
-          "slug": "amd-skills",
-          "name": "amd-skills",
-          "description": "AMD's verified Agent Skills in one plugin: route image/audio through local AI on Ryzen AI, serve LLMs on AMD Instinct GPUs with vLLM, optimize inference throughput with Hyperloom, and analyze GPU kernel and PyTorch trace performance.",
-          "category": "Design & Creative",
-          "delta": 34,
-          "stars": 457
-        },
-        {
-          "slug": "adobe-for-creativity",
-          "name": "adobe-for-creativity",
-          "description": "Harness Adobe's creative AI-powered tools to edit images, automate design workflows, and bring creative visions to life — from background removal to vectorization and professional retouching.",
-          "category": "Design & Creative",
-          "delta": 25,
-          "stars": 287
-        },
-        {
-          "slug": "vibe-prospecting",
-          "name": "vibe-prospecting",
-          "description": "Vibe Prospecting connects Claude to live B2B company and contact data so users can search, match, enrich, filter, and export prospects at scale. It turns natural-language requests into structured GTM workflows for lead generation, CRM enrichment, company research, executive discovery, and multi-step prospecting automa…",
-          "category": "Data & Analysis",
-          "delta": 11,
-          "stars": 229
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -54,64 +21,10 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-1court-state-court-directory",
-          "name": "1Court Directory",
-          "description": "US county court directory: clerk, courthouse address, e-filing, filing fees, and case lookup.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-adkix-adkix",
-          "name": "adkix",
-          "description": "Turn a website into a short 9:16 video ad: script, cast, voice, shots, music. Asks before spending.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-artemisgtm-gtm-engineer",
-          "name": "gtm-engineer",
-          "description": "GTM engineering consulting firm for seed to Series C startups. We build and run GTM systems.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-askgina-gina",
-          "name": "Ask Gina",
-          "description": "Read-only research on tokens, Hyperliquid perps, Polymarket markets and your Ask Gina account.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-askgina-perps",
-          "name": "Ask Gina Perps",
-          "description": "Trade Hyperliquid perpetual futures from your Ask Gina wallet. Moves real funds.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-askgina-predictions",
-          "name": "Ask Gina Predictions",
-          "description": "Trade Polymarket prediction markets from your Ask Gina wallet. Moves real funds.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-askgina-spot",
-          "name": "Ask Gina Spot",
-          "description": "Swap, transfer and manage liquidity positions from your Ask Gina wallet. Moves real funds.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-augmentev-fabric-verify",
-          "name": "Fabric Verify",
-          "description": "Signed, publicly logged records of what your AI agent did, with proofs anyone can check offline.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-autovox-autovox",
-          "name": "Autovox",
-          "description": "Make podcast episodes, series and shows from your mail, notes, files and code. Sign in with OAuth.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-blinibot-agent-lounge",
-          "name": "BliniBot Agent Lounge",
-          "description": "An open lounge where AI agents meet, talk, build and solve problems together and earn karma.",
-          "category": "AI & Memory"
+          "slug": "ai-arihaan-jobs",
+          "name": "Arihaan Jobs",
+          "description": "Live job postings from employer career sites: search, count and compare jobs and companies.",
+          "category": "Web & Search"
         }
       ],
       "removed": [],
@@ -119,24 +32,50 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 10,
+        "added": 1,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 271,
-        "currentTotal": 281
+        "previousTotal": 281,
+        "currentTotal": 282
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "cheaper-inference-omniroute",
+          "name": "OmniRoute",
+          "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+…",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "agentscope-ai-qwenpaw",
+          "name": "QwenPaw",
+          "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+          "category": "AI Agents"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "diegosouzapw-omniroute",
+          "name": "OmniRoute",
+          "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+…",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "1panel-dev-maxkb",
+          "name": "MaxKB",
+          "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. 强大易用的开源企业级智能体平台。",
+          "category": "AI Agents"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 2,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 119,
