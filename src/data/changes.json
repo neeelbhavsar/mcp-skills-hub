@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:28:07.689Z",
+  "generatedAt": "2026-10-23T11:17:55.650Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,10 +21,22 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-arihaan-jobs",
-          "name": "Arihaan Jobs",
-          "description": "Live job postings from employer career sites: search, count and compare jobs and companies.",
+          "slug": "academy-ase-periodic-system",
+          "name": "Agentic Engineering Periodic System",
+          "description": "Practices for building software with coding agents, each with a test you check on your repo.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ae-beachclubs-mcp",
+          "name": "BeachClubs.ae",
+          "description": "Search UAE beach clubs, day pass prices, amenities, opening hours and events across all 7 emirates.",
           "category": "Web & Search"
+        },
+        {
+          "slug": "ai-alwen-alwen",
+          "name": "Alwen",
+          "description": "One memory for every AI you work with: your rules, notes and decisions in your own Git repo.",
+          "category": "AI & Memory"
         }
       ],
       "removed": [],
@@ -32,50 +44,24 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 3,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 281,
-        "currentTotal": 282
+        "previousTotal": 282,
+        "currentTotal": 285
       }
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "cheaper-inference-omniroute",
-          "name": "OmniRoute",
-          "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+…",
-          "category": "MCP & Tooling"
-        },
-        {
-          "slug": "agentscope-ai-qwenpaw",
-          "name": "QwenPaw",
-          "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-          "category": "AI Agents"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "diegosouzapw-omniroute",
-          "name": "OmniRoute",
-          "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+…",
-          "category": "MCP & Tooling"
-        },
-        {
-          "slug": "1panel-dev-maxkb",
-          "name": "MaxKB",
-          "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. 强大易用的开源企业级智能体平台。",
-          "category": "AI Agents"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 2,
-        "removed": 2,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 119,
