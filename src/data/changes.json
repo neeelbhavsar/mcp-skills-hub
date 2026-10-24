@@ -1,17 +1,24 @@
 {
-  "generatedAt": "2026-10-23T11:17:55.650Z",
+  "generatedAt": "2026-10-24T10:36:44.889Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [],
       "removed": [],
-      "deprecated": [],
+      "deprecated": [
+        {
+          "slug": "sentry-cli",
+          "name": "sentry-cli",
+          "description": "Skills for using the Sentry CLI to interact with Sentry from the command line",
+          "category": "Other"
+        }
+      ],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
-        "deprecated": 0,
+        "deprecated": 1,
         "revived": 0,
         "previousTotal": 338,
         "currentTotal": 338
@@ -21,34 +28,53 @@
       "baseline": true,
       "added": [
         {
-          "slug": "academy-ase-periodic-system",
-          "name": "Agentic Engineering Periodic System",
-          "description": "Practices for building software with coding agents, each with a test you check on your repo.",
-          "category": "AI & Memory"
+          "slug": "ai-aistlabs-aistlabs",
+          "name": "AISTLabs",
+          "description": "Video, image and audio generation on top AI models for agents, with an AI director built in.",
+          "category": "Design & Media"
         },
         {
-          "slug": "ae-beachclubs-mcp",
-          "name": "BeachClubs.ae",
-          "description": "Search UAE beach clubs, day pass prices, amenities, opening hours and events across all 7 emirates.",
+          "slug": "ai-appgoat-mcp",
+          "name": "AppGoat",
+          "description": "App Store and Google Play data: apps, reviews, keywords, charts, competitors, ASO playbooks.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-alwen-alwen",
-          "name": "Alwen",
-          "description": "One memory for every AI you work with: your rules, notes and decisions in your own Git repo.",
-          "category": "AI & Memory"
+          "slug": "ai-atmy-air-quality",
+          "name": "Atmy air quality",
+          "description": "PM2.5 now, daily history, forecast and country rankings for 300+ cities from citizen sensors.",
+          "category": "Other"
         }
       ],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "ai-blitz-api-b2b-data",
+          "name": "BlitzAPI",
+          "description": "Search and enrich B2B companies and people: verified work emails, US phone numbers, job postings.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bloopo-bloopo",
+          "name": "Bloopo — AI Ad & Creative Studio",
+          "description": "Turn one sentence into finished ads: video ads, UGC, product photos, voiceover, brand kits, A/B.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-blopus-search",
+          "name": "Web Search API for all your agents and LLMs",
+          "description": "Live web search, image search, topic filters and full-text fetch over our own crawled index.",
+          "category": "Web & Search"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 3,
-        "removed": 0,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 282,
+        "previousTotal": 285,
         "currentTotal": 285
       }
     },
