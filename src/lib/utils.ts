@@ -37,3 +37,15 @@ export function toolSlug(name: string) {
     .replace(/^-+|-+$/g, "")
     .slice(0, 80);
 }
+
+/**
+ * Shorten text for a meta description without cutting a word in half:
+ * `.slice(0, 300)` left 25 of 45 sampled tool descriptions ending mid-word.
+ */
+export function clip(text: string, max = 155): string {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  const cut = clean.slice(0, max - 1);
+  const atWord = cut.replace(/\s+\S*$/, "");
+  return `${(atWord.length > max * 0.6 ? atWord : cut).replace(/[\s,;:.—–-]+$/, "")}…`;
+}

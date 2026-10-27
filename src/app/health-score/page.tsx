@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/layout/page-header";
-import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, OG_IMAGE, ogTitle, SITE_NAME, jsonLdScript } from "@/lib/seo";
 
 const DESCRIPTION =
-  "How AI Library scores MCP server health: the exact components, weights and formula — and what the score deliberately does not measure.";
+  `How ${SITE_NAME} scores MCP server health: the exact components, weights and formula — and what the score deliberately does not measure.`;
 
 export const metadata: Metadata = {
   title: "How the health score works",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/health-score" },
   openGraph: {
     url: "/health-score",
-    title: "How the health score works — AI Library",
+    title: ogTitle("How the health score works"),
     description: DESCRIPTION,
     images: [OG_IMAGE],
   },
@@ -52,7 +52,7 @@ export default function HealthScorePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd([{ name: "Health score", path: "/health-score" }])),
+          __html: jsonLdScript(breadcrumbJsonLd([{ name: "Health score", path: "/health-score" }])),
         }}
       />
       <PageHeader
@@ -116,7 +116,7 @@ grade  = A ≥ 80 · B ≥ 60 · C ≥ 40 · D < 40`}
           <span className="text-foreground">It is not a security audit.</span> Nothing here inspects the
           code. A server can score an A and still be malicious: a well-maintained, widely-installed,
           properly-licensed package is exactly what a competent attacker would publish. The score measures
-          whether a project looks looked-after — not whether it is safe to trust with your credentials.
+          whether a project looks looked after — not whether it is safe to trust with your credentials.
         </p>
         <p className="mt-3">
           It also cannot see runtime behaviour. What a server does with the data you send it is not

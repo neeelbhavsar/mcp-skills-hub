@@ -29,12 +29,22 @@ export interface CardItem {
   search: string;
 }
 
+/**
+ * Display name for a skill. Slug-style names ("pdf-processing") read better
+ * with spaces, but replacing hyphens in a name that already has spaces turned
+ * "Claude Cookbooks - Skills" into "Claude Cookbooks   Skills".
+ */
+export function skillTitle(name: string) {
+  const spaced = /\s/.test(name) ? name : name.replace(/-/g, " ");
+  return spaced.replace(/\s+/g, " ").trim();
+}
+
 export function skillToCard(s: Skill): CardItem {
   return {
     kind: "skills",
     id: s.id,
     slug: s.slug,
-    title: s.name.replace(/-/g, " "),
+    title: skillTitle(s.name),
     description: s.description,
     category: s.category,
     stars: s.stars,
@@ -93,6 +103,37 @@ export function repoToCard(r: Repo): CardItem {
     updatedAt: r.updatedAt,
     raw: r,
     search: `${r.fullName} ${r.description} ${r.category} ${r.topics.join(" ")}`.toLowerCase(),
+  };
+}
+
+/**
+ * A card as the catalog listing ships it to the browser: everything the grid,
+ * filters and search read, and nothing else. Listings used to pass full
+ * CardItems, each carrying its raw source object (README, tool schemas, code
+ * inspection), which made /skills and every category page 2.7–3.1 MB of HTML.
+ */
+export type CatalogCard = Omit<CardItem, "raw" | "externalUrl" | "trust">;
+
+const CARD_DESCRIPTION_MAX = 240;
+
+export function toCatalogCard(card: CardItem): CatalogCard {
+  return {
+    kind: card.kind,
+    id: card.id,
+    slug: card.slug,
+    title: card.title,
+    // The grid clamps to three lines; the full text stays in `search`.
+    description:
+      card.description.length > CARD_DESCRIPTION_MAX
+        ? `${card.description.slice(0, CARD_DESCRIPTION_MAX - 1).replace(/\s+\S*$/, "")}…`
+        : card.description,
+    category: card.category,
+    stars: card.stars,
+    pills: card.pills,
+    footer: card.footer,
+    updatedAt: card.updatedAt,
+    ...(card.launchMode ? { launchMode: card.launchMode } : {}),
+    search: card.search,
   };
 }
 

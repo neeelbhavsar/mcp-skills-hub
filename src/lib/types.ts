@@ -10,6 +10,8 @@ export interface Skill {
   repo: string;
   sourceUrl: string;
   target: "claude" | "multi";
+  /** The plugin marketplace that lists it, for `/plugin install name@marketplace`. */
+  marketplace?: { repo: string; name: string } | null;
   /** Folder within `repo` when the skill is one plugin in a larger monorepo. */
   subdir?: string | null;
   homepage?: string | null;
@@ -113,6 +115,8 @@ export interface McpPackage {
   version: string;
   transport: string;
   runtimeHint?: string | null;
+  /** Required launch arguments, with placeholders where the publisher gives a hint. */
+  args?: string[];
   env?: InputSpec[];
   /** Supply-chain fields, populated for npm packages by the data pipeline. */
   weeklyDownloads?: number | null;
@@ -152,6 +156,10 @@ export interface Mcp {
   tools?: McpTool[];
   /** Outcome of live tool discovery: why the tool list may be absent. */
   toolsStatus?: "ok" | "auth" | "error" | "unsupported";
+  /** Where `tools` came from. Absent on older snapshots, which were all live-probed. */
+  toolsSource?: "live" | "readme" | "glama";
+  /** Folder within a monorepo `repository` that holds this server. */
+  subdir?: string | null;
   readme?: Readme | null;
   inspection?: Inspection | null;
   license?: string | null;
@@ -176,6 +184,8 @@ export interface Repo {
   license: string | null;
   category: string;
   updatedAt: string | null;
+  /** README excerpt; repo pages were ~73 words of main content without it. */
+  readme?: Readme | null;
 }
 
 export interface Meta {

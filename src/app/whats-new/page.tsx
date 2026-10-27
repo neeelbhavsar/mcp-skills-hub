@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowDownRight, ArrowUpRight, PackagePlus, PackageX, Rss, Archive, RotateCcw } from "lucide-react";
-import { changes, meta } from "@/lib/data";
+import { changes, getMcp, getRepo, getSkill, meta } from "@/lib/data";
 import type { ChangeEntry, KindChanges } from "@/lib/types";
 import { PageHeader } from "@/components/layout/page-header";
-import { breadcrumbJsonLd, resourcePath, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, resourcePath, OG_IMAGE, ogTitle, jsonLdScript } from "@/lib/seo";
 
 const DESCRIPTION =
   "New MCP servers, newly abandoned ones and star-velocity movers — diffed daily against the previous catalog snapshot.";
@@ -13,8 +13,12 @@ export const metadata: Metadata = {
   title: "What's new",
   description: DESCRIPTION,
   alternates: { canonical: "/whats-new" },
-  openGraph: { url: "/whats-new", title: "What's new — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  openGraph: { url: "/whats-new", title: ogTitle("What's new"), description: DESCRIPTION, images: [OG_IMAGE] },
 };
+
+function isLive(kind: "skills" | "mcps" | "repos", slug: string) {
+  return !!(kind === "mcps" ? getMcp(slug) : kind === "skills" ? getSkill(slug) : getRepo(slug));
+}
 
 function Section({
   title,
@@ -43,15 +47,18 @@ function Section({
         </p>
       ) : (
         <ul className="mt-3 divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface/60">
-          {entries.map((entry) => (
-            <li key={entry.slug}>
-              <Link
-                href={resourcePath(kind, entry.slug)}
-                className="ring-focus flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50"
-              >
+          {entries.map((entry) => {
+            // The diff is against yesterday's snapshot, so an entry can name a
+            // resource that has since left the catalog. Linking it produced
+            // 404s (8 of 8 server links at the time of the audit).
+            const live = isLive(kind, entry.slug);
+            const body = (
+              <>
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm font-medium text-foreground">{entry.name}</span>
-                  <span className="mt-0.5 block line-clamp-2 text-xs text-muted">{entry.description}</span>
+                  <span className="mt-0.5 block line-clamp-2 text-xs text-muted">
+                    {live ? entry.description : `No longer in the catalog. ${entry.description}`}
+                  </span>
                 </span>
                 {showDelta && typeof entry.delta === "number" && (
                   <span
@@ -68,9 +75,23 @@ function Section({
                     {entry.delta}
                   </span>
                 )}
-              </Link>
-            </li>
-          ))}
+              </>
+            );
+            return (
+              <li key={entry.slug}>
+                {live ? (
+                  <Link
+                    href={resourcePath(kind, entry.slug)}
+                    className="ring-focus flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50"
+                  >
+                    {body}
+                  </Link>
+                ) : (
+                  <div className="flex items-start gap-3 px-4 py-3">{body}</div>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
     </section>
@@ -88,7 +109,7 @@ export default function WhatsNewPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd([{ name: "What's new", path: "/whats-new" }])),
+          __html: jsonLdScript(breadcrumbJsonLd([{ name: "What's new", path: "/whats-new" }])),
         }}
       />
       <PageHeader

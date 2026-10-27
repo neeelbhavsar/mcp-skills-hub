@@ -2,7 +2,7 @@
 // Uses only Node built-ins (global fetch on Node 18+). No external deps so it
 // runs cleanly inside a GitHub Actions cron job.
 
-const UA = "ai-library-bot/1.0 (+https://github.com/ai-library)";
+const UA = "mcp-skills-hub-bot/1.0 (+https://github.com/neeelbhavsar/mcp-skills-hub)";
 
 /** Fetch JSON with retries, a polite UA, and optional headers. */
 export async function getJSON(url, { headers = {}, retries = 3, label = url } = {}) {

@@ -7,8 +7,9 @@ import { launchFor } from "@/lib/compat";
 import { healthOf } from "@/lib/health";
 import { HealthPill } from "@/components/catalog/health-badge";
 import { PageHeader } from "@/components/layout/page-header";
-import { absoluteUrl, breadcrumbJsonLd, resourcePath, OG_IMAGE } from "@/lib/seo";
+import { absoluteUrl, breadcrumbJsonLd, jsonLdScript, ogTitle, resourcePath } from "@/lib/seo";
 import { isIndexableTool } from "@/lib/tool-index";
+import { clip } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -17,10 +18,14 @@ export function generateStaticParams() {
 }
 
 /** One line describing what this tool is, reused for the meta description. */
-function summarize(name: string, providers: number, description: string | null) {
-  const who = providers === 1 ? "1 MCP server" : `${providers} MCP servers`;
+function summarize(name: string, providers: string[], description: string | null) {
+  // Grammar used to be "1 MCP server … expose", with literal backticks.
+  const who =
+    providers.length === 1
+      ? `${providers[0]} exposes`
+      : `${providers.length} MCP servers expose`;
   const what = description ? ` ${description}` : "";
-  return `${who} in the AI Library catalog expose a \`${name}\` tool.${what}`.slice(0, 300);
+  return clip(`${who} a ${name} tool.${what}`);
 }
 
 export async function generateMetadata({
@@ -32,18 +37,20 @@ export async function generateMetadata({
   const page = getToolPage(slug);
   if (!page) return {};
 
-  const title = `${page.name} — MCP tool`;
-  const description = summarize(page.name, page.providers.length, page.providers[0]?.description ?? null);
+  const servers = page.providers.map((p) => p.server.name);
+  const title =
+    servers.length > 1 ? `${page.name} — MCP tool on ${servers.length} servers` : `${page.name} — MCP tool (${servers[0]})`;
+  const description = summarize(page.name, servers, page.providers.find((p) => p.description)?.description ?? null);
   const path = `/tools/${slug}`;
 
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description, images: [OG_IMAGE] },
-    // A one-word tool exposed by a single server restates a row of that
-    // server's page. The page stays live and linked; it just stops competing
-    // for crawl budget with pages that can actually earn a visit.
+    // og:image comes from the sibling opengraph-image.tsx.
+    openGraph: { type: "website", url: path, title: ogTitle(title), description },
+    // A tool exposed by a single server restates a row of that server's page.
+    // The page stays live and linked; it just stays out of the index.
     ...(isIndexableTool(page.name, page.providers.length)
       ? {}
       : { robots: { index: false, follow: true } }),
@@ -56,8 +63,10 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   if (!page) notFound();
 
   const description = page.providers.find((p) => p.description)?.description ?? null;
+  const count = page.providers.length;
 
-  // The question people actually type, answered in the markup.
+  // An ItemList of the servers providing it. This was a one-question FAQPage,
+  // which earns no rich result outside government and health sites.
   const jsonLd = [
     breadcrumbJsonLd([
       { name: "Tools", path: "/tools" },
@@ -65,36 +74,57 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
     ]),
     {
       "@context": "https://schema.org",
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: `Which MCP server has a ${page.name} tool?`,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: `${page.providers.map((p) => p.server.name).join(", ")}. See ${absoluteUrl(`/tools/${slug}`)}.`,
-          },
-        },
-      ],
+      "@type": "ItemList",
+      name: `MCP servers with a ${page.name} tool`,
+      numberOfItems: count,
+      itemListElement: page.providers.map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: absoluteUrl(resourcePath("mcps", p.server.slug)),
+        name: p.server.name,
+      })),
     },
   ];
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(jsonLd) }} />
       <PageHeader
         eyebrow="MCP tool"
         title={page.name}
         highlight=""
-        subtitle={
-          description ??
-          `Exposed by ${page.providers.length} server${page.providers.length === 1 ? "" : "s"} in the catalog.`
-        }
+        subtitle={description ?? `Exposed by ${count} server${count === 1 ? "" : "s"} in the catalog.`}
       />
 
       <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+        {/* The direct answer, as a sentence rather than only a list. */}
+        <p className="mb-8 text-base leading-relaxed text-muted">
+          {count === 1 ? (
+            <>
+              The <code className="font-mono text-foreground">{page.name}</code> tool is provided by{" "}
+              <Link href={resourcePath("mcps", page.providers[0].server.slug)} className="text-brand hover:underline">
+                {page.providers[0].server.name}
+              </Link>
+              . Install that server in your AI client and the assistant can call it directly.
+            </>
+          ) : (
+            <>
+              {count} MCP servers expose a <code className="font-mono text-foreground">{page.name}</code> tool:{" "}
+              {page.providers.map((p, i) => (
+                <span key={p.server.slug}>
+                  {i > 0 && (i === count - 1 ? " and " : ", ")}
+                  <Link href={resourcePath("mcps", p.server.slug)} className="text-brand hover:underline">
+                    {p.server.name}
+                  </Link>
+                </span>
+              ))}
+              . Their input schemas differ, so compare them below before picking one.
+            </>
+          )}
+        </p>
+
         <h2 className="flex items-center gap-2 text-base font-semibold">
-          <Wrench className="h-4 w-4 text-brand-2" />
+          <Wrench className="h-4 w-4 text-brand-2" aria-hidden />
           Servers exposing <code className="font-mono text-brand-2">{page.name}</code>
         </h2>
 
@@ -111,7 +141,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
                     {server.name}
                   </Link>
                   <HealthPill health={healthOf(server)} />
-                  <span className="rounded border border-border px-1.5 py-0.5 text-[10px] text-muted-2">
+                  <span className="rounded border border-border px-1.5 py-0.5 text-xs text-muted">
                     {launch.mode === "remote" ? launch.transport.toUpperCase() : "stdio"}
                   </span>
                 </div>
@@ -124,7 +154,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
                   <div className="mt-3 overflow-x-auto">
                     <table className="w-full text-left text-xs">
                       <thead>
-                        <tr className="text-muted-2">
+                        <tr className="text-muted">
                           <th className="pb-2 pr-3 font-medium">Parameter</th>
                           <th className="pb-2 pr-3 font-medium">Type</th>
                           <th className="pb-2 font-medium">Description</th>
@@ -137,7 +167,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
                               <code className="font-mono text-foreground">{input.name}</code>
                               {input.required && <span className="ml-1 text-danger">*</span>}
                             </td>
-                            <td className="py-1.5 pr-3 font-mono text-muted-2">{input.type}</td>
+                            <td className="py-1.5 pr-3 font-mono text-muted">{input.type}</td>
                             <td className="py-1.5 text-muted">{input.description}</td>
                           </tr>
                         ))}
@@ -147,8 +177,8 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
                 )}
 
                 <Link
-                  href={resourcePath("mcps", server.slug)}
-                  className="ring-focus mt-3 inline-block text-xs text-brand hover:underline"
+                  href={`${resourcePath("mcps", server.slug)}#install`}
+                  className="ring-focus mt-3 inline-flex min-h-10 items-center text-xs text-brand hover:underline"
                 >
                   Install {server.name} →
                 </Link>
@@ -157,9 +187,9 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
           })}
         </ul>
 
-        <p className="mt-8 text-xs leading-relaxed text-muted-2">
-          Tool lists are read from the live servers each morning, so this reflects what they were exposing at
-          the last refresh.{" "}
+        <p className="mt-8 text-xs leading-relaxed text-muted">
+          Tool lists are read from the live servers (or, for packaged servers, from their documentation) each
+          morning, so this reflects what they exposed at the last refresh.{" "}
           <Link href="/tools" className="text-brand hover:underline">
             Search all tools
           </Link>

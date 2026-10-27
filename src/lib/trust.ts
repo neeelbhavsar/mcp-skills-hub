@@ -221,3 +221,36 @@ export function overallLevel(signals: Signal[]): Level {
   if (signals.some((s) => s.level === "caution")) return "caution";
   return signals.length ? "good" : "neutral";
 }
+
+/**
+ * A top-of-page warning when the project looks abandoned, so it is not buried
+ * among the trust signals further down. Only raised on evidence: an archive
+ * flag, an npm deprecation, or six months without a commit.
+ */
+export function maintenanceWarning(mcp: Mcp): { level: "risk" | "caution"; title: string; detail: string } | null {
+  if (mcp.repoMeta?.archived) {
+    return {
+      level: "risk",
+      title: "This project is archived",
+      detail: "The maintainer has archived the repository, so it will not receive fixes or security updates.",
+    };
+  }
+  const deprecated = mcp.packages.find((p) => p.deprecated);
+  if (deprecated) {
+    return {
+      level: "risk",
+      title: "This package is deprecated",
+      detail: `${deprecated.identifier} is marked deprecated on npm by its publisher.`,
+    };
+  }
+  const days = daysSince(mcp.repoMeta?.pushedAt);
+  if (days !== null && days > 180) {
+    const months = Math.floor(days / 30);
+    return {
+      level: days > 365 ? "risk" : "caution",
+      title: days > 365 ? "Possibly abandoned" : "No recent activity",
+      detail: `No commits in ${months} months. It may still work, but issues are unlikely to be fixed.`,
+    };
+  }
+  return null;
+}

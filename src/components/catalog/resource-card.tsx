@@ -1,13 +1,14 @@
 import Link from "next/link";
 import { Star, ArrowUpRight } from "lucide-react";
-import type { CardItem } from "@/lib/view";
+import type { CatalogCard } from "@/lib/view";
 import { Badge } from "@/components/ui/badge";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 import { formatStars } from "@/lib/utils";
 import { resourcePath } from "@/lib/seo";
 import { AddToSetup } from "@/components/cart/add-to-setup";
 
-export function ResourceCard({ item }: { item: CardItem }) {
+/** Accepts the slim listing card; a full CardItem satisfies it too. */
+export function ResourceCard({ item }: { item: CatalogCard }) {
   return (
     <Link
       href={resourcePath(item.kind, item.slug)}

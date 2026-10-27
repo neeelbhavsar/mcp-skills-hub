@@ -2,7 +2,7 @@
 
 // Mouse-following spotlight card.
 // Adapted from "Spotlight Card" by berkcangumusisik on 21st.dev,
-// re-tinted to the AI Library brand palette.
+// re-tinted to the site's brand palette.
 
 import { cn } from "@/lib/utils";
 import React, { useCallback, useRef, type MouseEvent } from "react";

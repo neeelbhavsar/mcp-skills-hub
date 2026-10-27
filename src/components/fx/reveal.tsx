@@ -5,10 +5,16 @@ import type { ReactNode } from "react";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
+/*
+ * Transform-only. These used to start at opacity 0, which the server rendered
+ * into the HTML as an inline style: until hydration finished, every section
+ * (and every listing page's H1, via PageHeader) was invisible — an empty first
+ * frame, a late LCP, and nothing on screen if JavaScript failed. Content is
+ * now always painted; it only slides into place.
+ */
 const variants: Variants = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { y: 18 },
   show: (i: number) => ({
-    opacity: 1,
     y: 0,
     transition: { duration: 0.6, ease: EASE, delay: i * 0.06 },
   }),
@@ -36,7 +42,7 @@ export function Reveal({ children, className, delayIndex = 0, once = true }: Rev
   );
 }
 
-/** Staggered container: children fade+rise in sequence as the group enters. */
+/** Staggered container: children rise in sequence as the group enters. */
 export function RevealGroup({ children, className }: { children: ReactNode; className?: string }) {
   return (
     <motion.div
@@ -56,8 +62,8 @@ export function RevealItem({ children, className }: { children: ReactNode; class
     <motion.div
       className={className}
       variants={{
-        hidden: { opacity: 0, y: 20 },
-        show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: EASE } },
+        hidden: { y: 14 },
+        show: { y: 0, transition: { duration: 0.5, ease: EASE } },
       }}
     >
       {children}

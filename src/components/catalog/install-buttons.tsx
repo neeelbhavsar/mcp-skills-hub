@@ -1,5 +1,6 @@
-"use client";
-
+// A server component: the links are computed at build time. As a client
+// component it serialized the whole server record (README, tools, code
+// inspection) into the page just to build three URLs.
 import { Download } from "lucide-react";
 import type { Mcp } from "@/lib/types";
 import { installLinks } from "@/lib/ai-targets";
@@ -24,7 +25,7 @@ export function InstallButtons({ mcp }: { mcp: Mcp }) {
           <a
             key={l.id}
             href={l.href}
-            className="ring-focus inline-flex items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 py-1.5 text-sm text-foreground transition-colors hover:border-brand/50"
+            className="ring-focus inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 text-sm text-foreground transition-colors hover:border-brand/50"
           >
             <Download className="h-4 w-4" />
             {l.label}

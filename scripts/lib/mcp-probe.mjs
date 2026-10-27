@@ -166,7 +166,10 @@ export async function attachTools(servers) {
         const { status, tools } = await probeRemote(m.remotes[0].url);
         tally[status] = (tally[status] ?? 0) + 1;
         m.toolsStatus = status;
-        if (tools.length) m.tools = tools;
+        if (tools.length) {
+          m.tools = tools;
+          m.toolsSource = "live";
+        }
       }),
     );
   }

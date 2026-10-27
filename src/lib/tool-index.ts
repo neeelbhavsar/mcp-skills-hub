@@ -1,22 +1,20 @@
 /**
  * Which tool pages are worth putting in front of a crawler.
  *
- * A single-provider tool with a one-word, non-namespaced name — `get`, `fetch`,
- * `summary`, `vote` — restates one row of its server's page and cannot
- * plausibly rank for anything. Twelve such pages is not a lot, but on a new
- * domain that Google is already rationing crawl budget on, every URL in the
- * sitemap competes with one that could actually earn a visit.
+ * Only tools exposed by more than one server. Those answer a comparison
+ * question no other page on the site answers ("which servers have a
+ * `create_issue` tool, and how do they differ?").
  *
- * Namespaced names (`betterpost_humanize`, `certscore_scan_site`) and anything
- * exposed by more than one server stay indexable: those are real long-tail
- * targets and the multi-provider ones answer a comparison question no other
- * page on the site answers.
+ * A single-provider tool page restates one row of its server's page — the
+ * audit measured ~87–260 words, almost all of it shared with that page — and
+ * those pages were 55% of the sitemap. The server page already lists the tool
+ * by name, so the long-tail query still has an indexable answer; the tool
+ * page just stops competing with it for crawl budget.
  *
- * The pages themselves keep working and stay linked — this only governs
- * indexing.
+ * The pages themselves keep working and stay linked (`noindex, follow`) —
+ * this only governs indexing and the sitemap, which both call this function
+ * so they cannot drift apart.
  */
-export function isIndexableTool(name: string, providerCount: number): boolean {
-  if (providerCount > 1) return true;
-  const generic = !name.includes("_") && !name.includes("-") && name.length <= 12;
-  return !generic;
+export function isIndexableTool(_name: string, providerCount: number): boolean {
+  return providerCount > 1;
 }

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { ArrowRight, Star } from "lucide-react";
-import type { CardItem } from "@/lib/view";
+import type { CatalogCard } from "@/lib/view";
 import { Badge } from "@/components/ui/badge";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/reveal";
 import { formatStars } from "@/lib/utils";
+import { resourcePath } from "@/lib/seo";
 import type { ReactNode } from "react";
 
 export function SectionPreview({
@@ -22,7 +23,7 @@ export function SectionPreview({
   description: string;
   href: string;
   cta: string;
-  items: CardItem[];
+  items: CatalogCard[];
   icon: ReactNode;
 }) {
   return (
@@ -50,8 +51,10 @@ export function SectionPreview({
       <RevealGroup className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map((item) => (
           <RevealItem key={item.id}>
+            {/* Each card opens its own page. They all pointed at the section
+                index, so the home page linked to no resource at all. */}
             <Link
-              href={href}
+              href={resourcePath(item.kind, item.slug)}
               className="card-hover group flex h-full flex-col rounded-2xl border border-border bg-surface/60 p-5"
             >
               <div className="mb-3 flex items-center justify-between gap-3">

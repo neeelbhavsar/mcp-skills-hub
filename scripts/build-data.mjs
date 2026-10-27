@@ -25,7 +25,7 @@ function summarize(items, key) {
  * registry: a token-less local run, an auth-walled server or a slow README
  * fetch all legitimately produce nothing for them.
  */
-const ENRICHED_FIELDS = ["repoMeta", "stars", "tools", "toolsStatus", "readme", "inspection"];
+const ENRICHED_FIELDS = ["repoMeta", "stars", "tools", "toolsSource", "toolsStatus", "readme", "inspection"];
 
 /** Enrichment that describes a specific repository, not the resource itself. */
 const ORIGIN_BOUND_FIELDS = new Set(["repoMeta", "stars", "readme"]);

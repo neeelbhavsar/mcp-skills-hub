@@ -9,6 +9,7 @@ import type { ResourceKind } from "@/lib/types";
 import { searchItems } from "@/lib/search";
 import { resourcePath } from "@/lib/seo";
 import { cn } from "@/lib/utils";
+import { useLazyJson } from "@/lib/lazy-json";
 
 const KIND_ICON: Record<ResourceKind, typeof Wand2> = {
   skills: Wand2,
@@ -27,10 +28,18 @@ const MAX = 8;
 /**
  * Cross-catalog ⌘K search. The three catalogs were previously searchable only
  * in isolation, so finding anything meant guessing which of them it lived in.
+ *
+ * The index is fetched on first use (open, or hover/focus of the trigger as a
+ * prefetch) rather than passed as a prop: as a prop it was serialized into the
+ * HTML of every page and made up ~95% of each document.
  */
-export function CommandPalette({ items }: { items: PaletteItem[] }) {
+export function CommandPalette({ indexUrl }: { indexUrl: string }) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  const [wanted, setWanted] = useState(false);
+  const { data, error } = useLazyJson<PaletteItem[]>(indexUrl, wanted || open);
+  const items = useMemo(() => data ?? [], [data]);
+  const prefetch = useCallback(() => setWanted(true), []);
   const [query, setQuery] = useState("");
   const [cursor, setCursor] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -104,12 +113,15 @@ export function CommandPalette({ items }: { items: PaletteItem[] }) {
     <>
       <button
         onClick={() => setOpen(true)}
+        onPointerEnter={prefetch}
+        onFocus={prefetch}
         aria-label="Search everything"
-        className="ring-focus flex items-center gap-2 rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs text-muted-2 transition-colors hover:text-foreground"
+        aria-keyshortcuts="Control+K Meta+K"
+        className="ring-focus flex min-h-10 min-w-10 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
       >
         <Search className="h-3.5 w-3.5" />
         <span className="hidden sm:inline">Search…</span>
-        <kbd className="hidden rounded border border-border bg-surface-2 px-1.5 py-0.5 font-mono text-[10px] sm:inline">
+        <kbd className="hidden rounded border border-border bg-surface-2 px-1.5 py-0.5 font-mono text-xs sm:inline">
           ⌘K
         </kbd>
       </button>
@@ -149,8 +161,16 @@ export function CommandPalette({ items }: { items: PaletteItem[] }) {
               </div>
 
               <div className="max-h-[52vh] overflow-y-auto p-2">
-                {query.trim() === "" ? (
-                  <p className="px-3 py-6 text-center text-xs text-muted-2">
+                {error ? (
+                  <p className="px-3 py-6 text-center text-xs text-muted">
+                    Search is unavailable right now. Browse the catalogs from the menu instead.
+                  </p>
+                ) : !data ? (
+                  <p className="px-3 py-6 text-center text-xs text-muted" aria-live="polite">
+                    Loading the search index…
+                  </p>
+                ) : query.trim() === "" ? (
+                  <p className="px-3 py-6 text-center text-xs text-muted">
                     Type to search {items.length.toLocaleString()} resources.
                   </p>
                 ) : results.length === 0 ? (
@@ -184,7 +204,7 @@ export function CommandPalette({ items }: { items: PaletteItem[] }) {
                                 {item.description}
                               </span>
                             </span>
-                            <span className="shrink-0 rounded-md border border-border px-1.5 py-0.5 text-[10px] text-muted-2">
+                            <span className="shrink-0 rounded-md border border-border px-1.5 py-0.5 text-xs text-muted-2">
                               {KIND_LABEL[item.kind]}
                             </span>
                             {i === cursor && (

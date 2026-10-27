@@ -1,15 +1,13 @@
-# AI Library MCP server
+# MCP Skills Hub MCP server
 
 An MCP server that finds MCP servers. Lets your assistant search the
-[AI Library](https://mcp-skills-hub.vercel.app) directory and hand back
+[MCP Skills Hub](https://mcp-skills-hub.vercel.app) directory and hand back
 ready-to-paste install configs, without you leaving the conversation.
 
 ## Install
 
-> Not published to npm yet — run it from a clone.
-
 ```bash
-claude mcp add ai-library -- node /absolute/path/to/mcp-server/index.mjs
+claude mcp add mcp-skills-hub -- npx -y mcp-skills-hub
 ```
 
 <details>
@@ -18,16 +16,17 @@ claude mcp add ai-library -- node /absolute/path/to/mcp-server/index.mjs
 ```json
 {
   "mcpServers": {
-    "ai-library": {
-      "command": "node",
-      "args": ["/absolute/path/to/mcp-server/index.mjs"]
+    "mcp-skills-hub": {
+      "command": "npx",
+      "args": ["-y", "mcp-skills-hub"]
     }
   }
 }
 ```
 </details>
 
-Once published, this becomes `npx -y @ai-library/mcp`.
+Until the package is published to npm, run it from a clone instead:
+`node /absolute/path/to/mcp-server/index.mjs`.
 
 ## Tools
 
@@ -41,6 +40,16 @@ Once published, this becomes `npx -y @ai-library/mcp`.
 ## Notes
 
 Reads the site's public JSON API at request time, so results track the daily
-data refresh. Point it elsewhere with `AI_LIBRARY_URL`.
+data refresh. Point it elsewhere with `MCP_SKILLS_HUB_URL` (the old
+`AI_LIBRARY_URL` still works).
 
 Zero runtime dependencies — it speaks JSON-RPC over stdio directly.
+
+## Publishing
+
+`mcpName` in package.json is the MCP Registry name. To list it:
+
+```bash
+cd mcp-server && npm publish
+mcp-publisher login github && mcp-publisher publish
+```

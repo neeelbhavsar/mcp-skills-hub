@@ -17,7 +17,7 @@ export function HealthPill({ health, className }: { health: Health; className?: 
       <span
         title="Not enough data to score this server"
         className={cn(
-          "inline-flex items-center gap-1 rounded-md border border-border px-1.5 py-0.5 text-[10px] text-muted-2",
+          "inline-flex items-center gap-1 rounded-md border border-border px-1.5 py-0.5 text-xs text-muted-2",
           className,
         )}
       >
@@ -31,7 +31,7 @@ export function HealthPill({ health, className }: { health: Health; className?: 
     <span
       title={`Health ${health.score}/100 (grade ${health.grade})`}
       className={cn(
-        "inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 text-[10px] font-semibold",
+        "inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 text-xs font-semibold",
         GRADE_STYLE[health.grade ?? "C"],
         className,
       )}
@@ -50,11 +50,15 @@ export function HealthPill({ health, className }: { health: Health; className?: 
 export function HealthPanel({ health }: { health: Health }) {
   return (
     <section className="mt-10">
-      <h2 className="flex items-center gap-2 text-base font-semibold">
-        <Activity className="h-4 w-4 text-brand" />
-        Health score
+      {/* The pill sits beside the heading, not inside it: inside, the
+          heading's text read "Health scoreD · 33". */}
+      <div className="flex items-center gap-2">
+        <h2 className="flex items-center gap-2 text-base font-semibold">
+          <Activity className="h-4 w-4 text-brand" aria-hidden />
+          Health score
+        </h2>
         <HealthPill health={health} className="ml-1" />
-      </h2>
+      </div>
       <p className="mt-1 mb-4 text-xs text-muted-2">
         Maintenance, adoption, transparency and packaging — not a safety audit.{" "}
         <Link href="/health-score" className="text-brand hover:underline">

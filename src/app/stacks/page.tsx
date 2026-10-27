@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Layers } from "lucide-react";
 import { STACKS, resolveStack } from "@/lib/stacks";
+import { mcps } from "@/lib/data";
 import { PageHeader } from "@/components/layout/page-header";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
-import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, OG_IMAGE, ogTitle, jsonLdScript } from "@/lib/seo";
 
 const DESCRIPTION =
   "Curated MCP server packs for common jobs — backend development, research, agent building — each one config, one click.";
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: "Starter packs",
   description: DESCRIPTION,
   alternates: { canonical: "/stacks" },
-  openGraph: { url: "/stacks", title: "Starter packs — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  openGraph: { url: "/stacks", title: ogTitle("Starter packs"), description: DESCRIPTION, images: [OG_IMAGE] },
 };
 
 export default function StacksPage() {
@@ -24,14 +25,14 @@ export default function StacksPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd([{ name: "Starter packs", path: "/stacks" }])),
+          __html: jsonLdScript(breadcrumbJsonLd([{ name: "Starter packs", path: "/stacks" }])),
         }}
       />
       <PageHeader
         eyebrow="Curated"
         title="Start from a"
         highlight="pack"
-        subtitle="A reviewed selection for a job, rather than 266 servers and a search box. Each pack loads straight into the setup builder as one config."
+        subtitle={`A reviewed selection for a job, rather than ${mcps.length.toLocaleString("en-US")} servers and a search box. Each pack loads straight into the setup builder as one config.`}
       />
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

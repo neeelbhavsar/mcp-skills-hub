@@ -12,13 +12,13 @@ export function SetupLink() {
   return (
     <Link
       href="/setup"
-      className="ring-focus relative flex items-center gap-2 rounded-lg border border-border bg-surface px-2.5 py-1.5 text-xs text-muted-2 transition-colors hover:text-foreground"
+      className="ring-focus relative flex min-h-10 min-w-10 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
       aria-label={count ? `Setup builder, ${count} servers selected` : "Setup builder"}
     >
       <Blocks className="h-3.5 w-3.5" />
       <span className="hidden sm:inline">Setup</span>
       {count > 0 && (
-        <span className="brand-gradient inline-flex h-4 min-w-4 items-center justify-center rounded-full px-1 text-[10px] font-semibold text-white">
+        <span className="brand-gradient inline-flex h-4 min-w-4 items-center justify-center rounded-full px-1 text-xs font-semibold text-white">
           {count}
         </span>
       )}

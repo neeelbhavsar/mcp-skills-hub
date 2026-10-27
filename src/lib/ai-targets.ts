@@ -64,6 +64,13 @@ function remoteBridge(url: string) {
 
 const json = (value: unknown) => JSON.stringify(value, null, 2);
 
+/**
+ * Quote an argument for a POSIX shell line when it needs it. Registry
+ * placeholders such as `<path>` would otherwise be read as a redirect.
+ */
+const shellArg = (a: string) => (/^[\w@%+=:,./-]+$/.test(a) ? a : `'${a.replace(/'/g, "'\\''")}'`);
+const shellArgs = (args: string[]) => args.map(shellArg).join(" ");
+
 export function mcpUsage(mcp: Mcp, aiId: string): UsageStep[] {
   const key = keyFor(mcp);
   const resolved = launchFor(mcp);
@@ -92,7 +99,7 @@ export function mcpUsage(mcp: Mcp, aiId: string): UsageStep[] {
       // to execute the URL as a local binary.
       const cmd = remote
         ? `claude mcp add --transport ${launch.transport} ${key} ${launch.url}`
-        : `claude mcp add ${key} -- ${launch.command} ${launch.args.join(" ")}`;
+        : `claude mcp add ${key} -- ${launch.command} ${shellArgs(launch.args)}`;
       return [
         { label: "Add the server", language: "bash", code: cmd },
         { label: "Verify it's connected", language: "bash", code: "claude mcp list" },
@@ -208,39 +215,72 @@ export function usageBundle(steps: UsageStep[]): string {
  * Skill install/usage generation
  * ------------------------------------------------------------------ */
 
+/**
+ * `git clone` needs the repository, not a /tree/ URL: skills that live in a
+ * subfolder of a larger repo had `git clone https://github.com/o/r/tree/main/x`,
+ * which fails. Clone the repo, then point at the folder.
+ */
+function skillClone(skill: Skill): UsageStep[] {
+  const dir = skill.repo.split("/")[1];
+  return [
+    { label: "Clone the source", language: "bash", code: `git clone https://github.com/${skill.repo}.git` },
+    ...(skill.subdir
+      ? [{ label: "Find the skill", note: `It lives in ${dir}/${skill.subdir} — that folder contains the SKILL.md.` }]
+      : []),
+  ];
+}
+
 export function skillUsage(skill: Skill, aiId: string): UsageStep[] {
-  const marketplace = skill.repo; // e.g. anthropics/skills
+  const clone = skillClone(skill);
   switch (aiId) {
-    case "claude-code":
+    case "claude-code": {
+      const m = skill.marketplace;
+      if (!m) {
+        // Not in a plugin marketplace: install the folder as a personal skill.
+        return [
+          ...clone,
+          {
+            label: "Install it",
+            note: `Copy the folder containing SKILL.md into ~/.claude/skills/ (all projects) or .claude/skills/ (this project).`,
+          },
+          { label: "Use it", note: "Claude auto-invokes the skill when your request matches its description." },
+        ];
+      }
       return [
-        { label: "Add the marketplace", language: "bash", code: `/plugin marketplace add ${marketplace}` },
-        { label: "Install the skill", language: "bash", code: `/plugin install ${skill.slug}@${marketplace.split("/")[1]}` },
-        { label: "Use it", note: "Claude auto-invokes the skill when your request matches its description — or type its slash command if it exposes one." },
+        { label: "Add the marketplace", language: "claude", code: `/plugin marketplace add ${m.repo}` },
+        // The suffix is the marketplace's declared name, which is not always
+        // its repo name (anthropics/skills is "anthropic-agent-skills").
+        { label: "Install the skill", language: "claude", code: `/plugin install ${skill.name}@${m.name}` },
+        {
+          label: "Use it",
+          note: "These are slash commands for a Claude Code session, not your shell. Claude auto-invokes the skill when your request matches its description — or type its slash command if it exposes one.",
+        },
       ];
+    }
     case "claude-desktop":
       return [
-        { label: "Clone the source", language: "bash", code: `git clone ${skill.sourceUrl}` },
+        ...clone,
         { label: "Add the SKILL.md to your Skills folder", note: "Settings → Capabilities → Skills → add the folder containing SKILL.md. Claude picks it up automatically." },
       ];
     case "cursor":
       return [
-        { label: "Grab the skill's instructions", language: "bash", code: `git clone ${skill.sourceUrl}` },
+        ...clone,
         { label: "Convert to a Cursor rule", note: "Create .cursor/rules/" + skill.slug + ".mdc and paste the SKILL.md body. Set `alwaysApply` or a glob so the Agent loads it in context." },
       ];
     case "codex":
       return [
-        { label: "Clone it", language: "bash", code: `git clone ${skill.sourceUrl}` },
+        ...clone,
         { label: "Reference in AGENTS.md", note: "Add the skill's instructions (or a link) to AGENTS.md at your repo root — Codex reads it on every run." },
       ];
     case "windsurf":
     case "cline":
     case "vscode":
       return [
-        { label: "Clone the skill", language: "bash", code: `git clone ${skill.sourceUrl}` },
+        ...clone,
         { label: "Add to your rules / context", note: `Paste the SKILL.md instructions into this tool's custom rules or workspace instructions so the agent follows them.` },
       ];
     default:
-      return [{ label: "Clone", language: "bash", code: `git clone ${skill.sourceUrl}` }];
+      return clone;
   }
 }
 
@@ -401,7 +441,7 @@ export function mergedConfig(entries: ServerEntry[], aiId: string): MergedConfig
     const lines = usable.map((e) =>
       e.launch.mode === "remote"
         ? `claude mcp add --transport ${e.launch.transport} ${e.key} ${e.launch.url}`
-        : `claude mcp add ${e.key} -- ${e.launch.command} ${e.launch.args.join(" ")}`,
+        : `claude mcp add ${e.key} -- ${e.launch.command} ${shellArgs(e.launch.args)}`,
     );
     return { language: "bash", code: lines.join("\n") || "# no servers selected", target: "Run in your project" };
   }

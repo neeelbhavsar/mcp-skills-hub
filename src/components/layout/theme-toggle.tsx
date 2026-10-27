@@ -79,8 +79,8 @@ export function ThemeToggle() {
             title={label}
             onClick={() => choose(key)}
             className={cn(
-              "ring-focus rounded-md p-1.5 transition-colors",
-              active ? "bg-surface-2 text-foreground" : "text-muted-2 hover:text-foreground",
+              "ring-focus flex h-9 w-9 items-center justify-center rounded-md transition-colors",
+              active ? "bg-surface-2 text-foreground" : "text-muted hover:text-foreground",
             )}
           >
             <Icon className="h-3.5 w-3.5" />

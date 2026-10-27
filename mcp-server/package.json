@@ -1,11 +1,32 @@
 {
-  "name": "@ai-library/mcp",
-  "version": "1.0.0",
-  "description": "Search the AI Library directory of MCP servers and Agent Skills from inside your AI assistant.",
+  "name": "mcp-skills-hub",
+  "version": "1.1.0",
+  "description": "Search the MCP Skills Hub directory of MCP servers, Agent Skills and tools from inside your AI assistant.",
   "type": "module",
-  "bin": { "ai-library-mcp": "./index.mjs" },
-  "files": ["index.mjs", "README.md"],
-  "engines": { "node": ">=18" },
-  "keywords": ["mcp", "model-context-protocol", "ai", "directory"],
+  "bin": {
+    "mcp-skills-hub": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai",
+    "directory",
+    "agent-skills"
+  ],
+  "homepage": "https://mcp-skills-hub.vercel.app/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeelbhavsar/mcp-skills-hub.git",
+    "directory": "mcp-server"
+  },
+  "mcpName": "io.github.neeelbhavsar/mcp-skills-hub",
   "license": "MIT"
 }

@@ -120,7 +120,7 @@ export function CapabilityPanel({ mcp }: { mcp: Mcp }) {
 
                 {open && (
                   <div className="border-t border-border/60 px-4 py-3">
-                    <p className="mb-2 text-[11px] uppercase tracking-wide text-muted-2">
+                    <p className="mb-2 text-xs uppercase tracking-wide text-muted-2">
                       Observed at
                     </p>
                     <ul className="space-y-1">
@@ -131,7 +131,7 @@ export function CapabilityPanel({ mcp }: { mcp: Mcp }) {
                           </span>{" "}
                           — {e.detail}
                           {e.bundled && (
-                            <span className="ml-1 font-sans text-[10px] text-muted-2">(bundled file)</span>
+                            <span className="ml-1 font-sans text-xs text-muted-2">(bundled file)</span>
                           )}
                         </li>
                       ))}

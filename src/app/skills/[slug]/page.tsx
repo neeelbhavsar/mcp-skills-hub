@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { skills, getSkill } from "@/lib/data";
-import { skillToCard } from "@/lib/view";
+import { skillTitle, skillToCard } from "@/lib/view";
 import { ResourceDetail } from "@/components/catalog/resource-detail";
-import { resourcePath } from "@/lib/seo";
+import { detailTitle, ogTitle, resourcePath } from "@/lib/seo";
+import { clip } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -19,14 +20,16 @@ export async function generateMetadata({
   const { slug } = await params;
   const skill = getSkill(slug);
   if (!skill) return {};
-  const title = skill.name.replace(/-/g, " ");
-  const description = skill.description;
+  const name = skillTitle(skill.name);
+  const title = detailTitle(name, /skill/i.test(name) ? "" : "Agent Skill", "install in Claude Code & Cursor");
+  const description = clip(skill.description || `${name}, an Agent Skill by ${skill.author}, with setup steps for every AI client.`);
   const path = resourcePath("skills", slug);
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description },
+    // og:image comes from the sibling opengraph-image.tsx.
+    openGraph: { type: "website", url: path, title: ogTitle(`${name} — Agent Skill`), description },
   };
 }
 

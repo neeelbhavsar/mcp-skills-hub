@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 // Branded social-share card, rendered to PNG at build time and reused as the
 // og:image (and Twitter image fallback) across every route.
-export const alt = "AI Library — Skills, MCP servers & GitHub repos for every AI assistant";
+export const alt = "MCP Skills Hub — MCP servers, Agent Skills & GitHub repos for every AI assistant";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

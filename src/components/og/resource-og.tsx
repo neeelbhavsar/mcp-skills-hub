@@ -1,13 +1,15 @@
 import { ImageResponse } from "next/og";
 import type { ResourceKind } from "@/lib/types";
+import { SITE_NAME } from "@/lib/seo";
 
 export const OG_SIZE = { width: 1200, height: 630 };
 export const OG_CONTENT_TYPE = "image/png";
 
-const KIND_LABEL: Record<ResourceKind, string> = {
+const KIND_LABEL: Record<ResourceKind | "tools", string> = {
   skills: "Agent Skill",
   mcps: "MCP Server",
   repos: "GitHub Repo",
+  tools: "MCP Tool",
 };
 
 /**
@@ -24,11 +26,14 @@ export function renderResourceOg({
   title,
   description,
   meta,
+  badges = [],
 }: {
-  kind: ResourceKind;
+  kind: ResourceKind | "tools";
   title: string;
   description: string;
   meta?: string;
+  /** Short proof points shown as pills, e.g. "90.7k stars", "Health A 87". Words, not ★: symbols are stripped. */
+  badges?: string[];
 }) {
   // Satori font-matches per glyph and tries to fetch a font for anything
   // outside the embedded set — decorative symbols in registry titles (★, ☆,
@@ -70,7 +75,7 @@ export function renderResourceOg({
               background: "linear-gradient(100deg, #7c6bff, #22d3ee)",
             }}
           />
-          <div style={{ fontSize: 28, color: "#a5b4fc", fontWeight: 600 }}>AI Library</div>
+          <div style={{ fontSize: 28, color: "#a5b4fc", fontWeight: 600 }}>{SITE_NAME}</div>
           <div style={{ fontSize: 28, color: "#4b5578" }}>/</div>
           <div style={{ fontSize: 28, color: "#8b95ad" }}>{KIND_LABEL[kind]}</div>
         </div>
@@ -105,7 +110,26 @@ export function renderResourceOg({
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <div style={{ fontSize: 24, color: "#6b7699" }}>{meta ? sanitize(meta) : ""}</div>
+          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+            {badges.map((b) => (
+              <div
+                key={b}
+                style={{
+                  display: "flex",
+                  fontSize: 24,
+                  fontWeight: 700,
+                  color: "#f5f5fa",
+                  padding: "6px 16px",
+                  borderRadius: 999,
+                  border: "2px solid rgba(165,180,252,0.45)",
+                  background: "rgba(124,107,255,0.18)",
+                }}
+              >
+                {sanitize(b)}
+              </div>
+            ))}
+            <div style={{ fontSize: 24, color: "#8b95ad" }}>{meta ? sanitize(meta) : ""}</div>
+          </div>
           <div style={{ fontSize: 24, color: "#6b7699" }}>Copy-paste setup for every AI client</div>
         </div>
       </div>
