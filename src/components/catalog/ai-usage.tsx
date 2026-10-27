@@ -75,7 +75,7 @@ export function AiUsage({ title, panels }: { title: string; panels: UsagePanel[]
               onClick={() => setActive(t.id)}
               onKeyDown={(e) => onTabKey(e, i)}
               className={cn(
-                "ring-focus flex min-h-10 items-center gap-2 rounded-full border px-3.5 text-xs font-medium transition-all",
+                "ring-focus flex min-h-11 items-center gap-2 rounded-full border px-3.5 text-xs font-medium transition-all",
                 on ? "border-transparent text-white" : "border-border text-muted hover:text-foreground",
               )}
               style={on ? { background: `linear-gradient(100deg, ${t.color}, ${t.color}cc)` } : undefined}
@@ -112,7 +112,7 @@ export function AiUsage({ title, panels }: { title: string; panels: UsagePanel[]
               {bundle && (
                 <button
                   onClick={() => copyAll(target.id, bundle)}
-                  className="ring-focus inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-lg border border-border bg-surface px-3 text-xs text-muted transition-colors hover:text-foreground"
+                  className="ring-focus inline-flex min-h-11 shrink-0 items-center gap-1.5 rounded-lg border border-border bg-surface px-3 text-xs text-muted transition-colors hover:text-foreground"
                 >
                   {copied === target.id ? (
                     <Check className="h-3.5 w-3.5 text-accent" aria-hidden />

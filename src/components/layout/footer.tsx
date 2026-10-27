@@ -125,11 +125,11 @@ function FooterColumn({
         {links.map((l) => (
           <li key={l.href}>
             {l.external ? (
-              <a href={l.href} target="_blank" rel="noreferrer" className="inline-flex min-h-9 items-center hover:text-foreground">
+              <a href={l.href} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center hover:text-foreground">
                 {l.label}
               </a>
             ) : (
-              <Link href={l.href} className="inline-flex min-h-9 items-center hover:text-foreground">
+              <Link href={l.href} className="inline-flex min-h-11 items-center hover:text-foreground">
                 {l.label}
               </Link>
             )}

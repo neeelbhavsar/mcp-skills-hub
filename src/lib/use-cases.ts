@@ -121,6 +121,45 @@ export const USE_CASES: UseCase[] = [
       "Log servers can return enormous payloads — prefer ones that support filtering server-side.",
     ],
   },
+  {
+    slug: "connect-postgres",
+    title: "Connect Postgres to your AI",
+    question: "Which MCP server should I use for PostgreSQL?",
+    intro:
+      "Let your assistant inspect a Postgres schema, run queries and explain results — in Claude, Cursor or VS Code — without pasting tables into the chat.",
+    keywords: ["postgres", "postgresql", "pg"],
+    guidance: [
+      "Create a dedicated read-only role (GRANT SELECT) for the assistant. Never hand it the owner credentials.",
+      "Pass the connection string through an environment variable, not inline in a config file you commit.",
+      "Point it at a replica or staging copy first: schema exploration issues many small queries.",
+    ],
+  },
+  {
+    slug: "automate-a-browser",
+    title: "Automate a browser with Playwright",
+    question: "How do I let my assistant drive a real browser?",
+    intro:
+      "Playwright-based MCP servers let the assistant open pages, click, fill forms, take screenshots and read the accessibility tree — for testing, scraping and end-to-end checks.",
+    keywords: ["playwright", "puppeteer", "browser", "headless", "chromium", "automation"],
+    guidance: [
+      "The first run downloads a browser (a few hundred MB); install it ahead of time on CI.",
+      "Prefer servers that act on the accessibility tree over screenshots: it is faster and costs far fewer tokens.",
+      "A local browser can reach your internal network. Run it in a container when that matters.",
+    ],
+  },
+  {
+    slug: "use-supabase",
+    title: "Use Supabase from your AI",
+    question: "Is there an MCP server for Supabase?",
+    intro:
+      "Query tables, manage migrations and inspect auth and storage in a Supabase project from your assistant.",
+    keywords: ["supabase"],
+    guidance: [
+      "Scope the access token to one project rather than your whole organisation.",
+      "Use a development branch or project while the assistant is allowed to write.",
+      "Row-level security still applies to the key you supply, so test with the role the assistant will use.",
+    ],
+  },
 ];
 
 export interface UseCaseMatches {

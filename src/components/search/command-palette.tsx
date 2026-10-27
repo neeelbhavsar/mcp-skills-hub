@@ -117,7 +117,7 @@ export function CommandPalette({ indexUrl }: { indexUrl: string }) {
         onFocus={prefetch}
         aria-label="Search everything"
         aria-keyshortcuts="Control+K Meta+K"
-        className="ring-focus flex min-h-10 min-w-10 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
+        className="ring-focus flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
       >
         <Search className="h-3.5 w-3.5" />
         <span className="hidden sm:inline">Search…</span>

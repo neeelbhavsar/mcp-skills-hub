@@ -178,3 +178,31 @@ export function getToolPage(slug: string) {
 }
 
 export { toolSlug };
+
+/**
+ * Tool pages for the same action under a namespaced name — `create_issue`
+ * and `jira_create_issue`, `search` and `brave_search`. Exact-name grouping
+ * kept these apart, so the flagship comparison query had no single answer.
+ */
+export function relatedTools(page: ToolPage, limit = 12): ToolPage[] {
+  const base = page.name.toLowerCase();
+  const sep = /[_.-]/;
+  const related = (other: string) => {
+    const o = other.toLowerCase();
+    if (o === base) return false;
+    // One name is the other plus a namespace prefix or suffix.
+    return (
+      o.endsWith(`_${base}`) || o.startsWith(`${base}_`) || base.endsWith(`_${o}`) || base.startsWith(`${o}_`) ||
+      o.endsWith(`-${base}`) || o.startsWith(`${base}-`)
+    ) && (sep.test(base) || base.length >= 5);
+  };
+  return toolPages.filter((t) => related(t.name)).slice(0, limit);
+}
+
+/** Other skills in the same category, most-starred first. */
+export function relatedSkills(target: Skill, limit = 6): Skill[] {
+  return skills
+    .filter((s) => s.slug !== target.slug && s.category === target.category)
+    .sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1))
+    .slice(0, limit);
+}

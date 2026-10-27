@@ -51,11 +51,23 @@ export function CatalogListing({
         title={category ? category : copy.heading}
         highlight={category ? kindMeta.label : copy.highlight}
         subtitle={cat?.subtitle ?? copy.subtitle}
-      />
+      >
+        {/* Freshness, visible on phones too: the strongest proof the
+            directory is maintained. */}
+        <p className="text-xs text-muted">
+          {items.length.toLocaleString("en-US")} {category ? "in this category" : "in the catalog"} · updated daily ·
+          last refresh{" "}
+          <time dateTime={meta.updatedAt}>
+            {new Date(meta.updatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+          </time>
+        </p>
+      </PageHeader>
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
         <CatalogShell
           kind={kind}
-          items={items}
+          pageItems={onPage}
+          scopeCount={items.length}
+          allUrl={`/index/cards/${kind}?v=${encodeURIComponent(meta.updatedAt)}`}
           categories={categoriesFor(kind)}
           activeCategory={category}
           totalCount={all}

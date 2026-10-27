@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AlertTriangle, ArrowLeft, ExternalLink, GitFork, ShieldAlert, Star } from "lucide-react";
 import type { CardItem } from "@/lib/view";
-import { repoToCard } from "@/lib/view";
+import { repoToCard, skillToCard } from "@/lib/view";
 import type { Mcp, Repo, Skill } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { AiUsage } from "./ai-usage";
@@ -19,7 +19,9 @@ import { ResourceCard } from "./resource-card";
 import { healthOf, requirementsOf } from "@/lib/health";
 import { maintenanceWarning } from "@/lib/trust";
 import { installPrompt } from "@/lib/ai-targets";
-import { alternativesTo, meta, relatedRepos } from "@/lib/data";
+import { alternativesTo, meta, relatedRepos, relatedSkills } from "@/lib/data";
+import { mcpGlance, skillGlance } from "@/lib/glance";
+import { CodeBlock } from "@/components/fx/code-block";
 import { usagePanels } from "@/lib/usage-panels";
 import { formatStars, timeAgo } from "@/lib/utils";
 import { KIND_META, SITE_URL, absoluteUrl, breadcrumbJsonLd, jsonLdScript, resourcePath } from "@/lib/seo";
@@ -43,6 +45,15 @@ function publisherOf(mcp: Mcp): string | null {
 }
 
 const GITHUB = /^https:\/\/github\.com\//;
+
+/**
+ * schema.org wants a license as a URL (or CreativeWork); bare SPDX ids like
+ * "MIT" were emitted as text. SPDX publishes a stable page per identifier.
+ */
+function licenseUrl(id: string | null | undefined) {
+  if (!id || /^(noassertion|other|none)$/i.test(id) || !/^[A-Za-z0-9.+-]+$/.test(id)) return undefined;
+  return `https://spdx.org/licenses/${id}.html`;
+}
 
 /** schema.org node describing the resource itself. */
 function itemJsonLd(item: CardItem) {
@@ -71,7 +82,7 @@ function itemJsonLd(item: CardItem) {
       author: { "@type": "Person", name: r.owner, url: `https://github.com/${r.owner}` },
       ...(r.topics.length ? { keywords: r.topics.join(", ") } : {}),
       ...(r.language ? { programmingLanguage: r.language } : {}),
-      ...(r.license ? { license: r.license } : {}),
+      ...(licenseUrl(r.license) ? { license: licenseUrl(r.license) } : {}),
     };
   }
 
@@ -84,7 +95,7 @@ function itemJsonLd(item: CardItem) {
       operatingSystem: "Any",
       author: { "@type": "Person", name: s.author },
       ...(GITHUB.test(s.sourceUrl) ? { downloadUrl: s.sourceUrl } : {}),
-      ...(s.repoMeta?.license ? { license: s.repoMeta.license } : {}),
+      ...(licenseUrl(s.repoMeta?.license) ? { license: licenseUrl(s.repoMeta?.license) } : {}),
       ...(s.repoMeta?.pushedAt ? { dateModified: s.repoMeta.pushedAt } : {}),
       // Skills are files in a public repo: free to use is a verifiable fact.
       isAccessibleForFree: true,
@@ -95,7 +106,9 @@ function itemJsonLd(item: CardItem) {
   const pkg = m.packages[0];
   const publisher = publisherOf(m);
   const download = downloadUrlOf(m);
-  const license = m.repoMeta?.license ?? m.license ?? null;
+  // The first usable one: GitHub reports "NOASSERTION" for repos it can't
+  // classify, which used to win over the package's own valid license.
+  const license = [m.repoMeta?.license, m.license].find((l) => licenseUrl(l)) ?? null;
   return {
     ...base,
     "@type": "SoftwareApplication",
@@ -104,7 +117,7 @@ function itemJsonLd(item: CardItem) {
     ...(publisher ? { author: { "@type": "Organization", name: publisher } } : {}),
     ...(pkg ? { softwareVersion: pkg.version && pkg.version !== "latest" ? pkg.version : undefined } : {}),
     ...(download ? { downloadUrl: download } : {}),
-    ...(license ? { license } : {}),
+    ...(licenseUrl(license) ? { license: licenseUrl(license) } : {}),
     ...(m.tools?.length ? { featureList: m.tools.slice(0, 20).map((t) => t.name).join(", ") } : {}),
     // Only claim "free" where it is verifiable: an openly licensed package.
     // Hosted services may well charge, and the registry does not say.
@@ -129,6 +142,9 @@ export function ResourceDetail({ item }: { item: CardItem }) {
   const warning = mcp ? maintenanceWarning(mcp) : null;
   const alternatives = mcp ? alternativesTo(mcp) : [];
   const related = repo ? relatedRepos(repo) : [];
+  const similarSkills = skill ? relatedSkills(skill) : [];
+  const glance = mcp ? mcpGlance(mcp, meta.updatedAt) : skill ? skillGlance(skill, meta.updatedAt) : null;
+  const pagePath = resourcePath(item.kind, item.slug);
   const updated = item.updatedAt ?? (skill?.repoMeta?.pushedAt || null);
   const jsonLd = [
     breadcrumbJsonLd([
@@ -144,16 +160,16 @@ export function ResourceDetail({ item }: { item: CardItem }) {
 
       {/* breadcrumb */}
       <nav aria-label="Breadcrumb" className="mb-4 flex items-center gap-1 text-xs text-muted">
-        <Link href="/" className="inline-flex min-h-10 items-center px-1 hover:text-foreground">Home</Link>
+        <Link href="/" className="inline-flex min-h-11 items-center px-1 hover:text-foreground">Home</Link>
         <span aria-hidden>/</span>
-        <Link href={kind.path} className="inline-flex min-h-10 items-center px-1 hover:text-foreground">{kind.label}</Link>
+        <Link href={kind.path} className="inline-flex min-h-11 items-center px-1 hover:text-foreground">{kind.label}</Link>
         <span aria-hidden>/</span>
         <span className="truncate px-1" aria-current="page">{item.title}</span>
       </nav>
 
       <Link
         href={kind.path}
-        className="ring-focus mb-6 inline-flex min-h-10 items-center gap-1.5 text-sm text-muted transition-colors hover:text-foreground"
+        className="ring-focus mb-6 inline-flex min-h-11 items-center gap-1.5 text-sm text-muted transition-colors hover:text-foreground"
       >
         <ArrowLeft className="h-4 w-4" aria-hidden /> All {kind.label}
       </Link>
@@ -197,7 +213,13 @@ export function ResourceDetail({ item }: { item: CardItem }) {
           ))}
           {mcp && <HealthPill health={healthOf(mcp)} />}
         </div>
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">{item.title}</h1>
+        {/* Says what the page is, not just the name: "Filesystem" alone
+            matched nothing people search for. */}
+        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          {item.title}
+          {mcp && !/\bmcp\b/i.test(item.title) && <span className="text-muted"> MCP server</span>}
+          {skill && !/\bskills?\b/i.test(item.title) && <span className="text-muted"> — Agent Skill</span>}
+        </h1>
         <p className="mt-2 text-sm text-muted">
           {item.footer}
           {updated && (
@@ -209,6 +231,15 @@ export function ResourceDetail({ item }: { item: CardItem }) {
       </header>
 
       <p className="mt-5 text-base leading-relaxed text-muted">{item.description}</p>
+
+      {glance && (
+        <section aria-labelledby="at-a-glance" className="mt-5 rounded-xl border border-border bg-surface/60 px-4 py-3">
+          <h2 id="at-a-glance" className="text-xs font-medium uppercase tracking-wide text-muted">
+            At a glance
+          </h2>
+          <p className="mt-1.5 text-sm leading-relaxed text-foreground">{glance}</p>
+        </section>
+      )}
 
       {repo && (
         <p className="mt-3 text-sm leading-relaxed text-muted">
@@ -227,19 +258,19 @@ export function ResourceDetail({ item }: { item: CardItem }) {
             href={item.externalUrl}
             target="_blank"
             rel="noreferrer"
-            className="ring-focus inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 text-sm text-foreground transition-colors hover:border-brand/50"
+            className="ring-focus inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 text-sm text-foreground transition-colors hover:border-brand/50"
           >
             {item.kind === "repos" ? <GitFork className="h-4 w-4" aria-hidden /> : <ExternalLink className="h-4 w-4" aria-hidden />}
             {item.kind === "repos" ? "View on GitHub" : "Source"}
           </a>
         )}
         {item.stars != null && (
-          <span className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-border px-3 text-sm text-muted">
+          <span className="inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border px-3 text-sm text-muted">
             <Star className="h-4 w-4 text-warn" aria-hidden /> {formatStars(item.stars)}
             <span className="sr-only">GitHub stars</span>
           </span>
         )}
-        {mcp && <AddToSetup slug={item.slug} variant="full" className="min-h-10" />}
+        {mcp && <AddToSetup slug={item.slug} variant="full" className="min-h-11" />}
         {mcp && <CopyAsPrompt prompt={installPrompt(mcp)} />}
       </div>
 
@@ -255,10 +286,10 @@ export function ResourceDetail({ item }: { item: CardItem }) {
         <AiUsage title={item.title} panels={usagePanels(item)} />
       </section>
 
-      {mcp && <RequirementsPanel mcp={{ packages: mcp.packages }} requirements={requirementsOf(mcp)} />}
+      {mcp && <RequirementsPanel mcp={{ name: mcp.name, packages: mcp.packages }} requirements={requirementsOf(mcp)} />}
       {mcp && (
         <ToolsPanel
-          mcp={{ tools: mcp.tools, toolsStatus: mcp.toolsStatus, toolsSource: mcp.toolsSource, packages: mcp.packages }}
+          mcp={{ name: mcp.name, tools: mcp.tools, toolsStatus: mcp.toolsStatus, toolsSource: mcp.toolsSource, packages: mcp.packages }}
         />
       )}
       {mcp && <CapabilityPanel mcp={without(mcp, "readme", "tools")} />}
@@ -271,6 +302,32 @@ export function ResourceDetail({ item }: { item: CardItem }) {
         <div id="alternatives" className="scroll-mt-20">
           <AlternativesPanel current={mcp} alternatives={alternatives} />
         </div>
+      )}
+
+      {similarSkills.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-base font-semibold">More {skill!.category} skills</h2>
+          <ul className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {similarSkills.map((sk) => (
+              <li key={sk.id}>
+                <ResourceCard item={skillToCard(sk)} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {mcp && (
+        <section className="mt-10">
+          <h2 className="text-base font-semibold">Maintain {item.title}? Add a badge to your README</h2>
+          <p className="mt-1 mb-3 text-xs text-muted">
+            Shows its health grade, and links readers to install steps for every client.
+          </p>
+          <CodeBlock
+            language="markdown"
+            code={`[![${item.title} on MCP Skills Hub](${absoluteUrl(`/badge/${item.slug}`)})](${absoluteUrl(pagePath)})`}
+          />
+        </section>
       )}
 
       {related.length > 0 && (

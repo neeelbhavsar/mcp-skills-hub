@@ -17,7 +17,7 @@ import { cn, toolSlug } from "@/lib/utils";
  * rather than just showing nothing.
  */
 /** Only what the panel reads; the full record (README, inspection) stays on the server. */
-export type ToolsPanelServer = Pick<Mcp, "tools" | "toolsStatus" | "toolsSource" | "packages">;
+export type ToolsPanelServer = Pick<Mcp, "name" | "tools" | "toolsStatus" | "toolsSource" | "packages">;
 
 export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
   const tools = mcp.tools ?? [];
@@ -36,8 +36,8 @@ export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
     return (
       <section className="mt-10">
         <h2 className="flex items-center gap-2 text-base font-semibold">
-          <Wrench className="h-4 w-4 text-muted-2" />
-          Tools
+          <Wrench className="h-4 w-4 text-muted-2" aria-hidden />
+          What tools does {mcp.name} expose?
         </h2>
         <p className="mt-3 rounded-xl border border-border bg-surface/60 px-4 py-3 text-sm leading-relaxed text-muted">
           {reason}
@@ -50,7 +50,7 @@ export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
     <section className="mt-10">
       <h2 className="flex items-center gap-2 text-base font-semibold">
         <Wrench className="h-4 w-4 text-brand-2" />
-        Tools <span className="text-muted-2">({tools.length})</span>
+        What tools does {mcp.name} expose? <span className="text-muted">({tools.length})</span>
       </h2>
       <p className="mt-1 mb-4 text-xs text-muted-2">
         {mcp.toolsSource === "readme"
@@ -146,7 +146,7 @@ export function RequirementsPanel({
   mcp,
   requirements,
 }: {
-  mcp: Pick<Mcp, "packages">;
+  mcp: Pick<Mcp, "name" | "packages">;
   requirements: {
     env: { name: string; description: string | null; required: boolean; secret: boolean }[];
     headers: { name: string; description: string | null; required: boolean; secret: boolean }[];
@@ -164,8 +164,8 @@ export function RequirementsPanel({
   return (
     <section className="mt-10">
       <h2 className="flex items-center gap-2 text-base font-semibold">
-        <Lock className="h-4 w-4 text-warn" />
-        What you need to supply
+        <Lock className="h-4 w-4 text-warn" aria-hidden />
+        What does {mcp.name} need from you?
       </h2>
       {authType && (
         <p className="mt-1 mb-4 text-xs text-muted-2">

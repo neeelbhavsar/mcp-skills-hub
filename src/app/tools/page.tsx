@@ -53,7 +53,7 @@ export default function ToolsPage() {
               <li key={t.slug}>
                 <Link
                   href={`/tools/${t.slug}`}
-                  className="ring-focus inline-flex min-h-9 items-center rounded-md border border-border bg-surface px-2.5 font-mono text-xs text-muted transition-colors hover:border-brand/50 hover:text-foreground"
+                  className="ring-focus inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-2.5 font-mono text-xs text-muted transition-colors hover:border-brand/50 hover:text-foreground"
                 >
                   {t.name}
                   {t.providers.length > 1 && (
