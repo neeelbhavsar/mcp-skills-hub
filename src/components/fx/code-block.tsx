@@ -28,7 +28,7 @@ export function CodeBlock({
   return (
     <div className={cn("group relative overflow-hidden rounded-xl border border-border bg-[var(--code-bg)]", className)}>
       <div className="flex items-center justify-between border-b border-border/70 px-3 py-1.5">
-        <span className="font-mono text-[10px] uppercase tracking-widest text-muted-2">{language}</span>
+        <span className="font-mono text-xs uppercase tracking-widest text-muted-2">{language}</span>
         <button
           onClick={copy}
           className="ring-focus flex items-center gap-1 rounded-md px-2 py-1 text-xs text-muted transition-colors hover:text-foreground"

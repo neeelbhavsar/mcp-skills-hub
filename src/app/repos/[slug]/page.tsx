@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { repos, getRepo } from "@/lib/data";
 import { repoToCard } from "@/lib/view";
 import { ResourceDetail } from "@/components/catalog/resource-detail";
-import { resourcePath } from "@/lib/seo";
+import { detailTitle, ogTitle, resourcePath } from "@/lib/seo";
+import { clip } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -19,14 +20,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const repo = getRepo(slug);
   if (!repo) return {};
-  const title = repo.name;
-  const description = repo.description || `${repo.fullName} — a GitHub repository for AI workflows.`;
+  // Bare repo names ("opik") said nothing about the page; owner/name plus
+  // what it is reads as a result worth clicking.
+  const title = detailTitle(repo.fullName, repo.language ? `(${repo.language})` : "", `${repo.category} GitHub repo`);
+  const description = clip(repo.description || `${repo.fullName} — a GitHub repository for AI workflows.`);
   const path = resourcePath("repos", slug);
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description },
+    // og:image comes from the sibling opengraph-image.tsx.
+    openGraph: { type: "website", url: path, title: ogTitle(repo.fullName), description },
   };
 }
 

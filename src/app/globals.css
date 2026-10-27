@@ -12,7 +12,7 @@
   --surface-2: #131a2b;
   --foreground: #f2f5fb;
   --muted: #8b95ad;
-  --muted-2: #5c6885;
+  --muted-2: #7a86a3; /* 5.1:1 on --surface; #5c6885 was 3.55:1 */
   --border: #1e2740;
   --border-strong: #2c3654;
 
@@ -37,7 +37,7 @@
   --surface-2: #eef1f8;
   --foreground: #0e1424;
   --muted: #55607a;
-  --muted-2: #7d879e;
+  --muted-2: #636d87; /* 4.9:1 on --surface; #7d879e was 3.39:1 */
   --border: #dfe4ef;
   --border-strong: #c4cbdb;
 
@@ -60,7 +60,7 @@
     --surface-2: #eef1f8;
     --foreground: #0e1424;
     --muted: #55607a;
-    --muted-2: #7d879e;
+    --muted-2: #636d87; /* 4.9:1 on --surface; #7d879e was 3.39:1 */
     --border: #dfe4ef;
     --border-strong: #c4cbdb;
 
@@ -233,4 +233,18 @@ body::before {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/*
+ * Entrance motion that never hides content. The hero and listing headers used
+ * to start at opacity 0 and fade in after hydration, so the first painted
+ * frame was empty and the LCP element (the H1) waited on JavaScript. A
+ * transform-only rise is painted from the first frame and just settles.
+ */
+@keyframes rise {
+  from { transform: translateY(14px); }
+  to { transform: none; }
+}
+.animate-rise {
+  animation: rise 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
 }

@@ -2,6 +2,7 @@
 // Optional GITHUB_TOKEN lifts rate limits (30 req/min search, 5000/hr core).
 
 import { getJSON, clean, slugify, log, sleep } from "./lib/util.mjs";
+import { attachReadmes } from "./lib/readme.mjs";
 
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 
@@ -57,5 +58,8 @@ export async function fetchRepos() {
   for (const r of all) if (!bySlug.has(r.slug)) bySlug.set(r.slug, r);
   const deduped = [...bySlug.values()].sort((a, b) => b.stars - a.stars);
   log(`Repos total after dedupe: ${deduped.length}`);
+  // Repo pages were a GitHub one-liner and a clone command: ~73 words of
+  // their own. The README is the substance a reader actually wants.
+  await attachReadmes(deduped, (r) => r.fullName);
   return deduped;
 }

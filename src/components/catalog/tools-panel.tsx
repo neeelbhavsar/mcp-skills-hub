@@ -16,7 +16,10 @@ import { cn, toolSlug } from "@/lib/utils";
  * remote servers require credentials. The empty states say which case applies
  * rather than just showing nothing.
  */
-export function ToolsPanel({ mcp }: { mcp: Mcp }) {
+/** Only what the panel reads; the full record (README, inspection) stays on the server. */
+export type ToolsPanelServer = Pick<Mcp, "tools" | "toolsStatus" | "toolsSource" | "packages">;
+
+export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
   const tools = mcp.tools ?? [];
   const [open, setOpen] = useState<string | null>(null);
   const packaged = mcp.packages.length > 0;
@@ -50,7 +53,11 @@ export function ToolsPanel({ mcp }: { mcp: Mcp }) {
         Tools <span className="text-muted-2">({tools.length})</span>
       </h2>
       <p className="mt-1 mb-4 text-xs text-muted-2">
-        Read from the live server. Click any tool for its input schema.
+        {mcp.toolsSource === "readme"
+          ? "Taken from the project's README — the server itself was not queried, so check its docs for the exact schemas."
+          : mcp.toolsSource === "glama"
+            ? "From the Glama registry's index of this server."
+            : "Read from the live server. Click any tool for its input schema."}
       </p>
 
       <ul className="divide-y divide-border overflow-hidden rounded-xl border border-border bg-surface/60">
@@ -112,7 +119,7 @@ export function ToolsPanel({ mcp }: { mcp: Mcp }) {
                           <td className="py-2 text-muted">
                             {input.description}
                             {input.enum && (
-                              <span className="mt-1 block font-mono text-[11px] text-muted-2">
+                              <span className="mt-1 block font-mono text-xs text-muted-2">
                                 one of: {input.enum.join(" · ")}
                               </span>
                             )}
@@ -121,7 +128,7 @@ export function ToolsPanel({ mcp }: { mcp: Mcp }) {
                       ))}
                     </tbody>
                   </table>
-                  <p className="mt-2 text-[11px] text-muted-2">
+                  <p className="mt-2 text-xs text-muted-2">
                     <span className="text-danger">*</span> required
                   </p>
                 </div>
@@ -139,7 +146,7 @@ export function RequirementsPanel({
   mcp,
   requirements,
 }: {
-  mcp: Mcp;
+  mcp: Pick<Mcp, "packages">;
   requirements: {
     env: { name: string; description: string | null; required: boolean; secret: boolean }[];
     headers: { name: string; description: string | null; required: boolean; secret: boolean }[];
@@ -172,20 +179,20 @@ export function RequirementsPanel({
             <div className="flex flex-wrap items-center gap-2">
               <code className="font-mono text-sm text-foreground">{row.name}</code>
               {row.required ? (
-                <span className="rounded border border-danger/40 bg-danger/10 px-1.5 py-0.5 text-[10px] text-danger">
+                <span className="rounded border border-danger/40 bg-danger/10 px-1.5 py-0.5 text-xs text-danger">
                   required
                 </span>
               ) : (
-                <span className="rounded border border-border px-1.5 py-0.5 text-[10px] text-muted-2">
+                <span className="rounded border border-border px-1.5 py-0.5 text-xs text-muted-2">
                   optional
                 </span>
               )}
               {row.secret && (
-                <span className="rounded border border-warn/40 bg-warn/10 px-1.5 py-0.5 text-[10px] text-warn">
+                <span className="rounded border border-warn/40 bg-warn/10 px-1.5 py-0.5 text-xs text-warn">
                   secret
                 </span>
               )}
-              <span className="text-[10px] text-muted-2">{row.kind}</span>
+              <span className="text-xs text-muted-2">{row.kind}</span>
             </div>
             {row.description && <p className="mt-1.5 text-sm leading-relaxed text-muted">{row.description}</p>}
           </li>

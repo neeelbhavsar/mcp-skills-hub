@@ -57,6 +57,10 @@ async function fromManifest({ url, source, repo }) {
   try {
     const data = await getJSON(url, { label: source });
     const plugins = data.plugins || [];
+    // `/plugin install <plugin>@<marketplace>` takes the name the manifest
+    // declares, not the repo name: anthropics/skills is "anthropic-agent-skills",
+    // so the generated "@skills" never worked.
+    const marketplace = { repo, name: data.name || repo.split("/")[1] };
     for (const p of plugins) {
       const desc = clean(p.description || "");
       const skillList = Array.isArray(p.skills) ? p.skills : [];
@@ -82,6 +86,7 @@ async function fromManifest({ url, source, repo }) {
         // one folder inside a larger repository.
         sourceUrl,
         target: "claude",
+        marketplace,
         stars: null,
       });
     }

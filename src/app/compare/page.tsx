@@ -6,7 +6,7 @@ import { launchFor } from "@/lib/compat";
 import { healthOf, requirementsOf } from "@/lib/health";
 import { HealthPill } from "@/components/catalog/health-badge";
 import { PageHeader } from "@/components/layout/page-header";
-import { resourcePath, OG_IMAGE } from "@/lib/seo";
+import { resourcePath, OG_IMAGE, ogTitle } from "@/lib/seo";
 import { timeAgo } from "@/lib/utils";
 
 const DESCRIPTION = "Put MCP servers side by side — transport, tools, credentials, maintenance and health.";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Compare servers",
   description: DESCRIPTION,
   alternates: { canonical: "/compare" },
-  openGraph: { url: "/compare", title: "Compare servers — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  openGraph: { url: "/compare", title: ogTitle("Compare servers"), description: DESCRIPTION, images: [OG_IMAGE] },
   // A tool, not content: ?servers= admits a combinatorial number of near
   // duplicate URLs, which is pure crawl-budget waste. The bare /compare stays
   // crawlable so the feature is discoverable.

@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { USE_CASES, resolveUseCase } from "@/lib/use-cases";
 import { PageHeader } from "@/components/layout/page-header";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
-import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, OG_IMAGE, ogTitle, jsonLdScript } from "@/lib/seo";
 
 const DESCRIPTION =
   "Task-oriented guides to MCP servers and skills — query a database, browse the web, connect GitHub, read files, and more.";
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Use Cases",
   description: DESCRIPTION,
   alternates: { canonical: "/use-cases" },
-  openGraph: { url: "/use-cases", title: "Use Cases — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  openGraph: { url: "/use-cases", title: ogTitle("Use Cases"), description: DESCRIPTION, images: [OG_IMAGE] },
 };
 
 export default function UseCasesPage() {
@@ -24,7 +24,7 @@ export default function UseCasesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd([{ name: "Use Cases", path: "/use-cases" }])),
+          __html: jsonLdScript(breadcrumbJsonLd([{ name: "Use Cases", path: "/use-cases" }])),
         }}
       />
       <PageHeader

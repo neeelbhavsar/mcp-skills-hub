@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Boxes, Star } from "lucide-react";
 import { meta } from "@/lib/data";
-
-const REPO_URL = "https://github.com/neeelbhavsar/mcp-skills-hub";
+import { AI_TARGETS } from "@/lib/ai-targets";
+import { REPO_URL, SITE_NAME } from "@/lib/seo";
 const PORTFOLIO_URL = "https://neelbhavsar.vercel.app/";
 
 /** GitHub mark — lucide no longer ships brand icons. */
@@ -22,42 +22,58 @@ export function Footer() {
   });
   return (
     <footer className="mt-24 border-t border-border/70">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-[1.5fr_1fr_1fr]">
+      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2.5">
             <span className="brand-gradient flex h-8 w-8 items-center justify-center rounded-lg">
               <Boxes className="h-5 w-5 text-white" />
             </span>
             <span className="text-[15px] font-semibold">
-              AI<span className="text-gradient"> Library</span>
+              MCP<span className="text-gradient"> Skills Hub</span>
             </span>
           </div>
           <p className="mt-3 max-w-xs text-sm text-muted">
-            The all-in-one directory of AI Skills, MCP servers and GitHub repos — refreshed daily,
+            {SITE_NAME} is the directory of MCP servers, Agent Skills and GitHub repos — refreshed daily,
             with copy-paste setup for every AI assistant.
           </p>
-          <p className="mt-4 text-xs text-muted-2">
+          <p className="mt-4 text-xs text-muted">
             Data updated {updated} · {meta.counts.skills + meta.counts.mcps + meta.counts.repos} resources indexed
           </p>
         </div>
 
-        <div>
-          <h4 className="text-sm font-semibold">Browse</h4>
-          <ul className="mt-3 space-y-2 text-sm text-muted">
-            <li><Link href="/skills" className="hover:text-foreground">Skills</Link></li>
-            <li><Link href="/mcps" className="hover:text-foreground">MCP Servers</Link></li>
-            <li><Link href="/repos" className="hover:text-foreground">GitHub Repos</Link></li>
-          </ul>
-        </div>
+        <FooterColumn
+          title="Browse"
+          links={[
+            { href: "/mcps", label: "MCP Servers" },
+            { href: "/skills", label: "Agent Skills" },
+            { href: "/repos", label: "GitHub Repos" },
+            { href: "/tools", label: "Tool search" },
+            { href: "/best-mcp-servers", label: "Best MCP servers" },
+            { href: "/stacks", label: "Collections" },
+            { href: "/use-cases", label: "Use cases" },
+            { href: "/whats-new", label: "What's new" },
+          ]}
+        />
 
-        <div>
-          <h4 className="text-sm font-semibold">Sources</h4>
-          <ul className="mt-3 space-y-2 text-sm text-muted">
-            <li><a href="https://registry.modelcontextprotocol.io" target="_blank" rel="noreferrer" className="hover:text-foreground">MCP Registry</a></li>
-            <li><a href="https://github.com/anthropics/skills" target="_blank" rel="noreferrer" className="hover:text-foreground">Anthropic Skills</a></li>
-            <li><a href="https://glama.ai" target="_blank" rel="noreferrer" className="hover:text-foreground">Glama</a></li>
-          </ul>
-        </div>
+        <FooterColumn
+          title="Setup guides"
+          links={[
+            ...AI_TARGETS.map((t) => ({ href: `/clients/${t.id}`, label: `MCP in ${t.name}` })),
+            { href: "/setup", label: "Config generator" },
+          ]}
+        />
+
+        <FooterColumn
+          title="Project"
+          links={[
+            { href: "/about", label: "About" },
+            { href: "/health-score", label: "How health is scored" },
+            { href: "/developers", label: "API & MCP server" },
+            { href: "/submit", label: "Submit or report" },
+            { href: "/feed.xml", label: "RSS feed" },
+            { href: "https://registry.modelcontextprotocol.io", label: "MCP Registry", external: true },
+          ]}
+        />
       </div>
       <div className="border-t border-border/70">
         <div className="mx-auto flex max-w-7xl flex-col items-start gap-4 px-4 py-6 sm:px-6 md:flex-row md:items-center md:justify-between">
@@ -91,5 +107,35 @@ export function Footer() {
         · Not affiliated with Anthropic, OpenAI, or Cursor
       </div>
     </footer>
+  );
+}
+
+/** A footer link list. Headings are h2: footer h4s jumped straight past h2/h3. */
+function FooterColumn({
+  title,
+  links,
+}: {
+  title: string;
+  links: { href: string; label: string; external?: boolean }[];
+}) {
+  return (
+    <nav aria-label={title}>
+      <h2 className="text-sm font-semibold">{title}</h2>
+      <ul className="mt-2 text-sm text-muted">
+        {links.map((l) => (
+          <li key={l.href}>
+            {l.external ? (
+              <a href={l.href} target="_blank" rel="noreferrer" className="inline-flex min-h-9 items-center hover:text-foreground">
+                {l.label}
+              </a>
+            ) : (
+              <Link href={l.href} className="inline-flex min-h-9 items-center hover:text-foreground">
+                {l.label}
+              </Link>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }

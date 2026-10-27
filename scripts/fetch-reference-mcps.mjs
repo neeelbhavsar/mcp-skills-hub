@@ -24,6 +24,9 @@ const REFERENCE = [
     name: "Filesystem",
     registryType: "npm",
     identifier: "@modelcontextprotocol/server-filesystem",
+    // Exits at startup without at least one allowed directory, so a config
+    // without this never worked as pasted.
+    args: ["/path/to/allowed/directory"],
     category: "Dev Tools & Git",
     description:
       "Secure file operations with configurable access controls — read, write, search and move files in directories you explicitly allow.",
@@ -92,6 +95,10 @@ export async function fetchReferenceMCPs() {
     description: r.description,
     category: r.category,
     repository: `https://github.com/${REPO}`,
+    // Each server documents itself (and its tools) in its own folder; the repo
+    // root README is a directory of all of them, which made all seven pages
+    // render the same document.
+    subdir: `src/${r.dir}`,
     homepage: `${TREE}/${r.dir}`,
     packages: [
       {
@@ -99,6 +106,7 @@ export async function fetchReferenceMCPs() {
         identifier: r.identifier,
         version: "latest",
         transport: "stdio",
+        ...(r.args ? { args: r.args } : {}),
       },
     ],
     remotes: [],

@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { mcps, getMcp } from "@/lib/data";
 import { mcpToCard } from "@/lib/view";
 import { ResourceDetail } from "@/components/catalog/resource-detail";
-import { resourcePath } from "@/lib/seo";
+import { detailTitle, ogTitle, resourcePath } from "@/lib/seo";
+import { clip } from "@/lib/utils";
 
 export const dynamicParams = false;
 
@@ -19,14 +20,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const mcp = getMcp(slug);
   if (!mcp) return {};
-  const title = mcp.name;
-  const description = mcp.description;
+  // "Filesystem MCP server", but not "Acme MCP MCP server".
+  const kindPhrase = /mcp/i.test(mcp.name) ? "server" : "MCP server";
+  const title = detailTitle(mcp.name, kindPhrase, "install in Claude, Cursor & VS Code");
+  const description = clip(mcp.description);
   const path = resourcePath("mcps", slug);
   return {
     title,
     description,
     alternates: { canonical: path },
-    openGraph: { type: "article", url: path, title: `${title} — AI Library`, description },
+    // og:image comes from the sibling opengraph-image.tsx.
+    openGraph: { type: "website", url: path, title: ogTitle(`${mcp.name} ${kindPhrase}`), description },
   };
 }
 

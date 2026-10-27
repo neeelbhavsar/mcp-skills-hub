@@ -4,7 +4,10 @@ import { useDeferredValue, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, Wrench, X } from "lucide-react";
 import type { ToolIndexEntry } from "@/lib/view";
-import { toolSlug } from "@/lib/data";
+// From utils, not data: importing lib/data here pulled the whole catalog
+// into the client bundle.
+import { toolSlug } from "@/lib/utils";
+import { useLazyJson } from "@/lib/lazy-json";
 import { tokenize } from "@/lib/search";
 
 const PAGE = 40;
@@ -14,10 +17,23 @@ const PAGE = 40;
  * this answers questions the other directories cannot — "which server has a
  * create_issue tool?".
  */
-export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
+export function ToolSearch({
+  initial,
+  total: totalTools,
+  indexUrl,
+}: {
+  /** The first page, server-rendered so the list is there without JavaScript. */
+  initial: ToolIndexEntry[];
+  total: number;
+  /** Full index, fetched on first interaction. */
+  indexUrl: string;
+}) {
   const [query, setQuery] = useState("");
   const [limit, setLimit] = useState(PAGE);
+  const [wanted, setWanted] = useState(false);
   const deferred = useDeferredValue(query);
+  const { data } = useLazyJson<ToolIndexEntry[]>(indexUrl, wanted || query.length > 0);
+  const tools = data ?? initial;
 
   const results = useMemo(() => {
     const tokens = tokenize(deferred);
@@ -42,7 +58,7 @@ export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
       .map((x) => x.entry);
   }, [tools, deferred, limit]);
 
-  const total = tokenize(deferred).length === 0 ? tools.length : results.length;
+  const total = tokenize(deferred).length === 0 ? totalTools : results.length;
 
   return (
     <div>
@@ -54,6 +70,7 @@ export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
             setQuery(e.target.value);
             setLimit(PAGE);
           }}
+          onFocus={() => setWanted(true)}
           placeholder="create_issue, search, query, screenshot…"
           aria-label="Search tools"
           className="ring-focus h-12 w-full rounded-xl border border-border bg-surface pl-10 pr-10 font-mono text-base text-foreground sm:text-sm placeholder:font-sans placeholder:text-muted-2 focus:border-brand/50"
@@ -103,7 +120,10 @@ export function ToolSearch({ tools }: { tools: ToolIndexEntry[] }) {
       {results.length >= limit && (
         <div className="mt-8 flex justify-center">
           <button
-            onClick={() => setLimit((l) => l + PAGE)}
+            onClick={() => {
+              setWanted(true);
+              setLimit((l) => l + PAGE);
+            }}
             className="ring-focus rounded-xl border border-border bg-surface px-6 py-3 text-sm text-foreground transition-colors hover:border-brand/50"
           >
             Load more

@@ -27,6 +27,11 @@ export interface UseCase {
    * Better than presenting one weak match as if it were the answer.
    */
   coverageNote?: string;
+  /**
+   * Words that disqualify a match. "search" is a browse-the-web keyword, but
+   * Apple Search Ads and Search Console servers are not web browsers.
+   */
+  exclude?: string[];
 }
 
 export const USE_CASES: UseCase[] = [
@@ -42,8 +47,11 @@ export const USE_CASES: UseCase[] = [
       "Point it at a staging copy before production — schema exploration is chatty and can be slow on a live database.",
       "Prefer servers that let you pass the connection string as an environment variable rather than baking it into the config file you commit.",
     ],
+    // The old note said the registry listed almost no database servers. That
+    // was an artefact of the pipeline reading only its first ~220 entries
+    // (alphabetically); the registry has dozens.
     coverageNote:
-      "The public MCP Registry currently lists almost no database servers, and the official Postgres, SQLite and Redis reference servers were archived by the MCP steering group — so there is no maintained first-party option today. Most people use a vendor's own server (Supabase, Neon, PlanetScale) or run a community one from GitHub. This page will fill in as entries are published.",
+      "The official Postgres, SQLite and Redis reference servers were archived by the MCP steering group, so there is no maintained first-party option. The servers below are vendor or community ones — check the health score and last commit before connecting one to real data.",
   },
   {
     slug: "browse-the-web",
@@ -52,6 +60,7 @@ export const USE_CASES: UseCase[] = [
     intro:
       "Search APIs return text; headless browsers can click, scroll and screenshot. Which you want depends on whether you are gathering facts or driving a UI.",
     keywords: ["search", "browser", "puppeteer", "playwright", "scrape", "crawl", "fetch", "web", "brave", "perplexity", "tavily"],
+    exclude: ["ads", "advertising", "seo", "search console", "marketing", "real estate", "jobs"],
     guidance: [
       "For research, a search API is faster and far cheaper in tokens than driving a browser.",
       "For anything behind a login or heavy on JavaScript, you need a real browser server.",
@@ -71,7 +80,7 @@ export const USE_CASES: UseCase[] = [
       "Watch your context budget: a large diff can fill the window on its own.",
     ],
     coverageNote:
-      "The registry has thin GitHub coverage. GitHub's own MCP server is published separately at github/github-mcp-server rather than through the registry, and is usually the one you want for issues and pull requests. The reference Git server below covers local repositories.",
+      "GitHub's own MCP server (github/github-mcp-server) is usually the one you want for issues and pull requests. The reference Git server covers local repositories without any account.",
   },
   {
     slug: "read-and-write-files",
@@ -127,16 +136,32 @@ export interface UseCaseMatches {
  * files". A keyword in the *name* is much stronger evidence than one buried
  * in a description.
  */
-function relevance(name: string, body: string, keywords: string[]): number {
+// Keywords are plain words; anything else is dropped so they can't form a
+// regex. `\b` on the left only, so "postgres" still matches "postgresql".
+const word = (k: string) =>
+  new RegExp(`\\b${k.toLowerCase().replace(/[^a-z0-9 ]+/g, " ").trim()}`, "i");
+
+/**
+ * Whole-word matches only ("sql" no longer hits "nosql-ish" mid-word), and a
+ * match needs real evidence: a keyword in the name, or two different keywords
+ * in the description. A single passing mention ("…stored in a database") put
+ * an enforcement-records server on the query-a-database page.
+ */
+function relevance(name: string, body: string, keywords: string[], exclude: string[] = []): number {
   const n = name.toLowerCase();
   const b = body.toLowerCase();
+  if (exclude.some((x) => word(x).test(n) || word(x).test(b))) return 0;
   let score = 0;
-  for (const raw of keywords) {
-    const k = raw.toLowerCase();
-    if (n.includes(k)) score += 6;
-    else if (b.includes(k)) score += 1;
+  let bodyHits = 0;
+  for (const k of keywords) {
+    const re = word(k);
+    if (re.test(n)) score += 6;
+    else if (re.test(b)) {
+      score += 1;
+      bodyHits++;
+    }
   }
-  return score;
+  return score >= 6 || bodyHits >= 2 ? score : 0;
 }
 
 function rank<T extends { name: string; stars: number | null; source?: string }>(
@@ -144,9 +169,10 @@ function rank<T extends { name: string; stars: number | null; source?: string }>
   body: (item: T) => string,
   keywords: string[],
   limit: number,
+  exclude: string[] = [],
 ): T[] {
   return items
-    .map((item) => ({ item, score: relevance(item.name, body(item), keywords) }))
+    .map((item) => ({ item, score: relevance(item.name, body(item), keywords, exclude) }))
     .filter((x) => x.score > 0)
     .sort(
       (a, b) =>
@@ -174,8 +200,9 @@ export function resolveUseCase(useCase: UseCase): UseCaseMatches {
     (m) => `${m.description} ${m.qualifiedName}`,
     useCase.keywords,
     12,
+    useCase.exclude,
   );
-  const matchedSkills = rank(skills, (s) => s.description, useCase.keywords, 6);
+  const matchedSkills = rank(skills, (s) => s.description, useCase.keywords, 6, useCase.exclude);
   return { useCase, mcps: matchedMcps, skills: matchedSkills };
 }
 

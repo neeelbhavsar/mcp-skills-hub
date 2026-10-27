@@ -8,7 +8,7 @@ import { mergedConfig, serverEntry } from "@/lib/ai-targets";
 import { ResourceCard } from "@/components/catalog/resource-card";
 import { CodeBlock } from "@/components/fx/code-block";
 import { PageHeader } from "@/components/layout/page-header";
-import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, OG_IMAGE, ogTitle, jsonLdScript, absoluteUrl, resourcePath } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -32,7 +32,7 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: path,
-      title: `${stack.name} MCP stack — AI Library`,
+      title: ogTitle(`${stack.name} MCP stack`),
       description: stack.rationale,
       images: [OG_IMAGE],
     },
@@ -53,12 +53,26 @@ export default async function StackPage({ params }: { params: Promise<{ slug: st
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
+          __html: jsonLdScript([
             breadcrumbJsonLd([
               { name: "Starter packs", path: "/stacks" },
               { name: stack.name, path: `/stacks/${slug}` },
             ]),
-          ),
+            // What the pack contains, not just where it sits.
+            {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: stack.name,
+              description: stack.rationale,
+              numberOfItems: servers.length,
+              itemListElement: servers.map((m, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                url: absoluteUrl(resourcePath("mcps", m.slug)),
+                name: m.name,
+              })),
+            },
+          ]),
         }}
       />
       <PageHeader eyebrow="Starter pack" title={stack.name} highlight="" subtitle={stack.rationale} />

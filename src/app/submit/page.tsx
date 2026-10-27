@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { ExternalLink, GitPullRequest, Send } from "lucide-react";
 import { PageHeader } from "@/components/layout/page-header";
-import { breadcrumbJsonLd, OG_IMAGE } from "@/lib/seo";
+import { breadcrumbJsonLd, OG_IMAGE, ogTitle, SITE_NAME, jsonLdScript } from "@/lib/seo";
 
 const DESCRIPTION =
-  "Add an MCP server or Agent Skill to AI Library, report a wrong config, or argue with the health score.";
+  `Add an MCP server or Agent Skill to ${SITE_NAME}, report a wrong config, or argue with the health score.`;
 
 export const metadata: Metadata = {
   title: "Submit a resource",
   description: DESCRIPTION,
   alternates: { canonical: "/submit" },
-  openGraph: { url: "/submit", title: "Submit a resource — AI Library", description: DESCRIPTION, images: [OG_IMAGE] },
+  openGraph: { url: "/submit", title: ogTitle("Submit a resource"), description: DESCRIPTION, images: [OG_IMAGE] },
 };
 
 const REPO = "https://github.com/neeelbhavsar/mcp-skills-hub";
@@ -58,7 +58,7 @@ export default function SubmitPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd([{ name: "Submit", path: "/submit" }])),
+          __html: jsonLdScript(breadcrumbJsonLd([{ name: "Submit", path: "/submit" }])),
         }}
       />
       <PageHeader

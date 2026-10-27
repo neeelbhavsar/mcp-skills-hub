@@ -3,11 +3,10 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { motion } from "motion/react";
-import { Search, SlidersHorizontal, X } from "lucide-react";
-import type { CardItem } from "@/lib/view";
+import { ChevronLeft, ChevronRight, Search, SlidersHorizontal, X } from "lucide-react";
+import type { CatalogCard } from "@/lib/view";
 import type { ResourceKind } from "@/lib/types";
-import { KIND_META, categoryPath } from "@/lib/seo";
+import { KIND_META, categoryPath, pagePath, CATALOG_PAGE_SIZE } from "@/lib/seo";
 import { AI_TARGETS } from "@/lib/ai-targets";
 import { searchItems } from "@/lib/search";
 import { ResourceCard } from "./resource-card";
@@ -20,7 +19,7 @@ const SORTS = [
 ] as const;
 
 type SortKey = (typeof SORTS)[number]["key"];
-const PAGE = 24;
+const PAGE = CATALOG_PAGE_SIZE;
 
 /**
  * Chip rows swipe horizontally on phones (a wrapped row of 15+ categories is
@@ -39,12 +38,19 @@ export function CatalogShell({
   items,
   categories,
   activeCategory = null,
+  totalCount,
+  page = 1,
 }: {
   kind: ResourceKind;
-  items: CardItem[];
+  /** Only the items in scope: the whole catalog, or one category's slice. */
+  items: CatalogCard[];
   categories: { name: string; count: number }[];
   /** Set by the /category/[category] routes; null on the bare catalog page. */
   activeCategory?: string | null;
+  /** Size of the whole catalog, for the "All" chip on category pages. */
+  totalCount: number;
+  /** 1-based page from the /page/[n] routes. */
+  page?: number;
 }) {
   const router = useRouter();
 
@@ -55,6 +61,8 @@ export function CatalogShell({
   // honouring a deep link.
   const basePath = KIND_META[kind].path;
   const cat = activeCategory;
+  // Where pagination links point: the catalog itself, or this category.
+  const scopePath = cat ? categoryPath(kind, cat) : basePath;
 
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("popular");
@@ -108,16 +116,16 @@ export function CatalogShell({
 
   const sortable = useMemo(
     () => ({
-      popular: (a: CardItem, b: CardItem) => (b.stars ?? -1) - (a.stars ?? -1),
-      recent: (a: CardItem, b: CardItem) =>
+      popular: (a: CatalogCard, b: CatalogCard) => (b.stars ?? -1) - (a.stars ?? -1),
+      recent: (a: CatalogCard, b: CatalogCard) =>
         (b.updatedAt ? Date.parse(b.updatedAt) : 0) - (a.updatedAt ? Date.parse(a.updatedAt) : 0),
-      az: (a: CardItem, b: CardItem) => a.title.localeCompare(b.title),
+      az: (a: CatalogCard, b: CatalogCard) => a.title.localeCompare(b.title),
     }),
     [],
   );
 
   const filtered = useMemo(() => {
-    let pool = cat ? items.filter((i) => i.category === cat) : items;
+    let pool = items;
     // "Runs natively in X": stdio servers run anywhere, remote ones need a
     // bridge on the stdio-only clients.
     if (client) {
@@ -131,13 +139,22 @@ export function CatalogShell({
     const ranked = searchItems(pool, deferredQuery);
     if (ranked) return ranked;
     return [...pool].sort(sortable[sort]);
-  }, [items, cat, client, deferredQuery, sort, sortable]);
+  }, [items, client, deferredQuery, sort, sortable]);
 
-  const visible = filtered.slice(0, limit);
   const searching = deferredQuery.trim().length > 0;
+  // The default view is the one the /page/[n] routes slice, so a crawler and
+  // a visitor landing on page 3 see the same 24 cards. Any filter starts over.
+  const browsing = !searching && !client && sort === "popular";
+  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE));
+  const currentPage = browsing ? Math.min(page, pageCount) : 1;
+  const start = (currentPage - 1) * PAGE;
+  const visible = filtered.slice(start, start + limit);
+  const shownTo = start + visible.length;
+  const nextPage = Math.floor(shownTo / PAGE) + 1;
 
   function reset() {
     setQuery("");
+    setClient(null);
     if (cat) router.push(basePath);
   }
 
@@ -154,12 +171,12 @@ export function CatalogShell({
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search by name, use-case, keyword…"
               aria-label="Search"
-              className="ring-focus h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-10 text-base text-foreground sm:text-sm placeholder:text-muted-2 focus:border-brand/50"
+              className="ring-focus h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-11 text-base text-foreground sm:text-sm placeholder:text-muted focus:border-brand/50"
             />
             {query && (
               <button
                 onClick={() => setQuery("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-2 hover:text-foreground"
+                className="absolute right-1 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center text-muted-2 hover:text-foreground"
                 aria-label="Clear search"
               >
                 <X className="h-4 w-4" />
@@ -185,7 +202,7 @@ export function CatalogShell({
                   title={searching ? "Sorted by relevance while searching" : undefined}
                   onClick={() => setSort(s.key)}
                   className={cn(
-                    "ring-focus rounded-lg px-3 py-1.5 text-xs font-medium transition-colors disabled:cursor-not-allowed",
+                    "ring-focus min-h-9 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors disabled:cursor-not-allowed",
                     sort === s.key ? "bg-surface-2 text-foreground" : "text-muted hover:text-foreground",
                   )}
                 >
@@ -199,7 +216,7 @@ export function CatalogShell({
         {/* client compatibility — MCP-only, since it is derived from transport */}
         {kind === "mcps" && (
           <div className={cn("mt-3 items-center", CHIP_ROW)}>
-            <span className="shrink-0 text-xs text-muted-2">Runs natively in</span>
+            <span className="shrink-0 text-xs text-muted">Runs natively in</span>
             <Chip active={!client} onClick={() => setClient(null)}>
               Any client
             </Chip>
@@ -218,7 +235,7 @@ export function CatalogShell({
         {/* category chips */}
         <div className={cn("mt-3", CHIP_ROW)}>
           <Chip active={!cat} href={basePath}>
-            All <span className="text-muted-2">{items.length}</span>
+            All <span className="opacity-70">{totalCount}</span>
           </Chip>
           {categories.map((c) => (
             <Chip
@@ -226,51 +243,99 @@ export function CatalogShell({
               active={cat === c.name}
               href={cat === c.name ? basePath : categoryPath(kind, c.name)}
             >
-              {c.name} <span className="text-muted-2">{c.count}</span>
+              {c.name} <span className="opacity-70">{c.count}</span>
             </Chip>
           ))}
         </div>
       </div>
 
-      {/* results */}
+      {/* results — the cards are h3s, so the list needs an h2 above them */}
+      <h2 className="sr-only">{cat ? `${cat} ${KIND_META[kind].label.toLowerCase()}` : `All ${KIND_META[kind].label.toLowerCase()}`}</h2>
       <p className="mb-4 text-sm text-muted" aria-live="polite">
         <span className="font-semibold text-foreground">{filtered.length}</span> result
         {filtered.length === 1 ? "" : "s"}
         {cat && <> in <span className="text-brand">{cat}</span></>}
         {searching && <> for “{deferredQuery}”</>}
+        {browsing && pageCount > 1 && (
+          <span className="text-muted">
+            {" "}
+            · showing {start + 1}–{shownTo}
+          </span>
+        )}
       </p>
 
       {filtered.length === 0 ? (
         <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-border py-20 text-center">
           <p className="text-sm text-muted">No matches found.</p>
-          <button onClick={reset} className="mt-3 text-sm text-brand hover:underline">
+          <button onClick={reset} className="mt-3 min-h-10 px-3 text-sm text-brand hover:underline">
             Clear filters
           </button>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {visible.map((item, i) => (
-            <motion.div
-              key={item.id}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: Math.min(i, 11) * 0.03, ease: [0.16, 1, 0.3, 1] }}
-            >
+        // No entrance animation: cards used to start at opacity 0, which left
+        // the first painted frame empty below the filters.
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {visible.map((item) => (
+            <li key={item.id}>
               <ResourceCard item={item} />
-            </motion.div>
+            </li>
           ))}
+        </ul>
+      )}
+
+      {shownTo < filtered.length && (
+        <div className="mt-10 flex justify-center">
+          {/*
+            A real link to the next page, so crawlers can reach every entry;
+            with JavaScript it expands in place instead of navigating.
+          */}
+          <Link
+            href={browsing ? pagePath(scopePath, nextPage) : "#"}
+            onClick={(e) => {
+              e.preventDefault();
+              setLimit((l) => l + PAGE);
+            }}
+            className="ring-focus rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-brand/50"
+          >
+            Load {Math.min(PAGE, filtered.length - shownTo)} more
+          </Link>
         </div>
       )}
 
-      {limit < filtered.length && (
-        <div className="mt-10 flex justify-center">
-          <button
-            onClick={() => setLimit((l) => l + PAGE)}
-            className="ring-focus rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-brand/50"
-          >
-            Load {Math.min(PAGE, filtered.length - limit)} more
-          </button>
-        </div>
+      {browsing && pageCount > 1 && (
+        <nav aria-label="Pagination" className="mt-8 flex flex-wrap items-center justify-center gap-1.5 text-sm">
+          {currentPage > 1 && (
+            <Link
+              href={pagePath(scopePath, currentPage - 1)}
+              className="ring-focus inline-flex min-h-10 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
+            >
+              <ChevronLeft className="h-4 w-4" /> Previous
+            </Link>
+          )}
+          {Array.from({ length: pageCount }, (_, i) => i + 1).map((n) => (
+            <Link
+              key={n}
+              href={pagePath(scopePath, n)}
+              aria-current={n === currentPage ? "page" : undefined}
+              className={cn(
+                "ring-focus inline-flex min-h-10 min-w-10 items-center justify-center rounded-lg border px-2",
+                n === currentPage
+                  ? "border-brand/50 bg-brand/10 text-foreground"
+                  : "border-border text-muted hover:text-foreground",
+              )}
+            >
+              {n}
+            </Link>
+          ))}
+          {currentPage < pageCount && (
+            <Link
+              href={pagePath(scopePath, currentPage + 1)}
+              className="ring-focus inline-flex min-h-10 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
+            >
+              Next <ChevronRight className="h-4 w-4" />
+            </Link>
+          )}
+        </nav>
       )}
     </div>
   );
@@ -289,7 +354,7 @@ function Chip({
   onClick?: () => void;
 }) {
   const className = cn(
-    "ring-focus shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
+    "ring-focus inline-flex min-h-10 shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3.5 text-xs font-medium transition-all",
     active
       ? "border-transparent brand-gradient text-white shadow-md shadow-brand/25"
       : "border-border bg-surface text-muted hover:text-foreground",

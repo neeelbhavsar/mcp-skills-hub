@@ -16,7 +16,29 @@ export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://mcp-skills-hub.vercel.app"
 ).replace(/\/+$/, "");
 
-export const SITE_NAME = "AI Library";
+/**
+ * One name everywhere. The site was "AI Library" in every title while its
+ * domain, repo and package were mcp-skills-hub, so neither search engines nor
+ * people searching the URL could tie the two together. "AI Library" is kept
+ * as an alternateName in the Organization schema for continuity.
+ */
+export const SITE_NAME = "MCP Skills Hub";
+export const SITE_FORMER_NAME = "AI Library";
+export const REPO_URL = "https://github.com/neeelbhavsar/mcp-skills-hub";
+
+/** Suffix for og:title, kept identical to the <title> template's separator. */
+export function ogTitle(title: string) {
+  return `${title} · ${SITE_NAME}`;
+}
+
+/**
+ * JSON-LD for a <script> tag. Descriptions come from third-party registries,
+ * so `<` is escaped: a description containing "</script>" would otherwise
+ * close the tag and inject markup.
+ */
+export function jsonLdScript(data: unknown) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
 
 /** Build an absolute URL from a site-relative path. */
 export function absoluteUrl(path = "/") {
@@ -32,7 +54,7 @@ export const OG_IMAGE = {
   url: "/opengraph-image",
   width: 1200,
   height: 630,
-  alt: "AI Library — Skills, MCP servers & GitHub repos for every AI assistant",
+  alt: "MCP Skills Hub — MCP servers, Agent Skills & GitHub repos for every AI assistant",
 };
 
 /** Catalog metadata keyed by resource kind — labels, paths, breadcrumbs. */
@@ -60,6 +82,18 @@ export function categoryPath(kind: ResourceKind, name: string) {
   return `${KIND_META[kind].path}/category/${categorySlug(name)}`;
 }
 
+/** Cards per catalog page — shared by the grid and the /page/[n] routes. */
+export const CATALOG_PAGE_SIZE = 24;
+
+/**
+ * Path for page `n` of a listing. Page 1 is the listing itself, so there is
+ * never a /page/1 duplicate of it. Pages are path segments rather than
+ * `?page=` so every one stays statically rendered with its own canonical.
+ */
+export function pagePath(base: string, n: number) {
+  return n <= 1 ? base : `${base}/page/${n}`;
+}
+
 /** Detail-route path for a resource, e.g. /skills/pdf-processing */
 export function resourcePath(kind: ResourceKind, slug: string) {
   return `${KIND_META[kind].path}/${slug}`;
@@ -82,16 +116,62 @@ export function breadcrumbJsonLd(trail: Crumb[]) {
   };
 }
 
-/** Build a schema.org CollectionPage for a catalog listing. */
-export function collectionJsonLd(kind: ResourceKind, description: string) {
-  const { label, path } = KIND_META[kind];
+/**
+ * Build a schema.org CollectionPage for a catalog listing.
+ *
+ * `path` is the listing's own URL: every category page previously declared
+ * the parent catalog's `@id` and `url`, so all of them claimed to be /mcps.
+ * `items` become an ItemList of what the page actually shows.
+ */
+export function collectionJsonLd(
+  kind: ResourceKind,
+  description: string,
+  {
+    path = KIND_META[kind].path,
+    name = KIND_META[kind].label,
+    items = [],
+    dateModified,
+  }: { path?: string; name?: string; items?: { slug: string; title: string }[]; dateModified?: string } = {},
+) {
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": `${SITE_URL}${path}#collection`,
-    name: `${label} — ${SITE_NAME}`,
+    name: `${name} — ${SITE_NAME}`,
     description,
     url: absoluteUrl(path),
     isPartOf: { "@id": `${SITE_URL}/#website` },
+    ...(dateModified ? { dateModified } : {}),
+    ...(items.length
+      ? {
+          mainEntity: {
+            "@type": "ItemList",
+            numberOfItems: items.length,
+            itemListElement: items.map((it, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              url: absoluteUrl(resourcePath(kind, it.slug)),
+              name: it.title,
+            })),
+          },
+        }
+      : {}),
   };
+}
+
+const TITLE_BUDGET = 65;
+
+/**
+ * A descriptive <title> that fits. Detail pages used to be titled with the
+ * bare name ("box · AI Library"), which says nothing about what the page is.
+ * Prefers `{name} {what}` with the site suffix; drops the suffix, then the
+ * qualifier, as the name gets longer, so nothing is truncated mid-phrase.
+ */
+export function detailTitle(name: string, kindPhrase: string, qualifier: string): { absolute: string } {
+  const suffix = ` · ${SITE_NAME}`;
+  const short = kindPhrase ? `${name} ${kindPhrase}` : name;
+  const full = `${short} — ${qualifier}`;
+  if (full.length + suffix.length <= TITLE_BUDGET) return { absolute: full + suffix };
+  if (full.length <= TITLE_BUDGET) return { absolute: full };
+  return { absolute: short.length + suffix.length <= TITLE_BUDGET ? short + suffix : short };
 }

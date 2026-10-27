@@ -6,6 +6,7 @@
 // git would bloat the repo for little benefit.
 
 import { log, sleep } from "./util.mjs";
+import { extractTools } from "./readme-tools.mjs";
 
 const CONCURRENCY = 8;
 // Every page module imports the whole catalog, so README bytes are multiplied
@@ -16,21 +17,36 @@ const MAX_CHARS = 6_000;
 const BRANCHES = ["main", "master"];
 const NAMES = ["README.md", "readme.md", "Readme.md", "SKILL.md"];
 
-async function tryFetch(url) {
+/** @returns {Promise<string | null | undefined>} text; null on an HTTP error; undefined when unreachable */
+async function tryFetch(url, headers = {}) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 8000);
   try {
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: { "User-Agent": "ai-library-bot/1.0" },
+      headers: { "User-Agent": "mcp-skills-hub-bot/1.0", ...headers },
     });
     if (!res.ok) return null;
     return await res.text();
   } catch {
-    return null;
+    return undefined;
   } finally {
     clearTimeout(timer);
   }
+}
+
+/**
+ * GitHub's "README for a directory" endpoint. Only a fallback for when
+ * raw.githubusercontent.com is unreachable (it resets connections under load):
+ * the API's unauthenticated rate limit is far lower.
+ */
+function readmeViaApi(slug, subdir) {
+  const token = process.env.GITHUB_TOKEN;
+  const path = subdir ? `/${subdir.replace(/^\/+|\/+$/g, "")}` : "";
+  return tryFetch(`https://api.github.com/repos/${slug}/readme${path}`, {
+    Accept: "application/vnd.github.raw",
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+  });
 }
 
 /**
@@ -48,6 +64,21 @@ function tidy(md) {
     .trim();
 }
 
+function toResult(md, slug, subdir, branch = "HEAD") {
+  const tidied = tidy(md);
+  const dir = subdir ? subdir.replace(/^\/+|\/+$/g, "") : "";
+  return {
+    readme: {
+      markdown: tidied.length > MAX_CHARS ? `${tidied.slice(0, MAX_CHARS)}\n\n…` : tidied,
+      truncated: tidied.length > MAX_CHARS,
+      url: dir ? `https://github.com/${slug}/tree/${branch}/${dir}#readme` : `https://github.com/${slug}#readme`,
+    },
+    // Parsed from the full document, before truncation: tool tables are often
+    // further down than the excerpt reaches.
+    tools: extractTools(tidied),
+  };
+}
+
 /**
  * @param {string} slug   owner/name
  * @param {string|null} subdir  folder within the repo, when the resource is one
@@ -57,18 +88,17 @@ function tidy(md) {
  */
 async function readmeFor(slug, subdir) {
   const prefix = subdir ? `${subdir.replace(/^\/+|\/+$/g, "")}/` : "";
+  let unreachable = false;
   for (const branch of BRANCHES) {
     for (const name of NAMES) {
       const md = await tryFetch(`https://raw.githubusercontent.com/${slug}/${branch}/${prefix}${name}`);
-      if (md && md.trim()) {
-        const tidied = tidy(md);
-        return {
-          markdown: tidied.length > MAX_CHARS ? `${tidied.slice(0, MAX_CHARS)}\n\n…` : tidied,
-          truncated: tidied.length > MAX_CHARS,
-          url: `https://github.com/${slug}#readme`,
-        };
-      }
+      if (md === undefined) unreachable = true;
+      if (md && md.trim()) return toResult(md, slug, subdir, branch);
     }
+  }
+  if (unreachable) {
+    const md = await readmeViaApi(slug, subdir);
+    if (md && md.trim()) return toResult(md, slug, subdir);
   }
   return null;
 }
@@ -76,8 +106,13 @@ async function readmeFor(slug, subdir) {
 /**
  * Attach a `readme` block to items that resolve to a GitHub repo.
  * `subdirOf` is optional and scopes the lookup to one folder.
+ *
+ * With `extractTools`, items that have no live-probed tool list get one parsed
+ * from the README, marked `toolsSource: "readme"` so the UI can say so. Live
+ * probing only reaches remote servers that need no credentials, which left
+ * every packaged server showing no tools at all.
  */
-export async function attachReadmes(items, slugOf, subdirOf = () => null) {
+export async function attachReadmes(items, slugOf, subdirOf = () => null, { extractTools: parseTools = false } = {}) {
   if (process.env.SKIP_READMES === "1") {
     log("readmes: skipped (SKIP_READMES=1)");
     return items;
@@ -85,21 +120,26 @@ export async function attachReadmes(items, slugOf, subdirOf = () => null) {
 
   const targets = items.filter((it) => slugOf(it));
   let found = 0;
+  let parsed = 0;
 
   for (let i = 0; i < targets.length; i += CONCURRENCY) {
     const batch = targets.slice(i, i + CONCURRENCY);
     await Promise.all(
       batch.map(async (it) => {
-        const readme = await readmeFor(slugOf(it), subdirOf(it));
-        if (readme) {
-          it.readme = readme;
-          found++;
+        const result = await readmeFor(slugOf(it), subdirOf(it));
+        if (!result) return;
+        it.readme = result.readme;
+        found++;
+        if (parseTools && !it.tools?.length && result.tools.length) {
+          it.tools = result.tools;
+          it.toolsSource = "readme";
+          parsed++;
         }
       }),
     );
     if (i + CONCURRENCY < targets.length) await sleep(80);
   }
 
-  log(`readmes: ${found}/${targets.length} fetched`);
+  log(`readmes: ${found}/${targets.length} fetched${parseTools ? `, tools parsed for ${parsed}` : ""}`);
   return items;
 }

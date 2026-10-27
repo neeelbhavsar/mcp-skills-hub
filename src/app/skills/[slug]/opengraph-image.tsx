@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { getSkill } from "@/lib/data";
 import { renderResourceOg, OG_SIZE, OG_CONTENT_TYPE } from "@/components/og/resource-og";
+import { formatStars } from "@/lib/utils";
+import { SITE_NAME } from "@/lib/seo";
 
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
@@ -11,7 +13,8 @@ export const contentType = OG_CONTENT_TYPE;
 // renders a month.
 export const dynamicParams = true;
 
-export const alt = "Agent skill on AI Library";
+export const alt = `Agent skill on ${SITE_NAME}`;
+import { skillTitle } from "@/lib/view";
 
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -19,8 +22,9 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   if (!item) notFound();
   return renderResourceOg({
     kind: "skills",
-    title: item.name.replace(/-/g, " "),
+    title: skillTitle(item.name),
     description: item.description,
     meta: `by ${item.author}`,
+    badges: item.stars != null ? [`${formatStars(item.stars)} stars`] : [],
   });
 }

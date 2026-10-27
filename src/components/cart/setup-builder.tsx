@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Blocks, Check, Link2, Scale, Trash2, X } from "lucide-react";
 import { AI_TARGETS, mergedConfig } from "@/lib/ai-targets";
 import { CodeBlock } from "@/components/fx/code-block";
@@ -10,9 +10,21 @@ import { cn } from "@/lib/utils";
 
 /** The /setup page body: pick a client, get one config for every server. */
 export function SetupBuilder({ packs }: { packs: { slug: string; name: string; tagline: string; servers: string[] }[] }) {
-  const { entries, remove, clear, replace, shareUrl, ready } = useCart();
+  const { slugs, entries, entriesReady, loadEntries, remove, clear, replace, shareUrl, ready } = useCart();
   const [client, setClient] = useState(AI_TARGETS[0].id);
   const [copiedLink, setCopiedLink] = useState(false);
+
+  // The launch index is only fetched here, not on every page.
+  useEffect(() => loadEntries(), [loadEntries]);
+
+  // /clients/<client> guides link here with ?client= so the builder opens on
+  // the reader's client. Read after mount to keep the page statically rendered.
+  /* eslint-disable react-hooks/set-state-in-effect */
+  useEffect(() => {
+    const c = new URLSearchParams(window.location.search).get("client");
+    if (c && AI_TARGETS.some((t) => t.id === c)) setClient(c);
+  }, []);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   async function copyLink() {
     try {
@@ -24,7 +36,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
     }
   }
 
-  if (!ready) {
+  if (!ready || (slugs.length > 0 && !entriesReady)) {
     return <div className="h-64 animate-pulse rounded-2xl border border-border bg-surface/60" aria-hidden />;
   }
 
@@ -106,7 +118,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
             <Link href={`/mcps/${e.slug}`} className="text-foreground hover:text-brand">
               {e.name}
             </Link>
-            <span className="font-mono text-[10px] text-muted-2">{e.key}</span>
+            <span className="font-mono text-xs text-muted-2">{e.key}</span>
             <button
               onClick={() => remove(e.slug)}
               aria-label={`Remove ${e.name}`}

@@ -33,6 +33,29 @@ const MCP_CATEGORIES = [
 
 const catOf = (text) => categorize(text, MCP_CATEGORIES);
 
+/**
+ * Required launch arguments from the registry's `packageArguments`, with a
+ * placeholder wherever the publisher gives only a hint. Optional arguments are
+ * left out: the snippet should be the smallest config that starts. Without
+ * these, servers that need e.g. a directory argument exit on first launch.
+ */
+function normalizeArgs(list) {
+  if (!Array.isArray(list)) return [];
+  const out = [];
+  for (const a of list.slice(0, 12)) {
+    if (!a || !(a.isRequired === true || a.is_required === true)) continue;
+    const hint = a.valueHint || a.value_hint || a.name;
+    const value = a.value ?? a.default ?? (hint ? `<${hint}>` : null);
+    if (a.type === "named" && a.name) {
+      out.push(String(a.name));
+      if (a.value ?? a.default ?? a.valueHint ?? a.value_hint) out.push(String(value));
+    } else if (value) {
+      out.push(String(value));
+    }
+  }
+  return out;
+}
+
 /** Normalize the registry's env-var / header descriptors. */
 function normalizeInputs(list) {
   if (!Array.isArray(list)) return [];
@@ -73,12 +96,58 @@ function displayName(title, qualifiedName) {
   return `${token.charAt(0).toUpperCase()}${token.slice(1)} MCP`;
 }
 
+/**
+ * How many registry entries the catalog keeps. Every page module imports the
+ * catalog, so this is a build-size budget (~5 KB per server), not a fetch
+ * limit: the whole registry is always read, then ranked and trimmed.
+ */
+const REGISTRY_KEEP = Number(process.env.REGISTRY_KEEP) || 500;
+/** Safety stop for the pager — the registry is ~20k versions today. */
+const REGISTRY_MAX_PAGES = 600;
+
+/**
+ * Servers people actually search for by name. Matching one is a strong signal
+ * the entry belongs in the catalog even if it is thin on metadata.
+ */
+const PRIORITY_NAMES = [
+  "github", "gitlab", "postgres", "mysql", "sqlite", "mongodb", "redis", "supabase", "neon", "playwright",
+  "puppeteer", "browser", "context7", "notion", "slack", "linear", "jira", "atlassian", "sentry", "stripe",
+  "figma", "docker", "kubernetes", "aws", "azure", "gcp", "cloudflare", "vercel", "firecrawl", "brave",
+  "tavily", "exa", "perplexity", "memory", "filesystem", "obsidian", "google-drive", "gmail", "calendar",
+];
+
+/**
+ * Rank registry entries before any per-item enrichment, using only what the
+ * registry itself says. The previous `max = 220` stopped after the first
+ * ~3 pages of an *alphabetical* feed, so every registry server in the catalog
+ * started with "a" and GitHub, Postgres and Playwright never appeared.
+ */
+function registryScore(item) {
+  // The server's own name — never the namespace. Matching the whole
+  // qualifiedName let "github" hit every `io.github.<owner>/…` entry, which
+  // filled the catalog with hundreds of unrelated GitHub-published servers.
+  const own = `${item.qualifiedName.split("/").slice(1).join("/")} ${item.name}`.toLowerCase();
+  let score = 0;
+  if (PRIORITY_NAMES.some((p) => own.includes(p))) score += 6;
+  if (/github\.com\//i.test(item.repository || "")) score += 3; // reviewable source
+  else if (item.repository) score += 1;
+  // Either way of running it is fine; having neither is not.
+  if (item.packages.length || item.remotes.length) score += 2;
+  if ((item.description || "").length >= 40) score += 1;
+  if (/\b(test|testing|demo|example|hello[- ]?world|sample|template)\b/.test(own)) score -= 4;
+  return score;
+}
+
+/** At most this many entries per registry namespace, so one publisher can't flood the catalog. */
+const PER_NAMESPACE = 3;
+
 /** Official MCP Registry — clean JSON, install/package metadata. */
-async function fromOfficialRegistry(max = 220) {
+async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
   const out = [];
   let cursor = "";
+  let pages = 0;
   try {
-    while (out.length < max) {
+    while (pages++ < REGISTRY_MAX_PAGES) {
       const url = `https://registry.modelcontextprotocol.io/v0/servers?limit=100${cursor ? `&cursor=${cursor}` : ""}`;
       const data = await getJSON(url, { label: "mcp-registry" });
       const servers = data.servers || [];
@@ -108,6 +177,7 @@ async function fromOfficialRegistry(max = 220) {
             // The registry documents required credentials; we were dropping
             // them, which is exactly what a developer needs before installing.
             env: normalizeInputs(p.environmentVariables),
+            args: normalizeArgs(p.packageArguments),
           })),
           remotes: (s.remotes || []).map((r) => ({
             type: r.type,
@@ -123,11 +193,29 @@ async function fromOfficialRegistry(max = 220) {
       if (!cursor || servers.length === 0) break;
       await sleep(250);
     }
-    log(`official registry: ${out.length} servers`);
   } catch (err) {
-    log(`official registry failed: ${err.message}`);
+    // A partial read is still better ranked than a truncated alphabetical one.
+    log(`official registry failed after ${out.length} servers: ${err.message}`);
   }
-  return out;
+
+  // One entry per slug (the feed can repeat a name across versions), then the
+  // best-ranked `keep`, newest first within a score.
+  const unique = [...new Map(out.map((s) => [s.slug, s])).values()];
+  const perNamespace = new Map();
+  const kept = unique
+    .map((s) => ({ s, score: registryScore(s), t: s.updatedAt ? Date.parse(s.updatedAt) : 0 }))
+    .sort((a, b) => b.score - a.score || b.t - a.t)
+    .filter(({ s }) => {
+      const ns = s.qualifiedName.split("/")[0];
+      const n = perNamespace.get(ns) ?? 0;
+      if (n >= PER_NAMESPACE) return false;
+      perNamespace.set(ns, n + 1);
+      return true;
+    })
+    .slice(0, keep)
+    .map((x) => x.s);
+  log(`official registry: ${unique.length} live servers read, ${kept.length} kept`);
+  return kept;
 }
 
 /** Glama registry — adds tools/attributes/license enrichment. */
@@ -162,7 +250,13 @@ async function fromGlama(max = 180) {
           homepage: s.url || s.repository?.url || null,
           packages: [],
           remotes: [],
-          tools: (s.tools || []).slice(0, 12).map((t) => t.name).filter(Boolean),
+          // Objects, not bare names: the UI and alternativesTo read `.name`, so a
+          // string array rendered every Glama tool as undefined.
+          tools: (s.tools || [])
+            .slice(0, 40)
+            .filter((t) => t?.name)
+            .map((t) => ({ name: t.name, description: t.description ? clean(t.description, 240) : null, inputs: null })),
+          toolsSource: "glama",
           license: s.spdxLicense?.name || null,
           stars: null,
           source: "Glama",
@@ -199,7 +293,8 @@ export async function fetchMCPs() {
       // Merge: keep official install data, borrow glama tools/license.
       bySlug.set(key, {
         ...existing,
-        tools: existing.tools || item.tools,
+        // `existing.tools || item.tools` never borrowed anything: `[]` is truthy.
+        ...(existing.tools?.length ? {} : { tools: item.tools, toolsSource: item.toolsSource }),
         license: existing.license || item.license,
         description: existing.description || item.description,
       });
@@ -249,7 +344,9 @@ export async function fetchMCPs() {
   await attachTools(all);
 
   // Real documentation beats a one-line registry blurb.
-  await attachReadmes(all, (m) => repoSlugFromUrl(m.repository));
+  // `subdir` scopes monorepo servers to their own folder: the seven reference
+  // servers otherwise all rendered the same root README, with no tool list.
+  await attachReadmes(all, (m) => repoSlugFromUrl(m.repository), (m) => m.subdir ?? null, { extractTools: true });
 
   log(`MCPs total after dedupe: ${all.length}`);
   return all;

@@ -28,6 +28,14 @@ export function getSkill(slug: string) {
 export function getMcp(slug: string) {
   return mcps.find((m) => m.slug === slug);
 }
+/** Other repos in the same category, most-starred first — repo pages had no related links. */
+export function relatedRepos(target: Repo, limit = 6): Repo[] {
+  return repos
+    .filter((r) => r.slug !== target.slug && r.category === target.category)
+    .sort((a, b) => b.stars - a.stars)
+    .slice(0, limit);
+}
+
 export function getRepo(slug: string) {
   return repos.find((r) => r.slug === slug);
 }

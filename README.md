@@ -1,6 +1,6 @@
 <div align="center">
 
-# AI Library
+# MCP Skills Hub
 
 **Find the right MCP server or Agent Skill — and get setup that actually works
 in your client.**
@@ -83,7 +83,7 @@ install it"* and your assistant searches the catalog, then hands back the config
 
 ```bash
 # not on npm yet — run it from a clone
-claude mcp add ai-library -- node /absolute/path/to/mcp-skills-hub/mcp-server/index.mjs
+claude mcp add mcp-skills-hub -- node /absolute/path/to/mcp-skills-hub/mcp-server/index.mjs
 ```
 
 Prefer to query it yourself? Everything is available as static JSON:

@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { getMcp } from "@/lib/data";
 import { renderResourceOg, OG_SIZE, OG_CONTENT_TYPE } from "@/components/og/resource-og";
+import { formatStars } from "@/lib/utils";
+import { SITE_NAME } from "@/lib/seo";
 
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
@@ -11,16 +13,24 @@ export const contentType = OG_CONTENT_TYPE;
 // renders a month.
 export const dynamicParams = true;
 
-export const alt = "MCP server on AI Library";
+export const alt = `MCP server on ${SITE_NAME}`;
+import { healthOf } from "@/lib/health";
 
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const item = getMcp(slug);
   if (!item) notFound();
+  const health = healthOf(item);
   return renderResourceOg({
     kind: "mcps",
     title: item.name,
     description: item.description,
     meta: item.qualifiedName,
+    // The numbers that make a shared link worth clicking.
+    badges: [
+      ...(item.stars != null ? [`${formatStars(item.stars)} stars`] : []),
+      ...(health.grade ? [`Health ${health.grade} ${health.score}`] : []),
+      ...(item.tools?.length ? [`${item.tools.length} tools`] : []),
+    ],
   });
 }

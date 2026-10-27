@@ -2,7 +2,7 @@ import type { Mcp, McpPackage } from "./types";
 
 /**
  * Client compatibility, derived entirely from data the registry already gives
- * us. 205 of 259 servers are remote-only and 52 are packaged, which decides
+ * us. Whether a server is remote-only or packaged decides
  * whether a given client can run them directly, needs an mcp-remote bridge, or
  * cannot run them at all.
  */
@@ -24,11 +24,14 @@ export type Launch =
 
 export function commandFor(pkg: McpPackage): { command: string; args: string[] } {
   const reg = (pkg.registryType || "").toLowerCase();
-  if (reg.includes("pypi") || reg.includes("python")) return { command: "uvx", args: [pkg.identifier] };
+  // Required launch arguments (e.g. the filesystem server's allowed
+  // directory). Without them the generated config exits on first launch.
+  const extra = pkg.args ?? [];
+  if (reg.includes("pypi") || reg.includes("python")) return { command: "uvx", args: [pkg.identifier, ...extra] };
   if (reg.includes("oci") || reg.includes("docker"))
-    return { command: "docker", args: ["run", "-i", "--rm", pkg.identifier] };
-  if (reg.includes("nuget")) return { command: "dnx", args: [pkg.identifier] };
-  return { command: "npx", args: ["-y", pkg.identifier] };
+    return { command: "docker", args: ["run", "-i", "--rm", pkg.identifier, ...extra] };
+  if (reg.includes("nuget")) return { command: "dnx", args: [pkg.identifier, ...extra] };
+  return { command: "npx", args: ["-y", pkg.identifier, ...extra] };
 }
 
 export function launchFor(mcp: Mcp): Launch {

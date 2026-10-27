@@ -1,17 +1,18 @@
 #!/usr/bin/env node
-// AI Library MCP server — search the directory from inside your assistant.
+// MCP Skills Hub MCP server — search the directory from inside your assistant.
 //
 // An MCP server that finds MCP servers. It reads the site's own JSON API, so
 // it needs no local data and stays current with the daily refresh.
 //
-//   claude mcp add ai-library -- node /path/to/mcp-server/index.mjs
+//   claude mcp add mcp-skills-hub -- npx -y mcp-skills-hub
 //
 // Implements the stdio transport directly over JSON-RPC 2.0 so the package has
 // zero dependencies — an install-time supply chain of one.
 
 import { createInterface } from "node:readline";
 
-const BASE = process.env.AI_LIBRARY_URL || "https://mcp-skills-hub.vercel.app";
+// AI_LIBRARY_URL is the pre-rename variable, still honoured for existing setups.
+const BASE = process.env.MCP_SKILLS_HUB_URL || process.env.AI_LIBRARY_URL || "https://mcp-skills-hub.vercel.app";
 const PROTOCOL_VERSION = "2025-06-18";
 
 const cache = new Map();
@@ -19,7 +20,7 @@ const cache = new Map();
 async function load(kind) {
   if (cache.has(kind)) return cache.get(kind);
   const res = await fetch(`${BASE}/api/${kind}`, {
-    headers: { Accept: "application/json", "User-Agent": "ai-library-mcp/1.0" },
+    headers: { Accept: "application/json", "User-Agent": "mcp-skills-hub-mcp/1.1" },
   });
   if (!res.ok) throw new Error(`Failed to load ${kind}: HTTP ${res.status}`);
   const data = await res.json();
@@ -54,7 +55,7 @@ const TOOLS = [
   {
     name: "search_mcp_servers",
     description:
-      "Search the AI Library directory for Model Context Protocol servers by keyword or use case. Returns each server's install configuration and trust signals.",
+      "Search the MCP Skills Hub directory for Model Context Protocol servers by keyword or use case. Returns each server's install configuration and trust signals.",
     inputSchema: {
       type: "object",
       properties: {
@@ -66,7 +67,7 @@ const TOOLS = [
   },
   {
     name: "search_skills",
-    description: "Search the AI Library directory for Agent Skills by keyword or use case.",
+    description: "Search the MCP Skills Hub directory for Agent Skills by keyword or use case.",
     inputSchema: {
       type: "object",
       properties: {
@@ -92,7 +93,7 @@ const TOOLS = [
   {
     name: "get_install_config",
     description:
-      "Get the ready-to-paste install configuration for one MCP server, by its AI Library slug.",
+      "Get the ready-to-paste install configuration for one MCP server, by its MCP Skills Hub slug.",
     inputSchema: {
       type: "object",
       properties: {
@@ -173,7 +174,7 @@ async function handle(msg) {
         result: {
           protocolVersion: PROTOCOL_VERSION,
           capabilities: { tools: {} },
-          serverInfo: { name: "ai-library", version: "1.0.0" },
+          serverInfo: { name: "mcp-skills-hub", version: "1.1.0" },
         },
       });
     }
