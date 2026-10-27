@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T12:34:00.792Z",
+  "generatedAt": "2026-10-27T11:51:25.127Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,7 +7,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "expo",
+          "name": "expo",
+          "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev…",
+          "category": "Automation & Workflow",
+          "delta": 234,
+          "stars": 3258
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -22,27 +31,51 @@
       "added": [],
       "removed": [
         {
-          "slug": "ai-bittlebits-bittlebits",
-          "name": "BittleBits GEO Assistant",
-          "description": "GEO scores and content-rewrite suggestions for any web page, as MCP tools.",
+          "slug": "ai-agentlookups-greenlight",
+          "name": "GreenLight - Plug-in Solar Law Registry",
+          "description": "US plug-in solar (balcony solar) law registry with a daily UL 3700 certification watch.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-bidclub-bidclub",
+          "name": "bidclub",
+          "description": "Search 45+ investor podcasts and read transcripts, TL;DRs, digests — bilingual EN/中文, keyless.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-biddeed-biddeed-mcp",
+          "name": "BidDeed MCP",
+          "description": "AI-powered foreclosure auction intelligence for Florida counties via MCP tools.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-biel-biel-ai",
+          "name": "Biel.ai",
+          "description": "Query your product docs from AI tools. Source-cited answers from your indexed documentation.",
           "category": "Docs & Knowledge"
         },
         {
-          "slug": "ai-bizmoon-regulatory",
-          "name": "regulatory",
-          "description": "Live US federal and state regulatory changes and grant programs, every result cited.",
-          "category": "Legal & Government"
+          "slug": "ai-bindry-bindry",
+          "name": "Bindry",
+          "description": "Reuse your team's AI instructions (Bindings and Stacks) from Bindry in any MCP client.",
+          "category": "Other"
         },
         {
-          "slug": "ai-bizmuse-bizmuse",
-          "name": "BizMuse AI Music Video",
-          "description": "Official BizMuse MCP for complete AI music videos from audio and 1-7 reference images.",
-          "category": "Design & Media"
+          "slug": "ai-bithuman-characters",
+          "name": "bitHuman",
+          "description": "Animated AI characters in your chat: short clips of a character saying your words, or a live talk.",
+          "category": "Other"
         },
         {
-          "slug": "ai-blast-radius-blast-radius",
-          "name": "blast-radius",
-          "description": "Blast Radius tools for AI strategy, diligence, and market updates.",
+          "slug": "ai-bithuman-docs",
+          "name": "bitHuman docs",
+          "description": "The bitHuman docs over MCP: two read-only tools, search and fetch; it needs no account and no key.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-bitroad-bitroad",
+          "name": "bitroad",
+          "description": "Marketplace for AI agents: buy goods and services under spending caps, with returns and disputes.",
           "category": "Finance & Data"
         }
       ],
@@ -51,41 +84,47 @@
       "movers": [],
       "counts": {
         "added": 0,
-        "removed": 4,
+        "removed": 8,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 285,
-        "currentTotal": 281
+        "previousTotal": 281,
+        "currentTotal": 273
       }
     },
     "repos": {
       "baseline": true,
       "added": [
         {
-          "slug": "1panel-dev-maxkb",
-          "name": "MaxKB",
-          "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. 强大易用的开源企业级智能体平台。",
+          "slug": "ruvnet-ruflo",
+          "name": "ruflo",
+          "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
           "category": "AI Agents"
+        },
+        {
+          "slug": "hkuds-deeptutor",
+          "name": "DeepTutor",
+          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+          "category": "RAG & Retrieval"
         }
       ],
       "removed": [
         {
-          "slug": "agentscope-ai-qwenpaw",
-          "name": "QwenPaw",
-          "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-          "category": "AI Agents"
+          "slug": "langchain-ai-langgraph",
+          "name": "langgraph",
+          "description": "Build resilient agents.",
+          "category": "RAG & Retrieval"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 2,
         "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 119,
-        "currentTotal": 119
+        "currentTotal": 120
       }
     }
   }
