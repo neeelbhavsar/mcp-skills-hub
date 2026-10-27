@@ -56,7 +56,7 @@ export default function HealthScorePage() {
         }}
       />
       <PageHeader
-        eyebrow="Methodology"
+        eyebrow="Methodology · maintained by Neel Bhavsar"
         title="How the health score"
         highlight="works"
         subtitle="Published in full, because a number you cannot audit is worse than no number at all."

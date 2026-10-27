@@ -131,7 +131,7 @@ export default function BestMcpServersPage() {
               <p className="mt-2 text-xs text-muted">{why(m)}</p>
               <Link
                 href={`${resourcePath("mcps", m.slug)}#install`}
-                className="ring-focus mt-2 inline-flex min-h-10 items-center gap-1 text-xs text-brand hover:underline"
+                className="ring-focus mt-2 inline-flex min-h-11 items-center gap-1 text-xs text-brand hover:underline"
               >
                 <Wrench className="h-3.5 w-3.5" aria-hidden /> Install {m.name}
               </Link>

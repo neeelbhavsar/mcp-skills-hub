@@ -13,6 +13,8 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
   const { slugs, entries, entriesReady, loadEntries, remove, clear, replace, shareUrl, ready } = useCart();
   const [client, setClient] = useState(AI_TARGETS[0].id);
   const [copiedLink, setCopiedLink] = useState(false);
+  const [claudeProject, setClaudeProject] = useState(false);
+  const [pin, setPin] = useState(false);
 
   // The launch index is only fetched here, not on every page.
   useEffect(() => loadEntries(), [loadEntries]);
@@ -71,8 +73,10 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
     );
   }
 
-  const config = mergedConfig(entries, client);
+  const format = client === "claude-code" && claudeProject ? "claude-code-project" : client;
+  const config = mergedConfig(entries, format, { pin });
   const unusable = entries.filter((e) => e.launch.mode === "unknown");
+  const pinnable = entries.some((e) => e.version && e.launch.mode === "stdio");
 
   return (
     <div>
@@ -86,7 +90,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
           <button
             onClick={copyLink}
             disabled={!shareUrl}
-            className="ring-focus inline-flex items-center gap-1.5 rounded-lg border border-border px-2.5 py-1.5 text-xs text-muted transition-colors hover:text-foreground disabled:opacity-50"
+            className="ring-focus inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border px-3 text-xs text-muted transition-colors hover:text-foreground disabled:opacity-50"
           >
             {copiedLink ? <Check className="h-3.5 w-3.5 text-accent" /> : <Link2 className="h-3.5 w-3.5" />}
             {copiedLink ? "Link copied" : "Share this stack"}
@@ -95,14 +99,14 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
             <Link
               href={`/compare?servers=${entries.slice(0, 4).map((e) => e.slug).join(",")}`}
               rel="nofollow"
-              className="ring-focus inline-flex items-center gap-1.5 rounded-lg border border-border px-2.5 py-1.5 text-xs text-muted transition-colors hover:text-foreground"
+              className="ring-focus inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border px-3 text-xs text-muted transition-colors hover:text-foreground"
             >
               <Scale className="h-3.5 w-3.5" /> Compare
             </Link>
           )}
           <button
             onClick={clear}
-            className="ring-focus inline-flex items-center gap-1.5 rounded-lg border border-border px-2.5 py-1.5 text-xs text-muted transition-colors hover:text-danger"
+            className="ring-focus inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border px-3 text-xs text-muted transition-colors hover:text-danger"
           >
             <Trash2 className="h-3.5 w-3.5" /> Clear
           </button>
@@ -122,7 +126,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
             <button
               onClick={() => remove(e.slug)}
               aria-label={`Remove ${e.name}`}
-              className="ring-focus rounded text-muted-2 hover:text-danger"
+              className="ring-focus -my-2 flex h-8 w-8 items-center justify-center rounded text-muted hover:text-danger"
             >
               <X className="h-3 w-3" />
             </button>
@@ -139,7 +143,7 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
               onClick={() => setClient(t.id)}
               aria-pressed={on}
               className={cn(
-                "ring-focus rounded-full border px-3 py-1.5 text-xs font-medium transition-all",
+                "ring-focus min-h-11 rounded-full border px-3.5 text-xs font-medium transition-all",
                 on ? "border-transparent text-white" : "border-border text-muted hover:text-foreground",
               )}
               style={on ? { background: `linear-gradient(100deg, ${t.color}, ${t.color}cc)` } : undefined}
@@ -150,10 +154,55 @@ export function SetupBuilder({ packs }: { packs: { slug: string; name: string; t
         })}
       </div>
 
-      <p className="mt-4 mb-2 text-xs text-muted-2">
-        Paste into <span className="font-mono text-muted">{config.target}</span>
+      {/* Options teams asked for: a committable project file, and the same
+          code on every machine. */}
+      <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted">
+        {client === "claude-code" && (
+          <label className="inline-flex min-h-11 cursor-pointer items-center gap-2">
+            <input
+              type="checkbox"
+              checked={claudeProject}
+              onChange={(e) => setClaudeProject(e.target.checked)}
+              className="h-4 w-4 accent-[var(--brand)]"
+            />
+            Project <code className="font-mono text-foreground">.mcp.json</code> (commit it for the team)
+          </label>
+        )}
+        {pinnable && (
+          <label className="inline-flex min-h-11 cursor-pointer items-center gap-2">
+            <input
+              type="checkbox"
+              checked={pin}
+              onChange={(e) => setPin(e.target.checked)}
+              className="h-4 w-4 accent-[var(--brand)]"
+            />
+            Pin package versions
+          </label>
+        )}
+      </div>
+
+      <p className="mt-2 mb-2 text-xs text-muted">
+        {format === "claude-code" ? "Run in" : "Save as"} <span className="font-mono text-foreground">{config.target}</span>
       </p>
-      <CodeBlock code={config.code} language={config.language} />
+      <CodeBlock code={config.code} language={config.language} filename={config.filename} />
+
+      {config.placeholders.length > 0 && (
+        <div className="mt-4 rounded-xl border border-warn/40 bg-warn/5 px-4 py-3 text-xs text-muted">
+          <p className="font-medium text-foreground">Fill in before you save</p>
+          <p className="mt-1.5">
+            Replace{" "}
+            {config.placeholders.map((p, i) => (
+              <span key={p}>
+                {i > 0 && ", "}
+                <code className="font-mono text-foreground">{p}</code>
+              </span>
+            ))}{" "}
+            with your own values. For a committed file, leave secrets out of git: most clients expand
+            environment variables such as <code className="font-mono text-foreground">{"${GITHUB_TOKEN}"}</code>, or
+            use your secret manager.
+          </p>
+        </div>
+      )}
 
       {unusable.length > 0 && (
         <p className="mt-4 rounded-xl border border-warn/40 bg-warn/5 px-4 py-3 text-xs text-muted">

@@ -7,6 +7,7 @@ import { REPO_URL, SITE_FORMER_NAME, SITE_NAME, SITE_URL, absoluteUrl, jsonLdScr
 import { meta } from "@/lib/data";
 import { CartProvider } from "@/components/cart/cart-provider";
 import { themeInitScript } from "@/components/layout/theme-toggle";
+import { WebMcpTools } from "@/components/search/webmcp-tools";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -14,11 +15,14 @@ const inter = Inter({
   display: "swap",
 });
 
-// Code blocks only — never above the fold, so not worth a preload.
+// Code blocks only — never above the fold, so not worth a preload. "optional"
+// rather than "swap": swapping it in late shifted the install section (CLS
+// 0.097 on mobile, attributed to "Web font loaded"). If it isn't ready almost
+// immediately, code simply renders in the fallback monospace for that view.
 const mono = JetBrains_Mono({
   variable: "--font-mono-code",
   subsets: ["latin"],
-  display: "swap",
+  display: "optional",
   preload: false,
 });
 
@@ -134,11 +138,13 @@ export default function RootLayout({
         {/* RFC 9727 API discovery for agents. */}
         <link rel="api-catalog" href="/.well-known/api-catalog" />
         <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} — What's new`} href="/feed.xml" />
+        <link rel="alternate" type="text/plain" title="llms.txt" href="/llms.txt" />
       </head>
       <body className="min-h-full flex flex-col">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(siteJsonLd) }} />
         <CartProvider indexUrl={`/index/setup.json?v=${v}`}>
           <Nav searchIndexUrl={`/index/palette.json?v=${v}`} />
+          <WebMcpTools indexUrl={`/index/palette.json?v=${v}`} />
           <main id="main" className="flex-1">
             {children}
           </main>

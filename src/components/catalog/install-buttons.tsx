@@ -25,7 +25,7 @@ export function InstallButtons({ mcp }: { mcp: Mcp }) {
           <a
             key={l.id}
             href={l.href}
-            className="ring-focus inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 text-sm text-foreground transition-colors hover:border-brand/50"
+            className="ring-focus inline-flex min-h-11 items-center gap-1.5 rounded-lg border border-border bg-surface-2 px-3 text-sm text-foreground transition-colors hover:border-brand/50"
           >
             <Download className="h-4 w-4" />
             {l.label}

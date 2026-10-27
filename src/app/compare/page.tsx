@@ -6,7 +6,7 @@ import { launchFor } from "@/lib/compat";
 import { healthOf, requirementsOf } from "@/lib/health";
 import { HealthPill } from "@/components/catalog/health-badge";
 import { PageHeader } from "@/components/layout/page-header";
-import { resourcePath, OG_IMAGE, ogTitle } from "@/lib/seo";
+import { resourcePath, OG_IMAGE, ogTitle, breadcrumbJsonLd, jsonLdScript } from "@/lib/seo";
 import { timeAgo } from "@/lib/utils";
 
 const DESCRIPTION = "Put MCP servers side by side — transport, tools, credentials, maintenance and health.";
@@ -41,6 +41,10 @@ export default async function ComparePage({
     const suggestions = mcps.filter((m) => m.tools?.length).slice(0, 3);
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbJsonLd([{ name: "Compare", path: "/compare" }])) }}
+        />
         <PageHeader
           eyebrow="Compare"
           title="Put servers"
@@ -67,6 +71,8 @@ export default async function ComparePage({
       </>
     );
   }
+
+  const crumbs = breadcrumbJsonLd([{ name: "Compare", path: "/compare" }]);
 
   const rows: { label: string; render: (m: (typeof picked)[number]) => React.ReactNode }[] = [
     {
@@ -106,6 +112,7 @@ export default async function ComparePage({
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(crumbs) }} />
       <PageHeader
         eyebrow="Compare"
         title="Side by"

@@ -27,7 +27,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: path },
+    alternates: { canonical: path, types: { "text/markdown": `/md/skills/${slug}` } },
     // og:image comes from the sibling opengraph-image.tsx.
     openGraph: { type: "website", url: path, title: ogTitle(`${name} — Agent Skill`), description },
   };

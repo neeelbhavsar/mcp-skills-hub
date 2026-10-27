@@ -75,7 +75,7 @@ export function Nav({ searchIndexUrl }: { searchIndexUrl: string }) {
                 href={l.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "ring-focus relative inline-flex min-h-10 items-center whitespace-nowrap rounded-lg px-2.5 text-sm transition-colors xl:px-3",
+                  "ring-focus relative inline-flex min-h-11 items-center whitespace-nowrap rounded-lg px-2.5 text-sm transition-colors xl:px-3",
                   active ? "text-foreground" : "text-muted hover:text-foreground",
                 )}
               >

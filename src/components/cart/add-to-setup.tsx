@@ -36,7 +36,7 @@ export function AddToSetup({
       }}
       className={cn(
         "ring-focus inline-flex shrink-0 items-center justify-center gap-1.5 rounded-lg border text-xs font-medium transition-colors",
-        variant === "icon" ? "h-7 w-7" : "px-3 py-1.5",
+        variant === "icon" ? "h-11 w-11" : "min-h-11 px-3",
         selected
           ? "border-accent/50 bg-accent/10 text-accent"
           : "border-border bg-surface text-muted hover:text-foreground",

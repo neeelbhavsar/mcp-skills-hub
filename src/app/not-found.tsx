@@ -31,7 +31,7 @@ export default function NotFound() {
           <li key={l.href}>
             <Link
               href={l.href}
-              className="ring-focus inline-flex min-h-10 items-center rounded-lg border border-border bg-surface px-3 text-sm text-foreground hover:border-brand/50"
+              className="ring-focus inline-flex min-h-11 items-center rounded-lg border border-border bg-surface px-3 text-sm text-foreground hover:border-brand/50"
             >
               {l.label}
             </Link>

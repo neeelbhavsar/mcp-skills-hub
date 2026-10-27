@@ -35,6 +35,8 @@ function Section({
   empty: string;
   showDelta?: boolean;
 }) {
+  if (entries.length === 0) return null;
+
   return (
     <section className="mt-8">
       <h2 className="flex items-center gap-2 text-base font-semibold">
@@ -103,6 +105,9 @@ export default function WhatsNewPage() {
   const skillChanges: KindChanges | undefined = changes.kinds.skills;
 
   const noBaseline = !mcpChanges?.baseline;
+  const quiet =
+    [mcpChanges?.added, mcpChanges?.deprecated, mcpChanges?.movers, mcpChanges?.revived, mcpChanges?.removed, skillChanges?.added]
+      .every((b) => !b?.length);
 
   return (
     <>
@@ -143,6 +148,13 @@ export default function WhatsNewPage() {
           </p>
         ) : (
           <>
+            {quiet && (
+              <p className="mt-6 rounded-xl border border-border bg-surface/60 px-4 py-3 text-sm text-muted">
+                A quiet day: no servers or skills were added, archived, removed or moved notably since the previous
+                refresh. The catalog of {meta.counts.mcps.toLocaleString("en-US")} servers and{" "}
+                {meta.counts.skills.toLocaleString("en-US")} skills is current as of the date above.
+              </p>
+            )}
             <Section
               title="New MCP servers"
               icon={<PackagePlus className="h-4 w-4 text-accent" />}

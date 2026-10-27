@@ -12,7 +12,7 @@ export function SetupLink() {
   return (
     <Link
       href="/setup"
-      className="ring-focus relative flex min-h-10 min-w-10 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
+      className="ring-focus relative flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-lg border border-border bg-surface px-2.5 text-xs text-muted transition-colors hover:text-foreground"
       aria-label={count ? `Setup builder, ${count} servers selected` : "Setup builder"}
     >
       <Blocks className="h-3.5 w-3.5" />

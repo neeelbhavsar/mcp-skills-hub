@@ -11,6 +11,7 @@ import { AI_TARGETS } from "@/lib/ai-targets";
 import { searchItems } from "@/lib/search";
 import { ResourceCard } from "./resource-card";
 import { cn } from "@/lib/utils";
+import { useLazyJson } from "@/lib/lazy-json";
 
 const SORTS = [
   { key: "popular", label: "Popular" },
@@ -27,7 +28,9 @@ const PAGE = CATALOG_PAGE_SIZE;
  * the strip bleed to the screen edge so it reads as scrollable.
  */
 const CHIP_ROW =
-  "no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0";
+  "no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 " +
+  // A fade at the cut edge on phones, so the row reads as scrollable.
+  "[mask-image:linear-gradient(to_right,black_85%,transparent)] sm:[mask-image:none]";
 
 function isSort(v: string | null): v is SortKey {
   return !!v && SORTS.some((s) => s.key === v);
@@ -35,15 +38,25 @@ function isSort(v: string | null): v is SortKey {
 
 export function CatalogShell({
   kind,
-  items,
+  pageItems,
+  scopeCount,
+  allUrl,
   categories,
   activeCategory = null,
   totalCount,
   page = 1,
 }: {
   kind: ResourceKind;
-  /** Only the items in scope: the whole catalog, or one category's slice. */
-  items: CatalogCard[];
+  /**
+   * Just this page's cards, server-rendered. The rest of the scope is fetched
+   * from `allUrl` on the first search, filter, sort or "Load more" — shipping
+   * every card inline made the catalog pages ~500 KB of HTML.
+   */
+  pageItems: CatalogCard[];
+  /** How many cards are in scope (the catalog, or one category). */
+  scopeCount: number;
+  /** Static JSON with every card in this catalog. */
+  allUrl: string;
   categories: { name: string; count: number }[];
   /** Set by the /category/[category] routes; null on the bare catalog page. */
   activeCategory?: string | null;
@@ -68,7 +81,13 @@ export function CatalogShell({
   const [sort, setSort] = useState<SortKey>("popular");
   const [client, setClient] = useState<string | null>(null);
   const [limit, setLimit] = useState(PAGE);
+  const [wanted, setWanted] = useState(false);
   const deferredQuery = useDeferredValue(query);
+  const searching = deferredQuery.trim().length > 0;
+  // The default view is the one the /page/[n] routes slice, so a crawler and
+  // a visitor landing on page 3 see the same 24 cards. Any filter starts over.
+  const browsing = !searching && !client && sort === "popular";
+  const { data: all } = useLazyJson<CatalogCard[]>(allUrl, wanted || !browsing || limit > PAGE);
 
   // Genuine external-state sync: the URL is only readable after hydration, and
   // reading it during render would desync from the server-rendered HTML. This
@@ -124,8 +143,12 @@ export function CatalogShell({
     [],
   );
 
+  // Every card in scope, once the full catalog has arrived.
+  const scoped = useMemo(() => (all ? (cat ? all.filter((c) => c.category === cat) : all) : null), [all, cat]);
+
   const filtered = useMemo(() => {
-    let pool = items;
+    // Until the full set arrives, work with this page's cards.
+    let pool = scoped ?? pageItems;
     // "Runs natively in X": stdio servers run anywhere, remote ones need a
     // bridge on the stdio-only clients.
     if (client) {
@@ -139,16 +162,16 @@ export function CatalogShell({
     const ranked = searchItems(pool, deferredQuery);
     if (ranked) return ranked;
     return [...pool].sort(sortable[sort]);
-  }, [items, client, deferredQuery, sort, sortable]);
+  }, [scoped, pageItems, client, deferredQuery, sort, sortable]);
 
-  const searching = deferredQuery.trim().length > 0;
-  // The default view is the one the /page/[n] routes slice, so a crawler and
-  // a visitor landing on page 3 see the same 24 cards. Any filter starts over.
-  const browsing = !searching && !client && sort === "popular";
-  const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE));
+  const loading = !scoped && !browsing;
+  // Before the full set is loaded, the server-rendered page stands in for it:
+  // its cards are already this page's slice, so there is no offset to apply.
+  const total = scoped ? filtered.length : browsing ? scopeCount : filtered.length;
+  const pageCount = Math.max(1, Math.ceil((scoped ? filtered.length : scopeCount) / PAGE));
   const currentPage = browsing ? Math.min(page, pageCount) : 1;
   const start = (currentPage - 1) * PAGE;
-  const visible = filtered.slice(start, start + limit);
+  const visible = scoped ? filtered.slice(start, start + limit) : filtered.slice(0, limit);
   const shownTo = start + visible.length;
   const nextPage = Math.floor(shownTo / PAGE) + 1;
 
@@ -162,13 +185,16 @@ export function CatalogShell({
     <div>
       {/* controls — only sticky on large screens; on phones and tablets the
           stacked filters would cover most of the viewport while scrolling. */}
-      <div className="-mx-4 mb-6 bg-background/70 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:sticky lg:top-16 lg:z-30">
+      {/* Only the search row sticks: with the chip rows the sticky bar was
+          190px, a third of a laptop viewport. */}
+      <div className="-mx-4 bg-background/70 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6 lg:sticky lg:top-16 lg:z-30">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-2" />
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
+              onFocus={() => setWanted(true)}
               placeholder="Search by name, use-case, keyword…"
               aria-label="Search"
               className="ring-focus h-11 w-full rounded-xl border border-border bg-surface pl-10 pr-11 text-base text-foreground sm:text-sm placeholder:text-muted focus:border-brand/50"
@@ -202,7 +228,7 @@ export function CatalogShell({
                   title={searching ? "Sorted by relevance while searching" : undefined}
                   onClick={() => setSort(s.key)}
                   className={cn(
-                    "ring-focus min-h-9 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors disabled:cursor-not-allowed",
+                    "ring-focus min-h-11 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors disabled:cursor-not-allowed",
                     sort === s.key ? "bg-surface-2 text-foreground" : "text-muted hover:text-foreground",
                   )}
                 >
@@ -212,7 +238,9 @@ export function CatalogShell({
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="mb-6">
         {/* client compatibility — MCP-only, since it is derived from transport */}
         {kind === "mcps" && (
           <div className={cn("mt-3 items-center", CHIP_ROW)}>
@@ -252,10 +280,11 @@ export function CatalogShell({
       {/* results — the cards are h3s, so the list needs an h2 above them */}
       <h2 className="sr-only">{cat ? `${cat} ${KIND_META[kind].label.toLowerCase()}` : `All ${KIND_META[kind].label.toLowerCase()}`}</h2>
       <p className="mb-4 text-sm text-muted" aria-live="polite">
-        <span className="font-semibold text-foreground">{filtered.length}</span> result
-        {filtered.length === 1 ? "" : "s"}
+        <span className="font-semibold text-foreground">{total}</span> result
+        {total === 1 ? "" : "s"}
         {cat && <> in <span className="text-brand">{cat}</span></>}
         {searching && <> for “{deferredQuery}”</>}
+        {loading && <span className="text-muted"> · loading the full catalog…</span>}
         {browsing && pageCount > 1 && (
           <span className="text-muted">
             {" "}
@@ -264,10 +293,10 @@ export function CatalogShell({
         )}
       </p>
 
-      {filtered.length === 0 ? (
+      {filtered.length === 0 && !loading ? (
         <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-border py-20 text-center">
           <p className="text-sm text-muted">No matches found.</p>
-          <button onClick={reset} className="mt-3 min-h-10 px-3 text-sm text-brand hover:underline">
+          <button onClick={reset} className="mt-3 min-h-11 px-3 text-sm text-brand hover:underline">
             Clear filters
           </button>
         </div>
@@ -283,7 +312,7 @@ export function CatalogShell({
         </ul>
       )}
 
-      {shownTo < filtered.length && (
+      {shownTo < total && (
         <div className="mt-10 flex justify-center">
           {/*
             A real link to the next page, so crawlers can reach every entry;
@@ -293,11 +322,12 @@ export function CatalogShell({
             href={browsing ? pagePath(scopePath, nextPage) : "#"}
             onClick={(e) => {
               e.preventDefault();
+              setWanted(true);
               setLimit((l) => l + PAGE);
             }}
             className="ring-focus rounded-xl border border-border bg-surface px-6 py-3 text-sm font-medium text-foreground transition-colors hover:border-brand/50"
           >
-            Load {Math.min(PAGE, filtered.length - shownTo)} more
+            Load {Math.min(PAGE, total - shownTo)} more
           </Link>
         </div>
       )}
@@ -307,7 +337,7 @@ export function CatalogShell({
           {currentPage > 1 && (
             <Link
               href={pagePath(scopePath, currentPage - 1)}
-              className="ring-focus inline-flex min-h-10 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
+              className="ring-focus inline-flex min-h-11 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
             >
               <ChevronLeft className="h-4 w-4" /> Previous
             </Link>
@@ -318,7 +348,7 @@ export function CatalogShell({
               href={pagePath(scopePath, n)}
               aria-current={n === currentPage ? "page" : undefined}
               className={cn(
-                "ring-focus inline-flex min-h-10 min-w-10 items-center justify-center rounded-lg border px-2",
+                "ring-focus inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border px-2",
                 n === currentPage
                   ? "border-brand/50 bg-brand/10 text-foreground"
                   : "border-border text-muted hover:text-foreground",
@@ -330,7 +360,7 @@ export function CatalogShell({
           {currentPage < pageCount && (
             <Link
               href={pagePath(scopePath, currentPage + 1)}
-              className="ring-focus inline-flex min-h-10 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
+              className="ring-focus inline-flex min-h-11 items-center gap-1 rounded-lg px-3 text-muted hover:text-foreground"
             >
               Next <ChevronRight className="h-4 w-4" />
             </Link>
@@ -354,7 +384,7 @@ function Chip({
   onClick?: () => void;
 }) {
   const className = cn(
-    "ring-focus inline-flex min-h-10 shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3.5 text-xs font-medium transition-all",
+    "ring-focus inline-flex min-h-11 shrink-0 items-center gap-1 whitespace-nowrap rounded-full border px-3.5 text-xs font-medium transition-all",
     active
       ? "border-transparent brand-gradient text-white shadow-md shadow-brand/25"
       : "border-border bg-surface text-muted hover:text-foreground",

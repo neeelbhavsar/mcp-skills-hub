@@ -50,7 +50,19 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: ["0a8d-27-54-182-197.ngrok-free.app"],
 
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [
+      { source: "/:path*", headers: securityHeaders },
+      {
+        // HTML pages: the data changes once a day, so let the CDN serve a
+        // copy for a day and refresh it in the background instead of every
+        // browser revalidating on every load. Routes that set their own
+        // caching (APIs, indexes, Markdown, badges, feeds) are excluded so
+        // nothing overrides them.
+        source:
+          "/((?!api/|index/|md/|badge/|\\.well-known/|_next/|openapi\\.json|robots\\.txt|sitemap|llms|feed\\.xml|logo\\.png).*)",
+        headers: [{ key: "Cache-Control", value: "public, max-age=0, s-maxage=86400, stale-while-revalidate=604800" }],
+      },
+    ];
   },
 
   /**

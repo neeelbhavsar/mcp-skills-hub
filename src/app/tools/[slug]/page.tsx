@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Wrench } from "lucide-react";
-import { toolPages, getToolPage } from "@/lib/data";
+import { toolPages, getToolPage, relatedTools } from "@/lib/data";
 import { launchFor } from "@/lib/compat";
 import { healthOf } from "@/lib/health";
 import { HealthPill } from "@/components/catalog/health-badge";
@@ -17,15 +17,32 @@ export function generateStaticParams() {
   return toolPages.map((t) => ({ slug: t.slug }));
 }
 
-/** One line describing what this tool is, reused for the meta description. */
-function summarize(name: string, providers: string[], description: string | null) {
-  // Grammar used to be "1 MCP server … expose", with literal backticks.
-  const who =
-    providers.length === 1
-      ? `${providers[0]} exposes`
-      : `${providers.length} MCP servers expose`;
-  const what = description ? ` ${description}` : "";
-  return clip(`${who} a ${name} tool.${what}`);
+/** First sentence of publisher text, so the meta never carries agent instructions or mid-word cuts. */
+function firstSentence(text: string | null) {
+  if (!text) return null;
+  const m = text.match(/^(.+?[.!?])(\s|$)/);
+  return (m ? m[1] : text).trim();
+}
+
+/**
+ * The meta description, built from facts the catalog owns — who provides it,
+ * how it runs, how many parameters — rather than pasting the publisher's
+ * description, which on some servers is instructions written for an agent.
+ */
+function summarize(page: NonNullable<ReturnType<typeof getToolPage>>) {
+  const names = page.providers.map((p) => p.server.name);
+  const params = Math.max(0, ...page.providers.map((p) => p.inputs?.length ?? 0));
+  if (names.length === 1) {
+    const p = page.providers[0];
+    const how = launchFor(p.server).mode === "remote" ? "remote" : "local";
+    const what = firstSentence(p.description);
+    return clip(
+      `${names[0]} exposes a ${page.name} tool${params ? ` with ${params} parameter${params === 1 ? "" : "s"}` : ""}, over a ${how} MCP connection.${what ? ` ${what}` : ""}`,
+    );
+  }
+  return clip(
+    `${names.length} MCP servers expose a tool named ${page.name}: ${names.slice(0, 4).join(", ")}${names.length > 4 ? " and more" : ""}. Compare what each one does and its input schema.`,
+  );
 }
 
 export async function generateMetadata({
@@ -40,7 +57,7 @@ export async function generateMetadata({
   const servers = page.providers.map((p) => p.server.name);
   const title =
     servers.length > 1 ? `${page.name} — MCP tool on ${servers.length} servers` : `${page.name} — MCP tool (${servers[0]})`;
-  const description = summarize(page.name, servers, page.providers.find((p) => p.description)?.description ?? null);
+  const description = summarize(page);
   const path = `/tools/${slug}`;
 
   return {
@@ -62,8 +79,14 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   const page = getToolPage(slug);
   if (!page) notFound();
 
-  const description = page.providers.find((p) => p.description)?.description ?? null;
   const count = page.providers.length;
+  const related = relatedTools(page);
+  // One subtitle cannot describe several unrelated tools. It used to take the
+  // first provider's description, claiming one meaning for a shared name.
+  const subtitle =
+    count > 1
+      ? `${page.name} is a tool name used by ${count} different MCP servers. They are not necessarily the same tool — here is what each one does.`
+      : (firstSentence(page.providers[0]?.description ?? null) ?? `Exposed by ${page.providers[0]?.server.name}.`);
 
   // An ItemList of the servers providing it. This was a one-question FAQPage,
   // which earns no rich result outside government and health sites.
@@ -93,7 +116,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
         eyebrow="MCP tool"
         title={page.name}
         highlight=""
-        subtitle={description ?? `Exposed by ${count} server${count === 1 ? "" : "s"} in the catalog.`}
+        subtitle={subtitle}
       />
 
       <section className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -146,8 +169,13 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
                   </span>
                 </div>
 
+                {/* Quoted, and labelled as such: some publishers write these as
+                    instructions for an agent, not as a description for people. */}
                 {providerDescription && (
-                  <p className="mt-2 text-sm leading-relaxed text-muted">{providerDescription}</p>
+                  <blockquote className="mt-2 border-l-2 border-border pl-3 text-sm leading-relaxed text-muted">
+                    <span className="block text-xs text-muted">From the publisher:</span>
+                    {providerDescription}
+                  </blockquote>
                 )}
 
                 {inputs && inputs.length > 0 && (
@@ -178,7 +206,7 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
 
                 <Link
                   href={`${resourcePath("mcps", server.slug)}#install`}
-                  className="ring-focus mt-3 inline-flex min-h-10 items-center text-xs text-brand hover:underline"
+                  className="ring-focus mt-3 inline-flex min-h-11 items-center text-xs text-brand hover:underline"
                 >
                   Install {server.name} →
                 </Link>
@@ -186,6 +214,25 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
             );
           })}
         </ul>
+
+        {related.length > 0 && (
+          <section className="mt-10">
+            <h2 className="text-base font-semibold">Related tools</h2>
+            <p className="mt-1 text-xs text-muted">The same action under a namespaced name on other servers.</p>
+            <ul className="mt-3 flex flex-wrap gap-1.5">
+              {related.map((t) => (
+                <li key={t.slug}>
+                  <Link
+                    href={`/tools/${t.slug}`}
+                    className="ring-focus inline-flex min-h-11 items-center rounded-md border border-border bg-surface px-2.5 font-mono text-xs text-muted transition-colors hover:border-brand/50 hover:text-foreground"
+                  >
+                    {t.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <p className="mt-8 text-xs leading-relaxed text-muted">
           Tool lists are read from the live servers (or, for packaged servers, from their documentation) each

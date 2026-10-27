@@ -79,7 +79,7 @@ export function ThemeToggle() {
             title={label}
             onClick={() => choose(key)}
             className={cn(
-              "ring-focus flex h-9 w-9 items-center justify-center rounded-md transition-colors",
+              "ring-focus flex h-11 w-11 items-center justify-center rounded-md transition-colors",
               active ? "bg-surface-2 text-foreground" : "text-muted hover:text-foreground",
             )}
           >

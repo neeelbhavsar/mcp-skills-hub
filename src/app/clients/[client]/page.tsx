@@ -188,7 +188,7 @@ export default async function ClientGuidePage({ params }: { params: Promise<{ cl
           <Link
             href={`/setup?client=${target.id}`}
             rel="nofollow"
-            className="ring-focus mt-3 inline-flex min-h-10 items-center gap-1.5 text-sm text-brand hover:underline"
+            className="ring-focus mt-3 inline-flex min-h-11 items-center gap-1.5 text-sm text-brand hover:underline"
           >
             Open the setup builder for {target.name} <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
