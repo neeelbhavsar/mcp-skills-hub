@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T12:30:58.255Z",
+  "generatedAt": "2026-10-29T12:39:28.931Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,7 +7,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "expo",
+          "name": "expo",
+          "description": "Official Expo skills for building, deploying, upgrading, and debugging React Native apps with Expo. Covers UI development with Expo Router, SwiftUI and Jetpack Compose components, Tailwind CSS setup, API routes, data fetching, CI/CD workflows, App Store and Play Store deployment, SDK upgrades, DOM components, and dev…",
+          "category": "Automation & Workflow",
+          "delta": 377,
+          "stars": 3740
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -21,71 +30,247 @@
       "baseline": true,
       "added": [
         {
-          "slug": "io-github-evannzhongg-browser-attach",
-          "name": "BrowserAttach",
-          "description": "Control existing signed-in Chrome and Edge tabs through a locally paired extension.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-glittering-ai-browser",
-          "name": "ai-browser",
-          "description": "Visible Electron browser driven by a semantic accessibility tree: 17 MCP tools, no screenshots.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-ekwo-mcp",
-          "name": "Ekwo OS — open source accounting: ledger, invoices and VAT on your own Supabase or Postgres",
-          "description": "Double-entry books an agent keeps as the user: invoices, VAT returns, 174 country packs.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-soflution-memorypilot",
-          "name": "MemoryPilot",
-          "description": "Long-term memory for AI agents: fast recall, project brains and skills, local, in one binary.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-geiserx-atlassian-browser-mcp",
-          "name": "Atlassian (browser SSO)",
-          "description": "Jira and Confluence behind SSO via your own browser session: every mcp-atlassian tool, no API token",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-browserless-mcp",
-          "name": "Browserless",
-          "description": "Official Browserless MCP server: browser automation, scraping, screenshots and PDFs for AI agents.",
+          "slug": "ai-cloudbrowser-mcp",
+          "name": "CloudBrowser",
+          "description": "Give AI agents a real cloud Chrome: open sessions, navigate, read pages, click, type and screenshot.",
           "category": "Design & Media"
         },
         {
-          "slug": "fit-memory-memory-fit",
-          "name": "Memory.fit",
-          "description": "Your training, sleep, recovery and fuel for the AI you use: it reads your week and plans the next.",
+          "slug": "io-github-4robot-hexadata",
+          "name": "hexadata",
+          "description": "Official public data as MCP tools: EU/US tenders, NPI Registry, UK Companies House, Mexico data.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "dev-repomemory-repomemory",
+          "name": "RepoMemory",
+          "description": "Shared project memory for coding agents: decisions, lessons, guardrails and tasks per repository.",
           "category": "AI & Memory"
         },
         {
-          "slug": "com-aiakiv-memory",
-          "name": "AiAkiv Memory",
-          "description": "Shared long-term memory for AI agents: save and recall context as a searchable knowledge graph.",
+          "slug": "com-onrender-x402-tw-data-taiwan-open-data",
+          "name": "Taiwan Laws + U.S. Company Financials (x402)",
+          "description": "Taiwan laws and U.S. XBRL financials (paid, x402) plus AI City: free agent registry, tasks, votes.",
           "category": "AI & Memory"
         },
         {
-          "slug": "com-microsoft-playwright-cloud-browsers",
-          "name": "Playwright Cloud Browsers",
-          "description": "Managed Playwright cloud browsers for scalable browser automation and AI agent workflows",
-          "category": "Web & Search"
+          "slug": "ai-pidgeon-mcp",
+          "name": "Pidgeon",
+          "description": "Email inboxes for AI agents: their own addresses, threads, sending, replies and arriving mail.",
+          "category": "Productivity"
         },
         {
-          "slug": "com-echo-mem-echo-mem",
-          "name": "Echo Memory",
-          "description": "Shared memory for AI agents, as a graph in your own Postgres. Writes never call an LLM.",
+          "slug": "app-bannerproof-bannerproof",
+          "name": "Bannerproof",
+          "description": "EU cookie-consent audit: trackers before consent, Reject all, Consent Mode v2, TCF; evidence + fixes",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-anshumanatrey-linkedin-harvester",
+          "name": "LinkedIn Profile Finder - Email to LinkedIn URL Lookup",
+          "description": "LinkedIn Profile Finder - Email to LinkedIn URL Lookup",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-rooyun-rooyun",
+          "name": "RooYun",
+          "description": "AI comic & short-drama studio: scripts to storyboards, image/video generation on an infinite canvas",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "io-github-andrewavery7-promptspend",
+          "name": "PromptSpend",
+          "description": "LLM pricing where every rate carries its source and the date it was last confirmed.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-serpier-serpier",
+          "name": "Serpier",
+          "description": "Monitor your brand's visibility in AI answers, track publications and manage SEO link orders.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "com-zenofirm-quickbooks-desktop",
+          "name": "Zeno",
+          "description": "Review-gated bookkeeping in QuickBooks Desktop on Windows: reports, SQL, batches, reversal.",
+          "category": "Databases & Storage"
+        },
+        {
+          "slug": "com-adsuploader-mcp",
+          "name": "Ads Uploader",
+          "description": "Meta ads bulk launcher: upload creatives, edit builds, preview, and create paused ads.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "io-github-exadev-agent-comms",
+          "name": "Agent Comms",
+          "description": "Cross-harness communication mesh for LLM agents — rooms, DMs, presence, and visibility over TCP",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "co-teraads-connect",
+          "name": "Tera Ads",
+          "description": "Meta Ads in your AI: approval before changes, undo for pauses and budgets, profit after returns.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "io-github-edgar-311-ofdkit",
+          "name": "ofdkit",
+          "description": "Read OFD files and Chinese e-invoices (数电票): text, invoice fields, folder totals. Read-only.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-28naem-del-mnemosyne",
+          "name": "Mnemosyne",
+          "description": "Evidence-tracked local memory MCP server: one SQLite file; corrections retire dependent memories.",
+          "category": "Databases & Storage"
+        },
+        {
+          "slug": "com-mambabuilt-mcp-brand-sponsor-finder",
+          "name": "mcp-brand-sponsor-finder",
+          "description": "Brands paying creators in a niche, with evidence links, dates, and recency scores.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "io-antwork-social",
+          "name": "Antwork",
+          "description": "Draft, schedule, and publish social posts for your workspace straight from your AI.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-billibo6-unlockpulse",
+          "name": "Unlock Pulse",
+          "description": "Token unlock calendar for the next 60 days, rated by size vs circulating supply. Free, no key.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "co-logbrew-mcp",
+          "name": "LogBrew",
+          "description": "Read LogBrew errors, slow traces, logs, and product analytics, and triage issues with consent.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "in-nebulatech-nebula",
+          "name": "Nebula - AI-first B2B digital marketing, Mumbai",
+          "description": "Ask Nebula (Mumbai) about AI-first B2B digital marketing: services, sectors, GEO/AEO Answers, blogs.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "app-ollav-ollav",
+          "name": "Ollav",
+          "description": "Share HTML prototypes as live links; read element-pinned review comments; publish new versions.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-aistlabs-aistlabs",
+          "name": "AISTLabs",
+          "description": "Video, image and audio generation on top AI models for agents, with an AI director built in.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "com-socialtoai-socialtoai",
+          "name": "SocialToAI",
+          "description": "Social media data for AI agents: one MCP address, 18 platforms. Pay per call; failed calls are free.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "io-github-darkkitty-w-lock-autopsy",
+          "name": "lock-autopsy",
+          "description": "On-chain token lock & vesting auditor: cancelable, revocable, transferable flags.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-flowlines-flowlines",
+          "name": "Flowlines",
+          "description": "MCP observability: analyse MCP server usage, investigate sessions, and instrument MCP servers.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-soflution-flintrail",
+          "name": "Flintrail",
+          "description": "Drive a real Chrome live, record a flow once, replay it in milliseconds without an LLM.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-330899935-apiary-memory",
-          "name": "Apiary Memory",
-          "description": "Local-first memory over MCP. Built-in SQLite store; runs standalone. Agents propose; you confirm.",
+          "slug": "io-github-desearch-ai-mcp-desearch",
+          "name": "Desearch",
+          "description": "AI, X and web search, page extraction, X data, People Search, and Company Search.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-insumermodel-insumer",
+          "name": "insumer",
+          "description": "Wallet auth: send a wallet and conditions, get a signed boolean across 37 chains.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-githits-githits",
+          "name": "GitHits",
+          "description": "Search public open-source code, documentation, metadata, vulnerabilities, changelogs, and examples.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-sendraven-mcp",
+          "name": "Sendraven MCP",
+          "description": "Email infrastructure for AI agents: send, read replies as threads, campaigns, per-key limits.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "com-staycostbrain-stay-cost-brain",
+          "name": "Stay Cost Brain",
+          "description": "Tourist and hotel taxes from official sources, worked out night by night for your dates and guests.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "io-github-atastech-pitroom",
+          "name": "Pitroom",
+          "description": "Hands bounded coding work to cheaper worker agents: verified answers, exact diffs, cost receipts.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-suprsend-mcp",
+          "name": "SuprSend",
+          "description": "Hosted SuprSend MCP server: users, lists, workflows, templates, and notification data.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-vibe-fixer-vibefix",
+          "name": "VibeFix",
+          "description": "Our AI agent signs up to your live app like a new user and shows, with a screenshot, what breaks.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "dev-digline-digline-mcp",
+          "name": "digline",
+          "description": "Read, measure and explain LLM eval runs of a digline suite. Cannot promote a baseline.",
           "category": "AI & Memory"
         },
+        {
+          "slug": "com-carrentalbrain-car-rental-brain",
+          "name": "Car Rental Brain",
+          "description": "Real cost of car hire at 120+ airports: second driver, cover, deposits, debit cards, desk hours.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-airfarebrain-airfare-brain",
+          "name": "Airfare Brain",
+          "description": "True cost of flight extras (bags, seats, fees) on 29 airlines in Europe and North America, sourced.",
+          "category": "Other"
+        },
+        {
+          "slug": "eu-skavio-paid-micro-apis",
+          "name": "Skavio USDC Payment Verification & Proof MCP",
+          "description": "18 tools: USDC verification, matching, evidence PDFs, DNS/TLS and authenticated company processing.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-starreel-starreel",
+          "name": "starreel",
+          "description": "Turn a script into a finished, downloadable short-drama episode — via MCP or REST.",
+          "category": "Other"
+        }
+      ],
+      "removed": [
         {
           "slug": "io-github-jonathanrreed-apple-calendar-mcp",
           "name": "Apple Calendar",
@@ -93,447 +278,276 @@
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-calera-labs-finsec-mcp",
-          "name": "Calera FINSEC — Certified SEC Memory",
-          "description": "Certified SEC EDGAR fact memory for AI agents with zero hallucination and filing provenance.",
+          "slug": "io-github-kairosmobius-memory-nexus-mcp",
+          "name": "memory-nexus-mcp",
+          "description": "Persistent semantic memory for AI agents with knowledge graphs and Intelligence Packs.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-calera-labs-icx-mcp",
-          "name": "Calera Infinite Context (ICX) — Persistent Memory & Associative Recall",
-          "description": "Sub-5ms topological 4D associative memory coprocessor for LLMs and multi-agent swarms.",
+          "slug": "io-github-kairosmobius-nexus-memory-mcp",
+          "name": "nexus-memory-mcp",
+          "description": "Persistent semantic memory for AI agents with knowledge graphs and Intelligence Packs.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-330899935-hive-memory",
-          "name": "Memory Hive",
-          "description": "Local-first memory over MCP. Built-in SQLite store; runs standalone. Agents propose; you confirm.",
-          "category": "AI & Memory"
+          "slug": "io-github-daghis-teamcity",
+          "name": "teamcity",
+          "description": "MCP server exposing JetBrains TeamCity CI/CD workflows to AI coding assistants",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-dancenitra-inspeximus",
-          "name": "inspeximus: agent memory with provenance, GDPR erasure and a tamper-evident audit trail",
-          "description": "Self-correcting agent memory: recall, supersede, revert, forget, GDPR erasure, audit receipts.",
-          "category": "AI & Memory"
+          "slug": "com-sema-lang-sema",
+          "name": "Sema",
+          "description": "MCP tools for Sema — eval, compile, build, format, and docs for a Lisp with LLM primitives.",
+          "category": "Docs & Knowledge"
         },
         {
-          "slug": "com-foreverworks-notion",
-          "name": "Notion",
-          "description": "Search, read and write your Notion workspaces, with pages as Markdown and typed database queries.",
+          "slug": "io-github-dechuks-hub-llmshift",
+          "name": "llmshift",
+          "description": "Find retiring LLM calls in code and test the replacement model on real traffic before switching.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-keboola-mcp",
+          "name": "Keboola MCP",
+          "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
           "category": "Databases & Storage"
         },
         {
-          "slug": "io-github-gwakko-agent-in-browser",
-          "name": "agent-in-browser",
-          "description": "Real browser for any agent: Chrome/Edge/Brave via CDP, Firefox via BiDi. Refs, forms, console, net.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-jkwy01-github-hot-board",
-          "name": "GitHub Hot Board",
-          "description": "GitHub hot-repo leaderboards: snapshots, movers, rank history. Read-only JSON, hourly batches.",
+          "slug": "io-github-abstract36-stakechain",
+          "name": "stakechain",
+          "description": "Live Base staking/lending yields (APY, TVL, vaults) as MCP tools; x402 pay-per-request tier",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-murphys-laws-murphys-laws",
-          "name": "murphys-laws",
-          "description": "Access thousands of Murphy's Laws: search, browse by category, random, daily, submit.",
+          "slug": "io-github-ivansflowgit-paypilot-ach-returns-mcp",
+          "name": "paypilot-ach-returns-mcp",
+          "description": "Read-only decision table over ACH return codes: 17 codes, 5 decisions, rule shown.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-aipozi-aipozi",
+          "name": "aipozi",
+          "description": "Daily AI visibility: who ChatGPT, Claude, Gemini and Perplexity name instead of you. Domain tools.",
           "category": "Web & Search"
         },
         {
-          "slug": "dev-xakpc-sqlite-mcp-sidecar",
-          "name": "SQLite MCP Sidecar",
-          "description": "Agent-safe MCP sidecar for one live SQLite database: read-only default, bounded writes.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-plexarm-plexarm",
-          "name": "Plexarm",
-          "description": "The operating system for self-organised AI agent teams.",
+          "slug": "com-imagiolabs-www-imagio-relay",
+          "name": "Imagio Relay",
+          "description": "57 deterministic web-intel, trade and infra tools for agents. USDC per call via x402.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-guardbee-memory-poisoning-scanner",
-          "name": "memory-poisoning-scanner",
-          "description": "Scans agent code for untrusted input poisoning persistent cross-session memory",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "app-creatora-lexatlas-lexatlas-mcp",
-          "name": "LexAtlas",
-          "description": "Current law as data for AI: search, read and verify statutes and citations. CIS countries first.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-tempreon-tempreon",
-          "name": "Tempreon — Personal AI Memory",
-          "description": "Person-owned AI memory: portable context for any MCP client.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "dev-agentdiet-github-audit",
-          "name": "AgentDiet Coding Agent GitHub Repo, Dependency & License Security Auditor",
-          "description": "Evaluates any GitHub repository for license risk, maintenance velocity, stars/forks, and supply-c.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-zennolab-instance-zp",
-          "name": "ZennoPoster: browsers of running tasks",
-          "description": "Drive the browsers of running ZennoPoster tasks: open pages, read and click elements, screenshots.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "com-zennolab-instance-pm",
-          "name": "ZennoPoster: browser in ProjectMaker",
-          "description": "Drive the browser of ZennoPoster ProjectMaker: open pages, read and click elements, screenshots.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "com-insightfulpipe-stripe",
-          "name": "Stripe MCP by InsightfulPipe",
-          "description": "Hosted Stripe MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "com-insightfulpipe-slack",
-          "name": "Slack MCP by InsightfulPipe",
-          "description": "Hosted Slack MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-insightfulpipe-postgresql",
-          "name": "PostgreSQL MCP by InsightfulPipe",
-          "description": "Hosted PostgreSQL MCP server for Claude, ChatGPT and Cursor, with each action switched per account.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-browser-use-browser-use",
-          "name": "browser-use",
-          "description": "Browser agents and stealth cloud browsers for AI: run web tasks, fill forms, extract data.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-kaiv-postgres",
-          "name": "Kaiva Postgres MCP",
-          "description": "Read-only PostgreSQL MCP server. Drop-in replacement for the archived server-postgres.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "io-github-alimora83-sa-business-calendar-mcp",
-          "name": "SA Business Calendar",
-          "description": "South African business days, public holidays and SARS EMP201/VAT201 deadlines.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-hanochzhu-codeagent-memory",
-          "name": "codeagent-memory",
-          "description": "Local code graph and solution memory for coding agents via CLI and MCP.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-jackxiaozhiren-datasentry",
-          "name": "DataSentry",
-          "description": "Local-first MCP server for data-quality discovery, evidence, drift, and controlled repair.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "co-lumman-calendar",
-          "name": "Multi Calendar",
-          "description": "Outlook.com, Microsoft 365, Google calendars: free time, events, invitations, booking pages, polls.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "app-ownmemory-ownmemory",
-          "name": "OwnMemory",
-          "description": "Encrypted memory for Claude, on a server you deploy to your own Cloudflare account.",
+          "slug": "dev-zop-zopdev-mcp",
+          "name": "ZopDev MCP",
+          "description": "Cloud cost, inventory and governance on AWS/Azure/GCP. Read-only by default, optional scoped writes",
           "category": "Cloud & DevOps"
         },
         {
-          "slug": "io-github-deusdata-codebase-memory-mcp",
-          "name": "Codebase Memory",
-          "description": "Codebase knowledge graph for AI agents — 162 languages, sub-ms queries, 99% fewer tokens.",
-          "category": "AI & Memory"
+          "slug": "io-github-immersive-media-technologies-photoshop-mcp-imt",
+          "name": "PS-MCP-IMT + SKILLS — Photoshop for AI agents",
+          "description": "Adobe Photoshop for AI agents on any UI language: 9-tool facade, UXP bridge when modal, AI skill",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "ai-zensation-zenbrain",
-          "name": "ZenBrain Memory",
-          "description": "Agent memory: working, episodic, semantic, procedural and core layers. Local SQLite, no account.",
-          "category": "AI & Memory"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "ac-inference-sh-mcp",
-          "name": "inference.sh",
-          "description": "run any ai model. compose agents, stack knowledge, connect tools. one api, pay per run.",
-          "category": "AI & Memory"
+          "slug": "io-github-gitgudatcodeing-vault-index",
+          "name": "vault-index",
+          "description": "Local hybrid keyword + vector search (SQLite FTS5 + sqlite-vec) over markdown vaults and code.",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "ac-snag-snag",
-          "name": "snag",
-          "description": "Gives your coding agent the captured console, network, replay and screenshot evidence for a bug.",
+          "slug": "com-didlogic-mcp",
+          "name": "didlogic",
+          "description": "Your didlogic account in AI assistants: numbers, SIP accounts, routing, SMS, calls and billing.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-justpublish-just-publish",
+          "name": "Just Publish",
+          "description": "Publish and update the website you built with AI at a live public URL. Sign-in required.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-blazingvideo-blazing-video",
+          "name": "Blazing Video",
+          "description": "Record your Mac screen, face and voice, edit the video by its transcript, and share a link.",
           "category": "Design & Media"
         },
         {
-          "slug": "ac-tandem-docs-mcp",
-          "name": "docs-mcp",
-          "description": "Remote MCP server for Tandem docs, install guides, SDKs, workflows, and agent setup help.",
+          "slug": "dev-aictrl-aictrl",
+          "name": "aictrl",
+          "description": "Project context, backlog tasks, and controlled workflows for coding agents. OAuth sign-in.",
           "category": "AI & Memory"
         },
         {
-          "slug": "academy-apexai-apex-ai-academy",
-          "name": "Apex AI Academy",
-          "description": "Co-Learn with your Agent: fact-checked AI lessons with Human and Agent views.",
+          "slug": "io-getunleash-unleash-mcp",
+          "name": "unleash-mcp",
+          "description": "MCP server for managing Unleash feature flags",
+          "category": "Other"
+        },
+        {
+          "slug": "com-siliconfloor-silicon-floor",
+          "name": "Silicon Floor",
+          "description": "AI & chip stocks for agents: who owns, buys, sells, lends — pre-IPOs too, straight from SEC filings.",
           "category": "AI & Memory"
         },
         {
-          "slug": "academy-ase-periodic-system",
-          "name": "Agentic Engineering Periodic System",
-          "description": "Practices for building software with coding agents, each with a test you check on your repo.",
+          "slug": "com-canvashand-canvashand",
+          "name": "Canvashand",
+          "description": "Figma MCP server and plugin: AI agents read and edit live Figma files, no Figma API token.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "io-github-egoushka-chargehand",
+          "name": "chargehand",
+          "description": "Runs coding-agent workers on a codebase question; every claim in the answer carries evidence.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-beppetemp-cartographer",
+          "name": "Cartographer",
+          "description": "Governance MCP server for agent-maintained knowledge bases (OKF): git-backed writes, search, lint.",
           "category": "AI & Memory"
         },
         {
-          "slug": "ad-getle-leads",
-          "name": "Getlead",
-          "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ad-inside-inside-ads",
-          "name": "Inside Ads",
-          "description": "Telegram ad exchange: estimate reach and cost with no account, then create and run campaigns.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ae-beachclubs-mcp",
-          "name": "BeachClubs.ae",
-          "description": "Search UAE beach clubs, day pass prices, amenities, opening hours and events across all 7 emirates.",
+          "slug": "com-ainovaq-mcp",
+          "name": "Ainovaq",
+          "description": "Ainovaq AI venture studio: list services, get service details, search the blog, contact info.",
           "category": "Web & Search"
         },
         {
-          "slug": "ae-brainy-grocery-prices",
-          "name": "Brainy Prices — UAE Cost of Living",
-          "description": "Source-backed UAE costs: groceries, schools, housing, transport, utilities, telecom and relocation",
-          "category": "Other"
+          "slug": "io-github-chanmeng666-archlang-mcp",
+          "name": "archlang-mcp",
+          "description": "ArchLang: compile, describe, lint, validate, score, repair, fix, finish, suggest, complete, link.",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "ae-datadubai-dubai-real-estate",
-          "name": "Dubai Data — Dubai real estate statistics",
-          "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
-          "category": "Other"
+          "slug": "com-okstays-okstays",
+          "name": "OKstays",
+          "description": "Hotels ranked by real comfort, not commission: search 30,000+ hotels by quiet, beds, WiFi and more",
+          "category": "Web & Search"
         },
         {
-          "slug": "ae-easyvoice-tts",
-          "name": "EasyVoice text to speech",
-          "description": "Hosted text-to-speech MCP server: 66 voices in 9 languages, long-form narration, podcasts.",
-          "category": "Other"
-        },
-        {
-          "slug": "ae-genosys-genosys",
-          "name": "GENOSYS UAE",
-          "description": "Shop GENOSYS Korean skincare in the UAE from chat: find products, AED prices, order and pay.",
-          "category": "Commerce & Retail"
-        },
-        {
-          "slug": "ae-grovisor-grotax",
-          "name": "groTAX by Grovisor",
-          "description": "UAE Corporate Tax: CT computation, SBR, penalties, free zone test, TP and health-check.",
-          "category": "Health & Science"
-        },
-        {
-          "slug": "ae-plantguide-dubai-gardening",
-          "name": "Plant Guide: Dubai gardening research",
-          "description": "What to plant in Dubai, indoor plants, plant care in the heat, garden styles and Garden Care prices.",
-          "category": "Other"
-        },
-        {
-          "slug": "ae-projectory-mcp",
-          "name": "Projectory",
-          "description": "Find UAE off-plan developments and registered residential sales.",
-          "category": "Other"
-        },
-        {
-          "slug": "ae-propick-propick",
-          "name": "Propick Integration MCP",
-          "description": "Manage your real-estate stock on Propick (Dubai): bulk listing sync, lookups and run reports.",
+          "slug": "com-getwold-3q-pdf",
+          "name": "3Q PDF & SheetKit",
+          "description": "One-time purchase, no subscription: Windows PDF app with 36 offline commands and 8 Excel templates.",
           "category": "Finance & Data"
         },
         {
-          "slug": "ae-waggle-fenlight",
-          "name": "Fenlight",
-          "description": "Google search results, forum threads, local and shopping data, keyword ideas, AI answer tracking.",
+          "slug": "ai-foura-mcp",
+          "name": "Foura MCP",
+          "description": "Reliable web access for AI agents: smart HTTP, rotating proxies, and full-browser rendering.",
           "category": "Web & Search"
         },
         {
-          "slug": "ae-waggle-vera",
-          "name": "Vera",
-          "description": "Scrape, search and extract the public web. 3,000 free credits at https://vera.waggle.ae/signup",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "aero-events-events",
-          "name": "Events.Aero",
-          "description": "Find aviation events: airshows, fly-ins, workshops and club meets. Public and read-only.",
+          "slug": "com-soflution-mcphub",
+          "name": "McpHub",
+          "description": "One MCP endpoint for all your servers: a few meta-tools, Keychain secrets, sandbox, audit, OAuth.",
           "category": "Other"
         },
         {
-          "slug": "africa-ugc-ugc",
-          "name": "UGC, the Human Ad Network",
-          "description": "The Human Ad Network. Campaigns, clipping, and Clip Studio from chat.",
+          "slug": "com-mailbuttons-mcp-server",
+          "name": "Mailbuttons",
+          "description": "Governed email for AI agents: a sandbox inbox to read and send from, human approval to go external.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "io-aivisibilitycheck-mcp",
+          "name": "AI Visibility Check",
+          "description": "Audit how AI assistants and search engines find, understand and recommend a website.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-acedatacloud-mcp-aichat",
+          "name": "mcp-aichat",
+          "description": "MCP server for AI dialogue using various LLM models via AceDataCloud",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "cloud-postdata-postdata",
+          "name": "PostData",
+          "description": "No-signup IoT backend: device names, sensor readings, history and live charts. No API key needed.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "io-github-helpcode-ai-anythingmcp",
+          "name": "AnythingMCP",
+          "description": "Any REST/SOAP/GraphQL/OData/SQL API as MCP tools for Claude & ChatGPT. 561 connectors: SAP, ERP.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-getadloop-adloop",
+          "name": "AdLoop",
+          "description": "Google Ads, Reddit Ads, GA4 and Tag Manager in your AI client, with a preview before every change.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-albasha0x0-corvus",
+          "name": "Corvus",
+          "description": "Reverse engineering and security analysis of .NET and native binaries: decompile, compare, patch.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-d4umak-heylead",
+          "name": "HeyLead — AI agent for LinkedIn outreach",
+          "description": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up, replies.",
           "category": "Marketing & Social"
         },
         {
-          "slug": "ag-hood-name-service",
-          "name": "hood. — .hood name service",
-          "description": "Resolve .hood names on Robinhood Chain — forward/reverse, text records, availability & pricing.",
-          "category": "Commerce & Retail"
-        },
-        {
-          "slug": "agency-goji-goji",
-          "name": "goji",
-          "description": "Answers on AEO, SEO, web and brand from GOJI's published material. Melbourne, Australia.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "agency-justidea-justidea-agency",
-          "name": "JustIdea Agency",
-          "description": "Services, prices, inquiries and free analytics, AI and Google visibility scans by JustIdea, Poland.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "agency-kesey-pretrip",
-          "name": "Pre-Trip compliance scanner",
-          "description": "Screen regulated-health marketing copy against source-cited rulesets, all 50 states.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "agency-lona-trading",
-          "name": "trading",
-          "description": "AI-powered trading strategy development: backtesting, market data, and portfolio analysis",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "agency-ottobot-business-contact-finder",
-          "name": "Business Contact Finder",
-          "description": "Check how to contact a business website, and whether that contact path actually works.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "agency-ottobot-contractor-license-changes",
-          "name": "Contractor Licence Changes",
-          "description": "Did this contractor's licence change? Observed lapses and reinstatements, not a snapshot.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "agency-ottobot-licensed-house-painters",
-          "name": "Licensed House Painters",
-          "description": "Find licensed house painters in 11 US states, with dated license status from state boards.",
+          "slug": "com-subcloak-cloak-proxy",
+          "name": "Cloak Proxy",
+          "description": "Read, mock, pause and replay HTTPS traffic captured by Cloak Proxy, a free macOS debugging proxy.",
           "category": "Other"
         },
         {
-          "slug": "agency-thebureauoflostcontext-bureau-public",
-          "name": "Bureau public reader",
-          "description": "Bureau-operated public read-only MCP service for public Context Packets and Cases.",
+          "slug": "com-hemmabo-hemmabo-mcp-server",
+          "name": "HemmaBo Host Booking Engine",
+          "description": "6 runtime tools: 2 HemmaBo tools, 2 host onboarding tools, and 2 VRP verification tools. Not an OTA.",
           "category": "Other"
         },
         {
-          "slug": "agency-zoll-ausfuhr",
-          "name": "zoll.agency",
-          "description": "Regeln und Suchen zur Ausfuhr aus der EU: Kumulierung, Präferenznachweis, Incoterms, Warennummer",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-0si-disclosures",
-          "name": "0si.ai Disclosures",
-          "description": "Korean (DART/KIND) and US SEC filings with AI summaries, direction labels and market reaction.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-1325-mcp",
-          "name": "1325.AI",
-          "description": "Verified directory of 47,000+ Black-owned U.S. businesses. Search, profiles, maps, rewards.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-1clickwebsite-mcp",
-          "name": "1ClickWebsite",
-          "description": "Build and edit WordPress websites for local service businesses and run Lead Gen demo-site batches.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-1court-state-court-directory",
-          "name": "1Court Directory",
-          "description": "US county court directory: clerk, courthouse address, e-filing, filing fees, and case lookup.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "ai-2kw-mcp-server",
-          "name": "2kw.ai",
-          "description": "EU-hosted AI platform: OpenAI-compatible LLM gateway, document extraction, transcription, agents.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-69ai-69ai",
-          "name": "69.ai",
-          "description": "Relationship network for AI agents and people: register, match, chat, dinner ideas, virtual gifts.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-aard-aard",
-          "name": "Aard",
-          "description": "Official statistics from 170+ publishers, resolved from natural language with provenance.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-aarna-atars-mcp",
-          "name": "aTars MCP",
-          "description": "Crypto market signals, technical indicators, and sentiment analysis for AI agents.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-abmeter-abmeter",
-          "name": "ABMeter",
-          "description": "Run A/B experiments through your AI assistant. SDKs for Ruby, Python, JS, Node, React Native, Go.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-achromat-mcp-server",
-          "name": "Achromat MOM",
-          "description": "Recall and calibrate agent tool calls against verified policy lessons from Achromat MOM.",
-          "category": "Legal & Government"
+          "slug": "io-github-dinevdecor-signal-feed-mcp",
+          "name": "Signal Feed API: market regime",
+          "description": "Daily market regime (risk-on / risk-off) for trading agents, paid per call via x402 USDC on Base.",
+          "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 496,
-        "removed": 261,
+        "added": 128,
+        "removed": 128,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 273,
+        "previousTotal": 508,
         "currentTotal": 508
       }
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
-      "deprecated": [],
-      "revived": [],
-      "movers": [
+      "added": [
         {
-          "slug": "hkuds-deeptutor",
-          "name": "DeepTutor",
-          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-          "category": "RAG & Retrieval",
-          "delta": 2366,
-          "stars": 47193
+          "slug": "ewingyangs-awesome-open-gpt",
+          "name": "awesome-open-gpt",
+          "description": "Collection of Open Source Projects Related to GPT，GPT相关开源项目合集🚀、精选🔥🔥",
+          "category": "Awesome Lists"
         }
       ],
+      "removed": [
+        {
+          "slug": "ashishpatel26-500-ai-machine-learning-deep-learning-computer-vision-nlp-projects",
+          "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+          "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+          "category": "Awesome Lists"
+        }
+      ],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
