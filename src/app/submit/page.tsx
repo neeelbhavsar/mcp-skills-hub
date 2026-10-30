@@ -27,27 +27,21 @@ const ROUTES = [
     title: "Add a resource",
     body: "Missing an MCP server or skill? The catalog is generated from public registries, so the fastest fix is usually publishing there — but tell us either way and we'll add the source.",
     label: "Open an issue",
-    href: `${REPO}/issues/new?labels=submission&title=${encodeURIComponent("Add: ")}&body=${encodeURIComponent(
-      "**Name:**\n\n**Repository or endpoint:**\n\n**What it does:**\n\n**Where is it published?** (MCP Registry / npm / GitHub only)\n",
-    )}`,
+    href: `${REPO}/issues/new?template=add-resource.yml`,
     icon: Send,
   },
   {
     title: "Report a wrong config",
     body: "If a generated install snippet doesn't work in your client, that's the most important kind of bug here — the whole point is configs that work first time.",
     label: "Report it",
-    href: `${REPO}/issues/new?labels=bad-config&title=${encodeURIComponent("Wrong config: ")}&body=${encodeURIComponent(
-      "**Server page:**\n\n**Client:** (Claude Code / Cursor / VS Code / Windsurf / Cline / Codex)\n\n**What the site showed:**\n\n**What actually works:**\n\n**Error, if any:**\n",
-    )}`,
+    href: `${REPO}/issues/new?template=wrong-config.yml`,
     icon: GitPullRequest,
   },
   {
     title: "Challenge the health score",
     body: "The formula and every weight are published. If a component is weighted wrong, or a signal is misleading, say so — it lives in src/lib/health.ts and is open to argument.",
     label: "Start a discussion",
-    href: `${REPO}/issues/new?labels=health-score&title=${encodeURIComponent("Health score: ")}&body=${encodeURIComponent(
-      "**Server:**\n\n**Which component:** (maintenance / adoption / transparency / provenance / packaging)\n\n**Why the current treatment is wrong:**\n",
-    )}`,
+    href: `${REPO}/issues/new?template=health-score.yml`,
     icon: ExternalLink,
   },
 ];

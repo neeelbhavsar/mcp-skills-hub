@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Browse the catalog
+    url: https://mcp-skills-hub.vercel.app
+    about: Search every MCP server, Agent Skill and repo.
+  - name: Publish a server to the MCP Registry
+    url: https://registry.modelcontextprotocol.io
+    about: Registry servers are added to the catalog automatically every morning.

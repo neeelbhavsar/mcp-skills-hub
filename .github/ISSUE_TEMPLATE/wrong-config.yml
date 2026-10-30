@@ -1,0 +1,47 @@
+name: Wrong config
+description: A generated install config doesn't work in your client
+title: "Wrong config: "
+labels: ["bad-config"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks — a config that doesn't work first time is the most important kind of bug here.
+  - type: input
+    id: page
+    attributes:
+      label: Server page
+      description: The URL of the server on mcp-skills-hub.vercel.app
+      placeholder: https://mcp-skills-hub.vercel.app/mcps/official-filesystem
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - Claude Code
+        - Claude Desktop
+        - Cursor
+        - VS Code
+        - Windsurf
+        - Cline
+        - Codex CLI
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: shown
+    attributes:
+      label: What the site gave you
+      description: Paste the config or command you copied.
+      render: json
+  - type: textarea
+    id: works
+    attributes:
+      label: What actually works (if you found it)
+      render: json
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message, if any
+      render: text
