@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-29T12:39:35Z",
+  "updatedAt": "2026-10-30T17:17:58Z",
   "counts": {
     "skills": 338,
-    "mcps": 508,
+    "mcps": 510,
     "repos": 120
   },
   "categories": {
@@ -25,10 +25,10 @@
       "Finance & Data": 23,
       "Cloud & DevOps": 20,
       "Legal & Government": 9,
-      "Docs & Knowledge": 13,
+      "Docs & Knowledge": 14,
       "Other": 38,
       "Commerce & Retail": 6,
-      "Marketing & Social": 4,
+      "Marketing & Social": 5,
       "Health & Science": 1
     },
     "repos": {
@@ -50,7 +50,8 @@
     ],
     "mcps": [
       "Official reference",
-      "MCP Registry"
+      "MCP Registry",
+      "Publisher submission"
     ],
     "repos": [
       "GitHub Search API"
