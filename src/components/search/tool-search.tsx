@@ -8,7 +8,7 @@ import type { ToolIndexEntry } from "@/lib/view";
 // into the client bundle.
 import { toolHref } from "@/lib/view";
 import { useLazyJson } from "@/lib/lazy-json";
-import { tokenize } from "@/lib/search";
+import { searchItems } from "@/lib/search";
 
 const PAGE = 40;
 
@@ -35,30 +35,25 @@ export function ToolSearch({
   const { data } = useLazyJson<ToolIndexEntry[]>(indexUrl, wanted || query.length > 0);
   const tools = data ?? initial;
 
-  const results = useMemo(() => {
-    const tokens = tokenize(deferred);
-    if (tokens.length === 0) return tools.slice(0, limit);
+  // Same matcher as the catalogs and ⌘K, with the tool name as the title, so
+  // a query ranks and filters identically wherever it is typed.
+  const searchable = useMemo(
+    () =>
+      tools.map((entry) => ({
+        entry,
+        title: entry.tool,
+        category: "",
+        description: entry.description ?? "",
+        search: entry.server.toLowerCase(),
+      })),
+    [tools],
+  );
+  const matched = useMemo(() => searchItems(searchable, deferred)?.map((s) => s.entry) ?? null, [searchable, deferred]);
+  const results = (matched ?? tools).slice(0, limit);
 
-    return tools
-      .map((entry) => {
-        const name = entry.tool.toLowerCase();
-        const body = `${entry.description ?? ""} ${entry.server}`.toLowerCase();
-        let score = 0;
-        for (const t of tokens) {
-          if (name.startsWith(t)) score += 8;
-          else if (name.includes(t)) score += 5;
-          else if (body.includes(t)) score += 1;
-          else return null;
-        }
-        return { entry, score };
-      })
-      .filter((x): x is { entry: ToolIndexEntry; score: number } => x !== null)
-      .sort((a, b) => b.score - a.score || a.entry.tool.localeCompare(b.entry.tool))
-      .slice(0, limit)
-      .map((x) => x.entry);
-  }, [tools, deferred, limit]);
-
-  const total = tokenize(deferred).length === 0 ? totalTools : results.length;
+  // The full match count, not the page size: this read "40 tools" for any
+  // query with more than one page of hits.
+  const total = matched ? matched.length : totalTools;
 
   return (
     <div>
@@ -117,7 +112,7 @@ export function ToolSearch({
         </ul>
       )}
 
-      {results.length >= limit && (
+      {total > limit && (
         <div className="mt-8 flex justify-center">
           <button
             onClick={() => {

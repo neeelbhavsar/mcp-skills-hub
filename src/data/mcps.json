@@ -1514,6 +1514,135 @@
     }
   },
   {
+    "id": "mcp:dev-xmcp-xmcp",
+    "name": "xmcp",
+    "qualifiedName": "dev.xmcp/xmcp",
+    "slug": "dev-xmcp-xmcp",
+    "description": "Read-only search over the xmcp TypeScript framework's guides and API docs: query the documentation or fetch a page by its ID. No account or API key needed.",
+    "category": "Docs & Knowledge",
+    "repository": "https://github.com/basementstudio/xmcp",
+    "homepage": "https://xmcp.dev",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://xmcp.dev/mcp",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "search",
+        "description": "Search xmcp documentation.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Search query for docs",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Document ID (e.g. 'configuration/transports')",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "license": "MIT",
+    "stars": null,
+    "source": "Publisher submission",
+    "updatedAt": null,
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "toolsSource": "live",
+    "readme": {
+      "markdown": "packages/xmcp/README.md",
+      "truncated": false,
+      "url": "https://github.com/basementstudio/xmcp#readme"
+    }
+  },
+  {
+    "id": "mcp:com-xquik-mcp",
+    "name": "Xquik",
+    "qualifiedName": "com.xquik/mcp",
+    "slug": "com-xquik-mcp",
+    "description": "Search X (Twitter) posts, export followers and replies, look up profiles, analyze post sentiment and monitor accounts with signed webhooks. Paid, usage-based service; not affiliated with X Corp.",
+    "category": "Marketing & Social",
+    "repository": "https://github.com/Xquik-dev/x-twitter-scraper",
+    "homepage": "https://xquik.com",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://xquik.com/mcp",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "docs",
+        "description": "Search Xquik's public docs to answer questions about its X (Twitter) API, MCP setup, SDKs, errors and limits. Queries reach only the read-only docs server.",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Documentation search query.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "description": "Search the current credential's Xquik OpenAPI catalog for X (Twitter) operations. The sandbox has no network access. spec is global and the async function's first argument. spec.paths maps paths to HTTP methods and operation objects. Fields include operationId, summary, description, readOnly, tags, parameters, requestBody, and responses. The catalog resolves inputs inline. Response $refs point to ",
+        "inputs": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "JavaScript async arrow function that searches spec.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "execute",
+        "description": "Execute JavaScript against Xquik's X (Twitter) API at https://xquik.com/docs. search returns endpoints, parameters, and response schemas. The sandbox declares `interface XquikRequest { path: string; method?: \"GET\" | \"POST\" | \"PUT\" | \"PATCH\" | \"DELETE\"; query?: Record<string, string | number | boolean | undefined>; body?: unknown } interface XquikResponse<T> { success: true; status: number; result:",
+        "inputs": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "JavaScript async arrow function that calls xquik.request().",
+            "required": true
+          },
+          {
+            "name": "result_id",
+            "type": "string",
+            "description": "Saved result ID from an earlier answer. Leave it out unless an answer gave you one. Read its data through xquik.result.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "whoami",
+        "description": "Return the Xquik account this connection is authenticated as. Takes no arguments. The id stays the same across token refresh, reconnection & permission changes.",
+        "inputs": null
+      }
+    ],
+    "license": null,
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": null,
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "toolsSource": "live",
+    "readme": {
+      "markdown": "# X (Twitter) scraper API & Twitter MCP server by Xquik\n\n  <strong>English</strong> ·\n  Español ·\n  Türkçe ·\n  简体中文 ·\n  日本語 ·\n  한국어 ·\n  Deutsch ·\n  Français ·\n  Italiano\n\nXquik is the world's fastest and cheapest X Twitter scraper service with the\nmost complete X data. Use it as a tweet scraper and Twitter API alternative.\nScrape Twitter search results, Tweets, profiles, followers & replies through\nREST, MCP, SDKs, CLI, webhooks & Apify. Xquik charges only for delivered,\nunique, filter-matching results and never pads rows.\n\n> Xquik is an independent third-party service. Not affiliated with X Corp.\n> \"Twitter\" and \"X\" are trademarks of X Corp.\n\n  \n    \n      \n        \n      \n      \n      <strong>Framer demo</strong>\n      \n      <sub>Watch Connect Framer to Claude Code, Codex, Cursor, and more at 6:07 for the Xquik MCP connection.</sub>\n    \n  \n\nYou need an `XQUIK_API_KEY` for the request below. Public reads need no official\nX developer account or connected X account.\n\nPrivate reads and X account actions require a connected X account. Never send\nan X password, cookie, session export, or 2FA code to Xquik or an agent.\n\n## Trust & usage\n\n- 53,000+ downloads of Xquik's Twitter API packages on npm, PyPI, RubyGems, NuGet, Packagist & Terraform ([source](https://xquik.com/trust#downloads)) \n- 9,500+ users of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) \n- 6,700,000+ runs of Xquik's Twitter scraper Actors on Apify ([source](https://apify.com/xquik)) \n- 4.66 of 5 for the X Tweet Scraper from 16 Apify reviews ([source](https://apify.com/xquik/x-tweet-scraper/reviews)) \n- 4,000+ accounts on xquik.com ([source](https://xquik.com/trust#accounts)) \n- 1,600+ installs of Xquik's Twitter Skills on skills.sh ([source](https://xquik.com/trust#skill-installs)) \n- $39,000+ in revenue verified by TrustMRR ([source](https://trustmrr.com/startup/xquik)) \n- 13.2 s p99 REST API server read time over 7 days, failed reads included ([source](https://xquik.com/trust#speed)) \n- 380+ GitHub stars across Xquik's repos ([source](https://github.com/Xquik-dev)) \n- 9,900+ downloads of x-developer on npm ([source](https://www.npmjs.com/package/x-developer)) \n- 1,500+ installs of this repo's Skills on skills.sh ([source](https://skills.sh/xquik-dev/x-twitter-scraper)) \n- 1,700+ downloads of x-scraper on ClawHub ([source](https://clawhub.ai/xquik/skills/x-scraper)) \n- This repo meets the OpenSSF Best Practices passing criteria ([source](https://www.bestpractices.dev/projects/13731)) \n\nChecked on 2026-10-25. See each number with its date & source on [xquik.com/trust](https://xquik.com/trust) or as [JSON](https://xquik.com/trust.json).\n\n## Run 1 request\n\nCreate an API key in the\n[Xquik dashboard](https://dashboard.xquik.com/en/account?tab=api-keys). Then run this request.\n\n```bash\nexport XQUIK_API_KEY='xq_replace_me'\n\ncurl --get 'https://xquik.com/api/v1/x/tweets/search' \\\n  --header \"x-api-key: ${XQUIK_API_KEY}\" \\\n  --data-urlencode 'q=machine learning' \\\n  --data-urlencode 'language=en' \\\n  --data-urlencode 'minLikes=100' \\\n  --data-urlencode 'replies=exclude' \\\n  --data-urlencode 'retweets=exclude' \\\n  --data-urlencode 'quotes=exclude' \\\n  --data-urlencode 'limit=25'\n```\n\nThe live OpenAPI contract defines this response shape.\n\n```ts\ntype SearchResponse = {\n  filtered_count?: number;\n  tweets: Array<{\n    id: string;\n    text: string;\n    createdAt?: string;\n    likeCount: number;\n    retweetCount: number;\n    replyCount: number;\n    quoteCount: number;\n    viewCount: number;\n    bookmarkCount: number;\n    author?: {\n      id: string;\n      username: string;\n      name: string;\n      verified?: boolean;\n    };\n  }>;\n  has_next_page: boolean;\n  next_cursor: string;\n  diagnostic?: object;\n};\n```\n\nValues come from X when the request runs. The response omits unavailable\noptional fields. Follow `next_cursor` while `has_next_page` is `true`. A filtered page\ncan be empty and still have another page.\n\nThis request can return up to 25 billed Tweets. Search costs 1 credit per\nreturned Tweet. At the $0.00015 pay-as-you-go rate, 25 Tweets cost at most\n$0.00375. The first pay-as-you-go funding amount is $10. Unused credits carry\nover.\n\n[Read the Tweet search reference](https://docs.xquik.com/api-reference/x/search-tweets)\nor [open the complete documentation](https://docs.xquik.com).\n\n## Why choose Xquik\n\nXquik suits filter-heavy jobs. It bills delivered results and supports\nserver-side filters.\n\nChoose Xquik when you need several of these together.\n\n- Structured X data with 1 API key\n- Server-side Tweet and profile filters\n- Per-result billing and pre-run estimates\n- Bulk jobs, cursors, result caps, and file exports\n- Account and keyword monitors\n- Signed webhooks and replayable events\n- REST, SDK, MCP, CLI, Skill, and Actor access\n- Connected X account actions in the same contract\n\nChoose the official X API when you need its exact contract, support, or\nplatform relationship.\n\n## Install the Skills\n\nThis repository is also a portable Agent Plugins v1 package. Compatible clients\ndiscover its bundled Skills and hosted MCP server from the root manifests.\n\nInstall the primary Skill for any compatible agent.\n\n```bash\nbunx skills@1.5.3 add Xquik-dev/x-twitter-scraper\n```\n\nInspect the shadcn registry item before adding the same Skill.\n\n```bash\nbunx shadcn@4.18.0 view Xquik-dev/x-twitter-scraper/x-twitter-scraper\nbunx shadcn@4.18.0 add Xquik-dev/x-twitter-scraper/x-twitter-scraper\n```\n\nTo move app code off the official X API, add the\n[X API alternative Skill](https://github.com/Xquik-dev/x-api).\n\n```bash\nbunx skills@1.5.3 add Xquik-dev/x-api\n```\n\n### LobeHub\n\nUse LobeHub CLI 0.0.48 or later. Sign in, install the Skills, then confirm them.\n\n```bash\nlh login\nlh skill install https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/x-twitter-scraper\nlh skill install https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/xquik-mcp\nlh skill install https://github.com/Xquik-dev/x-twitter-scraper/tree/ma\n\n…",
+      "truncated": true,
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper#readme"
+    }
+  },
+  {
     "id": "mcp:io-github-guardbee-memory-poisoning-scanner",
     "name": "memory-poisoning-scanner",
     "qualifiedName": "io.github.GuardBee/memory-poisoning-scanner",
