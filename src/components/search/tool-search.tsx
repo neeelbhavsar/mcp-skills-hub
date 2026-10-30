@@ -6,7 +6,7 @@ import { Search, Wrench, X } from "lucide-react";
 import type { ToolIndexEntry } from "@/lib/view";
 // From utils, not data: importing lib/data here pulled the whole catalog
 // into the client bundle.
-import { toolSlug } from "@/lib/utils";
+import { toolHref } from "@/lib/view";
 import { useLazyJson } from "@/lib/lazy-json";
 import { tokenize } from "@/lib/search";
 
@@ -100,7 +100,7 @@ export function ToolSearch({
           {results.map((entry) => (
             <li key={`${entry.slug}-${entry.tool}`}>
               <Link
-                href={`/tools/${toolSlug(entry.tool)}`}
+                href={toolHref(entry.tool, entry.slug, entry.shared)}
                 className="ring-focus flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50"
               >
                 <Wrench className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted-2" />

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronDown, Lock, Wrench } from "lucide-react";
 import type { Mcp } from "@/lib/types";
 import { cn, toolSlug } from "@/lib/utils";
+import { toolAnchor } from "@/lib/view";
 
 /**
  * The tools a server actually exposes, with their input schemas.
@@ -19,7 +20,11 @@ import { cn, toolSlug } from "@/lib/utils";
 /** Only what the panel reads; the full record (README, inspection) stays on the server. */
 export type ToolsPanelServer = Pick<Mcp, "name" | "tools" | "toolsStatus" | "toolsSource" | "packages">;
 
-export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
+export function ToolsPanel({ mcp, shared = [] }: { mcp: ToolsPanelServer; shared?: string[] }) {
+  // Names of this server's tools that other servers expose too: only those
+  // have a /tools page. The rest used to link to thin single-server pages
+  // that Google discovered by the hundred and declined to index.
+  const sharedSet = new Set(shared);
   const tools = mcp.tools ?? [];
   const [open, setOpen] = useState<string | null>(null);
   const packaged = mcp.packages.length > 0;
@@ -65,7 +70,7 @@ export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
           const isOpen = open === tool.name;
           const hasInputs = !!tool.inputs?.length;
           return (
-            <li key={tool.name}>
+            <li key={tool.name} id={toolAnchor(tool.name)} className="scroll-mt-24">
               <div className="flex items-start gap-3 px-4 py-3 transition-colors hover:bg-surface-2/50">
                 {/*
                   Always rendered, never behind a toggle: these are the only
@@ -73,13 +78,17 @@ export function ToolsPanel({ mcp }: { mcp: ToolsPanelServer }) {
                   index pointing at them, Google discovered those pages and then
                   declined to crawl a single one.
                 */}
-                <Link
-                  href={`/tools/${toolSlug(tool.name)}`}
-                  className="ring-focus shrink-0 font-mono text-sm text-brand-2 hover:underline"
-                  title={`Servers exposing ${tool.name}`}
-                >
-                  {tool.name}
-                </Link>
+                {sharedSet.has(tool.name) ? (
+                  <Link
+                    href={`/tools/${toolSlug(tool.name)}`}
+                    className="ring-focus shrink-0 font-mono text-sm text-brand-2 hover:underline"
+                    title={`Other servers exposing ${tool.name}`}
+                  >
+                    {tool.name}
+                  </Link>
+                ) : (
+                  <code className="shrink-0 font-mono text-sm text-foreground">{tool.name}</code>
+                )}
                 <span className="min-w-0 flex-1 text-sm text-muted">{tool.description}</span>
                 {hasInputs && (
                   <button

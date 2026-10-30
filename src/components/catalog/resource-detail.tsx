@@ -19,11 +19,11 @@ import { ResourceCard } from "./resource-card";
 import { healthOf, requirementsOf } from "@/lib/health";
 import { maintenanceWarning } from "@/lib/trust";
 import { installPrompt } from "@/lib/ai-targets";
-import { alternativesTo, meta, relatedRepos, relatedSkills } from "@/lib/data";
+import { alternativesTo, getToolPage, meta, relatedRepos, relatedSkills } from "@/lib/data";
 import { mcpGlance, skillGlance } from "@/lib/glance";
 import { CodeBlock } from "@/components/fx/code-block";
 import { usagePanels } from "@/lib/usage-panels";
-import { formatStars, timeAgo } from "@/lib/utils";
+import { formatStars, timeAgo, toolSlug } from "@/lib/utils";
 import { KIND_META, SITE_URL, absoluteUrl, breadcrumbJsonLd, jsonLdScript, resourcePath } from "@/lib/seo";
 
 /** Registry page for a package, which is where it is actually downloaded from. */
@@ -290,6 +290,7 @@ export function ResourceDetail({ item }: { item: CardItem }) {
       {mcp && (
         <ToolsPanel
           mcp={{ name: mcp.name, tools: mcp.tools, toolsStatus: mcp.toolsStatus, toolsSource: mcp.toolsSource, packages: mcp.packages }}
+          shared={(mcp.tools ?? []).filter((t) => (getToolPage(toolSlug(t.name))?.providers.length ?? 0) > 1).map((t) => t.name)}
         />
       )}
       {mcp && <CapabilityPanel mcp={without(mcp, "readme", "tools")} />}
