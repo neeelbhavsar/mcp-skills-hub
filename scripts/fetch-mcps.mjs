@@ -3,6 +3,7 @@
 // glama.ai/api/mcp/v1/servers (now requires a bearer token; set GLAMA_API_KEY
 // to enable it — without the key that source is skipped, not fatal).
 
+import { readFile } from "node:fs/promises";
 import { getJSON, slugify, clean, categorize, log, sleep } from "./lib/util.mjs";
 import { attachRepoMeta } from "./lib/github.mjs";
 import { resolveNpmPackages } from "./lib/npm.mjs";
@@ -143,9 +144,12 @@ const PER_NAMESPACE = 3;
 
 /** Official MCP Registry — clean JSON, install/package metadata. */
 async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
+  const previousEntries = await previousRegistryEntries();
+  const previous = new Set(previousEntries.keys());
   const out = [];
   let cursor = "";
   let pages = 0;
+  let complete = false;
   try {
     while (pages++ < REGISTRY_MAX_PAGES) {
       const url = `https://registry.modelcontextprotocol.io/v0/servers?limit=100${cursor ? `&cursor=${cursor}` : ""}`;
@@ -193,18 +197,42 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
       if (!cursor || servers.length === 0) break;
       await sleep(250);
     }
+    complete = true;
   } catch (err) {
-    // A partial read is still better ranked than a truncated alphabetical one.
     log(`official registry failed after ${out.length} servers: ${err.message}`);
+  }
+
+  // On a partial read, "not seen" does not mean "removed from the registry":
+  // carry those servers over from the last snapshot instead of dropping them.
+  if (!complete) {
+    const seen = new Set(out.map((x) => x.slug));
+    const carried = [...previousEntries.values()].filter((m) => !seen.has(m.slug));
+    out.push(...carried);
+    log(`official registry: partial read, carried ${carried.length} listed servers over unchanged`);
   }
 
   // One entry per slug (the feed can repeat a name across versions), then the
   // best-ranked `keep`, newest first within a score.
   const unique = [...new Map(out.map((s) => [s.slug, s])).values()];
   const perNamespace = new Map();
-  const kept = unique
+  // Stickiness. A server that is already in the catalog stays as long as the
+  // registry still lists it; only the free slots are competed for. Ranking
+  // alone broke ties by publish date under a fixed cap, so every refresh
+  // pushed ~128 servers out and ~128 in — a quarter of the catalog's pages
+  // turning into 404s daily, and Google parking the rest as "Discovered –
+  // currently not indexed".
+  const retained = unique.filter((s) => previous.has(s.slug));
+  for (const s of retained) {
+    const ns = s.qualifiedName.split("/")[0];
+    perNamespace.set(ns, (perNamespace.get(ns) ?? 0) + 1);
+  }
+  const free = Math.max(0, keep - retained.length);
+  const added = unique
+    .filter((s) => !previous.has(s.slug))
     .map((s) => ({ s, score: registryScore(s), t: s.updatedAt ? Date.parse(s.updatedAt) : 0 }))
-    .sort((a, b) => b.score - a.score || b.t - a.t)
+    // Ties go to the older entry: a newer one will still be there tomorrow,
+    // and "newest first" was what made the selection move every day.
+    .sort((a, b) => b.score - a.score || a.t - b.t || a.s.slug.localeCompare(b.s.slug))
     .filter(({ s }) => {
       const ns = s.qualifiedName.split("/")[0];
       const n = perNamespace.get(ns) ?? 0;
@@ -212,10 +240,28 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
       perNamespace.set(ns, n + 1);
       return true;
     })
-    .slice(0, keep)
+    .slice(0, free)
     .map((x) => x.s);
-  log(`official registry: ${unique.length} live servers read, ${kept.length} kept`);
+  const kept = [...retained, ...added];
+  log(
+    `official registry: ${unique.length} live servers read, ${retained.length} retained, ${added.length} added ` +
+      `(${previous.size - retained.length} previously listed are gone from the registry)`,
+  );
   return kept;
+}
+
+/** Registry servers in the committed catalog, by slug, so the refresh can keep them stable. */
+async function previousRegistryEntries() {
+  try {
+    const raw = await readFile(new URL("../src/data/mcps.json", import.meta.url), "utf8");
+    return new Map(
+      JSON.parse(raw)
+        .filter((m) => m.source === "MCP Registry")
+        .map((m) => [m.slug, m]),
+    );
+  } catch {
+    return new Map();
+  }
 }
 
 /** Glama registry — adds tools/attributes/license enrichment. */

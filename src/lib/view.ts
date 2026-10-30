@@ -1,6 +1,7 @@
 import type { Skill, Mcp, Repo, ResourceKind } from "./types";
 import { launchFor } from "./compat";
 import { overallLevel, trustSignals } from "./trust";
+import { toolSlug } from "./utils";
 
 export interface Pill {
   label: string;
@@ -174,15 +175,32 @@ export interface ToolIndexEntry {
   description: string | null;
   server: string;
   slug: string;
+  /** Exposed by more than one server, so it has its own /tools page. */
+  shared: boolean;
 }
 
 export function toolIndexOf(servers: Mcp[]): ToolIndexEntry[] {
+  const counts = new Map<string, number>();
+  for (const m of servers) for (const t of m.tools ?? []) counts.set(toolSlug(t.name), (counts.get(toolSlug(t.name)) ?? 0) + 1);
   return servers.flatMap((m) =>
     (m.tools ?? []).map((t) => ({
       tool: t.name,
       description: t.description ? t.description.slice(0, 140) : null,
       server: m.name,
       slug: m.slug,
+      shared: (counts.get(toolSlug(t.name)) ?? 0) > 1,
     })),
   );
+}
+
+/**
+ * Where a tool links. Only tools shared by several servers have a page of
+ * their own; a single-server tool lives on its server's page, as an anchor.
+ */
+export function toolHref(name: string, serverSlug: string, shared: boolean) {
+  return shared ? `/tools/${toolSlug(name)}` : `/mcps/${serverSlug}#${toolAnchor(name)}`;
+}
+
+export function toolAnchor(name: string) {
+  return `tool-${toolSlug(name)}`;
 }

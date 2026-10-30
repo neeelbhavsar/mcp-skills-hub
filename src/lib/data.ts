@@ -196,7 +196,8 @@ export function relatedTools(page: ToolPage, limit = 12): ToolPage[] {
       o.endsWith(`-${base}`) || o.startsWith(`${base}-`)
     ) && (sep.test(base) || base.length >= 5);
   };
-  return toolPages.filter((t) => related(t.name)).slice(0, limit);
+  // Shared tools only: single-server tool URLs redirect to their server page.
+  return toolPages.filter((t) => t.providers.length > 1 && related(t.name)).slice(0, limit);
 }
 
 /** Other skills in the same category, most-starred first. */

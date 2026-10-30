@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { Wrench } from "lucide-react";
 import { toolPages, getToolPage, relatedTools } from "@/lib/data";
@@ -10,6 +10,7 @@ import { PageHeader } from "@/components/layout/page-header";
 import { absoluteUrl, breadcrumbJsonLd, jsonLdScript, ogTitle, resourcePath } from "@/lib/seo";
 import { isIndexableTool } from "@/lib/tool-index";
 import { clip } from "@/lib/utils";
+import { toolAnchor } from "@/lib/view";
 
 export const dynamicParams = false;
 
@@ -78,6 +79,13 @@ export default async function ToolPage({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const page = getToolPage(slug);
   if (!page) notFound();
+
+  // Exposed by one server only: this page restated one row of that server's
+  // page, and ~600 of them sat in "Discovered/Crawled – not indexed". The
+  // URL keeps working, as a 308 to the row itself.
+  if (!isIndexableTool(page.name, page.providers.length)) {
+    permanentRedirect(`${resourcePath("mcps", page.providers[0].server.slug)}#${toolAnchor(page.name)}`);
+  }
 
   const count = page.providers.length;
   const related = relatedTools(page);
