@@ -1,134 +1,149 @@
 <div align="center">
 
+<a href="https://mcp-skills-hub.vercel.app">
+  <img src="docs/screenshots/home.png" alt="MCP Skills Hub — every MCP server and Agent Skill, ready to paste into your AI" width="100%">
+</a>
+
 # MCP Skills Hub
 
-**Find the right MCP server or Agent Skill — and get setup that actually works
-in your client.**
+**Find the right MCP server or Agent Skill — and get a config that actually works in your client.**
 
-### [→ Open the library](https://mcp-skills-hub.vercel.app)
+[![MCP servers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmcp-skills-hub.vercel.app%2Fapi%2Fmcps&query=%24.count&label=MCP%20servers&color=7c6bff&style=flat-square)](https://mcp-skills-hub.vercel.app/mcps)
+[![Agent Skills](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmcp-skills-hub.vercel.app%2Fapi%2Fskills&query=%24.count&label=Agent%20Skills&color=22d3ee&style=flat-square)](https://mcp-skills-hub.vercel.app/skills)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmcp-skills-hub.vercel.app%2Fapi%2Frepos&query=%24.count&label=repos&color=34d399&style=flat-square)](https://mcp-skills-hub.vercel.app/repos)
+[![Data refresh](https://img.shields.io/github/actions/workflow/status/neeelbhavsar/mcp-skills-hub/refresh-data.yml?label=data%20refresh&style=flat-square)](https://github.com/neeelbhavsar/mcp-skills-hub/actions/workflows/refresh-data.yml)
+[![License: MIT](https://img.shields.io/github/license/neeelbhavsar/mcp-skills-hub?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/neeelbhavsar/mcp-skills-hub?style=flat-square)](https://github.com/neeelbhavsar/mcp-skills-hub/stargazers)
 
-[![Live site](https://img.shields.io/badge/open-mcp--skills--hub.vercel.app-7c6bff?style=for-the-badge)](https://mcp-skills-hub.vercel.app)
+**[Open the site](https://mcp-skills-hub.vercel.app)** ·
+**[Best MCP servers](https://mcp-skills-hub.vercel.app/best-mcp-servers)** ·
+**[Config generator](https://mcp-skills-hub.vercel.app/setup)** ·
+**[Setup guides](https://mcp-skills-hub.vercel.app/clients)** ·
+**[API](https://mcp-skills-hub.vercel.app/developers)**
 
-[![Data refreshed daily](https://img.shields.io/badge/data-refreshed%20daily-34d399?style=flat-square)](https://mcp-skills-hub.vercel.app)
-[![RSS](https://img.shields.io/badge/RSS-new%20servers-fbbf24?style=flat-square)](https://mcp-skills-hub.vercel.app/feed.xml)
-[![JSON API](https://img.shields.io/badge/JSON-API-22d3ee?style=flat-square)](https://mcp-skills-hub.vercel.app/api/mcps)
-
-**266** MCP servers · **314** Agent Skills · **125** repos · refreshed every morning
-
-**Nothing to install.** It's a website — [just open it](https://mcp-skills-hub.vercel.app).
+Works with **Claude Code · Claude Desktop · Cursor · VS Code · Windsurf · Cline · Codex**
+Nothing to install — it's a website. Refreshed every morning from the official MCP Registry.
 
 </div>
 
+> [!TIP]
+> If it saves you from hand-editing one more `mcp.json`, a ⭐ helps other developers find it.
+
 ---
 
-Every directory can show you a list. The problem starts *after* you pick something: the
-config you copy is wrong for your client, you have no idea whether the server is maintained,
-and installing five of them means hand-merging five JSON blocks.
+Every directory can show you a list. The trouble starts *after* you pick something:
 
-This one is built around those three problems.
+1. **The config you copy is wrong for your client.** Each one wants a different file, key and shape — and remote servers need a different config from local ones.
+2. **You can't tell whether it's maintained, or what it can do on your machine.**
+3. **Installing five servers means hand-merging five JSON blocks** — and remembering which need an API key.
 
-## 🎯 Configs that actually work
+MCP Skills Hub is built around those three problems.
 
-**77% of servers are remote-only**, and most directories hand you a stdio config for them
-anyway — `claude mcp add name -- https://…` tells Claude Code to execute a URL as a binary.
-Here every snippet is generated from the server's real transport, per client:
+## 🎯 Install steps that are right for your client
 
-|  | Remote server | Packaged server |
+Every server page has copy-paste steps for **all seven clients**, generated from the server's real transport — not one generic snippet.
+
+<img src="docs/screenshots/install-tabs.png" alt="Per-client install steps for the Filesystem MCP server, with the Cursor tab selected" width="100%">
+
+|  | Remote server | Local (packaged) server |
 |---|---|---|
-| **Claude Code** | `--transport http` | `-- npx -y <pkg>` |
-| **VS Code** | `"type": "http"` | `"type": "stdio"` |
+| **Claude Code** | `claude mcp add --transport http …` | `claude mcp add name -- npx -y <pkg>` |
+| **VS Code** | `"servers"` + `"type": "http"` | `"servers"` + `"type": "stdio"` |
 | **Cursor** | `url` | `command` + `args` |
-| **Windsurf** | `serverUrl` | `command` + `args` |
-| **Cline** | `streamableHttp` | `command` + `args` |
-| **Claude Desktop / Codex** | bridged via `mcp-remote` | native |
+| **Windsurf** | `serverUrl` (not `url`) | `command` + `args` |
+| **Cline** | `"type": "streamableHttp"` | `command` + `args` |
+| **Claude Desktop / Codex** | bridged through `mcp-remote` | native |
 
-Claude Desktop and Codex only launch local processes, so remote servers get wrapped in
-`mcp-remote` automatically — and the page tells you why.
+Required arguments and API keys are filled in as placeholders (`<GITHUB_TOKEN>`), so the config never *looks* complete and then fails on first launch. One-click install links for VS Code and Cursor are on every page too.
 
-**[One-click install](https://mcp-skills-hub.vercel.app/mcps)** into VS Code and Cursor,
-straight from any server's page.
+## 🧰 One config for every server you need
+
+Tick servers as you browse, then open the **[config generator](https://mcp-skills-hub.vercel.app/setup)**: one merged file for your client, with the `mcp-remote` bridges inserted where it needs them.
+
+<img src="docs/screenshots/setup-builder.png" alt="The setup builder merging four servers into one .cursor/mcp.json" width="100%">
+
+- **Download** the file, or copy it
+- **Pin package versions** so the whole team runs the same code
+- **Project `.mcp.json`** for Claude Code, ready to commit
+- **Share a stack** as a link — or start from a [curated collection](https://mcp-skills-hub.vercel.app/stacks)
 
 ## 🛡️ Know what you're installing
 
-An MCP server runs with your credentials, and a stdio one executes code on your machine.
-Every server page states, plainly:
+An MCP server runs with your credentials, and a local one executes code on your machine. Every server page states, with sources:
 
-- **What the code can actually do** — the published package is downloaded and parsed (never run),
-  and every capability it reaches for is listed with the file and line: *"this server can run other
-  programs on your machine"*
-- **How it was published** — npm trusted-publisher identity, provenance attestation, maintainer
-  count, and whether anything runs on install
-- **What it can reach** — local execution with your permissions, or data sent to a named third-party host
-- **Whether it's maintained** — last commit, archived, fork, license, stars
-- **Whether anyone uses it** — npm weekly downloads, publish recency, deprecation
-- **Whether it is what it claims** — the package's declared repo vs. the registry's
+- **What the code can do** — the published npm package is downloaded and parsed (never run), and every capability it reaches for is listed with the file and line
+- **How it was published** — trusted-publisher identity, provenance, maintainers, install scripts
+- **Whether it's maintained and used** — last commit, archived, stars, weekly downloads, deprecation
+- **A transparent [health score](https://mcp-skills-hub.vercel.app/health-score)** — every component and weight is published; anything that can't be measured is left out rather than scored as zero
 
-These are *signals*, not a safety score. None proves a server is safe or malicious — the page
-says what it knows, cites where it saw it, and lets you decide. Source analysis is descriptive
-rather than judgmental: a filesystem server reading files is the product working. Its limits are
-printed next to the findings, not in a footnote — dependencies aren't analyzed, bundled code
-can't be attributed to the author, and nothing assembled at runtime is visible. Maintainers can
-[submit a correction](https://mcp-skills-hub.vercel.app/submit).
+These are signals, not a safety verdict. The page says what it knows, cites where it saw it, and lets you decide.
 
-## 🧰 Set up ten servers at once
+<img src="docs/screenshots/best-servers.png" alt="The best MCP servers, ranked by health score" width="100%">
 
-Tick servers as you browse, then open **[the setup builder](https://mcp-skills-hub.vercel.app/setup)**
-for one merged config — JSON for editors, a shell script for Claude Code, with bridges
-inserted where your client needs them.
+## 🔎 Find a server by what it does
 
-## 🤖 Use it from inside your assistant
+- **[Best MCP servers](https://mcp-skills-hub.vercel.app/best-mcp-servers)** — ranked by health score, recomputed daily, with the reason each made the list
+- **[Search by tool](https://mcp-skills-hub.vercel.app/tools)** — *which server has a `create_issue` tool?* Tool lists are read from the live servers, or from their docs
+- **[Use cases](https://mcp-skills-hub.vercel.app/use-cases)** — query Postgres, automate a browser, work with GitHub
+- **[Setup guides](https://mcp-skills-hub.vercel.app/clients)** — where each client keeps its config, and fixes for the errors everyone hits
+- **⌘K search** across every server, skill, repo and tool
 
-An MCP server that finds MCP servers. Ask *"find me an MCP server for fetching web pages and
-install it"* and your assistant searches the catalog, then hands back the config.
+<p align="center"><img src="docs/screenshots/mobile.png" alt="The catalog on a phone" width="300"></p>
+
+## 🤖 Use it from your assistant
+
+An MCP server that finds MCP servers. Ask *"find me an MCP server for Postgres and install it"* — your assistant searches the catalog and hands back the config.
 
 ```bash
-# not on npm yet — run it from a clone
+# from a clone of this repo — an npm package (npx -y mcp-skills-hub) is on the way
 claude mcp add mcp-skills-hub -- node /absolute/path/to/mcp-skills-hub/mcp-server/index.mjs
 ```
 
-Prefer to query it yourself? Everything is available as static JSON:
+Or query the data directly — read-only, no key, CORS open:
 
 | Endpoint | Contents |
 |---|---|
-| [`/api/mcps`](https://mcp-skills-hub.vercel.app/api/mcps) | Every server with launch config, config key and trust signals |
-| [`/api/skills`](https://mcp-skills-hub.vercel.app/api/skills) | Every Agent Skill with source and author |
-| [`/api/repos`](https://mcp-skills-hub.vercel.app/api/repos) | Star-ranked repos with topics and language |
-| [`/feed.xml`](https://mcp-skills-hub.vercel.app/feed.xml) | The 50 most recently published servers |
-| [`/llms.txt`](https://mcp-skills-hub.vercel.app/llms.txt) | Plain-text site map for agents |
+| [`/api/mcps`](https://mcp-skills-hub.vercel.app/api/mcps) | Every server: launch config, health score, trust signals, credentials, tools |
+| [`/api/skills`](https://mcp-skills-hub.vercel.app/api/skills) · [`/api/repos`](https://mcp-skills-hub.vercel.app/api/repos) | Every Agent Skill and repo |
+| [`/md/mcps/<slug>`](https://mcp-skills-hub.vercel.app/md/mcps/official-filesystem) | Any server page as Markdown, with install steps for every client |
+| [`/llms.txt`](https://mcp-skills-hub.vercel.app/llms.txt) · [`/llms-full.txt`](https://mcp-skills-hub.vercel.app/llms-full.txt) | The catalog for language models |
+| [`/openapi.json`](https://mcp-skills-hub.vercel.app/openapi.json) · [`/feed.xml`](https://mcp-skills-hub.vercel.app/feed.xml) | OpenAPI description · RSS of new servers |
 
-## Also on the site
+## 🏷️ Maintain an MCP server? Add your badge
 
-- **⌘K search** across all 705 resources at once, with typo tolerance
-- **[Use-case pages](https://mcp-skills-hub.vercel.app/use-cases)** — *"query a database"*,
-  *"browse the web"* — with practical guidance, and an honest note where the catalog's
-  coverage is thin
-- **Client compatibility filter** — *runs natively in Windsurf*
-- **Light and dark themes**, applied before first paint
+Every listed server has a live badge showing its health grade — copy the snippet from your server's page:
+
+```markdown
+[![Filesystem on MCP Skills Hub](https://mcp-skills-hub.vercel.app/badge/official-filesystem)](https://mcp-skills-hub.vercel.app/mcps/official-filesystem)
+```
+
+Not listed, or something wrong? **[Submit or correct it](https://mcp-skills-hub.vercel.app/submit)**.
 
 ## Where the data comes from
 
-Refreshed every morning at 06:00 UTC, so the catalog never goes stale.
+A GitHub Action rebuilds the catalog every morning at 06:00 UTC.
 
 | Catalog | Sources |
 |---|---|
-| **MCP servers** | [Official MCP Registry](https://registry.modelcontextprotocol.io) + the reference servers from [`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers) |
+| **MCP servers** | The [official MCP Registry](https://registry.modelcontextprotocol.io) (all ~20,000 entries read, the best-ranked kept) and the reference servers from [`modelcontextprotocol/servers`](https://github.com/modelcontextprotocol/servers) — enriched from npm, PyPI and GitHub |
 | **Skills** | [`anthropics/skills`](https://github.com/anthropics/skills), `claude-plugins-official`, and community awesome-lists |
-| **Repos** | GitHub Search API, star-ranked by topic |
+| **Repos** | GitHub Search, star-ranked by topic |
 
-The registry publishes almost no filesystem, git or database servers — those live in the
-reference repo and never got registry entries, so they're pulled in separately. The archived
-ones (Postgres, SQLite, Redis, Puppeteer) are deliberately left out rather than shipping
-install configs for dead code.
+## Contributing
 
----
+Contributions are very welcome — see **[CONTRIBUTING.md](CONTRIBUTING.md)**. Good places to start:
+
+- **Report a config that doesn't work** in your client — the most valuable bug there is
+- **Suggest a server or skill** that's missing
+- **Add a use case** — one entry in [`src/lib/use-cases.ts`](src/lib/use-cases.ts)
+- **Add an AI client** — one entry in [`src/lib/ai-targets.ts`](src/lib/ai-targets.ts)
 
 <details>
-<summary><b>Running it yourself</b> — you don't need this to use the library</summary>
+<summary><b>Running it locally</b></summary>
 
 <br>
 
-Next.js 16 (App Router) · Tailwind v4 · no database, no server. Static JSON is committed to
-`src/data/`, every page is pre-rendered, the whole site is CDN-cacheable.
+Next.js 16 (App Router) · Tailwind v4 · no database. The catalog is static JSON committed to `src/data/`, every page is pre-rendered, and the whole site is CDN-cacheable.
 
 ```bash
 npm install
@@ -138,53 +153,37 @@ npm run build
 npm run lint
 ```
 
-**`GITHUB_TOKEN` is required for trust signals.** Star counts, maintenance data and the
-"Popular" sort come from the GitHub GraphQL API. Without a token the pipeline degrades
-gracefully — it skips those fields rather than hitting the unauthenticated rate limit — but
-trust panels will be sparse. CI supplies one automatically.
+**`GITHUB_TOKEN` enables trust signals.** Stars and maintenance data come from the GitHub GraphQL API. Without a token the pipeline skips those fields rather than hitting the unauthenticated rate limit. CI supplies one automatically.
 
 ```bash
 GITHUB_TOKEN=ghp_… npm run data
 ```
 
-The pipeline refuses to overwrite a non-empty data file with an empty fetch and exits
-non-zero instead, so an upstream breaking change fails loudly rather than silently shipping
-an empty catalog.
-
-**Refreshing daily does not mean deploying daily.** The run hashes only the fields a visitor
-would notice — names, descriptions, packages, endpoints, tool signatures — and skips the
-commit entirely when nothing meaningful moved, so star drift and registry reordering no
-longer trigger a full rebuild. A weekly floor publishes anyway, so star counts and health
-scores cannot go stale behind unchanged content. See `scripts/lib/signature.mjs`.
-
-**Key modules**
+The pipeline never overwrites a non-empty data file with an empty fetch, keeps the catalog stable between runs (a listed server stays while the registry still has it), and only commits — and so redeploys — when something a visitor would notice has changed. See [`scripts/lib/signature.mjs`](scripts/lib/signature.mjs).
 
 | File | Role |
 |---|---|
-| `src/lib/ai-targets.ts` | Per-client config generation, deep links, merged configs |
-| `src/lib/compat.ts` | Launch resolution + client support matrix |
-| `src/lib/trust.ts` | Maintenance & supply-chain signals |
-| `src/lib/use-cases.ts` | Curated task pages |
-| `scripts/` | Data pipeline (plain Node, zero deps) |
-| `mcp-server/` | The directory, as an MCP server |
-
-**Adding an AI assistant** — add an entry to `AI_TARGETS` in `src/lib/ai-targets.ts` and a
-`case` in `mcpUsage` / `skillUsage` / `repoUsage`. Tabs, the setup builder and the
-compatibility matrix pick it up. If the client can't launch remote servers, add its id to
-`STDIO_ONLY` in `src/lib/compat.ts` and it gets bridged automatically.
-
-**Adding a use case** — append to `USE_CASES` in `src/lib/use-cases.ts`. The route, sitemap
-entry and FAQ JSON-LD are generated.
+| [`src/lib/ai-targets.ts`](src/lib/ai-targets.ts) | Per-client config generation, deep links, merged configs |
+| [`src/lib/compat.ts`](src/lib/compat.ts) | Launch resolution and the client support matrix |
+| [`src/lib/health.ts`](src/lib/health.ts) · [`src/lib/trust.ts`](src/lib/trust.ts) | Health score and trust signals |
+| [`scripts/`](scripts) | The daily data pipeline |
+| [`mcp-server/`](mcp-server) | The directory, as an MCP server |
 
 </details>
+
+## Star history
+
+<a href="https://star-history.com/#neeelbhavsar/mcp-skills-hub&Date">
+  <img src="https://api.star-history.com/svg?repos=neeelbhavsar/mcp-skills-hub&type=Date" alt="Star history chart" width="600">
+</a>
 
 ---
 
 <div align="center">
 
-**[Open the library →](https://mcp-skills-hub.vercel.app)**
+**[Open MCP Skills Hub →](https://mcp-skills-hub.vercel.app)**
 
-*Not affiliated with Anthropic, OpenAI, or Cursor.
-Resource data belongs to its respective owners.*
+Built by [Neel Bhavsar](https://neelbhavsar.vercel.app/) · [MIT License](LICENSE)
+*Not affiliated with Anthropic, OpenAI or Cursor. Listed resources belong to their respective owners.*
 
 </div>

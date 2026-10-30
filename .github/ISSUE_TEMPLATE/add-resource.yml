@@ -1,0 +1,46 @@
+name: Suggest a server or skill
+description: Something is missing from the catalog
+title: "Add: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The catalog is generated daily from public registries. Servers published to the
+        [MCP Registry](https://registry.modelcontextprotocol.io) appear automatically — if yours isn't there yet, publishing it is the fastest fix.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Repository or endpoint
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - MCP server
+        - Agent Skill
+        - GitHub repo
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+  - type: dropdown
+    id: published
+    attributes:
+      label: Where is it published?
+      options:
+        - MCP Registry
+        - npm / PyPI only
+        - GitHub only
+        - Somewhere else

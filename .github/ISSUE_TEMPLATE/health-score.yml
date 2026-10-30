@@ -1,0 +1,33 @@
+name: Challenge a health score
+description: A score, trust signal or code-inspection finding looks wrong
+title: "Health score: "
+labels: ["health-score"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Server page
+      placeholder: https://mcp-skills-hub.vercel.app/mcps/...
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Which part
+      options:
+        - Maintenance
+        - Adoption
+        - Transparency
+        - Provenance
+        - Packaging
+        - Code inspection ("what the code can do")
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it's wrong
+      description: The formula is published at https://mcp-skills-hub.vercel.app/health-score — say which part treats this server unfairly.
+    validations:
+      required: true

@@ -2,6 +2,28 @@
   "name": "mcp-skills-hub",
   "version": "0.1.0",
   "private": true,
+  "description": "Directory of MCP servers, Agent Skills and GitHub repos for Claude, Cursor, VS Code, Windsurf, Cline and Codex — with configs that work in each client, refreshed daily.",
+  "homepage": "https://mcp-skills-hub.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeelbhavsar/mcp-skills-hub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neeelbhavsar/mcp-skills-hub/issues"
+  },
+  "author": "Neel Bhavsar (https://neelbhavsar.vercel.app/)",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-servers",
+    "agent-skills",
+    "claude",
+    "cursor",
+    "vscode",
+    "ai-agents",
+    "directory"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/build.mjs",
