@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T12:30:42.699Z",
+  "generatedAt": "2026-10-31T12:01:32.139Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,528 +21,131 @@
       "baseline": true,
       "added": [
         {
-          "slug": "io-github-anonymousonyx22-syllabus-calendar-mcp",
-          "name": "syllabus-calendar-mcp",
-          "description": "Syllabus to calendar tools. Extract dates, build .ics files, expand classes.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-4robot-hexadata-tools",
-          "name": "hexadata-tools",
-          "description": "15 deterministic validation tools for AI agents: tax IDs (15 countries), VAT, IBAN, LEI, HS codes.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-partly-app-exact-split",
-          "name": "Partly Exact Split",
-          "description": "Split expenses in cents with equal/weighted shares and payer advances. No account or payments.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "com-certmadeeasy-exam-practice",
-          "name": "Cert Made Easy",
-          "description": "Look up certification exams and practise free exam-style questions with explanations.",
-          "category": "Other"
-        },
-        {
-          "slug": "gg-scrappy-cloud-browser",
-          "name": "Scrappy Cloud Browser",
-          "description": "Cloud browsers for AI agents: saved logins, residential IPs, live human takeover, 57 browser tools.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "co-codeways-codeways-mcp",
-          "name": "CodeWays — AI-Native Web, Mobile & Cloudflare Studio",
-          "description": "Explore CodeWays full-stack software engineering services, AI agent readiness, and project quotes.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-anshumanatrey-cornerstone-jobs-search",
-          "name": "Cornerstone Jobs Scraper & API - All CSOD Career Sites, Remote",
-          "description": "Cornerstone Jobs Scraper - Every CSOD Career Site",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-binggio-binggio",
-          "name": "Binggio",
-          "description": "Governed answers from your data: approved meanings only, refusals instead of guesses.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-keylineicons-mcp",
-          "name": "Keyline Icons",
-          "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-linkbreakers-mcp",
-          "name": "Linkbreakers MCP",
-          "description": "QR-driven customer-journey platform for tracked QR codes, short links, and analytics.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "io-github-contentrain-contentrain",
-          "name": "Contentrain",
-          "description": "Git-native content governance for AI agents — 27 deterministic MCP tools over stdio and HTTP.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-jointextkit-textkit",
-          "name": "TextKit",
-          "description": "SMS for developers: send and receive texts, verify phones, and buy US and Canada numbers.",
-          "category": "Other"
-        },
-        {
-          "slug": "dev-kodza-kodza",
-          "name": "Kodza",
-          "description": "Free premium UI components in plain HTML, CSS and vanilla JS, for AI coding assistants.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-msg91-mcp-mcp",
-          "name": "MSG91",
-          "description": "Find and call the right MSG91 API for SMS, OTP, WhatsApp, Email and Voice.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "io-clipwright-mcp",
-          "name": "Clipwright",
-          "description": "Talking-actor and faceless short videos from your AI agent, with a free quote before each render",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-flywheelstudio-ulink",
-          "name": "ulink",
-          "description": "Deep linking for iOS, Android, Flutter & React Native. Firebase Dynamic Links alternative.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-conduyt-mcp",
-          "name": "Conduyt CRM",
-          "description": "Conduyt CRM tools for AI agents: contacts, deals, pipelines, tasks, automations, messaging, reports",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "dev-mcphost-mcphost",
-          "name": "mcphost",
-          "description": "Hosted MCP runtime where your agent publishes its own tools by tool call and keeps working.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-aisenseapi-free-public-tools",
-          "name": "AI SENSE Free Public Tools",
-          "description": "73 public tools: agent handoffs, one-time secrets, semantic search, queues, inboxes and webhooks.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-billingengine-mcp",
-          "name": "BillingEngine",
-          "description": "Create invoices and customers and record payments in BillingEngine from any MCP client.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "io-bugasura-bugasura",
-          "name": "Bugasura",
-          "description": "Bug tracking and test management: issues, test cases, sprints, runs, requirements and KB.",
-          "category": "Other"
-        },
-        {
-          "slug": "io-github-guardbee-security-suite",
-          "name": "security-suite",
-          "description": "Every GuardBee MCP security tool in one server: OWASP MCP Top 10, secrets, supply chain, TLS/DNS",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-guardbee-mcp-config-auditor",
-          "name": "mcp-config-auditor",
-          "description": "Scans Cursor/Claude/Windsurf/VS Code MCP configs for unpinned versions, secrets, typosquats",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-orangescrum-orangescrum-mcp-server",
-          "name": "Orangescrum MCP Server",
-          "description": "Manage Orangescrum projects, tasks, users, sprints, test cases, releases, and risks from AI tools.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "dev-zop-zopdev-mcp",
-          "name": "ZopDev MCP",
-          "description": "Cloud cost, inventory and governance on AWS/Azure/GCP. Read-only by default, optional scoped writes",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "dev-wirecat-cli-memo",
-          "name": "WireCat Memo",
-          "description": "People's context across messengers, notes and mail, from a local store. Set up the memo CLI first.",
+          "slug": "com-statejar-memory",
+          "name": "StateJar memory",
+          "description": "Verifiable memory for AI assistants: typed facts, content-addressed versions and an audit trail.",
           "category": "Docs & Knowledge"
         },
         {
-          "slug": "dev-wirecat-zoom-cli",
-          "name": "WireCat Zoom",
-          "description": "Zoom cloud recordings and transcripts for agents, kept on your computer. Sign in with zm first.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "dev-wirecat-tg-cli",
-          "name": "WireCat Telegram",
-          "description": "Your Telegram account for agents: read, search and send messages. Sign in with the tg CLI first.",
+          "slug": "io-github-cloudcorprecords-browserdebug",
+          "name": "browserdebug",
+          "description": "Debug web pages in Chrome: performance traces, network, console, snapshots, screenshots.",
           "category": "Web & Search"
         },
         {
-          "slug": "io-github-harusame64-desktop-touch-mcp",
-          "name": "desktop-touch-mcp",
-          "description": "Computer-use MCP for Windows 10/11: 32 tools — screenshot, UIA, Chrome CDP, type/click/scroll, VBA.",
+          "slug": "io-github-cloudcorprecords-browserstage",
+          "name": "browserstage",
+          "description": "Automate a browser with accessibility snapshots: navigate, click, type, fill and wait.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-graphicle-ai-graphicle",
-          "name": "Graphicle",
-          "description": "Code graph and project memory for coding agents, cited to exact files and lines, on your machine.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-chatcut-chatcut",
-          "name": "ChatCut",
-          "description": "AI video editor for agents: cut footage, add captions and motion graphics, export editable edits.",
+          "slug": "com-zaaheen-memory",
+          "name": "Zaaheen",
+          "description": "One encrypted memory for all your AI apps, on your computer. Needs the Zaaheen app (30 days free).",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-ghostpawjs-questlog",
-          "name": "GhostPaw Questlog",
-          "description": "Local tasks, calendar commitments, and recurring work.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "app-kilobat-kilobat",
-          "name": "Kilobat",
-          "description": "Mac networking for agents: per-app traffic, Wi-Fi, latency, DNS, why a host fails and keep-awake.",
+          "slug": "com-getdeeprecall-memory",
+          "name": "Deep Recall (getdeeprecall.com)",
+          "description": "One memory you own, shared by Claude, ChatGPT, Gemini, Muse and any remote MCP client.",
           "category": "AI & Memory"
         },
         {
-          "slug": "co-solidinvoice-mcp",
-          "name": "SolidInvoice",
-          "description": "Create and send invoices and quotes, manage clients, and track payments in SolidInvoice.",
-          "category": "Finance & Data"
+          "slug": "com-ierhub-license-lookup",
+          "name": "IERhub Texas electrician license lookup",
+          "description": "Look up Texas electrician licenses, renewal rules, TDLR forms and IERhub continuing education.",
+          "category": "Other"
         },
         {
-          "slug": "com-keboola-mcp",
-          "name": "Keboola MCP",
-          "description": "Connect your AI assistants to Keboola and expose your data, transformations, SQL queries, ...",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-scrapeunblocker-scrapeunblocker-mcp",
-          "name": "scrapeunblocker-mcp",
-          "description": "Fetch any web page's HTML or AI-parsed JSON, or run 100+ site plugins, via ScrapeUnblocker.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-scrapeunblocker-scrapeunblocker-mcp-remote",
-          "name": "scrapeunblocker-mcp-remote",
-          "description": "Fetch any page's HTML or AI-parsed JSON, Google results, or 100+ site plugins via ScrapeUnblocker",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "app-creatordb-mcp",
-          "name": "CreatorDB",
-          "description": "Creator discovery & analytics across YouTube, Instagram, TikTok (30M+) + brand/sponsor intel.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "ai-willder-willder",
-          "name": "Willder",
-          "description": "One memory for your AI agents: scoped, expiring, revocable per-agent tokens and an audit log.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "dev-markpin-mcp",
-          "name": "Markpin",
-          "description": "Search and read the web pages and highlights you saved with the Markpin Chrome extension.",
-          "category": "Web & Search"
+          "slug": "com-remote-mcp-registry-mcp",
+          "name": "registry-mcp",
+          "description": "An MCP server that serves informtaion from the official MCP registry",
+          "category": "Other"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-jkwy01-github-hot-board",
-          "name": "GitHub Hot Board",
-          "description": "GitHub hot-repo leaderboards: snapshots, movers, rank history. Read-only JSON, hourly batches.",
+          "slug": "io-github-iamsal-jira-easy-mcp",
+          "name": "jira-easy-mcp",
+          "description": "Self-hosted Jira Server/Data Center 7-10 for AI agents with username + password. 42 tools.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-jackxiaozhiren-datasentry",
-          "name": "DataSentry",
-          "description": "Local-first MCP server for data-quality discovery, evidence, drift, and controlled repair.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-jeanextreme002-pymemoryeditor",
-          "name": "PyMemoryEditor",
-          "description": "Read, write and scan process memory, Cheat Engine style, on Windows, Linux and macOS.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-j8k3-aws-payment-cryptography-mcp",
-          "name": "AWS Payment Cryptography",
-          "description": "AWS Payment Cryptography via MCP — keys, PIN/MAC/CVV/ARQC, PCI guards, HSM migration analysis.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "io-github-isaiahdupree-calendar-bridge",
-          "name": "calendar-bridge",
-          "description": "Connects ChatGPT to your Apple Calendar via a local Mac agent + Vercel relay",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-jdoornink-k8gents",
-          "name": "K8gentS — Kubernetes RCA MCP Server",
-          "description": "Kubernetes RCA agent that sandboxes its own AI with OPA Gatekeeper. MCP-ready for any client.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-pidgeon-mcp",
-          "name": "Pidgeon",
-          "description": "Email inboxes for AI agents: their own addresses, threads, sending, replies and arriving mail.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "app-bannerproof-bannerproof",
-          "name": "Bannerproof",
-          "description": "EU cookie-consent audit: trackers before consent, Reject all, Consent Mode v2, TCF; evidence + fixes",
-          "category": "Other"
-        },
-        {
-          "slug": "io-github-anshumanatrey-linkedin-harvester",
-          "name": "LinkedIn Profile Finder - Email to LinkedIn URL Lookup",
-          "description": "LinkedIn Profile Finder - Email to LinkedIn URL Lookup",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-rooyun-rooyun",
-          "name": "RooYun",
-          "description": "AI comic & short-drama studio: scripts to storyboards, image/video generation on an infinite canvas",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "io-github-andrewavery7-promptspend",
-          "name": "PromptSpend",
-          "description": "LLM pricing where every rate carries its source and the date it was last confirmed.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-speaktoyourdatabase-odoo-mcp",
-          "name": "Odoo MCP Connector for ChatGPT and Claude",
-          "description": "Odoo MCP connector for ChatGPT and Claude: ask sales, invoices and stock in plain words. Read-only.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "com-speaktoyourdatabase-styd",
-          "name": "Speak To Your Database",
-          "description": "Odoo MCP server, plus PostgreSQL and MySQL: ask your business data in ChatGPT or Claude. Read-only.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-serpier-serpier",
-          "name": "Serpier",
-          "description": "Monitor your brand's visibility in AI answers, track publications and manage SEO link orders.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "com-zenofirm-quickbooks-desktop",
-          "name": "Zeno",
-          "description": "Review-gated bookkeeping in QuickBooks Desktop on Windows: reports, SQL, batches, reversal.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-adsuploader-mcp",
-          "name": "Ads Uploader",
-          "description": "Meta ads bulk launcher: upload creatives, edit builds, preview, and create paused ads.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "io-github-exadev-agent-comms",
-          "name": "Agent Comms",
-          "description": "Cross-harness communication mesh for LLM agents — rooms, DMs, presence, and visibility over TCP",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "co-teraads-connect",
-          "name": "Tera Ads",
-          "description": "Meta Ads in your AI: approval before changes, undo for pauses and budgets, profit after returns.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "io-github-edgar-311-ofdkit",
-          "name": "ofdkit",
-          "description": "Read OFD files and Chinese e-invoices (数电票): text, invoice fields, folder totals. Read-only.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-28naem-del-mnemosyne",
-          "name": "Mnemosyne",
-          "description": "Evidence-tracked local memory MCP server: one SQLite file; corrections retire dependent memories.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "com-mambabuilt-mcp-brand-sponsor-finder",
-          "name": "mcp-brand-sponsor-finder",
-          "description": "Brands paying creators in a niche, with evidence links, dates, and recency scores.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "io-antwork-social",
-          "name": "Antwork",
-          "description": "Draft, schedule, and publish social posts for your workspace straight from your AI.",
-          "category": "Other"
-        },
-        {
-          "slug": "io-github-billibo6-unlockpulse",
-          "name": "Unlock Pulse",
-          "description": "Token unlock calendar for the next 60 days, rated by size vs circulating supply. Free, no key.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "co-logbrew-mcp",
-          "name": "LogBrew",
-          "description": "Read LogBrew errors, slow traces, logs, and product analytics, and triage issues with consent.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "in-nebulatech-nebula",
-          "name": "Nebula - AI-first B2B digital marketing, Mumbai",
-          "description": "Ask Nebula (Mumbai) about AI-first B2B digital marketing: services, sectors, GEO/AEO Answers, blogs.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-agentplaybooks-agentplaybooks",
-          "name": "AgentPlaybooks",
-          "description": "Vendor-neutral home for portable agents: skills, MCP tools, memory, canvas, and secret proxy.",
+          "slug": "io-github-icaro0310-devin-memory",
+          "name": "devin-memory",
+          "description": "Anti-poisoning memory for agents: provenance, conflicts, quarantine gate.",
           "category": "AI & Memory"
         },
         {
-          "slug": "app-ollav-ollav",
-          "name": "Ollav",
-          "description": "Share HTML prototypes as live links; read element-pinned review comments; publish new versions.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-socialtoai-socialtoai",
-          "name": "SocialToAI",
-          "description": "Social media data for AI agents: one MCP address, 18 platforms. Pay per call; failed calls are free.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "io-github-darkkitty-w-lock-autopsy",
-          "name": "lock-autopsy",
-          "description": "On-chain token lock & vesting auditor: cancelable, revocable, transferable flags.",
+          "slug": "io-github-iceywu-icloud-calendar",
+          "name": "icloud-calendar",
+          "description": "Manage Apple iCloud Calendar through a reliable CalDAV MCP server.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "ai-flowlines-flowlines",
-          "name": "Flowlines",
-          "description": "MCP observability: analyse MCP server usage, investigate sessions, and instrument MCP servers.",
-          "category": "Other"
+          "slug": "io-github-houssemmak-minerva-mcp",
+          "name": "Minerva MCP — Microsoft 365 & Azure",
+          "description": "Microsoft 365 & Azure admin: Graph, ARM, and the PowerShell cmdlets Graph does not expose.",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-soflution-flintrail",
-          "name": "Flintrail",
-          "description": "Drive a real Chrome live, record a flow once, replay it in milliseconds without an LLM.",
+          "slug": "io-github-hustada-collective-memory",
+          "name": "collective-memory",
+          "description": "MCP server for persistent, semantic memory across AI sessions",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-igorganapolsky-mcp-memory-gateway",
+          "name": "MCP Memory Gateway",
+          "description": "Pre-action gates that block AI agents from repeating known mistakes.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-desearch-ai-mcp-desearch",
-          "name": "Desearch",
-          "description": "AI, X and web search, page extraction, X data, People Search, and Company Search.",
+          "slug": "io-github-humanleap-sentrydock",
+          "name": "sentrydock",
+          "description": "Delegate standing watches over companies and topics. Get signed webhook alerts. OAuth/API.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-insumermodel-insumer",
-          "name": "insumer",
-          "description": "Wallet auth: send a wallet and conditions, get a signed boolean across 37 chains.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-githits-githits",
-          "name": "GitHits",
-          "description": "Search public open-source code, documentation, metadata, vulnerabilities, changelogs, and examples.",
+          "slug": "io-github-ibazylchuk-paparats-mcp",
+          "name": "Paparats MCP: Self-Hosted Semantic Code Search",
+          "description": "Self-hosted semantic code search MCP for Claude Code & Cursor. Multi-repo, AST-aware, stays local.",
           "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-sendraven-mcp",
-          "name": "Sendraven MCP",
-          "description": "Email infrastructure for AI agents: send, read replies as threads, campaigns, per-key limits.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "com-staycostbrain-stay-cost-brain",
-          "name": "Stay Cost Brain",
-          "description": "Tourist and hotel taxes from official sources, worked out night by night for your dates and guests.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "io-github-atastech-pitroom",
-          "name": "Pitroom",
-          "description": "Hands bounded coding work to cheaper worker agents: verified answers, exact diffs, cost receipts.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-vibe-fixer-vibefix",
-          "name": "VibeFix",
-          "description": "Our AI agent signs up to your live app like a new user and shows, with a screenshot, what breaks.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "dev-digline-digline-mcp",
-          "name": "digline",
-          "description": "Read, measure and explain LLM eval runs of a digline suite. Cannot promote a baseline.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-carrentalbrain-car-rental-brain",
-          "name": "Car Rental Brain",
-          "description": "Real cost of car hire at 120+ airports: second driver, cover, deposits, debit cards, desk hours.",
-          "category": "Other"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 128,
-        "removed": 128,
+        "added": 7,
+        "removed": 8,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 508,
-        "currentTotal": 508
+        "previousTotal": 510,
+        "currentTotal": 509
       }
     },
     "repos": {
       "baseline": true,
       "added": [
         {
-          "slug": "ashishpatel26-500-ai-machine-learning-deep-learning-computer-vision-nlp-projects",
-          "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-          "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
-          "category": "Awesome Lists"
+          "slug": "openhands-openhands",
+          "name": "OpenHands",
+          "description": "🙌 OpenHands: AI-Driven Development",
+          "category": "LLM Frameworks"
         }
       ],
-      "removed": [
-        {
-          "slug": "ewingyangs-awesome-open-gpt",
-          "name": "awesome-open-gpt",
-          "description": "Collection of Open Source Projects Related to GPT，GPT相关开源项目合集🚀、精选🔥🔥",
-          "category": "Awesome Lists"
-        }
-      ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 1,
-        "removed": 1,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
-        "currentTotal": 120
+        "currentTotal": 121
       }
     }
   }
