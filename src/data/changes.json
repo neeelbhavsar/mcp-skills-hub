@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T12:01:32.139Z",
+  "generatedAt": "2026-11-01T13:00:59.845Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,95 +21,101 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-statejar-memory",
-          "name": "StateJar memory",
-          "description": "Verifiable memory for AI assistants: typed facts, content-addressed versions and an audit trail.",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "io-github-cloudcorprecords-browserdebug",
-          "name": "browserdebug",
-          "description": "Debug web pages in Chrome: performance traces, network, console, snapshots, screenshots.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-cloudcorprecords-browserstage",
-          "name": "browserstage",
-          "description": "Automate a browser with accessibility snapshots: navigate, click, type, fill and wait.",
+          "slug": "com-githubcard-mcp",
+          "name": "GitHubCard",
+          "description": "Create GitHub profile and repository cards for READMEs, link previews and social posts.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-zaaheen-memory",
-          "name": "Zaaheen",
-          "description": "One encrypted memory for all your AI apps, on your computer. Needs the Zaaheen app (30 days free).",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-getdeeprecall-memory",
-          "name": "Deep Recall (getdeeprecall.com)",
-          "description": "One memory you own, shared by Claude, ChatGPT, Gemini, Muse and any remote MCP client.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-ierhub-license-lookup",
-          "name": "IERhub Texas electrician license lookup",
-          "description": "Look up Texas electrician licenses, renewal rules, TDLR forms and IERhub continuing education.",
+          "slug": "ai-homouniversalis-four-pillars-tzolkin-dreamspell-hexagram-gene-keys-genekeys-s",
+          "name": "Homo Universalis — Tzolkin, Gene Keys, Hexagrams, Tree of Life, 4 Elements & Soul Matchmaking MCP",
+          "description": "Four Pillars, Tzolkin, Hexagrams, Tree of Life, 4 Elements, Couple Matchmaking & Family Lineage MCP.",
           "category": "Other"
         },
         {
-          "slug": "com-remote-mcp-registry-mcp",
-          "name": "registry-mcp",
-          "description": "An MCP server that serves informtaion from the official MCP registry",
-          "category": "Other"
+          "slug": "io-github-flightradar24-fr24api-mcp",
+          "name": "fr24api-mcp",
+          "description": "MCP server providing access to the Flightradar24 API for real-time and historical flight data",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-deanward-hal",
+          "name": "HAL",
+          "description": "HAL (HTTP API Layer) - An MCP server that provides HTTP API capabilities to Large Language Models",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-mintmcp-gcal",
+          "name": "gcal",
+          "description": "A MCP server that works with Google Calendar to manage event listing, reading, and updates.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "dev-rostro-rostro",
+          "name": "rostro",
+          "description": "Turn any LLM multimodal; generate images, voices, videos, 3D models, music, and more.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-toolprint-hypertool-mcp",
+          "name": "hypertool-mcp",
+          "description": "Dynamically expose tools from proxied servers based on an Agent Persona",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-falkordb-queryweaver",
+          "name": "QueryWeaver",
+          "description": "An MCP server for Text2SQL: transforms natural language into SQL using graph schema understanding.",
+          "category": "Databases & Storage"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-iamsal-jira-easy-mcp",
-          "name": "jira-easy-mcp",
-          "description": "Self-hosted Jira Server/Data Center 7-10 for AI agents with username + password. 42 tools.",
+          "slug": "io-github-guardbee-mcp-config-auditor",
+          "name": "mcp-config-auditor",
+          "description": "Scans Cursor/Claude/Windsurf/VS Code MCP configs for unpinned versions, secrets, typosquats",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-icaro0310-devin-memory",
-          "name": "devin-memory",
-          "description": "Anti-poisoning memory for agents: provenance, conflicts, quarantine gate.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-iceywu-icloud-calendar",
-          "name": "icloud-calendar",
-          "description": "Manage Apple iCloud Calendar through a reliable CalDAV MCP server.",
+          "slug": "io-github-guardbee-memory-poisoning-scanner",
+          "name": "memory-poisoning-scanner",
+          "description": "Scans agent code for untrusted input poisoning persistent cross-session memory",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-houssemmak-minerva-mcp",
-          "name": "Minerva MCP — Microsoft 365 & Azure",
-          "description": "Microsoft 365 & Azure admin: Graph, ARM, and the PowerShell cmdlets Graph does not expose.",
+          "slug": "io-github-guardbee-security-suite",
+          "name": "security-suite",
+          "description": "Every GuardBee MCP security tool in one server: OWASP MCP Top 10, secrets, supply chain, TLS/DNS",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-hustada-collective-memory",
-          "name": "collective-memory",
-          "description": "MCP server for persistent, semantic memory across AI sessions",
+          "slug": "io-github-gwakko-agent-in-browser",
+          "name": "agent-in-browser",
+          "description": "Real browser for any agent: Chrome/Edge/Brave via CDP, Firefox via BiDi. Refs, forms, console, net.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-hanochzhu-codeagent-memory",
+          "name": "codeagent-memory",
+          "description": "Local code graph and solution memory for coding agents via CLI and MCP.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-igorganapolsky-mcp-memory-gateway",
-          "name": "MCP Memory Gateway",
-          "description": "Pre-action gates that block AI agents from repeating known mistakes.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-humanleap-sentrydock",
-          "name": "sentrydock",
-          "description": "Delegate standing watches over companies and topics. Get signed webhook alerts. OAuth/API.",
+          "slug": "io-github-harshithnayakal-portfolio",
+          "name": "Harshith Nayaka L portfolio",
+          "description": "Read-only MCP access to Harshith Nayaka L's portfolio: profile, case studies, FAQ and guides.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-ibazylchuk-paparats-mcp",
-          "name": "Paparats MCP: Self-Hosted Semantic Code Search",
-          "description": "Self-hosted semantic code search MCP for Claude Code & Cursor. Multi-repo, AST-aware, stays local.",
+          "slug": "io-github-harshithnayakal-portfolio-docs",
+          "name": "Harshith Nayaka L portfolio docs",
+          "description": "Read-only MCP server over the developer docs for the portfolio's JSON API, MCP, A2A and NLWeb.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-harusame64-desktop-touch-mcp",
+          "name": "desktop-touch-mcp",
+          "description": "Computer-use MCP for Windows 10/11: 32 tools — screenshot, UIA, Chrome CDP, type/click/scroll, VBA.",
           "category": "Dev Tools & Git"
         }
       ],
@@ -117,11 +123,11 @@
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 7,
+        "added": 8,
         "removed": 8,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 510,
+        "previousTotal": 509,
         "currentTotal": 509
       }
     },
@@ -129,22 +135,29 @@
       "baseline": true,
       "added": [
         {
-          "slug": "openhands-openhands",
-          "name": "OpenHands",
-          "description": "🙌 OpenHands: AI-Driven Development",
-          "category": "LLM Frameworks"
+          "slug": "agmmnn-awesome-blender",
+          "name": "awesome-blender",
+          "description": "🪐 A curated list of awesome Blender add-ons, extensions, AI/MCP tools, tutorials, and 3D resources.",
+          "category": "Awesome Lists"
         }
       ],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "ikaijua-awesome-aitools",
+          "name": "Awesome-AITools",
+          "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+          "category": "Awesome Lists"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
         "added": 1,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 120,
+        "previousTotal": 121,
         "currentTotal": 121
       }
     }
