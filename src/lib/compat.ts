@@ -22,7 +22,7 @@ export type Launch =
   | { mode: "remote"; transport: "http" | "sse"; url: string }
   | { mode: "unknown" };
 
-export function commandFor(pkg: McpPackage): { command: string; args: string[] } {
+export function commandFor(pkg: McpPackage): { command: string; args: string[] } | null {
   const reg = (pkg.registryType || "").toLowerCase();
   // Required launch arguments (e.g. the filesystem server's allowed
   // directory). Without them the generated config exits on first launch.
@@ -31,12 +31,15 @@ export function commandFor(pkg: McpPackage): { command: string; args: string[] }
   if (reg.includes("oci") || reg.includes("docker"))
     return { command: "docker", args: ["run", "-i", "--rm", pkg.identifier, ...extra] };
   if (reg.includes("nuget")) return { command: "dnx", args: [pkg.identifier, ...extra] };
-  return { command: "npx", args: ["-y", pkg.identifier, ...extra] };
+  if (reg === "npm") return { command: "npx", args: ["-y", pkg.identifier, ...extra] };
+  return null;
 }
 
 export function launchFor(mcp: Mcp): Launch {
-  const pkg = mcp.packages[0];
-  if (pkg) return { mode: "stdio", ...commandFor(pkg), registryType: pkg.registryType };
+  for (const pkg of mcp.packages) {
+    const command = commandFor(pkg);
+    if (command) return { mode: "stdio", ...command, registryType: pkg.registryType };
+  }
 
   const remote = mcp.remotes[0];
   if (remote) {
@@ -63,7 +66,7 @@ export function supportFor(mcp: Mcp, clientId: string, clientName: string): Clie
       id: clientId,
       name: clientName,
       support: "unsupported",
-      reason: "This registry entry ships no package and no endpoint.",
+      reason: "This registry entry has no supported package or endpoint.",
     };
   }
 
