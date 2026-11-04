@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:59:31.965Z",
+  "generatedAt": "2026-11-04T14:06:01.332Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,15 +21,143 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-cmdrvl-twinning",
-          "name": "Postgres and REST twins",
-          "description": "Twins for Postgres and REST: declared-subset Postgres, spec-defined REST, migration proof.",
+          "slug": "co-trysubstrate-memory",
+          "name": "Substrate",
+          "description": "Shared memory MCP server for Claude Code, Codex, Gemini CLI and Cursor. Cited, editable.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "energy-powerhopper-mcp",
+          "name": "Power Hopper - Texas electricity plan comparison",
+          "description": "Shopping assistant for powerhopper.energy, Texas deregulated areas. Providers may pay commission.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-6mickswagger9-mytollbooth-calendar-mcp",
+          "name": "mytollbooth-calendar-mcp",
+          "description": "x402 scheduling API: availability, conflicts, multi-party coordination for AI agents.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-exactmatch-mcp-exact-match",
+          "name": "Exact Match",
+          "description": "US consumer and business audience data: build audiences, match and enrich records, export lists.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "ai-wild-card-deepcontext",
+          "name": "deepcontext",
+          "description": "Advanced codebase indexing and semantic search MCP server",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-foqal-foqal",
+          "name": "Foqal",
+          "description": "Foqal turns Slack/Teams into efficient support platforms with AI-powered ticketing.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "com-textarttools-textarttools-mcp",
+          "name": "textarttools-mcp",
+          "description": "Unicode text styling and ASCII art generation with 23 styles and 322+ figlet fonts",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-antonytm-mcp-all",
+          "name": "mcp-all",
+          "description": "A Model Context Protocol server to run other MCP servers",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "ai-klavis-strata",
+          "name": "strata",
+          "description": "MCP server for progressive tool usage at any scale (see https://klavis.ai)",
+          "category": "Other"
+        },
+        {
+          "slug": "com-driflyte-driflyte-mcp-server",
+          "name": "driflyte-mcp-server",
+          "description": "Driflyte MCP server which lets AI assistants query topic-specific knowledge from web and GitHub.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "co-axiom-mcp",
+          "name": "Axiom MCP",
+          "description": "List datasets, schemas, run APL queries, and use prompts for exploration, anomalies, and monitoring.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "co-contraption-mcp",
+          "name": "Contraption MCP",
+          "description": "An MCP server that provides [describe what your server does]",
+          "category": "Other"
+        },
+        {
+          "slug": "io-cycloid-mcp-server",
+          "name": "Cycloid MCP",
+          "description": "An MCP server that let you interact with Cycloid.io Internal Development Portal and Platform",
+          "category": "Other"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "io-github-digbyo-colour-memory",
+          "name": "Colour Memory",
+          "description": "Colour meaning, history and evidence for AI: 45,000+ source-graded colour records and 91 tools.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-digicatalyst-systems-dep-diff-mcp",
+          "name": "dep-diff-mcp",
+          "description": "Translates a lockfile diff into a human-readable upgrade plan for npm, PyPI, and GitHub Actions.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-digital-defiance-mcp-filesystem",
+          "name": "mcp-filesystem",
+          "description": "Advanced filesystem operations with strict security boundaries for AI agents",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-dionanos-mcp-memory-rs",
+          "name": "mcp-memory-rs",
+          "description": "Local-first agent memory: versioned JSON categories, BM25 search, per-device ACL, fleet sync.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-dreiev-l2calendar-mcp",
+          "name": "L2 Calendar",
+          "description": "Query Lineage 2 private server openings by chronicle through the public L2 Calendar API.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-egoushka-chargehand",
+          "name": "chargehand",
+          "description": "Runs coding-agent workers on a codebase question; every claim in the answer carries evidence.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-enreign-pagerunner",
+          "name": "Pagerunner — The Browser Layer That Learns",
+          "description": "Real Chrome profiles with site intelligence — already logged in, PII anonymization, sessions persist",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-ericseokgon-egovframe-scaffold-mcp",
+          "name": "egovframe-scaffold-mcp",
+          "description": "eGovFrame (전자정부 표준프레임워크) projects: templates, components, CRUD, build, 5.x migration, dependencies",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-eszetael-postgres-mcp-hardened",
+          "name": "PostgreSQL (hardened, read-only)",
+          "description": "Read-only PostgreSQL over MCP. Writes refused at the parsed SQL, plus a READ ONLY transaction.",
           "category": "Databases & Storage"
         },
         {
-          "slug": "com-usegithubthing-ugt",
-          "name": "UGT: Use the GitHub Thing",
-          "description": "Get GitHub projects running on your computer, with your AI app",
+          "slug": "io-github-evannzhongg-browser-attach",
+          "name": "BrowserAttach",
+          "description": "Control existing signed-in Chrome and Edge tabs through a locally paired extension.",
           "category": "Dev Tools & Git"
         },
         {
@@ -49,118 +177,14 @@
           "name": "Execute aws-key-revoker-webhook-mcp",
           "description": "Premium agentic endpoint for aws-key-revoker-webhook-mcp.",
           "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-crakseo-ai-visibility",
-          "name": "AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews",
-          "description": "AI search visibility MCP: brand mentions in ChatGPT and Perplexity, Google AI Overview citations.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "app-tuper-github-repos",
-          "name": "GitHub Repos (Apify Actor) by Tuper",
-          "description": "GitHub repository search past the 1,000 cap, with your own token. Runs on Apify.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "chat-conecto-calendar",
-          "name": "Conecto Calendar",
-          "description": "Booking pages, free times and meetings for your agent. Pay per action.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-jiaheniao-tibetan-calendar",
-          "name": "Jiaheniao Tibetan Calendar",
-          "description": "Reviewed Tibetan dates, festivals and day mechanisms for 2026–2027.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-tradingcalendars-holidays",
-          "name": "TradingCalendars",
-          "description": "Business days, T+N settlement dates and holidays for FX, banks, payments and exchanges.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "com-zomato-mcp",
-          "name": "Zomato MCP",
-          "description": "An MCP server that exposes functionalities to use Zomato's services.",
-          "category": "Other"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "io-github-evozim-chroot-filesystem-jail-mcp",
-          "name": "Execute chroot-filesystem-jail-mcp",
-          "description": "Premium agentic endpoint for chroot-filesystem-jail-mcp.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-evozim-cloudflare-turnstile-bypass-mcp",
-          "name": "Execute cloudflare-turnstile-bypass-mcp",
-          "description": "Premium agentic endpoint for cloudflare-turnstile-bypass-mcp.",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "io-github-evozim-dockerfile-credential-mcp",
-          "name": "Execute dockerfile-credential-mcp",
-          "description": "Premium agentic endpoint for dockerfile-credential-mcp.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-fanch-hui-codex-bridge",
-          "name": "Codex Bridge",
-          "description": "Connect MCP clients to local Codex Bridge agents, projects, approvals and workspace tools.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-ferhatdundar-aws-mcp-connector",
-          "name": "aws-mcp-connector",
-          "description": "MCP server for the AWS CLI. Read-only by default; single Go binary.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-ferhatdundar-github-mcp-connector",
-          "name": "github-mcp-connector",
-          "description": "MCP server for GitHub: repos, files, issues, PRs, search. Single Go binary.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-fireiscoolsolo-canvas-lms-mcp-local",
-          "name": "canvas-lms-mcp-local",
-          "description": "Student-focused Canvas LMS: 211 tools for grades, deadlines, submissions and study planning.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-fireiscoolsolo-canvas-lms-mcp-server",
-          "name": "canvas-lms-mcp-server",
-          "description": "Self-hosted Canvas LMS for students on every device: OAuth, ngrok tunnel, multi-PC failover.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-first-ch-tools-mcp",
-          "name": "tools-mcp",
-          "description": "Web production tools for AI agents: contrast, JP text, WebP, JSON-LD, slugs, dates and 40+ more",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-flightradar24-fr24api-mcp",
-          "name": "fr24api-mcp",
-          "description": "MCP server providing access to the Flightradar24 API for real-time and historical flight data",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-flywheelstudio-ulink",
-          "name": "ulink",
-          "description": "Deep linking for iOS, Android, Flutter & React Native. Firebase Dynamic Links alternative.",
-          "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 11,
-        "removed": 11,
+        "added": 13,
+        "removed": 13,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,

@@ -22,16 +22,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 186994,
+    "stars": 187291,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 186994,
-      "forks": 22082,
+      "stars": 187291,
+      "forks": 22099,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-10-28T19:20:39Z",
-      "openIssues": 429,
+      "openIssues": 430,
       "license": null,
       "language": "Python"
     },
@@ -72,16 +72,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 186994,
+    "stars": 187291,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 186994,
-      "forks": 22082,
+      "stars": 187291,
+      "forks": 22099,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-10-28T19:20:39Z",
-      "openIssues": 429,
+      "openIssues": 430,
       "license": null,
       "language": "Python"
     },
@@ -111,16 +111,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 186994,
+    "stars": 187291,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 186994,
-      "forks": 22082,
+      "stars": 187291,
+      "forks": 22099,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-10-28T19:20:39Z",
-      "openIssues": 429,
+      "openIssues": 430,
       "license": null,
       "language": "Python"
     },
@@ -150,16 +150,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 186994,
+    "stars": 187291,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 186994,
-      "forks": 22082,
+      "stars": 187291,
+      "forks": 22099,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-10-28T19:20:39Z",
-      "openIssues": 429,
+      "openIssues": 430,
       "license": null,
       "language": "Python"
     },
@@ -189,16 +189,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 186994,
+    "stars": 187291,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 186994,
-      "forks": 22082,
+      "stars": 187291,
+      "forks": 22099,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-10-28T19:20:39Z",
-      "openIssues": 429,
+      "openIssues": 430,
       "license": null,
       "language": "Python"
     },
@@ -234,13 +234,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-01T16:52:12Z",
-      "pushedAt": "2026-11-03T13:39:25Z",
+      "pushedAt": "2026-11-03T16:09:53Z",
       "openIssues": 0,
       "license": null,
       "language": null
     },
     "readme": {
-      "markdown": "# 42Crunch API Security Plugin\n\nAutomate API security directly in Claude Code with 42Crunch - audit OpenAPI specs, detect vulnerabilities aligned with OWASP API Security risks (including BOLA/BFLA), and apply AI-powered fixes.\n\n## Overview\n\nThe `42crunch-api-security-testing` plugin is designed for AI-assisted development workflows, it provides continuous guardrails through an **audit->scan->remediate->validate** loop, ensuring APIs meet enterprise security standards before deployment.\n\n## Commands\n\n| Skill | Description |\n|---|---|\n| [`/42crunch-setup`](./README.md#42crunch-setup) | Install the `42c-ast` binary and configure credentials (one-time) |\n| [`/42crunch-audit`](./README.md#42crunch-audit) | Static security audit of an OpenAPI Specification file with scored findings and AI-assisted fixes |\n| [`/42crunch-scan`](./README.md#42crunch-scan) | Live conformance and authorization scan (BOLA/BFLA) against a running API |\n| [`/42crunch-api-security-testing`](./README.md#42crunch-api-security-testing) | Full audit + scan pipeline in a single session |\n| [`/generate-oas`](./README.md#generate-oas) | Generate a complete `openapi.json` from your API source code, a Postman/Insomnia collection, or both |\n\n## Prerequisites\n\n- [Claude Code](https://claude.ai/code) (CLI, desktop app, or IDE extension)\n- A 42Crunch account — [Starter (Free Trial)](https://42crunch.com/freemium/?source=claude), a paid token-based plan (Individual or Individual Pro), or a Platform account with an API key (Team 10, Team 25, or Enterprise)\n- For `42crunch-scan`: a running API server reachable at the URL in `servers[0]` of your OAS (or via `SCAN42C_HOST`)\n\nThe `42c-ast` binary is downloaded and kept up to date automatically on first use.\n\n## Installation\n\n> **Requirement:** The [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code/getting-started) is required to add marketplaces and install plugins using the commands below.\n\nAdd the 42Crunch marketplace:\n\n```\nclaude plugin marketplace add https://github.com/42Crunch-AI/claude-plugins\n```\n\nInstall the `42crunch-api-security-testing` plugin:\n\n```\nclaude plugin install 42crunch-api-security-testing@42crunch-marketplace\n```\n\n## Quick Start\n\n1. **Install the plugin** — add this marketplace to Claude Code.\n2. **Set up the environment** — say: *\"set up 42crunch\"*\n3. **Audit your API** — say: *\"run a 42Crunch audit\"* (Claude will offer to generate an OAS from source code if you don't have one)\n4. **Fix issues** — Claude presents findings by severity and asks your consent before changing anything\n5. **Scan your API** — say: *\"run a conformance scan\"* against your running server\n\n## Common Scenarios\n\nSee [RECIPES.md](./RECIPES.md) for step-by-step guides covering the most common workflows, including:\n\n- Running a **fix-only audit** from an existing report (skip re-running the audit)\n- **Review-only mode** — see findings without applying any fixes\n- **Full pipeline** (audit + scan) in a single session\n- **Scan only** when the audit is already passing\n- **Generating an OAS** from source code and/or a Postman/Insomnia collection, then auditing it immediately\n\n## Skills\n\n### `42crunch-setup`\n\nInstalls the `42c-ast` binary for your OS/architecture, verifies its checksum, and walks you through credential configuration. Supports Platform (Team 10, Team 25, Enterprise) and Token (Starter (Free Trial), Individual, Individual Pro) modes. Credentials are stored in `~/.42crunch/conf/env` with `600` permissions.\n\n> **Trigger:** \"set up 42crunch\", \"configure 42crunch\", \"install 42c-ast\", \"update 42c-ast\", \"set api key\", \"42crunch not working\", \"binary not found\"\n\n**Usage:**\n```\n/42crunch-setup\n```\n\n---\n\n### `42crunch-audit`\n\nRuns a static analysis of an OpenAPI Specification and produces a 0–100 security score. Findings are classified into four tiers:\n\n- **SQG-Blocking** — must fix to pass the Security Quality Gate\n- **Security** — recommended fixes\n- **Data Validation** — informational\n- **Spec Conformance** — OAS format defects outside the score/SQG\n\nClaude asks your explicit consent before applying any changes, then re-runs the audit to confirm passage.\n\n**Platform mode:** SQG threshold enforced from your platform policy.  \n**Token mode:** No automated SQG gate; you set the target score and blocking severity for the session.\n\n> **Trigger:** \"run audit\", \"42crunch audit\", \"fix audit issues\", \"SQG audit\", \"audit score\"\n\n**Usage:**\n```\n/42crunch-audit\n```\n\nClaude will prompt for:\n1. OpenAPI Specification file\n\n---\n\n### `42crunch-scan`\n\nRuns a live conformance and authorization test against a running API server. Claude confirms the target URL, checks reachability, analyses the OAS (operations, auth schemes, BOLA candidates), and presents a scan preview before any configuration begins. After a happy-path validation run, Claude asks your consent before starting the full fuzzing scan.\n\nFindings are classified into three tiers:\n\n- **Authorization failures** — BOLA/BFLA confirmed\n- **SQG-Blocking conformance** — must fix to pass the Security Quality Gate\n- **Informational conformance** — surfaced for review\n\nClaude asks your consent before applying any fixes — both OAS contract updates and server-side code changes.\n\n**Platform mode:** SQG enforced from platform policy.  \n**Token mode:** All findings presented informally; you decide what to fix.\n\n> **Trigger:** \"run scan\", \"scan only\", \"conformance test\", \"BOLA test\", \"BFLA test\", \"42crunch scan\", \"scan config\"\n\n**Usage:**\n```\n/42crunch-scan\n```\n\nClaude will prompt for:\n1. OpenAPI Specification file\n2. API host endpoint\n\n---\n\n### `42crunch-api-security-testing`\n\nOrchestrates Audit (Phase 1) and Scan (Phase 2) in sequence. Resolves the OAS file and confirms the scan target URL up front. Each phase requires separate user consent. Produces a combined summary covering both phases.\n\n> **Trigger:** \"run audit and scan\", \"full 42crunch pipeline\", \"full security check\", \"audit then scan\", \"SQG\"\n\n**Usage:**\n```\n/42crunch-api-security-testing\n```\n\n\n…",
+      "markdown": "# 42Crunch API Security Plugin\n\nAutomate API security directly in Claude Code with 42Crunch - audit OpenAPI specs and GraphQL schemas, detect vulnerabilities aligned with OWASP API Security risks (including BOLA/BFLA), and apply AI-powered fixes.\n\n## Overview\n\nThe `42crunch-api-security-testing` plugin is designed for AI-assisted development workflows, it provides continuous guardrails through an **audit->scan->remediate->validate** loop, ensuring APIs meet enterprise security standards before deployment.\n\n## Commands\n\n| Skill | Description |\n|---|---|\n| [`/42crunch-setup`](./README.md#42crunch-setup) | Install the `42c-ast` binary and configure credentials (one-time) |\n| [`/42crunch-audit`](./README.md#42crunch-audit) | Static security audit of an OpenAPI Specification file or GraphQL schema with scored findings and AI-assisted fixes |\n| [`/42crunch-scan`](./README.md#42crunch-scan) | Live conformance and authorization scan (BOLA/BFLA) against a running REST or GraphQL API |\n| [`/42crunch-api-security-testing`](./README.md#42crunch-api-security-testing) | Full audit + scan pipeline in a single session (OAS or GraphQL) |\n| [`/generate-oas`](./README.md#generate-oas) | Generate a complete `openapi.json` from your API source code, a Postman/Insomnia collection, or both |\n\n## Prerequisites\n\n- [Claude Code](https://claude.ai/code) (CLI, desktop app, or IDE extension)\n- A 42Crunch account — [Starter (Free Trial)](https://42crunch.com/freemium/?source=claude), a paid token-based plan (Individual or Individual Pro), or a Platform account with an API key (Team 10, Team 25, or Enterprise)\n- For `42crunch-scan`: a running API server reachable at the URL in `servers[0]` of your OAS, or your GraphQL endpoint URL (or via `SCAN42C_HOST`)\n\nThe `42c-ast` binary is downloaded and kept up to date automatically on first use.\n\n## Installation\n\n> **Requirement:** The [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code/getting-started) is required to add marketplaces and install plugins using the commands below.\n\nAdd the 42Crunch marketplace:\n\n```\nclaude plugin marketplace add https://github.com/42Crunch-AI/claude-plugins\n```\n\nInstall the `42crunch-api-security-testing` plugin:\n\n```\nclaude plugin install 42crunch-api-security-testing@42crunch-marketplace\n```\n\n## Quick Start\n\n1. **Install the plugin** — add this marketplace to Claude Code.\n2. **Set up the environment** — say: *\"set up 42crunch\"*\n3. **Audit your API** — say: *\"run a 42Crunch audit\"* (Claude will offer to generate an OAS from source code if you don't have one)\n4. **Fix issues** — Claude presents findings by severity and asks your consent before changing anything\n5. **Scan your API** — say: *\"run a conformance scan\"* against your running server\n\n## Common Scenarios\n\nSee [RECIPES.md](./RECIPES.md) for step-by-step guides covering the most common workflows, including:\n\n- Running a **fix-only audit** from an existing report (skip re-running the audit)\n- **Review-only mode** — see findings without applying any fixes\n- **Full pipeline** (audit + scan) in a single session\n- **Scan only** when the audit is already passing\n- **Generating an OAS** from source code and/or a Postman/Insomnia collection, then auditing it immediately\n\n## Skills\n\n### `42crunch-setup`\n\nInstalls the `42c-ast` binary for your OS/architecture, verifies its checksum, and walks you through credential configuration. Supports Platform (Team 10, Team 25, Enterprise) and Token (Starter (Free Trial), Individual, Individual Pro) modes. Credentials are stored in `~/.42crunch/conf/env` with `600` permissions.\n\n> **Trigger:** \"set up 42crunch\", \"configure 42crunch\", \"install 42c-ast\", \"update 42c-ast\", \"set api key\", \"42crunch not working\", \"binary not found\"\n\n**Usage:**\n```\n/42crunch-setup\n```\n\n---\n\n### `42crunch-audit`\n\nRuns a static analysis of an OpenAPI Specification **or GraphQL schema** and produces a 0–100 security score.\n\nOAS findings are classified into four tiers:\n\n- **SQG-Blocking** — must fix to pass the Security Quality Gate\n- **Security** — recommended fixes\n- **Data Validation** — informational\n- **Spec Conformance** — OAS format defects outside the score/SQG\n\nGraphQL findings are classified into two tiers:\n\n- **Resource Limiting** — missing query-cost and list-size restrictions (the DoS surface)\n- **Data Validation** — built-in scalars and custom scalars missing value constraints\n\nGraphQL fixes annotate the schema with constraint and cost directives (`@stringValue`, `@numberValue`, `@list`, `@cost`); Claude declares the directive definitions in the SDL and notes that server-side enforcement is a separate step.\n\nClaude asks your explicit consent before applying any changes, then re-runs the audit to confirm passage.\n\n**Platform mode:** SQG threshold enforced from your platform policy (GraphQL SQGs are configured on the platform like OAS SQGs).  \n**Token mode:** No automated SQG gate; you set the target score (and, for OAS, blocking severity) for the session.\n\n> **Trigger:** \"run audit\", \"42crunch audit\", \"fix audit issues\", \"SQG audit\", \"audit score\", \"audit my graphql schema\"\n\n**Usage:**\n```\n/42crunch-audit\n```\n\nClaude will prompt for:\n1. OpenAPI Specification file or GraphQL schema\n\n---\n\n### `42crunch-scan`\n\nRuns a live conformance and authorization test against a running API server (**REST or GraphQL**). Claude confirms the target URL, checks reachability, analyses the API definition (operations, auth schemes, dependency chains, BOLA/BFLA candidates), and presents a scan preview before any configuration begins. After a happy-path validation run, Claude asks your consent before starting the full fuzzing scan.\n\nOAS findings are classified into three tiers:\n\n- **Authorization failures** — BOLA/BFLA confirmed\n- **SQG-Blocking conformance** — must fix to pass the Security Quality Gate\n- **Informational conformance** — surfaced for review\n\nGraphQL scans use the same three tiers. A GraphQL schema declares no auth, so Claude asks how your API authenticates (a login mu\n\n…",
       "truncated": true,
       "url": "https://github.com/42Crunch-AI/claude-plugins/tree/main/plugins/api-security-testing#readme"
     }
@@ -267,11 +267,11 @@
     "repoMeta": {
       "slug": "adobe/skills",
       "stars": 319,
-      "forks": 98,
+      "forks": 99,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-05T16:44:31Z",
-      "pushedAt": "2026-11-03T13:46:44Z",
+      "pushedAt": "2026-11-04T13:36:30Z",
       "openIssues": 30,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -295,16 +295,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -377,7 +377,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-02T17:25:07Z",
-      "pushedAt": "2026-10-23T06:01:25Z",
+      "pushedAt": "2026-11-03T19:33:59Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -406,10 +406,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 14,
+    "stars": 15,
     "repoMeta": {
       "slug": "AikidoSec/aikido-claude-plugin",
-      "stars": 14,
+      "stars": 15,
       "forks": 5,
       "archived": false,
       "isFork": false,
@@ -668,10 +668,10 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-07-09T21:49:23Z",
-      "pushedAt": "2026-11-03T13:10:29Z",
+      "pushedAt": "2026-11-04T13:24:09Z",
       "openIssues": 0,
       "license": "MIT",
-      "language": "Python"
+      "language": "TypeScript"
     },
     "readme": {
       "markdown": "# Altimate Code — Claude Code plugin\n\nGives Claude Code direct access to the model-free data tools of [altimate-code](https://github.com/AltimateAI/altimate-code), an open-source CLI with 100+ deterministic data-engineering tools: column-level lineage and impact analysis, PII detection, data-diff and parity, FinOps and query cost, query equivalence, dialect translation, and queries and schema inspection on connected warehouses.\n\n**Why call the tools directly?** Claude reasons, the tools compute. Neither the MCP server nor `altimate tool run` runs a second LLM, so there is no second agent's model to pay for: on workspace questions this cost 12% less per run than delegating, at the same accuracy (benchmark in the PR that introduced it). Long multi-step jobs (dbt builds, migrations) can still be delegated with `altimate run`.\n\n**Two modes, one set of tools.**\n\n| Mode | When | How |\n|---|---|---|\n| MCP | The session has the plugin's MCP tools (`mcp__plugin_altimate-code_altimate-code__*`) | Claude calls them directly. The plugin's `.mcp.json` runs `altimate-code mcp serve`, read-only by default. |\n| CLI | The MCP tools are not available | Claude runs `altimate tool context` once, then `altimate tool run <name> --args '<json>'` through Bash. |\n\nThe CLI mode is what keeps the plugin useful for an organisation that disallows MCP servers through managed settings (for example `allowedMcpServers` or `deniedMcpServers`): the plugin's server is then not started, and Claude uses the same tools through the shell. When the server fails to start or the installed build has no `mcp serve`, the session stays in the MCP mode without the routing guidance, and the skill still falls back to `tool run`. At session start the plugin decides which mode applies without starting the CLI: the CLI mode when `altimate-code` is not on PATH, a `managed-mcp.json` is present, settings deny the server (`deniedMcpServers`, or `allowedMcpServers` that admits neither its name nor its command, read as Claude Code merges them, including `managed-settings.d/` and `allowManagedMcpServersOnly`) or it was turned off in `/mcp` for the project, otherwise MCP. Policies delivered only by an MDM profile or the Windows registry are not read; set `ALTIMATE_DATA_MODE=cli` there (`ALTIMATE_DATA_MODE=cli|mcp` overrides). In the CLI mode it also adds the project routing guidance to the session, so the project's `CLAUDE.md` does not need it; `altimate-code link --claude-md` can still write it there for other clients. The MCP mode adds no routing guidance.\n\n## Install\n\nFrom Anthropic's plugin directory:\n\n```bash\nclaude plugin install altimate-code\n```\n\nOr from this repository's marketplace:\n\n```\n/plugin marketplace add AltimateAI/altimate-claude-plugin\n/plugin install altimate-code@altimate-claude-plugin\n```\n\n## Prerequisites\n\nThe altimate-code CLI must be installed and configured on your PATH. Either install method works:\n\n```bash\nnpm install -g altimate-code                       # requires Node 20+; exposes `altimate` and `altimate-code`\ncurl -fsSL https://www.altimate.sh/install | bash  # standalone binary; exposes `altimate` and `altimate-code`\naltimate                                           # launch the TUI, then run /connect to configure your LLM provider\n```\n\nThe CLI mode invokes `altimate`, the CLI's canonical name, and falls back to `altimate-code` for npm installs older than v0.7.1, so standalone installs work without an alias.\n\n**MCP mode and the CLI name.** The MCP registration launches `altimate-code mcp serve`. npm, Homebrew and current curl and PowerShell installs expose both names, but curl and PowerShell installs older than v0.12.8 expose only `altimate`: there the server cannot start until `altimate-code` is on PATH (for example `ln -s \"$(command -v altimate)\" ~/.local/bin/altimate-code`), and Claude uses the CLI mode meanwhile. MCP mode also needs a build that contains `mcp serve`; check with `altimate-code mcp serve --help`. Direct MCP and `tool run` need no LLM provider; only delegation (`altimate run`) does.\n\nOr configure a provider via environment variable (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, and 20+ others — see the [altimate-code docs](https://docs.altimate.sh)).\n\nIf altimate-code is not on PATH or not configured, the plugin surfaces the failure with fix instructions rather than silently falling back to Claude's native tools.\n\n## How it works\n\n1. A **SessionStart hook** adds a description of the available tools and both modes to the session, and copies the linked workspace's skills (see below). It does not start the MCP server.\n2. **MCP mode.** Claude calls `warehouse_list`, `warehouse_add`, `sql_execute` (`tables` returns columns and value profiles; large results spill to a local file), `sql_materialize` (session-local `scratch` DuckDB for cross-database joins), `answer_commit`, and `impact_analysis`, `dbt_lineage`, `altimate_core_column_lineage`, `schema_detect_pii`, `data_diff`, `altimate_core_equivalence`, `sql_translate`.\n3. **CLI mode.** The **skill** has Claude run `altimate tool context` once (connections, schema listing, analyst method), then `altimate tool run <name> --args '<json>'` through Bash and reason over the structured output. `altimate tool list --json` shows every tool and its input schema. A warm process per project starts automatically.\n4. Calls are read-only unless you approve `--allow-write` (CLI mode); `DROP DATABASE`, `DROP SCHEMA` and `TRUNCATE` are always blocked. Read-only is enforced by the database on Postgres, SQLite and DuckDB and by SQL classification elsewhere, so use a read-only DB user for the strongest boundary.\n5. For long multi-step jobs, or when you invoke **`/altimate-code:altimate <task>`** for work that needs the agent, Claude Code runs `altimate run \"<your task>\"` locally with the `builder` agent (or `analyst` for a data question when MCP is unavailable), which uses your configured LLM provider.\n6. Warehouse queries and dbt commands run **locally under your credentials*\n\n…",
@@ -697,10 +697,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -735,16 +735,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 474,
+    "stars": 478,
     "repoMeta": {
       "slug": "amd/skills",
-      "stars": 474,
+      "stars": 478,
       "forks": 46,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-08T14:27:56Z",
-      "pushedAt": "2026-11-03T06:31:30Z",
-      "openIssues": 46,
+      "pushedAt": "2026-11-04T06:32:02Z",
+      "openIssues": 47,
       "license": "MIT",
       "language": "Python"
     }
@@ -775,7 +775,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-28T22:08:02Z",
-      "pushedAt": "2026-11-03T01:50:48Z",
+      "pushedAt": "2026-11-04T12:53:40Z",
       "openIssues": 4,
       "license": "MIT",
       "language": "TypeScript"
@@ -812,7 +812,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-19T10:47:36Z",
-      "pushedAt": "2026-09-16T16:45:19Z",
+      "pushedAt": "2026-11-03T22:37:27Z",
       "openIssues": 4,
       "license": "MIT",
       "language": null
@@ -849,7 +849,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-23T03:11:35Z",
-      "pushedAt": "2026-11-01T09:18:15Z",
+      "pushedAt": "2026-11-03T14:04:55Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "Shell"
@@ -915,16 +915,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -956,7 +956,7 @@
     "repoMeta": {
       "slug": "astronomer/agents",
       "stars": 458,
-      "forks": 71,
+      "forks": 72,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-13T16:23:31Z",
@@ -997,7 +997,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-04-03T11:23:08Z",
-      "pushedAt": "2026-10-26T08:15:46Z",
+      "pushedAt": "2026-11-04T10:06:37Z",
       "openIssues": 20,
       "license": "MIT",
       "language": "Python"
@@ -1026,15 +1026,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1142,
+    "stars": 1145,
     "repoMeta": {
       "slug": "atlassian/atlassian-mcp-server",
-      "stars": 1142,
+      "stars": 1145,
       "forks": 145,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-08-01T22:31:35Z",
-      "pushedAt": "2026-10-29T18:23:30Z",
+      "pushedAt": "2026-11-03T22:02:59Z",
       "openIssues": 101,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -1067,7 +1067,7 @@
     "repoMeta": {
       "slug": "atlassian-labs/twg-plugins",
       "stars": 2,
-      "forks": 0,
+      "forks": 1,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-07-17T18:37:40Z",
@@ -1163,16 +1163,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3384,
+    "stars": 3395,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3384,
-      "forks": 425,
+      "stars": 3395,
+      "forks": 427,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-03T12:42:20Z",
-      "openIssues": 43,
+      "pushedAt": "2026-11-04T12:24:03Z",
+      "openIssues": 55,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -1200,16 +1200,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3384,
+    "stars": 3395,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3384,
-      "forks": 425,
+      "stars": 3395,
+      "forks": 427,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-03T12:42:20Z",
-      "openIssues": 43,
+      "pushedAt": "2026-11-04T12:24:03Z",
+      "openIssues": 55,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -1237,10 +1237,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -1274,16 +1274,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3384,
+    "stars": 3395,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3384,
-      "forks": 425,
+      "stars": 3395,
+      "forks": 427,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-03T12:42:20Z",
-      "openIssues": 43,
+      "pushedAt": "2026-11-04T12:24:03Z",
+      "openIssues": 55,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -1311,16 +1311,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3384,
+    "stars": 3395,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3384,
-      "forks": 425,
+      "stars": 3395,
+      "forks": 427,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-03T12:42:20Z",
-      "openIssues": 43,
+      "pushedAt": "2026-11-04T12:24:03Z",
+      "openIssues": 55,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -1348,10 +1348,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -1380,21 +1380,21 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3384,
+    "stars": 3395,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3384,
-      "forks": 425,
+      "stars": 3395,
+      "forks": 427,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-03T12:42:20Z",
-      "openIssues": 43,
+      "pushedAt": "2026-11-04T12:24:03Z",
+      "openIssues": 55,
       "license": "Apache-2.0",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# aws-startup-advisor\n\n## Overview\n\nAWS Startup Advisor puts an [AWS Startups](https://aws.amazon.com/startups/) Solutions Architect in your coding assistant. It recommends the smallest architecture that fits your stage, credits, and team, then can scaffold it, migrate you from Azure, Google Cloud, or Heroku, move your model calls to Amazon Bedrock, and investigate production incidents. It also answers your AWS Activate credits eligibility questions and finds startup offers you can use.\n\nAsk it things like:\n\n- \"We're pre-seed with two engineers. What should our AWS architecture look like?\"\n- \"Migrate us off Google Cloud and tell me what it costs.\"\n- \"Which runtime should this agent use?\"\n- \"Our API started returning 502s after the last deploy.\"\n\nThe twelve skills below are the catalog. Install them together.\n\n## Agent Skills\n\n| # | Skill | Description | Documentation |\n| -- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |\n| 1 | `architect-for-startups` | Stage-aware AWS architecture guidance for non-agent workloads, tuned to team size, runway, and credits — advice rather than code changes. An AI agent as the workload goes to `agent-advisor` | [SKILL.md](skills/architect-for-startups/SKILL.md) |\n| 2 | `start-building-for-startups` | Interactive discovery flow that gathers requirements, scans the codebase, then writes an AWS scaffold and implementation into the project | [SKILL.md](skills/start-building-for-startups/SKILL.md) |\n| 3 | `agent-advisor` | Runtime selection, migration planning, and an executable proof of concept for AI-agent workloads on AWS | [SKILL.md](skills/agent-advisor/SKILL.md) |\n| 4 | `azure-to-aws` | Six-phase Microsoft Azure to AWS migration. Discovery reads Terraform (`azurerm_*`), a live `az` CLI capture (read-only, consent-gated), a customer-supplied RDfA report (read-only, file-only), and application code — not Bicep, ARM templates, or Azure billing exports. Direct OpenAI, OpenRouter, and Anthropic usage-API discovery (read-only, consent-gated) supplement real AI spend. Generate is opt-in, and the what-if workshop is optional | [SKILL.md](skills/azure-to-aws/SKILL.md) |\n| 5 | `gcp-to-aws` | Six-phase Google Cloud to AWS migration. Discovery reads Terraform, a live `gcloud` capture (read-only, consent-gated), application code, and billing exports. Direct OpenAI, OpenRouter, and Anthropic usage-API discovery (read-only, consent-gated) supplement real AI spend. Generate is opt-in. BigQuery is not mapped to an AWS analytics service | [SKILL.md](skills/gcp-to-aws/SKILL.md) |\n| 6 | `heroku-to-aws` | Six-phase Heroku to AWS migration with deterministic add-on mapping and an optional what-if repricing workshop | [SKILL.md](skills/heroku-to-aws/SKILL.md) |\n| 7 | `llm-to-bedrock` | Rewrite OpenAI, Gemini, or Anthropic API call sites to Amazon Bedrock, evaluate quality, and deliver a git branch. The full migration requires `gcp-to-aws` or `azure-to-aws` alongside it (`gcp-to-aws` preferred when both are installed). Access-only mode (enable model access, no rewrite) does not | [SKILL.md](skills/llm-to-bedrock/SKILL.md) |\n| 8 | `tf-best-practices` | AWS Terraform authoring posture, security-baseline spec, and a read-only policy gate over generated Terraform | [SKILL.md](skills/tf-best-practices/SKILL.md) |\n| 9 | `operate-on-aws` | Incident investigation, root-cause analysis, and release-readiness review with AWS DevOps Agent, with cost, access, and code-egress disclosed up front | [SKILL.md](skills/operate-on-aws/SKILL.md) |\n| 10 | `knowledge-base-for-startups` | AWS Activate FAQ, credits guide, programs, partner offers, sample architectures, and AWS-curated learn articles | [SKILL.md](skills/knowledge-base-for-startups/SKILL.md) |\n| 11 | `prompt-library-for-startups` | AWS-curated copy-paste prompts for AI coding agents, plus downloadable installable agents | [SKILL.md](skills/prompt-library-for-startups/SKILL.md) |\n| 12 | `contextual-offers-for-startups` | Appends at most one relevant AWS Activate partner offer as optional context after another skill's output is final | [SKILL.md](skills/contextual-offers-for-startups/SKILL.md) |\n\n`contextual-offers-for-startups` is consulted by the other skills rather than invoked directly: it runs only after a recommendation, plan, or build is already final, and it never influences the technical advice.\n\n### Bundled Resources\n\nAlongside the skills, the plugin ships supporting material the skills load on demand:\n\n- [`skills/shared/`](skills/shared/) — Canonical reference material shared across skills rather than an invocable skill of its own: the phase-workflow interpreter contract, estimation schemas and complexity tiers, a snapshot of AWS infrastructure rates, phase-status schema, what-if workshop invariants, shared Clarify question fragments, and the AI-migration guardrails and Bedrock model references. Each consuming skill carries a byte-identical copy under its own `references/vendored/` so the skill folder stays self-contained.\n- [`agents/`](agents/) — Seven Claude Code subagent definitions: two generic, phase-agnostic migration phase workers (read/write and read/write/shell tiers) plus five specialists for the Bedrock rewrite flow (code analyzer, code rewriter, log ingestor, prompt evaluator, report generator).\n- [`tools/`](tools/) — Contains `model-staleness.py`, which checks the Bedrock model-lifecycle registry's freshness contract (`**Last updated**` / `**Staleness window**`) and that every vendored copy under `skills/*/references/vendored/ai/` is byte-identical to `skills/shared/ai/ai-model-lifecycle.md` (`--strict` also fails on a stale snapshot).\n- [`scripts/`](scripts/) — Python helpers that validate generated artifacts, emit run summaries, and lint Bedrock model references: a migration report validator, a startup-program artifact check, a plan summary emitter (`emit-pl\n\n…",
+      "markdown": "# aws-startup-advisor\n\n## Overview\n\nAWS Startup Advisor puts an [AWS Startups](https://aws.amazon.com/startups/) Solutions Architect in your coding assistant. It recommends the smallest architecture that fits your stage, credits, and team, then can scaffold it, migrate you from Azure, Google Cloud, or Heroku, move your model calls to Amazon Bedrock, and investigate production incidents. It also answers your AWS Activate credits eligibility questions and finds startup offers you can use.\n\nAsk it things like:\n\n- \"We're pre-seed with two engineers. What should our AWS architecture look like?\"\n- \"Migrate us off Google Cloud and tell me what it costs.\"\n- \"Which runtime should this agent use?\"\n- \"Our API started returning 502s after the last deploy.\"\n\nThe thirteen skills below are the catalog. Install them together.\n\n## Agent Skills\n\n| # | Skill | Description | Documentation |\n| -- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |\n| 1 | `architect-for-startups` | Stage-aware AWS architecture guidance for non-agent workloads, tuned to team size, runway, and credits — advice rather than code changes. An AI agent as the workload goes to `agent-advisor` | [SKILL.md](skills/architect-for-startups/SKILL.md) |\n| 2 | `start-building-for-startups` | Interactive discovery flow that gathers requirements, scans the codebase, then writes an AWS scaffold and implementation into the project | [SKILL.md](skills/start-building-for-startups/SKILL.md) |\n| 3 | `agent-advisor` | Runtime selection, migration planning, and an executable proof of concept for AI-agent workloads on AWS | [SKILL.md](skills/agent-advisor/SKILL.md) |\n| 4 | `azure-to-aws` | Six-phase Microsoft Azure to AWS migration. Discovery reads Terraform (`azurerm_*`), a live `az` CLI capture (read-only, consent-gated), a customer-supplied RDfA report (read-only, file-only), and application code — not Bicep, ARM templates, or Azure billing exports. Direct OpenAI, OpenRouter, and Anthropic usage-API discovery (read-only, consent-gated) supplement real AI spend. Generate is opt-in, and the what-if workshop is optional | [SKILL.md](skills/azure-to-aws/SKILL.md) |\n| 5 | `gcp-to-aws` | Six-phase Google Cloud to AWS migration. Discovery reads Terraform, a live `gcloud` capture (read-only, consent-gated), application code, and billing exports. Direct OpenAI, OpenRouter, and Anthropic usage-API discovery (read-only, consent-gated) supplement real AI spend. Generate is opt-in. BigQuery is not mapped to an AWS analytics service | [SKILL.md](skills/gcp-to-aws/SKILL.md) |\n| 6 | `heroku-to-aws` | Six-phase Heroku to AWS migration with deterministic add-on mapping and an optional what-if repricing workshop | [SKILL.md](skills/heroku-to-aws/SKILL.md) |\n| 7 | `llm-to-bedrock` | Rewrite OpenAI, Gemini, or Anthropic API call sites to Amazon Bedrock, evaluate quality, and deliver a git branch. The full migration requires `gcp-to-aws` or `azure-to-aws` alongside it (`gcp-to-aws` preferred when both are installed). Access-only mode (enable model access, no rewrite) does not | [SKILL.md](skills/llm-to-bedrock/SKILL.md) |\n| 8 | `tf-best-practices` | AWS Terraform authoring posture, security-baseline spec, and a read-only policy gate over generated Terraform | [SKILL.md](skills/tf-best-practices/SKILL.md) |\n| 9 | `operate-on-aws` | Incident investigation, root-cause analysis, and release-readiness review with AWS DevOps Agent, with cost, access, and code-egress disclosed up front | [SKILL.md](skills/operate-on-aws/SKILL.md) |\n| 10 | `knowledge-base-for-startups` | AWS Activate FAQ, credits guide, programs, partner offers, sample architectures, and AWS-curated learn articles | [SKILL.md](skills/knowledge-base-for-startups/SKILL.md) |\n| 11 | `prompt-library-for-startups` | AWS-curated copy-paste prompts for AI coding agents, plus downloadable installable agents | [SKILL.md](skills/prompt-library-for-startups/SKILL.md) |\n| 12 | `contextual-offers-for-startups` | Appends at most one relevant AWS Activate partner offer as optional context after another skill's output is final | [SKILL.md](skills/contextual-offers-for-startups/SKILL.md) |\n| 13 | `bedrock-migration-assessment` | Validates a provider-neutral `ai-workload-profile.json` and runs the AI-only migration questions. Needs no infrastructure skill. This release stops after Clarify; Design, Estimate, and Generate land in later releases | [SKILL.md](skills/bedrock-migration-assessment/SKILL.md) |\n\n`contextual-offers-for-startups` is consulted by the other skills rather than invoked directly: it runs only after a recommendation, plan, or build is already final, and it never influences the technical advice.\n\n### Bundled Resources\n\nAlongside the skills, the plugin ships supporting material the skills load on demand:\n\n- [`skills/shared/`](skills/shared/) — Canonical reference material shared across skills rather than an invocable skill of its own: the phase-workflow interpreter contract, estimation schemas and complexity tiers, a snapshot of AWS infrastructure rates, phase-status schema, what-if workshop invariants, shared Clarify question fragments, and the AI-migration guardrails and Bedrock model references. Each consuming skill carries a byte-identical copy under its own `references/vendored/` so the skill folder stays self-contained.\n- [`agents/`](agents/) — Seven Claude Code subagent definitions: two generic, phase-agnostic migration phase workers (read/write and read/write/shell tiers) plus five specialists for the Bedrock rewrite flow (code analyzer, code rewriter, log ingestor, prompt evaluator, report generator).\n- [`tools/`](tools/) — Contains `model-staleness.py`, which checks the Bedrock model-lifecycle registry's freshness contract (`**Last updated**` / `**Staleness window**`) and that every vendored copy under `skills/*/references/vendored/ai/` is byte-identic\n\n…",
       "truncated": true,
       "url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-startup-advisor#readme"
     }
@@ -1417,10 +1417,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -1454,15 +1454,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1613,
+    "stars": 1618,
     "repoMeta": {
       "slug": "microsoft/azure-skills",
-      "stars": 1613,
-      "forks": 265,
+      "stars": 1618,
+      "forks": 266,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-26T18:13:14Z",
-      "pushedAt": "2026-11-03T11:04:08Z",
+      "pushedAt": "2026-11-03T18:19:55Z",
       "openIssues": 6,
       "license": "MIT",
       "language": "Shell"
@@ -1528,16 +1528,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 28,
+    "stars": 29,
     "repoMeta": {
       "slug": "microsoft/azure-sql-database-container",
-      "stars": 28,
+      "stars": 29,
       "forks": 9,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-08-12T20:44:17Z",
       "pushedAt": "2026-11-02T17:56:19Z",
-      "openIssues": 13,
+      "openIssues": 12,
       "license": "NOASSERTION",
       "language": "Shell"
     },
@@ -1573,7 +1573,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-19T08:07:41Z",
-      "pushedAt": "2026-11-03T08:13:10Z",
+      "pushedAt": "2026-11-04T11:01:17Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "Python"
@@ -1981,7 +1981,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-03T12:46:34Z",
+      "pushedAt": "2026-11-04T13:37:11Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -2018,7 +2018,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-03T12:46:34Z",
+      "pushedAt": "2026-11-04T13:37:11Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -2055,13 +2055,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-03T12:46:34Z",
+      "pushedAt": "2026-11-04T13:37:11Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
     },
     "readme": {
-      "markdown": "# Carta Investors\n\nClaude Code plugin that gives Claude access to Carta Investors data.\n\n## How it works\n\nThis plugin provides **skills** that teach Claude how to query fund metrics, regulatory reporting, performance benchmarks, and more via the Carta MCP server at `https://mcp.app.carta.com/mcp`.\n\n## Installation\n\nInstall from the marketplace via `/plugin`, or add the Carta MCP server manually:\n\n```bash\nclaude mcp add --transport http carta https://mcp.app.carta.com/mcp\nclaude plugin marketplace add carta/plugins\nclaude plugin install carta-investors\n```\n\nAfter installing, restart Claude Code and run `/mcp` to complete OAuth authentication.\n\n### Try it out\n\n- \"What datasets are available in Carta?\"\n- \"Show me NAV and TVPI for all my funds\"\n- \"Pull our Form ADV data for 2025\"\n- \"How does Fund I compare to its benchmark?\"\n- \"What journal entries were posted last quarter?\"\n- \"Build a 2026 budget for [company] from last year's actuals\"\n- \"How are we pacing against the budget this year?\"\n- \"Consolidating P&L for Krakatoa Ventures for March\"\n\n## Skills\n\n### Reporting & data\n\n| Skill | Description |\n|-------|-------------|\n| `carta-explore-data` | Query and explore investors data — NAV, partners, investments, accounting |\n| `carta-form-adv` | Form ADV Schedule D regulatory data and firm rollup |\n| `carta-fund-performance` | Fund performance page, and chat answers comparing a fund against peer benchmark cohorts |\n| `carta-download-tearsheet` | Generate tearsheet PDFs for one or more portcos — single PDF preview or bulk ZIP download |\n| `carta-fund-forecasting` | Read-only Carta Fund Forecasting (formerly Tactyc) — list funds, fund-wide KPIs (TVPI, DPI, IRR, MOIC, NAV, reserves), performance tables, and per-investment analytics. |\n| `carta-loan-dashboard` | Loan portfolio dashboard as a live Cowork artifact — KPI tiles (commitments, drawn, outstanding, scheduled payments) and every active loan, with a side panel per loan for terms, key dates, payments and draws. Refreshes from Carta each time it is opened. Invoke with \"show my loans\" or \"loan dashboard\". |\n| `carta-lp-dashboard` | LP portfolio dashboard as a live Cowork artifact — fund allocations by firm, capital activity, NAV and quarterly fund performance, with TVPI, DPI and RVPI, for LPs viewing their own Carta portfolio. Refreshes from Carta each time it is opened. Invoke with \"show my LP dashboard\" or \"LP portfolio dashboard\". |\n| `carta-lp-documents` | Finds an LP's own documents across all their portfolios and fund commitments — K-1s, capital call and distribution notices, financial statements, PCAPs, subscription agreements and side letters — in a live Cowork document browser, with an optional zip download (desktop / CLI). For LPs only; a GP asking for what their fund sent its LPs is pointed to their Carta account manager or Carta Support. Invoke with \"get my K-1s for 2023\" or \"show my capital call notices\". |\n| `carta-partner-rollforward` | Partner rollforward as a live Cowork artifact, firm-wide by default and filterable by fund or fund family — the in-app Partner Rollforward across funds, a month-by-month partners' capital walk with carried interest accrued broken out, a one-LP capital account statement by allocation bucket for audit confirmations, and a commitment / funded / unfunded rollforward for capital calls. Invoke with \"partner rollforward\" or \"partners' capital rollforward\". |\n| `carta-nda-dashboard` | NDA insights dashboard — provision frequency, governing law, NDAs expiring in the next two years, counterparties under an active non-solicit, no-contact or non-circumvention restriction, and every counterparty, in sortable, filterable tabs. Invoke with \"NDA dashboard\" or \"who can't we solicit right now\". |\n| `carta-manco-reporting` | Interactive management-company reporting dashboard — a local React app over live ManCo financials with P&L drill-down, Budget vs Actuals, management fee income by fund, expense breakdowns, and journal-entry detail. Invoke with a firm name, e.g. \"ManCo reporting for Demo Capital\". |\n| `deal-group-wf-health` | Read-only dashboard of waterfall health across a firm's deal groups (pass any firm/org id) — model assignment (stranded/none), ownership-link defects, orphaned models, and whether recent runs reached every entity. Internal-only. |\n| `carta-deal-group-redactor` | Redact a deal group's entity map in Carta's view by chatting — group, rename or hide entities, hide ownership %, add a title and footer — then export the PDF from the view. Internal-only. |\n| `carta-deal-group-audit-log` | Export one Excel audit log of security changes across every company in a deal group for a date range, covering the companies the firm holds through its funds that granted it detailed cap table and company viewer access. Internal-only. |\n| `firm-bulk-entity-update` | Not implemented yet. Will carry a firm's monthly change file for a deal group's firm-controlled entities through one cycle — ingest, resolve, review, write, true-up — instead of one entity at a time. Internal-only. |\n| `staff-ilevel-data-collection-import` | Carta staff only. Import a firm's iLevel KPI history from the warehouse into the same firm's Data Collection in a sandbox or test Carta, then check the figures ValTool reads. Chat-driven, with Carta's own financials page open in the browser pane. Never writes to production. Internal-only. |\n\n### Budgeting (Excel)\n\nSkills that produce accountant-ready Excel workbooks. They run inside **Claude for Excel** (output lands in the open workbook) or **Claude Code / Cowork** (output lands in a local `.xlsx` file).\n\n| Skill | Description |\n|-------|-------------|\n| `carta-manco` | Unified ManCo budgeting skill — fetch a stored budget, build a new one from prior-year actuals, refresh actuals against a budget, analyze pacing/variance, or model what-if scenarios (headcount cuts, revenue shocks, new fund raises, expansion hires). |\n| `carta-consolidating-financial-reports` | Build multi-entity consolidating financi\n\n…",
+      "markdown": "# Carta Investors\n\nClaude Code plugin that gives Claude access to Carta Investors data.\n\n## How it works\n\nThis plugin provides **skills** that teach Claude how to query fund metrics, regulatory reporting, performance benchmarks, and more via the Carta MCP server at `https://mcp.app.carta.com/mcp`.\n\n## Installation\n\nInstall from the marketplace via `/plugin`, or add the Carta MCP server manually:\n\n```bash\nclaude mcp add --transport http carta https://mcp.app.carta.com/mcp\nclaude plugin marketplace add carta/plugins\nclaude plugin install carta-investors\n```\n\nAfter installing, restart Claude Code and run `/mcp` to complete OAuth authentication.\n\n### Try it out\n\n- \"What datasets are available in Carta?\"\n- \"Show me NAV and TVPI for all my funds\"\n- \"Pull our Form ADV data for 2025\"\n- \"How does Fund I compare to its benchmark?\"\n- \"What journal entries were posted last quarter?\"\n- \"Build a 2026 budget for [company] from last year's actuals\"\n- \"How are we pacing against the budget this year?\"\n- \"Consolidating P&L for Krakatoa Ventures for March\"\n\n## Skills\n\n### Reporting & data\n\n| Skill | Description |\n|-------|-------------|\n| `carta-explore-data` | Query and explore investors data — NAV, partners, investments, accounting |\n| `carta-form-adv` | Form ADV Schedule D regulatory data and firm rollup |\n| `carta-fund-performance` | Fund performance page, and chat answers comparing a fund against peer benchmark cohorts |\n| `carta-download-tearsheet` | Generate tearsheet PDFs for one or more portcos — single PDF preview or bulk ZIP download |\n| `carta-fund-forecasting` | Read-only Carta Fund Forecasting (formerly Tactyc) — list funds, fund-wide KPIs (TVPI, DPI, IRR, MOIC, NAV, reserves), performance tables, and per-investment analytics. |\n| `carta-loan-dashboard` | Loan portfolio dashboard as a live Cowork artifact — KPI tiles (commitments, drawn, outstanding, scheduled payments) and every active loan, with a side panel per loan for terms, key dates, payments and draws. Refreshes from Carta each time it is opened. Invoke with \"show my loans\" or \"loan dashboard\". |\n| `carta-lp-dashboard` | LP portfolio dashboard as a live Cowork artifact — fund allocations by firm, capital activity, NAV and quarterly fund performance, with TVPI, DPI and RVPI, for LPs viewing their own Carta portfolio. Its Documents tab and a document finder cover the LP's own K-1s, capital call and distribution notices, financial statements, PCAPs, subscription agreements and side letters, with an optional zip download (desktop / CLI). Refreshes from Carta each time it is opened. Invoke with \"show my LP dashboard\", \"get my K-1s for 2023\" or \"show my capital call notices\". |\n| `carta-partner-rollforward` | Partner rollforward as a live Cowork artifact, firm-wide by default and filterable by fund or fund family — the in-app Partner Rollforward across funds, a month-by-month partners' capital walk with carried interest accrued broken out, a one-LP capital account statement by allocation bucket for audit confirmations, and a commitment / funded / unfunded rollforward for capital calls. Invoke with \"partner rollforward\" or \"partners' capital rollforward\". |\n| `carta-nda-dashboard` | NDA insights dashboard — provision frequency, governing law, NDAs expiring in the next two years, counterparties under an active non-solicit, no-contact or non-circumvention restriction, and every counterparty, in sortable, filterable tabs. Invoke with \"NDA dashboard\" or \"who can't we solicit right now\". |\n| `carta-manco-reporting` | Interactive management-company reporting dashboard — a local React app over live ManCo financials with P&L drill-down, Budget vs Actuals, management fee income by fund, expense breakdowns, and journal-entry detail. Invoke with a firm name, e.g. \"ManCo reporting for Demo Capital\". |\n| `deal-group-wf-health` | Read-only dashboard of waterfall health across a firm's deal groups (pass any firm/org id) — model assignment (stranded/none), ownership-link defects, orphaned models, and whether recent runs reached every entity. Internal-only. |\n| `carta-deal-group-redactor` | Redact a deal group's entity map in Carta's view by chatting — group, rename or hide entities, hide ownership %, add a title and footer — then export the PDF from the view. Internal-only. |\n| `carta-deal-group-audit-log` | Export one Excel audit log of security changes across every company in a deal group for a date range, covering the companies the firm holds through its funds that granted it detailed cap table and company viewer access. Internal-only. |\n| `firm-bulk-entity-update` | Not implemented yet. Will carry a firm's monthly change file for a deal group's firm-controlled entities through one cycle — ingest, resolve, review, write, true-up — instead of one entity at a time. Internal-only. |\n| `staff-ilevel-data-collection-import` | Carta staff only. Import a firm's iLevel KPI history from the warehouse into the same firm's Data Collection in a sandbox or test Carta, then check the figures ValTool reads. Chat-driven, with Carta's own financials page open in the browser pane. Never writes to production. Internal-only. |\n\n### KYC\n\n| Skill | Description |\n|-------|-------------|\n| `carta-kyc-fill-form` | Fill in your own Carta KYC form from your documents. Says what each open KYC task still needs, reads the passport, formation documents or ownership chart you share, saves the answers you confirm, and tells you what to upload or add in the form yourself before you check and submit it there. Claude never uploads or submits for you. Needs an open KYC task on Carta. |\n\n### Budgeting (Excel)\n\nSkills that produce accountant-ready Excel workbooks. They run inside **Claude for Excel** (output lands in the open workbook) or **Claude Code / Cowork** (output lands in a local `.xlsx` file).\n\n| Skill | Description |\n|-------|-------------|\n| `carta-manco` | Unified ManCo budgeting skill — fetch a stored budget, build a new one from prior-year actuals, refresh actuals against a budge\n\n…",
       "truncated": true,
       "url": "https://github.com/carta/plugins/tree/main/plugins/carta-investors#readme"
     }
@@ -2129,7 +2129,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-04-05T19:05:08Z",
-      "pushedAt": "2026-11-03T08:09:02Z",
+      "pushedAt": "2026-11-04T10:20:51Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -2158,16 +2158,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 54719,
+    "stars": 54769,
     "repoMeta": {
       "slug": "ChromeDevTools/chrome-devtools-mcp",
-      "stars": 54719,
-      "forks": 5248,
+      "stars": 54769,
+      "forks": 5255,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-11T10:39:55Z",
-      "pushedAt": "2026-11-03T12:49:03Z",
-      "openIssues": 82,
+      "pushedAt": "2026-11-04T10:33:56Z",
+      "openIssues": 86,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
@@ -2380,16 +2380,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2417,16 +2417,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2454,16 +2454,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2491,16 +2491,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2536,7 +2536,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-17T21:11:30Z",
-      "pushedAt": "2026-10-30T18:59:01Z",
+      "pushedAt": "2026-11-04T01:40:59Z",
       "openIssues": 10,
       "license": null,
       "language": "Shell"
@@ -2745,15 +2745,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3264,
+    "stars": 3278,
     "repoMeta": {
       "slug": "cloudflare/skills",
-      "stars": 3264,
-      "forks": 340,
+      "stars": 3278,
+      "forks": 341,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-10T16:45:17Z",
-      "pushedAt": "2026-11-02T14:23:15Z",
+      "pushedAt": "2026-11-03T15:35:35Z",
       "openIssues": 19,
       "license": "Apache-2.0",
       "language": "Shell"
@@ -2856,16 +2856,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2893,16 +2893,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2930,16 +2930,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -2999,16 +2999,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 384,
+    "stars": 385,
     "repoMeta": {
       "slug": "CodSpeedHQ/codspeed",
-      "stars": 384,
+      "stars": 385,
       "forks": 34,
       "archived": false,
       "isFork": false,
       "createdAt": "2023-11-11T18:35:22Z",
-      "pushedAt": "2026-11-03T13:30:09Z",
-      "openIssues": 24,
+      "pushedAt": "2026-11-03T20:15:14Z",
+      "openIssues": 22,
       "license": "Apache-2.0",
       "language": "Rust"
     },
@@ -3036,16 +3036,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3110,16 +3110,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3229,7 +3229,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-07T17:51:00Z",
-      "pushedAt": "2026-10-31T01:45:09Z",
+      "pushedAt": "2026-11-04T01:39:59Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "Shell"
@@ -3266,7 +3266,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-26T13:51:58Z",
-      "pushedAt": "2026-10-31T01:43:51Z",
+      "pushedAt": "2026-11-04T01:40:08Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -3295,16 +3295,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3332,16 +3332,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3377,13 +3377,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-10T11:58:15Z",
-      "pushedAt": "2026-11-03T13:27:16Z",
+      "pushedAt": "2026-11-03T14:24:48Z",
       "openIssues": 2,
       "license": "Apache-2.0",
       "language": "Go"
     },
     "readme": {
-      "markdown": "# Dash0 Agent Plugin\n\nConnect your coding agent to [Dash0](https://dash0.com) for deep insight into how it's used — prompts and responses, tool calls, MCP calls, sub-agent activity, and token consumption — emitted as OpenTelemetry traces.\n\nTrace through a session, see what each turn cost, find where the agent got stuck, and join agent activity with the systems it touches.\n\n## Setup\n\nCheck out our documentation for setting up and configuring the Dash0 Agent Plugin: [Set Up AI SDLC Insights](https://www.dash0.com/docs/dash0/darkplane/insights/setup)\n\n## Supported runtimes\n\n- **Claude Code** — installation, configuration, and usage in [`.claude-plugin/README.md`](./.claude-plugin/README.md).\n- **Cursor** — installation, configuration, and usage in [`.cursor-plugin/README.md`](./.cursor-plugin/README.md).\n- **OpenAI Codex** — installation, configuration, and usage in [`.codex-plugin/README.md`](./.codex-plugin/README.md).\n- **GitHub Copilot CLI** — installation, configuration, and usage in [`.github/plugin/README.md`](./.github/plugin/README.md).\n- **OpenCode V2** — installation, configuration, and usage in [`opencode-v2/README.md`](./opencode-v2/README.md).\n- **GitHub Copilot app** — installation, configuration, and usage in [`copilot-app/README.md`](./copilot-app/README.md).\n\nAll runtimes run on macOS, Linux, and Windows, on `amd64` or `arm64`. On Windows, Claude Code also needs [Git for Windows](https://gitforwindows.org/): it runs hook commands through Git Bash, where the other runtimes use a PowerShell bootstrap.\n\n## Repository layout\n\nThis repo ships one shared Go pipeline (`cmd/`, `internal/`) and runtime-specific plugin surfaces. The rule: **`<runtime>/` holds everything shipped to that runtime**, including its `<runtime>-on-event.sh` bootstrap wrapper.\n\n| Path | Runtime | Purpose |\n|---|---|---|\n| `claude/` (`claude-on-event.sh`, `hooks.json`, `commands/`, `skills/`, `tools/`), `.claude-plugin/` | Claude Code | Bootstrap wrapper, hook registration, slash commands, configure skill, diagnostic scripts, manifest |\n| `cursor/` (`cursor-on-event.sh`, `hooks.json`, `skills/`), `.cursor-plugin/`, `install-cursor.sh` | Cursor | Bootstrap wrapper, hook registration, configure skill, manifest, installer |\n| `codex/` (`codex-on-event.sh`, `hooks.json`), `.codex-plugin/`, `.agents/plugins/marketplace.json`, `install-codex.sh` | OpenAI Codex | Bootstrap wrapper, hook registration, manifest, self-hosted Codex marketplace, installer. Installed via marketplace (`codex plugin add`) or the installer (hooks written to `~/.codex/config.toml`). `.agents/plugins/` is Codex-only — Claude reads `.claude-plugin/`, Cursor its own dir |\n| `copilot/` (`copilot-on-event.sh`, `plugin.json`, `hooks.json`, `skills/`), `.github/plugin/marketplace.json` | GitHub Copilot CLI | Self-contained plugin package (bootstrap wrapper, manifest, camelCase hooks, configure skill) + self-hosted Copilot marketplace listing it. Installed via marketplace (`copilot plugin install dash0-agent-plugin@dash0`) or the `:copilot` subpath. `.github/plugin/` is Copilot-only |\n| `opencode-v2/` (`index.js`, bootstraps, `skills/`, npm metadata) | OpenCode V2 | V2 `Plugin.define` package, configure skill and persistent event-stream consumer. Installed with `opencode plugin add @dash0/agent-plugin-opencode-v2` (npm, published by the release workflow) or from a cloned path |\n| `copilot-app/` (`extension.mjs`, `copilot-app-on-event.sh`, `skills/`) | GitHub Copilot app | Session extension (no manifest) that turns the app's session events into one binary call per turn, plus bootstrap wrapper and configure skill. Installed with `install_extension` pointed at this folder |\n\nThe dotted directories are fixed by each agent's plugin discovery and cannot move. Keeping every other runtime asset under `claude/`, `cursor/`, `codex/`, `copilot/`, `opencode-v2/`, and `copilot-app/` stops one marketplace from auto-discovering another runtime's components. `scripts/` is repo tooling only (release, version checks, the Docker test harness) — nothing there is shipped to a user.\n\n## Contributing\n\nStart with [DEVELOPMENT.md](DEVELOPMENT.md) for coding conventions, verification\ncommands and local runtime development. [ARCHITECTURE.md](ARCHITECTURE.md) explains\nevent flow, package ownership and telemetry contracts.\n[AGENTS.md](AGENTS.md) provides the short version for coding agents.\n\n## Releasing\n\n**Actions → Release.** Pick `patch`, `minor` or `major`; the workflow bumps every\nfile that pins a version, builds, verifies, publishes, and moves `main` last. One\nbutton, no PR.\n\n`dry_run` builds and checks without publishing anything.\n\nFull detail in [DEVELOPMENT.md](./DEVELOPMENT.md#releasing).\n\n## License\n\nApache-2.0 — see [LICENSE](LICENSE).",
+      "markdown": "# Dash0 Agent Plugin\n\nConnect your coding agent to [Dash0](https://dash0.com) for deep insight into how it's used — prompts and responses, tool calls, MCP calls, sub-agent activity, and token consumption — emitted as OpenTelemetry traces.\n\nTrace through a session, see what each turn cost, find where the agent got stuck, and join agent activity with the systems it touches.\n\n## Setup\n\nCheck out our documentation for setting up and configuring the Dash0 Agent Plugin: [Set Up AI SDLC Insights](https://www.dash0.com/docs/dash0/darkplane/insights/setup)\n\n## Supported runtimes\n\n- **Claude Code** — installation, configuration, and usage in [`.claude-plugin/README.md`](./.claude-plugin/README.md).\n- **Cursor** — installation, configuration, and usage in [`.cursor-plugin/README.md`](./.cursor-plugin/README.md).\n- **OpenAI Codex** — installation, configuration, and usage in [`.codex-plugin/README.md`](./.codex-plugin/README.md).\n- **GitHub Copilot CLI** — installation, configuration, and usage in [`.github/plugin/README.md`](./.github/plugin/README.md).\n- **OpenCode V2** — installation, configuration, and usage in [`opencode-v2/README.md`](./opencode-v2/README.md).\n- **GitHub Copilot app** — installation, configuration, and usage in [`copilot-app/README.md`](./copilot-app/README.md).\n- **Amp / ampcode CLI and Orbs** — native plugin, installed through an Amp plugin repository (which reaches Orbs too) or scripted onto one machine (`install-amp.sh`, `install-amp.ps1`), and per-model usage in [`amp/README.md`](./amp/README.md). Completed-turn telemetry; export-based usage is on by default, is partial, and uses an unstable Amp export schema.\n\nAll runtimes run on macOS, Linux, and Windows, on `amd64` or `arm64`. The shell-hook integrations use bootstrap scripts; Amp instead loads `amp/index.ts` as a native plugin and invokes its helper directly. On Windows, Claude Code also needs [Git for Windows](https://gitforwindows.org/): it runs hook commands through Git Bash, where the other runtimes use a PowerShell bootstrap.\n\n## Repository layout\n\nThis repo ships one shared Go pipeline (`cmd/`, `internal/`) and runtime-specific\nplugin surfaces. Each `<runtime>/` holds everything shipped to that runtime. The\nhook integrations include a `<runtime>-on-event.sh` bootstrap wrapper; Amp\ncontains its native TypeScript plugin and built helper instead.\n\n| Path | Runtime | Purpose |\n|---|---|---|\n| `amp/` (`index.ts`, built `amp-on-event` helper), `install-amp.sh` | Amp CLI and Orbs | Native plugin events, bounded completed-turn batches, optional exact-message per-model export usage, installer |\n| `claude/` (`claude-on-event.sh`, `hooks.json`, `commands/`, `skills/`, `tools/`), `.claude-plugin/` | Claude Code | Bootstrap wrapper, hook registration, slash commands, configure skill, diagnostic scripts, manifest |\n| `cursor/` (`cursor-on-event.sh`, `hooks.json`, `skills/`), `.cursor-plugin/`, `install-cursor.sh` | Cursor | Bootstrap wrapper, hook registration, configure skill, manifest, installer |\n| `codex/` (`codex-on-event.sh`, `hooks.json`), `.codex-plugin/`, `.agents/plugins/marketplace.json`, `install-codex.sh` | OpenAI Codex | Bootstrap wrapper, hook registration, manifest, self-hosted Codex marketplace, installer. Installed via marketplace (`codex plugin add`) or the installer (hooks written to `~/.codex/config.toml`). `.agents/plugins/` is Codex-only — Claude reads `.claude-plugin/`, Cursor its own dir |\n| `copilot/` (`copilot-on-event.sh`, `plugin.json`, `hooks.json`, `skills/`), `.github/plugin/marketplace.json` | GitHub Copilot CLI | Self-contained plugin package (bootstrap wrapper, manifest, camelCase hooks, configure skill) + self-hosted Copilot marketplace listing it. Installed via marketplace (`copilot plugin install dash0-agent-plugin@dash0`) or the `:copilot` subpath. `.github/plugin/` is Copilot-only |\n| `opencode-v2/` (`index.js`, bootstraps, `skills/`, npm metadata) | OpenCode V2 | V2 `Plugin.define` package, configure skill and persistent event-stream consumer. Installed with `opencode plugin add @dash0/agent-plugin-opencode-v2` (npm, published by the release workflow) or from a cloned path |\n| `copilot-app/` (`extension.mjs`, `copilot-app-on-event.sh`, `skills/`) | GitHub Copilot app | Session extension (no manifest) that turns the app's session events into one binary call per turn, plus bootstrap wrapper and configure skill. Installed with `install_extension` pointed at this folder |\n\nThe dotted directories are fixed by each agent's plugin discovery and cannot move. Keeping every other runtime asset under `amp/`, `claude/`, `cursor/`, `codex/`, `copilot/`, `opencode-v2/`, and `copilot-app/` stops one marketplace from auto-discovering another runtime's components. `scripts/` is repo tooling only (release, version checks, the Docker test harness) — nothing there is shipped to a user.\n\n## Contributing\n\nStart with [DEVELOPMENT.md](DEVELOPMENT.md) for coding conventions, verification\ncommands and local runtime development. [ARCHITECTURE.md](ARCHITECTURE.md) explains\nevent flow, package ownership and telemetry contracts.\n[AGENTS.md](AGENTS.md) provides the short version for coding agents.\n\n## Releasing\n\n**Actions → Release.** Pick `patch`, `minor` or `major`; the workflow bumps every\nfile that pins a version, builds, verifies, publishes, and moves `main` last. One\nbutton, no PR.\n\n`dry_run` builds and checks without publishing anything.\n\nFull detail in [DEVELOPMENT.md](./DEVELOPMENT.md#releasing).\n\n## License\n\nApache-2.0 — see [LICENSE](LICENSE).",
       "truncated": false,
       "url": "https://github.com/dash0hq/dash0-agent-plugin#readme"
     }
@@ -3410,7 +3410,7 @@
     "repoMeta": {
       "slug": "astronomer/agents",
       "stars": 458,
-      "forks": 71,
+      "forks": 72,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-13T16:23:31Z",
@@ -3443,15 +3443,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 242,
+    "stars": 243,
     "repoMeta": {
       "slug": "GoogleCloudPlatform/data-agent-kit-plugin",
-      "stars": 242,
+      "stars": 243,
       "forks": 70,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-02T14:10:44Z",
-      "pushedAt": "2026-11-03T11:47:00Z",
+      "pushedAt": "2026-11-04T04:52:27Z",
       "openIssues": 6,
       "license": "Apache-2.0",
       "language": "Python"
@@ -3484,7 +3484,7 @@
     "repoMeta": {
       "slug": "astronomer/agents",
       "stars": 458,
-      "forks": 71,
+      "forks": 72,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-13T16:23:31Z",
@@ -3517,10 +3517,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -3549,15 +3549,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 382,
+    "stars": 383,
     "repoMeta": {
       "slug": "databricks/databricks-agent-skills",
-      "stars": 382,
+      "stars": 383,
       "forks": 98,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-14T09:51:58Z",
-      "pushedAt": "2026-11-03T08:23:10Z",
+      "pushedAt": "2026-11-04T08:23:44Z",
       "openIssues": 37,
       "license": "NOASSERTION",
       "language": "Python"
@@ -3700,7 +3700,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-14T04:08:33Z",
-      "pushedAt": "2026-10-29T17:31:36Z",
+      "pushedAt": "2026-11-04T14:00:07Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
@@ -3729,15 +3729,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 252,
+    "stars": 253,
     "repoMeta": {
       "slug": "microsoft/Dataverse-skills",
-      "stars": 252,
-      "forks": 64,
+      "stars": 253,
+      "forks": 63,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-11T23:00:58Z",
-      "pushedAt": "2026-11-03T11:32:47Z",
+      "pushedAt": "2026-11-04T01:06:38Z",
       "openIssues": 22,
       "license": "MIT",
       "language": null
@@ -3761,16 +3761,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 19271,
+    "stars": 19291,
     "repoMeta": {
       "slug": "confident-ai/deepeval",
-      "stars": 19271,
-      "forks": 2163,
+      "stars": 19291,
+      "forks": 2168,
       "archived": false,
       "isFork": false,
       "createdAt": "2023-08-10T05:35:04Z",
-      "pushedAt": "2026-11-02T19:23:56Z",
-      "openIssues": 328,
+      "pushedAt": "2026-11-04T11:31:07Z",
+      "openIssues": 330,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3798,10 +3798,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -3835,16 +3835,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 10204,
+    "stars": 10212,
     "repoMeta": {
       "slug": "wonderwhy-er/DesktopCommanderMCP",
-      "stars": 10204,
-      "forks": 1275,
+      "stars": 10212,
+      "forks": 1276,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-12-04T08:26:08Z",
-      "pushedAt": "2026-11-03T08:03:42Z",
-      "openIssues": 207,
+      "pushedAt": "2026-11-04T13:58:28Z",
+      "openIssues": 208,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -3872,16 +3872,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3983,11 +3983,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 615,
+    "stars": 616,
     "repoMeta": {
       "slug": "duckdb/duckdb-skills",
-      "stars": 615,
-      "forks": 37,
+      "stars": 616,
+      "forks": 38,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T09:25:45Z",
@@ -4057,11 +4057,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 5209,
+    "stars": 5210,
     "repoMeta": {
       "slug": "exa-labs/exa-mcp-server",
-      "stars": 5209,
-      "forks": 408,
+      "stars": 5210,
+      "forks": 409,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-27T23:38:35Z",
@@ -4094,16 +4094,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4131,10 +4131,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 4033,
+    "stars": 4044,
     "repoMeta": {
       "slug": "expo/skills",
-      "stars": 4033,
+      "stars": 4044,
       "forks": 259,
       "archived": false,
       "isFork": false,
@@ -4168,16 +4168,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4242,16 +4242,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4316,10 +4316,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2146,
+    "stars": 2148,
     "repoMeta": {
       "slug": "figma/mcp-server-guide",
-      "stars": 2146,
+      "stars": 2148,
       "forks": 212,
       "archived": false,
       "isFork": false,
@@ -4353,16 +4353,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4389,7 +4389,7 @@
     "repoMeta": {
       "slug": "firecrawl/firecrawl-claude-plugin",
       "stars": 254,
-      "forks": 37,
+      "forks": 39,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-29T19:10:36Z",
@@ -4459,15 +4459,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 27,
+    "stars": 28,
     "repoMeta": {
       "slug": "atlassian/forge-skills",
-      "stars": 27,
-      "forks": 15,
+      "stars": 28,
+      "forks": 16,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-15T01:04:23Z",
-      "pushedAt": "2026-10-20T23:01:12Z",
+      "pushedAt": "2026-11-03T23:28:36Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "Python"
@@ -4496,16 +4496,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4607,16 +4607,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4676,16 +4676,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4745,16 +4745,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4827,7 +4827,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T17:29:03Z",
-      "pushedAt": "2026-10-30T14:07:06Z",
+      "pushedAt": "2026-11-03T15:55:43Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -4864,7 +4864,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T17:29:03Z",
-      "pushedAt": "2026-10-30T14:07:06Z",
+      "pushedAt": "2026-11-03T15:55:43Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -4901,7 +4901,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T17:29:03Z",
-      "pushedAt": "2026-10-30T14:07:06Z",
+      "pushedAt": "2026-11-03T15:55:43Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -5036,16 +5036,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5081,7 +5081,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-02T10:07:04Z",
-      "pushedAt": "2026-10-28T06:14:42Z",
+      "pushedAt": "2026-11-04T11:38:15Z",
       "openIssues": 1,
       "license": null,
       "language": "JavaScript"
@@ -5110,11 +5110,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 11261,
+    "stars": 11265,
     "repoMeta": {
       "slug": "huggingface/skills",
-      "stars": 11261,
-      "forks": 783,
+      "stars": 11265,
+      "forks": 785,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-24T07:31:48Z",
@@ -5155,7 +5155,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-18T14:41:45Z",
-      "pushedAt": "2026-11-02T12:03:01Z",
+      "pushedAt": "2026-11-04T08:53:28Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
@@ -5184,21 +5184,21 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 78098,
+    "stars": 78705,
     "repoMeta": {
       "slug": "heygen-com/hyperframes",
-      "stars": 78098,
-      "forks": 7199,
+      "stars": 78705,
+      "forks": 7245,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T01:51:06Z",
-      "pushedAt": "2026-11-03T13:50:27Z",
-      "openIssues": 77,
+      "pushedAt": "2026-11-04T13:52:36Z",
+      "openIssues": 79,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "<b>Write HTML. Render video. Built for agents.</b>\n\n  Studio |\n  Quickstart |\n  Showcase |\n  Playground |\n  Catalog |\n  Docs |\n  Discord\n\n  \n\n  <b>Download the desktop app:</b>\n  macOS ·\n  Windows ·\n  Linux (.deb)\n\nHyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.\n\nUsing Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video.\n\n## Quick Start\n\n### With an AI coding agent\n\nFor Claude Code, install the versioned plugin:\n\n```bash\nclaude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes\n```\n\nTo enable auto-update for the **hyperframes** marketplace, run `claude` in a\nterminal in your project. In Claude Code's terminal UI, run `/plugin`, then select\n**Marketplaces** → **hyperframes** → **Enable auto-update**. Afterward, use\n`/hyperframes:hyperframes`. See the [plugin guide](docs/guides/plugins.mdx)\nfor Copilot, VS Code, Cursor, Gemini CLI, updates, and migration.\n\nFor standalone skills (including OpenCode), use:\n\n```bash\nnpx skills add heygen-com/hyperframes\n```\n\n> The picker opens with nothing pre-selected — the **Core Skills** group is all you need; `/slideshow`, `/remotion-to-hyperframes`, `/reverse-any-video`, `/style-sampling` and `/figma` install on demand. Agents and non-interactive runs should use `npx hyperframes skills update` instead — it installs exactly the core set, whereas `skills add --all` installs all 9 published skills. The six repo-internal skills under `.claude/skills` / `.agents/skills` are excluded by default. For the full published set use `npx hyperframes skills`.\n>\n> `skills add` resolves the skills.sh registry blob, which can lag `main` by hours. `npx hyperframes skills update` installs the skills from the release tag that matches your CLI version, so they match the CLI that runs them.\n\nRun project-local installs from your video project's directory. From a HyperFrames\ncheckout, use `npx hyperframes skills update` for a global install instead: a\nproject-local installer target can overlap the tracked `skills/` source and\noverwrite uncommitted edits. See [contributor setup](CONTRIBUTING.md#getting-started).\n\nTry a prompt like:\n\n> Using `/hyperframes`, create a 10-second product intro with a fade-in title, a background video, and subtle background music.\n\nThe skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. They work with Claude Code, Codex, Cursor, Gemini CLI, IBM Bob, and other coding agents that support skills.\n\n## Skills\n\nHyperFrames ships 9 skills. Make any video by asking for it; the `/hyperframes` skill carries the contract and the references (film, captions, overlays, motion, look). Read it first.\n\nFor standalone installation, default to the **core set** (`/hyperframes`, `/hyperframes-cli`, `/hyperframes-registry`, `/media-use`). `npx hyperframes skills update` installs exactly that from anywhere; the interactive picker (`npx skills add heygen-com/hyperframes`) lists it as the \"Core Skills\" group, nothing pre-selected. The picker is interactive-only — a non-interactive or agent run without `--skill` installs all 9. Use `npx skills add heygen-com/hyperframes --all` to install the complete published set deliberately (skips the picker), or `npx skills add heygen-com/hyperframes --skill <name>` for just one (bare name, no leading `/`).\n\nStandalone installs stay lean after that: `npx hyperframes init` installs the **core set** only when it is missing and never touches a skill you already have (`npx hyperframes skills update` refreshes them, and never removes one); `/figma`, `/slideshow`, `/remotion-to-hyperframes` and `/reverse-any-video` install **on demand** with `npx hyperframes skills update <name>`. Nothing re-pulls the full set behind your back.\n\n### Plugin packages\n\nPlugins bundle the full skill catalog and use their agent's update manager.\n`bun run package:agent-plugin` builds the committed portable ZIP, source metadata,\nand SHA-256 checksum. See the [maintainer checklist](docs/contributing/agent-plugins.mdx).\n\n### Upload to Codex\n\nBuild the upload-ready Codex plugin archive from the committed `HEAD` version of the manifest, brand assets, and skills:\n\n```bash\nbun run package:codex-plugin\n```\n\nThis writes `dist/hyperframes-plugin.zip` with a `hyperframes/` root folder and fails if the archive exceeds Codex's 100 MB upload limit.\n\n### Core set\n\n| Skill                   | Use when                                                                                                                                                                                                                                                                                            |\n| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| `/hyperframes`          | **Read first** for any request to make, edit, animate or render a video, motion graphic, captions or overlays with HyperFrames (HTML rendered to video). Holds the render contract and the work loop, and points to the references for format, motion, look, captions, whole films and storyboards. |\n| `/hyperframes-cli`      | The HyperFrames CLI by job — scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history — plus reading its JSON and recovering from build or render failures.                                                                            |\n| `/hyperframes-registry` | About 450 ready-\n\n…",
+      "markdown": "<b>Write HTML. Render video. Built for agents.</b>\n\n  Studio |\n  Quickstart |\n  Showcase |\n  Playground |\n  Catalog |\n  Docs |\n  Discord\n\n  \n\n  <b>Download the desktop app:</b>\n  macOS ·\n  Windows ·\n  Linux (.deb)\n\nHyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.\n\nUsing Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video.\n\n## Quick Start\n\n### With an AI coding agent\n\nFor Claude Code, install the versioned plugin:\n\n```bash\nclaude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes\n```\n\nTo enable auto-update for the **hyperframes** marketplace, run `claude` in a\nterminal in your project. In Claude Code's terminal UI, run `/plugin`, then select\n**Marketplaces** → **hyperframes** → **Enable auto-update**. Afterward, use\n`/hyperframes:hyperframes`. See the [plugin guide](docs/guides/plugins.mdx)\nfor Copilot, VS Code, Cursor, Gemini CLI, updates, and migration.\n\nFor standalone skills (including OpenCode), use:\n\n```bash\nnpx skills add heygen-com/hyperframes\n```\n\n> The picker opens with nothing pre-selected — the **Core Skills** group is all you need; `/slideshow`, `/remotion-to-hyperframes`, `/reverse-any-video`, `/style-sampling` and `/figma` install on demand. Without the picker (a script or a CI job), `npx hyperframes skills update` installs exactly the core set, whereas `skills add --all` installs all 9 published skills. The six repo-internal skills under `.claude/skills` / `.agents/skills` are excluded by default. For the full published set use `npx hyperframes skills`.\n>\n> `skills add` resolves the skills.sh registry blob, which can lag `main` by hours. `npx hyperframes skills update` installs the skills from the release tag that matches your CLI version, so they match the CLI that runs them.\n\nRun project-local installs from your video project's directory. From a HyperFrames\ncheckout, use `npx hyperframes skills update` for a global install instead: a\nproject-local installer target can overlap the tracked `skills/` source and\noverwrite uncommitted edits. See [contributor setup](CONTRIBUTING.md#getting-started).\n\nTry a prompt like:\n\n> Using `/hyperframes`, create a 10-second product intro with a fade-in title, a background video, and subtle background music.\n\nThe skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. They work with Claude Code, Codex, Cursor, Gemini CLI, IBM Bob, and other coding agents that support skills.\n\n## Skills\n\nHyperFrames ships 9 skills. Make any video by asking for it; the `/hyperframes` skill carries the contract and the references (film, captions, overlays, motion, look). Read it first.\n\nFor standalone installation, default to the **core set** (`/hyperframes`, `/hyperframes-cli`, `/hyperframes-registry`, `/media-use`). `npx hyperframes skills update` installs exactly that from anywhere; the interactive picker (`npx skills add heygen-com/hyperframes`) lists it as the \"Core Skills\" group, nothing pre-selected. The picker is interactive-only — a non-interactive or agent run without `--skill` installs all 9. Use `npx skills add heygen-com/hyperframes --all` to install the complete published set deliberately (skips the picker), or `npx skills add heygen-com/hyperframes --skill <name>` for just one (bare name, no leading `/`).\n\nStandalone installs stay lean after that: `npx hyperframes init` installs the **core set** only when it is missing and never touches a skill you already have (`npx hyperframes skills update` refreshes them, and never removes one); `/figma`, `/slideshow`, `/remotion-to-hyperframes` and `/reverse-any-video` install **on demand** with `npx hyperframes skills update <name>`. Nothing re-pulls the full set behind your back.\n\n### Plugin packages\n\nPlugins bundle the full skill catalog and use their agent's update manager.\n`bun run package:agent-plugin` builds the committed portable ZIP, source metadata,\nand SHA-256 checksum. See the [maintainer checklist](docs/contributing/agent-plugins.mdx).\n\n### Upload to Codex\n\nBuild the upload-ready Codex plugin archive from the committed `HEAD` version of the manifest, brand assets, and skills:\n\n```bash\nbun run package:codex-plugin\n```\n\nThis writes `dist/hyperframes-plugin.zip` with a `hyperframes/` root folder and fails if the archive exceeds Codex's 100 MB upload limit.\n\n### Core set\n\n| Skill                   | Use when                                                                                                                                                                                                                                                                                            |\n| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| `/hyperframes`          | **Read first** for any request to make, edit, animate or render a video, motion graphic, captions or overlays with HyperFrames (HTML rendered to video). Holds the render contract and the work loop, and points to the references for format, motion, look, captions, whole films and storyboards. |\n| `/hyperframes-cli`      | The HyperFrames CLI by job — scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history — plus reading its JSON and recovering from build or render failures.                                                                            |\n| `/hyperframes-registry` | About 450 ready-made blocks a\n\n…",
       "truncated": true,
       "url": "https://github.com/heygen-com/hyperframes#readme"
     }
@@ -5253,16 +5253,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5298,7 +5298,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-21T12:49:40Z",
-      "pushedAt": "2026-11-02T16:31:01Z",
+      "pushedAt": "2026-11-03T18:02:47Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
@@ -5438,16 +5438,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5549,16 +5549,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5623,16 +5623,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -5726,16 +5726,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5800,16 +5800,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -5869,10 +5869,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 36,
+    "stars": 37,
     "repoMeta": {
       "slug": "Shopify/liquid-skills",
-      "stars": 36,
+      "stars": 37,
       "forks": 6,
       "archived": false,
       "isFork": false,
@@ -5906,10 +5906,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 36,
+    "stars": 37,
     "repoMeta": {
       "slug": "Shopify/liquid-skills",
-      "stars": 36,
+      "stars": 37,
       "forks": 6,
       "archived": false,
       "isFork": false,
@@ -5938,10 +5938,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 149,
+    "stars": 150,
     "repoMeta": {
       "slug": "pydantic/skills",
-      "stars": 149,
+      "stars": 150,
       "forks": 7,
       "archived": false,
       "isFork": false,
@@ -6081,16 +6081,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6118,10 +6118,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 314,
+    "stars": 315,
     "repoMeta": {
       "slug": "ory/lumen",
-      "stars": 314,
+      "stars": 315,
       "forks": 37,
       "archived": false,
       "isFork": false,
@@ -6163,7 +6163,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-18T07:17:27Z",
-      "pushedAt": "2026-10-29T09:32:25Z",
+      "pushedAt": "2026-11-04T09:14:07Z",
       "openIssues": 1,
       "license": "MIT",
       "language": null
@@ -6200,7 +6200,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-29T21:05:27Z",
-      "pushedAt": "2026-10-30T13:26:59Z",
+      "pushedAt": "2026-11-03T17:10:33Z",
       "openIssues": 6,
       "license": "MIT",
       "language": "JavaScript"
@@ -6229,16 +6229,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6266,16 +6266,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6303,16 +6303,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 310919,
+    "stars": 312434,
     "repoMeta": {
       "slug": "mattpocock/skills",
-      "stars": 310919,
-      "forks": 26150,
+      "stars": 312434,
+      "forks": 26235,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-03T11:15:53Z",
-      "pushedAt": "2026-11-01T11:42:33Z",
-      "openIssues": 185,
+      "pushedAt": "2026-11-04T11:45:30Z",
+      "openIssues": 188,
       "license": "MIT",
       "language": "Shell"
     },
@@ -6340,16 +6340,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3043,
+    "stars": 3045,
     "repoMeta": {
       "slug": "modelcontextprotocol/ext-apps",
-      "stars": 3043,
+      "stars": 3045,
       "forks": 426,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-21T11:39:27Z",
-      "pushedAt": "2026-10-29T13:22:43Z",
-      "openIssues": 134,
+      "pushedAt": "2026-11-04T03:28:52Z",
+      "openIssues": 128,
       "license": "NOASSERTION",
       "language": "TypeScript"
     },
@@ -6377,16 +6377,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6414,16 +6414,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6497,7 +6497,7 @@
       "isFork": false,
       "createdAt": "2021-05-17T07:36:22Z",
       "pushedAt": "2026-11-02T17:06:09Z",
-      "openIssues": 2,
+      "openIssues": 1,
       "license": "NOASSERTION",
       "language": "Shell"
     },
@@ -6529,7 +6529,7 @@
     "repoMeta": {
       "slug": "MicrosoftDocs/mcp",
       "stars": 1971,
-      "forks": 280,
+      "forks": 281,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-06-09T03:31:49Z",
@@ -6607,7 +6607,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T00:58:46Z",
-      "pushedAt": "2026-11-02T22:20:29Z",
+      "pushedAt": "2026-11-04T02:12:35Z",
       "openIssues": 0,
       "license": "MIT",
       "language": null
@@ -6673,10 +6673,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2609,
+    "stars": 2612,
     "repoMeta": {
       "slug": "GoogleChrome/modern-web-guidance",
-      "stars": 2609,
+      "stars": 2612,
       "forks": 103,
       "archived": false,
       "isFork": false,
@@ -6710,16 +6710,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 88,
+    "stars": 89,
     "repoMeta": {
       "slug": "mlflow/skills",
-      "stars": 88,
-      "forks": 27,
+      "stars": 89,
+      "forks": 28,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-14T02:30:04Z",
-      "pushedAt": "2026-11-02T03:34:23Z",
-      "openIssues": 3,
+      "pushedAt": "2026-11-04T05:10:26Z",
+      "openIssues": 5,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6747,15 +6747,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 436,
+    "stars": 437,
     "repoMeta": {
       "slug": "mondaycom/mcp",
-      "stars": 436,
+      "stars": 437,
       "forks": 105,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-04-06T07:48:55Z",
-      "pushedAt": "2026-11-03T11:23:01Z",
+      "pushedAt": "2026-11-04T10:11:42Z",
       "openIssues": 23,
       "license": "MIT",
       "language": "TypeScript"
@@ -6858,10 +6858,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 111,
+    "stars": 112,
     "repoMeta": {
       "slug": "neondatabase/agent-skills",
-      "stars": 111,
+      "stars": 112,
       "forks": 24,
       "archived": false,
       "isFork": false,
@@ -6894,11 +6894,11 @@
     "repoMeta": {
       "slug": "netlify/context-and-tools",
       "stars": 50,
-      "forks": 14,
+      "forks": 15,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-26T21:04:08Z",
-      "pushedAt": "2026-11-03T13:33:12Z",
+      "pushedAt": "2026-11-04T13:32:00Z",
       "openIssues": 6,
       "license": "MIT",
       "language": "TypeScript"
@@ -7023,10 +7023,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3,
+    "stars": 4,
     "repoMeta": {
       "slug": "newrelic/claude-code-plugin",
-      "stars": 3,
+      "stars": 4,
       "forks": 1,
       "archived": false,
       "isFork": false,
@@ -7203,16 +7203,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3843,
+    "stars": 3859,
     "repoMeta": {
       "slug": "NVIDIA/skills",
-      "stars": 3843,
-      "forks": 483,
+      "stars": 3859,
+      "forks": 488,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T21:54:05Z",
-      "pushedAt": "2026-11-02T23:47:04Z",
-      "openIssues": 9,
+      "pushedAt": "2026-11-04T06:14:45Z",
+      "openIssues": 8,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7388,10 +7388,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 446,
+    "stars": 445,
     "repoMeta": {
       "slug": "growthxai/output",
-      "stars": 446,
+      "stars": 445,
       "forks": 15,
       "archived": false,
       "isFork": false,
@@ -7465,13 +7465,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-07-07T00:06:01Z",
-      "pushedAt": "2026-10-16T01:50:46Z",
-      "openIssues": 3,
+      "pushedAt": "2026-11-03T22:04:18Z",
+      "openIssues": 2,
       "license": "Apache-2.0",
       "language": null
     },
     "readme": {
-      "markdown": "# PayPal AI Toolkit\n\nA plugin that integrates PayPal's APIs and MCP server into your AI coding workflow. Get AI-assisted help with PayPal payments, subscriptions, invoices, disputes, and more — in Claude Code, OpenAI Codex, Cursor, and other compatible agents.\n\n## Features\n\n- **Best practices Skill** — auto-injects PayPal API knowledge when you're working on payment integrations\n- **Commands** — quick reference commands for common developer tasks (Claude Code and Cursor)\n- **Hooks** — automatically checks PayPal best practices before writing integration code\n- **MCP Server integration** — connects your agent to PayPal's sandbox MCP servers for direct API operations via natural language\n\n## Installation\n\n### Prerequisites\n\n- A PayPal Developer account at https://developer.paypal.com\n- A PayPal sandbox access token\n- Claude Code (`claude --version`), OpenAI Codex (`codex --version`), and/or Cursor\n\n### Claude Code\n\nPayPal AI Toolkit is available on the official Anthropic marketplace, which Claude Code adds automatically. Install it with:\n\n```\n/plugin install paypal@claude-plugins-official\n```\n\nThen run `/reload-plugins` to activate it.\n\n#### Local / development install\n\nTo work on the plugin itself, clone the repo and load it directly instead:\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\n```\n\nThen start Claude Code with the plugin loaded:\n\n```bash\ncd your-project/\nclaude --plugin-dir /path/to/AI-Toolkit\n```\n\n### OpenAI Codex\n\nAdd the PayPal marketplace, then install the plugin:\n\n```bash\ncodex plugin marketplace add paypal/AI-Toolkit\ncodex plugin add paypal@paypal-ai-toolkit\n```\n\n#### Local / development install\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\ncodex plugin marketplace add /path/to/AI-Toolkit\ncodex plugin add paypal@paypal-ai-toolkit\n```\n\nRestart Codex after installing so skills and the sandbox MCP server load.\n\n### Cursor\n\nAdd this repository as a marketplace, then install the plugin:\n\n```bash\ncursor-agent plugin marketplace add https://github.com/paypal/AI-Toolkit\n```\n\nThen open **Customize** (or type `/plugin`) and install `paypal` at user or project scope.\n\nOnce the plugin is listed on the Cursor marketplace, you can also install it from chat with `/add-plugin paypal`.\n\n#### Local / development install\n\nLoad the checkout directly (no marketplace or admin setting required):\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\ncursor-agent --plugin-dir /path/to/AI-Toolkit\n```\n\nYou can also copy the repo into Cursor's local plugin folder. This requires **Allow Local Plugin Imports** (Dashboard → Settings → Security & Identity → Marketplace and Plugins), which is off by default on some teams. Symlinks that point outside this folder are skipped:\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git ~/.cursor/plugins/local/paypal\n```\n\n`cursor-agent plugin marketplace add` only accepts a git URL (for example `https://github.com/paypal/AI-Toolkit`), not a local path.\n\nRestart Cursor or run **Developer: Reload Window**, then confirm skills, commands, and `paypal-sandbox` in **Customize**.\n\n### Configure your sandbox access token\n\n1. Generate a sandbox access token:\n\n   ```bash\n   curl -X POST https://api-m.sandbox.paypal.com/v1/oauth2/token \\\n     -u \"YOUR_SANDBOX_CLIENT_ID:YOUR_SANDBOX_CLIENT_SECRET\" \\\n     -d \"grant_type=client_credentials\" \\\n     | jq -r .access_token\n   ```\n\n   Get the client ID and secret from the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/applications/sandbox).\n\n2. Paste the single-line value into your agent's config.\n\n   **Claude Code** — merge into the existing `\"env\"` block in `~/.claude/settings.json`:\n\n   ```json\n   \"env\": {\n     \"PAYPAL_SANDBOX_ACCESS_TOKEN\": \"A21AA…\"\n   }\n   ```\n\n   **OpenAI Codex** — merge into `~/.codex/config.toml`:\n\n   ```toml\n   [shell_environment_policy.set]\n   PAYPAL_SANDBOX_ACCESS_TOKEN = \"A21AA…\"\n   ```\n\n   **Cursor** — after installing the plugin, open **Customize → Plugins → PayPal → Configure** and paste the token. Cursor stores it and substitutes `${PAYPAL_SANDBOX_ACCESS_TOKEN}` in `.mcp.json`. A GUI-launched Cursor does not inherit `export` from `~/.zshrc`.\n\n3. **Fully quit and reopen** the agent (close the app — not just `/clear`).\n\n4. In Claude Code, run `/paypal:setup` to verify. In Codex or Cursor, ask the agent to list PayPal MCP tools or create a sandbox invoice.\n\n> **Use the agent config or Cursor plugin Configure panel, not `~/.zshrc`.** GUI launches don't source `~/.zshrc`, and a line-wrapped `export` embeds a newline in the token that breaks the HTTP header.\n\nTokens expire in up to 8 hours depending on scope — check the `expires_in` field in the response. Run `/paypal:setup refresh` when you hit a 401.\n\n## Commands\n\nSlash commands are available in Claude Code and Cursor. Codex uses the same skills and MCP server through natural language.\n\n| Command                         | Description                                       |\n| ------------------------------- | ------------------------------------------------- |\n| `/paypal:doctor [symptom]`      | Scan your codebase for PayPal integration issues  |\n| `/paypal:explain-error <code>`  | Explain a PayPal error code with causes and fixes |\n| `/paypal:sandbox [topic]`       | Sandbox setup, test accounts, and testing tips    |\n| `/paypal:setup [mode]`          | Configure the plugin, verify MCP, refresh tokens  |\n| `/paypal:test-accounts [topic]` | Test cards, BNPL, Venmo, webhooks, and scenarios  |\n\n### Examples\n\n```\n/paypal:explain-error INSTRUMENT_DECLINED\n/paypal:explain-error 422 UNPROCESSABLE_ENTITY\n/paypal:sandbox subscriptions\n/paypal:sandbox webhooks\n/paypal:setup\n/paypal:doctor webhooks not firing\n```\n\n## MCP Server\n\nThe plugin connects to PayPal's sandbox MCP server, which exposes tools for:\n\n- **Orders & Payments** — create orders, capture payments, process refunds\n- **Invoices** — create, send, manage, and generate QR codes for invoices\n- **Subscriptions** — manage billing plans and subscrip\n\n…",
+      "markdown": "# PayPal AI Toolkit\n\nA plugin that integrates PayPal's APIs and MCP server into your AI coding workflow. Get AI-assisted help with PayPal payments, subscriptions, invoices, disputes, and more — in Claude Code, OpenAI Codex, Cursor, IBM Bob, and other compatible agents.\n\n## Features\n\n- **Best practices Skill** — auto-injects PayPal API knowledge when you're working on payment integrations\n- **Commands** — quick reference commands for common developer tasks (Claude Code and Cursor)\n- **Hooks** — automatically checks PayPal best practices before writing integration code\n- **MCP Server integration** — connects your agent to PayPal's sandbox MCP servers for direct API operations via natural language\n\n## Installation\n\n### Prerequisites\n\n- A PayPal Developer account at https://developer.paypal.com\n- A PayPal sandbox access token\n- Claude Code (`claude --version`), OpenAI Codex (`codex --version`), Cursor, and/or IBM Bob\n\n### Claude Code\n\nPayPal AI Toolkit is available on the official Anthropic marketplace, which Claude Code adds automatically. Install it with:\n\n```\n/plugin install paypal@claude-plugins-official\n```\n\nThen run `/reload-plugins` to activate it.\n\n#### Local / development install\n\nTo work on the plugin itself, clone the repo and load it directly instead:\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\n```\n\nThen start Claude Code with the plugin loaded:\n\n```bash\ncd your-project/\nclaude --plugin-dir /path/to/AI-Toolkit\n```\n\n### OpenAI Codex\n\nAdd the PayPal marketplace, then install the plugin:\n\n```bash\ncodex plugin marketplace add paypal/AI-Toolkit\ncodex plugin add paypal@paypal-ai-toolkit\n```\n\n#### Local / development install\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\ncodex plugin marketplace add /path/to/AI-Toolkit\ncodex plugin add paypal@paypal-ai-toolkit\n```\n\nRestart Codex after installing so skills and the sandbox MCP server load.\n\n### Cursor\n\nAdd this repository as a marketplace, then install the plugin:\n\n```bash\ncursor-agent plugin marketplace add https://github.com/paypal/AI-Toolkit\n```\n\nThen open **Customize** (or type `/plugin`) and install `paypal` at user or project scope.\n\nOnce the plugin is listed on the Cursor marketplace, you can also install it from chat with `/add-plugin paypal`.\n\n#### Local / development install\n\nLoad the checkout directly (no marketplace or admin setting required):\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\ncursor-agent --plugin-dir /path/to/AI-Toolkit\n```\n\nYou can also copy the repo into Cursor's local plugin folder. This requires **Allow Local Plugin Imports** (Dashboard → Settings → Security & Identity → Marketplace and Plugins), which is off by default on some teams. Symlinks that point outside this folder are skipped:\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git ~/.cursor/plugins/local/paypal\n```\n\n`cursor-agent plugin marketplace add` only accepts a git URL (for example `https://github.com/paypal/AI-Toolkit`), not a local path.\n\nRestart Cursor or run **Developer: Reload Window**, then confirm skills, commands, and `paypal-sandbox` in **Customize**.\n\n### IBM Bob\n\nClone the repository and open it in IBM Bob (Bob IDE or Bob Shell):\n\n```bash\ngit clone https://github.com/paypal/AI-Toolkit.git\ncd AI-Toolkit\n```\n\nIBM Bob automatically discovers and loads skills from `.bob/skills/` and the sandbox MCP server from `.bob/mcp.json`. The Bob config connects to `https://mcp.sandbox.paypal.com/mcp` over Streamable HTTP and contains no credentials. When Bob first connects, it prompts you to authenticate in your browser (see [MCP OAuth authentication](https://bob.ibm.com/docs/ide/configuration/mcp/mcp-oauth)). Check the connection status under **Settings → MCP**. IBM Bob users can skip the sandbox access token section below.\n\n### Configure your sandbox access token\n\n1. Generate a sandbox access token:\n\n   ```bash\n   curl -X POST https://api-m.sandbox.paypal.com/v1/oauth2/token \\\n     -u \"YOUR_SANDBOX_CLIENT_ID:YOUR_SANDBOX_CLIENT_SECRET\" \\\n     -d \"grant_type=client_credentials\" \\\n     | jq -r .access_token\n   ```\n\n   Get the client ID and secret from the [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/applications/sandbox).\n\n2. Paste the single-line value into your agent's config.\n\n   **Claude Code** — merge into the existing `\"env\"` block in `~/.claude/settings.json`:\n\n   ```json\n   \"env\": {\n     \"PAYPAL_SANDBOX_ACCESS_TOKEN\": \"A21AA…\"\n   }\n   ```\n\n   **OpenAI Codex** — merge into `~/.codex/config.toml`:\n\n   ```toml\n   [shell_environment_policy.set]\n   PAYPAL_SANDBOX_ACCESS_TOKEN = \"A21AA…\"\n   ```\n\n   **Cursor** — after installing the plugin, open **Customize → Plugins → PayPal → Configure** and paste the token. Cursor stores it and substitutes `${PAYPAL_SANDBOX_ACCESS_TOKEN}` in `.mcp.json`. A GUI-launched Cursor does not inherit `export` from `~/.zshrc`.\n\n3. **Fully quit and reopen** the agent (close the app — not just `/clear`).\n\n4. In Claude Code, run `/paypal:setup` to verify. In Codex, Cursor, or IBM Bob, ask the agent to list PayPal MCP tools or create a sandbox invoice.\n\n> **Use the agent config or Cursor plugin Configure panel, not `~/.zshrc`.** GUI launches don't source `~/.zshrc`, and a line-wrapped `export` embeds a newline in the token that breaks the HTTP header.\n\nTokens expire in up to 8 hours depending on scope — check the `expires_in` field in the response. Run `/paypal:setup refresh` when you hit a 401.\n\n## Commands\n\nSlash commands are available in Claude Code and Cursor. Codex uses the same skills and MCP server through natural language.\n\n| Command                         | Description                                       |\n| ------------------------------- | ------------------------------------------------- |\n| `/paypal:doctor [symptom]`      | Scan your codebase for PayPal integration issues  |\n| `/paypal:explain-error <code>`  | Explain a PayPal error code with causes and fixes |\n| `/paypal:sandbox [topic]`       | Sandbox setup, test accounts, and testin\n\n…",
       "truncated": true,
       "url": "https://github.com/paypal/AI-Toolkit#readme"
     }
@@ -7494,15 +7494,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1,
+    "stars": 2,
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
-      "stars": 1,
+      "stars": 2,
       "forks": 5,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
-      "pushedAt": "2026-10-30T17:51:23Z",
+      "pushedAt": "2026-11-03T17:04:47Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "JavaScript"
@@ -7526,15 +7526,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1,
+    "stars": 2,
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
-      "stars": 1,
+      "stars": 2,
       "forks": 5,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
-      "pushedAt": "2026-10-30T17:51:23Z",
+      "pushedAt": "2026-11-03T17:04:47Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "JavaScript"
@@ -7558,15 +7558,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1,
+    "stars": 2,
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
-      "stars": 1,
+      "stars": 2,
       "forks": 5,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
-      "pushedAt": "2026-10-30T17:51:23Z",
+      "pushedAt": "2026-11-03T17:04:47Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "JavaScript"
@@ -7595,16 +7595,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7714,7 +7714,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-10T20:12:37Z",
-      "pushedAt": "2026-10-31T01:34:26Z",
+      "pushedAt": "2026-11-04T00:24:36Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
@@ -7780,16 +7780,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7817,16 +7817,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -7849,16 +7849,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7894,7 +7894,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-18T21:38:03Z",
-      "pushedAt": "2026-11-03T12:08:12Z",
+      "pushedAt": "2026-11-04T12:05:32Z",
       "openIssues": 9,
       "license": null,
       "language": "Python"
@@ -7923,11 +7923,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 563,
+    "stars": 562,
     "repoMeta": {
       "slug": "gitroomhq/postiz-agent",
-      "stars": 563,
-      "forks": 118,
+      "stars": 562,
+      "forks": 119,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-14T05:12:01Z",
@@ -7968,7 +7968,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-11T09:47:54Z",
-      "pushedAt": "2026-11-03T13:44:56Z",
+      "pushedAt": "2026-11-04T10:41:32Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -7997,16 +7997,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8103,16 +8103,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8140,10 +8140,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 149,
+    "stars": 150,
     "repoMeta": {
       "slug": "pydantic/skills",
-      "stars": 149,
+      "stars": 150,
       "forks": 7,
       "archived": false,
       "isFork": false,
@@ -8177,16 +8177,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8214,15 +8214,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 267,
+    "stars": 268,
     "repoMeta": {
       "slug": "qdrant/skills",
-      "stars": 267,
+      "stars": 268,
       "forks": 31,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-29T18:14:49Z",
-      "pushedAt": "2026-11-03T10:36:12Z",
+      "pushedAt": "2026-11-03T17:54:18Z",
       "openIssues": 6,
       "license": "Apache-2.0",
       "language": "Python"
@@ -8259,7 +8259,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-11T16:43:51Z",
-      "pushedAt": "2026-11-03T12:54:56Z",
+      "pushedAt": "2026-11-03T14:26:30Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "JavaScript"
@@ -8291,7 +8291,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-11T16:43:51Z",
-      "pushedAt": "2026-11-03T12:54:56Z",
+      "pushedAt": "2026-11-03T14:26:30Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "JavaScript"
@@ -8315,11 +8315,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 522,
+    "stars": 523,
     "repoMeta": {
       "slug": "TheQtCompanyRnD/agent-skills",
-      "stars": 522,
-      "forks": 53,
+      "stars": 523,
+      "forks": 54,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T08:54:13Z",
@@ -8361,7 +8361,7 @@
       "isFork": false,
       "createdAt": "2026-03-17T03:08:33Z",
       "pushedAt": "2026-10-26T03:58:56Z",
-      "openIssues": 1,
+      "openIssues": 2,
       "license": "Apache-2.0",
       "language": "Java"
     },
@@ -8393,7 +8393,7 @@
     "repoMeta": {
       "slug": "railwayapp/railway-skills",
       "stars": 340,
-      "forks": 51,
+      "forks": 50,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-04T08:47:28Z",
@@ -8426,16 +8426,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8489,16 +8489,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8526,15 +8526,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 172,
+    "stars": 173,
     "repoMeta": {
       "slug": "redis/agent-skills",
-      "stars": 172,
-      "forks": 32,
+      "stars": 173,
+      "forks": 33,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-29T09:01:23Z",
-      "pushedAt": "2026-11-03T10:53:51Z",
+      "pushedAt": "2026-11-04T01:04:43Z",
       "openIssues": 5,
       "license": "MIT",
       "language": "TypeScript"
@@ -8566,8 +8566,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-15T16:47:29Z",
-      "pushedAt": "2026-11-03T10:56:30Z",
-      "openIssues": 17,
+      "pushedAt": "2026-11-04T10:59:55Z",
+      "openIssues": 18,
       "license": "NOASSERTION",
       "language": "Python"
     },
@@ -8632,15 +8632,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 209,
+    "stars": 212,
     "repoMeta": {
       "slug": "resend/resend-skills",
-      "stars": 209,
+      "stars": 212,
       "forks": 34,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-20T21:20:08Z",
-      "pushedAt": "2026-10-28T19:18:37Z",
+      "pushedAt": "2026-11-03T20:40:39Z",
       "openIssues": 3,
       "license": "MIT",
       "language": "JavaScript"
@@ -8703,7 +8703,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T00:41:27Z",
-      "pushedAt": "2026-11-02T08:01:16Z",
+      "pushedAt": "2026-11-04T08:01:16Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "Shell"
@@ -8769,16 +8769,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8838,16 +8838,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8875,10 +8875,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 933,
+    "stars": 935,
     "repoMeta": {
       "slug": "awslabs/agent-plugins",
-      "stars": 933,
+      "stars": 935,
       "forks": 168,
       "archived": false,
       "isFork": false,
@@ -8912,16 +8912,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1140,
+    "stars": 1141,
     "repoMeta": {
       "slug": "forcedotcom/sf-skills",
-      "stars": 1140,
-      "forks": 387,
+      "stars": 1141,
+      "forks": 392,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-07T17:10:54Z",
       "pushedAt": "2026-10-30T22:09:16Z",
-      "openIssues": 43,
+      "openIssues": 45,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8949,10 +8949,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 195,
+    "stars": 196,
     "repoMeta": {
       "slug": "sanity-io/agent-toolkit",
-      "stars": 195,
+      "stars": 196,
       "forks": 31,
       "archived": false,
       "isFork": false,
@@ -8994,7 +8994,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-04-05T19:05:08Z",
-      "pushedAt": "2026-11-03T08:09:02Z",
+      "pushedAt": "2026-11-04T10:20:51Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -9031,8 +9031,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2021-05-28T07:40:30Z",
-      "pushedAt": "2026-11-03T13:52:51Z",
-      "openIssues": 223,
+      "pushedAt": "2026-11-04T13:46:05Z",
+      "openIssues": 225,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
@@ -9203,16 +9203,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -9330,16 +9330,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -9370,7 +9370,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-02-06T22:50:12Z",
-      "pushedAt": "2026-10-30T01:12:46Z",
+      "pushedAt": "2026-11-03T21:56:47Z",
       "openIssues": 0,
       "license": null,
       "language": "Shell"
@@ -9394,16 +9394,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -9426,15 +9426,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1,
+    "stars": 2,
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
-      "stars": 1,
+      "stars": 2,
       "forks": 5,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
-      "pushedAt": "2026-10-30T17:51:23Z",
+      "pushedAt": "2026-11-03T17:04:47Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "JavaScript"
@@ -9458,15 +9458,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1,
+    "stars": 2,
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
-      "stars": 1,
+      "stars": 2,
       "forks": 5,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
-      "pushedAt": "2026-10-30T17:51:23Z",
+      "pushedAt": "2026-11-03T17:04:47Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "JavaScript"
@@ -9564,16 +9564,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -9604,8 +9604,8 @@
     "stars": null,
     "repoMeta": null,
     "readme": {
-      "markdown": "# Slack MCP and Skills Plugin\n\nA [Claude Code][claude-code], [Cursor][cursor], and [Codex][codex-cli] plugin that brings Slack into your AI tools with a [Slack MCP Server][slack-mcp-docs] and set of Slack skills for both users and developers.\n\n## Installation\n\n### Claude Code\n\nThe plugin is published on the [official Claude marketplace](https://claude.com/plugins/slack). Install it from inside Claude Code:\n\n```text\n/plugin install slack@claude-plugins-official\n```\n\nThe Slack MCP server is configured automatically. You'll be prompted to authenticate to your Slack workspace via OAuth on first use.\n\n### Cursor\n\nThe plugin is published on the [official Cursor Marketplace](https://cursor.com/marketplace/slack). Install it from inside Cursor:\n\n```text\n/add-plugin slack\n```\n\nThis installs the skills, commands, and MCP server together. You'll be prompted to authenticate to your Slack workspace via OAuth on first use.\n\n### Codex\n\nThe plugin is published as a Codex marketplace in this repository. Add the marketplace, then install the plugin:\n\n```sh\ncodex plugin marketplace add slackapi/slack-skills-plugin\ncodex plugin add slack@slack\n```\n\nStart a new Codex session to pick up the plugin, then invoke a skill by name with a `$` mention, for example `$block-kit`.\n\nCodex support currently ships the skills only; the MCP server is not yet wired into the Codex surface.\n\n### Other agents\n\nThe skills install into other coding agents with [`npx skills`][npx-skills], no plugin marketplace required:\n\n```bash\n# Install the skills for a coding agent, named by its own identifier\nnpx skills add slackapi/slack-skills-plugin -y -a <agent>\n\n# For example, Gemini CLI or OpenCode\nnpx skills add slackapi/slack-skills-plugin -y -a gemini-cli\nnpx skills add slackapi/slack-skills-plugin -y -a opencode\n```\n\nOther popular agents include `crush`, `devin`, `hermes-agent`, `openclaw`, and `pi`. See [supported agents][npx-skills] for the full list of agents and their identifiers. Add `-g` to install for your user instead of the current project.\n\nThe `-y` flag installs every skill without prompting. Drop it to choose skills from a list, or pass `-s <skill>` to name the ones you want.\n\nThis path carries the skills only: no commands, and no MCP server.\n\n## Features\n\n### MCP Server\n\nThe plugin connects your AI tool to Slack's hosted [MCP server][slack-mcp-docs]:\n\n- **Search** - find messages, files, users, and channels (public and private)\n- **Messaging** - send and schedule messages, read channels, follow threads, add reactions\n- **Canvas** - create, read, and update canvas documents\n- **Users** - read profiles and list channel members\n\n### Skills\n\nNine skills load on demand to handle messaging tasks and developer workflows:\n\n- [`slack-messaging`](skills/slack-messaging/SKILL.md) - composing well-formatted, effective Slack messages\n- [`slack-search`](skills/slack-search/SKILL.md) - finding messages, files, channels, and people\n- [`slack-api`](skills/slack-api/SKILL.md) - discovering and calling Slack Web API methods\n- [`slack-docs`](skills/slack-docs/SKILL.md) - finding and reading the right Slack developer docs page\n- [`slack-cli`](skills/slack-cli/SKILL.md) - using the [Slack CLI][slack-cli] to create, run, and manage apps\n- [`create-slack-app`](skills/create-slack-app/SKILL.md) - building a Slack app or agent with the CLI and [Bolt][bolt]\n- [`test-slack-app`](skills/test-slack-app/SKILL.md) - running an app somewhere safe and confirming it works in Slack\n- [`deploy-slack-app`](skills/deploy-slack-app/SKILL.md) - deploying a Socket Mode app to Railway or Heroku as a separate, always-on Slack app\n- [`block-kit`](skills/block-kit/SKILL.md) - building and validating [Block Kit][block-kit] layouts\n\n### Commands\n\nFive slash commands for common Slack workflows:\n\n- `/slack:summarize-channel <channel-name>` - Summarize recent activity in a Slack channel\n- `/slack:find-discussions <topic>` - Find discussions about a specific topic across Slack channels\n- `/slack:draft-announcement <topic>` - Draft a well-formatted Slack announcement and save it as a draft\n- `/slack:standup` - Generate a standup update based on your recent Slack activity\n- `/slack:channel-digest <channel1, channel2, ...>` - Get a digest of recent activity across multiple Slack channels\n\n## Usage examples\n\nOnce installed, talk to your tool in natural language:\n\n- \"Search for messages about the product launch from the last week\"\n- \"Send a message to #general saying the deployment is complete\"\n- \"Summarize the last day of activity in #engineering\"\n- \"Draft an announcement about the new pricing page\"\n- \"Create a new Slack app using Bolt for Python\"\n- \"Build a Block Kit feedback modal with a rating select and a comments field\"\n- \"Validate the Block Kit JSON in ./modal.json\"\n\n## Documentation\n\n- [Slack MCP server][slack-mcp-docs]\n- [Slack developer docs](https://docs.slack.dev/)\n- [Block Kit Builder][block-kit]\n\n## Limitations\n\n- **Workspace admin approval.** Your Slack workspace admin must approve MCP integration before you can authenticate.\n\n## Contributing\n\nWe welcome contributions from everyone! Please check out our [contributor's guide](.github/contributing.md) for guidelines on opening issues and pull requests.\n\nWorking on the plugin itself? See the [maintainer's guide](.github/maintainers_guide.md) for local development setup.\n\n[claude-code]: https://claude.com/claude-code\n[cursor]: https://cursor.com\n[codex-cli]: https://developers.openai.com/codex/cli\n[slack-mcp-docs]: https://docs.slack.dev/ai/mcp-server/\n[npx-skills]: https://github.com/vercel-labs/skills#supported-agents\n[slack-cli]: https://tools.slack.dev/slack-cli\n[bolt]: https://tools.slack.dev/bolt-js\n[block-kit]: https://app.slack.com/block-kit-builder",
-      "truncated": false,
+      "markdown": "# Slack MCP and Skills Plugin\n\nA [Claude Code][claude-code], [Cursor][cursor], and [Codex][codex-cli] plugin that brings Slack into your AI tools with a [Slack MCP Server][slack-mcp-docs] and set of Slack skills for both users and developers.\n\n## Installation\n\n### Claude Code\n\nThe plugin is published on the [official Claude marketplace](https://claude.com/plugins/slack). Install it from inside Claude Code:\n\n```text\n/plugin install slack@claude-plugins-official\n```\n\nThe Slack MCP server is configured automatically. You'll be prompted to authenticate to your Slack workspace via OAuth on first use.\n\nTo update an existing install to the latest version, run:\n\n```sh\nclaude plugin marketplace update claude-plugins-official\nclaude plugin update slack@claude-plugins-official\n```\n\n### Cursor\n\nThe plugin is published on the [official Cursor Marketplace](https://cursor.com/marketplace/slack). Install it from inside Cursor:\n\n```text\n/add-plugin slack\n```\n\nThis installs the skills, commands, and MCP server together. You'll be prompted to authenticate to your Slack workspace via OAuth on first use.\n\n### Codex\n\nThe plugin is published as a Codex marketplace in this repository. Add the marketplace, then install the plugin:\n\n```sh\ncodex plugin marketplace add slackapi/slack-skills-plugin\ncodex plugin add slack@slack\n```\n\nTo update an existing install, refresh the marketplace and add the plugin again:\n\n```sh\ncodex plugin marketplace upgrade slack\ncodex plugin add slack@slack\n```\n\nStart a new Codex session to pick up the plugin, then invoke a skill by name with a `$` mention, for example `$block-kit`.\n\nCodex support currently ships the skills only; the MCP server is not yet wired into the Codex surface.\n\n### Other agents\n\nThe skills install into other coding agents with [`npx skills`][npx-skills], no plugin marketplace required:\n\n```bash\n# Install the skills for a coding agent, named by its own identifier\nnpx skills add slackapi/slack-skills-plugin -y -a <agent>\n\n# For example, Gemini CLI or OpenCode\nnpx skills add slackapi/slack-skills-plugin -y -a gemini-cli\nnpx skills add slackapi/slack-skills-plugin -y -a opencode\n```\n\nOther popular agents include `crush`, `devin`, `hermes-agent`, `openclaw`, and `pi`. See [supported agents][npx-skills] for the full list of agents and their identifiers. Add `-g` to install for your user instead of the current project. Run the same command again to update the skills to the latest version.\n\nThe `-y` flag installs every skill without prompting. Drop it to choose skills from a list, or pass `-s <skill>` to name the ones you want.\n\nThis path carries the skills only: no commands, and no MCP server.\n\n## Features\n\n### MCP Server\n\nThe plugin connects your AI tool to Slack's hosted [MCP server][slack-mcp-docs]:\n\n- **Search** - find messages, files, users, and channels (public and private)\n- **Messaging** - send and schedule messages, read channels, follow threads, add reactions\n- **Canvas** - create, read, and update canvas documents\n- **Users** - read profiles and list channel members\n\n### Skills\n\nNine skills load on demand to handle messaging tasks and developer workflows:\n\n- [`slack-messaging`](skills/slack-messaging/SKILL.md) - composing well-formatted, effective Slack messages\n- [`slack-search`](skills/slack-search/SKILL.md) - finding messages, files, channels, and people\n- [`slack-api`](skills/slack-api/SKILL.md) - discovering and calling Slack Web API methods\n- [`slack-docs`](skills/slack-docs/SKILL.md) - finding and reading the right Slack developer docs page\n- [`slack-cli`](skills/slack-cli/SKILL.md) - using the [Slack CLI][slack-cli] to create, run, and manage apps\n- [`create-slack-app`](skills/create-slack-app/SKILL.md) - building a Slack app or agent with the CLI and [Bolt][bolt]\n- [`test-slack-app`](skills/test-slack-app/SKILL.md) - running an app somewhere safe and confirming it works in Slack\n- [`deploy-slack-app`](skills/deploy-slack-app/SKILL.md) - deploying a Socket Mode app to Railway or Heroku as a separate, always-on Slack app\n- [`block-kit`](skills/block-kit/SKILL.md) - building and validating [Block Kit][block-kit] layouts\n\n### Commands\n\nFive slash commands for common Slack workflows:\n\n- `/slack:summarize-channel <channel-name>` - Summarize recent activity in a Slack channel\n- `/slack:find-discussions <topic>` - Find discussions about a specific topic across Slack channels\n- `/slack:draft-announcement <topic>` - Draft a well-formatted Slack announcement and save it as a draft\n- `/slack:standup` - Generate a standup update based on your recent Slack activity\n- `/slack:channel-digest <channel1, channel2, ...>` - Get a digest of recent activity across multiple Slack channels\n\n## Usage examples\n\nOnce installed, talk to your tool in natural language:\n\n- \"Search for messages about the product launch from the last week\"\n- \"Send a message to #general saying the deployment is complete\"\n- \"Summarize the last day of activity in #engineering\"\n- \"Draft an announcement about the new pricing page\"\n- \"Create a new Slack app using Bolt for Python\"\n- \"Build a Block Kit feedback modal with a rating select and a comments field\"\n- \"Validate the Block Kit JSON in ./modal.json\"\n\n## Documentation\n\n- [Slack MCP server][slack-mcp-docs]\n- [Slack developer docs](https://docs.slack.dev/)\n- [Block Kit Builder][block-kit]\n\n## Limitations\n\n- **Workspace admin approval.** Your Slack workspace admin must approve MCP integration before you can authenticate.\n\n## Contributing\n\nWe welcome contributions from everyone! Please check out our [contributor's guide](.github/contributing.md) for guidelines on opening issues and pull requests.\n\nWorking on the plugin itself? See the [maintainer's guide](.github/maintainers_guide.md) for local development setup.\n\n[claude-code]: https://claude.com/claude-code\n[cursor]: https://cursor.com\n[codex-cli]: https://developers.openai.com/codex/cli\n[slack-mcp-docs]: https://docs.slack.dev/ai/mcp-server/\n[npx-skills]: https://github.com/vercel-labs/skills#supported-\n\n…",
+      "truncated": true,
       "url": "https://github.com/slackapi/slack-mcp-plugin#readme"
     }
   },
@@ -9627,11 +9627,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 41,
+    "stars": 42,
     "repoMeta": {
       "slug": "Snowflake-Labs/snowflake-ai-kit",
-      "stars": 41,
-      "forks": 20,
+      "stars": 42,
+      "forks": 21,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T17:25:49Z",
@@ -9938,15 +9938,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2033,
+    "stars": 2040,
     "repoMeta": {
       "slug": "stripe/ai",
-      "stars": 2033,
-      "forks": 383,
+      "stars": 2040,
+      "forks": 384,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-11T17:13:41Z",
-      "pushedAt": "2026-11-03T06:17:37Z",
+      "pushedAt": "2026-11-04T00:29:47Z",
       "openIssues": 37,
       "license": "MIT",
       "language": "TypeScript"
@@ -9975,15 +9975,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 5,
+    "stars": 6,
     "repoMeta": {
       "slug": "sumup/sumup-skills",
-      "stars": 5,
+      "stars": 6,
       "forks": 1,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-14T14:41:47Z",
-      "pushedAt": "2026-11-01T19:50:49Z",
+      "pushedAt": "2026-11-04T11:01:26Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
@@ -10012,11 +10012,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 44,
+    "stars": 45,
     "repoMeta": {
       "slug": "supabase-community/supabase-plugin",
-      "stars": 44,
-      "forks": 17,
+      "stars": 45,
+      "forks": 18,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-16T18:09:01Z",
@@ -10049,10 +10049,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 939,
+    "stars": 944,
     "repoMeta": {
       "slug": "superdesigndev/superdesign-skill",
-      "stars": 939,
+      "stars": 944,
       "forks": 73,
       "archived": false,
       "isFork": false,
@@ -10086,16 +10086,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 311605,
+    "stars": 312204,
     "repoMeta": {
       "slug": "obra/superpowers",
-      "stars": 311605,
-      "forks": 27724,
+      "stars": 312204,
+      "forks": 27771,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-09T19:45:18Z",
-      "pushedAt": "2026-11-03T02:51:39Z",
-      "openIssues": 195,
+      "pushedAt": "2026-11-03T23:24:58Z",
+      "openIssues": 172,
       "license": "MIT",
       "language": "Shell"
     },
@@ -10123,16 +10123,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10242,7 +10242,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-22T11:12:07Z",
-      "pushedAt": "2026-11-03T13:20:58Z",
+      "pushedAt": "2026-11-04T12:33:25Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Go"
@@ -10271,16 +10271,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10308,16 +10308,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -10414,16 +10414,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45930,
+    "stars": 46070,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 45930,
-      "forks": 4782,
+      "stars": 46070,
+      "forks": 4792,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-03T07:28:56Z",
-      "openIssues": 1075,
+      "pushedAt": "2026-11-04T07:29:41Z",
+      "openIssues": 1077,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10599,21 +10599,21 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 604,
+    "stars": 606,
     "repoMeta": {
       "slug": "Unity-Technologies/unity-agent-plugin",
-      "stars": 604,
+      "stars": 606,
       "forks": 67,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-06T14:55:01Z",
-      "pushedAt": "2026-10-30T17:26:39Z",
+      "pushedAt": "2026-11-04T13:34:40Z",
       "openIssues": 5,
       "license": "NOASSERTION",
       "language": "C#"
     },
     "readme": {
-      "markdown": "# Unity\n\nUnity's official plugin for coding agents, with curated skills for game development, monetization, and performance optimization.",
+      "markdown": "# Unity\n\nUnity's official plugin for coding agents, with curated skills for game development, monetization, and performance optimization.\n\nThe skills give your agent Unity's documented practices for everyday work: starting a project, managing packages,\nbuilding UI with UI Toolkit, uGUI or IMGUI, 2D sprites and tilemaps, physics, audio, localization, URP rendering and\npost-processing, Shader Graph, multiplayer services, Vivox voice chat, in-app purchases and LevelPlay ads. The agent loads\na skill only when your request needs it.\n\nInstall steps and usage are in the\n[full README](https://github.com/Unity-Technologies/unity-agent-plugin#readme).",
       "truncated": false,
       "url": "https://github.com/Unity-Technologies/unity-agent-plugin#readme"
     }
@@ -10636,10 +10636,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1882,
+    "stars": 1888,
     "repoMeta": {
       "slug": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
-      "stars": 1882,
+      "stars": 1888,
       "forks": 192,
       "archived": false,
       "isFork": false,
@@ -10815,11 +10815,11 @@
     "repoMeta": {
       "slug": "vercel/vercel-plugin",
       "stars": 326,
-      "forks": 73,
+      "forks": 74,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-04T16:46:22Z",
-      "pushedAt": "2026-11-03T04:58:02Z",
+      "pushedAt": "2026-11-04T01:42:41Z",
       "openIssues": 57,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -10852,7 +10852,7 @@
     "repoMeta": {
       "slug": "explorium-ai/vibeprospecting-plugin",
       "stars": 296,
-      "forks": 5,
+      "forks": 6,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-20T10:08:21Z",
@@ -10893,7 +10893,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-05-19T17:13:16Z",
-      "pushedAt": "2026-11-03T01:07:47Z",
+      "pushedAt": "2026-11-04T00:29:28Z",
       "openIssues": 0,
       "license": "NOASSERTION",
       "language": null
@@ -10967,7 +10967,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-25T07:34:16Z",
-      "pushedAt": "2026-11-03T11:35:45Z",
+      "pushedAt": "2026-11-04T13:59:54Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "JavaScript"
@@ -11057,13 +11057,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-26T23:05:37Z",
-      "pushedAt": "2026-11-02T18:52:20Z",
+      "pushedAt": "2026-11-03T23:17:31Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# You.com Web Search & Research\n\nGive Claude live access to the web. This plugin adds You.com search, full-page content extraction, and cited multi-source research to Claude, so answers about fast-moving libraries, APIs, tools, and markets come from current sources instead of stale training data. Every answer cites the pages it read.\n\n## What you can do\n\n- **Search the live web**: find current information, news, pricing, and facts, then read the actual pages before answering.\n- **Pull web data into your work**: extract clean Markdown, HTML, or metadata from any public URL, including docs pages, tables, and reports.\n- **Code with current docs**: look up the latest library docs, API references, changelogs, breaking changes, package versions, and fixes for error messages while you build.\n- **Research with citations**: compare frameworks, evaluate tools and vendors, or produce a deep-dive report synthesized from many sources.\n- **Research companies and markets**: get stock prices, earnings, and company financials.\n- **Build with You.com**: find the right You.com API, MCP server, or SDK path for your own app or agent.\n\nExample prompts:\n\n```text\nWhat changed in the latest Next.js release, and does it break my middleware?\nFind the current docs for this error message and suggest a fix.\nCompare the top three Python vector databases on pricing and features, with sources.\nRead https://example.com/pricing and summarize the plan limits as a table.\nResearch NVIDIA's latest earnings and cite the numbers.\n```\n\n## Install in Claude Code\n\n```bash\n/plugin marketplace add youdotcom-oss/agent-skills\n/plugin install you@you-com\n```\n\nBasic web search works without an account through the free MCP profile. For full search, content extraction, research, and finance, sign in with OAuth when prompted or set an API key from [you.com/platform/api-keys](https://you.com/platform/api-keys).\n\n## What this plugin connects to\n\nThe plugin contains skills and remote MCP server configs only. It has no hooks and starts no local MCP servers or scripts. When a skill runs, Claude sends your search queries, the URLs you ask it to read, and research or finance questions to You.com's MCP servers:\n\n- `https://api.you.com/mcp` (search, contents, discovery; `?profile=free` for keyless search)\n- `https://api.you.com/mcp/research` (research)\n- `https://api.you.com/mcp/finance` (finance)\n- `https://you.com/docs/_mcp/server` (You.com docs search, used by `you-discover`)\n\nRequests are handled under the [You.com privacy policy](https://you.com/privacy). Web pages and search results are treated as untrusted data, never as instructions.\n\n## Skills\n\n| Skill          | Use it for |\n| -------------- | ---------- |\n| `you-web`      | Live web search plus full-page reading, with a citation-first pipeline. |\n| `you-research` | Multi-source research, routed between agent-led search and one-shot cited synthesis. |\n| `you-finance`  | Stock, earnings, and company financial questions through the `you-finance` MCP tool. |\n| `you-discover` | Finding how to integrate You.com APIs, MCP servers, SDKs, and docs into your own project. |\n\n## Other agent platforms\n\nThe same skills are packaged for Cursor, Codex, GitHub Copilot CLI, Kimi Code, Grok Build, OpenCode, OpenClaw, Pi, Hermes, and DeepSeek Harness.\n\n## Start Here\n\nInstall the shared skills with the universal Agent Skills installer:\n\n```bash\nnpx skills add youdotcom-oss/agent-skills\n```\n\nThen ask your agent to use the right skill:\n\n```text\nUse you-web to find current docs and cite sources.\nUse you-research to investigate this topic across multiple sources.\nUse you-finance to research this company and cite market data.\nUse you-discover to find the best way to integrate You.com MCP or SDKs into my agent.\n```\n\nInstall one skill at a time if you only need a subset:\n\n```bash\nnpx skills add youdotcom-oss/agent-skills --skill you-web\nnpx skills add youdotcom-oss/agent-skills --skill you-discover\nnpx skills add youdotcom-oss/agent-skills --skill you-finance\n```\n\n## Install for Your Platform\n\n| Platform                        | Install path                                                                                          |\n| ------------------------------- | ----------------------------------------------------------------------------------------------------- |\n| Agent Skills compatible clients | `npx skills add youdotcom-oss/agent-skills`                                                           |\n| Claude Code                     | `/plugin marketplace add youdotcom-oss/agent-skills` then `/plugin install you@you-com`               |\n| GitHub Copilot CLI              | `copilot plugin marketplace add youdotcom-oss/agent-skills` then `copilot plugin install you@you-com` |\n| Codex                           | `codex plugin marketplace add youdotcom-oss/agent-skills --sparse .agents/plugins`                    |\n| Cursor                          | Install this repository from the Cursor plugin UI or CLI                                              |\n| Kimi Code                       | `/plugins install <repo url>`                                                                         |\n| Grok Build                      | `grok plugin marketplace add youdotcom-oss/agent-skills` then `grok plugin install you --trust`       |\n| OpenCode 2                      | `opencode plugin add @youdotcom-oss/opencode`                                                         |\n| OpenClaw                        | `openclaw plugins install clawhub:you` or `openclaw plugins install npm:@youdotcom-oss/openclaw`      |\n| Pi                              | `pi install npm:@youdotcom-oss/pi`                                                                    |\n| Hermes                          | `hermes plugins install youdotcom-oss/agent-skills`                                                                        |\n| DeepSeek Harness                | `dsh plugin add @youdotcom-oss/dsh-plugin`                                        \n\n…",
+      "markdown": "# You.com Web Search & Research\n\nGive Claude live access to the web. This plugin adds You.com search, full-page content extraction, and cited multi-source research to Claude, so answers about fast-moving libraries, APIs, tools, and markets come from current sources instead of stale training data. Every answer cites the pages it read.\n\n## What you can do\n\n- **Search the live web**: find current information, news, pricing, and facts, then read the actual pages before answering.\n- **Pull web data into your work**: extract clean Markdown, HTML, or metadata from any public URL, including docs pages, tables, and reports.\n- **Code with current docs**: look up the latest library docs, API references, changelogs, breaking changes, package versions, and fixes for error messages while you build.\n- **Research with citations**: compare frameworks, evaluate tools and vendors, or produce a deep-dive report synthesized from many sources.\n- **Research companies and markets**: get stock prices, earnings, and company financials.\n- **Build with You.com**: find the right You.com API, MCP server, or SDK path for your own app or agent.\n\nExample prompts:\n\n```text\nWhat changed in the latest Next.js release, and does it break my middleware?\nFind the current docs for this error message and suggest a fix.\nCompare the top three Python vector databases on pricing and features, with sources.\nRead https://example.com/pricing and summarize the plan limits as a table.\nResearch NVIDIA's latest earnings and cite the numbers.\n```\n\n## Install in Claude Code\n\n```bash\n/plugin marketplace add youdotcom-oss/agent-skills\n/plugin install you@you-com\n```\n\nBasic web search works without an account through the free MCP profile. For full search, content extraction, research, and finance, sign in with OAuth when prompted or set an API key from [you.com/platform/api-keys](https://you.com/platform/api-keys).\n\n## What this plugin connects to\n\nThe plugin contains skills and remote MCP server configs only. It has no hooks and starts no local MCP servers or scripts. When a skill runs, Claude sends your search queries, the URLs you ask it to read, and research or finance questions to You.com's MCP servers:\n\n- `https://api.you.com/mcp` (search, contents, discovery; `?profile=free` for keyless search)\n- `https://api.you.com/mcp/research` (research)\n- `https://api.you.com/mcp/finance` (finance)\n- `https://you.com/docs/_mcp/server` (You.com docs search, used by `you-discover`)\n\nRequests are handled under the [You.com privacy policy](https://you.com/privacy). Web pages and search results are treated as untrusted data, never as instructions.\n\n## Skills\n\n| Skill          | Use it for |\n| -------------- | ---------- |\n| `you-web`      | Live web search plus full-page reading, with a citation-first pipeline. |\n| `you-research` | Multi-source research, routed between agent-led search and one-shot cited synthesis. |\n| `you-finance`  | Stock, earnings, and company financial questions through the `you-finance` MCP tool. |\n| `you-discover` | Finding how to integrate You.com APIs, MCP servers, SDKs, and docs into your own project. |\n\n## Other agent platforms\n\nThe same skills are packaged for Cursor, Codex, GitHub Copilot CLI, Kimi Code, Grok Build, OpenCode, OpenClaw, Pi, Hermes, and DeepSeek Harness.\n\n## Start Here\n\nInstall the shared skills with the universal Agent Skills installer:\n\n```bash\nnpx skills add youdotcom-oss/agent-skills\n```\n\nThen ask your agent to use the right skill:\n\n```text\nUse you-web to find current docs and cite sources.\nUse you-research to investigate this topic across multiple sources.\nUse you-finance to research this company and cite market data.\nUse you-discover to find the best way to integrate You.com MCP or SDKs into my agent.\n```\n\nInstall one skill at a time if you only need a subset:\n\n```bash\nnpx skills add youdotcom-oss/agent-skills --skill you-web\nnpx skills add youdotcom-oss/agent-skills --skill you-discover\nnpx skills add youdotcom-oss/agent-skills --skill you-finance\n```\n\n## Install for Your Platform\n\n| Platform                        | Install path                                                                                          |\n| ------------------------------- | ----------------------------------------------------------------------------------------------------- |\n| Agent Skills compatible clients | `npx skills add youdotcom-oss/agent-skills`                                                           |\n| Claude Code                     | `/plugin marketplace add youdotcom-oss/agent-skills` then `/plugin install you@you-com`               |\n| GitHub Copilot CLI              | `copilot plugin marketplace add youdotcom-oss/agent-skills` then `copilot plugin install you@you-com` |\n| Codex                           | `codex plugin marketplace add youdotcom-oss/agent-skills --sparse .agents/plugins`                    |\n| Cursor                          | Install this repository from the Cursor plugin UI or CLI                                              |\n| Kimi Code                       | `/plugins install <repo url>`                                                                         |\n| Grok Build                      | `grok plugin marketplace add youdotcom-oss/agent-skills` then `grok plugin install you --trust`       |\n| OpenCode 2                      | `opencode plugin add @youdotcom-oss/opencode`                                                         |\n| OpenClaw                        | `openclaw plugins install clawhub:you` or `openclaw plugins install npm:@youdotcom-oss/openclaw`      |\n| Pi                              | `pi install npm:@youdotcom-oss/pi`                                                                    |\n| Hermes                          | `hermes plugins install youdotcom-oss/agent-skills`                                                                        |\n| DeepSeek Harness                | `dsh plugin --profile web add @youdotcom-oss/dsh-plugin`                          \n\n…",
       "truncated": true,
       "url": "https://github.com/youdotcom-oss/agent-skills#readme"
     }
@@ -11264,7 +11264,7 @@
     "repoMeta": {
       "slug": "zscaler/zscaler-mcp-server",
       "stars": 55,
-      "forks": 35,
+      "forks": 34,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-05-29T15:03:58Z",
@@ -11297,10 +11297,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 327,
+    "stars": 328,
     "repoMeta": {
       "slug": "langfuse/skills",
-      "stars": 327,
+      "stars": 328,
       "forks": 44,
       "archived": false,
       "isFork": false,
@@ -11440,15 +11440,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 173,
+    "stars": 174,
     "repoMeta": {
       "slug": "Dynatrace/dynatrace-for-ai",
-      "stars": 173,
-      "forks": 39,
+      "stars": 174,
+      "forks": 43,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-31T11:42:14Z",
-      "pushedAt": "2026-11-03T08:37:20Z",
+      "pushedAt": "2026-11-03T15:39:44Z",
       "openIssues": 6,
       "license": "Apache-2.0",
       "language": "Python"
@@ -11514,10 +11514,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 37,
+    "stars": 38,
     "repoMeta": {
       "slug": "amzn/selling-partner-agentic-toolkit",
-      "stars": 37,
+      "stars": 38,
       "forks": 3,
       "archived": false,
       "isFork": false,
@@ -11545,16 +11545,16 @@
     "repo": "VoltAgent/awesome-agent-skills",
     "sourceUrl": "https://github.com/snyk/agent-scan",
     "target": "multi",
-    "stars": 36796,
+    "stars": 36838,
     "repoMeta": {
       "slug": "VoltAgent/awesome-agent-skills",
-      "stars": 36796,
-      "forks": 4060,
+      "stars": 36838,
+      "forks": 4068,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-28T08:55:32Z",
       "pushedAt": "2026-11-02T08:19:59Z",
-      "openIssues": 0,
+      "openIssues": 1,
       "license": "MIT",
       "language": null
     },
@@ -11576,11 +11576,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/obra/superpowers-skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11607,11 +11607,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/09/superpowers/",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11638,11 +11638,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/23/naming-claude-plugins/",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11669,11 +11669,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512176-what-are-skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11700,11 +11700,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11731,11 +11731,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/news/skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11762,11 +11762,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11793,11 +11793,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://docs.claude.com/",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11824,11 +11824,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://platform.claude.com/docs/en/api/beta/skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11855,11 +11855,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11886,11 +11886,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11917,11 +11917,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11948,11 +11948,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11979,11 +11979,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://claude.com/blog/skills-explained",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12010,11 +12010,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-python/issues/268",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12041,11 +12041,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/issues",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12072,11 +12072,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/discussions",
     "target": "multi",
-    "stars": 15686,
+    "stars": 15701,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15686,
-      "forks": 2109,
+      "stars": 15701,
+      "forks": 2114,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
