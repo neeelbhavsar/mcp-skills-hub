@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T14:06:01.332Z",
+  "generatedAt": "2026-11-05T14:27:16.250Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,170 +21,219 @@
       "baseline": true,
       "added": [
         {
-          "slug": "co-trysubstrate-memory",
-          "name": "Substrate",
-          "description": "Shared memory MCP server for Claude Code, Codex, Gemini CLI and Cursor. Cited, editable.",
-          "category": "AI & Memory"
+          "slug": "ai-achromat-mcp-server",
+          "name": "Achromat Machine Operational Memory",
+          "description": "Recall and calibrate policy-compliant tool-call arguments before execution. Does not run the tool.",
+          "category": "Legal & Government"
         },
         {
-          "slug": "energy-powerhopper-mcp",
-          "name": "Power Hopper - Texas electricity plan comparison",
-          "description": "Shopping assistant for powerhopper.energy, Texas deregulated areas. Providers may pay commission.",
-          "category": "Other"
-        },
-        {
-          "slug": "io-github-6mickswagger9-mytollbooth-calendar-mcp",
-          "name": "mytollbooth-calendar-mcp",
-          "description": "x402 scheduling API: availability, conflicts, multi-party coordination for AI agents.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-exactmatch-mcp-exact-match",
-          "name": "Exact Match",
-          "description": "US consumer and business audience data: build audiences, match and enrich records, export lists.",
-          "category": "Marketing & Social"
-        },
-        {
-          "slug": "ai-wild-card-deepcontext",
-          "name": "deepcontext",
-          "description": "Advanced codebase indexing and semantic search MCP server",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-foqal-foqal",
-          "name": "Foqal",
-          "description": "Foqal turns Slack/Teams into efficient support platforms with AI-powered ticketing.",
+          "slug": "ai-wakeshift-slackline",
+          "name": "Slackline",
+          "description": "Chat with your AI agents from Slack: each gets a thread in your DM, and your replies there wake it.",
           "category": "Productivity"
         },
         {
-          "slug": "com-textarttools-textarttools-mcp",
-          "name": "textarttools-mcp",
-          "description": "Unicode text styling and ASCII art generation with 23 styles and 322+ figlet fonts",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-antonytm-mcp-all",
-          "name": "mcp-all",
-          "description": "A Model Context Protocol server to run other MCP servers",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "ai-klavis-strata",
-          "name": "strata",
-          "description": "MCP server for progressive tool usage at any scale (see https://klavis.ai)",
-          "category": "Other"
-        },
-        {
-          "slug": "com-driflyte-driflyte-mcp-server",
-          "name": "driflyte-mcp-server",
-          "description": "Driflyte MCP server which lets AI assistants query topic-specific knowledge from web and GitHub.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "co-axiom-mcp",
-          "name": "Axiom MCP",
-          "description": "List datasets, schemas, run APL queries, and use prompts for exploration, anomalies, and monitoring.",
+          "slug": "com-optionclaws-options-trading",
+          "name": "OptionClaws: options scanner, trade pricer and journal",
+          "description": "Find options trades: covered calls, cash-secured puts, wheel, spreads, iron condors. Trade journal.",
           "category": "Cloud & DevOps"
         },
         {
-          "slug": "co-contraption-mcp",
-          "name": "Contraption MCP",
-          "description": "An MCP server that provides [describe what your server does]",
+          "slug": "fr-citexact-citexact",
+          "name": "Citexact : jurisprudence administrative française",
+          "description": "Jurisprudence administrative française vérifiée (CE, CAA, TA), citée mot pour mot, liens Légifrance.",
           "category": "Other"
         },
         {
-          "slug": "io-cycloid-mcp-server",
-          "name": "Cycloid MCP",
-          "description": "An MCP server that let you interact with Cycloid.io Internal Development Portal and Platform",
+          "slug": "ai-aliengiraffe-spotdb",
+          "name": "spotdb",
+          "description": "Ephemeral data sandbox for AI workflows with guardrails and security",
           "category": "Other"
+        },
+        {
+          "slug": "com-opsmill-infrahub-mcp",
+          "name": "infrahub-mcp",
+          "description": "An MCP server connects your AI assistants to Infrahub using the open MCP standard.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-bullpenstrategygroup-rotunda-mcp",
+          "name": "Bullpenstrategygroup MCP",
+          "description": "An MCP server that provides congressional transcripts",
+          "category": "Other"
+        },
+        {
+          "slug": "com-unifiedoffer-mcp-server",
+          "name": "Unified Offer Protocol MCP Server",
+          "description": "AI-powered product search, affiliate links, and price negotiation for e-commerce platforms",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "io-github-abraxas1010-agent-payment-mcp",
+          "name": "agent-payment-mcp",
+          "description": "Secure USDC payments for AI agents on Base blockchain with budget controls and instant settlement.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-wallet-connectors-wallet-verifier-mcp",
+          "name": "wallet-verifier-mcp",
+          "description": "MCP server for verifying EUDI/Talao wallet data via OIDC4VP (pull) for AI agents.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-infobip-mcp",
+          "name": "Infobip MCP",
+          "description": "Infobip MCP server for omnichannel communication and messaging. SMS, RCS, WhatsApp, Viber and more.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-apoth3osis-ai-agent-payment-mcp",
+          "name": "agent-payment-mcp",
+          "description": "Secure MCP router providing access to AgentPMT's pay-per-use AI tools marketplace.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-webflow-mcp",
+          "name": "Webflow MCP",
+          "description": "AI-powered design and management for Webflow Sites",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "com-joelverhagen-mcp-knapcode-samplemcpserver",
+          "name": "Knapcode.SampleMcpServer",
+          "description": "A sample MCP server using the MCP C# SDK. Generates random numbers and random weather.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-vaadin-docs-mcp",
+          "name": "docs-mcp",
+          "description": "Provides Vaadin Documentation and help with development tasks",
+          "category": "Docs & Knowledge"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-digbyo-colour-memory",
-          "name": "Colour Memory",
-          "description": "Colour meaning, history and evidence for AI: 45,000+ source-graded colour records and 91 tools.",
+          "slug": "io-github-d4umak-heylead",
+          "name": "HeyLead — AI agent for LinkedIn outreach",
+          "description": "AI agent for LinkedIn outreach: finds the right people, writes in your voice, follows up, replies.",
+          "category": "Marketing & Social"
+        },
+        {
+          "slug": "io-github-dalecb-obsidian-semantic-mcp",
+          "name": "Obsidian Semantic Search",
+          "description": "Read-only semantic search MCP server for Obsidian vaults using local Ollama embeddings.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-digicatalyst-systems-dep-diff-mcp",
-          "name": "dep-diff-mcp",
-          "description": "Translates a lockfile diff into a human-readable upgrade plan for npm, PyPI, and GitHub Actions.",
+          "slug": "io-github-damiantodorovic-kepta",
+          "name": "KEPTA — the memory for AI systems",
+          "description": "Local encrypted memory for AI: hybrid search, 8 MCP tools, one file you own. Free, no cloud.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-digital-defiance-mcp-filesystem",
-          "name": "mcp-filesystem",
-          "description": "Advanced filesystem operations with strict security boundaries for AI agents",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-dionanos-mcp-memory-rs",
-          "name": "mcp-memory-rs",
-          "description": "Local-first agent memory: versioned JSON categories, BM25 search, per-device ACL, fleet sync.",
+          "slug": "io-github-dancenitra-inspeximus",
+          "name": "inspeximus: agent memory with provenance, GDPR erasure and a tamper-evident audit trail",
+          "description": "Self-correcting agent memory: recall, supersede, revert, forget, GDPR erasure, audit receipts.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-dreiev-l2calendar-mcp",
-          "name": "L2 Calendar",
-          "description": "Query Lineage 2 private server openings by chronicle through the public L2 Calendar API.",
+          "slug": "io-github-danielguru-repomemory",
+          "name": "repomemory",
+          "description": "Persistent memory for AI coding agents. Hybrid search, auto-session capture, context routing.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-dankaro-projects-project-memory",
+          "name": "Project Memory",
+          "description": "Local decisions, evidence, outcomes and reviewed lessons with bounded retrieval and an HTML viewer.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-egoushka-chargehand",
-          "name": "chargehand",
-          "description": "Runs coding-agent workers on a codebase question; every claim in the answer carries evidence.",
+          "slug": "io-github-dataleadspro-browser-automation",
+          "name": "browser-automation",
+          "description": "Programmatic headless browser sessions: create, interact, browse, and extract - rendered in a real",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-enreign-pagerunner",
-          "name": "Pagerunner — The Browser Layer That Learns",
-          "description": "Real Chrome profiles with site intelligence — already logged in, PII anonymization, sessions persist",
+          "slug": "io-github-datura-ai-lium",
+          "name": "Lium GPU Cloud",
+          "description": "Rent NVIDIA GPU pods on Lium, run commands on them and remove them, billed per second.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-ericseokgon-egovframe-scaffold-mcp",
-          "name": "egovframe-scaffold-mcp",
-          "description": "eGovFrame (전자정부 표준프레임워크) projects: templates, components, CRUD, build, 5.x migration, dependencies",
+          "slug": "io-github-dave-london-github",
+          "name": "github",
+          "description": "MCP server for GitHub operations (PRs, issues, actions) with structured, token-efficient output",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-eszetael-postgres-mcp-hardened",
-          "name": "PostgreSQL (hardened, read-only)",
-          "description": "Read-only PostgreSQL over MCP. Writes refused at the parsed SQL, plus a READ ONLY transaction.",
-          "category": "Databases & Storage"
-        },
-        {
-          "slug": "io-github-evannzhongg-browser-attach",
-          "name": "BrowserAttach",
-          "description": "Control existing signed-in Chrome and Edge tabs through a locally paired extension.",
+          "slug": "io-github-dave-london-pare-docker",
+          "name": "pare-docker",
+          "description": "Pare Docker ג€” Structured Docker operations (ps, images, logs, build, compose) as typed JSON.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-evozim-aws-builder",
-          "name": "AWS Builder",
-          "description": "AWS CloudFormation and Terraform infrastructure blueprint builder.",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "io-github-evozim-aws-builder-mcp",
-          "name": "Execute aws-builder-mcp",
-          "description": "Premium agentic endpoint for aws-builder-mcp.",
+          "slug": "io-github-dave-london-pare-github",
+          "name": "pare-github",
+          "description": "Pare GitHub ג€” Structured GitHub operations (PRs, issues, actions) as typed JSON.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-evozim-aws-key-revoker-webhook-mcp",
-          "name": "Execute aws-key-revoker-webhook-mcp",
-          "description": "Premium agentic endpoint for aws-key-revoker-webhook-mcp.",
+          "slug": "io-github-deanward-hal",
+          "name": "HAL",
+          "description": "HAL (HTTP API Layer) - An MCP server that provides HTTP API capabilities to Large Language Models",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-dekryptlabs-dlbrowser",
+          "name": "DLBrowser",
+          "description": "Self-healing web access for AI agents — recovers through bot blocks, captchas and JS pages.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-deusdata-codebase-memory-mcp",
+          "name": "Codebase Memory",
+          "description": "Codebase knowledge graph for AI agents — 162 languages, sub-ms queries, 99% fewer tokens.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-diffci-diffci",
+          "name": "DiffCI",
+          "description": "Fail-closed, change-aware verification for AI coding agents with affected-test guidance.",
           "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "dev-emisar-emisar",
+          "name": "emisar",
+          "description": "Let AI operate servers without SSH. Choose actions, approve risky changes, and audit every step.",
+          "category": "Other",
+          "delta": 67,
+          "stars": 398
+        },
+        {
+          "slug": "ink-cairn-memory",
+          "name": "Cairn.ink Memory",
+          "description": "Cross-session memory for AI agents with a Source Receipt for every memory, over MCP.",
+          "category": "AI & Memory",
+          "delta": 5,
+          "stars": 40
+        },
+        {
+          "slug": "io-github-aureliolo-gdharness",
+          "name": "gdharness",
+          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
+          "category": "Dev Tools & Git",
+          "delta": -8,
+          "stars": 18
+        }
+      ],
       "counts": {
-        "added": 13,
-        "removed": 13,
+        "added": 15,
+        "removed": 15,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
@@ -193,14 +242,40 @@
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "heygen-com-hyperframes",
+          "name": "hyperframes",
+          "description": "Write HTML. Render video. Built for agents.",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "mnfst-awesome-free-llm-apis",
+          "name": "awesome-free-llm-apis",
+          "description": "List of Permanent Free LLM API (API Keys)",
+          "category": "Awesome Lists"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "composiohq-awesome-claude-skills",
+          "name": "awesome-claude-skills",
+          "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+          "category": "MCP & Tooling"
+        },
+        {
+          "slug": "sindresorhus-awesome-chatgpt",
+          "name": "awesome-chatgpt",
+          "description": "🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI [SUBMISSIONS ARE TEMPORARILY PAUSED BECAUSE OF TOO MANY LOW QUALITY SUBMISSIONS]",
+          "category": "Awesome Lists"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 2,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
