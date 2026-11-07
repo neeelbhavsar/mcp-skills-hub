@@ -1,41 +1,19 @@
 {
-  "generatedAt": "2026-11-06T14:04:08.004Z",
+  "generatedAt": "2026-11-07T12:47:49.328Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "champion-kit",
-          "name": "champion-kit",
-          "description": "Help Claude Code champions run hackathons and office hours, find patterns worth sharing, help teammates climb the steps of AI adoption, and write a shareable AI maturity report.",
-          "category": "Coding & Engineering"
-        },
-        {
-          "slug": "xcode",
-          "name": "xcode",
-          "description": "Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.",
-          "category": "Coding & Engineering"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "greptile",
-          "name": "greptile",
-          "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments, run reviews on your working branch, and search your organization's knowledge base and coding patterns, directly from Claude Code.",
-          "category": "Coding & Engineering",
-          "delta": 431,
-          "stars": 431
-        }
-      ],
+      "movers": [],
       "counts": {
-        "added": 2,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 338,
+        "previousTotal": 340,
         "currentTotal": 340
       }
     },
@@ -43,76 +21,69 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-browsersolver-mcp",
-          "name": "BrowserSolver",
-          "description": "Unlock, render, crawl and screenshot any website — anti-bot bypass and technology detection through…",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-monassocie-browser",
-          "name": "MonAssocie — Navigateur",
-          "description": "Pilote Chrome ou Edge depuis ton assistant via l’extension MonAssocie, avec confirmation.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-ceadigital-gcp-cloud-catalog-search",
-          "name": "Google Cloud 17,671 API, SKU & MCP Schema Catalog",
-          "description": "Sub-millisecond FTS5 search across 17,671 Google Cloud APIs, SDKs, Billing SKUs, and MCPs.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-konshus-memory",
-          "name": "Konshus — your personal AI memory",
-          "description": "Your own memory for every AI: Claude, ChatGPT, Cursor, Zed and more. Brings in 20+ sources.",
+          "slug": "ai-counterparts-memory",
+          "name": "Counterparts",
+          "description": "Local-first memory for AI: it interprets, forgets on purpose, and keeps a self across sessions.",
           "category": "AI & Memory"
         },
         {
-          "slug": "com-forevenza-services-quarterline",
-          "name": "Quarterline: Grease trap pumping for Austin restaurant groups, on one 90-day calendar",
-          "description": "Requests for grease trap pumping across Austin restaurant locations on one calendar and invoice",
+          "slug": "co-awsys-links",
+          "name": "AWSYS Links",
+          "description": "Short links, QR codes and click stats for your AWSYS.CO account. Sign in with OAuth.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "app-tryjunto-junto",
+          "name": "Junto group calendar",
+          "description": "Shared group calendar with RSVPs, no login. Create calendars, read events, add events, RSVP.",
           "category": "Productivity"
+        },
+        {
+          "slug": "dev-workers-x402-bazaar-rank-worker-x402-bazaar-rank-agent-memory-utils",
+          "name": "P0: agent memory and utilities",
+          "description": "Key-value memory without an account, UUID, hash, JWT, JSON validation, time and random",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "ai-memexa-brain",
+          "name": "Memexa",
+          "description": "Hosted memory for AI assistants: notes and docs as a knowledge graph, EU-hosted, via MCP.",
+          "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-codewever-wever-labs-products",
-          "name": "Wever Labs Agent Products",
-          "description": "83 production tools for agent work, commerce and verification; Base USDC x402 and shared free tier.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-codeswhat-portkey-admin-mcp",
-          "name": "portkey-admin-mcp",
-          "description": "Portkey Admin API control-plane MCP server with Prisma AIRS interoperability guidance.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-contentrain-contentrain",
-          "name": "Contentrain",
-          "description": "Git content governance, 23 deterministic MCP tools. Hosted: docs.contentrain.io/developer/mcp-cloud",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "io-github-cuecrux-vaultcrux-memory-core",
-          "name": "VaultCrux Memory Core",
-          "description": "VaultCrux Memory Core — 32 tools: knowledge, decisions, constraints, signals, coverage",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-cultureclub-dev-alphabridge-mcp",
-          "name": "AlphaBridge MCP for WordPress",
-          "description": "WordPress MCP server plugin for Claude, ChatGPT and more. Reads by default, one switch to write.",
-          "category": "Dev Tools & Git"
-        }
-      ],
-      "deprecated": [
-        {
-          "slug": "ai-klavis-strata",
-          "name": "strata",
-          "description": "MCP server for progressive tool usage at any scale (see https://klavis.ai)",
+          "slug": "com-faxette-faxette-eu",
+          "name": "Faxette EU",
+          "description": "Send a fax to the EU, the UK, Switzerland and more of Europe from a chat. Pay per fax on Faxette.",
           "category": "Other"
+        },
+        {
+          "slug": "io-github-clipform-mcp-server",
+          "name": "Clipform",
+          "description": "Interactive video forms that capture authentic responses. Build engaging forms in minutes.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-cloudcorprecords-browserdebug",
+          "name": "browserdebug",
+          "description": "Debug web pages in Chrome: performance traces, network, console, snapshots, screenshots.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-cloudcorprecords-browserstage",
+          "name": "browserstage",
+          "description": "Automate a browser with accessibility snapshots: navigate, click, type, fill and wait.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-cloudcorprecords-greenlight",
+          "name": "greenlight",
+          "description": "Pre-flight checks for open-source contributions: is this GitHub issue actually landable?",
+          "category": "Dev Tools & Git"
         }
       ],
+      "deprecated": [],
       "revived": [],
       "movers": [
         {
@@ -120,14 +91,14 @@
           "name": "emisar",
           "description": "Let AI operate servers without SSH. Choose actions, approve risky changes, and audit every step.",
           "category": "Other",
-          "delta": 31,
-          "stars": 429
+          "delta": -38,
+          "stars": 391
         }
       ],
       "counts": {
         "added": 5,
         "removed": 5,
-        "deprecated": 1,
+        "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
         "currentTotal": 509
