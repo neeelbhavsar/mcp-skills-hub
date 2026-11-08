@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T12:47:49.328Z",
+  "generatedAt": "2026-11-08T13:04:56.679Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,83 +21,98 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-counterparts-memory",
-          "name": "Counterparts",
-          "description": "Local-first memory for AI: it interprets, forgets on purpose, and keeps a self across sessions.",
+          "slug": "ai-memorybrain-memorybrain",
+          "name": "MemoryBrain",
+          "description": "Your own memory inside ChatGPT and Claude, with the source of every note.",
           "category": "AI & Memory"
         },
         {
-          "slug": "co-awsys-links",
-          "name": "AWSYS Links",
-          "description": "Short links, QR codes and click stats for your AWSYS.CO account. Sign in with OAuth.",
+          "slug": "dev-zenod-memory",
+          "name": "Zenod — the AI librarian of your memory",
+          "description": "Keeps your memory: WhatsApp, voice or any AI tool over MCP, Markdown you own, recall with sources",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "com-huntautogroup-texas-data",
+          "name": "Hunt Auto Group Texas: used car data",
+          "description": "Read-only used-car data for Texas: NHTSA recalls and crash stars, EPA MPG, size by model year.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-huntautogroup-texas-docs",
+          "name": "Hunt Auto Group Texas: guides",
+          "description": "Search and read Texas used-car buying guides (title, tax, inspection, reviews) as Markdown.",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "com-stackhawk-stackhawk",
+          "name": "stackhawk",
+          "description": "An MCP server that provides interaction with StackHawk's security scanning platform.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-asthanaji05-pokeapi-mcp-server",
+          "name": "pokeapi-mcp-server",
+          "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "app-tryjunto-junto",
-          "name": "Junto group calendar",
-          "description": "Shared group calendar with RSVPs, no login. Create calendars, read events, add events, RSVP.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "dev-workers-x402-bazaar-rank-worker-x402-bazaar-rank-agent-memory-utils",
-          "name": "P0: agent memory and utilities",
-          "description": "Key-value memory without an account, UUID, hash, JWT, JSON validation, time and random",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-memexa-brain",
-          "name": "Memexa",
-          "description": "Hosted memory for AI assistants: notes and docs as a knowledge graph, EU-hosted, via MCP.",
+          "slug": "ai-explorium-mcp-explorium",
+          "name": "mcp-explorium",
+          "description": "Access live company and contact data from Explorium's AgentSource B2B platform.",
           "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "com-faxette-faxette-eu",
-          "name": "Faxette EU",
-          "description": "Send a fax to the EU, the UK, Switzerland and more of Europe from a chat. Pay per fax on Faxette.",
-          "category": "Other"
+          "slug": "io-github-cafelatte1-fronyboard",
+          "name": "FronyBoard",
+          "description": "Project tracker for AI agents: roadmap, periods, tasks and a validation gate, in one SQLite file",
+          "category": "Databases & Storage"
         },
         {
-          "slug": "io-github-clipform-mcp-server",
-          "name": "Clipform",
-          "description": "Interactive video forms that capture authentic responses. Build engaging forms in minutes.",
+          "slug": "io-github-calera-labs-finsec-mcp",
+          "name": "Calera FINSEC — Certified SEC Memory",
+          "description": "Certified SEC EDGAR fact memory for AI agents with zero hallucination and filing provenance.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-calera-labs-icx-mcp",
+          "name": "Calera Infinite Context (ICX) — Persistent Memory & Associative Recall",
+          "description": "Sub-5ms topological 4D associative memory coprocessor for LLMs and multi-agent swarms.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-cesarobedfl-aws-spapi-mcp",
+          "name": "aws-spapi-mcp",
+          "description": "MCP server for Amazon SP-API - real-time inventory health, sales metrics, and price updates",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-cloudcorprecords-browserdebug",
-          "name": "browserdebug",
-          "description": "Debug web pages in Chrome: performance traces, network, console, snapshots, screenshots.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-cloudcorprecords-browserstage",
-          "name": "browserstage",
-          "description": "Automate a browser with accessibility snapshots: navigate, click, type, fill and wait.",
+          "slug": "io-github-chengjiale150-jupyter-mcp-server",
+          "name": "jupyter-mcp-server",
+          "description": "A powerful MCP server for AI-driven Jupyter Notebook management and execution",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-cloudcorprecords-greenlight",
-          "name": "greenlight",
-          "description": "Pre-flight checks for open-source contributions: is this GitHub issue actually landable?",
+          "slug": "io-github-christopherdavenport-github-twin",
+          "name": "github-twin",
+          "description": "Personal RAG over your GitHub history (commits, code, reviews), served to Claude Code over MCP.",
           "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-cipher208-ariel-memory",
+          "name": "ariel-memory",
+          "description": "Two-layer memory MCP server for AI agents with 37 tools, RAG, graphs, wiki, auth",
+          "category": "AI & Memory"
         }
       ],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "dev-emisar-emisar",
-          "name": "emisar",
-          "description": "Let AI operate servers without SSH. Choose actions, approve risky changes, and audit every step.",
-          "category": "Other",
-          "delta": -38,
-          "stars": 391
-        }
-      ],
+      "movers": [],
       "counts": {
-        "added": 5,
-        "removed": 5,
+        "added": 7,
+        "removed": 7,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
@@ -106,14 +121,52 @@
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "openmontageinc-openmontage",
+          "name": "OpenMontage",
+          "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+          "category": "AI Agents"
+        },
+        {
+          "slug": "alchaincyf-nuwa-skill",
+          "name": "nuwa-skill",
+          "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+          "category": "Prompts"
+        },
+        {
+          "slug": "lencx-noi",
+          "name": "Noi",
+          "description": "🚀 Less chaos. More flow.",
+          "category": "Coding Assistants"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "calesthio-openmontage",
+          "name": "OpenMontage",
+          "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+          "category": "AI Agents"
+        },
+        {
+          "slug": "dipakkr-awesome-ai-engineering",
+          "name": "awesome-ai-engineering",
+          "description": "🚀 A curated collection of AI engineering resources, roadmaps, tools, and projects covering LLMs, RAG, AI Agents, MCP, fine-tuning, evaluations, and production AI systems.",
+          "category": "Prompts"
+        },
+        {
+          "slug": "zoicware-removewindowsai",
+          "name": "RemoveWindowsAI",
+          "description": "Force Remove Copilot, Recall and More in Windows 11",
+          "category": "Coding Assistants"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 3,
+        "removed": 3,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
