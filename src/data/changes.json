@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T15:46:40.617Z",
+  "generatedAt": "2026-11-10T14:41:44.071Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,99 +21,142 @@
       "baseline": true,
       "added": [
         {
-          "slug": "dev-witcc-calendar",
-          "name": "WIT Calendar",
-          "description": "Unofficial Wentworth (WIT) course catalog and student schedule. Needs a WIT sign-in.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "ai-slashml-ml-memory",
-          "name": "SlashML (/ ml) Persistent Agent Memory & Code Localization",
-          "description": "Sub-millisecond persistent memory, behavioral code search, and bug localization for AI agents.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "ai-slashml-slashml-robotics",
-          "name": "SlashML (/ ml) Embodied Robotics Trajectory Memory",
-          "description": "Sub-millisecond 7-DoF trajectory episode memory and kinematic safety gates for robotics.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-nexatabs-nexatabs",
-          "name": "NexaTabs - Tab Manager, Workspaces & Session Saver",
-          "description": "Official read-only facts on NexaTabs, the Chrome and Edge tab manager: features, Answers, version.",
-          "category": "Other"
-        },
-        {
-          "slug": "cn-pianam-calendar-mcp",
-          "name": "calendar-mcp",
-          "description": "MCP server for China public holidays and lunar calendar: solar-lunar conversion and yearly schedule.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-mambabuilt-mcp-github-followers-following-export",
-          "name": "mcp-github-followers-following-export",
-          "description": "Full GitHub followers and following lists as rows, with a completeness report per list",
+          "slug": "com-xenmcp-docker-agent",
+          "name": "XenMCP Docker agent",
+          "description": "Read-only MCP server for one Docker host: containers, inspect, logs, stats, events. No exec.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-exayard-exayard",
-          "name": "Exayard",
-          "description": "Construction takeoffs, estimates and bids: measure and count plans, price materials, draft bids.",
+          "slug": "com-woodroar-chainsaws",
+          "name": "WoodRoar (US)",
+          "description": "Search, filter and compare chainsaws in WoodRoar's catalogue, each with a link to its page.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "dev-cotlet-exact-online",
+          "name": "Exact Online MCP Server and API by Cotlet",
+          "description": "Exact Online MCP server: create sales invoice, send invoice, create relation, book journal entry.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-srofia-sentryfi",
+          "name": "SentryFi - Wi-Fi Safety",
+          "description": "SentryFi Wi-Fi safety app (App Store, Google Play): who is on my Wi-Fi, public Wi-Fi risk.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-waterexammath-waterexammath",
+          "name": "WaterExamMath",
+          "description": "Math practice for the California water operator exams (T1-T3, D1-D3) with worked solutions.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-nexavoxa-nexavoxa",
+          "name": "NexaVoxa",
+          "description": "AI voice agents that phone people: place a call, read the transcript, manage agents and numbers.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-mcpbundles-agent-interviews",
+          "name": "Agent Interviews MCP Server from MCPBundles",
+          "description": "Agent Interviews is an AI-powered research platform designed to conduct qualitative interviews an...",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "com-mcpbundles-hub",
+          "name": "MCPBundles Hub",
+          "description": "Access all your MCPBundles tools in one place. Unified hub for all enabled bundles.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-fusionauth-mcp-api",
+          "name": "mcp-api",
+          "description": "Preview release of FusionAuth API MCP server",
+          "category": "Other"
+        },
+        {
+          "slug": "com-sonatype-dependency-management-mcp-server",
+          "name": "dependency-management-mcp-server",
+          "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
           "category": "Other"
         }
       ],
       "removed": [
         {
-          "slug": "com-browserssh-browser-ssh",
-          "name": "browser-ssh",
-          "description": "Scoped, audited SSH exec, sessions, and SFTP on your saved servers without exposing credentials",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-usegithubthing-ugt",
-          "name": "UGT: Use the GitHub Thing",
-          "description": "Get open-source GitHub projects running on your computer, with your AI app",
+          "slug": "io-github-bsvanon-petasats-mcp",
+          "name": "PetaSats",
+          "description": "Buy BSV with USDC on Base through a local non-custodial MCP server.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-bumblebiber-hmem-mcp",
-          "name": "hmem — Humanlike Memory for AI Agents",
-          "description": "Persistent 5-level hierarchical memory for AI agents. SQLite-backed, lazy-loaded.",
+          "slug": "io-github-benjamin-v-chan-onet-match",
+          "name": "onet-match",
+          "description": "Occupation classifier: free text to ranked O*NET-SOC codes with tasks, skills and RIASEC. Local.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-bigcactuslabs-dead-letter",
+          "name": "dead-letter",
+          "description": "Convert .eml and .mbox email to clean Markdown for RAG, LLM pipelines, and local knowledge bases",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-cjhuochai-cp-memory",
-          "name": "CP Memory",
-          "description": "Local-first, governable long-term memory for AI coding agents",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-csoai-org-memory-search-mcp",
-          "name": "memory-search-mcp",
-          "description": "Memory Search MCP Server by MEOK AI Labs",
+          "slug": "io-github-bishwas-py-mcpbrowser",
+          "name": "MCP Browser",
+          "description": "Read Reddit, X, LinkedIn, Facebook and Pinterest through your own Chrome login. No API keys needed.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-csoai-org-slack-enterprise-mcp",
-          "name": "slack-enterprise-mcp",
-          "description": "Slack Enterprise MCP Server by MEOK AI Labs",
+          "slug": "io-github-bitcli-io-bitcli-mcp-server",
+          "name": "BitCLI",
+          "description": "Real-time crypto futures order flow, BCT-30 matrices, and HFT alerts across 1,650+ contracts.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-csoai-org-stripe-billing-mcp",
-          "name": "stripe-billing-mcp",
-          "description": "Stripe Billing MCP Server by MEOK AI Labs",
+          "slug": "io-github-blueprint-studio-ai-blueprint-studio",
+          "name": "Blueprint Studio",
+          "description": "Your brand's Styles, logos and asset library in your AI app, for on-brand assets that match.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-bookipi-group-bookipi",
+          "name": "Bookipi",
+          "description": "Invoices, payments, expenses, customers, deals, proposals, eSign and reports for small businesses.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-brightbeamai-chap",
+          "name": "CHAP Coordinator",
+          "description": "Auditable records of human decisions over AI agent work. Approvals, edits, overrides, escalations.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-bryceblackroot-memorycomb",
+          "name": "MemoryComb",
+          "description": "One memory for every AI: Claude, ChatGPT and more share a memory that lives on your computer.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-builderio-agent-native-calendar",
+          "name": "Agent-Native Calendar",
+          "description": "Agent-Native Google Calendar - manage events, sync, and public booking",
           "category": "Dev Tools & Git"
         }
       ],
-      "deprecated": [],
+      "deprecated": [
+        {
+          "slug": "ai-ctxstore-ctxstore-mcp",
+          "name": "ctxstore — memory that follows you across models",
+          "description": "Persistent memory for AI agents: keyed facts, a wake bundle each session, one memory in every model.",
+          "category": "AI & Memory"
+        }
+      ],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 7,
-        "removed": 7,
-        "deprecated": 0,
+        "added": 10,
+        "removed": 10,
+        "deprecated": 1,
         "revived": 0,
         "previousTotal": 509,
         "currentTotal": 509
@@ -121,28 +164,14 @@
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "ruvnet-ruview",
-          "name": "RuView",
-          "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-          "category": "MCP & Tooling"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "netdata-netdata",
-          "name": "netdata",
-          "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-          "category": "MCP & Tooling"
-        }
-      ],
+      "added": [],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
-        "removed": 1,
+        "added": 0,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
