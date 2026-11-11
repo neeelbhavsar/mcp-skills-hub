@@ -1,17 +1,33 @@
 {
-  "generatedAt": "2026-11-10T14:41:44.071Z",
+  "generatedAt": "2026-11-11T13:56:19.181Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [],
       "removed": [],
-      "deprecated": [],
+      "deprecated": [
+        {
+          "slug": "rootly",
+          "name": "rootly",
+          "description": "Full-lifecycle incident management: deploy safety, incident response, on-call management, and retrospectives.",
+          "category": "Automation & Workflow"
+        }
+      ],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "modern-web-guidance",
+          "name": "modern-web-guidance",
+          "description": "Keep your coding agent up to date with the latest web best practices",
+          "category": "Automation & Workflow",
+          "delta": 1282,
+          "stars": 3950
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
-        "deprecated": 0,
+        "deprecated": 1,
         "revived": 0,
         "previousTotal": 340,
         "currentTotal": 340
@@ -21,142 +37,168 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-xenmcp-docker-agent",
-          "name": "XenMCP Docker agent",
-          "description": "Read-only MCP server for one Docker host: containers, inspect, logs, stats, events. No exec.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-woodroar-chainsaws",
-          "name": "WoodRoar (US)",
-          "description": "Search, filter and compare chainsaws in WoodRoar's catalogue, each with a link to its page.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "dev-cotlet-exact-online",
-          "name": "Exact Online MCP Server and API by Cotlet",
-          "description": "Exact Online MCP server: create sales invoice, send invoice, create relation, book journal entry.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-srofia-sentryfi",
-          "name": "SentryFi - Wi-Fi Safety",
-          "description": "SentryFi Wi-Fi safety app (App Store, Google Play): who is on my Wi-Fi, public Wi-Fi risk.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-waterexammath-waterexammath",
-          "name": "WaterExamMath",
-          "description": "Math practice for the California water operator exams (T1-T3, D1-D3) with worked solutions.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-nexavoxa-nexavoxa",
-          "name": "NexaVoxa",
-          "description": "AI voice agents that phone people: place a call, read the transcript, manage agents and numbers.",
+          "slug": "ai-harny-context",
+          "name": "Harny Memory",
+          "description": "Long-term memory for each person your app serves: saves, recalls later, keeps facts current.",
           "category": "AI & Memory"
         },
         {
-          "slug": "com-mcpbundles-agent-interviews",
-          "name": "Agent Interviews MCP Server from MCPBundles",
-          "description": "Agent Interviews is an AI-powered research platform designed to conduct qualitative interviews an...",
-          "category": "Design & Media"
+          "slug": "com-gotsimplified-calendar",
+          "name": "Calendar Got Simplified",
+          "description": "Create recurring events and send invites from your own address, in one sentence.",
+          "category": "Productivity"
         },
         {
-          "slug": "com-mcpbundles-hub",
-          "name": "MCPBundles Hub",
-          "description": "Access all your MCPBundles tools in one place. Unified hub for all enabled bundles.",
+          "slug": "ai-kwekuanansi-exam-grades",
+          "name": "Exam Grades and Entry",
+          "description": "WASSCE and BECE aggregates, KCSE mean grades, JAMB minimums and NSC pass thresholds.",
           "category": "Other"
         },
         {
-          "slug": "io-fusionauth-mcp-api",
-          "name": "mcp-api",
-          "description": "Preview release of FusionAuth API MCP server",
+          "slug": "com-syncydo-calendar",
+          "name": "Syncydo",
+          "description": "Read-only view of all your calendars (Google, Outlook, Zoho, iCloud): agenda and free time",
+          "category": "Productivity"
+        },
+        {
+          "slug": "il-co-nexa-nexa",
+          "name": "Nexa for Real Estate Pros",
+          "description": "Work platform for real estate agents in Israel: CRM, deals, listings, market data and documents.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-profullstack-tronbrowser",
+          "name": "tronbrowser",
+          "description": "Obscura-then-Chromium fetch + screenshots (tronbrowser.dev)",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-getridian-calendar-feeds",
+          "name": "Ridian Calendar Feeds",
+          "description": "Publish subscribable calendars for Google, Outlook and Apple and keep them updated from chat.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "com-barrioenergy-grid-texas-grid",
+          "name": "Barrio Grid",
+          "description": "Texas power grid siting: substations, transmission, ERCOT prices, queue, parcels, water.",
           "category": "Other"
         },
         {
-          "slug": "com-sonatype-dependency-management-mcp-server",
-          "name": "dependency-management-mcp-server",
-          "description": "Sonatype component intelligence: versions, security analysis, and Trust Score recommendations",
+          "slug": "ai-packmind-mcp-server",
+          "name": "Packmind MCP",
+          "description": "Packmind captures, scales, and enforces your organization's technical decisions.",
+          "category": "Other"
+        },
+        {
+          "slug": "io-github-8beeeaaat-touchdesigner-mcp-server",
+          "name": "touchdesigner-mcp-server",
+          "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-kekwanu-syncline-mcp-server",
+          "name": "Syncline MCP Server (TypeScript)",
+          "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+          "category": "Other"
+        },
+        {
+          "slug": "com-kekwanu-syncline-mcp-server-python",
+          "name": "Syncline MCP Server (Python)",
+          "description": "Syncline MCP Server (Python) - AI-powered meeting scheduling with intelligent auto-scheduling",
           "category": "Other"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-bsvanon-petasats-mcp",
-          "name": "PetaSats",
-          "description": "Buy BSV with USDC on Base through a local non-custodial MCP server.",
+          "slug": "io-github-apoth3osis-ai-agent-payment-mcp",
+          "name": "agent-payment-mcp",
+          "description": "Secure MCP router providing access to AgentPMT's pay-per-use AI tools marketplace.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "io-github-artjack-verdict",
+          "name": "Verdict QA",
+          "description": "Read-only MCP server over Verdict QA state: verdicts, findings, flaky quarantine, history.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-benjamin-v-chan-onet-match",
-          "name": "onet-match",
-          "description": "Occupation classifier: free text to ranked O*NET-SOC codes with tasks, skills and RIASEC. Local.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-bigcactuslabs-dead-letter",
-          "name": "dead-letter",
-          "description": "Convert .eml and .mbox email to clean Markdown for RAG, LLM pipelines, and local knowledge bases",
+          "slug": "io-github-artem362-memory-kernel",
+          "name": "Memory Kernel",
+          "description": "Local-first memory for AI agents: SQLite FTS5, deterministic recall, no vector DB, no cloud.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-bishwas-py-mcpbrowser",
-          "name": "MCP Browser",
-          "description": "Read Reddit, X, LinkedIn, Facebook and Pinterest through your own Chrome login. No API keys needed.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-bitcli-io-bitcli-mcp-server",
-          "name": "BitCLI",
-          "description": "Real-time crypto futures order flow, BCT-30 matrices, and HFT alerts across 1,650+ contracts.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-blueprint-studio-ai-blueprint-studio",
-          "name": "Blueprint Studio",
-          "description": "Your brand's Styles, logos and asset library in your AI app, for on-brand assets that match.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-bookipi-group-bookipi",
-          "name": "Bookipi",
-          "description": "Invoices, payments, expenses, customers, deals, proposals, eSign and reports for small businesses.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-brightbeamai-chap",
-          "name": "CHAP Coordinator",
-          "description": "Auditable records of human decisions over AI agent work. Approvals, edits, overrides, escalations.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-bryceblackroot-memorycomb",
-          "name": "MemoryComb",
-          "description": "One memory for every AI: Claude, ChatGPT and more share a memory that lives on your computer.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-builderio-agent-native-calendar",
-          "name": "Agent-Native Calendar",
-          "description": "Agent-Native Google Calendar - manage events, sync, and public booking",
-          "category": "Dev Tools & Git"
-        }
-      ],
-      "deprecated": [
-        {
-          "slug": "ai-ctxstore-ctxstore-mcp",
-          "name": "ctxstore — memory that follows you across models",
-          "description": "Persistent memory for AI agents: keyed facts, a wake bundle each session, one memory in every model.",
+          "slug": "io-github-artexis10-exomem",
+          "name": "Exomem",
+          "description": "Local Markdown/Obsidian knowledge substrate for MCP agents with governed memory and hybrid search.",
           "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-artymclabin-gmail-mcp-server",
+          "name": "Gmail-MCP-Server",
+          "description": "Lean Gmail MCP server with auto authentication support",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-assertion-ai-assertion",
+          "name": "Assertion Memory",
+          "description": "Recall your team's coding-agent memory. Install the Assertion plugin to capture it automatically.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-asthanaji05-pokeapi-mcp-server",
+          "name": "pokeapi-mcp-server",
+          "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-astrix-labs-genesys-memory",
+          "name": "genesys-memory",
+          "description": "Open-source causal memory for AI agents: persistent, explainable, MCP-native memory (13 tools).",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-ataraxy-labs-sem",
+          "name": "sem",
+          "description": "Entity-level code intelligence: semantic diff, impact analysis, blame, and context for AI agents",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-aungmyokyaw-betterprompt-mcp",
+          "name": "betterprompt-mcp",
+          "description": "MCP server for AI-enhanced prompt engineering and request conversion.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-aureliolo-gdharness",
+          "name": "gdharness",
+          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-ayo-fam-mcp-cloudflare-dns",
+          "name": "MCP Cloudflare DNS",
+          "description": "Cloudflare DNS MCP server: manage zones, records, cache purge, and page rules.",
+          "category": "Cloud & DevOps"
         }
       ],
+      "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "dev-silvertongue-silvertongue",
+          "name": "Silvertongue: Write Like Anyone Famous",
+          "description": "Famous writing voices for your agent. Find one, read how it was studied, write in it.",
+          "category": "AI & Memory",
+          "delta": 82,
+          "stars": 82
+        }
+      ],
       "counts": {
-        "added": 10,
-        "removed": 10,
-        "deprecated": 1,
+        "added": 12,
+        "removed": 12,
+        "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
         "currentTotal": 509
