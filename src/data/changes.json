@@ -1,18 +1,11 @@
 {
-  "generatedAt": "2026-11-11T13:56:19.181Z",
+  "generatedAt": "2026-11-12T14:59:07.767Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [],
       "removed": [],
-      "deprecated": [
-        {
-          "slug": "rootly",
-          "name": "rootly",
-          "description": "Full-lifecycle incident management: deploy safety, incident response, on-call management, and retrospectives.",
-          "category": "Automation & Workflow"
-        }
-      ],
+      "deprecated": [],
       "revived": [],
       "movers": [
         {
@@ -20,14 +13,14 @@
           "name": "modern-web-guidance",
           "description": "Keep your coding agent up to date with the latest web best practices",
           "category": "Automation & Workflow",
-          "delta": 1282,
-          "stars": 3950
+          "delta": 2376,
+          "stars": 6326
         }
       ],
       "counts": {
         "added": 0,
         "removed": 0,
-        "deprecated": 1,
+        "deprecated": 0,
         "revived": 0,
         "previousTotal": 340,
         "currentTotal": 340
@@ -37,150 +30,162 @@
       "baseline": true,
       "added": [
         {
-          "slug": "ai-harny-context",
-          "name": "Harny Memory",
-          "description": "Long-term memory for each person your app serves: saves, recalls later, keeps facts current.",
+          "slug": "com-grain64-billtrim-billtrim",
+          "name": "Billtrim: AWS bill savings",
+          "description": "Ranked AWS bill savings from a Cost Explorer or CUR export, with dollar impact and CLI steps.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-erkle-erkle",
+          "name": "Erkle team memory",
+          "description": "Shared, scoped, reviewable team memory for AI coding agents.",
           "category": "AI & Memory"
         },
         {
-          "slug": "com-gotsimplified-calendar",
-          "name": "Calendar Got Simplified",
-          "description": "Create recurring events and send invites from your own address, in one sentence.",
+          "slug": "com-shardconnector-shardconnector",
+          "name": "Shard Connector for Obsidian",
+          "description": "Read, search, create and edit notes in an Obsidian Sync vault.",
           "category": "Productivity"
         },
         {
-          "slug": "ai-kwekuanansi-exam-grades",
-          "name": "Exam Grades and Entry",
-          "description": "WASSCE and BECE aggregates, KCSE mean grades, JAMB minimums and NSC pass thresholds.",
-          "category": "Other"
+          "slug": "host-justcall-mcp-justcall-mcp-server",
+          "name": "JustCall MCP Server",
+          "description": "JustCall MCP Server enables LLMs and AI agents to make voice calls and send SMS via JustCall APIs.",
+          "category": "AI & Memory"
         },
         {
-          "slug": "com-syncydo-calendar",
-          "name": "Syncydo",
-          "description": "Read-only view of all your calendars (Google, Outlook, Zoho, iCloud): agenda and free time",
-          "category": "Productivity"
-        },
-        {
-          "slug": "il-co-nexa-nexa",
-          "name": "Nexa for Real Estate Pros",
-          "description": "Work platform for real estate agents in Israel: CRM, deals, listings, market data and documents.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "com-profullstack-tronbrowser",
-          "name": "tronbrowser",
-          "description": "Obscura-then-Chromium fetch + screenshots (tronbrowser.dev)",
+          "slug": "com-knitli-codeweaver",
+          "name": "codeweaver",
+          "description": "Semantic code search built for AI agents. Hybrid, AST-aware, context for 166 languages.",
           "category": "Web & Search"
         },
         {
-          "slug": "com-getridian-calendar-feeds",
-          "name": "Ridian Calendar Feeds",
-          "description": "Publish subscribable calendars for Google, Outlook and Apple and keep them updated from chat.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-barrioenergy-grid-texas-grid",
-          "name": "Barrio Grid",
-          "description": "Texas power grid siting: substations, transmission, ERCOT prices, queue, parcels, water.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-packmind-mcp-server",
-          "name": "Packmind MCP",
-          "description": "Packmind captures, scales, and enforces your organization's technical decisions.",
-          "category": "Other"
-        },
-        {
-          "slug": "io-github-8beeeaaat-touchdesigner-mcp-server",
-          "name": "touchdesigner-mcp-server",
-          "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
+          "slug": "io-github-aaronvick-echorift-mcp",
+          "name": "echorift-mcp",
+          "description": "MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter)",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "com-kekwanu-syncline-mcp-server",
-          "name": "Syncline MCP Server (TypeScript)",
-          "description": "Syncline MCP Server (TypeScript) - AI-powered meeting scheduling with intelligent auto-scheduling",
+          "slug": "com-monikaskorykow-workshops",
+          "name": "workshops",
+          "description": "MCP server for Monika Skorykow workshops - browse prices and promotions",
           "category": "Other"
         },
         {
-          "slug": "com-kekwanu-syncline-mcp-server-python",
-          "name": "Syncline MCP Server (Python)",
-          "description": "Syncline MCP Server (Python) - AI-powered meeting scheduling with intelligent auto-scheduling",
+          "slug": "io-github-akkshay10-mcpclientmock",
+          "name": "MCPClientMock",
+          "description": "MCP server for James Bloom MockServer - create expectations, verify requests, and manage mock state",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-4rgon4ut-sutra",
+          "name": "sutra",
+          "description": "Context Engineering Engine. Provides cognitive tools, memory structures, and agent patterns.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-stackoverflow-mcp-mcp",
+          "name": "Stack Overflow MCP Server",
+          "description": "Access Stack Overflow's trusted and verified technical questions and answers.",
           "category": "Other"
+        },
+        {
+          "slug": "io-github-adonaivera-fiftyone-mcp-server",
+          "name": "fiftyone-mcp-server",
+          "description": "Control FiftyOne computer vision datasets through AI assistants using 80+ operators.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-wix-mcp",
+          "name": "Wix MCP",
+          "description": "A Model Context Protocol server for Wix AI tools",
+          "category": "Other"
+        },
+        {
+          "slug": "com-bitsbound-contract-analysis",
+          "name": "contract-analysis",
+          "description": "AI contract analysis with partner-level redlines, OOXML Track Changes, and risk analysis.",
+          "category": "Legal & Government"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-apoth3osis-ai-agent-payment-mcp",
-          "name": "agent-payment-mcp",
-          "description": "Secure MCP router providing access to AgentPMT's pay-per-use AI tools marketplace.",
-          "category": "Finance & Data"
-        },
-        {
-          "slug": "io-github-artjack-verdict",
-          "name": "Verdict QA",
-          "description": "Read-only MCP server over Verdict QA state: verdicts, findings, flaky quarantine, history.",
+          "slug": "io-github-alimora83-sa-business-calendar-mcp",
+          "name": "SA Business Calendar",
+          "description": "South African business days, public holidays and SARS EMP201/VAT201 deadlines.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-artem362-memory-kernel",
-          "name": "Memory Kernel",
-          "description": "Local-first memory for AI agents: SQLite FTS5, deterministic recall, no vector DB, no cloud.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-artexis10-exomem",
-          "name": "Exomem",
-          "description": "Local Markdown/Obsidian knowledge substrate for MCP agents with governed memory and hybrid search.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-artymclabin-gmail-mcp-server",
-          "name": "Gmail-MCP-Server",
-          "description": "Lean Gmail MCP server with auto authentication support",
+          "slug": "io-github-amxncode-oneaimemory",
+          "name": "OneAIMemory",
+          "description": "Cross-device AI memory with encrypted activity capture and context handoff between AI tools",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-assertion-ai-assertion",
-          "name": "Assertion Memory",
-          "description": "Recall your team's coding-agent memory. Install the Assertion plugin to capture it automatically.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-asthanaji05-pokeapi-mcp-server",
-          "name": "pokeapi-mcp-server",
-          "description": "Empower your AI with Pokédex powers! Fetch and explore Pokémon data seamlessly via PokeAPI.",
+          "slug": "io-github-anonymousonyx22-essay-stats-mcp",
+          "name": "essay-stats-mcp",
+          "description": "Essay Stats MCP: offline word and page counts, readability, style flags and word limit checks.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-astrix-labs-genesys-memory",
-          "name": "genesys-memory",
-          "description": "Open-source causal memory for AI agents: persistent, explainable, MCP-native memory (13 tools).",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-ataraxy-labs-sem",
-          "name": "sem",
-          "description": "Entity-level code intelligence: semantic diff, impact analysis, blame, and context for AI agents",
+          "slug": "io-github-anonymousonyx22-syllabus-calendar-mcp",
+          "name": "syllabus-calendar-mcp",
+          "description": "Syllabus to calendar MCP: pull dates from a syllabus into .ics files, merge calendars. Offline.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-aungmyokyaw-betterprompt-mcp",
-          "name": "betterprompt-mcp",
-          "description": "MCP server for AI-enhanced prompt engineering and request conversion.",
+          "slug": "io-github-ansarii-firecrawl-stealth-mcp",
+          "name": "Firecrawl Alternative Stealth MCP",
+          "description": "WAF-bypass web scraper and passive URL mapper for AI agents with zero pay-on-fail.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-ansarii-zero-trust-gateway",
+          "name": "Neon Zero-Trust Gateway",
+          "description": "Zero-Trust MCP gateway securing internal database tools behind an API key firewall.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-aureliolo-gdharness",
-          "name": "gdharness",
-          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
+          "slug": "io-github-ansarii-zero-trust-mcp-gateway",
+          "name": "Neon Zero-Trust MCP Gateway",
+          "description": "AI security firewall & DLP proxy protecting API keys and blocking destructive commands.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-ayo-fam-mcp-cloudflare-dns",
-          "name": "MCP Cloudflare DNS",
-          "description": "Cloudflare DNS MCP server: manage zones, records, cache purge, and page rules.",
-          "category": "Cloud & DevOps"
+          "slug": "io-github-anshumanatrey-betterleaks-cloud",
+          "name": "Betterleaks Cloud - GitHub & S3 Secret Scanner",
+          "description": "Betterleaks Cloud - GitHub Secret Scanner + Validator",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-anshumanatrey-cornerstone-jobs-search",
+          "name": "Cornerstone Jobs Scraper & API - All CSOD Career Sites, Remote",
+          "description": "Cornerstone Jobs Scraper - Every CSOD Career Site",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "io-github-anshumanatrey-gitleaks-github-secret-scanner",
+          "name": "Gitleaks Cloud - GitHub API Key Hunter & Secret Scanner",
+          "description": "GitHub Secret Scanner - Find Leaked API Keys | Gitleaks",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-anthonypuggs-ausecon-mcp-server",
+          "name": "Australian Economic Data (ABS, RBA & APRA)",
+          "description": "Australian economic data from the ABS, RBA, and APRA: CPI, GDP, cash rate, labour, and more.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-antonytm-mcp-all",
+          "name": "mcp-all",
+          "description": "A Model Context Protocol server to run other MCP servers",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-antonytm-mcp-sitecore-server",
+          "name": "mcp-sitecore-server",
+          "description": "A Model Context Protocol server for Sitecore",
+          "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
@@ -191,13 +196,13 @@
           "name": "Silvertongue: Write Like Anyone Famous",
           "description": "Famous writing voices for your agent. Find one, read how it was studied, write in it.",
           "category": "AI & Memory",
-          "delta": 82,
-          "stars": 82
+          "delta": 32,
+          "stars": 114
         }
       ],
       "counts": {
-        "added": 12,
-        "removed": 12,
+        "added": 13,
+        "removed": 13,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
