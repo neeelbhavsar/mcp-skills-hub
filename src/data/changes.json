@@ -1,10 +1,17 @@
 {
-  "generatedAt": "2026-11-12T14:59:07.767Z",
+  "generatedAt": "2026-11-13T14:21:53.326Z",
   "kinds": {
     "skills": {
       "baseline": true,
       "added": [],
-      "removed": [],
+      "removed": [
+        {
+          "slug": "airwallex-dev",
+          "name": "airwallex-dev",
+          "description": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for…",
+          "category": "Coding & Engineering"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [
@@ -13,33 +20,101 @@
           "name": "modern-web-guidance",
           "description": "Keep your coding agent up to date with the latest web best practices",
           "category": "Automation & Workflow",
-          "delta": 2376,
-          "stars": 6326
+          "delta": 3421,
+          "stars": 9747
         }
       ],
       "counts": {
         "added": 0,
-        "removed": 0,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 340,
-        "currentTotal": 340
+        "currentTotal": 339
       }
     },
     "mcps": {
       "baseline": true,
       "added": [
         {
-          "slug": "com-grain64-billtrim-billtrim",
-          "name": "Billtrim: AWS bill savings",
-          "description": "Ranked AWS bill savings from a Cost Explorer or CUR export, with dollar impact and CLI steps.",
-          "category": "Cloud & DevOps"
+          "slug": "com-shardconnector-shard-for-obsidian",
+          "name": "Shard Connector for Obsidian",
+          "description": "Hosted MCP server for Obsidian Sync vaults: read, search, edit notes. Not affiliated with Obsidian.",
+          "category": "Productivity"
         },
         {
-          "slug": "ai-erkle-erkle",
-          "name": "Erkle team memory",
-          "description": "Shared, scoped, reviewable team memory for AI coding agents.",
+          "slug": "com-renzojohnson-gmail-mcp",
+          "name": "Gmail MCP",
+          "description": "Gmail MCP server: list, read, search and send email, manage drafts and labels.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "com-renzojohnson-google-drive-mcp",
+          "name": "Google Drive MCP",
+          "description": "Google Drive MCP server: search files, organise folders and manage sharing.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-heurchain-heurchain",
+          "name": "HeurChain — AI Agent Memory",
+          "description": "Persistent memory storage and retrieval for AI agents through the hosted HeurChain MCP service.",
           "category": "AI & Memory"
+        },
+        {
+          "slug": "com-renzojohnson-google-calendar-mcp",
+          "name": "Google Calendar MCP",
+          "description": "Google Calendar MCP server: list, read, create, update and delete events and calendars.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "com-gotsimplified-memory",
+          "name": "Memory Got Simplified",
+          "description": "Long-term memory for your AI as a private knowledge graph: facts, people, links, sources.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-bitsbound-contract-automation",
+          "name": "contract-automation",
+          "description": "AI contract automation with partner-level redlines, OOXML Track Changes, and risk analysis.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "in-creo-memories-mcp-server",
+          "name": "Creo-memories MCP",
+          "description": "Memory system for AI agents with semantic search. Store and recall memories with ease.",
+          "category": "AI & Memory"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "dev-shveik-agmail",
+          "name": "agmail",
+          "description": "Email inboxes for agents by the hour: wait for a mail, get the code or link. Pay per call.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "dev-zenod-memory",
+          "name": "Zenod — the AI librarian of your memory",
+          "description": "Keeps your memory: WhatsApp, voice or any AI tool over MCP, Markdown you own, recall with sources",
+          "category": "Docs & Knowledge"
+        },
+        {
+          "slug": "io-github-aetherai3-agent-browser",
+          "name": "agent-browser",
+          "description": "Self-hosted Chrome for AI agents, with a live noVNC view a human can take over.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-agent360dk-browser-mcp",
+          "name": "Agent360 Browser MCP",
+          "description": "Drive your real, logged-in Chrome from any AI agent - 40 tools. Needs our Chrome extension too.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-aishwaryshrivastav-vibe-testing",
+          "name": "Vibe Test — Browser Testing Agent",
+          "description": "Code-aware browser testing agent — 14 Playwright tools for AI code editors via MCP",
+          "category": "Dev Tools & Git"
         },
         {
           "slug": "com-shardconnector-shardconnector",
@@ -48,161 +123,24 @@
           "category": "Productivity"
         },
         {
-          "slug": "host-justcall-mcp-justcall-mcp-server",
-          "name": "JustCall MCP Server",
-          "description": "JustCall MCP Server enables LLMs and AI agents to make voice calls and send SMS via JustCall APIs.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-knitli-codeweaver",
-          "name": "codeweaver",
-          "description": "Semantic code search built for AI agents. Hybrid, AST-aware, context for 166 languages.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-aaronvick-echorift-mcp",
-          "name": "echorift-mcp",
-          "description": "MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter)",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-monikaskorykow-workshops",
-          "name": "workshops",
-          "description": "MCP server for Monika Skorykow workshops - browse prices and promotions",
-          "category": "Other"
-        },
-        {
           "slug": "io-github-akkshay10-mcpclientmock",
           "name": "MCPClientMock",
           "description": "MCP server for James Bloom MockServer - create expectations, verify requests, and manage mock state",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-4rgon4ut-sutra",
-          "name": "sutra",
-          "description": "Context Engineering Engine. Provides cognitive tools, memory structures, and agent patterns.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-stackoverflow-mcp-mcp",
-          "name": "Stack Overflow MCP Server",
-          "description": "Access Stack Overflow's trusted and verified technical questions and answers.",
-          "category": "Other"
-        },
-        {
           "slug": "io-github-adonaivera-fiftyone-mcp-server",
           "name": "fiftyone-mcp-server",
           "description": "Control FiftyOne computer vision datasets through AI assistants using 80+ operators.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-wix-mcp",
-          "name": "Wix MCP",
-          "description": "A Model Context Protocol server for Wix AI tools",
-          "category": "Other"
-        },
-        {
-          "slug": "com-bitsbound-contract-analysis",
-          "name": "contract-analysis",
-          "description": "AI contract analysis with partner-level redlines, OOXML Track Changes, and risk analysis.",
-          "category": "Legal & Government"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "io-github-alimora83-sa-business-calendar-mcp",
-          "name": "SA Business Calendar",
-          "description": "South African business days, public holidays and SARS EMP201/VAT201 deadlines.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-amxncode-oneaimemory",
-          "name": "OneAIMemory",
-          "description": "Cross-device AI memory with encrypted activity capture and context handoff between AI tools",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-anonymousonyx22-essay-stats-mcp",
-          "name": "essay-stats-mcp",
-          "description": "Essay Stats MCP: offline word and page counts, readability, style flags and word limit checks.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-anonymousonyx22-syllabus-calendar-mcp",
-          "name": "syllabus-calendar-mcp",
-          "description": "Syllabus to calendar MCP: pull dates from a syllabus into .ics files, merge calendars. Offline.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-ansarii-firecrawl-stealth-mcp",
-          "name": "Firecrawl Alternative Stealth MCP",
-          "description": "WAF-bypass web scraper and passive URL mapper for AI agents with zero pay-on-fail.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-ansarii-zero-trust-gateway",
-          "name": "Neon Zero-Trust Gateway",
-          "description": "Zero-Trust MCP gateway securing internal database tools behind an API key firewall.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-ansarii-zero-trust-mcp-gateway",
-          "name": "Neon Zero-Trust MCP Gateway",
-          "description": "AI security firewall & DLP proxy protecting API keys and blocking destructive commands.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-anshumanatrey-betterleaks-cloud",
-          "name": "Betterleaks Cloud - GitHub & S3 Secret Scanner",
-          "description": "Betterleaks Cloud - GitHub Secret Scanner + Validator",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-anshumanatrey-cornerstone-jobs-search",
-          "name": "Cornerstone Jobs Scraper & API - All CSOD Career Sites, Remote",
-          "description": "Cornerstone Jobs Scraper - Every CSOD Career Site",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "io-github-anshumanatrey-gitleaks-github-secret-scanner",
-          "name": "Gitleaks Cloud - GitHub API Key Hunter & Secret Scanner",
-          "description": "GitHub Secret Scanner - Find Leaked API Keys | Gitleaks",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-anthonypuggs-ausecon-mcp-server",
-          "name": "Australian Economic Data (ABS, RBA & APRA)",
-          "description": "Australian economic data from the ABS, RBA, and APRA: CPI, GDP, cash rate, labour, and more.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-antonytm-mcp-all",
-          "name": "mcp-all",
-          "description": "A Model Context Protocol server to run other MCP servers",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-antonytm-mcp-sitecore-server",
-          "name": "mcp-sitecore-server",
-          "description": "A Model Context Protocol server for Sitecore",
           "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "dev-silvertongue-silvertongue",
-          "name": "Silvertongue: Write Like Anyone Famous",
-          "description": "Famous writing voices for your agent. Find one, read how it was studied, write in it.",
-          "category": "AI & Memory",
-          "delta": 32,
-          "stars": 114
-        }
-      ],
+      "movers": [],
       "counts": {
-        "added": 13,
-        "removed": 13,
+        "added": 8,
+        "removed": 8,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
