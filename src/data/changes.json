@@ -1,14 +1,27 @@
 {
-  "generatedAt": "2026-11-13T14:21:53.326Z",
+  "generatedAt": "2026-11-14T13:19:19.752Z",
   "kinds": {
     "skills": {
       "baseline": true,
-      "added": [],
+      "added": [
+        {
+          "slug": "sap-ux-fiori-tools",
+          "name": "sap-ux-fiori-tools",
+          "description": "MCP server and skills for SAP Fiori development. Build, modify, and test SAP Fiori Elements applications with AI assistance.",
+          "category": "Design & Creative"
+        },
+        {
+          "slug": "theme-examples",
+          "name": "theme-examples",
+          "description": "An example plugin to read, copy and change: twenty animated backdrops behind the chat in the Claude desktop app, with frosted-glass panels, one per project or per session. Needs a version of Claude Desktop that draws a plugin's backdrop.",
+          "category": "Writing & Content"
+        }
+      ],
       "removed": [
         {
-          "slug": "airwallex-dev",
-          "name": "airwallex-dev",
-          "description": "Build Airwallex payment integrations in your own codebase. Generates the checkout, card-element, onboarding, and subscription-billing code for an Airwallex integration and wires it into your project: Hosted Payment Page, Drop-in and Split Card elements, connected-account KYC onboarding, and Billing Hosted Checkout for…",
+          "slug": "sap-fiori-mcp-server",
+          "name": "sap-fiori-mcp-server",
+          "description": "MCP server for SAP Fiori development tools for Claude Code. Build and modify SAP Fiori applications with AI assistance.",
           "category": "Coding & Engineering"
         }
       ],
@@ -20,134 +33,28 @@
           "name": "modern-web-guidance",
           "description": "Keep your coding agent up to date with the latest web best practices",
           "category": "Automation & Workflow",
-          "delta": 3421,
-          "stars": 9747
+          "delta": 2935,
+          "stars": 12682
+        },
+        {
+          "slug": "nimble",
+          "name": "nimble",
+          "description": "Nimble web data toolkit — search, extract, map, crawl the web and work with structured data agents",
+          "category": "Automation & Workflow",
+          "delta": 8,
+          "stars": 72
         }
       ],
       "counts": {
-        "added": 0,
+        "added": 2,
         "removed": 1,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 340,
-        "currentTotal": 339
+        "previousTotal": 339,
+        "currentTotal": 340
       }
     },
     "mcps": {
-      "baseline": true,
-      "added": [
-        {
-          "slug": "com-shardconnector-shard-for-obsidian",
-          "name": "Shard Connector for Obsidian",
-          "description": "Hosted MCP server for Obsidian Sync vaults: read, search, edit notes. Not affiliated with Obsidian.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-renzojohnson-gmail-mcp",
-          "name": "Gmail MCP",
-          "description": "Gmail MCP server: list, read, search and send email, manage drafts and labels.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-renzojohnson-google-drive-mcp",
-          "name": "Google Drive MCP",
-          "description": "Google Drive MCP server: search files, organise folders and manage sharing.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "com-heurchain-heurchain",
-          "name": "HeurChain — AI Agent Memory",
-          "description": "Persistent memory storage and retrieval for AI agents through the hosted HeurChain MCP service.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-renzojohnson-google-calendar-mcp",
-          "name": "Google Calendar MCP",
-          "description": "Google Calendar MCP server: list, read, create, update and delete events and calendars.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "com-gotsimplified-memory",
-          "name": "Memory Got Simplified",
-          "description": "Long-term memory for your AI as a private knowledge graph: facts, people, links, sources.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "com-bitsbound-contract-automation",
-          "name": "contract-automation",
-          "description": "AI contract automation with partner-level redlines, OOXML Track Changes, and risk analysis.",
-          "category": "Legal & Government"
-        },
-        {
-          "slug": "in-creo-memories-mcp-server",
-          "name": "Creo-memories MCP",
-          "description": "Memory system for AI agents with semantic search. Store and recall memories with ease.",
-          "category": "AI & Memory"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "dev-shveik-agmail",
-          "name": "agmail",
-          "description": "Email inboxes for agents by the hour: wait for a mail, get the code or link. Pay per call.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "dev-zenod-memory",
-          "name": "Zenod — the AI librarian of your memory",
-          "description": "Keeps your memory: WhatsApp, voice or any AI tool over MCP, Markdown you own, recall with sources",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "io-github-aetherai3-agent-browser",
-          "name": "agent-browser",
-          "description": "Self-hosted Chrome for AI agents, with a live noVNC view a human can take over.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-agent360dk-browser-mcp",
-          "name": "Agent360 Browser MCP",
-          "description": "Drive your real, logged-in Chrome from any AI agent - 40 tools. Needs our Chrome extension too.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-aishwaryshrivastav-vibe-testing",
-          "name": "Vibe Test — Browser Testing Agent",
-          "description": "Code-aware browser testing agent — 14 Playwright tools for AI code editors via MCP",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-shardconnector-shardconnector",
-          "name": "Shard Connector for Obsidian",
-          "description": "Read, search, create and edit notes in an Obsidian Sync vault.",
-          "category": "Productivity"
-        },
-        {
-          "slug": "io-github-akkshay10-mcpclientmock",
-          "name": "MCPClientMock",
-          "description": "MCP server for James Bloom MockServer - create expectations, verify requests, and manage mock state",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-adonaivera-fiftyone-mcp-server",
-          "name": "fiftyone-mcp-server",
-          "description": "Control FiftyOne computer vision datasets through AI assistants using 80+ operators.",
-          "category": "Dev Tools & Git"
-        }
-      ],
-      "deprecated": [],
-      "revived": [],
-      "movers": [],
-      "counts": {
-        "added": 8,
-        "removed": 8,
-        "deprecated": 0,
-        "revived": 0,
-        "previousTotal": 509,
-        "currentTotal": 509
-      }
-    },
-    "repos": {
       "baseline": true,
       "added": [],
       "removed": [],
@@ -157,6 +64,48 @@
       "counts": {
         "added": 0,
         "removed": 0,
+        "deprecated": 0,
+        "revived": 0,
+        "previousTotal": 509,
+        "currentTotal": 509
+      }
+    },
+    "repos": {
+      "baseline": true,
+      "added": [
+        {
+          "slug": "cherryhq-cherry-studio",
+          "name": "cherry-studio",
+          "description": "Your AI workspace for models, agents, and productivity.",
+          "category": "RAG & Retrieval"
+        },
+        {
+          "slug": "gentleman-programming-gentle-ai",
+          "name": "gentle-ai",
+          "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
+          "category": "Coding Assistants"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "milvus-io-milvus",
+          "name": "milvus",
+          "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+          "category": "RAG & Retrieval"
+        },
+        {
+          "slug": "lencx-noi",
+          "name": "Noi",
+          "description": "🚀 Less chaos. More flow.",
+          "category": "Coding Assistants"
+        }
+      ],
+      "deprecated": [],
+      "revived": [],
+      "movers": [],
+      "counts": {
+        "added": 2,
+        "removed": 2,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 120,
