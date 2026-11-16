@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T13:47:18.326Z",
+  "generatedAt": "2026-11-16T15:21:39.004Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,8 +13,8 @@
           "name": "modern-web-guidance",
           "description": "Keep your coding agent up to date with the latest web best practices",
           "category": "Automation & Workflow",
-          "delta": 4092,
-          "stars": 16774
+          "delta": 2663,
+          "stars": 19437
         }
       ],
       "counts": {
@@ -30,104 +30,95 @@
       "baseline": true,
       "added": [
         {
-          "slug": "io-github-14manj01-camsentry-mcp",
-          "name": "camsentry-mcp",
-          "description": "A local vision model watches your Wyze cameras, remembers what it saw and alerts you. Read-only.",
-          "category": "Dev Tools & Git"
+          "slug": "com-inshihub-inshihub",
+          "name": "院試hub (Japanese graduate entrance exams)",
+          "description": "Japanese graduate entrance exam (院試) data: exam topics, official past papers, similar programs.",
+          "category": "Other"
         },
         {
-          "slug": "ai-cybernative-breakage-calendar",
-          "name": "Breakage Calendar",
-          "description": "Which dated upstream breaks hit your repository or dependency list, and the tested fix.",
-          "category": "Productivity"
+          "slug": "com-gexiro-dach-pulse-mcp",
+          "name": "Gexiro DACH Pulse & Alexa Voice Suite MCP",
+          "description": "Keyless DACH & home MCP (18 tools): DB rail, EPEX power, NINA/DWD alerts, fuel, airfryer & FX.",
+          "category": "Other"
         },
         {
-          "slug": "com-todo-calendar-todo-calendar",
-          "name": "To-do Calendar",
-          "description": "Read and manage To-do Calendar todos, schedules and tags from an AI agent.",
-          "category": "Productivity"
+          "slug": "co-dockai-mcp",
+          "name": "Dock AI",
+          "description": "Discover MCP endpoints for real-world entities by resolving business domains.",
+          "category": "Other"
         },
         {
-          "slug": "com-teamcalendar-mcp",
-          "name": "TeamCalendar",
-          "description": "Sports schedules, slates and standings, and calendar feeds that keep a team's games up to date.",
-          "category": "Productivity"
+          "slug": "ai-com-mcp-hapi-mcp",
+          "name": "HAPI MCP Server",
+          "description": "HAPI MCP server: Dynamically exposes OpenAPI REST APIs as MCP tools for AI assistants",
+          "category": "Other"
         },
         {
-          "slug": "com-atomixi-memory",
-          "name": "Atomixi",
-          "description": "Hosted memory for AI assistants: a knowledge graph over MCP with OAuth. Hosted in Germany.",
-          "category": "AI & Memory"
+          "slug": "ai-com-mcp-petstore",
+          "name": "Petstore MCP Server",
+          "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
+          "category": "Other"
         },
         {
-          "slug": "com-thelogfile-catalog-browser",
-          "name": "The Log File Catalog Browser",
-          "description": "Read-only browser for The Log File store catalog: Chad Kovac's books and house skills, live.",
-          "category": "Web & Search"
+          "slug": "ai-com-mcp-contabo",
+          "name": "Contabo (VPS) MCP Server",
+          "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
+          "category": "Cloud & DevOps"
         },
         {
-          "slug": "com-fitztoppicks-calendars-ingredients",
-          "name": "FitzTopPicks APIs: calendars, recipes, names, places, sizes and more",
-          "description": "Calendars, recipes, baby names, cities, coordinates, sizes, hazmat, per diem, tires and puzzles.",
+          "slug": "ai-parallel-task-mcp",
+          "name": "Parallel Task MCP",
+          "description": "An MCP server for deep research or task groups",
           "category": "Productivity"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-akzar1el-nofax",
-          "name": "Nofax",
-          "description": "Human-in-the-loop approvals and notifications for AI coding agents through a local stdio MCP server.",
-          "category": "Dev Tools & Git"
+          "slug": "io-github-ailife1-cathedral-mcp",
+          "name": "Cathedral — Persistent Memory for AI Agents",
+          "description": "Persistent memory and drift detection for AI agents across session restarts.",
+          "category": "AI & Memory"
         },
         {
-          "slug": "io-github-ammar-62-mewcp-google-calendar",
-          "name": "mewcp-google-calendar",
-          "description": "Schedule smarter - create, search, and manage Google Calendar events through AI.",
+          "slug": "io-github-ainative-studio-ainative-browser-mcp",
+          "name": "ainative-browser-mcp",
+          "description": "AI-powered browser automation MCP — 6 tools for web interaction, extraction, and validation.",
           "category": "Web & Search"
         },
         {
-          "slug": "io-github-anamized-x402-cloudflare-starter",
-          "name": "x402-cloudflare-starter",
-          "description": "USDC micropayments on Base + Solana via x402. BYO wallets. Cloudflare Workers. No Coinbase.",
-          "category": "Cloud & DevOps"
-        },
-        {
-          "slug": "io-github-aaronvick-echorift-mcp",
-          "name": "echorift-mcp",
-          "description": "MCP server for EchoRift infrastructure primitives (BlockWire, CronSynth, Switchboard, Arbiter)",
+          "slug": "io-github-ainative-studio-ainative-opencode-memory-mcp",
+          "name": "ainative-opencode-memory-mcp",
+          "description": "Persistent cross-session memory for OpenCode and MCP coding agents, powered by ZeroDB.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-abdulmuhaiminkhan-github-mcp",
-          "name": "GitHub (read-only)",
-          "description": "Read-only GitHub repos, issues, PRs and commits, with tool descriptions tuned on a benchmark.",
+          "slug": "io-github-ainative-studio-ainative-postgres-mcp",
+          "name": "ainative-postgres-mcp",
+          "description": "Zero-config Postgres MCP with auto-provisioning — drop-in for server-postgres.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-abhishekkumar2021-github",
-          "name": "GitHub",
-          "description": "GitHub via MCP: search, repos, issues, PRs, files, notifications. OAuth device flow or token.",
+          "slug": "io-github-aiops-tools-mysql-aiops",
+          "name": "MySQL AIops",
+          "description": "Governed MySQL/MariaDB DBA ops: slow-query, lock-wait, replication & fragmentation RCA; 35 tools.",
           "category": "Dev Tools & Git"
         },
         {
-          "slug": "io-github-abraxas1010-agent-payment-mcp",
-          "name": "agent-payment-mcp",
-          "description": "Secure USDC payments for AI agents on Base blockchain with budget controls and instant settlement.",
+          "slug": "io-github-aiops-tools-postgres-aiops",
+          "name": "Postgres AIops",
+          "description": "Governed PostgreSQL DBA ops: slow-query RCA, bloat/vacuum & blocking-lock analysis; 35 MCP tools.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-aiops-tools-xcpng-aiops",
+          "name": "XCP-ng AIops",
+          "description": "Governed XCP-ng ops via Xen Orchestra — 29 MCP tools with audit, budget, undo guards.",
           "category": "Dev Tools & Git"
         }
       ],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "ink-cairn-memory",
-          "name": "Cairn.ink Memory",
-          "description": "Cross-session memory for AI agents with a Source Receipt for every memory, over MCP.",
-          "category": "AI & Memory",
-          "delta": 5,
-          "stars": 50
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 7,
         "removed": 7,
