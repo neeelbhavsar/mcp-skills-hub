@@ -1730,6 +1730,3841 @@
     }
   },
   {
+    "id": "mcp:dev-datacircle-datacircle",
+    "name": "Datacircle",
+    "qualifiedName": "dev.datacircle/datacircle",
+    "slug": "dev-datacircle-datacircle",
+    "description": "Compare go-to-market (GTM) data APIs: list the APIs Datacircle tracks and search their plans and providers, best match first. Open to anyone, no API key.",
+    "category": "Marketing & Social",
+    "repository": null,
+    "homepage": "https://datacircle.dev",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://api.datacircle.dev/mcp",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "list_apis",
+        "description": "Lists the APIs on Datacircle's sheet and the number of plans and providers for each. Pass an API's name to search_plans. list_apis takes no arguments. The answer holds every API on the sheet, in the sheet's order, with no paging. Each API comes with a link to the API's sheet. Some APIs also link a best page. A best page ranks the API's providers on our benchmark. Call list_apis first when you don'",
+        "inputs": null
+      },
+      {
+        "name": "search_plans",
+        "description": "Searches Datacircle's sheet of API plans and gives the ones that match, best first. Call list_apis first to get the APIs' names. Pass an API's name as api. Leave api out to search every API. Use query to find a provider or a plan by name. Sort by price to get the cheapest first. Each plan shows the price, score, rate limits, speed and returned fields, and links the plan's page on datacircle.dev. P",
+        "inputs": [
+          {
+            "name": "api",
+            "type": "string",
+            "description": "The API, its name as list_apis gives it. Every API when left out.",
+            "required": false,
+            "enum": [
+              "Employee profile",
+              "Person enrichment",
+              "Employee lookalikes",
+              "Employee recommendations",
+              "Employee search",
+              "People search",
+              "Employee email",
+              "Email validation",
+              "Reverse email lookup",
+              "Website contacts",
+              "Employee phone",
+              "Phone validation"
+            ]
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Words that must all appear in the provider's name and the plan's name read together, ignoring case and accents: \"scrappa free\" finds Scrappa's Free plans.",
+            "required": false
+          },
+          {
+            "name": "sort",
+            "type": "string",
+            "description": "score, the default: best first, as on the sheet at datacircle.dev, each API's plans together, unscored plans last. provider: A to Z. price: $ per 1,000, lowest first.",
+            "required": false,
+            "enum": [
+              "score",
+              "provider",
+              "price"
+            ]
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "How many plans to give, 1 to 50. 10 when left out.",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "description": "How many found plans to skip first. 0 when left out.",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "license": null,
+    "stars": null,
+    "source": "MCP Registry",
+    "updatedAt": null,
+    "repoMeta": null,
+    "toolsStatus": "ok",
+    "toolsSource": "live"
+  },
+  {
+    "id": "mcp:io-corpusiq-multi-source-mcp",
+    "name": "CorpusIQ",
+    "qualifiedName": "io.corpusiq/multi-source-mcp",
+    "slug": "io-corpusiq-multi-source-mcp",
+    "description": "One read-only endpoint over 40+ business systems, including QuickBooks, Shopify, Stripe, GA4, Google Ads, HubSpot, Salesforce, Klaviyo, Notion and Slack, with a source citation on each figure. Accounts connect through OAuth.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/CorpusIQ/mcp-manifest",
+    "homepage": "https://www.corpusiq.io/docs/",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp2.corpusiq.io/mcp",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "get_connector_status",
+        "description": "Return a pre-formatted Markdown dashboard showing every configured connector's status. IMPORTANT: The output is a complete, ready-to-display Markdown table — show it to the user exactly as returned, do NOT summarize or paraphrase. Each row includes connector name, provider, connection status (with emoji indicators), and a clickable link to authenticate if needed. After displaying the table, offer ",
+        "inputs": [
+          {
+            "name": "connector_id",
+            "type": "string",
+            "description": "Optional connector ID to filter results (e.g. 'google_workspace', 'quickbooks', 'hubspot', 'slack', 'ebay', 'dropbox', 'onedrive', 'outlook', 'shopify', 'facebook_marketing', 'tiktok', 'klaviyo', 'you",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "resolve_connector",
+        "description": "Discover how to answer the user's data question. ALWAYS call this FIRST for any data-related request. For broad questions — business health, performance, growth, financial pulse, recap, 'how are we doing', 'what should I focus on', or any cross-source question — the response returns a CorpusIQ Skill in `skill.skill_body`: a pre-built runbook you should execute step-by-step, honoring any presentati",
+        "inputs": [
+          {
+            "name": "intent",
+            "type": "string",
+            "description": "Natural language description of what you want to do. Examples: 'check GA4 traffic this week', 'show me overdue invoices', 'compare ad spend to revenue'.",
+            "required": true
+          },
+          {
+            "name": "connector_hint",
+            "type": "string",
+            "description": "Optional explicit connector name if the user specifies one. Examples: 'quickbooks', 'shopify', 'ga4', 'slack'.",
+            "required": false
+          },
+          {
+            "name": "multi",
+            "type": "boolean",
+            "description": "Set true to allow returning tools from multiple connector groups for cross-source queries.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "ask_corpusiq",
+        "description": "Answer a business question through CorpusIQ's deterministic server-side runbook executor. In router_first mode, CorpusIQ selects and pins the best matching runbook before validating connectors and executing its fixed read-only tool allowlist. In required_runbook mode, the caller pins an explicit runbook id. Returns the answer, source evidence, warnings, and a verifiable execution receipt; unsuppor",
+        "inputs": [
+          {
+            "name": "question",
+            "type": "string",
+            "description": "The user's plain-language business question.",
+            "required": true
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "router_first asks the canonical skills router to select the runbook. required_runbook executes the supplied runbook_id without re-routing.",
+            "required": false,
+            "enum": [
+              "router_first",
+              "required_runbook"
+            ]
+          },
+          {
+            "name": "runbook_id",
+            "type": "string",
+            "description": "Required only when mode=required_runbook. Omit in router_first mode.",
+            "required": false
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Exact governed runbook version. Required with content_hash when mode=required_runbook.",
+            "required": false
+          },
+          {
+            "name": "content_hash",
+            "type": "string",
+            "description": "Exact governed runbook SHA-256 content hash. Required with version when mode=required_runbook.",
+            "required": false
+          },
+          {
+            "name": "arguments",
+            "type": "object",
+            "description": "Optional explicit runbook arguments, such as start_date and end_date in YYYY-MM-DD form.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "select_runbook",
+        "description": "Use this FIRST for broad executive/business questions such as 'How healthy is my business?', 'How are we doing?', 'What should I focus on?', or 'Give me an executive summary'. Selects the best CorpusIQ runbook and returns the next step. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label",
+        "inputs": [
+          {
+            "name": "user_question",
+            "type": "string",
+            "description": "The user's plain-language business question.",
+            "required": true
+          },
+          {
+            "name": "connected_sources",
+            "type": "array",
+            "description": "Optional hint list of currently connected data sources.",
+            "required": false
+          },
+          {
+            "name": "preferred_scope",
+            "type": "string",
+            "description": "Optional analysis scope hint.",
+            "required": false,
+            "enum": [
+              "business",
+              "marketing",
+              "finance",
+              "operations",
+              "customer",
+              "unknown"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "list_runbooks",
+        "description": "Browse a compact list of CorpusIQ runbooks/skills. Do not use this to choose a runbook for a user's broad question; call select_runbook first so the canonical semantic router can choose without sending the full catalog to the model. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unc",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Optional text filter for browsing runbooks.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Maximum runbooks to return. Default 10, max 25.",
+            "required": false
+          },
+          {
+            "name": "include_full_catalog",
+            "type": "boolean",
+            "description": "Set true only when the user explicitly asks for the complete catalog.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "run_runbook",
+        "description": "Run a specific CorpusIQ runbook by id. By default this returns the playbook (`skill_body`) for client-side execution. Set execution_mode=server_side for the bounded executive-snapshot pilot; unsupported runbooks fail closed. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; ",
+        "inputs": [
+          {
+            "name": "runbook_id",
+            "type": "string",
+            "description": "The runbook id to execute (from list_runbooks/select_runbook).",
+            "required": true
+          },
+          {
+            "name": "version",
+            "type": "string",
+            "description": "Exact governed runbook version. Required for server_side execution; ignored in playbook mode.",
+            "required": false
+          },
+          {
+            "name": "content_hash",
+            "type": "string",
+            "description": "Exact governed runbook SHA-256 content hash. Required for server_side execution; ignored in playbook mode.",
+            "required": false
+          },
+          {
+            "name": "user_question",
+            "type": "string",
+            "description": "Original user question for execution context.",
+            "required": false
+          },
+          {
+            "name": "date_range",
+            "type": "string",
+            "description": "Optional date window hint like 'last_30_days'.",
+            "required": false
+          },
+          {
+            "name": "mode",
+            "type": "string",
+            "description": "Optional output depth mode.",
+            "required": false,
+            "enum": [
+              "summary",
+              "detailed",
+              "diagnostic"
+            ]
+          },
+          {
+            "name": "arguments",
+            "type": "object",
+            "description": "Optional explicit runbook argument object.",
+            "required": false
+          },
+          {
+            "name": "execution_mode",
+            "type": "string",
+            "description": "playbook preserves the existing client-executed response. server_side runs the bounded executive-snapshot pilot.",
+            "required": false,
+            "enum": [
+              "playbook",
+              "server_side"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "list_skills",
+        "description": "Browse a compact list of CorpusIQ Skills (cross-source runbooks). Do not use this to discover the best skill for a broad user question; call select_runbook first so Haiku can classify without sending the full skills catalog to the model. Use list_skills only when the user explicitly asks to browse available skills. When tool output supplies an attribution footer, end your response with that Markdo",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Optional text filter for browsing skills.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Maximum skills to return. Default 10, max 25.",
+            "required": false
+          },
+          {
+            "name": "include_full_catalog",
+            "type": "boolean",
+            "description": "Set true only when the user explicitly asks for the complete catalog.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "invoke_skill",
+        "description": "Fetch a named CorpusIQ Skill runbook by id. IMPORTANT: this returns a PLAYBOOK (a step-by-step runbook), NOT the final answer. The response carries `status: runbook_returned`, `next_step: execute_runbook`, and `skill_body` with the ordered steps to execute. After receiving the runbook you MUST call the connector tools/actions it references to gather data, then synthesize a response for the user ho",
+        "inputs": [
+          {
+            "name": "skill_name",
+            "type": "string",
+            "description": "The id of the skill to invoke (from list_skills).",
+            "required": true
+          },
+          {
+            "name": "arguments",
+            "type": "object",
+            "description": "JSON object of arguments matching the skill's input schema.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "cross_source_ads_connector",
+        "description": "Cross-source analysis correlating Google Ads spend with GA4 web traffic and revenue. Use when comparing ad spend to sessions, conversions, or ROAS across platforms. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pas",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "correlate_spend_vs_ga4_sessions: Cross-source: Google Ads daily spend/clicks/impressions vs GA4 web sessions and users by date. Shows whether paid ad act | correlate_conversions_vs_ga4_goals: Cross-so",
+            "required": true,
+            "enum": [
+              "correlate_spend_vs_ga4_sessions",
+              "correlate_conversions_vs_ga4_goals",
+              "correlate_spend_vs_ga4_revenue"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. correlate_spend_vs_ga4_sessions: {customer_id: string, property_id: string, start_date?: string, end_date?: string} | correlate_conversions_vs_ga4_goals: {customer_id: stri",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "cross_source_email_connector",
+        "description": "Cross-source analysis correlating Klaviyo email activity with web traffic, ecommerce revenue, and ad spend. Use for channel attribution, email-driven revenue, and unified marketing analytics. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "correlate_email_vs_web_traffic: Cross-source: Klaviyo email sends vs GA4 web sessions by date. Shows whether email days drive traffic spikes | correlate_email_revenue_vs_ecommerce: Cross-source: Klavi",
+            "required": true,
+            "enum": [
+              "correlate_email_vs_web_traffic",
+              "correlate_email_revenue_vs_ecommerce",
+              "correlate_email_vs_social_ads",
+              "get_channel_attribution_summary",
+              "correlate_list_growth_vs_youtube",
+              "correlate_form_signups_vs_ad_traffic",
+              "correlate_flow_revenue_vs_campaign_sends"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. correlate_email_vs_web_traffic: {start_date?: string, end_date?: string} | correlate_email_revenue_vs_ecommerce: {start_date?: string, end_date?: string, external_shopify_d",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "canonical_context_get",
+        "description": "Read the user's declared CorpusIQ canonical facts, recent decisions, and declared metric specs. Use at the start of business, product, pricing, company, positioning, board, investor, factual, OR KPI/metric questions when stable user-approved truth may matter. This is read-only and returns only content the user deliberately saved. If declared metric specs are returned, prefer calling metric_spec_re",
+        "inputs": [
+          {
+            "name": "token_budget",
+            "type": "integer",
+            "description": "Approximate maximum context tokens to return. Default 1500.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "canonical_facts_get",
+        "description": "Get one declared canonical business fact by key. Read-only. Use when the user asks for a stored fact such as pricing, connector count, tagline, team detail, certification, or product fact. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, inve",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "Canonical fact key.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "canonical_facts_list",
+        "description": "List declared canonical business facts, optionally filtered by category. Read-only. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not ",
+        "inputs": [
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Optional fact category such as product, pricing, team, or taglines.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "canonical_facts_set",
+        "description": "Prepare a write to a declared canonical fact. IMPORTANT: this tool does not save immediately. Call it only after proposing the exact fact to the user; it returns a pending_write_id. After the user explicitly answers yes in the same conversation, call canonical_pending_commit with that pending_write_id. Never silently save inferred or guessed facts. When tool output supplies an attribution footer, ",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "canonical_decisions_add",
+        "description": "Prepare a write to the canonical decisions log. IMPORTANT: this tool does not save immediately. Use when the user wants to log a decision or when you ask 'Log to canonical decisions?'. It returns a pending_write_id. Commit only after the user explicitly says yes by calling canonical_pending_commit. Never silently log decisions. When tool output supplies an attribution footer, end your response wit",
+        "inputs": [
+          {
+            "name": "text",
+            "type": "string",
+            "description": "Decision text to log.",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "string",
+            "description": "Optional context explaining why this decision was made.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "canonical_decisions_list",
+        "description": "List recent canonical decisions for this user. Read-only. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing ca",
+        "inputs": [
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "canonical_pending_commit",
+        "description": "Commit a pending canonical fact or decision write after the user explicitly confirmed yes. Requires pending_write_id from canonical_facts_set or canonical_decisions_add. Do not call unless the user has just confirmed the exact pending write. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible ",
+        "inputs": [
+          {
+            "name": "pending_write_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "user_confirmation",
+            "type": "string",
+            "description": "The user's explicit confirmation text. Must be yes/confirmed/approve/approved.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "canonical_pending_cancel",
+        "description": "Cancel a pending canonical write when the user says no or changes their mind. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent",
+        "inputs": [
+          {
+            "name": "pending_write_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "truth_sources_list",
+        "description": "List the user's registered Source-of-Truth Manifest entries. These are pointers to user-maintained authoritative documents (KPI workbooks, pricing sheets, contracts, customer masters) that the user has declared to be authoritative for specific questions. CRITICAL: Call this tool FIRST, before any analysis of unit economics, vendor cost, marketing efficiency, attribution, or financial performance. ",
+        "inputs": null
+      },
+      {
+        "name": "truth_sources_register",
+        "description": "Prepare to register a new Source-of-Truth Manifest entry that points at a user-maintained authoritative document. IMPORTANT: This tool does not save immediately. It returns a pending_write_id that the user must explicitly confirm before the entry is committed (same pattern as canonical_facts_set). When to use: the user references a workbook, spreadsheet, or internal document containing authoritati",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "Short stable identifier for this source. Examples: 'unit_economics_workbook', 'pricing_sheet', 'agency_contract'. Re-registering the same key overwrites the previous entry.",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Human-readable label the user gave the document.",
+            "required": true
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Resource pointer: 'drive://<file_id>', 'onedrive://<item_id>', 'dropbox://<path>', 'sharepoint://<site>/<file>', or 'url://<https>'. Never embed inline document content.",
+            "required": true
+          },
+          {
+            "name": "answers",
+            "type": "array",
+            "description": "List of canonical questions this source authoritatively answers. Used by the AI to decide which manifest entry to consult.",
+            "required": true
+          },
+          {
+            "name": "retrieval_tool",
+            "type": "string",
+            "description": "MCP tool name the AI should call to fetch the document. e.g. 'get_file_content' for Drive, 'get_my_onedrive_file_content' for OneDrive.",
+            "required": true
+          },
+          {
+            "name": "refresh_cadence",
+            "type": "string",
+            "description": "Optional. e.g. 'weekly', 'monthly', 'updated manually'.",
+            "required": false
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Optional caveats or usage notes.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "truth_sources_remove",
+        "description": "Prepare to remove a Source-of-Truth Manifest entry. IMPORTANT: This tool does not delete immediately. It returns a pending_write_id that the user must explicitly confirm. On user confirmation, call canonical_pending_commit. Use when the user says the document moved, was deleted, or is no longer authoritative. When tool output supplies an attribution footer, end your response with that Markdown lin",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The truth-source key to remove.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_list",
+        "description": "List the user's declared metric specs (live computations such as MRR, AOV, monthly_active_customers). Each entry includes the spec key, label, expected_unit, expression text, and version. Use this BEFORE computing any KPI from raw connector data — if a spec exists for the question, call metric_spec_resolve to get the canonical value instead of rolling your own aggregate. When tool output supplies ",
+        "inputs": [
+          {
+            "name": "unit",
+            "type": "string",
+            "description": "Optional filter: only return specs with this expected_unit (e.g. 'USD', 'count').",
+            "required": false
+          },
+          {
+            "name": "owner_email",
+            "type": "string",
+            "description": "Optional filter by owner_email.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_get",
+        "description": "Fetch one metric spec by key — returns the full declaration including the expression DSL text, variables dict, cross_source_checks list, and metadata. Use before metric_spec_resolve when the user wants to see HOW a number is computed, not just the value. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The spec key (e.g. 'mrr', 'aov').",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_set",
+        "description": "Prepare to save a new metric spec or a new version of an existing one. IMPORTANT: this tool does not save immediately. It returns a pending_write_id; the user must explicitly confirm via canonical_pending_commit before the write lands. Use only after proposing the exact spec (key + expression + expected_unit) and getting an explicit yes. The expression uses the v0 mini-DSL — see docs/plans/2026-06",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "Short stable identifier (e.g. 'mrr').",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Human-readable label (e.g. 'Monthly Recurring Revenue').",
+            "required": true
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "The user's own definition of what this metric means. Surfaced in the provenance footer.",
+            "required": false
+          },
+          {
+            "name": "expression",
+            "type": "string",
+            "description": "The computation in the v0 mini-DSL. Example: stripe.list_subscriptions(status=\"active\").aggregate(sum, field=plan.amount)",
+            "required": true
+          },
+          {
+            "name": "expected_unit",
+            "type": "string",
+            "description": "Free-form unit string. Renderer uses for formatting: 'USD', 'count', 'ratio', 'percent', 'days'.",
+            "required": true
+          },
+          {
+            "name": "expected_freshness",
+            "type": "string",
+            "description": "Optional. Free text the user accepts as staleness budget: 'realtime', 'daily', 'monthly'. Metadata only — does NOT trigger caching.",
+            "required": false
+          },
+          {
+            "name": "cross_source_checks",
+            "type": "array",
+            "description": "Other metric spec keys whose result should match this one within tolerance_percent. Populates drift block on the resolve result. Empty = no cross-source check.",
+            "required": false
+          },
+          {
+            "name": "tolerance_percent",
+            "type": "number",
+            "description": "Absolute percentage tolerance for cross_source_checks. Default 1.0. 0.0 for exact.",
+            "required": false
+          },
+          {
+            "name": "owner_email",
+            "type": "string",
+            "description": "Who is responsible for this definition (so reviewers know who to ping).",
+            "required": false
+          },
+          {
+            "name": "variables",
+            "type": "object",
+            "description": "Per-spec substitution table for $user.<var> references inside the expression. Example: {\"subscription_products\": [\"prod_growth\"]}.",
+            "required": false
+          },
+          {
+            "name": "prefer_truth_source",
+            "type": "boolean",
+            "description": "If true and a TruthSource answers this key, the v0.1 resolver will use the truth source instead of executing the expression. v0 does NOT honor this flag yet — included so the spec is forward-compatibl",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_remove",
+        "description": "Prepare to delete a metric spec by key. IMPORTANT: this tool does not delete immediately. It returns a pending_write_id; the user must explicitly confirm via canonical_pending_commit before the spec is removed. Use only after summarizing which spec is being removed (key + label) and getting an explicit yes. Mirrors the canonical_facts pending-write pattern — never silently delete a canonical defin",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The spec key to remove (e.g. 'mrr', 'aov'). Case-sensitive, must match an existing spec.",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_resolve",
+        "description": "Compute a metric spec NOW. Returns the live value, the spec version that produced it, the source-call ledger (which connector tools were dispatched and how many rows each returned — NO row data is persisted), any drift detected against cross_source_checks, validation warnings, and the provenance footer string the renderer should append below the value. This is the hot path — call it whenever the u",
+        "inputs": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "The spec key to resolve (e.g. 'mrr').",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "metric_spec_drift_report",
+        "description": "Walk every metric spec for this user that has a non-empty cross_source_checks list, resolve each one and its comparison, and return ONLY the specs where the two values disagree beyond tolerance_percent. The 'what's silently disagreeing in my numbers' dashboard. Returns an empty list when everything is within tolerance — that's the green signal, not an error. When tool output supplies an attributio",
+        "inputs": null
+      },
+      {
+        "name": "ga4_connector",
+        "description": "Web and app analytics: traffic, sessions, users, conversions, real-time visitors, page performance, acquisition sources, and revenue from GA4 properties. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as pro",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_report: Simple historical GA4 report: date-ranged sessions and active users, with an optional breakdown (channel/source/device) | list_properties: List GA4 properties (websites/apps). If account_i",
+            "required": true,
+            "enum": [
+              "get_report",
+              "list_properties",
+              "run_report",
+              "get_realtime",
+              "list_accounts"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_report: {property_id: string, start_date?: string, end_date?: string, breakdown?: string} | list_properties: {account_id?: string} | run_report: {property_id: string, d",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "quickbooks_connector",
+        "description": "Financial accounting: profit & loss, invoices, balance sheet, accounts receivable/payable, payments, expenses, vendors, customers, and financial reports. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as pro",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_profit_loss: Get Profit and Loss (Income Statement) report | list_invoices: List invoices with optional date filters | get_overdue_invoices: Get overdue invoices with open balance, sorted by days ",
+            "required": true,
+            "enum": [
+              "get_profit_loss",
+              "list_invoices",
+              "get_overdue_invoices",
+              "get_balance_sheet",
+              "get_company_info",
+              "list_customers",
+              "get_customer",
+              "search_customers",
+              "get_invoice",
+              "search_invoices",
+              "list_payments",
+              "get_payment"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_profit_loss: {start_date?: string, end_date?: string} | list_invoices: {max_results?: integer, start_position?: integer, start_date?: string, end_date?: string} | get_o",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "meta_ads_connector",
+        "description": "Facebook and Instagram advertising: campaigns, ad sets, ads, account-level spend, impressions, clicks, CPM, CPC, CTR, ROAS, and audience insights. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_facebook_account: Get the authenticated Facebook user's profile (id, name, and email when Meta supplies it). Email may be null because the | get_facebook_account_insights: Get account-level Facebo",
+            "required": true,
+            "enum": [
+              "get_facebook_account",
+              "get_facebook_account_insights",
+              "list_facebook_campaigns",
+              "get_facebook_campaign_insights",
+              "list_facebook_ad_accounts",
+              "get_facebook_ad_account",
+              "get_facebook_campaign",
+              "list_facebook_ad_sets",
+              "get_facebook_ad_set",
+              "list_facebook_ads",
+              "get_facebook_campaign_insights_daily",
+              "get_facebook_age_gender_insights"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_facebook_account: none | get_facebook_account_insights: {start_date?: string, end_date?: string, date_preset?: string, account_id?: string} | list_facebook_campaigns: {",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "google_ads_connector",
+        "description": "Google Ads performance: campaigns, ad groups, keywords, search terms, geographic and device breakdowns, quality scores, impression share, and spend metrics. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as ",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_account_summary: Get high-level Google Ads account performance summary with aggregate metrics | list_campaigns: List Google Ads campaigns with performance metrics (impressions, clicks, cost, conve",
+            "required": true,
+            "enum": [
+              "get_account_summary",
+              "list_campaigns",
+              "get_keyword_performance",
+              "list_accounts",
+              "get_campaign_performance",
+              "list_ad_groups",
+              "list_ads",
+              "get_search_terms",
+              "get_geographic_performance",
+              "get_device_performance",
+              "get_age_gender_performance",
+              "run_query"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_account_summary: {customer_id: string, start_date?: string, end_date?: string} | list_campaigns: {customer_id: string, start_date?: string, end_date?: string, status_fi",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "slack_connector",
+        "description": "Slack workspace data: channels, messages, threads, files, and workspace analytics. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map every value to",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "list_channels: List Slack channels accessible to the authenticated user | search_messages: Search Slack messages by query | get_workspace_analytics: Get aggregate Slack workspace analytics (channels, ",
+            "required": true,
+            "enum": [
+              "list_channels",
+              "search_messages",
+              "get_workspace_analytics",
+              "get_workspace_info",
+              "get_thread",
+              "search_files"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. list_channels: {limit?: integer, exclude_archived?: boolean} | search_messages: {query: string, count?: integer} | get_workspace_analytics: {channel_limit?: integer} | get_",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_my_youtube_analytics",
+        "description": "Get analytics for the authenticated user's YouTube channel. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing ",
+        "inputs": [
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "dimensions",
+            "type": "array",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_my_youtube_videos",
+        "description": "List the authenticated user's own uploaded YouTube videos. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing c",
+        "inputs": [
+          {
+            "name": "max_results",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_token",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_youtube",
+        "description": "Search YouTube for videos by query. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing campaign budgets, freque",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "max_results",
+            "type": "integer",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_youtube_video",
+        "description": "Get detailed information about one or more YouTube videos including title, description, view/like/comment counts, duration, tags, and thumbnails. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contrac",
+        "inputs": [
+          {
+            "name": "video_ids",
+            "type": "array",
+            "description": "List of YouTube video IDs or URLs (max 50)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_youtube_transcript",
+        "description": "Get the transcript (captions) for a YouTube video. Returns timestamped segments and full text. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verifi",
+        "inputs": [
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_youtube_channel",
+        "description": "Look up a YouTube channel by ID, @handle, or legacy username. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missin",
+        "inputs": [
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "handle",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "username",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_youtube_channel_videos",
+        "description": "Get recent videos from a YouTube channel. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing campaign budgets, ",
+        "inputs": [
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "handle",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "max_results",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_token",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_youtube_comments",
+        "description": "Get top-level comments on a YouTube video. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a URL, or omit it. Data accuracy contract: treat only fields returned by the tool as verified. Do not invent or infer missing campaign budgets,",
+        "inputs": [
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "max_results",
+            "type": "integer",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "page_token",
+            "type": "string",
+            "description": null,
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_my_youtube_channel",
+        "description": "Get the authenticated user's own YouTube channel details (title, subscriber count, video count, views). For Brand Account channels, ALWAYS pass channel_id explicitly — calling without channel_id only returns the OAuth identity's personal channel; YouTube does not resolve Brand Accounts via mine=true. Workflow for brands: get_youtube_channel(handle='@Brand') to resolve the id, then call this with c",
+        "inputs": [
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": "Optional channel ID to target a Brand Account (recommended for any non-personal channel)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_my_youtube_channels",
+        "description": "List YouTube channels the authenticated user owns or manages. Enumeration is incomplete by YouTube API design — non-CMS Brand Accounts are NOT returned. If an expected Brand Account is missing, use get_youtube_channel(handle='@Brand') to resolve its channel_id, then pass channel_id to other 'my_youtube_*' tools. Response includes brand_account_note explaining the gap. When tool output supplies an ",
+        "inputs": null
+      },
+      {
+        "name": "get_my_youtube_video_analytics",
+        "description": "Get detailed analytics for a specific video owned by the authenticated user. For Brand Account videos, pass channel_id explicitly — channel==MINE does not resolve to Brand channels. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a UR",
+        "inputs": [
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": null,
+            "required": true
+          },
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": "Optional channel ID to target a Brand Account (required for any non-personal channel)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_my_youtube_geography",
+        "description": "Get geographic viewer breakdown for the authenticated user's channel or a specific video. For Brand Accounts, pass channel_id explicitly — channel==MINE does not resolve to Brand channels. Returns an explicit error envelope (not zero rows) when the Analytics API responds with no schema, which is the silent-fail signature. When tool output supplies an attribution footer, end your response with that",
+        "inputs": [
+          {
+            "name": "start_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "end_date",
+            "type": "string",
+            "description": null,
+            "required": false
+          },
+          {
+            "name": "video_id",
+            "type": "string",
+            "description": "Optional video ID to filter to one video",
+            "required": false
+          },
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": "Optional channel ID to target a Brand Account (required for any non-personal channel)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "add_my_youtube_brand_channel",
+        "description": "Register a YouTube Brand Account channel for the authenticated user. Resolves the brand's channel_id from the @handle, persists the registration, and immediately surfaces the brand in list_my_youtube_channels with source='user-registered'. When set_as_primary=true (or when no prior brand is registered), per-channel my_youtube_* tools default to this brand when no channel_id is supplied. Use after ",
+        "inputs": [
+          {
+            "name": "handle",
+            "type": "string",
+            "description": "YouTube @handle of the Brand Account channel (e.g. '@FourPeaksTactical')",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "string",
+            "description": "Optional human-readable label; defaults to the channel's YouTube title",
+            "required": false
+          },
+          {
+            "name": "set_as_primary",
+            "type": "boolean",
+            "description": "When true, mark this brand as the user's primary so per-channel tools default to it. First brand registered is auto-primary regardless.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "remove_my_youtube_brand_channel",
+        "description": "Drop a registered YouTube Brand Account channel from the user's registrations. If the removed brand was the primary, primary status falls back to the oldest remaining registered brand. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep its visible label unchanged; do not turn it into plain text, invent a",
+        "inputs": [
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": "Channel ID (UC...) of the registered brand to remove",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "set_my_primary_youtube_channel",
+        "description": "Change which already-registered Brand Account is the user's primary. The primary brand is the default target for per-channel my_youtube_* tools when no channel_id is supplied. At most one primary per user; setting a new primary unsets the previous one. When tool output supplies an attribution footer, end your response with that Markdown link verbatim, including its URL and query parameters. Keep i",
+        "inputs": [
+          {
+            "name": "channel_id",
+            "type": "string",
+            "description": "Channel ID (UC...) of an already-registered brand to mark as primary",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "tiktok_connector",
+        "description": "TikTok account and video analytics: profile stats, video performance, engagement metrics (views, likes, shares, comments). When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_account_analytics: Get TikTok account-level analytics: total videos posted, total likes received, follower count, and following count | list_videos: List the authenticated user's posted TikTok vid",
+            "required": true,
+            "enum": [
+              "get_account_analytics",
+              "list_videos",
+              "get_video_analytics",
+              "get_profile",
+              "get_video_details"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_account_analytics: none | list_videos: {max_count?: integer, cursor?: integer} | get_video_analytics: none | get_profile: none | get_video_details: {video_ids: array}",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "ebay_connector",
+        "description": "eBay seller data: orders, transactions, seller standards, customer service metrics, traffic reports, and funds summary. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, o",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_orders: List eBay orders with GMV, item counts, and fulfillment status | get_seller_performance_overview: Get a consolidated eBay seller performance overview across standards, customer service met",
+            "required": true,
+            "enum": [
+              "get_orders",
+              "get_seller_performance_overview",
+              "get_transactions",
+              "get_seller_standards_profile",
+              "get_customer_service_metric",
+              "get_traffic_report",
+              "get_seller_privileges",
+              "get_funds_summary"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_orders: {limit?: integer, offset?: integer, filter_expr?: string} | get_seller_performance_overview: {program?: string, days?: integer} | get_transactions: {limit?: int",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "klaviyo_connector",
+        "description": "Email and SMS marketing automation: campaigns, flows, abandoned cart, list growth, subscriber health, conversion metrics, and revenue attribution. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_campaigns: List Klaviyo campaigns with performance metrics | get_email_metrics_summary: Get aggregated email campaign metrics: sends, opens, clicks, revenue | get_flows: List Klaviyo automation fl",
+            "required": true,
+            "enum": [
+              "get_campaigns",
+              "get_email_metrics_summary",
+              "get_flows",
+              "get_abandoned_cart_flows",
+              "get_campaign_metrics",
+              "get_campaign_revenue",
+              "get_top_campaigns",
+              "get_flow_performance",
+              "get_flow_series",
+              "get_metrics",
+              "query_metric_aggregates",
+              "get_sms_metrics_summary"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_campaigns: {start_date?: string, end_date?: string, channel?: string, limit?: integer} | get_email_metrics_summary: {start_date?: string, end_date?: string, interval?: ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "mailchimp_connector",
+        "description": "Mailchimp email marketing: campaigns, lists, subscribers, open rates, click rates, and audience growth. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, a",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_account: Get Mailchimp account root info including contact details, plan, and permissions | get_lists: List all audiences/lists in the Mailchimp account | get_list: Get details for a specific list",
+            "required": true,
+            "enum": [
+              "get_account",
+              "get_lists",
+              "get_list",
+              "get_list_activity",
+              "get_list_growth_history",
+              "get_list_clients",
+              "get_list_merge_fields",
+              "get_list_interest_categories",
+              "get_list_locations",
+              "get_list_members",
+              "get_list_member",
+              "search_members"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_account: {instance_id?: string} | get_lists: {offset?: integer, count?: integer, instance_id?: string} | get_list: {list_id: string, instance_id?: string} | get_list_ac",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "constantcontact_connector",
+        "description": "Constant Contact email marketing: contacts, email campaigns, lists, and engagement metrics. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map every",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_account_summary: Return the Constant Contact account summary: organisation name, contact email, phone, website, country, and optionally t | get_account_emails: Return email addresses registered on",
+            "required": true,
+            "enum": [
+              "get_account_summary",
+              "get_account_emails",
+              "get_user_privileges",
+              "get_contacts",
+              "get_contact",
+              "search_contacts",
+              "get_lists",
+              "get_list",
+              "get_tags",
+              "get_tag",
+              "get_segments",
+              "get_segment"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_account_summary: {include_physical_address?: boolean, include_company_logo?: boolean} | get_account_emails: {confirm_status?: string} | get_user_privileges: none | get_",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "activecampaign_connector",
+        "description": "ActiveCampaign email marketing and CRM: contacts, lists, campaigns, automations, deals, and tags. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_contacts: List ActiveCampaign contacts with optional filters | get_campaigns: List ActiveCampaign campaigns with status and performance | get_automations: List ActiveCampaign automations | get_dea",
+            "required": true,
+            "enum": [
+              "get_contacts",
+              "get_campaigns",
+              "get_automations",
+              "get_deals",
+              "get_account_info",
+              "get_contact",
+              "search_contacts",
+              "get_lists",
+              "get_campaign",
+              "get_tags"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_contacts: {limit?: integer, offset?: integer, query?: string} | get_campaigns: {limit?: integer, offset?: integer} | get_automations: {limit?: integer} | get_deals: {li",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "odoo_connector",
+        "description": "Odoo ERP/CRM data: partners (contacts and companies), sale orders, CRM leads and opportunities, customer/vendor invoices, products, on-hand inventory, stock transfers, accounting journals, payments, taxes, employees, projects, and project tasks. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector resul",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_connection_info: Health check: returns the connected Odoo instance's server version, database name, and the authenticated user (id, name, | search_partners: Search Odoo partners (res.partner) — co",
+            "required": true,
+            "enum": [
+              "get_connection_info",
+              "search_partners",
+              "get_partner",
+              "list_sale_orders",
+              "get_sale_order",
+              "list_crm_leads",
+              "get_crm_lead",
+              "list_invoices",
+              "get_invoice",
+              "search_products",
+              "get_stock_on_hand",
+              "list_stock_pickings"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_connection_info: none | search_partners: {query?: string, customers_only?: boolean, suppliers_only?: boolean, limit?: integer, offset?: integer} | get_partner: {partner",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "amazon_seller_connector",
+        "description": "Amazon Seller Central data: orders, inventory, sales metrics, and seller account performance. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map eve",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "list_amazon_orders: List orders from the seller's Amazon store with optional date and status filters. Returns order summaries with order ID, | get_amazon_order: Get full details for a single Amazon or",
+            "required": true,
+            "enum": [
+              "list_amazon_orders",
+              "get_amazon_order",
+              "get_amazon_order_items",
+              "get_amazon_sales_metrics",
+              "list_amazon_inventory",
+              "list_amazon_listings",
+              "get_amazon_catalog_item",
+              "get_amazon_finances",
+              "get_amazon_marketplace_participations"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. list_amazon_orders: {created_after?: string, created_before?: string, order_statuses?: array, fulfillment_channels?: array, max_results?: integer, next_token?: string} | ge",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "airtable_connector",
+        "description": "Airtable bases, tables, and records: browse, search, and retrieve structured data from Airtable databases. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "list_bases: List all Airtable bases the authenticated user has access to | list_tables: List all tables in a specific Airtable base | list_records: List records from an Airtable table with optional fi",
+            "required": true,
+            "enum": [
+              "list_bases",
+              "list_tables",
+              "list_records",
+              "search_records",
+              "get_record"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. list_bases: none | list_tables: {base_id: string} | list_records: {base_id: string, table_id: string, page_size?: integer, offset?: string, fields?: array, filter_formula?:",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "calendly_connector",
+        "description": "Calendly scheduling data: scheduled events, event types, invitee lists, and user availability. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map ev",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "list_scheduled_events: List scheduled Calendly meetings/events with invitee and time details | list_event_types: List all Calendly event types (booking links) for the user | get_user: Get the authenti",
+            "required": true,
+            "enum": [
+              "list_scheduled_events",
+              "list_event_types",
+              "get_user",
+              "get_scheduled_event",
+              "list_event_invitees",
+              "list_organization_memberships",
+              "get_user_availability"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. list_scheduled_events: {count?: integer, status?: string, min_start_time?: string, max_start_time?: string} | list_event_types: none | get_user: none | get_scheduled_event:",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "monday_connector",
+        "description": "Monday.com project and work management data: workspaces, boards, groups, columns, items, rows, pulses, owners, statuses, dates, blockers, and column values. Use for Monday.com board data and project/task status questions. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified ch",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "list_workspaces: List Monday.com workspaces available to the connected user. Use this to discover workspace IDs before filtering boards | list_boards: List Monday.com boards available to the connected",
+            "required": true,
+            "enum": [
+              "list_workspaces",
+              "list_boards",
+              "get_board",
+              "list_items",
+              "get_item"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. list_workspaces: none | list_boards: {limit?: integer, workspace_id?: integer} | get_board: {board_id: integer} | list_items: {board_id: integer, limit?: integer, projectio",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_console_connector",
+        "description": "SEO and search performance: clicks, impressions, CTR, position, sitemaps, URL inspection, and indexed page status from Google Search Console. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_toke",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_sites: List all properties (sites) verified in Google Search Console | get_performance: Query search performance data from Google Search Console: clicks, impressions, CTR, and average position. Gr",
+            "required": true,
+            "enum": [
+              "get_sites",
+              "get_performance",
+              "get_sitemaps",
+              "inspect_url"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_sites: none | get_performance: {site_url: string, start_date: string, end_date: string, dimensions?: array, row_limit?: integer, start_row?: integer, dimension_filter_g",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "postscript_connector",
+        "description": "PostScript SMS marketing: subscribers, keywords, and shop analytics for Shopify merchants. When the user asks for a visual, trend, comparison, or recap, call chart_render with the numeric values returned by this connector. If the connector result includes a verified chart_provenance token, the same authenticated user may pass it as provenance_token within 15 minutes, on any replica, and map every ",
+        "inputs": [
+          {
+            "name": "action",
+            "type": "string",
+            "description": "get_subscribers: List PostScript SMS subscribers with optional filters for email, phone, Shopify customer ID, and date ranges | get_subscriber: Get a single PostScript SMS subscriber by ID | get_keywo",
+            "required": true,
+            "enum": [
+              "get_subscribers",
+              "get_subscriber",
+              "get_keywords",
+              "get_keyword"
+            ]
+          },
+          {
+            "name": "params",
+            "type": "object",
+            "description": "Action-specific parameters. get_subscribers: {page?: integer, sort?: string, email?: string, phone_number?: string, shopify_customer_id?: string, created_at_gte?: string, created_at_lte?: string, upda",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "license": null,
+    "stars": 0,
+    "source": "MCP Registry",
+    "updatedAt": null,
+    "repoMeta": {
+      "slug": "CorpusIQ/mcp-manifest",
+      "stars": 0,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-10-23T23:06:18Z",
+      "pushedAt": "2026-11-16T04:06:23Z",
+      "openIssues": 0,
+      "license": null,
+      "language": null
+    },
+    "toolsStatus": "ok",
+    "toolsSource": "live",
+    "readme": {
+      "markdown": "# CorpusIQ MCP manifest\n\nPublished manifest of record for the CorpusIQ MCP server, `io.corpusiq/multi-source-mcp`.\n\nThis repository holds metadata only. The server source code is not public.\n\n- MCP endpoint: https://mcp2.corpusiq.io/mcp (Streamable HTTP, OAuth 2.1 with dynamic client registration)\n- Website: https://www.corpusiq.io\n- Documentation: https://docs.corpusiq.io\n- Registry record: https://registry.modelcontextprotocol.io/v0.1/servers?search=corpusiq\n\n`server.json` follows the MCP registry schema 2025-12-11. Registry versions are immutable, so each\npublished version carries its own revision of this file.\n\nCurrent version: 1.0.3\n\n## Connect\n\nCorpusIQ is a remote MCP server. There is no package to install and no local process to run. Any\nclient that supports Streamable HTTP can connect.\n\nGeneric client configuration:\n\n```json\n{\n  \"mcpServers\": {\n    \"corpusiq\": {\n      \"url\": \"https://mcp2.corpusiq.io/mcp\"\n    }\n  }\n}\n```\n\nClaude Code:\n\n```\nclaude mcp add --transport http corpusiq https://mcp2.corpusiq.io/mcp\n```\n\nThe first connection opens a sign-in. Authorization is discovered from\n`https://mcp2.corpusiq.io/.well-known/oauth-protected-resource`, and client registration is automatic,\nso no client ID or secret is needed.\n\nThe `.mcp.json` at the root of this repository carries the same configuration, so a client that reads\nrepository-scoped MCP configuration (Claude Code, and directories that crawl a repository to build an\ninstall command) can detect the server without a manual entry.\n\nTools are read-only. CorpusIQ retrieves from the systems the user has connected and returns answers\nwith source citations. Customer data is not stored.\n\nHosted assistants such as ChatGPT, Claude and Perplexity accept the same endpoint URL as a custom\nconnector.\n\n## Verify the live record\n\n```\ncurl \"https://registry.modelcontextprotocol.io/v0.1/servers?search=corpusiq\"\n```\n\nThe `isLatest` version should match `version` in `server.json`, and its `repository.url` should point\nback at this repository.",
+      "truncated": false,
+      "url": "https://github.com/CorpusIQ/mcp-manifest#readme"
+    }
+  },
+  {
+    "id": "mcp:cloud-dchub-mcp-server",
+    "name": "DC Hub",
+    "qualifiedName": "cloud.dchub/mcp-server",
+    "slug": "cloud-dchub-mcp-server",
+    "description": "Data for data-center site selection: the daily Data Center Power Index of grid-power availability across 300+ markets, plus grid, interconnection, energy, market and facility search. Each result carries its source and as-of date. Free to start.",
+    "category": "Finance & Data",
+    "repository": "https://github.com/azmartone67/dchub-mcp-server",
+    "homepage": "https://dchub.cloud",
+    "packages": [],
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://dchub.cloud/mcp",
+        "headers": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "execute_plan",
+        "description": "Use this when a data center question spans several topics: one-call planner over grid headroom and power availability, interconnection queues, PPAs and energy pricing, power generation, gas and energy infrastructure (the Data Center Gas Index, DCGI), substations and transmission, megawatts and power density, site selection and buildable capacity, colocation and wholesale data-center markets, AI/GP",
+        "inputs": [
+          {
+            "name": "intent",
+            "type": "string",
+            "description": "The user's infrastructure question, passed through UNCHANGED. Examples: \"how soon can a 100 MW load get power in ERCOT\" · \"evaluate 100 MW power headroom for a GPU training cluster in PJM\" · \"intercon",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "any",
+            "description": "Optional structured hints AND step-arg overrides: {lat, lon, iso, market, capacity_mw, candidate_id, state, since} — user-supplied values beat minted ones. The typed top-level params below are merged ",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Metro slug or name to pin the analysis to, e.g. \"ashburn\". Beats any market the planner would mint.",
+            "required": false
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "Target capacity in MW, e.g. 100.",
+            "required": false
+          },
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "ISO/RTO code to pin geography, e.g. \"PJM\", \"ERCOT\".",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state code, e.g. \"VA\".",
+            "required": false
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude for a specific site.",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude for a specific site.",
+            "required": false
+          },
+          {
+            "name": "max_steps",
+            "type": "any",
+            "description": "Max plan steps to execute, 1-8 (default 6)",
+            "required": false
+          },
+          {
+            "name": "max_fanout",
+            "type": "any",
+            "description": "Max per-finalist fan-out calls for one step, 1-3 (default 2)",
+            "required": false
+          },
+          {
+            "name": "compact",
+            "type": "boolean",
+            "description": "true (default) puts fact_header first in the answer: three lines, SOURCE and AS_OF, ENTITY, SUMMARY with the DCPI verdict when the answer carries one. false returns the answer without it.",
+            "required": false
+          },
+          {
+            "name": "cohort",
+            "type": "any",
+            "description": "Optional experiment tag for adoption/retention measurement, e.g. \"cohort.front_door\". Has NO effect on routing, planning, geography or results — it is recorded only.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "claim_free_key",
+        "description": "Use this when the user wants more DC Hub data center data than keyless allows, or asks for a key; no key is needed to start. DATA USE: the optional email, used to make the key recoverable and send its weekly lookup summary. DC Hub keeps it and never sells it or shares it for anyone else’s use (https://dchub.cloud/privacy). Run only when your human asks; confirm the email with them first. Mints a k",
+        "inputs": [
+          {
+            "name": "client_name",
+            "type": "string",
+            "description": "Your agent/app name for attribution, e.g. \"Claude Desktop\" or \"acme-siting-bot\"",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "Optional owner email to make the key recoverable across sessions; use only an address your human explicitly gave and confirmed. DC Hub keeps it and never sells or shares it",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search",
+        "description": "Use this when a Deep Research or ChatGPT-connector client needs a data center facility search (search/fetch format). Returns a list of matching data-center facilities as {id, title, url}; pass an id to the `fetch` tool for the record, or open the url to cite the live facility page. For structured queries (by MW, operator, status, market) use search_facilities directly. For multi-step data center o",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Free-text query, e.g. \"data centers in Northern Virginia\" or \"Ashburn hyperscale power\"",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "fetch",
+        "description": "Use this when you have an id from `search` and need that data center facility record (search/fetch format). Returns {id, title, text, url, metadata} — a citable public summary of one data-center facility (name, operator, location, status, market). For full structured specs (capacity MW, coordinates) use get_facility or open the url. For multi-step data center or energy questions, start with execut",
+        "inputs": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "A facility id/slug from a prior `search` result, e.g. equinix-dc1-ashburn",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "search_facilities",
+        "description": "Use this when the user asks which data centers exist, or who operates in a city, state or country; filters: country, state, city, operator, MW range, tier or text. Returns name, operator, location, market, status and MW where disclosed; each row is flagged verified or unverified_directory_listing. Keyless: names and locations; MW and specs need a full-access key. Ex: \"Equinix sites in Virginia ove",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Free-text search over facility name/operator/location (mapped to the backend `q` param), e.g. \"hyperscale Ashburn\"",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 country code, e.g. US, GB, SG",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation or region, e.g. VA, TX",
+            "required": false
+          },
+          {
+            "name": "city",
+            "type": "string",
+            "description": "City name to filter facilities, e.g. Ashburn, Dallas",
+            "required": false
+          },
+          {
+            "name": "operator",
+            "type": "string",
+            "description": "Operator/provider company name, e.g. Equinix, Digital Realty",
+            "required": false
+          },
+          {
+            "name": "min_capacity_mw",
+            "type": "number",
+            "description": "Minimum power capacity filter in megawatts (MW)",
+            "required": false
+          },
+          {
+            "name": "max_capacity_mw",
+            "type": "number",
+            "description": "Maximum power capacity filter in megawatts (MW)",
+            "required": false
+          },
+          {
+            "name": "tier",
+            "type": "integer",
+            "description": "Uptime Institute tier filter (1-4)",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "description": "Pagination offset, 0-based (skip this many results)",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_facility",
+        "description": "Use this when the user asks about one data center facility: name, operator, address, lat/lon, power capacity (MW total/used), cooling type, fiber providers (count + carrier list), commissioning year, status, the DCPI verdict for its market, and peer facilities nearby. Answers \"who operates this data center and how big is it\", \"how many fiber carriers are in that building\". Try: get_facility id=equ",
+        "inputs": [
+          {
+            "name": "facility_id",
+            "type": "any",
+            "description": "Facility id from a prior search_facilities/search result (numeric or string), e.g. equinix-dc1-ashburn",
+            "required": false
+          },
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Facility slug from a prior search result, e.g. digital-realty-digital-realty-iad38-ashburn-5754e62d",
+            "required": false
+          },
+          {
+            "name": "id",
+            "type": "any",
+            "description": "Alias for facility_id — a facility id/slug from a prior search result",
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Facility name as a fallback lookup when no id/slug is known, e.g. \"QTS Ashburn\"",
+            "required": false
+          },
+          {
+            "name": "include_nearby",
+            "type": "boolean",
+            "description": "Include peer facilities near this one in the response (default true)",
+            "required": false
+          },
+          {
+            "name": "include_power",
+            "type": "boolean",
+            "description": "Include power capacity detail (total/used MW) in the response (default true)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_market_intel",
+        "description": "Use this when the user asks about a data-center market (metro supply, operators, pipeline, pricing): facility count, tracked MW, status mix, top providers, recent facilities or lease pricing. Pass market as a slug (e.g. northern-virginia). Returns stats, by_status, top_providers, recent_facilities, market_pricing (quote its basis). Verdict: use get_market_dcpi_rank. Keyless: a trimmed preview; DCH",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug (metro), e.g. northern-virginia, dallas, frankfurt, singapore — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": false
+          },
+          {
+            "name": "metric",
+            "type": "string",
+            "description": "Optional single metric to focus on, e.g. vacancy, pricing, absorption, pipeline",
+            "required": false
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Optional time window for the metric, e.g. ttm, 12mo, ytd",
+            "required": false
+          },
+          {
+            "name": "compare_to",
+            "type": "string",
+            "description": "Optional second market slug to compare against, e.g. dallas",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_market_dcpi_rank",
+        "description": "Use this when the user asks where a data center can get grid power, how fast, or whether a market is a BUILD, CAUTION or AVOID (e.g. \"Where can a 100 MW data center get power fastest?\"): DCPI scores 300+ markets daily on Excess Power and Grid Constraint, verdicts CC BY 4.0 after 30 days. DCPI rank for one market: BUILD/CAUTION/AVOID verdict, 0-100 composite_score (verdict-aware), excess_power_scor",
+        "inputs": [
+          {
+            "name": "market_slug",
+            "type": "string",
+            "description": "Market slug (metro), e.g. northern-virginia, dallas, phoenix — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "predict_market_trajectory",
+        "description": "Use this when the user asks where a data center market's power outlook is heading (next 1-8 quarters). Projects excess_power_score and constraint_score forward with confidence bands that WIDEN with horizon, from DC Hub's daily DCPI snapshot history, a time-series DC Hub owns. Use to answer \"is this market trending toward BUILD or AVOID?\" or \"will Dallas power stay tight over the next 6 months?\". P",
+        "inputs": [
+          {
+            "name": "market_slug",
+            "type": "string",
+            "description": "Market slug (metro), e.g. dallas, phoenix, northern-virginia — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": true
+          },
+          {
+            "name": "horizon_quarters",
+            "type": "integer",
+            "description": "Forecast horizon in quarters (1-8, default 4); 2 = ~6 months ahead",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_gas_index",
+        "description": "Use this when the user asks which US states suit gas-fired data center power: the Data Center Gas Index (DCGI), a per-state score. ★ DO NOT COMPARE a DCGI figure published before 2026-08-08 with one published now — they are different indices; the full record is at /api/v1/dcgi/methodology under `corrections`. A state that cannot be priced comes back verdict UNSCORED with dcgi null and an `unscored",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation, e.g. TX, VA, AZ. Returns the DCGI score and verdict, plus `gas_price_series` naming which EIA series priced the state.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_gas_economics",
+        "description": "Use this when the user asks what behind-the-meter gas power costs in a US data-center market: Henry Hub spot, regional basis differential, and the delivered industrial + electric gas tariff ($/MMBtu), each with its own source label. Pass market=<slug> (e.g. \"northern-virginia\", \"dallas\", \"phoenix\"). AZ, GA, FL), never a substitute price; if the backend switch is ever turned off again, `gas_to_grid",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug (metro), e.g. northern-virginia, dallas, phoenix — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": true
+          },
+          {
+            "name": "heat_rate_btu_per_kwh",
+            "type": "number",
+            "description": "Optional custom generator heat rate in Btu/kWh for the gas-to-grid $/MWh scenario, e.g. 6800 (avg CCGT)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_grid_scoreboard",
+        "description": "Use this when the user asks how power grids compare: demand, fuel mix or renewable share. GLOBAL grid scoreboard — 9 US grid operators (the 7 US ISOs PJM, ERCOT, CAISO, MISO, SPP, NYISO, ISO-NE, plus BPA and TVA) + Great Britain (NESO) + the European bidding zones (Germany, France, Netherlands, Italy/Milan, Spain, Poland, Switzerland, Portugal, the Nordics + Central/Eastern Europe — via ENTSO-E; t",
+        "inputs": null
+      },
+      {
+        "name": "compare_isos",
+        "description": "Use this when the user asks to compare two to four power grids side by side — fuel mix, demand, renewable/gas share, and for the US ISOs interconnection-queue depth and time-to-power — in one call instead of N sequential get_grid_intelligence calls. Example: \"Compare PJM vs ERCOT vs CAISO on gas share, renewable share, and queue depth right now.\" — compare_isos isos=\"PJM,ERCOT,CAISO\"; \"ERCOT vs AE",
+        "inputs": [
+          {
+            "name": "isos",
+            "type": "string",
+            "description": "Comma-separated list of 2-4 grids to compare, e.g. \"PJM,ERCOT,CAISO\" or \"ERCOT,AESO,EU_DE_LU\": US ISOs (ERCOT, PJM, MISO, CAISO, SPP, NYISO, ISONE), TVA, BPA, utility BAs, or non-US grids (IESO, AESO,",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "get_intelligence_index",
+        "description": "Use this when the user asks how the data center market looks overall, across all markets: ONE global DC Hub index, not a per-market score, and it takes no arguments (no market filter). Returns a global pulse score (0-100), dataset totals (tracked facility records, pipeline GW, deals in the last 90 days, substations), a heat map of the highest-scoring markets and the top markets by score. Answers \"",
+        "inputs": null
+      },
+      {
+        "name": "list_transactions",
+        "description": "Use this when the user asks about data center M&A, acquisitions or capital deals — tracked deals (2019-present; total_count in the result, where shown, gives the live number), each with its disclosed value where public (many private deals are undisclosed). Returns deal name, buyer, seller, value, date, market, target operator, type (acquisition/JV/refinance/recap). Filter by date range (date_from/",
+        "inputs": [
+          {
+            "name": "buyer",
+            "type": "string",
+            "description": "Filter by acquiring company name, e.g. Blackstone, KKR, Digital Realty",
+            "required": false
+          },
+          {
+            "name": "seller",
+            "type": "string",
+            "description": "Filter by selling/target company name, e.g. CyrusOne",
+            "required": false
+          },
+          {
+            "name": "min_value_usd",
+            "type": "number",
+            "description": "Minimum disclosed deal value in US dollars, e.g. 1000000000 for $1B+",
+            "required": false
+          },
+          {
+            "name": "max_value_usd",
+            "type": "number",
+            "description": "Maximum disclosed deal value in US dollars",
+            "required": false
+          },
+          {
+            "name": "deal_type",
+            "type": "string",
+            "description": "Deal type filter, e.g. acquisition, jv, refinance, recap",
+            "required": false
+          },
+          {
+            "name": "date_from",
+            "type": "string",
+            "description": "Earliest deal date, ISO-8601 (YYYY-MM-DD)",
+            "required": false
+          },
+          {
+            "name": "date_to",
+            "type": "string",
+            "description": "Latest deal date, ISO-8601 (YYYY-MM-DD)",
+            "required": false
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "Geographic region filter, e.g. us, eu, apac, americas",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "description": "Pagination offset, 0-based (skip this many results)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_news",
+        "description": "Use this when the user asks for data center industry news or headlines (execute_plan also pulls news inside a broader market question). Curated data center industry news from 40+ trade sources (DCD, Data Center Knowledge, Data Center Frontier, Capacity Media, The Register Data Centre, Fierce Telecom, etc.) refreshed every 30 min. Returns title, summary, source, published_at, and the market/operato",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Free-text keyword to filter news, e.g. \"Stargate\" or \"interconnection queue\"",
+            "required": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "News topic filter, e.g. deals, permits, outages, policy, AI",
+            "required": false
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Restrict to one trade source, e.g. DCD, \"Data Center Frontier\", \"Capacity Media\"",
+            "required": false
+          },
+          {
+            "name": "date_from",
+            "type": "string",
+            "description": "Earliest published date, ISO-8601 (YYYY-MM-DD)",
+            "required": false
+          },
+          {
+            "name": "date_to",
+            "type": "string",
+            "description": "Latest published date, ISO-8601 (YYYY-MM-DD)",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          },
+          {
+            "name": "min_relevance",
+            "type": "number",
+            "description": "Minimum relevance score 0-1 to include an item, e.g. 0.5",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "semantic_search",
+        "description": "Use this when a data center or energy question is conceptual or fuzzy and keyword filters fall short — semantic (meaning-based) retrieval across DC Hub's industry news, M&A deals, the global facility map, per-market DCPI deep-dive narratives, press releases, announcements, permitting intel, construction permits, tax incentives and the capacity pipeline, ranked by relevance with citable source fiel",
+        "inputs": [
+          {
+            "name": "q",
+            "type": "string",
+            "description": "Natural-language query (required), e.g. \"grids opening up for AI load in the Southeast\"",
+            "required": false
+          },
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Alias for q — the same natural-language query; send exactly one of q/query",
+            "required": false
+          },
+          {
+            "name": "corpus",
+            "type": "string",
+            "description": "Optional CSV of corpora: news_articles, deals, discovered_facilities, market_narratives (default: all)",
+            "required": false
+          },
+          {
+            "name": "k",
+            "type": "number",
+            "description": "Number of results, 1-15 (default 8)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "search_intelligence",
+        "description": "Use this when you need meaning-based search over DC Hub's data center intelligence corpus, choosing corpora — industry news, M&A deals, discovered facilities, per-market DCPI narratives, press releases, announcements, permitting intel, construction permits, tax incentives and the capacity pipeline — returning the most relevant records with citable source fields. This is the agent-friendly alias ov",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Natural-language query (required), e.g. \"grids opening up for AI load in the Southeast\"",
+            "required": false
+          },
+          {
+            "name": "q",
+            "type": "string",
+            "description": "Alias for query",
+            "required": false
+          },
+          {
+            "name": "corpus",
+            "type": "string",
+            "description": "Optional corpus to restrict to: news | deals | facilities | market_narratives. CSV of several is allowed; default searches all.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "number",
+            "description": "Max results to return, 1-15 (default 8)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_market_context",
+        "description": "Use this when you need a whole data center market briefing for your context window — one call returns a token-budgeted context pack for a data-center market: DCPI verdict, power & grid facts, the Claude-written 12-month outlook, M&A deals, construction pipeline, operator footprint, transaction comps, risk factors, and top news — each section with its own token count, as_of timestamp, and citable U",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug (required), e.g. northern-virginia, dallas, phoenix — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": true
+          },
+          {
+            "name": "max_tokens",
+            "type": "number",
+            "description": "Token budget for the pack, 200-8000 (default 4000); sections are filled in priority order until the budget is spent",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_iso_context",
+        "description": "Use this when you need a whole power grid (ISO) briefing for your context window — one call returns a token-budgeted context pack for a US ISO/RTO: live grid snapshot (demand, fuel-mix shares), DCPI verdict mix & grid economics across the ISO's tracked markets (queue wait, power cost, reserve margin), interconnection-queue depth with the largest projects, real-time benchmark LMP, the tracked DCPI ",
+        "inputs": [
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "ISO/RTO grid region (required): ERCOT, PJM, MISO, CAISO, SPP, NYISO, ISONE",
+            "required": true
+          },
+          {
+            "name": "max_tokens",
+            "type": "number",
+            "description": "Token budget for the pack, 200-8000 (default 4000); sections are filled in priority order until the budget is spent",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_pipeline",
+        "description": "Use this when the user asks what data centers are being built, announced or permitted in a market or by an operator. Example: \"What is under construction in Northern Virginia and when does it come online?\" — get_pipeline market=northern-virginia status=construction. Params: market (slug or name, e.g. \"northern-virginia\", \"dallas\"; projects labelled only with the state are counted apart, see scope.",
+        "inputs": [
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Pipeline stage filter: announced, permitted, construction, or operational",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug or name to keep projects inside, e.g. northern-virginia, dallas",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state (USPS code), e.g. VA, TX",
+            "required": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 country code, e.g. US, DE, SG",
+            "required": false
+          },
+          {
+            "name": "operator",
+            "type": "string",
+            "description": "Operator/provider company name, e.g. Equinix, Digital Realty, AWS",
+            "required": false
+          },
+          {
+            "name": "min_capacity_mw",
+            "type": "number",
+            "description": "Minimum project power capacity filter in megawatts (MW), e.g. 50 for hyperscale",
+            "required": false
+          },
+          {
+            "name": "expected_completion_before",
+            "type": "string",
+            "description": "Only projects with expected commissioning before this ISO-8601 date (YYYY-MM-DD), e.g. 2027-01-01",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          },
+          {
+            "name": "offset",
+            "type": "integer",
+            "description": "Pagination offset, 0-based (skip this many results)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_power_pipeline",
+        "description": "Use this when the user asks where new power generation is coming online (the forward supply pipeline) — e.g. \"how much new generation is planned in Virginia / the Southeast / ERCOT, and when?\". Planned, permitting, and under-construction generators NATIONWIDE from EIA-860M, INCLUDING non-ISO regions (TVA, Southern Co, Arizona PS, PacifiCorp, LADWP) that interconnection-queue feeds miss. Each gener",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation to filter generators, e.g. VA, TX",
+            "required": false
+          },
+          {
+            "name": "ba",
+            "type": "string",
+            "description": "Balancing-authority / ISO code, e.g. PJM, ERCO, SOCO, TVA, AZPS",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Generator status code: P/L/T (planned), U/V (under construction), TS (testing)",
+            "required": false
+          },
+          {
+            "name": "min_mw",
+            "type": "number",
+            "description": "Minimum nameplate capacity filter in megawatts (MW)",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_infra_projects",
+        "description": "Use this when the user asks what gas pipeline or transmission line projects are planned, proposed, approved or under construction — the forward build-out, not the existing network. e.g. \"which interstate gas pipelines are under construction into Louisiana?\", \"what 345 kV transmission projects are planned in PJM by 2030?\", \"what new projects appeared since last month?\". COVERS: (1) natural gas pipe",
+        "inputs": [
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Which project list: gas_pipeline (EIA, US-wide), transmission (ERCOT TPIT, Texas only) or all (default)",
+            "required": false,
+            "enum": [
+              "gas_pipeline",
+              "transmission",
+              "all"
+            ]
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation, e.g. TX or LA. Gas projects match any state they cross; transmission projects are all TX",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Status, case-insensitive; comma list allowed. Gas: Announced, Pre-applied, Applied, Approved, Construction, On Hold, Completed. Transmission: Planned, Conceptual, Under Construction, Completed, Cancel",
+            "required": false
+          },
+          {
+            "name": "min_capacity",
+            "type": "number",
+            "description": "Gas only: minimum pipeline capacity in million cubic feet per day (MMcf/d), e.g. 1000. With type=all it narrows to gas projects",
+            "required": false
+          },
+          {
+            "name": "min_kv",
+            "type": "number",
+            "description": "Transmission only: minimum voltage in kilovolts (kV), e.g. 345. With type=all it narrows to transmission projects",
+            "required": false
+          },
+          {
+            "name": "in_service_after",
+            "type": "string",
+            "description": "Only projects entering service on or after this date (YYYY-MM-DD or YYYY). Gas compares the in-service year; transmission the actual, else projected, in-service date",
+            "required": false
+          },
+          {
+            "name": "in_service_before",
+            "type": "string",
+            "description": "Only projects entering service on or before this date (YYYY-MM-DD or YYYY)",
+            "required": false
+          },
+          {
+            "name": "new_since",
+            "type": "string",
+            "description": "Only projects DC Hub first saw on or after this date (YYYY-MM-DD). The initial backfill is never counted as new",
+            "required": false
+          },
+          {
+            "name": "include_delisted",
+            "type": "boolean",
+            "description": "Also return projects the latest source release no longer lists (completed, withdrawn or dropped). Default false",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_power_availability_timeline",
+        "description": "Use this when the user asks when power will be available, or about time-to-power, in a US state: year by year. Composes: new generation coming online from EIA-860M monthly, split by confidence class (under-construction vs planned vs testing — never blended); scheduled retirements as dated subtractions; LBNL interconnection-queue depth as congestion context (NO delivery dates — the feed has none an",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "2-letter US state code (required), e.g. OH, GA, TX — the timeline grain; a state can span ISOs and the response reports ISO membership as context",
+            "required": true
+          },
+          {
+            "name": "years",
+            "type": "number",
+            "description": "Window in years from now, 1-6 (default 5)",
+            "required": false
+          },
+          {
+            "name": "mw",
+            "type": "number",
+            "description": "Optional target MW for CONTEXT ONLY — echoed back with an explicit note; never converted into an energize-by date, which this data cannot honestly state",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_global_power",
+        "description": "Use this when the user asks about power plants worldwide or in a non-US country — operating AND the forward pipeline (announced / pre-construction / under-construction), across ALL fuels (coal, oil/gas, nuclear, solar, wind, hydro, bioenergy, geothermal). Global Energy Monitor Global Integrated Power Tracker: 182,000+ geolocated units across 170+ countries, each with fuel, capacity (MW), status, s",
+        "inputs": [
+          {
+            "name": "country",
+            "type": "string",
+            "description": "Country/area name to filter, e.g. Germany, India, Brazil, Japan",
+            "required": false
+          },
+          {
+            "name": "fuel",
+            "type": "string",
+            "description": "Fuel/type filter, comma-separated for a union: coal, oil/gas, nuclear, solar, wind, hydro, bioenergy, geothermal",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Status substring filter, e.g. operating, construction, pre-construction, announced",
+            "required": false
+          },
+          {
+            "name": "pipeline",
+            "type": "boolean",
+            "description": "true = ONLY the forward pipeline (announced + pre-construction + under-construction)",
+            "required": false
+          },
+          {
+            "name": "bbox",
+            "type": "string",
+            "description": "Viewport filter as minLng,minLat,maxLng,maxLat",
+            "required": false
+          },
+          {
+            "name": "min_mw",
+            "type": "number",
+            "description": "Minimum unit capacity in MW",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_interconnection_queue",
+        "description": "Use this when the user asks about grid interconnection queues: how congested an ISO's queue is or how much data-center load is waiting. Returns queued generation GW per ISO. The projects field changes shape: with iso= it is an array of per-project rows; without iso it is an all-ISO summary object (total, by_iso_count, top). ERCOT also returns its large-load (data-center) queue; other ISOs don't pu",
+        "inputs": [
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "ISO/RTO grid region to drill into: ERCOT, PJM, MISO, CAISO, SPP, NYISO, ISONE; omit for the all-ISO snapshot",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_refined_queue",
+        "description": "Use this when you need interconnection queue projects filtered server-side. Instead of pulling the raw queue into context to filter (token-expensive, error-prone), push the predicates to the data layer and get back ONLY the survivors. Filter by min_mw, max_ttp_months (ISO-level avg interconnection wait), iso (comma-union), state (the project's own US state), baseload_only (firm/dispatchable — excl",
+        "inputs": [
+          {
+            "name": "min_mw",
+            "type": "number",
+            "description": "Minimum project capacity in MW, e.g. 1000 for 1 GW+",
+            "required": false
+          },
+          {
+            "name": "max_ttp_months",
+            "type": "integer",
+            "description": "Max time-to-power in months (ISO-level avg interconnection wait; HARD cut keeping projects in ISOs at/under this — PJM ~51, CAISO ~40, ISO-NE ~34, MISO ~34, ERCOT ~33, NYISO ~31, SPP ~24; <=30 leaves ",
+            "required": false
+          },
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "Restrict to one or more ISOs, comma-separated for a union: PJM, ERCOT, MISO, CAISO, SPP, NYISO, ISONE (ISO-NE). e.g. iso=ERCOT,PJM. Omit for all; combines with max_ttp_months as an intersection",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "Restrict to projects in one or more US states, by the project's own state (two-letter code or full name, comma-separated for a union), e.g. state=NV.",
+            "required": false
+          },
+          {
+            "name": "baseload_only",
+            "type": "boolean",
+            "description": "Keep only firm/dispatchable fuel (nuclear, gas, steam, geothermal, hydro, coal); exclude wind/solar/storage. Firm-vs-intermittent split only — does NOT sub-divide peaker vs combined-cycle gas (no duty",
+            "required": false
+          },
+          {
+            "name": "fuel_type",
+            "type": "string",
+            "description": "Isolate a fuel by inclusive substring match on the raw label; comma/semicolon-separated for a union, e.g. 'gas' hits GAS/Natural Gas, 'nuclear,hydro' unions both.",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Queue status filter. Default 'active' = still progressing (excludes withdrawn/cancelled/suspended/in-commercial-operation) — cross-ISO safe (SPP labels live projects 'IA FULLY EXECUTED/ON SCHEDULE' no",
+            "required": false
+          },
+          {
+            "name": "max_fiber_km",
+            "type": "number",
+            "description": "Keep only survivors within N km of the nearest MAPPED long-haul fiber route endpoint — coarse backbone proximity from a sparse ~260-node dataset over a county-centroid origin, NOT last-mile fiber. Imp",
+            "required": false
+          },
+          {
+            "name": "geocoded_only",
+            "type": "boolean",
+            "description": "Keep only survivors that carry lat/lng (~83% of the queue) — the ones with a ready site_evaluation_handoff you can pipe into analyze_site. Default false",
+            "required": false
+          },
+          {
+            "name": "developer",
+            "type": "string",
+            "description": "ERCOT only: keep projects whose developer name contains this text (case-insensitive substring, e.g. 'tenaska'). Developer names come from ERCOTQueue (ercotqueue.com, Matt Prusak, CC BY 4.0) joined to ",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_retirement_headroom",
+        "description": "Use this when the user asks where retiring power plants free grid capacity: scans EIA-860M retirements to find near-term transmission grid headroom — a retiring plant is a CONCRETE headroom event (its POI frees injection capacity), from FILED data, not forecasts. Returns _entity=retirement_headroom_results: retiring generators inside your horizon (name, MW, fuel, prime mover, retirement_date), rep",
+        "inputs": [
+          {
+            "name": "target_mw",
+            "type": "number",
+            "description": "Minimum required headroom in megawatts (MW) — filters to retiring generators at/above this size. Also passed through as the handoff's analyze_site capacity_mw (the DC you are siting).",
+            "required": true
+          },
+          {
+            "name": "horizon_months",
+            "type": "integer",
+            "description": "Time horizon in months to look ahead for planned retirements, 1-120 (e.g., 12, 18, 36).",
+            "required": true
+          },
+          {
+            "name": "region_iso",
+            "type": "string",
+            "description": "Optional target region or ISO (e.g., 'MISO', 'PJM', 'ERCOT', 'SPP', 'CAISO', 'NYISO', 'ISONE'). Matches the generator's own EIA balancing-authority code — real market boundaries, not state lines. Comm",
+            "required": false
+          },
+          {
+            "name": "fuel_filter",
+            "type": "string",
+            "description": "Optional filter for retiring fuel categories, substring-matched (e.g., 'Coal', 'Natural Gas', 'Petroleum').",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_hosting_capacity",
+        "description": "Use this when the user asks how many MW a distribution feeder can take: utility-published hosting capacity — the MW a NAMED distribution feeder can actually take, straight from the utility's own hosting-capacity GIS. Published records from many utilities (e.g. Con Edison, National Grid NY/MA, NYSEG/RG&E, Rhode Island Energy, Orange & Rockland, Central Hudson, Eversource CT, BGE, Pepco/Delmarva/ACE",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude of the point to search around, decimal degrees. Must be paired with lon.",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude of the point to search around, decimal degrees. Must be paired with lat.",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Search radius in km around lat/lon (default 25, max 150). Ignored when utility/market is passed — that mode covers the utility's entire published extent.",
+            "required": false
+          },
+          {
+            "name": "utility",
+            "type": "string",
+            "description": "Utility or market name, case-insensitive substring — e.g. \"Ameren Illinois\", \"Con Edison\", \"Providence\". Searches that utility's whole published territory instead of a point radius. Call with NO argum",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Alias for utility — either name works (e.g. \"Northern Virginia · Richmond\", \"New York City · Westchester\").",
+            "required": false
+          },
+          {
+            "name": "capacity_type",
+            "type": "string",
+            "description": "Restrict to one published type: \"load\" (what a new data-center load can DRAW — the type that answers siting), \"gen\" (DER/generation EXPORT headroom — NOT available load), or \"bus_headroom\" (transmissi",
+            "required": false
+          },
+          {
+            "name": "min_mw",
+            "type": "number",
+            "description": "Only return feeders whose published capacity is at or above this many MW.",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "analyze_parcel",
+        "description": "Use this when the user has a land parcel for a data center site: structured read of its boundary — pass your own GeoJSON Polygon/MultiPolygon, OR just lat+lon and DC Hub finds the containing parcel in its HOSTED parcel-boundary layer (free county/state GIS polygons, covering a set of priority data-center counties in VA, IL, TX, OH, UT, OR, IA and WY; a point outside it returns parcel_not_covered w",
+        "inputs": [
+          {
+            "name": "geometry",
+            "type": "any",
+            "description": "GeoJSON Polygon or MultiPolygon parcel boundary, e.g. {\"type\":\"Polygon\",\"coordinates\":[[[lng,lat],[lng,lat],...]]} — a MultiPolygon carries discontinuous parcels as one envelope. Omit to look up the h",
+            "required": false
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude of a point ON the parcel — used with lon when geometry is omitted to look up the containing parcel from the hosted county/state GIS layer",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude of a point ON the parcel (used with lat when geometry is omitted)",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "Optional target load in MW to pass through into the site_evaluation_handoff",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "rank_sites",
+        "description": "Use this when you have enriched candidate data center sites to rank under constraints — the normalization contract that lets you compare sites across separate analyze_site calls WITHOUT dropping into code. Pass candidates you already enriched (each an object with lat/lng + metric fields like risk_resilience, water_stress, fiber_km — pull these from analyze_site + get_refined_queue and pass site_ev",
+        "inputs": [
+          {
+            "name": "candidates",
+            "type": "any",
+            "description": "Array of candidate objects. PREFERRED: {candidate_id: \"cand_…\", <your metric fields>} using ids from get_refined_queue — frozen coordinates/capacity/fiber_km load from the mint (zero transcription dri",
+            "required": false
+          },
+          {
+            "name": "shortlist_name",
+            "type": "string",
+            "description": "Alternative to candidates: re-rank a SAVED shortlist (created via save_to_shortlist) in one shot — loads its sites (scoped to your API key) + reuses their saved objectives if you pass none, and re-sco",
+            "required": false
+          },
+          {
+            "name": "constraints",
+            "type": "any",
+            "description": "Hard filters {field: {min?, max?}} — a candidate missing a constrained field is dropped (fail-closed). e.g. {\"risk_resilience\": {\"min\": 70}, \"estimated_ttp_months\": {\"max\": 34}}",
+            "required": false
+          },
+          {
+            "name": "objectives",
+            "type": "any",
+            "description": "Weighted objectives {field: signedWeight} — +weight maximizes, -weight minimizes. e.g. {\"water_stress\": -0.6, \"fiber_km\": -0.4}. Omit with shortlist_name to reuse the shortlist's saved objectives; req",
+            "required": false
+          },
+          {
+            "name": "absolute",
+            "type": "boolean",
+            "description": "false (default) = min-max normalize within THIS batch (best-in-set, NOT stable across runs). true = score on a FIXED 0-100 scale for CROSS-RUN-STABLE, auditable scores — use ONLY when the objective fi",
+            "required": false
+          },
+          {
+            "name": "percentile",
+            "type": "boolean",
+            "description": "true = score each objective as its PERCENTILE against the viable-site POPULATION (\"better than X% of viable sites\") — the strongest cross-run + cross-region comparability.",
+            "required": false
+          },
+          {
+            "name": "require_complete",
+            "type": "boolean",
+            "description": "true = DROP any candidate missing one or more of your (validated) objectives — dropped candidates are DECLARED in excluded_incomplete, never silent.",
+            "required": false
+          },
+          {
+            "name": "top_k",
+            "type": "integer",
+            "description": "How many top-ranked sites to return (1-50, default 3)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "discover_tools",
+        "description": "Use this when you are unsure which DC Hub data center, power or grid tool fits: lists tools by family. Returns _entity=tool_families — a front_door block (execute_plan for any multi-capability question, get_changes to refresh) plus families with a when-to-use note + their tools (facility, market, grid_power, gas_btm, site_geometry, fiber, deals_news, saved_work, account_meta, partner), optionally ",
+        "inputs": [
+          {
+            "name": "query",
+            "type": "string",
+            "description": "Optional keyword to filter families/tools, e.g. \"site selection\", \"grid queue\", \"fiber\", \"deals\", \"market\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "plan_query",
+        "description": "Use this when you want to see the plan for a data center question without running it (execute_plan runs the same planner and returns the answers). Reach for plan_query only to review, log, diff or audit a plan before executing it yourself. Deterministic keyword routing over the tool registry — no LLM, no network, same intent always returns the same plan. Returns _entity=query_plan {best_tool, inte",
+        "inputs": [
+          {
+            "name": "intent",
+            "type": "string",
+            "description": "Natural-language description of what you are trying to find out, e.g. \"rank markets for a 200MW AI campus\" or \"how much power is available in ERCOT\"",
+            "required": true
+          },
+          {
+            "name": "context",
+            "type": "any",
+            "description": "Optional structured hints: {lat, lon, iso, market, capacity_mw, candidate_id, state (2-letter), since} — sharpens args_hint values and routing (e.g. lat/lon boosts the site-analysis route)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "save_to_shortlist",
+        "description": "Use this when the user wants to keep a data center site on a named shortlist that survives across conversations (Phase 5 statefulness). Snapshots the site's objectives + its current percentile objective_score, so you can re-score it later against the evolving national baseline. Use to build a durable siting shortlist across days/weeks; the list is scoped to your API key. Pair with get_shortlist to",
+        "inputs": [
+          {
+            "name": "shortlist_name",
+            "type": "string",
+            "description": "Name of the shortlist, e.g. \"Q3-2026-1GW-targets\" — created if new. REQUIRED.",
+            "required": true
+          },
+          {
+            "name": "site",
+            "type": "any",
+            "description": "Site object. MINIMAL form is enough: {site_ref, lat, lng, capacity_mw}. Richer is better — add any analyze_site metric fields (risk_resilience, fiber_connectivity, water score…) and those become what ",
+            "required": true
+          },
+          {
+            "name": "objectives",
+            "type": "any",
+            "description": "OPTIONAL {field: signedWeight} map (+maximize/-minimize) if this site was ranked under explicit objectives — stored so re-scoring reuses the same criteria. Omit it and DC Hub weights the site's own me",
+            "required": false
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Optional free-text note, e.g. \"strong fiber, acceptable water\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_shortlist",
+        "description": "Use this when the user wants to see a saved data center site shortlist. With refresh=true (default) each site is RE-SCORED against the current national percentile baseline and returns saved_score, current_score, and score_delta_since_saved — so you see whether a site slipped because IT changed or the POPULATION did. The reliable way to maintain a siting campaign across days/weeks. Scoped to your A",
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string",
+            "description": "The shortlist name to fetch",
+            "required": true
+          },
+          {
+            "name": "refresh",
+            "type": "boolean",
+            "description": "true (default) = re-score every site against the CURRENT baseline + return drift deltas; false = return the saved snapshots only",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "set_shortlist_alert",
+        "description": "Use this when the user wants a drift alert on a saved site shortlist so you can stop polling and be notified when a site's national standing moves materially (Phase 5). Fires when any site in the shortlist has current percentile score < percentile_below OR score_delta_since_saved < delta_below (e.g. -8 = dropped 8 points vs when saved). Evaluated after each daily baseline refresh; delivers via web",
+        "inputs": [
+          {
+            "name": "shortlist_name",
+            "type": "string",
+            "description": "The shortlist to monitor (created via save_to_shortlist)",
+            "required": false
+          },
+          {
+            "name": "percentile_below",
+            "type": "number",
+            "description": "Fire if any site's current percentile objective_score drops below this (e.g. 70)",
+            "required": false
+          },
+          {
+            "name": "delta_below",
+            "type": "number",
+            "description": "Fire if any site's score_delta_since_saved drops below this — pass a NEGATIVE number, e.g. -8 (dropped 8+ points since saved)",
+            "required": false
+          },
+          {
+            "name": "notify",
+            "type": "any",
+            "description": "Delivery: {\"webhook\":\"https://...\"} and/or {\"email\":\"you@co.com\"} — at least one required",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "suggest_reallocation",
+        "description": "Use this when a saved data center site drifts (its national standing dropped — surfaced by get_shortlist refresh or a set_shortlist_alert firing), get replacement candidates from the rest of that shortlist so the alert becomes an action, not just a warning (Phase 5). Returns TWO tiers — tier_1_same_region (a near-in tactical swap) and tier_2_cross_region (a different-region arbitrage) — each re-sc",
+        "inputs": [
+          {
+            "name": "shortlist_name",
+            "type": "string",
+            "description": "The shortlist to re-allocate within (created via save_to_shortlist)",
+            "required": true
+          },
+          {
+            "name": "drifted_site_ref",
+            "type": "string",
+            "description": "Optional site_ref of the drifted slot to replace; if omitted, the current lowest-scoring site is treated as the drifted one",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_grid_data",
+        "description": "Use this when the user asks for live electricity grid data (power demand, fuel mix) for one grid: the 7 US ISOs (PJM, ERCOT, CAISO, MISO, SPP, NYISO, ISO-NE), TVA, BPA, 40+ US utility balancing authorities (e.g. AZPS, SOCO, DUK, FPL, or a city: PHOENIX, ATLANTA), Canada (IESO, AESO, HYDROQUEBEC), Great Britain (NGESO), any ENTSO-E bidding zone (EU_DE_LU, EU_FR, EU_NL ...), Taiwan (TAIPOWER), Japan",
+        "inputs": [
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "Grid code (required): a US ISO (ERCOT, PJM, MISO, CAISO, SPP, NYISO, ISONE), TVA, BPA, a utility BA or city (AZPS, PHOENIX), or a non-US grid (IESO, AESO, HYDROQUEBEC, NGESO, EU_DE_LU, TAIPOWER, OCCTO",
+            "required": false
+          },
+          {
+            "name": "metric",
+            "type": "string",
+            "description": "Optional metric focus, e.g. fuel_mix, demand, demand_curve",
+            "required": false
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Optional time window for the metric, e.g. 24h",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_changes",
+        "description": "Use this when the user asks what changed in data center markets, facilities or deals since a date. Returns DCPI 7-day market movers, newly discovered facilities, new M&A deals + news — PLUS, for keyed callers with saved sites, a `portfolio` block answering \"did MY sites move?\": per-saved-site verdict flips (CAUTION → BUILD), excess-power deltas, alerts fired, and new facilities near each site sinc",
+        "inputs": [
+          {
+            "name": "since",
+            "type": "string",
+            "description": "Return changes since this ISO-8601 timestamp (YYYY-MM-DD or full datetime) or shorthand \"24h\"/\"7d\"; default 24h",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_facility_risk_delta",
+        "description": "Use this when the user asks how a data center facility's (or its market's) power risk changed recently — \"has this site gotten riskier lately?\". Returns the REAL DCPI market-health delta (excess-power score change over the window, direction improving/worsening/flat) from DC Hub's history-preserving daily snapshots. INTEGRITY: only DCPI market-health has a short-term temporal series; the site-hazar",
+        "inputs": [
+          {
+            "name": "facility_id",
+            "type": "string",
+            "description": "A DC Hub facility id or canonical slug to resolve the market context",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Alternatively, a market name or slug (e.g. \"northern-virginia\")",
+            "required": false
+          },
+          {
+            "name": "since",
+            "type": "string",
+            "description": "Look-back window, e.g. \"7d\" or \"30d\" (default 7d)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "save_site",
+        "description": "Use this when the user wants to save a data-center site to track it. Needs a key (claim_free_key); keyless returns auth_required. Save a candidate data-center site to your DC Hub account to track it across sessions. Give lat + lon (plus optional name, state, market, target_mw, notes). Returns the saved site id. Pass `market` and DC Hub snapshots the site's DCPI baseline at save time, so every late",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90), e.g. 39.04",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180), e.g. -77.48",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Optional label for the saved site, e.g. \"Ashburn parcel\"",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation for the site, e.g. VA",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug (metro) the site belongs to, e.g. northern-virginia",
+            "required": false
+          },
+          {
+            "name": "target_mw",
+            "type": "number",
+            "description": "Target power load for the planned build in megawatts (MW), e.g. 100",
+            "required": false
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Optional free-text notes to store with the saved site",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "list_saved_sites",
+        "description": "Use this when the user asks to see their saved data center sites. Needs a key (claim_free_key); keyless returns auth_required, not an empty list. Use when a user asks to see or review their saved DC Hub shortlist in-chat, or wants to know what moved on it. Example: \"What sites have I saved?\" / \"Did any of my saved sites move?\" — list_saved_sites. Params: since (optional — \"24h\"/\"7d\"/ISO, default 7",
+        "inputs": [
+          {
+            "name": "since",
+            "type": "string",
+            "description": "Delta window for per-site movement: \"24h\", \"7d\" (default) or an ISO-8601 timestamp — pass your cached generated_at from last session",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "set_market_alert",
+        "description": "Use this when the user wants alerts on a data center market's DCPI power score: subscribes to movement alerts (needs a key) — get notified when its Excess-Power / Constraint score moves. DATA USE: channel=\"email\" takes your human's email, to send these alerts; it is bound to the key as with bind_email. DC Hub keeps it and never sells it or shares it for anyone else’s use (https://dchub.cloud/priva",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Market slug (metro) to watch, e.g. northern-virginia — valid slugs come from rank_markets / get_market_dcpi_rank",
+            "required": true
+          },
+          {
+            "name": "channel",
+            "type": "string",
+            "description": "Delivery channel: \"email\" (sent to your bound email) or \"webhook\" (full-access key)",
+            "required": true
+          },
+          {
+            "name": "destination",
+            "type": "string",
+            "description": "For channel=\"webhook\", the https URL to POST alerts to (full-access key); ignored for email (forced to bound address)",
+            "required": false
+          },
+          {
+            "name": "email",
+            "type": "string",
+            "description": "Optional, channel=\"email\" only: your human's email, typed by them here and confirmed. Binds it to the key (a key is minted if this session has none) and arms the watch in one call. DC Hub keeps it and",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "subscribe_digest",
+        "description": "Use this when the user asks for a weekly data center market email: subscribes them to a digest of what changed in the markets and sites they queried (DCPI movers, new facilities, deals, news). DOUBLE opt-in + consent-safe: we email a one-click CONFIRM link, the human only gets the digest after confirming, and every email has one-click unsubscribe — this call alone sets no marketing flag. Only call",
+        "inputs": [
+          {
+            "name": "email",
+            "type": "string",
+            "description": "Your human's email address (required) — a one-click confirm link is sent; use only an address they explicitly gave",
+            "required": true
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "Optional attribution tag for where the subscription came from, e.g. mcp_digest",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "set_site_alert",
+        "description": "Use this when the user wants an email watch on a saved data center site (needs a key) — DC Hub emails you when that site’s DCPI score, grid capacity, or nearby facilities move. DATA USE: notify_email, your human's email, used only to send this alert. DC Hub keeps it and never sells it or shares it for anyone else’s use (https://dchub.cloud/privacy). Run only when your human asks; confirm the addre",
+        "inputs": [
+          {
+            "name": "saved_site_id",
+            "type": "any",
+            "description": "The saved_site_id returned by save_site or list_saved_sites (required)",
+            "required": true
+          },
+          {
+            "name": "trigger_type",
+            "type": "string",
+            "description": "What movement fires the alert: \"dcpi_change\" (default), \"capacity_change\", or \"new_facility_nearby\"",
+            "required": false
+          },
+          {
+            "name": "threshold",
+            "type": "number",
+            "description": "The points/MW move that fires the alert (default 5)",
+            "required": false
+          },
+          {
+            "name": "notify_email",
+            "type": "string",
+            "description": "Email address the alert is sent to (required); without a full-access key, forced to your human's bound email. Confirm it with your human first. DC Hub keeps it and never sells or shares it",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "export_dataset",
+        "description": "Use this when the user wants to export their saved data center sites for offline analysis, a spreadsheet, or ingestion into another tool (needs a full-access key). Example: \"Export my saved sites as GeoJSON for QGIS.\" — export_dataset format=geojson. Params: format (\"csv\" default, or \"geojson\"). Returns: the full file contents as text — CSV rows or a GeoJSON FeatureCollection of your saved sites w",
+        "inputs": [
+          {
+            "name": "format",
+            "type": "string",
+            "description": "Output file format: \"csv\" (default) or \"geojson\" (for GIS tools like QGIS)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "find_sites",
+        "description": "Use this when the user has no data center site yet and wants candidate search areas (site selection by substation voltage, gas and fiber distance); execute_plan covers a multi-part siting question. THE INVERSE QUERY: every other DC Hub siting tool needs a coordinate you already have — analyze_site scores one, get_composite_site_score grades one, rank_sites orders candidates YOU already enriched, f",
+        "inputs": [
+          {
+            "name": "state",
+            "type": "string",
+            "description": "2-letter US state to search, e.g. OH — required unless you pass lat + lon",
+            "required": false
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude of a search centre, e.g. 39.04 — use with lon (+ radius_km) instead of state",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude of a search centre, e.g. -77.48",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Search radius in km around lat/lon (default 80, clamped 5-400); ignored in state mode",
+            "required": false
+          },
+          {
+            "name": "min_voltage_kv",
+            "type": "number",
+            "description": "Only anchor on substations at or above this voltage in kV (default 115). 230+ for hyperscale, 500 for the largest campuses",
+            "required": false
+          },
+          {
+            "name": "max_gas_km",
+            "type": "number",
+            "description": "Drop candidates farther than this from the nearest gas pipeline. Applied ONLY if the gas layer answers — check constraint_coverage",
+            "required": false
+          },
+          {
+            "name": "max_fiber_km",
+            "type": "number",
+            "description": "Drop candidates farther than this from the nearest fiber route (CHORD approximation — see fiber_distance_basis). Applied ONLY if the fiber layer answers",
+            "required": false
+          },
+          {
+            "name": "exclude_moratorium",
+            "type": "boolean",
+            "description": "true = drop candidates in a state with a published data-center moratorium. STATE grain, not jurisdiction grain",
+            "required": false
+          },
+          {
+            "name": "cluster_km",
+            "type": "number",
+            "description": "Collapse anchors within this many km into one candidate area (default 8, max 100). Raise it for broader coverage, lower it for denser results",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "analyze_site",
+        "description": "Use this when the user asks whether a specific site or coordinate works for a data center (lat/lon, or a market name for a market-level read). Returns a 0-100 composite, verdict, power/gas/fiber/market/risk sub-scores, nearby infrastructure and power cost; capacity_mw adds a capacity_context block and does NOT move overall_score. Keyless returns the verdict band and the power band, with the other ",
+        "inputs": [
+          {
+            "name": "candidate_id",
+            "type": "string",
+            "description": "PREFERRED for queue survivors: a cand_… id from get_refined_queue — coordinates come from the FROZEN mint (lat/lon args are ignored; zero transcription drift; expired ids fail closed with candidate_ex",
+            "required": false
+          },
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90; required unless candidate_id or location given), e.g. 33.45",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180; required unless candidate_id or location given), e.g. -112.07",
+            "required": false
+          },
+          {
+            "name": "location",
+            "type": "string",
+            "description": "Market NAME or metro slug instead of coordinates, e.g. \"ashburn\", \"northern-virginia\", \"dallas\". Resolved to that market's PUBLISHED CENTROID through the DCPI market row, and the answer carries a reso",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation (optional) — improves the tax-incentive lookup, e.g. AZ",
+            "required": false
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "Target power load for the build in megawatts (MW), e.g. 100 (typical 50-500)",
+            "required": false
+          },
+          {
+            "name": "include_grid",
+            "type": "boolean",
+            "description": "Include grid-headroom / substation analysis (default true)",
+            "required": false
+          },
+          {
+            "name": "include_risk",
+            "type": "boolean",
+            "description": "Include water/drought/climate risk analysis (default true)",
+            "required": false
+          },
+          {
+            "name": "include_fiber",
+            "type": "boolean",
+            "description": "Include fiber-connectivity analysis (default true)",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_composite_site_score",
+        "description": "Use this when the user wants one 0-100 data center site suitability verdict for a lat/lon WITH an explicit per-factor coverage map — which factors are actually measured vs. declared unavailable. Unlike analyze_site (full raw data dump), this scores ONLY over VALIDATED factors and never imputes a missing one: power/grid, fiber, natural-hazard risk (FEMA NRI) and water (live WRI Aqueduct 4.0 baselin",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90, required), e.g. 33.45",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180, required), e.g. -112.07",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation (optional) — improves water/context lookups, e.g. AZ",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_disaster_risk",
+        "description": "Use this when the user asks about natural-hazard risk for a data center site (US lat/lon) — flood, wildfire, hurricane, earthquake, heat, drought, tornado, etc. Grounded in the FEMA National Risk Index (NRI), the US county-level hazard dataset (live query, never estimated; points outside US NRI coverage return coverage=unavailable). Example: get_disaster_risk lat=33.45 lon=-112.07. Returns {disast",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90, required), e.g. 33.45",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180, required), e.g. -112.07",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_climate_intel",
+        "description": "Use this when the user asks about seismic or climate design inputs for a data center site (lat/lon) — the layer that drives data-center structural bracing cost (seismic) and cooling design (cooling degree-days, extreme temps). Grounded STRICTLY in USGS ASCE 7 (seismic) + NOAA climate normals via ACIS; every value traces to a federal source and missing data is declared unavailable, never estimated.",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90, required), e.g. 33.45",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180, required), e.g. -112.07",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Max distance (km) to snap to the nearest NOAA station (optional, default 25)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "generate_site_analysis",
+        "description": "Use this when the user wants a shareable data center Site Analysis PDF for ONE lat/lon (a powered-land parcel, a candidate campus) — the polished client deliverable, not just a score. Example: \"Make the Site Analysis PDF for this Carrier Mills parcel, 150 MW, for TON Infrastructure.\" — generate_site_analysis lat=37.694 lon=-88.65 capacity_mw=150 prepared_for=\"TON Infrastructure\" prepared_by=\"Marto",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90, required), e.g. 37.694",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180, required), e.g. -88.65",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "Target power load for the build in megawatts (MW), e.g. 150 (typical 50-500)",
+            "required": false
+          },
+          {
+            "name": "prepared_for",
+            "type": "string",
+            "description": "Client name printed on the report cover, e.g. \"TON Infrastructure\"",
+            "required": false
+          },
+          {
+            "name": "prepared_by",
+            "type": "string",
+            "description": "Your firm name that brands the report; defaults to DC Hub, e.g. \"Martone Advisors\"",
+            "required": false
+          },
+          {
+            "name": "latency_target",
+            "type": "string",
+            "description": "Optional metro to measure latency against; default = nearest real carrier hotel",
+            "required": false
+          },
+          {
+            "name": "use_case",
+            "type": "string",
+            "description": "Optional workload descriptor to tailor the report, e.g. \"AI training campus\"",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "compare_sites",
+        "description": "Use this when the user has 2-4 candidate data center sites and asks which is best. Pass locations as \"lat,lon;lat,lon\" and optional capacity_mw. Returns each site's analyze_site scores side by side plus a recommended winner and why. Keyless returns each site's verdict band and power band, with the other factors named; a key (DCHUB_API_KEY, optional) adds names and counts without figures; scores an",
+        "inputs": [
+          {
+            "name": "locations",
+            "type": "string",
+            "description": "Semicolon-separated list of 2-4 \"lat,lon\" pairs to compare, e.g. \"33.45,-112.07;39.04,-77.48\"",
+            "required": false
+          },
+          {
+            "name": "sites",
+            "type": "any",
+            "description": "Alternative to locations: an array of {lat, lon} (or {lat, lng}) objects, 2-4 sites",
+            "required": false
+          },
+          {
+            "name": "capacity_mw",
+            "type": "number",
+            "description": "Target power load for the build in megawatts (MW), e.g. 50 (typical 50-500)",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_infrastructure",
+        "description": "Use this when the user asks what power infrastructure is near a site: substations (count + max voltage_kv within radius), transmission lines (>69 kV path overlay), interstate + lateral gas pipelines, and power plants (operating + planned, by fuel) within configurable radius_km. Returns distance + capacity for each, joined to HIFLD/EIA. Answers \"what is near this parcel\", \"how far is the nearest su",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Center latitude in decimal degrees (-90 to 90, required), e.g. 33.45",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Center longitude in decimal degrees (-180 to 180, required), e.g. -112.07",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Search radius in kilometers around the point, e.g. 25",
+            "required": false
+          },
+          {
+            "name": "layer",
+            "type": "string",
+            "description": "Optional single asset layer to return, e.g. substations, transmission, pipelines, power_plants",
+            "required": false
+          },
+          {
+            "name": "min_voltage_kv",
+            "type": "number",
+            "description": "Only include transmission/substations at or above this voltage in kV, e.g. 69",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_fiber_intel",
+        "description": "Use this when the user asks about fiber routes, carriers or connectivity for a market: long-haul, metro, dark or IX routes. Filter by carrier, route_type, market. Returns GeoJSON routes: carrier, type, fiber count, lit capacity, distance. Without full access you get a sample of routes, not the full set; the full set needs a full-access key. Ex: \"Zayo long-haul routes via Dallas.\" Filter by market ",
+        "inputs": [
+          {
+            "name": "carrier",
+            "type": "string",
+            "description": "Fiber carrier to filter on, e.g. Zayo, Lumen, Cogent, \"Crown Castle\", Windstream, GTT, Uniti; omit for all carriers",
+            "required": false
+          },
+          {
+            "name": "route_type",
+            "type": "string",
+            "description": "Route class: \"metro\", \"longhaul\", \"dark\", or \"ix\"",
+            "required": false
+          },
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Metro name or slug (e.g. \"dallas\", \"ashburn\", \"northern-virginia\") — returns only routes touching that metro (either endpoint within ~1.2°). Great with route_type=longhaul.",
+            "required": false
+          },
+          {
+            "name": "include_sources",
+            "type": "boolean",
+            "description": "Include upstream data-source/provenance metadata in the response",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_fiber_readiness",
+        "description": "Use this when the user asks whether one data center site (lat/lon) is fiber-ready: near-net distance to a carrier-served facility, how many distinct fiber carriers are reachable, and whether there is single-carrier risk (no path diversity). This is the parcel connectivity answer engineering site-selectors screen on. Example: \"Is this Loudoun County parcel fiber-ready and how many carriers can serv",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Site latitude in decimal degrees (-90 to 90, required), e.g. 39.04",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Site longitude in decimal degrees (-180 to 180, required), e.g. -77.48",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Search radius in km for reachable fiber carriers (default 50, range 5-200)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_subsea_cables",
+        "description": "Use this when the user asks about subsea (submarine) cable landings near a site, or the cable catalogue. The physical internet crossing an ocean lands at a finite number of points, and distance to one is a real siting factor for anything latency- or transit-sensitive. Pass lat+lon (+radius_km) for LANDING POINTS near a site — each with name, coordinates and distance_km. Omit coordinates for the CA",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude of the site, e.g. 36.85 — with lon, returns landing points near it; omit both for the cable catalogue",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude of the site, e.g. -75.98",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "radius_km",
+            "type": "number",
+            "description": "Search radius in km around lat/lon for landing points (default 200)",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_peering_intel",
+        "description": "Use this when the user asks about internet exchange (IX) and peering density for a data center site (PeeringDB). Pass lat+lon for the PEERING PROFILE around that point: facilities_nearby, a 0-100 score with its level, total_ix_presence, total_networks, and top_facilities each with ix_count and net_count — e.g. Ashburn comes back with 61 IX presences and 903 networks across the nearby sites, led by",
+        "inputs": [
+          {
+            "name": "lat",
+            "type": "number",
+            "description": "Latitude of the site, e.g. 39.04 — with lon, returns the peering profile around it; omit both for the IXP directory",
+            "required": false
+          },
+          {
+            "name": "lon",
+            "type": "number",
+            "description": "Longitude of the site, e.g. -77.48",
+            "required": false
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Alias for lat — either name works",
+            "required": false
+          },
+          {
+            "name": "lng",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Alias for lon — either name works",
+            "required": false
+          },
+          {
+            "name": "limit",
+            "type": "integer",
+            "description": "Max results to return (1-500; default varies by tool)",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_metro_fiber",
+        "description": "Use this when the user asks which US metro has the deepest fiber, or wants a market's fiber profile — carrier count, total route-miles, on-net buildings, a 0-100 fiber-density score, tier, key internet-exchange (IX) points and carrier hotels — across the tracked top US data-center metros (Northern Virginia, Dallas-Fort Worth, Silicon Valley, Chicago, Atlanta, Phoenix, and more). Example: \"Rank US ",
+        "inputs": [
+          {
+            "name": "market",
+            "type": "string",
+            "description": "Optional metro name or slug for a single-market deep dive (carrier-by-carrier + dark fiber), e.g. \"Dallas-Fort Worth\", \"dallas\", \"Northern Virginia\", \"ashburn\". Omit to list every tracked metro ranked",
+            "required": false
+          }
+        ]
+      },
+      {
+        "name": "get_energy_prices",
+        "description": "Use this when the user asks what electricity or natural gas costs for a data center in a US ISO or state (\"what does power cost in ERCOT?\", \"retail rate in Virginia?\"); price alone does not rank sites (the cheapest ISO may have no headroom; execute_plan weighs both). Returns EIA RETAIL electricity rates, which are monthly and not live (about 3 months behind; retail_rates.latest_period names the mo",
+        "inputs": [
+          {
+            "name": "data_type",
+            "type": "string",
+            "description": "Optional price type focus, e.g. retail, wholesale, gas",
+            "required": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "US state abbreviation for state-level pricing context, e.g. TX",
+            "required": false
+          },
+          {
+            "name": "iso",
+            "type": "string",
+            "description": "ISO/RTO grid region (required for ISO pricing): ERCOT, PJM, MISO, CAISO, SPP, NYISO, ISONE",
+            "required": false
+          },
+          {
+            "name": "mpp_pay",
+            "type": "boolean",
+            "description": "Per-call payment quote (Stripe MPP): true returns a signed payment challenge instead of the free preview; no money moves. Set it only after your human has explicitly approved paying for this call.",
+            "required": false
+          },
+          {
+            "name": "mpp_credential",
+            "type": "string",
+            "description": "Per-call payment (Stripe MPP): the Shared Payment Token for challenges[0]; pays that challenge for this one call. Send it only with your human's explicit approval of the charge.",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "license": "MIT",
+    "stars": 3,
+    "source": "MCP Registry",
+    "updatedAt": null,
+    "repoMeta": {
+      "slug": "azmartone67/dchub-mcp-server",
+      "stars": 3,
+      "forks": 0,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-02-06T16:08:44Z",
+      "pushedAt": "2026-11-17T13:58:47Z",
+      "openIssues": 9,
+      "license": "MIT",
+      "language": "JavaScript"
+    },
+    "toolsStatus": "ok",
+    "toolsSource": "live",
+    "readme": {
+      "markdown": "# DC Hub\n\nDC Hub is the orchestration layer for data center and energy intelligence: start with execute_plan for electricity prices and power grid questions.\n\n**[DCPI (Data Center Power Index)](https://dchub.cloud/dcpi): a daily score of where data centers can get grid power, across 300+ markets.** Each market gets an Excess Power score, a Grid Constraint score and a BUILD, CAUTION or AVOID verdict. Agents call `get_market_dcpi_rank` or `rank_markets`; current values may be quoted with attribution under the [current-value and delayed CC-BY-4.0 terms](https://dchub.cloud/terms#dcpi-current-data).\n\nNew data center capacity listings are coming soon: query them with source_capacity, or browse https://dchub.cloud/listings.\n\nDC Hub returns live data on data center (datacenter) markets, site selection, the power grid and interconnection queues, electricity and natural gas prices, energy, fiber and colocation capacity. Tool results carry a dated citation line in `cite_as` (`DC Hub (dchub.cloud), as of <date>`) and, where one applies, a suggested follow-up question in `next_ask`. `DCHUB_API_KEY` is optional. Connect: https://dchub.cloud/connect · MCP endpoint: `https://dchub.cloud/mcp`\n\nTo start, [add the MCP server](https://dchub.cloud/connect). `DCHUB_API_KEY` is optional. Setup for Claude, ChatGPT, Grok, Copilot, Cursor, Gemini CLI, Mistral, LobeHub, VS Code, Cline and others is under [Install](#install) below.\n\nDC Hub (dchub.cloud) is the orchestration layer for data center and energy questions: power, grid, interconnection queues, fiber, markets and sites, with an as_of date and a source on every result.  \nMCP server: https://dchub.cloud/mcp  \nStart with execute_plan(intent=\"<the user's question>\"): it picks and chains the right tools and returns one dated, cited answer.\n\n## Start\n\nThe orchestration layer for data center and energy intelligence.\n\n```bash\nnpx -y dchub-mcp-server\n```\n\n`DCHUB_API_KEY` is optional. Start with execute_plan. Every client's setup: https://dchub.cloud/connect\n\nStar this repo to help other builders find DC Hub.\n\n## Live Production Telemetry / Verifiable Proof\n\nDC Hub has served **over 900,000** external AI-platform and MCP requests. That total is the sum of AI-platform crawler and citation fetches plus MCP-transport requests; the two buckets are tracked separately from distinct weekly MCP agents. The audited split and definitions are on [the 2026-11-05 release note](https://dchub.cloud/news/2026-11-05-dc-hub-901721-ai-platform-and-mcp-requests) and [AI methodology](https://dchub.cloud/ai/methodology). Figures refresh live, with no API key, at `https://dchub.cloud/api/public/mcp-count` (request totals) and `https://dchub.cloud/api/v1/stats/live-proof` (distinct weekly agents and related MCP proof).\n\n---\n\n## Using DC Hub data without MCP\n\nThe same data is published over plain HTTPS, for clients with no MCP connection.\n\n**Keyless endpoints.** Each answers an anonymous GET with HTTP 200 and open CORS (`access-control-allow-origin: *`):\n\n| Endpoint | Returns |\n|---|---|\n| `https://dchub.cloud/api/v1/canon/phrases` | current published counts and floors, with their sources in `value_source` |\n| `https://dchub.cloud/api/v1/stats` | platform stats |\n| `https://dchub.cloud/api/v1/stats/canonical` | the same figures with their provenance |\n| `https://dchub.cloud/api/v1/dcpi/scores?limit=500` | DCPI per market |\n\nPublished counts change over time; `/api/v1/canon/phrases` serves the current values.\n\n**Dates and citation fields.** MCP tool results carry dated provenance:\n\n- `as_of` is the data date. When several sources feed one answer, it is the oldest of their timestamps, since an answer is no fresher than its stalest input. When a response carries only per-record dates, or no source timestamp at all, `as_of` is `null` and `as_of_basis` states why.\n- `retrieved_at` is when DC Hub served the response, not when the data was collected.\n- `cite_as` is a ready citation line. It names DC Hub and dchub.cloud, adds the `as_of` date when one is known, and marks a gated preview as `PARTIAL`.\n\n**Citation format.** A short attribution block for text that quotes DC Hub data. [`/llms.txt`](https://dchub.cloud/llms.txt) gives a longer form that adds the `as_of` date and the licence terms of each data layer.\n\n```\nSource: DC Hub (dchub.cloud) — live data-center & energy intelligence\nhttps://dchub.cloud/land-power-map\nhttps://dchub.cloud/dcpi\nhttps://dchub.cloud/connect\n```\n\n### Data reuse and agent authorization\n\nDCPI verdicts/composites for days from 2026-12-01 become CC-BY-4.0 after 30 days; earlier days, thresholds, methodology and monthly Rankings are CC-BY-4.0. Current values may be quoted with attribution for any number of markets in editorial work; bulk (full current list or a table of more than 25 markets in one piece) or recurring republication needs a DCPI licence. Sub-scores/detail are licensed separately. Facility/third-party layers retain upstream terms (OpenStreetMap: ODbL 1.0, attribution/share-alike). https://dchub.cloud/terms#dcpi-current-data · https://dchub.cloud/data-sources. Editorial work includes articles, reports, research notes, posts, presentations and AI answers. The editorial quote rule is separate from bulk/recurring redistribution rights. Attribution names DC Hub, the source link, method_version where provided and the data date. Sub-scores, risk/opportunity detail, narratives and forecasts are not CC-BY-4.0: eligible subscribers may use them internally and in client deliverables with attribution; republication or a third-party product/dataset requires a redistribution licence. DC Hub-derived grid analysis is open under its layer's terms, not a grant over raw system-operator readings. No blanket redistribution grant covers the facility inventory or unresolved upstream rights. Capacity Source teasers have their separate CC-BY-4.0 grant; opened details, matches and introductions remain confidential. Access/plan limits remain separate from content licences. An API CC-BY\n\n…",
+      "truncated": true,
+      "url": "https://github.com/azmartone67/dchub-mcp-server#readme"
+    }
+  },
+  {
+    "id": "mcp:com-vostride-agent-qa",
+    "name": "agent-qa",
+    "qualifiedName": "com.vostride/agent-qa",
+    "slug": "com-vostride-agent-qa",
+    "description": "Natural-language QA for web, Android and iOS from your coding agent, with a memory of past runs that keeps checked facts and retires stale ones. Runs locally: needs Node.js 24+, agent-qa installed and initialised in the project, and model access.",
+    "category": "Dev Tools & Git",
+    "repository": "https://github.com/vostride/agent-qa",
+    "homepage": "https://vostride.com",
+    "packages": [
+      {
+        "registryType": "npm",
+        "identifier": "agent-qa",
+        "version": "0.3.9",
+        "transport": "stdio",
+        "args": [
+          "--config",
+          "agent-qa.config.yaml",
+          "mcp"
+        ],
+        "weeklyDownloads": 2086,
+        "lastPublished": "2026-11-14T18:26:36.938Z",
+        "firstPublished": "2026-03-01T12:07:53.948Z",
+        "deprecated": false,
+        "declaredRepo": "vostride/agent-qa",
+        "repoMatchesRegistry": true
+      }
+    ],
+    "remotes": [],
+    "tools": [],
+    "license": "FSL-1.1-ALv2",
+    "stars": 860,
+    "source": "Publisher submission",
+    "updatedAt": null,
+    "repoMeta": {
+      "slug": "vostride/agent-qa",
+      "stars": 860,
+      "forks": 26,
+      "archived": false,
+      "isFork": false,
+      "createdAt": "2026-05-07T20:17:57Z",
+      "pushedAt": "2026-11-14T18:19:57Z",
+      "openIssues": 6,
+      "license": "NOASSERTION",
+      "language": "TypeScript"
+    },
+    "inspection": {
+      "name": "agent-qa",
+      "version": "0.3.9",
+      "status": "unavailable",
+      "capabilities": [],
+      "maintainers": 2,
+      "publishedBy": "GitHub Actions",
+      "trustedPublisher": "github",
+      "provenance": true,
+      "signed": true,
+      "installScripts": null,
+      "unpackedSize": 9264392,
+      "fileCount": 40,
+      "analyzedAt": "2026-11-17T17:43:34.066Z"
+    },
+    "readme": {
+      "markdown": "<strong>English</strong> · 中文\n\n  \n  \n  \n  \n  \n  \n\n  Website · Docs · Demo · Blog · Changelog\n\n**Your AI QA engineer, with memory.** Describe a user journey in plain language. agent-qa tests it on web, Android or iOS and keeps the evidence. Use the CLI, the dashboard, or your coding agent through MCP and skills.\n\n- **memidex:** remembers facts and working procedures as reviewable files in your repository.\n- **Self-improvement:** validates lessons from runs, retires stale knowledge, and uses your feedback to correct mistakes.\n\n| Benchmark | Rank | Published result |\n| --- | --- | --- |\n| [AndroidWorld](https://vostride.com/benchmark/android-world) | **#1** | **100% pass@1** (116/116 tasks) |\n| [AppControlBench](https://vostride.com/benchmark/app-control-bench) | **#1** | **99.6% completion** (114.5/115 points) |\n\nRead the full benchmark reports, with run evidence and methodology, on [our blog](https://vostride.com/blog). Both used gpt-6-sol with memory and self-improvement off; AppControlBench gives half credit for partial completion.\n\n## See it in action\n\n**Inspect a failure.** The demo catches a cart showing $29 instead of $53, with the failed step and its screenshot side by side.\n\n  \n  \n  \n\n**See what memory contributed.** Inspect the knowledge supplied to a run and trace it back to the steps that used it.\n\n  \n  \n  \n\n**Run from your terminal.** Real output from the demo examples: the checkout passes and the test on the deliberate cart-total bug fails.\n\n  \n  \n  \n\n## Get started\n\nRequires Node.js 24+.\n\n```sh\nnpm install -D agent-qa\nnpx agent-qa init\n```\n\nFollow the [quickstart](https://vostride.com/docs/agent-qa/quickstart) to connect a model and run the demo, or [set up with your coding agent](https://vostride.com/docs/agent-qa/agent-quickstart).\n\n> [!NOTE]\n> Early stage. Expect bugs. [Report an issue](https://github.com/vostride/agent-qa/issues) when something breaks.\n\n## License\n\n[Functional Source License (FSL-1.1-ALv2)](https://github.com/vostride/agent-qa/blob/main/LICENSE.md).",
+      "truncated": false,
+      "url": "https://github.com/vostride/agent-qa#readme"
+    }
+  },
+  {
     "id": "mcp:ai-achromat-mcp-server",
     "name": "Achromat Machine Operational Memory",
     "qualifiedName": "ai.achromat/mcp-server",
