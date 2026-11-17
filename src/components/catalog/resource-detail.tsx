@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AlertTriangle, ArrowLeft, ExternalLink, GitFork, ShieldAlert, Star } from "lucide-react";
 import type { CardItem } from "@/lib/view";
-import { repoToCard, skillToCard } from "@/lib/view";
+import { publisherOf, repoToCard, skillToCard } from "@/lib/view";
 import type { Mcp, Repo, Skill } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { AiUsage } from "./ai-usage";
@@ -34,14 +34,6 @@ function downloadUrlOf(mcp: Mcp): string | null {
   if (reg === "npm") return `https://www.npmjs.com/package/${pkg.identifier}`;
   if (reg === "pypi") return `https://pypi.org/project/${pkg.identifier}/`;
   return null;
-}
-
-/** Publisher of a registry entry, from its namespace: "io.github.acme/x" → acme. */
-function publisherOf(mcp: Mcp): string | null {
-  if (mcp.source === "Official reference") return "Model Context Protocol";
-  const ns = mcp.qualifiedName.split("/")[0] ?? "";
-  if (ns.startsWith("io.github.")) return ns.slice("io.github.".length);
-  return ns.includes(".") ? ns.split(".").reverse().join(".") : null;
 }
 
 const GITHUB = /^https:\/\/github\.com\//;

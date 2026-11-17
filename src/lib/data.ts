@@ -4,7 +4,17 @@ import reposJson from "@/data/repos.json";
 import metaJson from "@/data/meta.json";
 import changesJson from "@/data/changes.json";
 import type { Skill, Mcp, Repo, Meta, CatalogChanges, ToolInput } from "./types";
-import { skillToCard, mcpToCard, repoToCard, toPaletteItem, toolIndexOf, type PaletteItem, type ToolIndexEntry } from "./view";
+import {
+  skillToCard,
+  mcpToCard,
+  repoToCard,
+  toPaletteItem,
+  toolIndexOf,
+  publisherOf,
+  mcpKindPhrase,
+  type PaletteItem,
+  type ToolIndexEntry,
+} from "./view";
 import { serverEntry, type ServerEntry } from "./ai-targets";
 import { isInstallable } from "./compat";
 import { toolSlug } from "./utils";
@@ -27,6 +37,40 @@ export function getSkill(slug: string) {
 }
 export function getMcp(slug: string) {
   return mcps.find((m) => m.slug === slug);
+}
+
+function groupBy<T>(items: T[], key: (item: T) => string) {
+  const out = new Map<string, T[]>();
+  for (const item of items) {
+    const k = key(item);
+    out.set(k, [...(out.get(k) ?? []), item]);
+  }
+  return out;
+}
+
+// Keyed by the heading the title renders, not the raw name: "Notion" and
+// "Notion MCP" are different names but both become "Notion MCP server".
+const headingOf = (m: Mcp) => `${m.name.trim()} ${mcpKindPhrase(m.name)}`.toLowerCase();
+const mcpsByName = groupBy(mcps, headingOf);
+const mcpsByDescription = groupBy(mcps, (m) => m.description.trim());
+
+/**
+ * What tells this server apart from others with the same name, for its
+ * <title>: the publisher, or the full registry name when one publisher has
+ * several. Null when the name is unique. Five names ("memory", "gmail", …)
+ * were shared, so Search Console saw identical titles and crawled one of each.
+ */
+export function mcpDisambiguator(mcp: Mcp): string | null {
+  const same = mcpsByName.get(headingOf(mcp)) ?? [];
+  if (same.length < 2) return null;
+  const publisher = publisherOf(mcp);
+  const shared = same.filter((m) => publisherOf(m) === publisher).length > 1;
+  return publisher && !shared ? publisher : mcp.qualifiedName;
+}
+
+/** True when another server publishes the exact same description. */
+export function mcpDescriptionShared(mcp: Mcp): boolean {
+  return (mcpsByDescription.get(mcp.description.trim())?.length ?? 0) > 1;
 }
 /** Other repos in the same category, most-starred first — repo pages had no related links. */
 export function relatedRepos(target: Repo, limit = 6): Repo[] {
