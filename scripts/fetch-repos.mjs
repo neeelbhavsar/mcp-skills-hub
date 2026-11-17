@@ -17,32 +17,66 @@ const QUERIES = [
   { q: "topic:awesome ai stars:>3000", category: "Awesome Lists" },
 ];
 
+// Repos nominated by their maintainers that the topic searches above don't
+// reach (Orkas carries none of those topics). Fetched live like the rest, so
+// stars and activity stay current; only the category and blurb are fixed.
+const CURATED = [
+  {
+    // Requested via a GitHub issue by the Orkas team.
+    fullName: "Orkas-AI/Orkas",
+    category: "AI Agents",
+    description:
+      "Local-first, MIT-licensed AI desktop workspace for macOS and Windows. A Commander coordinates specialist agents to take a project from research and source files to a report, presentation, code change or video. Files stay on the device by default; model usage can cost extra.",
+  },
+];
+
+const headers = () => ({
+  Accept: "application/vnd.github+json",
+  ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
+});
+
+function toRepo(r, category) {
+  return {
+    id: `repo:${slugify(r.full_name)}`,
+    name: r.name,
+    fullName: r.full_name,
+    owner: r.owner?.login,
+    slug: slugify(r.full_name),
+    description: clean(r.description || `${r.name} on GitHub.`),
+    url: r.html_url,
+    stars: r.stargazers_count,
+    forks: r.forks_count,
+    language: r.language,
+    topics: (r.topics || []).slice(0, 8),
+    license: r.license?.spdx_id && r.license.spdx_id !== "NOASSERTION" ? r.license.spdx_id : null,
+    category,
+    updatedAt: r.pushed_at,
+  };
+}
+
 async function searchRepos({ q, category }, perPage = 20) {
   const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=${perPage}`;
-  const headers = { Accept: "application/vnd.github+json" };
-  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
   try {
-    const data = await getJSON(url, { headers, label: `gh:${q}` });
-    return (data.items || []).map((r) => ({
-      id: `repo:${slugify(r.full_name)}`,
-      name: r.name,
-      fullName: r.full_name,
-      owner: r.owner?.login,
-      slug: slugify(r.full_name),
-      description: clean(r.description || `${r.name} on GitHub.`),
-      url: r.html_url,
-      stars: r.stargazers_count,
-      forks: r.forks_count,
-      language: r.language,
-      topics: (r.topics || []).slice(0, 8),
-      license: r.license?.spdx_id && r.license.spdx_id !== "NOASSERTION" ? r.license.spdx_id : null,
-      category,
-      updatedAt: r.pushed_at,
-    }));
+    const data = await getJSON(url, { headers: headers(), label: `gh:${q}` });
+    return (data.items || []).map((r) => toRepo(r, category));
   } catch (err) {
     log(`repo query failed (${q}): ${err.message}`);
     return [];
   }
+}
+
+export async function fetchCuratedRepos() {
+  const out = [];
+  for (const c of CURATED) {
+    try {
+      const r = await getJSON(`https://api.github.com/repos/${c.fullName}`, { headers: headers(), label: `gh:${c.fullName}` });
+      out.push({ ...toRepo(r, c.category), ...(c.description ? { description: clean(c.description) } : {}) });
+    } catch (err) {
+      log(`curated repo failed (${c.fullName}): ${err.message}`);
+    }
+  }
+  log(`curated repos: ${out.length}`);
+  return out;
 }
 
 export async function fetchRepos() {
@@ -53,6 +87,8 @@ export async function fetchRepos() {
     log(`${query.category}: +${repos.length} (${query.q})`);
     await sleep(TOKEN ? 300 : 6500); // respect unauth search limit (10/min)
   }
+  // After the searches, so a repo they do find keeps its search category.
+  all.push(...(await fetchCuratedRepos()));
   // Dedupe by full name, keep the first (highest-star) category assignment.
   const bySlug = new Map();
   for (const r of all) if (!bySlug.has(r.slug)) bySlug.set(r.slug, r);

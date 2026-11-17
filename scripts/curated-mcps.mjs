@@ -63,6 +63,71 @@ const CURATED = [
     remotes: [{ type: "streamable-http", url: "https://xquik.com/mcp", headers: [] }],
     packages: [],
   },
+  {
+    // Registry: dev.datacircle/datacircle — past the registry page cap.
+    qualifiedName: "dev.datacircle/datacircle",
+    name: "Datacircle",
+    category: "Marketing & Social",
+    description:
+      "Compare go-to-market (GTM) data APIs: list the APIs Datacircle tracks and search their plans and providers, best match first. Open to anyone, no API key.",
+    repository: null,
+    homepage: "https://datacircle.dev",
+    license: null,
+    remotes: [{ type: "streamable-http", url: "https://api.datacircle.dev/mcp", headers: [] }],
+    packages: [],
+  },
+  {
+    // Registry: io.corpusiq/multi-source-mcp — past the registry page cap. The
+    // linked repo holds only the published manifest; the server is closed source.
+    qualifiedName: "io.corpusiq/multi-source-mcp",
+    name: "CorpusIQ",
+    category: "Finance & Data",
+    description:
+      "One read-only endpoint over 40+ business systems, including QuickBooks, Shopify, Stripe, GA4, Google Ads, HubSpot, Salesforce, Klaviyo, Notion and Slack, with a source citation on each figure. Accounts connect through OAuth.",
+    repository: "https://github.com/CorpusIQ/mcp-manifest",
+    homepage: "https://www.corpusiq.io/docs/",
+    license: null,
+    remotes: [{ type: "streamable-http", url: "https://mcp2.corpusiq.io/mcp", headers: [] }],
+    packages: [],
+  },
+  {
+    // Registry: cloud.dchub/mcp-server — past the registry page cap. The record
+    // also lists the `dchub-mcp-server` npm package, but the publisher asked
+    // for the hosted endpoint, and a package would take precedence in launchFor.
+    qualifiedName: "cloud.dchub/mcp-server",
+    name: "DC Hub",
+    category: "Finance & Data",
+    description:
+      "Data for data-center site selection: the daily Data Center Power Index of grid-power availability across 300+ markets, plus grid, interconnection, energy, market and facility search. Each result carries its source and as-of date. Free to start.",
+    repository: "https://github.com/azmartone67/dchub-mcp-server",
+    homepage: "https://dchub.cloud",
+    license: "MIT",
+    remotes: [{ type: "streamable-http", url: "https://dchub.cloud/mcp", headers: [] }],
+    packages: [],
+  },
+  {
+    // Not on the registry — submitted by vostride. The server runs through the
+    // project's own agent-qa CLI, matching the entry `agent-qa init` writes.
+    qualifiedName: "com.vostride/agent-qa",
+    name: "agent-qa",
+    category: "Dev Tools & Git",
+    description:
+      "Natural-language QA for web, Android and iOS from your coding agent, with a memory of past runs that keeps checked facts and retires stale ones. Runs locally: needs Node.js 24+, agent-qa installed and initialised in the project, and model access.",
+    repository: "https://github.com/vostride/agent-qa",
+    homepage: "https://vostride.com",
+    license: "FSL-1.1-ALv2",
+    remotes: [],
+    packages: [
+      {
+        registryType: "npm",
+        identifier: "agent-qa",
+        version: "0.3.9",
+        transport: "stdio",
+        args: ["--config", "agent-qa.config.yaml", "mcp"],
+      },
+    ],
+    source: "Publisher submission",
+  },
 ];
 
 export async function fetchCuratedMCPs() {
