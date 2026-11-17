@@ -102,7 +102,10 @@ function displayName(title, qualifiedName) {
  * catalog, so this is a build-size budget (~5 KB per server), not a fetch
  * limit: the whole registry is always read, then ranked and trimmed.
  */
-const REGISTRY_KEEP = Number(process.env.REGISTRY_KEEP) || 500;
+// Raised from 500 when 165 servers wrongly dropped by the paged walk were
+// restored: listed servers are never evicted, so without headroom the
+// catalog would stop taking new ones.
+const REGISTRY_KEEP = Number(process.env.REGISTRY_KEEP) || 700;
 /** Safety stop for the pager — the registry is ~20k versions today. */
 const REGISTRY_MAX_PAGES = 600;
 
@@ -152,7 +155,9 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
   let complete = false;
   try {
     while (pages++ < REGISTRY_MAX_PAGES) {
-      const url = `https://registry.modelcontextprotocol.io/v0/servers?limit=100${cursor ? `&cursor=${cursor}` : ""}`;
+      // Cursors are "name:version"; sent raw, a version with "+" build metadata
+      // reaches the server as a space and the walk resumes somewhere else.
+      const url = `https://registry.modelcontextprotocol.io/v0/servers?limit=100${cursor ? `&cursor=${encodeURIComponent(cursor)}` : ""}`;
       const data = await getJSON(url, { label: "mcp-registry" });
       const servers = data.servers || [];
       for (const entry of servers) {
@@ -194,10 +199,15 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
         });
       }
       cursor = data.metadata?.nextCursor || data.metadata?.next_cursor || "";
-      if (!cursor || servers.length === 0) break;
+      if (!cursor || servers.length === 0) {
+        // Only running out of pages is a full read; stopping at the page cap
+        // is as partial as a failed request.
+        complete = true;
+        break;
+      }
       await sleep(250);
     }
-    complete = true;
+    if (!complete) log(`official registry: stopped at the ${REGISTRY_MAX_PAGES}-page cap`);
   } catch (err) {
     log(`official registry failed after ${out.length} servers: ${err.message}`);
   }
@@ -214,6 +224,26 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
   // One entry per slug (the feed can repeat a name across versions), then the
   // best-ranked `keep`, newest first within a score.
   const unique = [...new Map(out.map((s) => [s.slug, s])).values()];
+
+  // A complete walk is still not proof of removal: on 2026-11-17 one missed
+  // 15 servers the registry lists as active (a contiguous block, so pages
+  // skipped mid-walk), and each became a 404 page Google had already crawled.
+  // Ask about each unseen server directly; only a 404 or a non-active status
+  // takes it out of the catalog.
+  if (complete) {
+    const seen = new Set(unique.map((x) => x.slug));
+    const unseen = [...previousEntries.values()].filter((m) => !seen.has(m.slug));
+    let kept = 0;
+    for (const m of unseen) {
+      if (await stillListed(m.qualifiedName)) {
+        unique.push(m);
+        kept++;
+      }
+      await sleep(100);
+    }
+    if (unseen.length) log(`official registry: ${unseen.length} listed servers missing from the walk, ${kept} still listed and kept`);
+  }
+
   const perNamespace = new Map();
   // Stickiness. A server that is already in the catalog stays as long as the
   // registry still lists it; only the free slots are competed for. Ranking
@@ -248,6 +278,28 @@ async function fromOfficialRegistry(keep = REGISTRY_KEEP) {
       `(${previous.size - retained.length} previously listed are gone from the registry)`,
   );
   return kept;
+}
+
+/**
+ * Is this server still active on the registry? Asked one server at a time, so
+ * it doesn't depend on the paged walk. Anything other than a clear "gone" —
+ * a network error, a 5xx — counts as still listed: dropping a live page is
+ * worse than keeping a dead one for another day.
+ */
+async function stillListed(name) {
+  try {
+    const res = await fetch(
+      `https://registry.modelcontextprotocol.io/v0/servers/${encodeURIComponent(name)}/versions/latest`,
+      { headers: { Accept: "application/json" }, signal: AbortSignal.timeout(15000) },
+    );
+    if (res.status === 404) return false;
+    if (!res.ok) return true;
+    const body = await res.json();
+    const meta = body._meta?.["io.modelcontextprotocol.registry/official"] ?? {};
+    return !meta.status || meta.status === "active";
+  } catch {
+    return true;
+  }
 }
 
 /** Registry servers in the committed catalog, by slug, so the refresh can keep them stable. */
