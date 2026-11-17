@@ -16,20 +16,19 @@
       "Data & Analysis": 53
     },
     "mcps": {
-      "Dev Tools & Git": 37,
-      "Web & Search": 81,
-      "AI & Memory": 121,
-      "Productivity": 59,
-      "Docs & Knowledge": 23,
+      "Dev Tools & Git": 31,
+      "Web & Search": 82,
+      "AI & Memory": 119,
+      "Productivity": 61,
+      "Docs & Knowledge": 24,
       "Marketing & Social": 6,
       "Legal & Government": 12,
-      "Design & Media": 17,
-      "Other": 75,
-      "Finance & Data": 25,
+      "Design & Media": 18,
+      "Other": 80,
+      "Finance & Data": 24,
       "Commerce & Retail": 6,
-      "Databases & Storage": 25,
       "Cloud & DevOps": 21,
-      "Health & Science": 1
+      "Databases & Storage": 25
     },
     "repos": {
       "MCP & Tooling": 20,

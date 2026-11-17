@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:21:39.004Z",
+  "generatedAt": "2026-11-17T15:49:53.815Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -13,8 +13,16 @@
           "name": "modern-web-guidance",
           "description": "Keep your coding agent up to date with the latest web best practices",
           "category": "Automation & Workflow",
-          "delta": 2663,
-          "stars": 19437
+          "delta": 2323,
+          "stars": 21760
+        },
+        {
+          "slug": "amazon-selling-partner",
+          "name": "amazon-selling-partner",
+          "description": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, then review and approve every listing, inventory or FBA action before it runs. Bundles the Amazon Selling Partner MCP server (Seller Central OAuth on first use).…",
+          "category": "Coding & Engineering",
+          "delta": 6,
+          "stars": 45
         }
       ],
       "counts": {
@@ -30,98 +38,203 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-inshihub-inshihub",
-          "name": "院試hub (Japanese graduate entrance exams)",
-          "description": "Japanese graduate entrance exam (院試) data: exam topics, official past papers, similar programs.",
+          "slug": "com-rewardsfuel-rfwin",
+          "name": "RFWIN: provably fair winner draws",
+          "description": "Free verifiable giveaway winner picker: run a draw, get a public proof link anyone can verify.",
           "category": "Other"
         },
         {
-          "slug": "com-gexiro-dach-pulse-mcp",
-          "name": "Gexiro DACH Pulse & Alexa Voice Suite MCP",
-          "description": "Keyless DACH & home MCP (18 tools): DB rail, EPEX power, NINA/DWD alerts, fuel, airfryer & FX.",
+          "slug": "ai-alexein-memory",
+          "name": "Alexein AI",
+          "description": "Persistent personal memory for AI assistants: search what you told it before and save new facts.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-autoblocks-ctxl",
+          "name": "ctxl",
+          "description": "Personal context management for AI assistants",
           "category": "Other"
         },
         {
-          "slug": "co-dockai-mcp",
-          "name": "Dock AI",
-          "description": "Discover MCP endpoints for real-world entities by resolving business domains.",
+          "slug": "ai-autoblocks-ctxl-mcp",
+          "name": "ctxl-mcp",
+          "description": "Personal context management for AI assistants",
           "category": "Other"
         },
         {
-          "slug": "ai-com-mcp-hapi-mcp",
-          "name": "HAPI MCP Server",
-          "description": "HAPI MCP server: Dynamically exposes OpenAPI REST APIs as MCP tools for AI assistants",
+          "slug": "ai-autoblocks-contextlayer-mcp",
+          "name": "contextlayer-mcp",
+          "description": "Personal context management for AI assistants",
           "category": "Other"
         },
         {
-          "slug": "ai-com-mcp-petstore",
-          "name": "Petstore MCP Server",
-          "description": "Swagger Petstore API (v1.0.27) as MCP for testing and prototyping powered by the HAPI MCP server",
-          "category": "Other"
+          "slug": "com-getguru-mcp-server",
+          "name": "Guru Remote MCP Server",
+          "description": "Guru MCP Server - Connect AI tools to your Guru knowledge base",
+          "category": "Docs & Knowledge"
         },
         {
-          "slug": "ai-com-mcp-contabo",
-          "name": "Contabo (VPS) MCP Server",
-          "description": "Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server",
-          "category": "Cloud & DevOps"
+          "slug": "com-docfork-docfork-mcp",
+          "name": "docfork-mcp",
+          "description": "Up-to-date docs for AI. DEPRECATED: Use io.github.docfork/docfork instead.",
+          "category": "Dev Tools & Git"
         },
         {
-          "slug": "ai-parallel-task-mcp",
-          "name": "Parallel Task MCP",
-          "description": "An MCP server for deep research or task groups",
+          "slug": "com-qualityclouds-mcp-server-qualityclouds",
+          "name": "LiveCheck AI",
+          "description": "Secure MCP runtime server for scanning and autofixing code issues",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-historicalsoundscapes-www-semantic-search",
+          "name": "semantic-search",
+          "description": "Semantic search for Historical Soundscapes. Search eventos, entities, filters. Cross-lingual ES/EN.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "ai-mailjunky-mcp",
+          "name": "MailJunky",
+          "description": "Send emails, track events, and manage contacts with MailJunky.",
           "category": "Productivity"
+        },
+        {
+          "slug": "ai-filegraph-document-processing",
+          "name": "document-processing",
+          "description": "Extract text from documents, manipulate PDFs, and perform OCR on images.",
+          "category": "Design & Media"
+        },
+        {
+          "slug": "ai-specproof-specproof-mcp",
+          "name": "SpecProof",
+          "description": "SpecProof: Search standards specs with MCP-ready precision.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-entity0-entity-mcp",
+          "name": "entity-mcp",
+          "description": "Access 30+ AI agent essays, CLAUDE.md generator, and readiness assessments.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-homevisto-mcp-server",
+          "name": "Homevisto MCP",
+          "description": "Browse property verification missions. Connect with Scouts for GPS-verified tours.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-joinnod-mcp",
+          "name": "Joinnod MCP",
+          "description": "Professional network for AI agents. Discover and connect with professionals.",
+          "category": "AI & Memory"
         }
       ],
       "removed": [
         {
-          "slug": "io-github-ailife1-cathedral-mcp",
-          "name": "Cathedral — Persistent Memory for AI Agents",
-          "description": "Persistent memory and drift detection for AI agents across session restarts.",
+          "slug": "io-github-0mattias-bettermemory",
+          "name": "bettermemory",
+          "description": "Memory for coding agents, checked against the filesystem and git before it is believed.",
           "category": "AI & Memory"
         },
         {
-          "slug": "io-github-ainative-studio-ainative-browser-mcp",
-          "name": "ainative-browser-mcp",
-          "description": "AI-powered browser automation MCP — 6 tools for web interaction, extraction, and validation.",
+          "slug": "io-github-0xhedgehood-hedgehood-options",
+          "name": "Hedgehood Options",
+          "description": "Stock options market for AI agents on Robinhood Chain: RFQ quotes, buy/close, P&L, x402 deposits.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "io-github-0xka13b-ms-calendar-mcp",
+          "name": "ms-calendar-mcp",
+          "description": "Microsoft Calendar (Outlook Calendar) MCP server for managing events via Microsoft Graph.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-14manj01-camsentry-mcp",
+          "name": "camsentry-mcp",
+          "description": "A local vision model watches your Wyze cameras, remembers what it saw and alerts you. Read-only.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-330899935-apiary-memory",
+          "name": "Apiary Memory",
+          "description": "Local-first memory for AI agents, over MCP on your machine. Agents propose; only you confirm.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-330899935-hive-memory",
+          "name": "Memory Hive",
+          "description": "Local-first memory over MCP. Built-in SQLite store; runs standalone. Agents propose; you confirm.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-4hmetuyar-memory-poisoning-scanner",
+          "name": "memory-poisoning-scanner",
+          "description": "Scans agent code for untrusted input poisoning persistent cross-session memory",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-4rgon4ut-sutra",
+          "name": "sutra",
+          "description": "Context Engineering Engine. Provides cognitive tools, memory structures, and agent patterns.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "io-github-4robot-hexadata",
+          "name": "hexadata",
+          "description": "Official public data as MCP tools: EU/US tenders, NPI Registry, UK Companies House, Mexico data.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-4robot-hexadata-tools",
+          "name": "hexadata-tools",
+          "description": "15 deterministic validation tools for AI agents: tax IDs (15 countries), VAT, IBAN, LEI, HS codes.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-6mickswagger9-mytollbooth-calendar-mcp",
+          "name": "mytollbooth-calendar-mcp",
+          "description": "x402 scheduling API: availability, conflicts, multi-party coordination for AI agents.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-8beeeaaat-touchdesigner-mcp-server",
+          "name": "touchdesigner-mcp-server",
+          "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-a1-x-tech-mcp-google-calendar",
+          "name": "Google Calendar MCP",
+          "description": "MCP server for the Google Calendar API: events, recurrence, invitations, availability, calendars.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "io-github-a1-x-tech-mcp-google-drive",
+          "name": "Google Drive MCP",
+          "description": "MCP server for the Google Drive API: search, upload, download, organize and share files.",
           "category": "Web & Search"
         },
         {
-          "slug": "io-github-ainative-studio-ainative-opencode-memory-mcp",
-          "name": "ainative-opencode-memory-mcp",
-          "description": "Persistent cross-session memory for OpenCode and MCP coding agents, powered by ZeroDB.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-ainative-studio-ainative-postgres-mcp",
-          "name": "ainative-postgres-mcp",
-          "description": "Zero-config Postgres MCP with auto-provisioning — drop-in for server-postgres.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-aiops-tools-mysql-aiops",
-          "name": "MySQL AIops",
-          "description": "Governed MySQL/MariaDB DBA ops: slow-query, lock-wait, replication & fragmentation RCA; 35 tools.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-aiops-tools-postgres-aiops",
-          "name": "Postgres AIops",
-          "description": "Governed PostgreSQL DBA ops: slow-query RCA, bloat/vacuum & blocking-lock analysis; 35 MCP tools.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-aiops-tools-xcpng-aiops",
-          "name": "XCP-ng AIops",
-          "description": "Governed XCP-ng ops via Xen Orchestra — 29 MCP tools with audit, budget, undo guards.",
-          "category": "Dev Tools & Git"
+          "slug": "io-github-a1-x-tech-mcp-google-gmail",
+          "name": "Gmail MCP",
+          "description": "MCP server for the Gmail API: search, read and send email, manage drafts, labels and the trash.",
+          "category": "Web & Search"
         }
       ],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "dev-emisar-emisar",
+          "name": "emisar",
+          "description": "Let AI operate servers without SSH. Choose actions, approve risky changes, and audit every step.",
+          "category": "Other",
+          "delta": 37,
+          "stars": 413
+        }
+      ],
       "counts": {
-        "added": 7,
-        "removed": 7,
+        "added": 15,
+        "removed": 15,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 509,
