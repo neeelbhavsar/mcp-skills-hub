@@ -1,6 +1,7 @@
 // Fetch top GitHub repos useful in AI workflows via the Search API.
 // Optional GITHUB_TOKEN lifts rate limits (30 req/min search, 5000/hr core).
 
+import { readFile } from "node:fs/promises";
 import { getJSON, clean, slugify, log, sleep } from "./lib/util.mjs";
 import { attachReadmes } from "./lib/readme.mjs";
 
@@ -79,6 +80,43 @@ export async function fetchCuratedRepos() {
   return out;
 }
 
+/**
+ * Repos already in the catalog that today's searches didn't return. Each
+ * search keeps only its top 20 by stars, so a repo slipping a few places
+ * dropped out and its page turned into a 404 Google had already crawled.
+ * Listed repos now stay until GitHub says they're gone or archived.
+ */
+async function fetchRetainedRepos(seen) {
+  let previous = [];
+  try {
+    previous = JSON.parse(await readFile(new URL("../src/data/repos.json", import.meta.url), "utf8"));
+  } catch {
+    return [];
+  }
+  const out = [];
+  let dropped = 0;
+  for (const prev of previous.filter((p) => !seen.has(p.slug))) {
+    try {
+      const r = await getJSON(`https://api.github.com/repos/${prev.fullName}`, {
+        headers: headers(),
+        label: `gh:${prev.fullName}`,
+      });
+      if (r.archived) {
+        dropped++;
+        continue;
+      }
+      // Keep the old slug so a renamed repo keeps its URL.
+      out.push({ ...toRepo(r, prev.category), id: prev.id, slug: prev.slug });
+    } catch (err) {
+      if (/HTTP 404/.test(err.message)) dropped++;
+      // Any other failure says nothing about the repo; keep it as it was.
+      else out.push(prev);
+    }
+  }
+  log(`retained repos: ${out.length} kept outside today's searches, ${dropped} gone or archived`);
+  return out;
+}
+
 export async function fetchRepos() {
   const all = [];
   for (const query of QUERIES) {
@@ -89,6 +127,7 @@ export async function fetchRepos() {
   }
   // After the searches, so a repo they do find keeps its search category.
   all.push(...(await fetchCuratedRepos()));
+  all.push(...(await fetchRetainedRepos(new Set(all.map((r) => r.slug)))));
   // Dedupe by full name, keep the first (highest-star) category assignment.
   const bySlug = new Map();
   for (const r of all) if (!bySlug.has(r.slug)) bySlug.set(r.slug, r);

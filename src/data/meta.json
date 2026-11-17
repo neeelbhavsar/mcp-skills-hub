@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-17T17:43:50Z",
+  "updatedAt": "2026-11-17T18:37:33Z",
   "counts": {
     "skills": 340,
-    "mcps": 513,
-    "repos": 121
+    "mcps": 678,
+    "repos": 131
   },
   "categories": {
     "skills": {
@@ -16,28 +16,28 @@
       "Data & Analysis": 53
     },
     "mcps": {
-      "Dev Tools & Git": 32,
-      "Web & Search": 82,
-      "AI & Memory": 119,
-      "Productivity": 61,
-      "Docs & Knowledge": 24,
-      "Marketing & Social": 7,
+      "Dev Tools & Git": 150,
+      "Web & Search": 90,
+      "AI & Memory": 144,
+      "Productivity": 63,
+      "Docs & Knowledge": 25,
+      "Marketing & Social": 8,
       "Legal & Government": 12,
-      "Design & Media": 18,
+      "Design & Media": 19,
       "Other": 80,
-      "Finance & Data": 26,
-      "Commerce & Retail": 6,
-      "Cloud & DevOps": 21,
-      "Databases & Storage": 25
+      "Finance & Data": 28,
+      "Commerce & Retail": 7,
+      "Cloud & DevOps": 25,
+      "Databases & Storage": 27
     },
     "repos": {
-      "MCP & Tooling": 20,
-      "AI Agents": 27,
-      "LLM Frameworks": 9,
-      "Coding Assistants": 18,
-      "RAG & Retrieval": 14,
-      "Prompts": 15,
-      "Awesome Lists": 18
+      "MCP & Tooling": 23,
+      "AI Agents": 28,
+      "LLM Frameworks": 10,
+      "Coding Assistants": 19,
+      "RAG & Retrieval": 15,
+      "Prompts": 16,
+      "Awesome Lists": 20
     }
   },
   "sources": {

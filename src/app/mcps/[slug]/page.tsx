@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { mcps, getMcp } from "@/lib/data";
-import { mcpToCard } from "@/lib/view";
+import { mcps, getMcp, mcpDescriptionShared, mcpDisambiguator } from "@/lib/data";
+import { mcpKindPhrase, mcpToCard } from "@/lib/view";
 import { ResourceDetail } from "@/components/catalog/resource-detail";
 import { detailTitle, ogTitle, resourcePath } from "@/lib/seo";
 import { clip } from "@/lib/utils";
@@ -20,10 +20,12 @@ export async function generateMetadata({
   const { slug } = await params;
   const mcp = getMcp(slug);
   if (!mcp) return {};
-  // "Filesystem MCP server", but not "Acme MCP MCP server".
-  const kindPhrase = /mcp/i.test(mcp.name) ? "server" : "MCP server";
+  const by = mcpDisambiguator(mcp);
+  const kindPhrase = mcpKindPhrase(mcp.name) + (by ? ` by ${by}` : "");
   const title = detailTitle(mcp.name, kindPhrase, "install in Claude, Cursor & VS Code");
-  const description = clip(mcp.description);
+  // Duplicate registry entries share a description word for word; leading
+  // with the registry name keeps their snippets distinct.
+  const description = clip(mcpDescriptionShared(mcp) ? `${mcp.qualifiedName}: ${mcp.description}` : mcp.description);
   const path = resourcePath("mcps", slug);
   return {
     title,

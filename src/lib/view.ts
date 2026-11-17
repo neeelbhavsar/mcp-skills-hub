@@ -61,6 +61,22 @@ export function skillToCard(s: Skill): CardItem {
   };
 }
 
+/**
+ * "Filesystem MCP server", but not "Acme MCP MCP server" or "CalendarMCP MCP
+ * server" — so the check is "mcp" ending a word, not a whole word.
+ */
+export function mcpKindPhrase(name: string): string {
+  return /mcp\b/i.test(name) ? "server" : "MCP server";
+}
+
+/** Publisher of a registry entry, from its namespace: "io.github.acme/x" → acme. */
+export function publisherOf(mcp: Mcp): string | null {
+  if (mcp.source === "Official reference") return "Model Context Protocol";
+  const ns = mcp.qualifiedName.split("/")[0] ?? "";
+  if (ns.startsWith("io.github.")) return ns.slice("io.github.".length);
+  return ns.includes(".") ? ns.split(".").reverse().join(".") : null;
+}
+
 export function mcpToCard(m: Mcp): CardItem {
   const runtime = m.packages[0]?.registryType || (m.remotes.length ? "remote" : null);
   return {
