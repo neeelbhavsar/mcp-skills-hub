@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:49:53.815Z",
+  "generatedAt": "2026-11-18T15:30:38.138Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -7,24 +7,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "modern-web-guidance",
-          "name": "modern-web-guidance",
-          "description": "Keep your coding agent up to date with the latest web best practices",
-          "category": "Automation & Workflow",
-          "delta": 2323,
-          "stars": 21760
-        },
-        {
-          "slug": "amazon-selling-partner",
-          "name": "amazon-selling-partner",
-          "description": "Connect your Amazon Seller Central account to Claude. Ask about sales, inventory, and listing performance and get recommendations grounded in your own data, then review and approve every listing, inventory or FBA action before it runs. Bundles the Amazon Selling Partner MCP server (Seller Central OAuth on first use).…",
-          "category": "Coding & Engineering",
-          "delta": 6,
-          "stars": 45
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
@@ -38,207 +21,220 @@
       "baseline": true,
       "added": [
         {
-          "slug": "com-rewardsfuel-rfwin",
-          "name": "RFWIN: provably fair winner draws",
-          "description": "Free verifiable giveaway winner picker: run a draw, get a public proof link anyone can verify.",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-alexein-memory",
-          "name": "Alexein AI",
-          "description": "Persistent personal memory for AI assistants: search what you told it before and save new facts.",
+          "slug": "com-chinadrivetest-mcp",
+          "name": "ChinaDriveTest — China Subject 1 Exam Bank, Airport Driving Permit & DMV Conversion Engine",
+          "description": "Search 2,545 China Subject 1 driving test questions, airport permits, DMV swaps & road signs.",
           "category": "Web & Search"
         },
         {
-          "slug": "ai-autoblocks-ctxl",
-          "name": "ctxl",
-          "description": "Personal context management for AI assistants",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-autoblocks-ctxl-mcp",
-          "name": "ctxl-mcp",
-          "description": "Personal context management for AI assistants",
-          "category": "Other"
-        },
-        {
-          "slug": "ai-autoblocks-contextlayer-mcp",
-          "name": "contextlayer-mcp",
-          "description": "Personal context management for AI assistants",
-          "category": "Other"
-        },
-        {
-          "slug": "com-getguru-mcp-server",
-          "name": "Guru Remote MCP Server",
-          "description": "Guru MCP Server - Connect AI tools to your Guru knowledge base",
-          "category": "Docs & Knowledge"
-        },
-        {
-          "slug": "com-docfork-docfork-mcp",
-          "name": "docfork-mcp",
-          "description": "Up-to-date docs for AI. DEPRECATED: Use io.github.docfork/docfork instead.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-qualityclouds-mcp-server-qualityclouds",
-          "name": "LiveCheck AI",
-          "description": "Secure MCP runtime server for scanning and autofixing code issues",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "com-historicalsoundscapes-www-semantic-search",
-          "name": "semantic-search",
-          "description": "Semantic search for Historical Soundscapes. Search eventos, entities, filters. Cross-lingual ES/EN.",
-          "category": "Web & Search"
-        },
-        {
-          "slug": "ai-mailjunky-mcp",
-          "name": "MailJunky",
-          "description": "Send emails, track events, and manage contacts with MailJunky.",
+          "slug": "com-plainrecordlabs-official-release-calendar",
+          "name": "Economic Release Calendar: Eurostat, ECB and ONS (unofficial)",
+          "description": "Eurostat, ECB and ONS release dates, no figures. Apify token needed. 0.005 USD a release date",
           "category": "Productivity"
         },
         {
-          "slug": "ai-filegraph-document-processing",
-          "name": "document-processing",
-          "description": "Extract text from documents, manipulate PDFs, and perform OCR on images.",
-          "category": "Design & Media"
-        },
-        {
-          "slug": "ai-specproof-specproof-mcp",
-          "name": "SpecProof",
-          "description": "SpecProof: Search standards specs with MCP-ready precision.",
+          "slug": "ai-bumblebeez-browser",
+          "name": "Bumblebeez",
+          "description": "BrowserBox cloud browser workspaces with Grip. Assisted early access requires an issued credential.",
           "category": "Web & Search"
         },
         {
-          "slug": "com-entity0-entity-mcp",
-          "name": "entity-mcp",
-          "description": "Access 30+ AI agent essays, CLAUDE.md generator, and readiness assessments.",
-          "category": "AI & Memory"
+          "slug": "com-gitscrum-mcp",
+          "name": "Gitscrum MCP",
+          "description": "MCP server for GitScrum — manage tasks, sprints, time tracking, and client workflows via AI",
+          "category": "Productivity"
         },
         {
-          "slug": "com-homevisto-mcp-server",
-          "name": "Homevisto MCP",
-          "description": "Browse property verification missions. Connect with Scouts for GPS-verified tours.",
-          "category": "Other"
-        },
-        {
-          "slug": "com-joinnod-mcp",
-          "name": "Joinnod MCP",
-          "description": "Professional network for AI agents. Discover and connect with professionals.",
-          "category": "AI & Memory"
-        }
-      ],
-      "removed": [
-        {
-          "slug": "io-github-0mattias-bettermemory",
-          "name": "bettermemory",
-          "description": "Memory for coding agents, checked against the filesystem and git before it is believed.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-0xhedgehood-hedgehood-options",
-          "name": "Hedgehood Options",
-          "description": "Stock options market for AI agents on Robinhood Chain: RFQ quotes, buy/close, P&L, x402 deposits.",
+          "slug": "com-nullpath-marketplace",
+          "name": "nullpath Agent Marketplace",
+          "description": "Discover and hire AI agents with micropayments. Search, check reputation, get pricing.",
           "category": "Finance & Data"
         },
         {
-          "slug": "io-github-0xka13b-ms-calendar-mcp",
-          "name": "ms-calendar-mcp",
-          "description": "Microsoft Calendar (Outlook Calendar) MCP server for managing events via Microsoft Graph.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-14manj01-camsentry-mcp",
-          "name": "camsentry-mcp",
-          "description": "A local vision model watches your Wyze cameras, remembers what it saw and alerts you. Read-only.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-330899935-apiary-memory",
-          "name": "Apiary Memory",
-          "description": "Local-first memory for AI agents, over MCP on your machine. Agents propose; only you confirm.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-330899935-hive-memory",
-          "name": "Memory Hive",
-          "description": "Local-first memory over MCP. Built-in SQLite store; runs standalone. Agents propose; you confirm.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-4hmetuyar-memory-poisoning-scanner",
-          "name": "memory-poisoning-scanner",
-          "description": "Scans agent code for untrusted input poisoning persistent cross-session memory",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-4rgon4ut-sutra",
-          "name": "sutra",
-          "description": "Context Engineering Engine. Provides cognitive tools, memory structures, and agent patterns.",
-          "category": "AI & Memory"
-        },
-        {
-          "slug": "io-github-4robot-hexadata",
-          "name": "hexadata",
-          "description": "Official public data as MCP tools: EU/US tenders, NPI Registry, UK Companies House, Mexico data.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-4robot-hexadata-tools",
-          "name": "hexadata-tools",
-          "description": "15 deterministic validation tools for AI agents: tax IDs (15 countries), VAT, IBAN, LEI, HS codes.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-6mickswagger9-mytollbooth-calendar-mcp",
-          "name": "mytollbooth-calendar-mcp",
-          "description": "x402 scheduling API: availability, conflicts, multi-party coordination for AI agents.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-8beeeaaat-touchdesigner-mcp-server",
-          "name": "touchdesigner-mcp-server",
-          "description": "MCP server for TouchDesigner - Control and operate TouchDesigner projects through AI agents",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-a1-x-tech-mcp-google-calendar",
-          "name": "Google Calendar MCP",
-          "description": "MCP server for the Google Calendar API: events, recurrence, invitations, availability, calendars.",
-          "category": "Dev Tools & Git"
-        },
-        {
-          "slug": "io-github-a1-x-tech-mcp-google-drive",
-          "name": "Google Drive MCP",
-          "description": "MCP server for the Google Drive API: search, upload, download, organize and share files.",
+          "slug": "com-norvstar-mcp-server",
+          "name": "Norvstar — Professional Identity MCP Server",
+          "description": "Query professional profiles, search candidates, and get AI-powered summaries and job fit analysis.",
           "category": "Web & Search"
         },
         {
-          "slug": "io-github-a1-x-tech-mcp-google-gmail",
-          "name": "Gmail MCP",
-          "description": "MCP server for the Gmail API: search, read and send email, manage drafts, labels and the trash.",
+          "slug": "ai-rapay-mcp-server",
+          "name": "Ra Pay",
+          "description": "Send fiat payments via MCP with two-step confirmation and Stripe Connect.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-mobile-text-alerts-sms-mcp",
+          "name": "sms-mcp",
+          "description": "The Mobile Text Alerts SMS MCP server enables your AI to send SMS messages & manage contacts",
+          "category": "Other"
+        },
+        {
+          "slug": "com-hapticpaper-mcp",
+          "name": "Haptic Paper",
+          "description": "Connect your AI to human workers. Get paid to help AI.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-zype-mcp-server",
+          "name": "Zype MCP",
+          "description": "Manage videos, playlists, analytics, and monetization for OTT streaming services.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-traderhc-agenthc",
+          "name": "AgentHC Market Intelligence",
+          "description": "Market intelligence for AI agents. Real-time data, cross-market analysis, and regime detection.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-zigpoll-zigpoll-mcp",
+          "name": "Zigpoll",
+          "description": "Analyze Zigpoll survey responses, track trends, and get AI-powered insights.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-agentpmt-agentpmt",
+          "name": "agentpmt",
+          "description": "AI agent marketplace for automated employees, workflows, skills, and tool orchestration.",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-po6-mailbox",
+          "name": "PO6 Mailbox",
+          "description": "Give AI agents secure access to your email via private aliases with dedicated mailbox storage.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "com-aiqbee-brain",
+          "name": "Aiqbee Brain",
+          "description": "AI knowledge graph for architecture, portfolio, and digital strategy management.",
+          "category": "AI & Memory"
+        },
+        {
+          "slug": "co-heyspark-mcp-server",
+          "name": "Heyspark MCP",
+          "description": "Search and discover local businesses. 30+ categories with verified contact info, hours, and reviews.",
           "category": "Web & Search"
+        },
+        {
+          "slug": "com-usepopup-organizer",
+          "name": "PopUp Organizer",
+          "description": "Read-only MCP server for PopUp — search vendors, manage events, and track applications.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-arcself-arc-security",
+          "name": "arc-security",
+          "description": "Scan AI agent skills for 25 attack classes + runtime monitoring. 1,316+ findings.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "ai-websitepublisher-mcp",
+          "name": "Websitepublisher MCP",
+          "description": "Build and publish websites through AI conversation.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "com-rootly-mcp-server",
+          "name": "Rootly",
+          "description": "Incident management, on-call scheduling, and intelligent analysis powered by Rootly.",
+          "category": "Other"
+        },
+        {
+          "slug": "com-lassare-ask",
+          "name": "Lassare",
+          "description": "Human-in-the-loop for AI coding agents — ask questions, get approvals via Slack.",
+          "category": "Productivity"
+        },
+        {
+          "slug": "app-qwady-borough",
+          "name": "Borough NYC Real Estate API",
+          "description": "Search NYC rentals and sales, property details, building data, and market analytics",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "ai-telbase-deploy",
+          "name": "Telbase",
+          "description": "Deploy any web project with one command. AI-native platform with self-healing feedback.",
+          "category": "Cloud & DevOps"
+        },
+        {
+          "slug": "com-axiomatic-ai-prover",
+          "name": "prover",
+          "description": "Lean 4 MCP server: compile, prove theorems, and formalize math with Mathlib.",
+          "category": "Other"
+        },
+        {
+          "slug": "agency-lona-trading",
+          "name": "trading",
+          "description": "AI-powered trading strategy development: backtesting, market data, and portfolio analysis",
+          "category": "Finance & Data"
+        },
+        {
+          "slug": "com-lightres-booking",
+          "name": "booking",
+          "description": "Browse venues, check availability, view effects, get pricing, and book architectural lighting.",
+          "category": "Commerce & Retail"
+        },
+        {
+          "slug": "com-meetvalis-valis-credit-intelligence",
+          "name": "valis-credit-intelligence",
+          "description": "Private credit intelligence: company search, credit models, IC memos, and live market data.",
+          "category": "Web & Search"
+        },
+        {
+          "slug": "dev-sourced-sourced",
+          "name": "Sourced",
+          "description": "Source code search for every package on PyPI and npm.",
+          "category": "Dev Tools & Git"
+        },
+        {
+          "slug": "com-emergentphysicslab-waveguard",
+          "name": "WaveGuard",
+          "description": "Anomaly detection API powered by physics simulation. Scan any data for outliers.",
+          "category": "Other"
+        },
+        {
+          "slug": "ai-clarid-compliance",
+          "name": "Clarid Compliance",
+          "description": "Check bank marketing for FDIC, NCUA, TILA, Reg DD, Reg Z, UDAAP, and Equal Housing compliance.",
+          "category": "Legal & Government"
+        },
+        {
+          "slug": "ai-clarid-hmda",
+          "name": "Clarid HMDA Validator",
+          "description": "Validate HMDA LAR files against CFPB edit checks for community banks and credit unions.",
+          "category": "Other"
         }
       ],
+      "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [
+        {
+          "slug": "io-github-graphicle-ai-graphicle",
+          "name": "Graphicle",
+          "description": "Code graph and project memory for coding agents, cited to exact files and lines, on your machine.",
+          "category": "Dev Tools & Git",
+          "delta": 96,
+          "stars": 581
+        },
         {
           "slug": "dev-emisar-emisar",
           "name": "emisar",
           "description": "Let AI operate servers without SSH. Choose actions, approve risky changes, and audit every step.",
           "category": "Other",
-          "delta": 37,
-          "stars": 413
+          "delta": 49,
+          "stars": 462
         }
       ],
       "counts": {
-        "added": 15,
-        "removed": 15,
+        "added": 31,
+        "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 509,
-        "currentTotal": 509
+        "previousTotal": 678,
+        "currentTotal": 709
       }
     },
     "repos": {
@@ -253,8 +249,8 @@
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 120,
-        "currentTotal": 120
+        "previousTotal": 131,
+        "currentTotal": 131
       }
     }
   }
