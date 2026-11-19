@@ -3,7 +3,7 @@
   "counts": {
     "skills": 340,
     "mcps": 709,
-    "repos": 131
+    "repos": 132
   },
   "categories": {
     "skills": {
@@ -16,9 +16,9 @@
       "Data & Analysis": 53
     },
     "mcps": {
-      "Dev Tools & Git": 151,
+      "Dev Tools & Git": 152,
       "Web & Search": 96,
-      "AI & Memory": 146,
+      "AI & Memory": 145,
       "Productivity": 66,
       "Docs & Knowledge": 25,
       "Marketing & Social": 8,
@@ -32,7 +32,7 @@
     },
     "repos": {
       "MCP & Tooling": 23,
-      "AI Agents": 28,
+      "AI Agents": 29,
       "LLM Frameworks": 10,
       "Coding Assistants": 19,
       "RAG & Retrieval": 15,
