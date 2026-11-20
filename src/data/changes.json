@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T15:35:42.561Z",
+  "generatedAt": "2026-11-20T15:13:19.629Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -21,29 +21,13 @@
       "baseline": true,
       "added": [],
       "removed": [],
-      "deprecated": [
-        {
-          "slug": "com-webflow-mcp",
-          "name": "Webflow MCP",
-          "description": "AI-powered design and management for Webflow Sites",
-          "category": "Design & Media"
-        }
-      ],
+      "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "dev-kodza-kodza",
-          "name": "Kodza",
-          "description": "Free premium UI components in plain HTML, CSS and vanilla JS, for AI coding assistants.",
-          "category": "Other",
-          "delta": 7,
-          "stars": 10
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
-        "deprecated": 1,
+        "deprecated": 0,
         "revived": 0,
         "previousTotal": 709,
         "currentTotal": 709
@@ -51,24 +35,17 @@
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "agentscope-ai-qwenpaw",
-          "name": "QwenPaw",
-          "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
-          "category": "AI Agents"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 131,
+        "previousTotal": 132,
         "currentTotal": 132
       }
     }
