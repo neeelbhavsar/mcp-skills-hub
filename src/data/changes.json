@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T14:32:40.687Z",
+  "generatedAt": "2026-11-22T14:26:50.354Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -35,24 +35,17 @@
     },
     "repos": {
       "baseline": true,
-      "added": [
-        {
-          "slug": "ebony-vinyl-dsh-our-free-model",
-          "name": "dsh-our-free-model",
-          "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
-          "category": "AI Agents"
-        }
-      ],
+      "added": [],
       "removed": [],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 1,
+        "added": 0,
         "removed": 0,
         "deprecated": 0,
         "revived": 0,
-        "previousTotal": 132,
+        "previousTotal": 133,
         "currentTotal": 133
       }
     }
