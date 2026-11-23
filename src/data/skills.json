@@ -22,16 +22,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 198794,
+    "stars": 199363,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 198794,
-      "forks": 23274,
+      "stars": 199363,
+      "forks": 23332,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-11-16T14:22:50Z",
-      "openIssues": 464,
+      "openIssues": 468,
       "license": null,
       "language": "Python"
     },
@@ -72,16 +72,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 198794,
+    "stars": 199363,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 198794,
-      "forks": 23274,
+      "stars": 199363,
+      "forks": 23332,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-11-16T14:22:50Z",
-      "openIssues": 464,
+      "openIssues": 468,
       "license": null,
       "language": "Python"
     },
@@ -111,16 +111,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 198794,
+    "stars": 199363,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 198794,
-      "forks": 23274,
+      "stars": 199363,
+      "forks": 23332,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-11-16T14:22:50Z",
-      "openIssues": 464,
+      "openIssues": 468,
       "license": null,
       "language": "Python"
     },
@@ -150,16 +150,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 198794,
+    "stars": 199363,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 198794,
-      "forks": 23274,
+      "stars": 199363,
+      "forks": 23332,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-11-16T14:22:50Z",
-      "openIssues": 464,
+      "openIssues": 468,
       "license": null,
       "language": "Python"
     },
@@ -189,16 +189,16 @@
       "repo": "anthropics/skills",
       "name": "anthropic-agent-skills"
     },
-    "stars": 198794,
+    "stars": 199363,
     "repoMeta": {
       "slug": "anthropics/skills",
-      "stars": 198794,
-      "forks": 23274,
+      "stars": 199363,
+      "forks": 23332,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T15:53:31Z",
       "pushedAt": "2026-11-16T14:22:50Z",
-      "openIssues": 464,
+      "openIssues": 468,
       "license": null,
       "language": "Python"
     },
@@ -263,15 +263,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 335,
+    "stars": 336,
     "repoMeta": {
       "slug": "adobe/skills",
-      "stars": 335,
-      "forks": 102,
+      "stars": 336,
+      "forks": 103,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-05T16:44:31Z",
-      "pushedAt": "2026-11-22T12:17:23Z",
+      "pushedAt": "2026-11-23T17:14:41Z",
       "openIssues": 22,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -295,16 +295,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -336,7 +336,7 @@
     "repoMeta": {
       "slug": "SalesforceAIResearch/agentforce-adlc",
       "stars": 120,
-      "forks": 43,
+      "forks": 44,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-10T17:11:28Z",
@@ -631,13 +631,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-07-09T21:49:23Z",
-      "pushedAt": "2026-11-21T21:08:42Z",
+      "pushedAt": "2026-11-23T17:27:48Z",
       "openIssues": 1,
       "license": "MIT",
       "language": "TypeScript"
     },
     "readme": {
-      "markdown": "# Altimate Code — Claude Code plugin\n\nGives Claude Code direct access to the model-free data tools of [altimate-code](https://github.com/AltimateAI/altimate-code), an open-source CLI with 100+ deterministic data-engineering tools: column-level lineage and impact analysis, PII detection, data-diff and parity, FinOps and query cost, query equivalence, dialect translation, and queries and schema inspection on connected warehouses.\n\n**Why call the tools directly?** Claude reasons, the tools compute. Neither the MCP server nor `altimate tool run` runs a second LLM, so there is no second agent's model to pay for: on workspace questions this cost 12% less per run than delegating, at the same accuracy (benchmark in the PR that introduced it). Long multi-step jobs (dbt builds, migrations) can still be delegated with `altimate run`.\n\n**Two modes, one set of tools.**\n\n| Mode | When | How |\n|---|---|---|\n| MCP | The session has the plugin's MCP tools (`mcp__plugin_altimate-code_altimate-code__*`) | Claude calls them directly. The plugin's `.mcp.json` runs `altimate-code mcp serve`, read-only by default. |\n| CLI | The MCP tools are not available | Claude runs `altimate tool context` once, then `altimate tool run <name> --args '<json>'` through Bash. |\n\nThe CLI mode is what keeps the plugin useful for an organisation that disallows MCP servers through managed settings (for example `allowedMcpServers` or `deniedMcpServers`): the plugin's server is then not started, and Claude uses the same tools through the shell. When the server fails to start or the installed build has no `mcp serve`, the session stays in the MCP mode without the routing guidance, and the skill still falls back to `tool run`. At session start the plugin decides which mode applies without starting the CLI: the CLI mode when `altimate-code` is not on PATH, a `managed-mcp.json` is present, settings deny the server (`deniedMcpServers`, or `allowedMcpServers` that admits neither its name nor its command, read as Claude Code merges them, including `managed-settings.d/` and `allowManagedMcpServersOnly`) or it was turned off in `/mcp` for the project, otherwise MCP. Policies delivered only by an MDM profile or the Windows registry are not read; set `ALTIMATE_DATA_MODE=cli` there (`ALTIMATE_DATA_MODE=cli|mcp` overrides). In the CLI mode it also adds the project routing guidance to the session, so the project's `CLAUDE.md` does not need it; `altimate-code link --claude-md` can still write it there for other clients. The MCP mode adds no routing guidance.\n\n## Install\n\n```bash\nclaude plugin install altimate-code --marketplace AltimateAI/altimate-claude-plugin\n```\n\n## Update\n\n```bash\nclaude plugin marketplace update altimate-claude-plugin\nclaude plugin update altimate-code@altimate-claude-plugin\n```\n\nThen restart Claude Code.\n\n## Prerequisites\n\nThe altimate-code CLI must be installed and configured on your PATH, version 0.12.11 or later. Older releases give no column answer, so the end-of-task summary and report can't say which columns a change reaches. Install it with npm:\n\n```bash\nnpm i -g @altimateai/altimate-code   # requires Node 20+; exposes `altimate` and `altimate-code`\naltimate                             # launch the TUI, then run /connect to configure your LLM provider\n```\n\nAt session start the plugin checks the version on PATH. An older or missing altimate-code stays on the status line, with the binary, its path and this install command.\n\nThe CLI mode invokes `altimate`, the CLI's canonical name, and falls back to `altimate-code` for npm installs older than v0.7.1, so standalone installs work without an alias.\n\n**MCP mode and the CLI name.** The MCP registration launches `altimate-code mcp serve`. npm, Homebrew and current curl and PowerShell installs expose both names, but curl and PowerShell installs older than v0.12.8 expose only `altimate`: there the server cannot start until `altimate-code` is on PATH (for example `ln -s \"$(command -v altimate)\" ~/.local/bin/altimate-code`), and Claude uses the CLI mode meanwhile. MCP mode also needs a build that contains `mcp serve`; check with `altimate-code mcp serve --help`. Direct MCP and `tool run` need no LLM provider; only delegation (`altimate run`) does.\n\nOr configure a provider via environment variable (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, and 20+ others — see the [altimate-code docs](https://docs.altimate.sh)).\n\nIf altimate-code is not on PATH or not configured, the plugin surfaces the failure with fix instructions rather than silently falling back to Claude's native tools.\n\n## How it works\n\n1. A **SessionStart hook** adds a description of the available tools and both modes to the session, and copies the linked workspace's skills (see below). It does not start the MCP server. In a linked project, the [team rules](#team-rules) hooks add the workspace's rules too.\n2. **MCP mode.** Claude calls `warehouse_list`, `warehouse_add`, `sql_execute` (`tables` returns columns and value profiles; large results spill to a local file), `sql_materialize` (session-local `scratch` DuckDB for cross-database joins), `answer_commit`, and `impact_analysis`, `dbt_lineage`, `altimate_core_column_lineage`, `schema_detect_pii`, `data_diff`, `altimate_core_equivalence`, `sql_translate`.\n3. **CLI mode.** The **skill** has Claude run `altimate tool context` once (connections, schema listing, analyst method), then `altimate tool run <name> --args '<json>'` through Bash and reason over the structured output. `altimate tool list --json` shows every tool and its input schema. A warm process per project starts automatically.\n4. Calls are read-only unless you approve `--allow-write` (CLI mode), except the project health check: it runs `dbt_health` with write, without asking, because the dbt project's integration refreshes `target/` (and runs `dbt deps`), so it starts only in an interactive session (or with `healthBlocksPush` on) that is inside a dbt project, and has no separate off switch; `DROP DATABASE`, `DROP SCH\n\n…",
+      "markdown": "# Altimate Code — Claude Code plugin\n\nGives Claude Code direct access to the model-free data tools of [altimate-code](https://github.com/AltimateAI/altimate-code), an open-source CLI with 100+ deterministic data-engineering tools: column-level lineage and impact analysis, PII detection, data-diff and parity, FinOps and query cost, query equivalence, dialect translation, and queries and schema inspection on connected warehouses.\n\n**Why call the tools directly?** Claude reasons, the tools compute. Neither the MCP server nor `altimate tool run` runs a second LLM, so there is no second agent's model to pay for: on workspace questions this cost 12% less per run than delegating, at the same accuracy (benchmark in the PR that introduced it). Long multi-step jobs (dbt builds, migrations) can still be delegated with `altimate run`.\n\n**Two modes, one set of tools.**\n\n| Mode | When | How |\n|---|---|---|\n| MCP | The session has the plugin's MCP tools (`mcp__plugin_altimate-code_altimate-code__*`) | Claude calls them directly. The plugin's `.mcp.json` runs `altimate-code mcp serve`, read-only by default. |\n| CLI | The MCP tools are not available | Claude runs `altimate tool context` once, then `altimate tool run <name> --args '<json>'` through Bash. |\n\nThe CLI mode is what keeps the plugin useful for an organisation that disallows MCP servers through managed settings (for example `allowedMcpServers` or `deniedMcpServers`): the plugin's server is then not started, and Claude uses the same tools through the shell. When the server fails to start or the installed build has no `mcp serve`, the session stays in the MCP mode without the routing guidance, and the skill still falls back to `tool run`. At session start the plugin decides which mode applies without starting the CLI: the CLI mode when `altimate-code` is not on PATH, a `managed-mcp.json` is present, settings deny the server (`deniedMcpServers`, or `allowedMcpServers` that admits neither its name nor its command, read as Claude Code merges them, including `managed-settings.d/` and `allowManagedMcpServersOnly`) or it was turned off in `/mcp` for the project, otherwise MCP. Policies delivered only by an MDM profile or the Windows registry are not read; set `ALTIMATE_DATA_MODE=cli` there (`ALTIMATE_DATA_MODE=cli|mcp` overrides). In the CLI mode it also adds the project routing guidance to the session, so the project's `CLAUDE.md` does not need it; `altimate-code link --claude-md` can still write it there for other clients. The MCP mode adds no routing guidance.\n\n## Install\n\n```bash\nclaude plugin install altimate-code --marketplace AltimateAI/altimate-claude-plugin\n```\n\n## Update\n\n```bash\nclaude plugin marketplace update altimate-claude-plugin\nclaude plugin update altimate-code@altimate-claude-plugin\n```\n\nThen restart Claude Code.\n\n## Prerequisites\n\nThe altimate-code CLI must be installed and configured on your PATH, version 0.12.11 or later. The cost check, project health, team comments, `/runs`, `/profile-ctes`, `/sql-graph`, `/to-model`, `/defer` and `/propagate` need 0.12.12, the release that brings the dbt Power User tools they call; on 0.12.11 most of them say so where their answer would be, while `/runs` records nothing and `/defer` adds no flags (`/defer status` shows the error), and the plugin's own version notice at session start only warns below 0.12.11. Releases before 0.12.11 give no column answer, so the end-of-task summary and report can't say which columns a change reaches. Install it with npm:\n\n```bash\nnpm i -g @altimateai/altimate-code   # requires Node 20+; exposes `altimate` and `altimate-code`\naltimate                             # launch the TUI, then run /connect to configure your LLM provider\n```\n\nAt session start the plugin checks the version on PATH. An older or missing altimate-code stays on the status line, with the binary, its path and this install command.\n\nThe CLI mode invokes `altimate`, the CLI's canonical name, and falls back to `altimate-code` for npm installs older than v0.7.1, so standalone installs work without an alias.\n\n**MCP mode and the CLI name.** The MCP registration launches `altimate-code mcp serve`. npm, Homebrew and current curl and PowerShell installs expose both names, but curl and PowerShell installs older than v0.12.8 expose only `altimate`: there the server cannot start until `altimate-code` is on PATH (for example `ln -s \"$(command -v altimate)\" ~/.local/bin/altimate-code`), and Claude uses the CLI mode meanwhile. MCP mode also needs a build that contains `mcp serve`; check with `altimate-code mcp serve --help`. Direct MCP and `tool run` need no LLM provider; only delegation (`altimate run`) does.\n\nOr configure a provider via environment variable (`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, and 20+ others — see the [altimate-code docs](https://docs.altimate.sh)).\n\nIf altimate-code is not on PATH or not configured, the plugin surfaces the failure with fix instructions rather than silently falling back to Claude's native tools.\n\n## How it works\n\n1. A **SessionStart hook** adds a description of the available tools and both modes to the session, and copies the linked workspace's skills (see below). It does not start the MCP server. In a linked project, the [team rules](#team-rules) hooks add the workspace's rules too.\n2. **MCP mode.** Claude calls `warehouse_list`, `warehouse_add`, `sql_execute` (`tables` returns columns and value profiles; large results spill to a local file), `sql_materialize` (session-local `scratch` DuckDB for cross-database joins), `answer_commit`, and `impact_analysis`, `dbt_lineage`, `altimate_core_column_lineage`, `schema_detect_pii`, `data_diff`, `altimate_core_equivalence`, `sql_translate`.\n3. **CLI mode.** The **skill** has Claude run `altimate tool context` once (connections, schema listing, analyst method), then `altimate tool run <name> --args '<json>'` through Bash and reason over the structured output. `altimate tool list --json` shows every tool and its input schema. A warm\n\n…",
       "truncated": true,
       "url": "https://github.com/AltimateAI/altimate-claude-plugin/tree/main/plugins/altimate-code#readme"
     }
@@ -698,16 +698,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 511,
+    "stars": 514,
     "repoMeta": {
       "slug": "amd/skills",
-      "stars": 511,
+      "stars": 514,
       "forks": 47,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-08T14:27:56Z",
-      "pushedAt": "2026-11-22T06:30:26Z",
-      "openIssues": 46,
+      "pushedAt": "2026-11-23T16:01:09Z",
+      "openIssues": 45,
       "license": "MIT",
       "language": "Python"
     }
@@ -767,21 +767,21 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 42,
+    "stars": 43,
     "repoMeta": {
       "slug": "apolloio/apollo-mcp-plugin",
-      "stars": 42,
+      "stars": 43,
       "forks": 15,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-19T10:47:36Z",
-      "pushedAt": "2026-11-19T13:59:37Z",
+      "pushedAt": "2026-11-23T05:10:09Z",
       "openIssues": 4,
       "license": "MIT",
       "language": null
     },
     "readme": {
-      "markdown": "# Apollo.io MCP Server\n\n> The official Apollo.io Model Context Protocol server for prospecting, lead enrichment, sales intelligence, and outreach workflows.\n\n**Provider:** Official, first-party server built and maintained by [Apollo.io](https://www.apollo.io/).\n\nBring Apollo.io prospecting, enrichment, and outreach directly into your favorite MCP-compatible AI application — GitHub Copilot, Visual Studio Code, Cursor, Claude Code, Claude Desktop, and Claude Cowork.\n\n- **Apollo.io:** <https://www.apollo.io/>\n- **Model Context Protocol:** <https://modelcontextprotocol.io/>\n- **License:** [MIT](LICENSE)\n\n---\n\n## Table of Contents\n\n- [Overview](#overview)\n- [Key Capabilities](#key-capabilities)\n- [Prerequisites](#prerequisites)\n- [Install in Visual Studio Code and GitHub Copilot](#install-in-visual-studio-code-and-github-copilot)\n- [Install in Cursor](#install-in-cursor)\n- [Install in Claude Code](#install-in-claude-code)\n- [Install in Claude Desktop or Claude Cowork](#install-in-claude-desktop-or-claude-cowork)\n- [Generic MCP Client Configuration](#generic-mcp-client-configuration)\n- [Authentication and Authorization](#authentication-and-authorization)\n- [Usage Examples](#usage-examples)\n- [Available Tools and Capabilities](#available-tools-and-capabilities)\n- [Model Recommendations](#model-recommendations)\n- [Safety and Responsible Usage](#safety-and-responsible-usage)\n- [Privacy and Data Handling](#privacy-and-data-handling)\n- [Troubleshooting](#troubleshooting)\n- [Official MCP Registry](#official-mcp-registry)\n- [Development and Contribution](#development-and-contribution)\n- [Versioning and Releases](#versioning-and-releases)\n- [Security](#security)\n- [Support](#support)\n- [Credits](#credits)\n- [License](#license)\n\n---\n\n## Overview\n\nThe Apollo.io MCP server exposes Apollo.io's go-to-market data and workflows through the [Model Context Protocol](https://modelcontextprotocol.io/), so MCP-compatible AI applications can prospect for people and companies, enrich contacts, query sales analytics, and load leads into outreach sequences using natural language.\n\n- **Hosted and maintained by Apollo.io.** The server runs remotely — there is nothing to build, host, or run locally.\n- **Transport:** Streamable HTTP.\n- **Endpoint:**\n\n  ```text\n  https://mcp.apollo.io/mcp\n  ```\n\n- **Authentication:** Handled through Apollo.io OAuth. You sign in with your Apollo.io account and authorize access from your MCP client; the server then acts with your Apollo.io permissions. See [Authentication and Authorization](#authentication-and-authorization).\n\nThis repository also ships an optional Apollo plugin for Claude Code and Cowork that bundles ready-made workflow skills (`/apollo:*` commands) on top of the same MCP server.\n\n---\n\n## Key Capabilities\n\nThe following capabilities are confirmed by the server tools and skills in this repository:\n\n- **People prospecting** — search Apollo's people database by title, seniority, location, and company attributes.\n- **Company prospecting** — search organizations by industry, size, location, and keywords.\n- **Contact and account enrichment** — match and enrich people and organizations, individually or in bulk.\n- **Outreach sequence workflows** — find sequences, and add or remove/stop contacts in a sequence.\n- **Sales analytics** — query email, call, meeting, task, opportunity, sequence, and conversation-intelligence metrics and return formatted breakdowns.\n- **Contact management** — create Apollo contacts as part of enrichment and sequence-loading workflows.\n\n> The remote server may expose additional tools beyond those exercised by the bundled skills. The list above reflects what is confirmed in this repository. See [Available Tools and Capabilities](#available-tools-and-capabilities).\n\n---\n\n## Prerequisites\n\n- **An Apollo.io account.** Sign in at <https://www.apollo.io/>.\n- **Apollo.io permissions and credits.** Actions run with your account's permissions, and some actions consume Apollo credits (for example, enrichment). See [Safety and Responsible Usage](#safety-and-responsible-usage). For plan, credit, and permission details, see the [Apollo documentation](https://docs.apollo.io).\n\n- **An MCP-compatible client** that supports the Streamable HTTP transport, such as:\n  - GitHub Copilot in Visual Studio Code\n  - Cursor\n  - Claude Code\n  - Claude Desktop / Claude Cowork\n  - Other MCP clients (see [Generic MCP Client Configuration](#generic-mcp-client-configuration))\n- **No local runtime required.** The server is remote and hosted by Apollo.io — you do **not** need Node.js, Docker, or a local installation to use it. (The optional Claude Code / Cowork plugin installs workflow skills locally through your client's plugin system, but the MCP server itself remains remote.)\n\n---\n\n## Install in Visual Studio Code and GitHub Copilot\n\nThe Apollo.io MCP server is published in the official Model Context Protocol Registry, but it is **not yet discoverable in the curated GitHub MCP Registry or the VS Code MCP gallery**. Until then, add it manually with the configuration below.\n\n### Option A — workspace configuration file\n\nCreate a `.vscode/mcp.json` file in your workspace:\n\n```json\n{\n  \"servers\": {\n    \"apollo\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.apollo.io/mcp\"\n    }\n  }\n}\n```\n\n### Option B — command palette\n\n1. Open the Command Palette (`Cmd/Ctrl + Shift + P`).\n2. Run **MCP: Add Server**.\n3. Choose the HTTP (Streamable HTTP) server type when prompted.\n4. Enter the URL `https://mcp.apollo.io/mcp` and name the server `apollo`.\n\n### Expected authentication and first run\n\n1. Add the MCP server using either option above.\n2. Start or enable the `apollo` server.\n3. Complete Apollo.io authentication in the browser window that opens.\n4. Approve the requested access for your Apollo.io workspace.\n5. Open Copilot Chat in **Agent** mode.\n6. Confirm that the Apollo tools are listed and available to the agent.\n\n> For the current terminology and behavior, see the VS Code documentation on MCP \n\n…",
+      "markdown": "# Apollo.io MCP Server\n\n> The official Apollo.io Model Context Protocol server for prospecting, lead enrichment, sales intelligence, and outreach workflows.\n\n**Provider:** Official, first-party server built and maintained by [Apollo.io](https://www.apollo.io/).\n\nBring Apollo.io prospecting, enrichment, and outreach directly into your favorite MCP-compatible AI application — GitHub Copilot, Visual Studio Code, Cursor, Claude Code, Claude Desktop, Claude Cowork, Gemini CLI, and Antigravity CLI.\n\n- **Apollo.io:** <https://www.apollo.io/>\n- **Model Context Protocol:** <https://modelcontextprotocol.io/>\n- **License:** [MIT](LICENSE)\n\n---\n\n## Table of Contents\n\n- [Overview](#overview)\n- [Key Capabilities](#key-capabilities)\n- [Prerequisites](#prerequisites)\n- [Install in Visual Studio Code and GitHub Copilot](#install-in-visual-studio-code-and-github-copilot)\n- [Install in Cursor](#install-in-cursor)\n- [Install in Claude Code](#install-in-claude-code)\n- [Install in Claude Desktop or Claude Cowork](#install-in-claude-desktop-or-claude-cowork)\n- [Install in Gemini CLI](#install-in-gemini-cli)\n- [Install in Antigravity CLI](#install-in-antigravity-cli)\n- [Generic MCP Client Configuration](#generic-mcp-client-configuration)\n- [Authentication and Authorization](#authentication-and-authorization)\n- [Usage Examples](#usage-examples)\n- [Available Tools and Capabilities](#available-tools-and-capabilities)\n- [Model Recommendations](#model-recommendations)\n- [Safety and Responsible Usage](#safety-and-responsible-usage)\n- [Privacy and Data Handling](#privacy-and-data-handling)\n- [Troubleshooting](#troubleshooting)\n- [Official MCP Registry](#official-mcp-registry)\n- [Development and Contribution](#development-and-contribution)\n- [Versioning and Releases](#versioning-and-releases)\n- [Security](#security)\n- [Support](#support)\n- [Credits](#credits)\n- [License](#license)\n\n---\n\n## Overview\n\nThe Apollo.io MCP server exposes Apollo.io's go-to-market data and workflows through the [Model Context Protocol](https://modelcontextprotocol.io/), so MCP-compatible AI applications can prospect for people and companies, enrich contacts, query sales analytics, and load leads into outreach sequences using natural language.\n\n- **Hosted and maintained by Apollo.io.** The server runs remotely — there is nothing to build, host, or run locally.\n- **Transport:** Streamable HTTP.\n- **Endpoint:**\n\n  ```text\n  https://mcp.apollo.io/mcp\n  ```\n\n- **Authentication:** Handled through Apollo.io OAuth. You sign in with your Apollo.io account and authorize access from your MCP client; the server then acts with your Apollo.io permissions. See [Authentication and Authorization](#authentication-and-authorization).\n\nThis repository also ships an optional Apollo plugin for Claude Code and Cowork that bundles ready-made workflow skills (`/apollo:*` commands) on top of the same MCP server.\n\n---\n\n## Key Capabilities\n\nThe following capabilities are confirmed by the server tools and skills in this repository:\n\n- **People prospecting** — search Apollo's people database by title, seniority, location, and company attributes.\n- **Company prospecting** — search organizations by industry, size, location, and keywords.\n- **Contact and account enrichment** — match and enrich people and organizations, individually or in bulk.\n- **Outreach sequence workflows** — find sequences, and add or remove/stop contacts in a sequence.\n- **Sales analytics** — query email, call, meeting, task, opportunity, sequence, and conversation-intelligence metrics and return formatted breakdowns.\n- **Contact management** — create Apollo contacts as part of enrichment and sequence-loading workflows.\n\n> The remote server may expose additional tools beyond those exercised by the bundled skills. The list above reflects what is confirmed in this repository. See [Available Tools and Capabilities](#available-tools-and-capabilities).\n\n---\n\n## Prerequisites\n\n- **An Apollo.io account.** Sign in at <https://www.apollo.io/>.\n- **Apollo.io permissions and credits.** Actions run with your account's permissions, and some actions consume Apollo credits (for example, enrichment). See [Safety and Responsible Usage](#safety-and-responsible-usage). For plan, credit, and permission details, see the [Apollo documentation](https://docs.apollo.io).\n\n- **An MCP-compatible client** that supports the Streamable HTTP transport, such as:\n  - GitHub Copilot in Visual Studio Code\n  - Cursor\n  - Claude Code\n  - Claude Desktop / Claude Cowork\n  - Gemini CLI\n  - Antigravity CLI\n  - Other MCP clients (see [Generic MCP Client Configuration](#generic-mcp-client-configuration))\n- **No local runtime required.** The server is remote and hosted by Apollo.io — you do **not** need Node.js, Docker, or a local installation to use it. (The optional Claude Code / Cowork plugin installs workflow skills locally through your client's plugin system, but the MCP server itself remains remote.)\n\n---\n\n## Install in Visual Studio Code and GitHub Copilot\n\nThe Apollo.io MCP server is published in the official Model Context Protocol Registry, but it is **not yet discoverable in the curated GitHub MCP Registry or the VS Code MCP gallery**. Until then, add it manually with the configuration below.\n\n### Option A — workspace configuration file\n\nCreate a `.vscode/mcp.json` file in your workspace:\n\n```json\n{\n  \"servers\": {\n    \"apollo\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.apollo.io/mcp\"\n    }\n  }\n}\n```\n\n### Option B — command palette\n\n1. Open the Command Palette (`Cmd/Ctrl + Shift + P`).\n2. Run **MCP: Add Server**.\n3. Choose the HTTP (Streamable HTTP) server type when prompted.\n4. Enter the URL `https://mcp.apollo.io/mcp` and name the server `apollo`.\n\n### Expected authentication and first run\n\n1. Add the MCP server using either option above.\n2. Start or enable the `apollo` server.\n3. Complete Apollo.io authentication in the browser window that opens.\n4. Approve the requested access for your Apollo.io workspace.\n5. Open Copilot Chat\n\n…",
       "truncated": true,
       "url": "https://github.com/apolloio/apollo-mcp-plugin#readme"
     }
@@ -878,16 +878,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -915,10 +915,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 463,
+    "stars": 464,
     "repoMeta": {
       "slug": "astronomer/agents",
-      "stars": 463,
+      "stars": 464,
       "forks": 72,
       "archived": false,
       "isFork": false,
@@ -989,16 +989,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1185,
+    "stars": 1186,
     "repoMeta": {
       "slug": "atlassian/atlassian-mcp-server",
-      "stars": 1185,
+      "stars": 1186,
       "forks": 155,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-08-01T22:31:35Z",
       "pushedAt": "2026-11-19T19:03:44Z",
-      "openIssues": 97,
+      "openIssues": 98,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -1097,13 +1097,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-23T15:44:50Z",
-      "pushedAt": "2026-11-18T09:10:06Z",
+      "pushedAt": "2026-11-23T13:54:51Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# auth0\n\nAuth0 skills for setting up authentication, migrating from other providers, implementing Multi-Factor Authentication (MFA) and passwordless passkey (WebAuthn) login, framework-specific SDK integrations and CLI.\n\n## Installation\n\n**Via Codex / ChatGPT desktop:**\n\nAdd the repository marketplace from `.agents/plugins/marketplace.json` to the\nPlugins UI, then install **Auth0**. It tracks the published `main` snapshot. The\npublic plugin directory requires submission and approval through the\n[OpenAI plugin submission portal](https://platform.openai.com/plugins).\n\n**Via Claude Code:**\n\nFirst, add the Auth0 marketplace if you haven't already:\n\n```bash\n/plugin marketplace add auth0/agent-skills\n```\n\nThen install the plugin:\n\n```bash\n/plugin install auth0@auth0-agent-skills\n```\n\n**Via Skills CLI:**\n\n```bash\nnpx skills add auth0/agent-skills/plugins/auth0\n```\n\n**Via an Agent Plugins-compatible client:**\n\nLoad the `plugins/auth0` directory using the client's plugin install flow.\n[Agent Plugins](https://agent-plugins.org/) defines the portable package format,\nnot a universal install command.\n\n**Via Antigravity:**\n\n```bash\nagy plugin install plugins/auth0\n```\n\n**Via Gemini CLI:**\n\nInstall from a local clone — `gemini extensions install` expects a manifest at\nthe repository root, and this manifest lives at `plugins/auth0/`:\n\n```bash\ngemini extensions install ./plugins/auth0\n```\n\n## Skills\n\n| Skill | Description | Documentation |\n|-------|-------------|---------------|\n| [auth0](skills/auth0) | Adds Auth0 authentication to any app. Covers 37+ frameworks (React, Next.js, React Router, TanStack Start, Vue, Angular, Express, Flask, FastAPI, Spring Boot, Swift, Android, Kotlin Multiplatform, Flutter, Laravel, Go, PHP, .NET MAUI, ASP.NET Core, React Native, Expo, Ionic, and more), MFA, Organizations, Universal Portals for hosted account and organization self-service, Vercel native integration, custom domains, ACUL screen generation, branding, debugging auth errors, security best practices, running a tenant security & configuration audit (CheckMate), a plan-aware tenant health check, and migration from other providers. | [SKILL.md](skills/auth0/SKILL.md) |\n\n## Forcing the skill with `/auth0`\n\nAuto-detection is reliable on capable models. On a smaller/faster model in a\nsession with **many** other skills installed, the assistant can occasionally\nmiss the trigger — most often on open-ended *questions* (\"how do I…?\") rather\nthan direct instructions. When that happens, name the skill explicitly:\n\n```\n/auth0 how do I configure brand colors in Auth0?\n```\n\nNaming the skill removes the selection step entirely, so it always activates.\n\n## Migrating from the individual skills\n\nEarlier versions shipped one skill per SDK/framework (`auth0-react`,\n`auth0-nextjs`, `express-oauth2-jwt-bearer`, …). These are now **consolidated\ninto the single `auth0` skill** above, which routes to the same guidance by\ndetecting your framework. Plugin/marketplace installs swap in the consolidated\nskill on the next update with nothing to do. **If you referenced an old skill by\nname** — in your `CLAUDE.md`, another skill's `requires.skills`, or any\ninstruction file — those names no longer exist and the reference will dangle;\nreplace them with `auth0`. See the [repository README](../../README.md#migrating-from-the-individual-skills)\nfor full migration details.",
+      "markdown": "# auth0\n\nAuth0 skills for setting up authentication, migrating from other providers, implementing Multi-Factor Authentication (MFA) and passwordless passkey (WebAuthn) login, personal-agent access (Personal Agent Protocol, beta), framework-specific SDK integrations and CLI.\n\n## Installation\n\n**Via Codex / ChatGPT desktop:**\n\nAdd the repository marketplace from `.agents/plugins/marketplace.json` to the\nPlugins UI, then install **Auth0**. It tracks the published `main` snapshot. The\npublic plugin directory requires submission and approval through the\n[OpenAI plugin submission portal](https://platform.openai.com/plugins).\n\n**Via Claude Code:**\n\nFirst, add the Auth0 marketplace if you haven't already:\n\n```bash\n/plugin marketplace add auth0/agent-skills\n```\n\nThen install the plugin:\n\n```bash\n/plugin install auth0@auth0-agent-skills\n```\n\n**Via Skills CLI:**\n\n```bash\nnpx skills add auth0/agent-skills/plugins/auth0\n```\n\n**Via an Agent Plugins-compatible client:**\n\nLoad the `plugins/auth0` directory using the client's plugin install flow.\n[Agent Plugins](https://agent-plugins.org/) defines the portable package format,\nnot a universal install command.\n\n**Via Antigravity:**\n\n```bash\nagy plugin install plugins/auth0\n```\n\n**Via Gemini CLI:**\n\nInstall from a local clone — `gemini extensions install` expects a manifest at\nthe repository root, and this manifest lives at `plugins/auth0/`:\n\n```bash\ngemini extensions install ./plugins/auth0\n```\n\n## Skills\n\n| Skill | Description | Documentation |\n|-------|-------------|---------------|\n| [auth0](skills/auth0) | Adds Auth0 authentication to any app. Covers 37+ frameworks (React, Next.js, React Router, TanStack Start, Vue, Angular, Express, Flask, FastAPI, Spring Boot, Swift, Android, Kotlin Multiplatform, Flutter, Laravel, Go, PHP, .NET MAUI, ASP.NET Core, React Native, Expo, Ionic, and more), MFA, Organizations, Universal Portals for hosted account and organization self-service, Vercel native integration, custom domains, ACUL screen generation, branding, debugging auth errors, security best practices, running a tenant security & configuration audit (CheckMate), a plan-aware tenant health check, and migration from other providers. | [SKILL.md](skills/auth0/SKILL.md) |\n\n## Forcing the skill with `/auth0`\n\nAuto-detection is reliable on capable models. On a smaller/faster model in a\nsession with **many** other skills installed, the assistant can occasionally\nmiss the trigger — most often on open-ended *questions* (\"how do I…?\") rather\nthan direct instructions. When that happens, name the skill explicitly:\n\n```\n/auth0 how do I configure brand colors in Auth0?\n```\n\nNaming the skill removes the selection step entirely, so it always activates.\n\n## Personal agent access (beta)\n\nThe Personal Agent Protocol (Poppy) lets a user's personal AI agent discover an\napp, call its APIs and join a browser session with the user's consent. The\n[reference](skills/auth0/references/feature-personal-agent-protocol/index.md)\ncovers the tenant setup workflow, discovery, and the checks that fail silently.\nIt needs a Poppy-enabled tenant and the beta releases of the Auth0 SDKs and CLI.\n\n## Migrating from the individual skills\n\nEarlier versions shipped one skill per SDK/framework (`auth0-react`,\n`auth0-nextjs`, `express-oauth2-jwt-bearer`, …). These are now **consolidated\ninto the single `auth0` skill** above, which routes to the same guidance by\ndetecting your framework. Plugin/marketplace installs swap in the consolidated\nskill on the next update with nothing to do. **If you referenced an old skill by\nname** — in your `CLAUDE.md`, another skill's `requires.skills`, or any\ninstruction file — those names no longer exist and the reference will dangle;\nreplace them with `auth0`. See the [repository README](../../README.md#migrating-from-the-individual-skills)\nfor full migration details.",
       "truncated": false,
       "url": "https://github.com/auth0/agent-skills/tree/main/plugins/auth0#readme"
     }
@@ -1126,15 +1126,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3538,
+    "stars": 3550,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3538,
-      "forks": 480,
+      "stars": 3550,
+      "forks": 483,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-22T06:17:09Z",
+      "pushedAt": "2026-11-23T17:41:19Z",
       "openIssues": 82,
       "license": "Apache-2.0",
       "language": "Python"
@@ -1163,15 +1163,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3538,
+    "stars": 3550,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3538,
-      "forks": 480,
+      "stars": 3550,
+      "forks": 483,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-22T06:17:09Z",
+      "pushedAt": "2026-11-23T17:41:19Z",
       "openIssues": 82,
       "license": "Apache-2.0",
       "language": "Python"
@@ -1237,15 +1237,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3538,
+    "stars": 3550,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3538,
-      "forks": 480,
+      "stars": 3550,
+      "forks": 483,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-22T06:17:09Z",
+      "pushedAt": "2026-11-23T17:41:19Z",
       "openIssues": 82,
       "license": "Apache-2.0",
       "language": "Python"
@@ -1274,15 +1274,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3538,
+    "stars": 3550,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3538,
-      "forks": 480,
+      "stars": 3550,
+      "forks": 483,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-22T06:17:09Z",
+      "pushedAt": "2026-11-23T17:41:19Z",
       "openIssues": 82,
       "license": "Apache-2.0",
       "language": "Python"
@@ -1343,15 +1343,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3538,
+    "stars": 3550,
     "repoMeta": {
       "slug": "aws/agent-toolkit-for-aws",
-      "stars": 3538,
-      "forks": 480,
+      "stars": 3550,
+      "forks": 483,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-23T12:44:08Z",
-      "pushedAt": "2026-11-22T06:17:09Z",
+      "pushedAt": "2026-11-23T17:41:19Z",
       "openIssues": 82,
       "license": "Apache-2.0",
       "language": "Python"
@@ -1417,11 +1417,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1664,
+    "stars": 1669,
     "repoMeta": {
       "slug": "microsoft/azure-skills",
-      "stars": 1664,
-      "forks": 272,
+      "stars": 1669,
+      "forks": 273,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-26T18:13:14Z",
@@ -1500,7 +1500,7 @@
       "isFork": false,
       "createdAt": "2024-08-12T20:44:17Z",
       "pushedAt": "2026-11-17T21:37:18Z",
-      "openIssues": 14,
+      "openIssues": 15,
       "license": "NOASSERTION",
       "language": "Shell"
     },
@@ -1532,7 +1532,7 @@
     "repoMeta": {
       "slug": "base44/skills",
       "stars": 94,
-      "forks": 21,
+      "forks": 22,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-19T08:07:41Z",
@@ -1870,7 +1870,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-12T00:01:28Z",
-      "pushedAt": "2026-11-20T10:01:36Z",
+      "pushedAt": "2026-11-23T02:32:18Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": null
@@ -1944,7 +1944,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-21T01:52:37Z",
+      "pushedAt": "2026-11-23T17:37:19Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -1981,7 +1981,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-21T01:52:37Z",
+      "pushedAt": "2026-11-23T17:37:19Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -2018,7 +2018,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T23:31:03Z",
-      "pushedAt": "2026-11-21T01:52:37Z",
+      "pushedAt": "2026-11-23T17:37:19Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -2121,16 +2121,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2158,16 +2158,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 58773,
+    "stars": 58996,
     "repoMeta": {
       "slug": "ChromeDevTools/chrome-devtools-mcp",
-      "stars": 58773,
-      "forks": 4909,
+      "stars": 58996,
+      "forks": 4907,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-11T10:39:55Z",
-      "pushedAt": "2026-11-22T01:06:14Z",
-      "openIssues": 84,
+      "pushedAt": "2026-11-23T17:28:56Z",
+      "openIssues": 81,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
@@ -2380,16 +2380,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2417,16 +2417,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2454,16 +2454,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2491,16 +2491,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2601,7 +2601,7 @@
     "repoMeta": {
       "slug": "ClickHouse/agent-skills",
       "stars": 574,
-      "forks": 37,
+      "forks": 38,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-15T16:36:20Z",
@@ -2745,15 +2745,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3426,
+    "stars": 3438,
     "repoMeta": {
       "slug": "cloudflare/skills",
-      "stars": 3426,
-      "forks": 361,
+      "stars": 3438,
+      "forks": 363,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-10T16:45:17Z",
-      "pushedAt": "2026-11-17T15:55:50Z",
+      "pushedAt": "2026-11-23T16:33:17Z",
       "openIssues": 36,
       "license": "Apache-2.0",
       "language": "Shell"
@@ -2790,13 +2790,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-26T07:58:08Z",
-      "pushedAt": "2026-11-19T12:04:55Z",
+      "pushedAt": "2026-11-23T11:42:27Z",
       "openIssues": 0,
       "license": null,
       "language": null
     },
     "readme": {
-      "markdown": "# Cloudinary Plugin\n\nA coding agent plugin that brings Cloudinary's media management capabilities directly into your coding workflow. It connects your AI coding agent to Cloudinary's MCP servers and provides a documentation skill so you can get accurate, up-to-date answers about Cloudinary APIs without leaving your editor.\n\n## What's Included\n\n### MCP Servers (`mcp.json`)\n\nFive Cloudinary MCP servers are pre-configured:\n\n| Server | Description |\n|---|---|\n| `cloudinary-asset-mgmt` | Upload, manage, and transform media assets |\n| `cloudinary-env-config` | Configure your Cloudinary environment settings |\n| `cloudinary-smd` | Work with structured metadata on assets |\n| `cloudinary-analysis` | Analyze images and videos with AI |\n| `cloudinary-mediaflows` | Build and run automated media workflows |\n\n> **Auth:** The first four servers use OAuth2 — you'll be prompted to log in with your Cloudinary account on first use via Cursor or Claude. The `cloudinary-mediaflows` server requires your Cloudinary credentials (`cloud_name`, `api_key`, `api_secret`) to be set in the headers in `mcp.json`.\n\n### Skills\n\nThree skills are included to give the agent deep Cloudinary knowledge:\n\n| Skill | Directory | Description |\n|---|---|---|\n| **cloudinary-docs** | `skills/cloudinary-docs/` | Answers Cloudinary questions by fetching live documentation from `cloudinary.com/documentation/llms.txt`, ensuring accurate and up-to-date responses with real code examples. |\n| **cloudinary-transformations** | `skills/cloudinary-transformations/` | Creates and debugs Cloudinary transformation URLs from natural language. Covers resize/crop, generative AI effects, video transformations, overlays, named transformations, and cost optimization — with a built-in validation checklist and debugging guide. |\n| **claimable-cloud** | `skills/claimable-cloud/` | Provisions a working Cloudinary cloud with a single command and no signup (a Claimable Cloud) when no credentials are available — claimable by email within 24 hours to keep as a permanent free account. |\n\n## Getting Started\n\n1. Install this plugin in Cursor/Claude Code.\n2. On first use, approve the OAuth login prompt for the MCP servers. For `cloudinary-mediaflows`, add your credentials to its headers in `mcp.json`. No Cloudinary account yet? Just ask the agent to set one up — the **claimable-cloud** skill provisions a free working cloud with no signup (claim it by email within 24 hours to keep it).\n3. Ask your agent anything about Cloudinary — uploads, transformations, metadata, analysis, and more. The agent will automatically use the right skill and MCP server for the job.",
+      "markdown": "# Cloudinary Plugin\n\nA coding agent plugin that brings Cloudinary's media management capabilities directly into your coding workflow. It connects your AI coding agent to Cloudinary's MCP servers and provides a documentation skill so you can get accurate, up-to-date answers about Cloudinary APIs without leaving your editor.\n\n## What's Included\n\n### MCP Servers (`mcp.json`)\n\nSix Cloudinary MCP servers are pre-configured:\n\n| Server | Description |\n|---|---|\n| `cloudinary-asset-mgmt` | Upload, manage, and transform media assets |\n| `cloudinary-env-config` | Configure your Cloudinary environment settings |\n| `cloudinary-smd` | Work with structured metadata on assets |\n| `cloudinary-analysis` | Analyze images and videos with AI |\n| `cloudinary-video` | Stream live video, generate video from images, and get visual transcripts |\n| `cloudinary-mediaflows` | Build and run automated media workflows |\n\n> **Auth:** The first five servers use OAuth2 — you'll be prompted to log in with your Cloudinary account on first use via Cursor or Claude. The `cloudinary-mediaflows` server requires your Cloudinary credentials (`cloud_name`, `api_key`, `api_secret`) to be set in the headers in `mcp.json`.\n\n### Skills\n\nThree skills are included to give the agent deep Cloudinary knowledge:\n\n| Skill | Directory | Description |\n|---|---|---|\n| **cloudinary-docs** | `skills/cloudinary-docs/` | Answers Cloudinary questions by fetching live documentation from `cloudinary.com/documentation/llms.txt`, ensuring accurate and up-to-date responses with real code examples. |\n| **cloudinary-transformations** | `skills/cloudinary-transformations/` | Creates and debugs Cloudinary transformation URLs from natural language. Covers resize/crop, generative AI effects, video transformations, overlays, named transformations, and cost optimization — with a built-in validation checklist and debugging guide. |\n| **claimable-cloud** | `skills/claimable-cloud/` | Provisions a working Cloudinary cloud with a single command and no signup (a Claimable Cloud) when no credentials are available — claimable by email within 24 hours to keep as a permanent free account. |\n\n## Getting Started\n\n1. Install this plugin in Cursor/Claude Code.\n2. On first use, approve the OAuth login prompt for the MCP servers. For `cloudinary-mediaflows`, add your credentials to its headers in `mcp.json`. No Cloudinary account yet? Just ask the agent to set one up — the **claimable-cloud** skill provisions a free working cloud with no signup (claim it by email within 24 hours to keep it).\n3. Ask your agent anything about Cloudinary — uploads, transformations, metadata, analysis, and more. The agent will automatically use the right skill and MCP server for the job.",
       "truncated": false,
       "url": "https://github.com/cloudinary-devs/cloudinary-plugin#readme"
     }
@@ -2856,16 +2856,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2893,16 +2893,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -2930,16 +2930,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -2966,17 +2966,17 @@
     "repoMeta": {
       "slug": "coderabbitai/skills",
       "stars": 225,
-      "forks": 26,
+      "forks": 28,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-30T06:46:28Z",
-      "pushedAt": "2026-11-20T16:23:04Z",
+      "pushedAt": "2026-11-23T12:47:07Z",
       "openIssues": 5,
       "license": "MIT",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# CodeRabbit Skills and Plugins\n\nThe canonical home for CodeRabbit's agent-native skills and plugin packaging.\nUse it to install AI-powered code review into 35+ coding agents, Gemini CLI,\nAntigravity CLI, Claude Code, Cursor, and other supported agent environments.\n\nCodeRabbit detects bugs, security issues, and quality risks before you merge.\n\n## Quickstart\n\n**Antigravity 1.3.3 candidate:** [install the local source candidate](#antigravity-cli-plugin),\nthen ask **“Set up CodeRabbit”** to connect remote tools and\ncheck local review readiness with the native `coderabbit-setup` skill.\nAuthenticate the hosted connection through Antigravity's CodeRabbit account\nsettings, then ask **“Check my CodeRabbit connection and selected organization.”**\nSee the [Antigravity setup guide](.antigravity-plugin/README.md).\n\n**Claude source package (1.3.5):** run `/coderabbit:setup` for the same two\nreadiness checks. See the [Claude MCP setup guide](docs/mcp.md). For a published\nmarketplace copy, follow its [integration guide](https://docs.coderabbit.ai/cli/claude-code-integration).\n\nBoth packages connect remote tools through MCP and use the standalone\nCodeRabbit CLI for local reviews. **MCP and CLI sign-ins are separate.** Reuse\nan existing CLI installation and login, then ask **“Review my uncommitted\nchanges. Review only; do not edit.”** Antigravity, Claude and Codex show local\nfindings in chat. On a local host with a compatible CLI, ask **“Set up inline\nCodeRabbit review cards.”** Setup can register the CLI as a local stdio server.\nIn a session that confirms Apps for this connection, the agent passes only the\nfinished review's card ID to the local presenter. There is no automatic review hook;\nlocal reviews do not reserve MCP reviews or pass review handoffs through shell\ncommands. A hosted connector alone cannot collect local files.\n\nThe Antigravity connection is in `mcp_config.json`; Claude's is in its own\nmanifest. Other host packages retain their documented workflows. See\n[distribution status](DISTRIBUTION_CHANNELS.md) for publication: source\navailability and matching version numbers do not establish marketplace parity.\n\n**EU accounts:** change the CodeRabbit MCP server URL from `https://mcp.coderabbit.ai/` to `https://mcp.eu.coderabbit.ai/` in your host's MCP settings. For a source-installed package, edit `mcpServers.coderabbit.url` in `.claude-plugin/plugin.json` (Claude) or `mcpServers.coderabbit.serverUrl` in `mcp_config.json` (Antigravity). Reconnect through the host's browser sign-in; US connections do not transfer to EU. Local CLI login remains separate: `coderabbit auth login --region eu`.\n\n**Released CLI integration:** install the CodeRabbit CLI via the [CLI docs](https://docs.coderabbit.ai/cli),\nthen tell your agent: **“Review my code.”** If sign-in is needed, the agent\nhands off the CLI's browser login to you.\n\n## Installation\n\nThe standalone integration paths below remain available. Native MCP package\navailability follows each host's release and marketplace process.\n\n### 1. Install the CodeRabbit CLI\n\nUse the [CLI docs](https://docs.coderabbit.ai/cli) for the primary install path.\nThey cover Homebrew, the install script, and CLI usage.\n\n### 2. Install the agent integration\n\nChoose the path that matches your coding agent.\n\n#### Skills installer\n\nFor agents that support portable `SKILL.md` files, use the\n[skills docs](https://docs.coderabbit.ai/cli/skills).\n\n```bash\nnpx skills add coderabbitai/skills\n```\n\nInstallation options for the skills installer:\n\n| Flag           | Purpose                                          |\n| -------------- | ------------------------------------------------ |\n| `-g, --global` | Install to user directory instead of project     |\n| `-a, --agent`  | Target specific agents (for example `claude-code`) |\n| `-s, --skill`  | Install particular skills by name                |\n| `--all`        | Install all skills to all agents without prompts |\n\n#### Claude Plugin\n\nIn Claude Code, install the plugin from the official marketplace:\n\n```text\n/plugin marketplace update\n/plugin install coderabbit@claude-plugins-official\n```\n\nCodeRabbit is also listed in the Claude directory. Add it from\n**Customize > Plugins > Discover** in\nclaude.ai or the Claude desktop app, and it will sync to Claude Code sessions\nwhere you're signed in with the same claude.ai account. If you install from\nboth places, Claude Code loads the marketplace copy.\n\nFor the MCP candidate from this source, use `/coderabbit:setup` and the\n[MCP setup guide](docs/mcp.md). Published marketplace copies may still use the\n[Claude Code integration guide](https://docs.coderabbit.ai/cli/claude-code-integration).\n\n#### Cursor Plugin\n\nThis repository now includes Cursor marketplace metadata in\n[`/.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json).\n\nAfter publication, Cursor marketplace installs use:\n\n```text\n/add-plugin coderabbit\n```\n\nFor the current recommended setup, see the\n[Cursor integration guide](https://docs.coderabbit.ai/cli/cursor-integration).\n\n#### Gemini CLI Extension\n\nGemini CLI users can install the native extension from the published\n[standalone `v1.2.2` tag](https://github.com/coderabbitai/skills/releases/tag/v1.2.2):\n\n```bash\ngemini extensions install https://github.com/coderabbitai/skills --ref v1.2.2\ngemini extensions list\n```\n\nThe repository-root [`gemini-extension.json`](gemini-extension.json) packages\nthe portable skills, `/coderabbit:review` command, and both subagents.\nThis native extension is separate from the generic skills-installer path above.\n\n#### Antigravity CLI Plugin\n\nInstall the published plugin from **Customizations > Marketplace > CodeRabbit**\nin Antigravity, or use `agy plugin install coderabbit` in the CLI.\nTo test the source candidate directly from this repository:\n\n```bash\nagy plugin install /absolute/path/to/skills\nagy plugin list\n```\n\nThe source candidate includes hosted MCP with native OAuth discovery through\n[`mcp_config.json`](mcp_config.json), five shared skills and two agent\n\n…",
+      "markdown": "# CodeRabbit Skills and Plugins\n\nThe canonical home for CodeRabbit's agent-native skills and plugin packaging.\nUse it to install AI-powered code review into 35+ coding agents, Gemini CLI,\nAntigravity CLI, Claude Code, Cursor, and other supported agent environments.\n\nCodeRabbit detects bugs, security issues, and quality risks before you merge.\n\n## Quickstart\n\n**Antigravity 1.3.4 candidate:** [install the local source candidate](#antigravity-cli-plugin),\nthen ask **“Set up CodeRabbit”** to connect remote tools and\ncheck local review readiness with the native `coderabbit-setup` skill.\nAuthenticate the hosted connection through Antigravity's CodeRabbit account\nsettings, then ask **“Check my CodeRabbit connection and selected organization.”**\nSee the [Antigravity setup guide](.antigravity-plugin/README.md).\n\n**Claude source package (1.3.5):** run `/coderabbit:setup` for the same two\nreadiness checks. See the [Claude MCP setup guide](docs/mcp.md). For a published\nmarketplace copy, follow its [integration guide](https://docs.coderabbit.ai/cli/claude-code-integration).\n\nBoth packages connect remote tools through MCP and use the standalone\nCodeRabbit CLI for local reviews. **MCP and CLI sign-ins are separate.** Reuse\nan existing CLI installation and login, then ask **“Review my uncommitted\nchanges. Review only; do not edit.”** Antigravity, Claude and Codex show local\nfindings in chat. On a local host with a compatible CLI, ask **“Set up inline\nCodeRabbit review cards.”** Setup can register the CLI as a local stdio server.\nIn a session that confirms Apps for this connection, the agent passes only the\nfinished review's card ID to the local presenter. There is no automatic review hook;\nlocal reviews do not reserve MCP reviews or pass review handoffs through shell\ncommands. A hosted connector alone cannot collect local files.\n\nThe Antigravity connection is in `mcp_config.json`; Claude's is in its own\nmanifest. Other host packages retain their documented workflows. See\n[distribution status](DISTRIBUTION_CHANNELS.md) for publication: source\navailability and matching version numbers do not establish marketplace parity.\n\n**EU accounts:** change the CodeRabbit MCP server URL from `https://mcp.coderabbit.ai/` to `https://mcp.eu.coderabbit.ai/` in your host's MCP settings. For a source-installed package, edit `mcpServers.coderabbit.url` in `.claude-plugin/plugin.json` (Claude) or `mcpServers.coderabbit.serverUrl` in `mcp_config.json` (Antigravity). Reconnect through the host's browser sign-in; US connections do not transfer to EU. Local CLI login remains separate: `coderabbit auth login --region eu`.\n\n**Released CLI integration:** install the CodeRabbit CLI via the [CLI docs](https://docs.coderabbit.ai/cli),\nthen tell your agent: **“Review my code.”** If sign-in is needed, the agent\nhands off the CLI's browser login to you.\n\n## Installation\n\nThe standalone integration paths below remain available. Native MCP package\navailability follows each host's release and marketplace process.\n\n### 1. Install the CodeRabbit CLI\n\nUse the [CLI docs](https://docs.coderabbit.ai/cli) for the primary install path.\nThey cover Homebrew, the install script, and CLI usage.\n\n### 2. Install the agent integration\n\nChoose the path that matches your coding agent.\n\n#### Skills installer\n\nFor agents that support portable `SKILL.md` files, use the\n[skills docs](https://docs.coderabbit.ai/cli/skills).\n\n```bash\nnpx skills add coderabbitai/skills\n```\n\nInstallation options for the skills installer:\n\n| Flag           | Purpose                                          |\n| -------------- | ------------------------------------------------ |\n| `-g, --global` | Install to user directory instead of project     |\n| `-a, --agent`  | Target specific agents (for example `claude-code`) |\n| `-s, --skill`  | Install particular skills by name                |\n| `--all`        | Install all skills to all agents without prompts |\n\n#### Claude Plugin\n\nIn Claude Code, install the plugin from the official marketplace:\n\n```text\n/plugin marketplace update\n/plugin install coderabbit@claude-plugins-official\n```\n\nCodeRabbit is also listed in the Claude directory. Add it from\n**Customize > Plugins > Discover** in\nclaude.ai or the Claude desktop app, and it will sync to Claude Code sessions\nwhere you're signed in with the same claude.ai account. If you install from\nboth places, Claude Code loads the marketplace copy.\n\nFor the MCP candidate from this source, use `/coderabbit:setup` and the\n[MCP setup guide](docs/mcp.md). Published marketplace copies may still use the\n[Claude Code integration guide](https://docs.coderabbit.ai/cli/claude-code-integration).\n\n#### Cursor Plugin\n\nThis repository now includes Cursor marketplace metadata in\n[`/.cursor-plugin/plugin.json`](.cursor-plugin/plugin.json).\n\nAfter publication, Cursor marketplace installs use:\n\n```text\n/add-plugin coderabbit\n```\n\nFor the current recommended setup, see the\n[Cursor integration guide](https://docs.coderabbit.ai/cli/cursor-integration).\n\n#### Gemini CLI Extension\n\nGemini CLI users can install the native extension from the published\n[standalone `v1.2.2` tag](https://github.com/coderabbitai/skills/releases/tag/v1.2.2):\n\n```bash\ngemini extensions install https://github.com/coderabbitai/skills --ref v1.2.2\ngemini extensions list\n```\n\nThe repository-root [`gemini-extension.json`](gemini-extension.json) packages\nthe portable skills, `/coderabbit:review` command, and both subagents.\nThis native extension is separate from the generic skills-installer path above.\n\n#### Antigravity CLI Plugin\n\nInstall the published plugin from **Customizations > Marketplace > CodeRabbit**\nin Antigravity, or use `agy plugin install coderabbit` in the CLI.\nTo test the source candidate directly from this repository:\n\n```bash\nagy plugin install /absolute/path/to/skills\nagy plugin list\n```\n\nThe source candidate includes hosted MCP with native OAuth discovery through\n[`mcp_config.json`](mcp_config.json), five shared skills and two agent\n\n…",
       "truncated": true,
       "url": "https://github.com/coderabbitai/skills#readme"
     }
@@ -3007,7 +3007,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2023-11-11T18:35:22Z",
-      "pushedAt": "2026-11-21T07:32:45Z",
+      "pushedAt": "2026-11-23T14:09:15Z",
       "openIssues": 22,
       "license": "Apache-2.0",
       "language": "Rust"
@@ -3036,16 +3036,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3110,16 +3110,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3295,16 +3295,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3332,16 +3332,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3373,7 +3373,7 @@
     "repoMeta": {
       "slug": "dash0hq/dash0-agent-plugin",
       "stars": 6,
-      "forks": 2,
+      "forks": 3,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-10T11:58:15Z",
@@ -3406,10 +3406,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 463,
+    "stars": 464,
     "repoMeta": {
       "slug": "astronomer/agents",
-      "stars": 463,
+      "stars": 464,
       "forks": 72,
       "archived": false,
       "isFork": false,
@@ -3443,15 +3443,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 252,
+    "stars": 253,
     "repoMeta": {
       "slug": "GoogleCloudPlatform/data-agent-kit-plugin",
-      "stars": 252,
+      "stars": 253,
       "forks": 80,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-02T14:10:44Z",
-      "pushedAt": "2026-11-20T18:57:01Z",
+      "pushedAt": "2026-11-23T05:05:39Z",
       "openIssues": 6,
       "license": "Apache-2.0",
       "language": "Python"
@@ -3480,10 +3480,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 463,
+    "stars": 464,
     "repoMeta": {
       "slug": "astronomer/agents",
-      "stars": 463,
+      "stars": 464,
       "forks": 72,
       "archived": false,
       "isFork": false,
@@ -3549,15 +3549,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 408,
+    "stars": 409,
     "repoMeta": {
       "slug": "databricks/databricks-agent-skills",
-      "stars": 408,
+      "stars": 409,
       "forks": 104,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-14T09:51:58Z",
-      "pushedAt": "2026-11-22T07:22:39Z",
+      "pushedAt": "2026-11-23T08:32:49Z",
       "openIssues": 38,
       "license": "NOASSERTION",
       "language": "Python"
@@ -3700,7 +3700,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-14T04:08:33Z",
-      "pushedAt": "2026-11-18T15:41:02Z",
+      "pushedAt": "2026-11-23T11:06:12Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
@@ -3729,16 +3729,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 262,
+    "stars": 264,
     "repoMeta": {
       "slug": "microsoft/Dataverse-skills",
-      "stars": 262,
-      "forks": 66,
+      "stars": 264,
+      "forks": 67,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-11T23:00:58Z",
       "pushedAt": "2026-11-21T03:27:32Z",
-      "openIssues": 23,
+      "openIssues": 24,
       "license": "MIT",
       "language": null
     }
@@ -3761,16 +3761,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 19589,
+    "stars": 19607,
     "repoMeta": {
       "slug": "confident-ai/deepeval",
-      "stars": 19589,
-      "forks": 2241,
+      "stars": 19607,
+      "forks": 2246,
       "archived": false,
       "isFork": false,
       "createdAt": "2023-08-10T05:35:04Z",
-      "pushedAt": "2026-11-22T01:43:24Z",
-      "openIssues": 346,
+      "pushedAt": "2026-11-23T15:21:02Z",
+      "openIssues": 347,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3835,16 +3835,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 10390,
+    "stars": 10405,
     "repoMeta": {
       "slug": "wonderwhy-er/DesktopCommanderMCP",
-      "stars": 10390,
-      "forks": 1306,
+      "stars": 10405,
+      "forks": 1309,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-12-04T08:26:08Z",
       "pushedAt": "2026-11-20T20:55:08Z",
-      "openIssues": 222,
+      "openIssues": 223,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -3872,16 +3872,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -3983,10 +3983,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 619,
+    "stars": 623,
     "repoMeta": {
       "slug": "duckdb/duckdb-skills",
-      "stars": 619,
+      "stars": 623,
       "forks": 41,
       "archived": false,
       "isFork": false,
@@ -4057,11 +4057,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 5256,
+    "stars": 5265,
     "repoMeta": {
       "slug": "exa-labs/exa-mcp-server",
-      "stars": 5256,
-      "forks": 413,
+      "stars": 5265,
+      "forks": 412,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-27T23:38:35Z",
@@ -4094,16 +4094,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4131,11 +4131,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 4211,
+    "stars": 4224,
     "repoMeta": {
       "slug": "expo/skills",
-      "stars": 4211,
-      "forks": 279,
+      "stars": 4224,
+      "forks": 280,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-30T03:57:18Z",
@@ -4168,16 +4168,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4242,16 +4242,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4287,8 +4287,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-18T22:53:06Z",
-      "pushedAt": "2026-11-20T16:46:00Z",
-      "openIssues": 5,
+      "pushedAt": "2026-11-23T03:15:08Z",
+      "openIssues": 4,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4316,11 +4316,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2224,
+    "stars": 2227,
     "repoMeta": {
       "slug": "figma/mcp-server-guide",
-      "stars": 2224,
-      "forks": 219,
+      "stars": 2227,
+      "forks": 220,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-08-05T09:28:24Z",
@@ -4353,16 +4353,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4385,11 +4385,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 264,
+    "stars": 266,
     "repoMeta": {
       "slug": "firecrawl/firecrawl-claude-plugin",
-      "stars": 264,
-      "forks": 40,
+      "stars": 266,
+      "forks": 41,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-12-29T19:10:36Z",
@@ -4467,13 +4467,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-15T01:04:23Z",
-      "pushedAt": "2026-11-15T20:12:03Z",
+      "pushedAt": "2026-11-22T21:49:10Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# Atlassian Forge Skills\n\nAtlassian Forge lets you build and deploy apps directly on the Atlassian platform - issue panels, Confluence macros, dashboard gadgets, and more. The Forge Skills Plugin bundles several Forge-focused skills plus MCP-backed tooling so your agent can scaffold apps, review them before deploy, debug production issues, and stay current on Forge APIs and the Atlassian Design System.\n\n## What's included\n\n### Skills\n\nThe plugin ships multiple skills under `skills/`, each with a `SKILL.md` the host can load:\n\n**Forge Onboarding** (`skills/forge-onboarding/`) guides a first-time Forge builder through one continuous run: scaffold a Rovo Agent, customize it into **Forge Guru** — an agent that answers Forge questions from the official docs — then deploy and install it on their test site. One authorization gate up front, no mid-build prompts. Use it for \"my first Forge app\", \"my first Rovo Agent\", or to resume the tutorial on an existing developer site.\n\n**Forge App Builder** (`skills/forge-app-builder/`) guides scaffolding through production: `forge create`, dev spaces and templates, deploy and install, module selection, cross-product scopes, and common CLI or permission issues.\n\n**Forge App Review** (`skills/forge-app-review/`) supports pre-deploy review and audits: security, architecture, cost and invocation efficiency, performance, and trigger or scheduling waste.\n\n**Forge Cost Optimizer** (`skills/forge-cost-optimizer/`) helps reduce Forge platform consumption across invocations, storage, logs, memory, triggers, API calls, and frontend/backend boundaries.\n\n**Forge Debugger** (`skills/forge-debugger/`) supports systematic troubleshooting when something breaks: `forge` / deploy errors, resolver failures, blank or missing UI, scopes and permissions, and apps that “stopped working” in Jira or Confluence.\n\n**Forge Connector** (`skills/forge-connector/`) guides building `graph:connector` apps that ingest external data into Atlassian's Teamwork Graph, making it searchable in Rovo Search and surfaced in Rovo Chat.\n\n**Forge Security Review** (`skills/forge-security-review/`) performs white-box Forge app security audits with rule-driven checks for authz, injection, tenant isolation, secrets handling, egress/remotes, web triggers, and a pinned deterministic layer (FSRT plus OpenGrep running Forge-specific rule packs) that feeds the review.\n\n### Forge MCP Server\n\nGives your agent access to up-to-date Forge documentation, template registries, module configuration, manifest syntax, and UI Kit/backend API guides -- so its knowledge stays current rather than relying on training data.\n\n### ADS MCP Server\n\nProvides Atlassian Design System lookup for Custom UI apps: component discovery, token reference, and icon search via the `@atlaskit` library.\n\n| Component                       | What it adds                                              | Examples                                                               |\n| ------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------- |\n| **Forge Onboarding skill**      | Guided first-Forge-app tutorial with a two-loop journey   | Stock Rovo Agent, Forge Guru docs companion, resume onboarding          |\n| **Forge App Builder skill**     | Scaffold, deploy, install, module choice, CLI workflows   | `forge create`, environments, cross-product scopes                     |\n| **Forge App Review skill**      | Pre-deploy review: security, cost, architecture, triggers | Audit before release, reduce invocations, find misconfigurations       |\n| **Forge Cost Optimizer skill**  | Reduce Forge platform consumption and avoid waste         | Invocations, storage writes, logs, memory, triggers                    |\n| **Forge Debugger skill**        | Diagnose deploy, runtime, UI, and permission issues       | Logs, blank panels, resolver errors, missing app in UI                 |\n| **Forge Connector skill**       | Ingest external data into Teamwork Graph / Rovo           | graph:connector, setObjects, Rovo Search, Rovo Chat                    |\n| **Forge Security Review skill** | White-box security audits and exploitability reporting    | AuthZ bypasses, injection, tenant isolation, static analysis workflows |\n| **Forge MCP Server**            | Live Forge documentation and tooling                      | Template lookup, manifest syntax, UI Kit guides, backend API reference |\n| **ADS MCP Server**              | Atlassian Design System lookup                            | Component discovery, token reference, icon lookup (Custom UI only)     |\n\n## Prerequisites\n\nBefore you install, make sure you have:\n\n- An [Atlassian account](https://id.atlassian.com)\n- **Node.js 22+** (`node -v`) — required for Forge CLI and app builds\n- **Python 3** available on your PATH (used by helper scripts)\n\n## Install\n\n### Claude Code\n\n```\n/plugin install forge-skills@atlassian-forge-skills\n```\n\n### Cursor\n\nThe Forge Skills plugin can be installed directly from the [Cursor Marketplace](https://cursor.com/marketplace/atlassian/forge-skills)\n\nOr by running the following command in chat with a Cursor agent:\n\n```\n/add-plugin forge-skills\n```\n\n### Gemini CLI\n\n```bash\ngemini extensions install https://github.com/atlassian/forge-skills\n```\n\n### GitHub Copilot CLI\n\n```bash\ncopilot plugin install atlassian/forge-skills\n```\n\n### OpenAI Codex\n\nInstall the Forge Skills marketplace:\n\n```bash\ncodex plugin marketplace add atlassian/forge-skills --ref main\n```\n\nThen install the plugin:\n\n```bash\ncodex plugin add forge-skills@atlassian-forge-skills\n```\n\nStart a new Codex thread after installing so the Forge skills and MCP servers are loaded.\n\nTo refresh the Codex marketplace after updates:\n\n```bash\ncodex plugin marketplace upgrade atlassian-forge-skills\ncodex plugin add forge-skills@atlassian-forge-skills\n```\n\n### Kiro and Agent Plugins clients\n\nThis repository follows the [Agent Plugins v1.0.0 specifi\n\n…",
+      "markdown": "# Atlassian Forge Skills\n\nAtlassian Forge lets you build and deploy apps directly on the Atlassian platform - issue panels, Confluence macros, dashboard gadgets, and more. The Forge Skills Plugin bundles several Forge-focused skills plus MCP-backed tooling so your agent can scaffold apps, review them before deploy, debug production issues, and stay current on Forge APIs and the Atlassian Design System.\n\n## What's included\n\n### Skills\n\nThe plugin ships multiple skills under `skills/`, each with a `SKILL.md` the host can load:\n\n**Forge Onboarding** (`skills/forge-onboarding/`) guides a first-time Forge builder through one continuous run: scaffold a Rovo Agent, customize it into **Forge Guru** — an agent that answers Forge questions from the official docs — then deploy and install it on their test site. One authorization gate up front, no mid-build prompts. Use it for \"my first Forge app\", \"my first Rovo Agent\", or to resume the tutorial on an existing developer site.\n\n**Forge App Builder** (`skills/forge-app-builder/`) guides scaffolding through production: `forge create`, dev spaces and templates, deploy and install, module selection, cross-product scopes, and common CLI or permission issues.\n\n**Forge App Review** (`skills/forge-app-review/`) supports pre-deploy review and audits: security, architecture, cost and invocation efficiency, performance, and trigger or scheduling waste.\n\n**Forge Cost Optimizer** (`skills/forge-cost-optimizer/`) helps reduce Forge platform consumption across invocations, storage, logs, memory, triggers, API calls, and frontend/backend boundaries.\n\n**Forge Debugger** (`skills/forge-debugger/`) supports systematic troubleshooting when something breaks: `forge` / deploy errors, resolver failures, blank or missing UI, scopes and permissions, and apps that “stopped working” in Jira or Confluence.\n\n**Forge Connector** (`skills/forge-connector/`) guides building `graph:connector` apps that ingest external data into Atlassian's Teamwork Graph, making it searchable in Rovo Search and surfaced in Rovo Chat.\n\n**Forge Security Review** (`skills/forge-security-review/`) performs white-box Forge app security audits with rule-driven checks for authz, injection, tenant isolation, secrets handling, egress/remotes, web triggers, and a pinned deterministic layer (FSRT plus OpenGrep running Forge-specific rule packs) that feeds the review.\n\n### Forge MCP Server\n\nGives your agent access to up-to-date Forge documentation, template registries, module configuration, manifest syntax, and UI Kit/backend API guides -- so its knowledge stays current rather than relying on training data.\n\n### ADS MCP Server\n\nProvides Atlassian Design System lookup for Custom UI apps: component discovery, token reference, and icon search via the `@atlaskit` library.\n\n| Component                       | What it adds                                              | Examples                                                               |\n| ------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------- |\n| **Forge Onboarding skill**      | Guided first-Forge-app tutorial with a two-loop journey   | Stock Rovo Agent, Forge Guru docs companion, resume onboarding          |\n| **Forge App Builder skill**     | Scaffold, deploy, install, module choice, CLI workflows   | `forge create`, environments, cross-product scopes                     |\n| **Forge App Review skill**      | Pre-deploy review: security, cost, architecture, triggers | Audit before release, reduce invocations, find misconfigurations       |\n| **Forge Cost Optimizer skill**  | Reduce Forge platform consumption and avoid waste         | Invocations, storage writes, logs, memory, triggers                    |\n| **Forge Debugger skill**        | Diagnose deploy, runtime, UI, and permission issues       | Logs, blank panels, resolver errors, missing app in UI                 |\n| **Forge Connector skill**       | Ingest external data into Teamwork Graph / Rovo           | graph:connector, setObjects, Rovo Search, Rovo Chat                    |\n| **Forge Security Review skill** | White-box security audits and exploitability reporting    | AuthZ bypasses, injection, tenant isolation, static analysis workflows |\n| **Forge MCP Server**            | Live Forge documentation and tooling                      | Template lookup, manifest syntax, UI Kit guides, backend API reference |\n| **ADS MCP Server**              | Atlassian Design System lookup                            | Component discovery, token reference, icon lookup (Custom UI only)     |\n\n## Prerequisites\n\nBefore you install, make sure you have:\n\n- An [Atlassian account](https://id.atlassian.com)\n- **Node.js 22+** (`node -v`) — required for Forge CLI and app builds\n- **Python 3** available on your PATH (used by helper scripts)\n\n## Install\n\n### Claude Code\n\n```\n/plugin install forge-skills@claude-plugins-official\n```\n\n### Cursor\n\nThe Forge Skills plugin can be installed directly from the [Cursor Marketplace](https://cursor.com/marketplace/atlassian/forge-skills)\n\nOr by running the following command in chat with a Cursor agent:\n\n```\n/add-plugin forge-skills\n```\n\n### Gemini CLI\n\n```bash\ngemini extensions install https://github.com/atlassian/forge-skills\n```\n\n### GitHub Copilot CLI\n\n```bash\ncopilot plugin install atlassian/forge-skills\n```\n\n### OpenAI Codex\n\nInstall the Forge Skills marketplace:\n\n```bash\ncodex plugin marketplace add atlassian/forge-skills --ref main\n```\n\nThen install the plugin:\n\n```bash\ncodex plugin add forge-skills@atlassian-forge-skills\n```\n\nStart a new Codex thread after installing so the Forge skills and MCP servers are loaded.\n\nTo refresh the Codex marketplace after updates:\n\n```bash\ncodex plugin marketplace upgrade atlassian-forge-skills\ncodex plugin add forge-skills@atlassian-forge-skills\n```\n\n### Kiro and Agent Plugins clients\n\nThis repository follows the [Agent Plugins v1.0.0 specif\n\n…",
       "truncated": true,
       "url": "https://github.com/atlassian/forge-skills#readme"
     }
@@ -4496,16 +4496,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4607,16 +4607,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4676,16 +4676,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -4745,16 +4745,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -4930,10 +4930,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 440,
+    "stars": 441,
     "repoMeta": {
       "slug": "greptileai/skills",
-      "stars": 440,
+      "stars": 441,
       "forks": 47,
       "archived": false,
       "isFork": false,
@@ -5036,16 +5036,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5081,7 +5081,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-02T10:07:04Z",
-      "pushedAt": "2026-11-22T06:10:58Z",
+      "pushedAt": "2026-11-23T08:31:06Z",
       "openIssues": 1,
       "license": null,
       "language": "JavaScript"
@@ -5110,15 +5110,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 11383,
+    "stars": 11388,
     "repoMeta": {
       "slug": "huggingface/skills",
-      "stars": 11383,
+      "stars": 11388,
       "forks": 801,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-24T07:31:48Z",
-      "pushedAt": "2026-11-20T23:41:21Z",
+      "pushedAt": "2026-11-23T15:20:48Z",
       "openIssues": 21,
       "license": "Apache-2.0",
       "language": "Python"
@@ -5184,16 +5184,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 88070,
+    "stars": 88787,
     "repoMeta": {
       "slug": "heygen-com/hyperframes",
-      "stars": 88070,
-      "forks": 8197,
+      "stars": 88787,
+      "forks": 8282,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-10T01:51:06Z",
-      "pushedAt": "2026-11-22T14:17:54Z",
-      "openIssues": 129,
+      "pushedAt": "2026-11-23T17:42:14Z",
+      "openIssues": 131,
       "license": "Apache-2.0",
       "language": "TypeScript"
     },
@@ -5253,16 +5253,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5294,7 +5294,7 @@
     "repoMeta": {
       "slug": "incident-io/skills",
       "stars": 3,
-      "forks": 2,
+      "forks": 3,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-08-21T12:49:40Z",
@@ -5438,16 +5438,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5483,7 +5483,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-13T13:16:58Z",
-      "pushedAt": "2026-11-22T13:48:31Z",
+      "pushedAt": "2026-11-23T14:11:46Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -5549,16 +5549,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5623,16 +5623,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -5726,16 +5726,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -5800,16 +5800,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -6081,16 +6081,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6229,16 +6229,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6266,16 +6266,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6303,16 +6303,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 330150,
+    "stars": 331220,
     "repoMeta": {
       "slug": "mattpocock/skills",
-      "stars": 330150,
-      "forks": 27748,
+      "stars": 331220,
+      "forks": 27826,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-03T11:15:53Z",
       "pushedAt": "2026-11-19T13:35:13Z",
-      "openIssues": 237,
+      "openIssues": 241,
       "license": "MIT",
       "language": "Shell"
     },
@@ -6340,10 +6340,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 3135,
+    "stars": 3144,
     "repoMeta": {
       "slug": "modelcontextprotocol/ext-apps",
-      "stars": 3135,
+      "stars": 3144,
       "forks": 441,
       "archived": false,
       "isFork": false,
@@ -6377,16 +6377,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6414,16 +6414,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6496,13 +6496,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2021-05-17T07:36:22Z",
-      "pushedAt": "2026-11-20T15:41:48Z",
+      "pushedAt": "2026-11-23T11:34:30Z",
       "openIssues": 4,
       "license": "NOASSERTION",
       "language": "Shell"
     },
     "readme": {
-      "markdown": "# Mergify CLI\n\nDrive [Mergify](https://mergify.com) from your terminal and CI pipelines:\nstacked pull requests, the merge queue, Test Engine, scheduled freezes, and\nconfiguration — all from a single self-contained binary that reuses your\nexisting GitHub (`gh`) login.\n\n```shell\nmergify stack push          # turn your local commits into stacked PRs\nmergify queue status        # inspect the merge queue\nmergify ci junit-process report.xml   # upload test results to Test Engine\n```\n\n- **One static binary.** No runtime, no dependencies — drop it on a developer\n  laptop or a CI runner and go.\n- **One command to sign in.** `mergify auth login` approves the CLI in your\n  browser and keeps the credential in your OS keychain; `MERGIFY_TOKEN` or\n  `--token` for scripting.\n- **Built for pipelines.** Logs to stderr, structured `--json` output on read\n  commands, and stable [exit codes](#exit-codes) for scripts and runbooks.\n- **Cross-platform.** Linux, macOS (x86_64 + aarch64), and Windows.\n\n## Installation\n\n### Homebrew (recommended for macOS)\n\n```shell\nbrew install mergifyio/tap/mergify-cli\n```\n\nThe fully-qualified name taps and installs in one step. Upgrade with\n`brew upgrade mergify-cli` — not `mergify self-update`, which overwrites the\nHomebrew-managed binary. See the [tap](https://github.com/Mergifyio/homebrew-tap)\nfor tap-trust and short-name details.\n\n### Install script (recommended for Linux; also macOS — x86_64 and aarch64)\n\n```shell\ncurl -fsSL https://raw.githubusercontent.com/Mergifyio/mergify-cli/main/install.sh | sh\n```\n\nInstalls to `~/.local/bin/mergify`. Override with `MERGIFY_INSTALL_DIR=/usr/local/bin`\nor pin a version with `MERGIFY_VERSION=<version>`. Upgrade with `mergify self-update`.\n\n### Manual download (Windows, or to bypass the script)\n\nGrab the matching archive from the\n[latest release](https://github.com/Mergifyio/mergify-cli/releases/latest):\n\n- **Windows** — download `mergify-<version>-x86_64-pc-windows-msvc.zip`,\n  extract it, and put `mergify.exe` anywhere on your `PATH`.\n- **Linux / macOS** — download `mergify-<version>-<target>.tar.gz` (e.g.\n  `mergify-2026.10.1-aarch64-apple-darwin.tar.gz`), extract with `tar -xzf`,\n  and put the resulting `mergify` binary anywhere on your `PATH`.\n\nVerify against `SHA256SUMS` from the same release if you care.\n\n## Authentication\n\nSign in once:\n\n```shell\nmergify auth login\n```\n\nIt opens the approval page in your browser, and prints the URL and the code\nas well: pass `--no-browser`, or run it where there is no browser to open,\nand the printed pair is all you need. Once you approve, the\ncredential lands in your OS keychain — or, on a machine with none (a\ncontainer, an unattended agent, a headless box with no D-Bus session), in a\nrestricted file under your configuration directory. `mergify auth status` says\nwhich account you are signed in as, and `mergify auth logout` asks the Mergify\nAPI to revoke the credential rather than only deleting the local copy.\n\nThe approval page labels the new token `Mergify CLI on <hostname>`. Pass\n`--device-name \"work laptop\"` to name the machine yourself, or `--device-name=`\nto keep the hostname from leaving the machine at all.\n\nThe commands that talk to the **Mergify API** resolve a credential in this\norder:\n\n| # | Credential | |\n| --- | --- | --- |\n| 1 | `--token` / `-t` | |\n| 2 | `MERGIFY_TOKEN` | |\n| 3 | the credential stored by `mergify auth login` | keyed by API URL |\n\nA GitHub token (`GITHUB_TOKEN`, `gh auth token`) is no longer a fallback: the\nMergify API is dropping GitHub tokens, and a command with none of the credentials\nabove fails and says how to get one. Run `mergify auth login`, or set\n`MERGIFY_TOKEN` in CI.\n\n`mergify ci` skips step 3. Those endpoints require an organization\napplication key, which is what `MERGIFY_TOKEN` holds in a CI job; the\nper-user credential `mergify auth login` mints is refused there by design.\n\n`mergify stack` also calls the **GitHub API** directly, and resolves that\ntoken separately (`--token`, `MERGIFY_TOKEN`, `GITHUB_TOKEN`, `gh auth\ntoken`). It is unaffected by the change above: `stack` needs a GitHub\ncredential and Mergify never issues one. A Mergify-issued token (`mut_…`) is\nskipped there rather than sent to GitHub, which would only answer `401 Bad\ncredentials` — in `MERGIFY_TOKEN`, in `GITHUB_TOKEN`, and in what `gh auth\ntoken` returns, since it echoes `GITHUB_TOKEN` when that is set. Only an\nexplicit `--token` is sent as given.\n\nThe repository and API URL resolve as before:\n\n| What | `--flag` | then env | then |\n| --- | --- | --- | --- |\n| **Repository** | `--repository` / `-r` | `GITHUB_REPOSITORY` | `git remote` (`origin`) |\n| **API URL** | `--api-url` / `-u` | `MERGIFY_API_URL` | `https://api.mergify.com` |\n\nCredentials are stored per API URL, so one machine can hold a credential for\nthe hosted service and one for an on-premise install.\n\nMergify application keys come in two classes, each reaching its own set of\nendpoints rather than one being a subset of the other. A `ci` key is scoped\nto what a CI job does — trace upload, `ci scopes-send`, quarantine evaluation\nand the quarantine list. Trace upload and `ci scopes-send` take a `ci` key\nonly, and answer an `admin` key or a user credential with `403 Forbidden`.\nReading test health (`mergify tests show`) and changing the quarantine\n(`mergify tests quarantines add` / `remove`) need an `admin` key or a user\ncredential — the one `mergify auth login` stores — and answer a `ci` key with\n`403 Forbidden`. `GITHUB_TOKEN` is not a Mergify credential and does not reach\nthe Mergify API.\n\nSee the [authentication guide](https://docs.mergify.com/cli/usage) for details.\n\n## Quick start\n\n```shell\n# Stacked pull requests — one PR per commit, kept in sync\nmergify stack setup                # once per repo: install the git hooks the stack needs\nmergify stack push                 # push commits and create/update their PRs\nmergify stack list                 # show the stack and its PR status\nmergify stack sync                 # reba\n\n…",
+      "markdown": "# Mergify CLI\n\nDrive [Mergify](https://mergify.com) from your terminal and CI pipelines:\nstacked pull requests, the merge queue, Test Engine, scheduled freezes, and\nconfiguration — all from a single self-contained binary that reuses your\nexisting GitHub (`gh`) login.\n\n```shell\nmergify stack push          # turn your local commits into stacked PRs\nmergify queue status        # inspect the merge queue\nmergify ci junit-process report.xml   # upload test results to Test Engine\n```\n\n- **One static binary.** No runtime, no dependencies — drop it on a developer\n  laptop or a CI runner and go.\n- **One command to sign in.** `mergify auth login` approves the CLI in your\n  browser and keeps the credential in your OS keychain; `MERGIFY_TOKEN` or\n  `--token` for scripting. In a GitHub Actions job granted `id-token: write`,\n  `mergify ci` needs neither: it exchanges the job's ID token.\n- **Built for pipelines.** Logs to stderr, structured `--json` output on read\n  commands, and stable [exit codes](#exit-codes) for scripts and runbooks.\n- **Cross-platform.** Linux (x86_64 + aarch64, glibc 2.28 or newer), macOS\n  (aarch64; x86_64 as best effort, not tested before a release), and Windows.\n\n## Installation\n\n### Homebrew (recommended for macOS)\n\n```shell\nbrew install mergifyio/tap/mergify-cli\n```\n\nThe fully-qualified name taps and installs in one step. Upgrade with\n`brew upgrade mergify-cli` — not `mergify self-update`, which overwrites the\nHomebrew-managed binary. See the [tap](https://github.com/Mergifyio/homebrew-tap)\nfor tap-trust and short-name details.\n\n### Install script (recommended for Linux; also macOS)\n\n```shell\ncurl -fsSL https://raw.githubusercontent.com/Mergifyio/mergify-cli/main/install.sh | sh\n```\n\nInstalls to `~/.local/bin/mergify`. Override with `MERGIFY_INSTALL_DIR=/usr/local/bin`\nor pin a version with `MERGIFY_VERSION=<version>`. Upgrade with `mergify self-update`.\n\n### Manual download (Windows, or to bypass the script)\n\nGrab the matching archive from the\n[latest release](https://github.com/Mergifyio/mergify-cli/releases/latest):\n\n- **Windows** — download `mergify-<version>-x86_64-pc-windows-msvc.zip`,\n  extract it, and put `mergify.exe` anywhere on your `PATH`.\n- **Linux / macOS** — download `mergify-<version>-<target>.tar.gz` (e.g.\n  `mergify-2026.10.1-aarch64-apple-darwin.tar.gz`), extract with `tar -xzf`,\n  and put the resulting `mergify` binary anywhere on your `PATH`.\n\nVerify against `SHA256SUMS` from the same release if you care.\n\n## Authentication\n\nSign in once:\n\n```shell\nmergify auth login\n```\n\nIt opens the approval page in your browser, and prints the URL and the code\nas well: pass `--no-browser`, or run it where there is no browser to open,\nand the printed pair is all you need. Once you approve, the\ncredential lands in your OS keychain — or, on a machine with none (a\ncontainer, an unattended agent, a headless box with no D-Bus session), in a\nrestricted file under your configuration directory. `mergify auth status` says\nwhich account you are signed in as, and `mergify auth logout` asks the Mergify\nAPI to revoke the credential rather than only deleting the local copy.\n\nThe approval page labels the new token `Mergify CLI on <hostname>`. Pass\n`--device-name \"work laptop\"` to name the machine yourself, or `--device-name=`\nto keep the hostname from leaving the machine at all.\n\nThe commands that talk to the **Mergify API** resolve a credential in this\norder:\n\n| # | Credential | |\n| --- | --- | --- |\n| 1 | `--token` / `-t` | |\n| 2 | `MERGIFY_TOKEN` | |\n| 3 | the credential stored by `mergify auth login` | keyed by API URL |\n\nA GitHub token (`GITHUB_TOKEN`, `gh auth token`) is no longer a fallback: the\nMergify API is dropping GitHub tokens, and a command with none of the credentials\nabove fails and says how to get one. Run `mergify auth login`, or set\n`MERGIFY_TOKEN` in CI.\n\n`mergify ci` skips step 3: its endpoints take a CI credential, and refuse the\nper-user one `mergify auth login` mints by design. In a GitHub Actions job\ngranted `id-token: write`, with neither `--token` nor `MERGIFY_TOKEN`,\n`mergify ci junit-process` and `mergify ci scopes-send` exchange the job's ID\ntoken for a short-lived Mergify OIDC CI token, once a trust policy of the\norganization allows the job (`mergify oidc`, below). On any other CI,\n`MERGIFY_TOKEN` holds an organization application key with the `ci` scope.\nWith an application key in `MERGIFY_TOKEN`, `mergify auth status` names the\nkey, its permissions and when it expires: a refused request never says which\npermission it lacked.\n\n`mergify stack` also calls the **GitHub API** directly, and resolves that\ntoken separately (`--token`, `MERGIFY_TOKEN`, `GITHUB_TOKEN`, `gh auth\ntoken`). It is unaffected by the change above: `stack` needs a GitHub\ncredential and Mergify never issues one. A Mergify-issued token (`mut_…`) is\nskipped there rather than sent to GitHub, which would only answer `401 Bad\ncredentials` — in `MERGIFY_TOKEN`, in `GITHUB_TOKEN`, and in what `gh auth\ntoken` returns, since it echoes `GITHUB_TOKEN` when that is set. Only an\nexplicit `--token` is sent as given.\n\nThe repository and API URL resolve as before:\n\n| What | `--flag` | then env | then |\n| --- | --- | --- | --- |\n| **Repository** | `--repository` / `-r` | `GITHUB_REPOSITORY` | `git remote` (`origin`) |\n| **API URL** | `--api-url` / `-u` | `MERGIFY_API_URL` | `https://api.mergify.com` |\n\nCredentials are stored per API URL, so one machine can hold a credential for\nthe hosted service and one for an on-premise install.\n\nMergify application keys come in two classes, each reaching its own set of\nendpoints rather than one being a subset of the other. A `ci` key is scoped\nto what a CI job does — trace upload, `ci scopes-send`, quarantine evaluation\nand the quarantine list. Trace upload and `ci scopes-send` take a `ci` key\nonly, and answer an `admin` key or a user credential with `403 Forbidden`.\nReading test health (`mergify tests show`), changing the quarantine\n(`mergify tests quarantines add` /\n\n…",
       "truncated": true,
       "url": "https://github.com/mergifyio/mergify-cli#readme"
     }
@@ -6529,7 +6529,7 @@
     "repoMeta": {
       "slug": "MicrosoftDocs/mcp",
       "stars": 2002,
-      "forks": 290,
+      "forks": 291,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-06-09T03:31:49Z",
@@ -6571,7 +6571,7 @@
       "isFork": false,
       "createdAt": "2026-05-11T20:24:02Z",
       "pushedAt": "2026-11-13T12:51:28Z",
-      "openIssues": 18,
+      "openIssues": 17,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -6673,21 +6673,21 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 24864,
+    "stars": 25439,
     "repoMeta": {
       "slug": "GoogleChrome/modern-web-guidance",
-      "stars": 24864,
-      "forks": 1043,
+      "stars": 25439,
+      "forks": 1077,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-23T17:49:14Z",
-      "pushedAt": "2026-11-17T18:41:16Z",
+      "pushedAt": "2026-11-23T14:54:26Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": null
     },
     "readme": {
-      "markdown": "# Modern Web Guidance\n\n[Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform.\n\n*Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.*\n\n[Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome/modern-web-guidance-src) · [Report an Issue](https://github.com/GoogleChrome/modern-web-guidance-src/issues)\n\n##  Quickstart\n\n```shell\nnpx modern-web-guidance@latest install\n```\n\nThis command runs an interactive wizard to install Modern Web Guidance. See [Alternative Installation Methods](#-alternative-installation-methods) below.\n\n#### Try it out (without installing)\n\n```shell\n# Search for relevant guides\nnpx modern-web-guidance@latest search \"animate a dialog modal backdrop\"\n\n# Retrieve a guide by ID\nnpx modern-web-guidance@latest retrieve \"animate-to-from-top-layer\"\n\n# Scan a codebase for legacy patterns to modernize\nnpx modern-web-guidance@latest legacy-scan .\n```\n\n##  Why?\n\nCoding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for tasks that now have native, high-performance web platform solutions.\n\nEven if a model knows an API exists, it often lacks the density of real-world, modern implementation patterns required for production-ready code.\n\n**Modern Web Guidance bridges this gap.** Our skill's CLI returns targeted, expert-curated guidelines directly into your agent's context window, focusing on:\n* **Modern Browser APIs**: Helping models correctly structure APIs they frequently misuse.\n* **Performance & Accessibility**: Preferring platform-level APIs that can be optimized by the browser and include built-in accessibility affordances.\n* **Responsible Fallbacks**: Guiding models to use sensible, lightweight fallbacks instead of heavy polyfills or legacy libraries.\n\n##  What's Included?\n\nWe cover the past several years of the web platform's new features, all the way up to the cutting edge. The guides are **designed to be token-efficient**; we run evals enabling us to prune lowest-common-denominator content that models already know.\n\n### Core Disciplines\n\n  \n    \n      🎨 User Experience\n      Smooth visual states (View Transitions, entry/exit animations, parallax scroll, CSS <code>scrollbar-color</code>).\n    \n    \n      📐 CSS Layout\n      Modern layout systems (container queries, <code>subgrid</code>, modern color spaces like <code>oklch</code>, text-wrap tuning, and line-height trimming).\n    \n    \n      ⚡ Performance\n      Speed optimizations (instant preloading, Interaction to Next Paint (INP) diagnostics, and scheduling tasks via <code>scheduler.yield</code>).\n    \n  \n  \n    \n      📝 Forms & UI\n      Native components (Anchor Positioning for tooltips, Popover API, dialogs, <code>:user-invalid</code> validation, and auto-sizing fields).\n    \n    \n      ♿ Accessibility\n      Important considerations (screen reader and keyboard operability, content navigation and discoverability).\n    \n    \n      🤖 Built-in AI\n      Local client models (native translation, summarization, and language detection APIs).\n    \n  \n\n_View an example:_ [the `navigation-drawer` guide](https://github.com/GoogleChrome/modern-web-guidance/blob/main/skills/modern-web-guidance/guides/ui-components/navigation-drawer.md).\n\n#### The full list\n\n<details>\n<summary><strong>262 modern web features</strong></summary>\n\n### CSS & Layout (140 features)\n\n| | | |\n| :--- | :--- | :--- |\n| [::backdrop](https://web-platform-dx.github.io/web-features-explorer/features/backdrop/) | [content-visibility](https://web-platform-dx.github.io/web-features-explorer/features/content-visibility/) | [progress()](https://web-platform-dx.github.io/web-features-explorer/features/progress-function/) |\n| [::details-content](https://web-platform-dx.github.io/web-features-explorer/features/details-content/) | [contrast-color()](https://web-platform-dx.github.io/web-features-explorer/features/contrast-color/) | [reading-flow](https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/) |\n| [::file-selector-button](https://web-platform-dx.github.io/web-features-explorer/features/file-selector-button/) | [Cross-document view transitions](https://web-platform-dx.github.io/web-features-explorer/features/cross-document-view-transitions/) | [Relative colors](https://web-platform-dx.github.io/web-features-explorer/features/relative-color/) |\n| [::placeholder](https://web-platform-dx.github.io/web-features-explorer/features/placeholder/) | [currentColor](https://web-platform-dx.github.io/web-features-explorer/features/currentcolor/) | [rem](https://web-platform-dx.github.io/web-features-explorer/features/rem/) |\n| [::selection](https://web-platform-dx.github.io/web-features-explorer/features/selection/) | [Custom highlights](https://web-platform-dx.github.io/web-features-explorer/features/highlight/) | [resize (CSS property)](https://web-platform-dx.github.io/web-features-explorer/features/resize/) |\n| [:dir()](https://web-platform-dx.github.io/web-features-explorer/features/dir-pseudo/) | [Custom properties](https://web-platform-dx.github.io/web-features-explorer/features/custom-properties/) | [revert](https://web-platform-dx.github.io/web-features-explorer/features/revert-value/) |\n| [:focus-visible](https://web-platform-dx.github.io/web-features-explorer/features/focus-visible/) | [display animation](https://web-platform-dx.github.io/web-features-explorer/features/display-animation/) | [revert-rule](https://web-platform-dx\n\n…",
+      "markdown": "# Modern Web Guidance\n\n[Modern Web Guidance](https://developer.chrome.com/docs/modern-web-guidance) is a set of skills that embed web platform expertise, best practices, and browser compatibility data directly into your coding agents. It helps to steer your coding agents away from legacy patterns, and instead toward solutions that harness the power and capabilities of the modern web platform.\n\n*Stewarded by the Google Chrome, Microsoft Edge, Mozilla Firefox, and MDN teams, alongside the web development community.*\n\n[Documentation](https://developer.chrome.com/docs/modern-web-guidance) · [Eval Dashboard](https://googlechrome.github.io/modern-web-guidance-src/) · [Source Code](https://github.com/GoogleChrome/modern-web-guidance-src) · [Report an Issue](https://github.com/GoogleChrome/modern-web-guidance-src/issues)\n\n##  Quickstart\n\n```shell\nnpx modern-web-guidance@latest install\n```\n\nThis command runs an interactive wizard to install Modern Web Guidance. See [Alternative Installation Methods](#-alternative-installation-methods) below. Requires Node.js 22 or later.\n\n#### Try it out (without installing)\n\n```shell\n# Search for relevant guides\nnpx modern-web-guidance@latest search \"animate a dialog modal backdrop\"\n\n# Retrieve a guide by ID\nnpx modern-web-guidance@latest retrieve \"animate-to-from-top-layer\"\n\n# Scan a codebase for legacy patterns to modernize\nnpx modern-web-guidance@latest legacy-scan .\n```\n\n##  Why?\n\nCoding agents often default to older patterns because LLM training data contains vast amounts of legacy code. This often leads them to generate bloated JavaScript for tasks that now have native, high-performance web platform solutions.\n\nEven if a model knows an API exists, it often lacks the density of real-world, modern implementation patterns required for production-ready code.\n\n**Modern Web Guidance bridges this gap.** Our skill's CLI returns targeted, expert-curated guidelines directly into your agent's context window, focusing on:\n* **Modern Browser APIs**: Helping models correctly structure APIs they frequently misuse.\n* **Performance & Accessibility**: Preferring platform-level APIs that can be optimized by the browser and include built-in accessibility affordances.\n* **Responsible Fallbacks**: Guiding models to use sensible, lightweight fallbacks instead of heavy polyfills or legacy libraries.\n\n##  What's Included?\n\nWe cover the past several years of the web platform's new features, all the way up to the cutting edge. The guides are **designed to be token-efficient**; we run evals enabling us to prune lowest-common-denominator content that models already know.\n\n### Core Disciplines\n\n  \n    \n      🎨 User Experience\n      Smooth visual states (View Transitions, entry/exit animations, parallax scroll, CSS <code>scrollbar-color</code>).\n    \n    \n      📐 CSS Layout\n      Modern layout systems (container queries, <code>subgrid</code>, modern color spaces like <code>oklch</code>, text-wrap tuning, and line-height trimming).\n    \n    \n      ⚡ Performance\n      Speed optimizations (instant preloading, Interaction to Next Paint (INP) diagnostics, and scheduling tasks via <code>scheduler.yield</code>).\n    \n  \n  \n    \n      📝 Forms & UI\n      Native components (Anchor Positioning for tooltips, Popover API, dialogs, <code>:user-invalid</code> validation, and auto-sizing fields).\n    \n    \n      ♿ Accessibility\n      Important considerations (screen reader and keyboard operability, content navigation and discoverability).\n    \n    \n      🤖 Built-in AI\n      Local client models (native translation, summarization, and language detection APIs).\n    \n  \n\n_View an example:_ [the `navigation-drawer` guide](https://github.com/GoogleChrome/modern-web-guidance/blob/main/skills/modern-web-guidance/guides/ui-components/navigation-drawer.md).\n\n#### The full list\n\n<details>\n<summary><strong>269 modern web features</strong></summary>\n\n### CSS & Layout (144 features)\n\n| | | |\n| :--- | :--- | :--- |\n| [::backdrop](https://web-platform-dx.github.io/web-features-explorer/features/backdrop/) | [Content](https://web-platform-dx.github.io/web-features-explorer/features/content/) | [prefers-contrast media query](https://web-platform-dx.github.io/web-features-explorer/features/prefers-contrast/) |\n| [::details-content](https://web-platform-dx.github.io/web-features-explorer/features/details-content/) | [content-visibility](https://web-platform-dx.github.io/web-features-explorer/features/content-visibility/) | [prefers-reduced-motion media query](https://web-platform-dx.github.io/web-features-explorer/features/prefers-reduced-motion/) |\n| [::file-selector-button](https://web-platform-dx.github.io/web-features-explorer/features/file-selector-button/) | [contrast-color()](https://web-platform-dx.github.io/web-features-explorer/features/contrast-color/) | [progress()](https://web-platform-dx.github.io/web-features-explorer/features/progress-function/) |\n| [::placeholder](https://web-platform-dx.github.io/web-features-explorer/features/placeholder/) | [Cross-document view transitions](https://web-platform-dx.github.io/web-features-explorer/features/cross-document-view-transitions/) | [reading-flow](https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/) |\n| [::selection](https://web-platform-dx.github.io/web-features-explorer/features/selection/) | [currentColor](https://web-platform-dx.github.io/web-features-explorer/features/currentcolor/) | [Relative colors](https://web-platform-dx.github.io/web-features-explorer/features/relative-color/) |\n| [:dir()](https://web-platform-dx.github.io/web-features-explorer/features/dir-pseudo/) | [Custom highlights](https://web-platform-dx.github.io/web-features-explorer/features/highlight/) | [rem](https://web-platform-dx.github.io/web-features-explorer/features/rem/) |\n| [:focus-visible](https://web-platform-dx.github.io/web-features-explorer/features/focus-visible/) | [Custom properties](https://web-platform-dx.github.io/web-features-explorer/fea\n\n…",
       "truncated": true,
       "url": "https://github.com/GoogleChrome/modern-web-guidance#readme"
     }
@@ -6751,11 +6751,11 @@
     "repoMeta": {
       "slug": "mondaycom/mcp",
       "stars": 440,
-      "forks": 107,
+      "forks": 106,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-04-06T07:48:55Z",
-      "pushedAt": "2026-11-19T08:01:29Z",
+      "pushedAt": "2026-11-23T13:49:58Z",
       "openIssues": 18,
       "license": "MIT",
       "language": "TypeScript"
@@ -6788,11 +6788,11 @@
     "repoMeta": {
       "slug": "mongodb/agent-skills",
       "stars": 207,
-      "forks": 46,
+      "forks": 47,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-26T16:42:15Z",
-      "pushedAt": "2026-11-20T17:23:06Z",
+      "pushedAt": "2026-11-23T15:37:03Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "TypeScript"
@@ -6825,11 +6825,11 @@
     "repoMeta": {
       "slug": "mongodb/agent-skills",
       "stars": 207,
-      "forks": 46,
+      "forks": 47,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-26T16:42:15Z",
-      "pushedAt": "2026-11-20T17:23:06Z",
+      "pushedAt": "2026-11-23T15:37:03Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "TypeScript"
@@ -6862,7 +6862,7 @@
     "repoMeta": {
       "slug": "neondatabase/agent-skills",
       "stars": 118,
-      "forks": 26,
+      "forks": 27,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-20T21:17:10Z",
@@ -6890,11 +6890,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 55,
+    "stars": 56,
     "repoMeta": {
       "slug": "netlify/context-and-tools",
-      "stars": 55,
-      "forks": 17,
+      "stars": 56,
+      "forks": 19,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-26T21:04:08Z",
@@ -7023,10 +7023,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 6,
+    "stars": 7,
     "repoMeta": {
       "slug": "newrelic/claude-code-plugin",
-      "stars": 6,
+      "stars": 7,
       "forks": 2,
       "archived": false,
       "isFork": false,
@@ -7068,7 +7068,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-05T20:12:58Z",
-      "pushedAt": "2026-11-18T22:39:23Z",
+      "pushedAt": "2026-11-23T14:17:53Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Shell"
@@ -7203,15 +7203,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 4109,
+    "stars": 4125,
     "repoMeta": {
       "slug": "NVIDIA/skills",
-      "stars": 4109,
-      "forks": 550,
+      "stars": 4125,
+      "forks": 553,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T21:54:05Z",
-      "pushedAt": "2026-11-20T21:00:07Z",
+      "pushedAt": "2026-11-23T17:37:55Z",
       "openIssues": 9,
       "license": "Apache-2.0",
       "language": "Python"
@@ -7396,7 +7396,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-13T16:07:24Z",
-      "pushedAt": "2026-11-20T23:22:04Z",
+      "pushedAt": "2026-11-23T06:17:00Z",
       "openIssues": 3,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -7498,7 +7498,7 @@
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
       "stars": 2,
-      "forks": 5,
+      "forks": 4,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
@@ -7530,7 +7530,7 @@
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
       "stars": 2,
-      "forks": 5,
+      "forks": 4,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
@@ -7562,7 +7562,7 @@
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
       "stars": 2,
-      "forks": 5,
+      "forks": 4,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
@@ -7595,16 +7595,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7714,7 +7714,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-10T20:12:37Z",
-      "pushedAt": "2026-11-22T04:02:46Z",
+      "pushedAt": "2026-11-22T22:24:46Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
@@ -7780,16 +7780,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7817,16 +7817,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -7849,16 +7849,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -7894,7 +7894,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-18T21:38:03Z",
-      "pushedAt": "2026-11-21T12:15:26Z",
+      "pushedAt": "2026-11-23T12:17:45Z",
       "openIssues": 8,
       "license": null,
       "language": "Python"
@@ -7923,10 +7923,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 588,
+    "stars": 589,
     "repoMeta": {
       "slug": "gitroomhq/postiz-agent",
-      "stars": 588,
+      "stars": 589,
       "forks": 128,
       "archived": false,
       "isFork": false,
@@ -7960,15 +7960,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 41,
+    "stars": 42,
     "repoMeta": {
       "slug": "postmanlabs/postman-plugin",
-      "stars": 41,
+      "stars": 42,
       "forks": 20,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-09-11T09:47:54Z",
-      "pushedAt": "2026-11-20T13:37:19Z",
+      "pushedAt": "2026-11-23T09:59:04Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -7997,16 +7997,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8103,16 +8103,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8177,16 +8177,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8222,7 +8222,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-29T18:14:49Z",
-      "pushedAt": "2026-11-20T20:15:47Z",
+      "pushedAt": "2026-11-23T13:48:12Z",
       "openIssues": 2,
       "license": "Apache-2.0",
       "language": "Python"
@@ -8259,7 +8259,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-11T16:43:51Z",
-      "pushedAt": "2026-11-22T12:48:43Z",
+      "pushedAt": "2026-11-23T14:54:23Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "HTML"
@@ -8291,7 +8291,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-11T16:43:51Z",
-      "pushedAt": "2026-11-22T12:48:43Z",
+      "pushedAt": "2026-11-23T14:54:23Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "HTML"
@@ -8315,11 +8315,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 556,
+    "stars": 562,
     "repoMeta": {
       "slug": "TheQtCompanyRnD/agent-skills",
-      "stars": 556,
-      "forks": 56,
+      "stars": 562,
+      "forks": 57,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-26T08:54:13Z",
@@ -8426,16 +8426,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8489,16 +8489,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8535,7 +8535,7 @@
       "isFork": false,
       "createdAt": "2026-01-29T09:01:23Z",
       "pushedAt": "2026-11-05T15:01:14Z",
-      "openIssues": 5,
+      "openIssues": 6,
       "license": "MIT",
       "language": "TypeScript"
     }
@@ -8566,7 +8566,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-15T16:47:29Z",
-      "pushedAt": "2026-11-22T11:30:55Z",
+      "pushedAt": "2026-11-23T12:54:04Z",
       "openIssues": 30,
       "license": "NOASSERTION",
       "language": "Python"
@@ -8632,10 +8632,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 216,
+    "stars": 218,
     "repoMeta": {
       "slug": "resend/resend-skills",
-      "stars": 216,
+      "stars": 218,
       "forks": 35,
       "archived": false,
       "isFork": false,
@@ -8769,16 +8769,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8810,7 +8810,7 @@
     "repoMeta": {
       "slug": "runwayml/skills",
       "stars": 76,
-      "forks": 20,
+      "forks": 21,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-10T20:45:01Z",
@@ -8838,16 +8838,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -8912,10 +8912,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1183,
+    "stars": 1185,
     "repoMeta": {
       "slug": "forcedotcom/sf-skills",
-      "stars": 1183,
+      "stars": 1185,
       "forks": 401,
       "archived": false,
       "isFork": false,
@@ -8953,11 +8953,11 @@
     "repoMeta": {
       "slug": "sanity-io/agent-toolkit",
       "stars": 201,
-      "forks": 31,
+      "forks": 32,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-03-11T13:10:12Z",
-      "pushedAt": "2026-11-20T12:27:04Z",
+      "pushedAt": "2026-11-23T08:21:57Z",
       "openIssues": 6,
       "license": "MIT",
       "language": "JavaScript"
@@ -9031,7 +9031,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2021-05-28T07:40:30Z",
-      "pushedAt": "2026-11-21T10:47:42Z",
+      "pushedAt": "2026-11-23T17:14:32Z",
       "openIssues": 228,
       "license": "Apache-2.0",
       "language": "TypeScript"
@@ -9105,7 +9105,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2025-09-22T09:20:00Z",
-      "pushedAt": "2026-11-22T13:42:04Z",
+      "pushedAt": "2026-11-23T09:52:29Z",
       "openIssues": 1,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -9174,13 +9174,13 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-06T10:45:12Z",
-      "pushedAt": "2026-11-20T13:53:58Z",
+      "pushedAt": "2026-11-23T17:43:37Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Python"
     },
     "readme": {
-      "markdown": "# Agent Skills for the Scandit SDK\n\nAI agent skills for integrating the [Scandit Data Capture SDK](https://docs.scandit.com).\n\nEach skill is specific to a product and a framework (e.g. SparkScan iOS), and bundles the recommended integration code, up-to-date setup, permissions and license-key wiring, common customization recipes (modes, callbacks, UI tweaks), and migration guidance, SDK version upgrades and, for some products, replacing a third-party scanner, all grounded in Scandit's own documentation. Install once, then just ask your agent for the feature instead of pasting docs snippets into your AI editor.\n\n## Installation\n\nInstall the plugin. One command, and your agent gets all 87 skills:\n\n```bash\nnpx plugins@1.3.4 add scandit/skills\n```\n\nIt detects which coding agents you have and installs into each of them. Re-run the same command to pull the latest skills.\n\nOr install from your agent's own marketplace:\n\n| Agent | Install | Updates |\n| --- | --- | --- |\n| Codex / ChatGPT App | [One click install](https://chatgpt.com/plugins/plugins_6a6c6b6440a08191987ecc241e8660f7), or search **Scandit SDK** in the [plugin directory](https://learn.chatgpt.com/docs/plugins?surface=app#plugin-directory-in-the-codex-app) | When Scandit publishes a new directory version |\n| Claude Code | `/plugin install scandit-sdk@claude-plugins-official`, or search **Scandit SDK** in `/plugin` → **Discover** | Automatic, on each Scandit release |\n| Cursor | [One click install](https://cursor.com/marketplace/scandit), or `/add-plugin scandit-sdk` in the editor | Automatic, on each Scandit release |\n| Codex CLI | `codex plugin marketplace add scandit/skills``codex plugin add scandit-sdk@scandit-plugins` | `codex plugin marketplace upgrade scandit-plugins` |\n| Copilot CLI | `copilot plugin marketplace add scandit/skills``copilot plugin install scandit-sdk@scandit-plugins` | `copilot plugin update scandit-sdk` |\n| Antigravity | `agy plugin install https://github.com/scandit/skills` | Re-run the install command |\n| Everyone else | `npx plugins@1.3.4 add scandit/skills` | Re-run `npx plugins@1.3.4 add scandit/skills` |\n\n**Just one skill?** Your agent only loads the skills your prompt needs, so the full bundle is the right choice — install once with `npx plugins@1.3.4 add scandit/skills`.\n\n## How to use it\n\nDescribe what you want in plain language. Your agent loads the right skill on its own, or you can call one explicitly with `/skill-name` followed by your task.\n\n**Not sure which Scandit product you need?** Start with `data-capture-sdk`. It is an advisor, not an integration skill: it asks a few questions about your workflow, recommends the right product, then hands off to the matching implementation skill for your platform. Describe your app, paste a screenshot of the screen you want to add scanning to, or drop in a photo of the label, package or ID you need to capture.\n\n```\n/data-capture-sdk I need to scan barcodes in a warehouse picking app - which Scandit product should I use?\n/data-capture-sdk here is a photo of the labels we want to capture - what fits best?\n```\n\n**Already know the product?** Go straight to its skill.\n\n```\n/sparkscan-ios add a barcode scanner to the home screen of my app\n/label-capture-web capture the expiry date and lot number from these pharmacy labels\n```\n\n**Migrating?** Most implementation skills carry version migration guidance alongside first integration. The Barcode Capture, SparkScan and MatrixScan Batch skills add a guide for replacing a third-party scanner.\n\n```\n/barcode-capture-android migrate this app from the Scandit SDK v6 API to v8\n/matrixscan-batch-web we use BarcodeTracking, move us to BarcodeBatch\n/sparkscan-android replace our current third-party barcode scanner with SparkScan\n```\n\n## Licence keys\n\nThese skills write the integration; they don't provision the licence key by themselves. The [Scandit MCP server](https://ssl.scandit.com/mcp) does that part — connect it (`claude mcp add --transport http scandit https://ssl.scandit.com/mcp`) alongside the skills (`npx plugins@1.3.4 add scandit/skills`) and each implementation skill's `## Licence key` section will use it to fetch a trial key and write it into your app's licence-key call, showing only a masked preview in chat. The skills never look for a key on your machine: it comes from the MCP server or from you. The key ends up as a literal in your source code, so keep any non-trial key out of version control.\n\nKeys provisioned this way are **trials only**, and the MCP server's auth is browser-based, so it does not work headless or in CI. Without it, the dashboard flow at <https://ssl.scandit.com> still works — every skill falls back to that. The Linux skill (`scandit-linux-sdk`) uses only that flow: the MCP server provisions no Linux keys.\n\n## Privacy\n\nThe skills themselves send nothing anywhere. The bundled Scandit MCP server (`https://ssl.scandit.com/mcp`) talks to your Scandit account to provision trial licence keys; Scandit's privacy policy is at <https://www.scandit.com/privacy/>.\n\n## Available skills\n\n| Skill | Description |\n| --- | --- |\n| `data-capture-sdk` | Product-selection advisor — recommends the right Scandit product for your use case and hands off to the matching implementation skill. |\n| `sparkscan-{framework}` | [SparkScan](https://docs.scandit.com/sdks/ios/sparkscan/intro/) integration & migration. Available for `android`, `ios`, `web`, `cordova`, `capacitor`, `flutter`, `rn` (React Native), `kmp` (Kotlin Multiplatform). |\n| `barcode-capture-{framework}` | [BarcodeCapture](https://docs.scandit.com/sdks/ios/barcode-capture/intro/) (single-barcode scanning) integration & migration — `BarcodeCaptureSettings`, listener wiring, `DataCaptureView` + `BarcodeCaptureOverlay`, camera lifecycle, plus 6→7 and 7→8 deltas. Available for `android`, `ios`, `web`, `cordova`, `capacitor`, `flutter`, `rn` (React Native), `kmp` (Kotlin Multiplatform). |\n| `barcode-selection-kmp` | [Barcode Selection](https://docs.scandit.com/sdks/ios/\n\n…",
+      "markdown": "# Agent Skills for the Scandit SDK\n\nAI agent skills for integrating the [Scandit Data Capture SDK](https://docs.scandit.com).\n\nEach skill is specific to a product and a framework (e.g. SparkScan iOS), and bundles the recommended integration code, up-to-date setup, permissions and license-key wiring, common customization recipes (modes, callbacks, UI tweaks), and migration guidance, SDK version upgrades and, for some products, replacing a third-party scanner, all grounded in Scandit's own documentation. Install once, then just ask your agent for the feature instead of pasting docs snippets into your AI editor.\n\n## Installation\n\nInstall the plugin. One command, and your agent gets all 87 skills:\n\n```bash\nnpx plugins@1.3.4 add scandit/skills\n```\n\nIt detects which coding agents you have and installs into each of them. Re-run the same command to pull the latest skills.\n\nOr install from your agent's own marketplace:\n\n| Agent | Install | Updates |\n| --- | --- | --- |\n| Codex / ChatGPT App | [One click install](https://chatgpt.com/plugins/plugins_6a6c6b6440a08191987ecc241e8660f7), or search **Scandit SDK** in the [plugin directory](https://learn.chatgpt.com/docs/plugins?surface=app#plugin-directory-in-the-codex-app) | When Scandit publishes a new directory version |\n| Claude Code | `/plugin install scandit-sdk@claude-plugins-official`, or search **Scandit SDK** in `/plugin` → **Discover** | Automatic, on each Scandit release |\n| Cursor | [One click install](https://cursor.com/marketplace/scandit), or `/add-plugin scandit-sdk` in the editor | Automatic, on each Scandit release |\n| Codex CLI | `codex plugin marketplace add scandit/skills``codex plugin add scandit-sdk@scandit-plugins` | `codex plugin marketplace upgrade scandit-plugins` |\n| Copilot CLI | `copilot plugin marketplace add scandit/skills``copilot plugin install scandit-sdk@scandit-plugins` | `copilot plugin update scandit-sdk` |\n| Antigravity | `agy plugin install https://github.com/scandit/skills` | Re-run the install command |\n| Everyone else | `npx plugins@1.3.4 add scandit/skills` | Re-run `npx plugins@1.3.4 add scandit/skills` |\n\n**Just one skill?** A project that only uses React Native Barcode Capture can install that skill on its own. Run the command for your agent from the project root.\n\n```bash\n# Codex CLI\nnpx --yes skills@1.7.0 add scandit/skills --skill barcode-capture-rn --agent codex --copy -y\n\n# Claude Code\nnpx --yes skills@1.7.0 add scandit/skills --skill barcode-capture-rn --agent claude-code --copy -y\n```\n\nThese commands copy the skill into `.agents/skills/` for Codex or `.claude/skills/` for Claude Code. In a fresh project with no other Scandit installation, only the selected Scandit skill is available for discovery. The full bundle exposes descriptions for all its skills up front. The agent can open individual guides as it works.\n\n## How to use it\n\nDescribe what you want in plain language. Your agent loads the right skill on its own, or you can call one explicitly with `/skill-name` followed by your task.\n\n**Not sure which Scandit product you need?** Start with `data-capture-sdk`. It is an advisor, not an integration skill: it asks a few questions about your workflow, recommends the right product, then hands off to the matching implementation skill for your platform. Describe your app, paste a screenshot of the screen you want to add scanning to, or drop in a photo of the label, package or ID you need to capture.\n\n```\n/data-capture-sdk I need to scan barcodes in a warehouse picking app - which Scandit product should I use?\n/data-capture-sdk here is a photo of the labels we want to capture - what fits best?\n```\n\n**Already know the product?** Go straight to its skill.\n\n```\n/sparkscan-ios add a barcode scanner to the home screen of my app\n/label-capture-web capture the expiry date and lot number from these pharmacy labels\n```\n\n**Migrating?** Most implementation skills carry version migration guidance alongside first integration. The Barcode Capture, SparkScan and MatrixScan Batch skills add a guide for replacing a third-party scanner.\n\n```\n/barcode-capture-android migrate this app from the Scandit SDK v6 API to v8\n/matrixscan-batch-web we use BarcodeTracking, move us to BarcodeBatch\n/sparkscan-android replace our current third-party barcode scanner with SparkScan\n```\n\n## Licence keys\n\nThese skills write the integration; they don't provision the licence key by themselves. The [Scandit MCP server](https://ssl.scandit.com/mcp) does that part — connect it (`claude mcp add --transport http scandit https://ssl.scandit.com/mcp`) alongside the skills (`npx plugins@1.3.4 add scandit/skills`) and each implementation skill's `## Licence key` section will use it to fetch a trial key and write it into your app's licence-key call, showing only a masked preview in chat. The skills never look for a key on your machine: it comes from the MCP server or from you. The key ends up as a literal in your source code, so keep any non-trial key out of version control.\n\nKeys provisioned this way are **trials only**, and the MCP server's auth is browser-based, so it does not work headless or in CI. Without it, the dashboard flow at <https://ssl.scandit.com> still works — every skill falls back to that. The Linux skill (`scandit-linux-sdk`) uses only that flow: the MCP server provisions no Linux keys.\n\n## Privacy\n\nThe skills themselves send nothing anywhere. The bundled Scandit MCP server (`https://ssl.scandit.com/mcp`) talks to your Scandit account to provision trial licence keys; Scandit's privacy policy is at <https://www.scandit.com/privacy/>.\n\n## Available skills\n\n| Skill | Description |\n| --- | --- |\n| `data-capture-sdk` | Product-selection advisor — recommends the right Scandit product for your use case and hands off to the matching implementation skill. |\n| `sparkscan-{framework}` | [SparkScan](https://docs.scandit.com/sdks/ios/sparkscan/intro/) integration & migration. Available for `android`, `ios`, `web`, `cordova`, `capacitor`, `flutter\n\n…",
       "truncated": true,
       "url": "https://github.com/Scandit/skills#readme"
     }
@@ -9203,16 +9203,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -9330,16 +9330,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -9394,16 +9394,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -9430,7 +9430,7 @@
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
       "stars": 2,
-      "forks": 5,
+      "forks": 4,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
@@ -9462,7 +9462,7 @@
     "repoMeta": {
       "slug": "pendo-io/claude-pendo-plugin",
       "stars": 2,
-      "forks": 5,
+      "forks": 4,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-25T19:55:09Z",
@@ -9564,16 +9564,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -9627,10 +9627,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 45,
+    "stars": 46,
     "repoMeta": {
       "slug": "Snowflake-Labs/snowflake-ai-kit",
-      "stars": 45,
+      "stars": 46,
       "forks": 25,
       "archived": false,
       "isFork": false,
@@ -9672,7 +9672,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-02-06T12:21:17Z",
-      "pushedAt": "2026-11-20T15:52:03Z",
+      "pushedAt": "2026-11-23T17:13:24Z",
       "openIssues": 0,
       "license": "NOASSERTION",
       "language": "JavaScript"
@@ -9835,7 +9835,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-30T15:50:04Z",
-      "pushedAt": "2026-11-19T20:56:13Z",
+      "pushedAt": "2026-11-23T17:32:17Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "Python"
@@ -9872,7 +9872,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-30T15:50:04Z",
-      "pushedAt": "2026-11-19T20:56:13Z",
+      "pushedAt": "2026-11-23T17:32:17Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "Python"
@@ -9938,15 +9938,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2076,
+    "stars": 2084,
     "repoMeta": {
       "slug": "stripe/ai",
-      "stars": 2076,
-      "forks": 387,
+      "stars": 2084,
+      "forks": 389,
       "archived": false,
       "isFork": false,
       "createdAt": "2024-11-11T17:13:41Z",
-      "pushedAt": "2026-11-21T01:50:03Z",
+      "pushedAt": "2026-11-23T00:33:41Z",
       "openIssues": 33,
       "license": "MIT",
       "language": "TypeScript"
@@ -10012,11 +10012,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 57,
+    "stars": 61,
     "repoMeta": {
       "slug": "supabase-community/supabase-plugin",
-      "stars": 57,
-      "forks": 21,
+      "stars": 61,
+      "forks": 22,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-04-16T18:09:01Z",
@@ -10049,11 +10049,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 1045,
+    "stars": 1056,
     "repoMeta": {
       "slug": "superdesigndev/superdesign-skill",
-      "stars": 1045,
-      "forks": 86,
+      "stars": 1056,
+      "forks": 87,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-21T20:26:04Z",
@@ -10086,16 +10086,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 323875,
+    "stars": 324844,
     "repoMeta": {
       "slug": "obra/superpowers",
-      "stars": 323875,
-      "forks": 28739,
+      "stars": 324844,
+      "forks": 28818,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-09T19:45:18Z",
       "pushedAt": "2026-11-03T23:24:58Z",
-      "openIssues": 203,
+      "openIssues": 205,
       "license": "MIT",
       "language": "Shell"
     },
@@ -10123,16 +10123,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10201,7 +10201,7 @@
     "repoMeta": {
       "slug": "tavily-ai/skills",
       "stars": 497,
-      "forks": 45,
+      "forks": 44,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-22T23:13:25Z",
@@ -10242,7 +10242,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-22T11:12:07Z",
-      "pushedAt": "2026-11-18T20:04:06Z",
+      "pushedAt": "2026-11-23T15:28:58Z",
       "openIssues": 0,
       "license": "Apache-2.0",
       "language": "Go"
@@ -10271,16 +10271,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10308,16 +10308,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     }
@@ -10340,16 +10340,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10385,7 +10385,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-31T18:07:13Z",
-      "pushedAt": "2026-11-18T19:28:00Z",
+      "pushedAt": "2026-11-23T15:17:13Z",
       "openIssues": 0,
       "license": "MIT",
       "language": "Python"
@@ -10451,16 +10451,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -10533,7 +10533,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-17T13:52:24Z",
-      "pushedAt": "2026-11-21T09:12:21Z",
+      "pushedAt": "2026-11-23T02:24:39Z",
       "openIssues": 9,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -10570,7 +10570,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-17T13:52:24Z",
-      "pushedAt": "2026-11-21T09:12:21Z",
+      "pushedAt": "2026-11-23T02:24:39Z",
       "openIssues": 9,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -10607,7 +10607,7 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-17T13:52:24Z",
-      "pushedAt": "2026-11-21T09:12:21Z",
+      "pushedAt": "2026-11-23T02:24:39Z",
       "openIssues": 9,
       "license": "Apache-2.0",
       "language": "JavaScript"
@@ -10636,10 +10636,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 663,
+    "stars": 665,
     "repoMeta": {
       "slug": "Unity-Technologies/unity-agent-plugin",
-      "stars": 663,
+      "stars": 665,
       "forks": 70,
       "archived": false,
       "isFork": false,
@@ -10673,11 +10673,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 2009,
+    "stars": 2017,
     "repoMeta": {
       "slug": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
-      "stars": 2009,
-      "forks": 210,
+      "stars": 2017,
+      "forks": 212,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-06-08T19:59:22Z",
@@ -10848,15 +10848,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 346,
+    "stars": 348,
     "repoMeta": {
       "slug": "vercel/vercel-plugin",
-      "stars": 346,
-      "forks": 81,
+      "stars": 348,
+      "forks": 82,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-03-04T16:46:22Z",
-      "pushedAt": "2026-11-22T04:07:34Z",
+      "pushedAt": "2026-11-23T13:07:54Z",
       "openIssues": 51,
       "license": "NOASSERTION",
       "language": "TypeScript"
@@ -10885,10 +10885,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 298,
+    "stars": 299,
     "repoMeta": {
       "slug": "explorium-ai/vibeprospecting-plugin",
-      "stars": 298,
+      "stars": 299,
       "forks": 7,
       "archived": false,
       "isFork": false,
@@ -11004,8 +11004,8 @@
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-25T07:34:16Z",
-      "pushedAt": "2026-11-22T10:11:26Z",
-      "openIssues": 8,
+      "pushedAt": "2026-11-23T16:03:33Z",
+      "openIssues": 7,
       "license": "MIT",
       "language": "JavaScript"
     },
@@ -11086,16 +11086,16 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 47952,
+    "stars": 48045,
     "repoMeta": {
       "slug": "anthropics/claude-plugins-official",
-      "stars": 47952,
-      "forks": 4983,
+      "stars": 48045,
+      "forks": 5005,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-11-20T18:36:20Z",
-      "pushedAt": "2026-11-21T07:27:49Z",
-      "openIssues": 1106,
+      "pushedAt": "2026-11-23T17:43:35Z",
+      "openIssues": 1108,
       "license": "Apache-2.0",
       "language": "Python"
     },
@@ -11123,15 +11123,15 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 106,
+    "stars": 107,
     "repoMeta": {
       "slug": "youdotcom-oss/agent-skills",
-      "stars": 106,
+      "stars": 107,
       "forks": 17,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-26T23:05:37Z",
-      "pushedAt": "2026-11-14T00:16:37Z",
+      "pushedAt": "2026-11-23T16:11:37Z",
       "openIssues": 2,
       "license": "MIT",
       "language": "TypeScript"
@@ -11371,11 +11371,11 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 344,
+    "stars": 347,
     "repoMeta": {
       "slug": "langfuse/skills",
-      "stars": 344,
-      "forks": 46,
+      "stars": 347,
+      "forks": 47,
       "archived": false,
       "isFork": false,
       "createdAt": "2026-01-23T10:44:20Z",
@@ -11514,10 +11514,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 186,
+    "stars": 187,
     "repoMeta": {
       "slug": "Dynatrace/dynatrace-for-ai",
-      "stars": 186,
+      "stars": 187,
       "forks": 46,
       "archived": false,
       "isFork": false,
@@ -11588,10 +11588,10 @@
       "repo": "anthropics/claude-plugins-official",
       "name": "claude-plugins-official"
     },
-    "stars": 48,
+    "stars": 50,
     "repoMeta": {
       "slug": "amzn/selling-partner-agentic-toolkit",
-      "stars": 48,
+      "stars": 50,
       "forks": 8,
       "archived": false,
       "isFork": false,
@@ -11619,11 +11619,11 @@
     "repo": "VoltAgent/awesome-agent-skills",
     "sourceUrl": "https://github.com/snyk/agent-scan",
     "target": "multi",
-    "stars": 37432,
+    "stars": 37478,
     "repoMeta": {
       "slug": "VoltAgent/awesome-agent-skills",
-      "stars": 37432,
-      "forks": 4199,
+      "stars": 37478,
+      "forks": 4204,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-28T08:55:32Z",
@@ -11650,11 +11650,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/obra/superpowers-skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11681,11 +11681,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/09/superpowers/",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11712,11 +11712,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://blog.fsck.com/2025/10/23/naming-claude-plugins/",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11743,11 +11743,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512176-what-are-skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11774,11 +11774,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://support.claude.com/en/articles/12512180-using-skills-in-claude",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11805,11 +11805,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/news/skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11836,11 +11836,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11867,11 +11867,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://docs.claude.com/",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11898,11 +11898,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://platform.claude.com/docs/en/api/beta/skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11929,11 +11929,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11960,11 +11960,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-cookbooks/tree/main/skills",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -11991,11 +11991,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/ai-agent/how-to-create-claude-skill-step-by-step-guide/",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12022,11 +12022,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://skywork.ai/blog/how-to-use-skills-in-claude-code-install-path-project-scoping-testing/",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12053,11 +12053,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://claude.com/blog/skills-explained",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12084,11 +12084,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/claude-agent-sdk-python/issues/268",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12115,11 +12115,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/issues",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
@@ -12146,11 +12146,11 @@
     "repo": "travisvn/awesome-claude-skills",
     "sourceUrl": "https://github.com/anthropics/skills/discussions",
     "target": "multi",
-    "stars": 15905,
+    "stars": 15919,
     "repoMeta": {
       "slug": "travisvn/awesome-claude-skills",
-      "stars": 15905,
-      "forks": 2179,
+      "stars": 15919,
+      "forks": 2184,
       "archived": false,
       "isFork": false,
       "createdAt": "2025-10-16T20:42:39Z",
