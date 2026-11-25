@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T17:22:16.785Z",
+  "generatedAt": "2026-11-25T17:05:31.448Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -23,7 +23,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "io-github-artjack-verdict",
+          "name": "Verdict QA",
+          "description": "Read-only MCP server over Verdict QA state: verdicts, findings, flaky quarantine, history.",
+          "category": "Dev Tools & Git",
+          "delta": 26,
+          "stars": 33
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
