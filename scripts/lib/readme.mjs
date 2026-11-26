@@ -5,7 +5,7 @@
 // document stays one click away on GitHub, and 700 full READMEs committed to
 // git would bloat the repo for little benefit.
 
-import { log, sleep } from "./util.mjs";
+import { log, sleep, truncate } from "./util.mjs";
 import { extractTools } from "./readme-tools.mjs";
 
 const CONCURRENCY = 8;
@@ -69,7 +69,7 @@ function toResult(md, slug, subdir, branch = "HEAD") {
   const dir = subdir ? subdir.replace(/^\/+|\/+$/g, "") : "";
   return {
     readme: {
-      markdown: tidied.length > MAX_CHARS ? `${tidied.slice(0, MAX_CHARS)}\n\n…` : tidied,
+      markdown: tidied.length > MAX_CHARS ? `${truncate(tidied, MAX_CHARS)}\n\n…` : tidied,
       truncated: tidied.length > MAX_CHARS,
       url: dir ? `https://github.com/${slug}/tree/${branch}/${dir}#readme` : `https://github.com/${slug}#readme`,
     },

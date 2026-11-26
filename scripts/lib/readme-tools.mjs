@@ -16,6 +16,8 @@
 //     - Description on a nested bullet        on the next nested line)
 //   ### `tool_name`                          (a heading per tool)
 
+import { truncate } from "./util.mjs";
+
 const MAX_TOOLS = 80;
 const MAX_DESC = 240;
 
@@ -37,15 +39,15 @@ const NOT_TOOLS = new Set([
 ]);
 
 function cleanDescription(text) {
-  return text
+  const cleaned = text
     .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
     .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
     .replace(/\*\*|__/g, "")
     .replace(/<[^>]+>/g, "")
     .replace(/\s+/g, " ")
     .replace(/^[\s:—–-]+/, "")
-    .trim()
-    .slice(0, MAX_DESC) || null;
+    .trim();
+  return truncate(cleaned, MAX_DESC) || null;
 }
 
 /** `name(args)` → name; strips formatting; returns null unless it looks like a tool. */
