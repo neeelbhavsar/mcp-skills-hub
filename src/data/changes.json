@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T17:05:31.448Z",
+  "generatedAt": "2026-11-26T16:45:27.725Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -25,12 +25,12 @@
       "revived": [],
       "movers": [
         {
-          "slug": "io-github-artjack-verdict",
-          "name": "Verdict QA",
-          "description": "Read-only MCP server over Verdict QA state: verdicts, findings, flaky quarantine, history.",
+          "slug": "io-github-aureliolo-gdharness",
+          "name": "gdharness",
+          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
           "category": "Dev Tools & Git",
-          "delta": 26,
-          "stars": 33
+          "delta": 121,
+          "stars": 136
         }
       ],
       "counts": {
@@ -48,7 +48,16 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [],
+      "movers": [
+        {
+          "slug": "orkas-ai-orkas",
+          "name": "Orkas",
+          "description": "Local-first, MIT-licensed AI desktop workspace for macOS and Windows. A Commander coordinates specialist agents to take a project from research and source files to a report, presentation, code change or video. Files stay on the device by default; model usage can cost extra.",
+          "category": "AI Agents",
+          "delta": -1891,
+          "stars": 7709
+        }
+      ],
       "counts": {
         "added": 0,
         "removed": 0,
