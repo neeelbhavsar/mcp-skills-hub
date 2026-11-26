@@ -43,6 +43,24 @@ export async function getText(url, { headers = {}, retries = 3 } = {}) {
 
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/**
+ * `str.slice(0, max)` that never splits a UTF-16 surrogate pair. A plain slice
+ * can cut an emoji in half, leaving a lone `\ud83c` that JSON.stringify writes
+ * out as-is and Turbopack then rejects as invalid JSON, failing the build.
+ */
+export function truncate(str, max) {
+  const s = String(str);
+  if (s.length <= max) return s;
+  const code = s.charCodeAt(max - 1);
+  const end = code >= 0xd800 && code <= 0xdbff ? max - 1 : max;
+  return s.slice(0, end);
+}
+
+/** Replace any lone surrogates in every string of a JSON-bound value. */
+export function wellFormed(_key, value) {
+  return typeof value === "string" ? value.toWellFormed() : value;
+}
+
 /** Make a URL-safe slug. */
 export function slugify(str = "") {
   return String(str)
@@ -55,7 +73,7 @@ export function slugify(str = "") {
 /** Trim a description to a clean length, collapsing whitespace. */
 export function clean(text = "", max = 320) {
   const t = String(text).replace(/\s+/g, " ").trim();
-  return t.length > max ? t.slice(0, max - 1).trimEnd() + "…" : t;
+  return t.length > max ? truncate(t, max - 1).trimEnd() + "…" : t;
 }
 
 /**

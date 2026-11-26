@@ -15,7 +15,7 @@
 //   * Everything is best-effort: a slow or broken server must not fail the
 //     build, so each probe is independently timed out and swallowed.
 
-import { log } from "./util.mjs";
+import { log, truncate } from "./util.mjs";
 
 const CONCURRENCY = 8;
 const TIMEOUT_MS = 8000;
@@ -93,7 +93,7 @@ function slimSchema(schema) {
       name,
       type: Array.isArray(def?.type) ? def.type.join(" | ") : (def?.type ?? "any"),
       description:
-        typeof def?.description === "string" ? def.description.replace(/\s+/g, " ").slice(0, 200) : null,
+        typeof def?.description === "string" ? truncate(def.description.replace(/\s+/g, " "), 200) : null,
       required: required.includes(name),
       ...(Array.isArray(def?.enum) ? { enum: def.enum.slice(0, 12).map(String) } : {}),
     }));
@@ -135,9 +135,9 @@ export async function probeRemote(url) {
     return {
       status: "ok",
       tools: tools.slice(0, MAX_TOOLS).map((t) => ({
-        name: String(t.name ?? "").slice(0, 120),
+        name: truncate(String(t.name ?? ""), 120),
         description:
-          typeof t.description === "string" ? t.description.replace(/\s+/g, " ").slice(0, 400) : null,
+          typeof t.description === "string" ? truncate(t.description.replace(/\s+/g, " "), 400) : null,
         inputs: slimSchema(t.inputSchema),
       })).filter((t) => t.name),
     };

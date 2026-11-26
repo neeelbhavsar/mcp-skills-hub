@@ -7,7 +7,7 @@ import { dirname, join } from "node:path";
 import { fetchMCPs } from "./fetch-mcps.mjs";
 import { fetchSkills } from "./fetch-skills.mjs";
 import { fetchRepos } from "./fetch-repos.mjs";
-import { log } from "./lib/util.mjs";
+import { log, wellFormed } from "./lib/util.mjs";
 import { diffCatalogs } from "./lib/changes.mjs";
 import { evaluateChange, reportDecision } from "./lib/signature.mjs";
 
@@ -122,7 +122,7 @@ async function keepOrFail(name, items) {
 const failed = [];
 
 async function writeJSON(name, payload) {
-  await writeFile(join(DATA_DIR, name), JSON.stringify(payload, null, 2) + "\n", "utf8");
+  await writeFile(join(DATA_DIR, name), JSON.stringify(payload, wellFormed, 2) + "\n", "utf8");
   log(`wrote ${name}`);
 }
 
