@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T16:45:27.725Z",
+  "generatedAt": "2026-11-27T16:29:48.586Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -25,12 +25,12 @@
       "revived": [],
       "movers": [
         {
-          "slug": "io-github-aureliolo-gdharness",
-          "name": "gdharness",
-          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
-          "category": "Dev Tools & Git",
-          "delta": 121,
-          "stars": 136
+          "slug": "com-keylineicons-mcp",
+          "name": "Keyline Icons",
+          "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
+          "category": "Web & Search",
+          "delta": 16,
+          "stars": 269
         }
       ],
       "counts": {
@@ -48,16 +48,7 @@
       "removed": [],
       "deprecated": [],
       "revived": [],
-      "movers": [
-        {
-          "slug": "orkas-ai-orkas",
-          "name": "Orkas",
-          "description": "Local-first, MIT-licensed AI desktop workspace for macOS and Windows. A Commander coordinates specialist agents to take a project from research and source files to a report, presentation, code change or video. Files stay on the device by default; model usage can cost extra.",
-          "category": "AI Agents",
-          "delta": -1891,
-          "stars": 7709
-        }
-      ],
+      "movers": [],
       "counts": {
         "added": 0,
         "removed": 0,
