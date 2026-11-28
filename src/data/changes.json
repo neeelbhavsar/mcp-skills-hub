@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T16:29:48.586Z",
+  "generatedAt": "2026-11-28T15:22:59.993Z",
   "kinds": {
     "skills": {
       "baseline": true,
@@ -25,12 +25,12 @@
       "revived": [],
       "movers": [
         {
-          "slug": "com-keylineicons-mcp",
-          "name": "Keyline Icons",
-          "description": "Search Keyline Icons by name and get any icon's SVG source or React import. No key, no network.",
-          "category": "Web & Search",
-          "delta": 16,
-          "stars": 269
+          "slug": "io-github-aureliolo-gdharness",
+          "name": "gdharness",
+          "description": "A harness for driving a Godot 4 project from an agent: addons, runtime bridge, MCP server, CLI.",
+          "category": "Dev Tools & Git",
+          "delta": -31,
+          "stars": 105
         }
       ],
       "counts": {
@@ -44,14 +44,28 @@
     },
     "repos": {
       "baseline": true,
-      "added": [],
-      "removed": [],
+      "added": [
+        {
+          "slug": "google-elephant-goldfish-model",
+          "name": "elephant-goldfish-model",
+          "description": "Open-source plugin for designing and reviewing software with agents",
+          "category": "Prompts"
+        }
+      ],
+      "removed": [
+        {
+          "slug": "ebony-vinyl-dsh-our-free-model",
+          "name": "dsh-our-free-model",
+          "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+          "category": "AI Agents"
+        }
+      ],
       "deprecated": [],
       "revived": [],
       "movers": [],
       "counts": {
-        "added": 0,
-        "removed": 0,
+        "added": 1,
+        "removed": 1,
         "deprecated": 0,
         "revived": 0,
         "previousTotal": 133,
